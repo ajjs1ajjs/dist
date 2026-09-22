@@ -130,7 +130,7 @@ else
         rm -f "$TMP_BIN" "$TMP_SUM"
         exit 1
     fi
-    EXPECTED="$(grep "${BINARY_NAME}$" "$TMP_SUM" | awk '{print $1}')"
+    EXPECTED="$(tr -d '\r' < "$TMP_SUM" | grep "${BINARY_NAME}$" | awk '{print $1}')"
     if [ -z "$EXPECTED" ]; then
         echo "ERROR: checksums.txt has no entry for ${BINARY_NAME}; refusing to install an unverified binary."
         rm -f "$TMP_BIN" "$TMP_SUM"
