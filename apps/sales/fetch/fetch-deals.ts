@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pino from 'pino';
 import { RateLimiter } from './rate-limiter';
-import type { EpicGame, SteamGame, XboxGame, DealsData, NotifiedItem } from './types';
+import type { EpicGame, SteamGame, DealsData, NotifiedItem } from './types';
 import { formatPrice, formatDate, escapeHtml, escapeAttr } from './format';
 
 const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
@@ -21,7 +21,6 @@ const CONFIG = {
   fetchTimeoutMs: 30000,
   fetchRetries: 3,
   fetchRetryDelayMs: 2000,
-  xboxBatchSize: 20,
 } as const;
 
 const DEALS_DIR = CONFIG.dealsDir;
@@ -45,38 +44,11 @@ const finiteOr = (v: number, dflt: number): number =>
 const RATE_LIMITS = {
   epic: { requestsPerMinute: 30 },
   steam: { requestsPerMinute: 60 },
-  xbox: { requestsPerMinute: 100 },
 } as const;
 
 const rateLimiters = {
   epic: new RateLimiter(RATE_LIMITS.epic.requestsPerMinute),
   steam: new RateLimiter(RATE_LIMITS.steam.requestsPerMinute),
-  xbox: new RateLimiter(RATE_LIMITS.xbox.requestsPerMinute),
-};
-
-// Public Xbox catalog IDs — safe as in-source defaults (not secrets).
-// Env vars allow override; a warning is logged when falling back.
-const XBOX_SGL_DEFAULTS = {
-  all: '609d944c-d395-4c0a-9ea4-e9f39b52c1ad',
-  new: '3fdd7f57-7092-4b65-bd40-5a9dac1b2b84',
-  coming: '4165f752-d702-49c8-886b-fb57936f6bae',
-  eaPlay: '1d33fbb9-b895-4732-a8ca-a55c8b99fa2c',
-} as const;
-
-const XBOX_SGL_ALL_PC = process.env.XBOX_SGL_ALL_PC ?? XBOX_SGL_DEFAULTS.all;
-const XBOX_SGL_NEW_PC = process.env.XBOX_SGL_NEW_PC ?? XBOX_SGL_DEFAULTS.new;
-const XBOX_SGL_COMING_PC = process.env.XBOX_SGL_COMING_PC ?? XBOX_SGL_DEFAULTS.coming;
-const XBOX_SGL_EA_PLAY_PC = process.env.XBOX_SGL_EA_PLAY_PC ?? XBOX_SGL_DEFAULTS.eaPlay;
-
-if (!process.env.XBOX_SGL_ALL_PC || !process.env.XBOX_SGL_NEW_PC || !process.env.XBOX_SGL_COMING_PC || !process.env.XBOX_SGL_EA_PLAY_PC) {
-  logger.warn('XBOX_SGL_* env vars not set, using built-in catalog defaults');
-}
-
-const XBOX_IDS = {
-  all: XBOX_SGL_ALL_PC as string,
-  new: XBOX_SGL_NEW_PC as string,
-  coming: XBOX_SGL_COMING_PC as string,
-  eaPlay: XBOX_SGL_EA_PLAY_PC as string,
 };
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000, timeoutMs = 30000): Promise<Response> {
@@ -327,170 +299,6 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
   }
 }
 
-interface XboxProductResponse { Products?: XboxProduct[] }
-interface XboxProduct {
-  ProductId: string;
-  LocalizedProperties?: { ProductTitle?: string; ProductDescription?: string; Images?: XboxImage[] }[];
-  DisplaySkuAvailabilities?: XboxSkuAvailability[];
-  MarketProperties?: { OriginalReleaseDate?: string }[];
-}
-interface XboxImage { ImagePurpose?: string; Uri?: string }
-interface XboxSkuAvailability {
-  Sku?: { SkuId?: string };
-  Availabilities?: XboxAvailability[];
-}
-interface XboxAvailability {
-  OrderManagementData?: { Price?: { CurrencyCode?: string; ListPrice?: number; MSRP?: number } };
-}
-
-async function fetchXboxGameIds(sglId: string): Promise<string[]> {
-  await rateLimiters.xbox.take();
-  // sglId comes from env (owner-controlled) — encode so a stray & or space
-  // can never rewrite the query string.
-  const url = `https://catalog.gamepass.com/sigls/v2?id=${encodeURIComponent(sglId)}&market=UA&language=uk-UA`;
-  const res = await fetchWithRetry(url);
-  const data = (await res.json()) as { id?: string }[];
-  return data
-    .filter((item): item is { id: string } => typeof item.id === 'string' && !!item.id)
-    .map((item) => item.id);
-}
-
-async function fetchXboxDetails(ids: string[]): Promise<XboxProduct[]> {
-  if (ids.length === 0) return [];
-  const batchSize = CONFIG.xboxBatchSize;
-  const allDetails: XboxProduct[] = [];
-  for (let i = 0; i < ids.length; i += batchSize) {
-    const batch = ids.slice(i, i + batchSize);
-    await rateLimiters.xbox.take();
-    // Product IDs come from the upstream catalog response — encode each so a
-    // hostile ID cannot break out of the bigIds parameter.
-    const url = `https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=${batch.map(encodeURIComponent).join(',')}&market=UA&languages=uk-UA`;
-    const res = await fetchWithRetry(url);
-    const data = (await res.json()) as XboxProductResponse;
-    if (data.Products) {
-      allDetails.push(...data.Products);
-    }
-  }
-  return allDetails;
-}
-
-function extractXboxPrice(product: XboxProduct): { originalPrice: number; discountPrice: number; discountPercent: number; currency: string } {
-  const defaultPrice = { originalPrice: 0, discountPrice: 0, discountPercent: 0, currency: 'UAH' };
-  try {
-    const avail = product.DisplaySkuAvailabilities?.[0];
-    if (!avail?.Availabilities?.length) return defaultPrice;
-    const priceData = avail.Availabilities[0].OrderManagementData?.Price;
-    if (!priceData) return defaultPrice;
-    const listPrice = priceData.ListPrice || 0;
-    const msrp = priceData.MSRP || listPrice;
-    const currency = priceData.CurrencyCode || 'UAH';
-    return {
-      originalPrice: msrp,
-      discountPrice: listPrice,
-      discountPercent: msrp > 0 ? Math.round((1 - listPrice / msrp) * 100) : 0,
-      currency,
-    };
-  } catch {
-    return defaultPrice;
-  }
-}
-
-function extractXboxImage(product: XboxProduct): string {
-  try {
-    const images = product.LocalizedProperties?.[0]?.Images || [];
-    const preferredTypes = ['SuperHeroArt', 'BoxArt', 'Poster'];
-    const pick = (img: XboxImage | undefined): string => {
-      if (!img?.Uri) return '';
-      // Xbox API returns protocol-relative URIs ("//cdn..."). Normalize to
-      // https and refuse anything that is not an http(s) URL so a tampered
-      // product record cannot inject javascript:/data: into the app.
-      const uri = img.Uri.startsWith('//') ? `https:${img.Uri}` : img.Uri;
-      return /^https?:\/\//i.test(uri) ? uri : '';
-    };
-    for (const type of preferredTypes) {
-      const url = pick(images.find((i) => i.ImagePurpose === type));
-      if (url) return url;
-    }
-    if (images.length > 0) return pick(images[0]);
-  } catch { /* ignore */ }
-  return '';
-}
-
-async function fetchXboxGames(): Promise<{ games: XboxGame[]; allIds: string[]; newIds: Set<string>; comingIds: Set<string> }> {
-  try {
-    logger.info("Fetching Xbox Game Pass games...");
-    const [newIds, comingIds, allIds, eaIds] = await Promise.all([
-      fetchXboxGameIds(XBOX_IDS.new),
-      fetchXboxGameIds(XBOX_IDS.coming),
-      fetchXboxGameIds(XBOX_IDS.all),
-      fetchXboxGameIds(XBOX_IDS.eaPlay),
-    ]);
-    const newSet = new Set(newIds);
-    const comingSet = new Set(comingIds);
-    const allSet = new Set(allIds);
-    const eaSet = new Set(eaIds);
-    // Беремо всі унікальні ID з усіх SGL-списків (включно з EA Play),
-    // щоб жодна гра, зокрема від Ubisoft/EA, не залишилась без деталей.
-    const allUniqueIds = [...new Set([...newIds, ...comingIds, ...allIds, ...eaIds])];
-    const details = await fetchXboxDetails(allUniqueIds);
-    const detailMap = new Map<string, XboxProduct>();
-    for (const d of details) {
-      detailMap.set(d.ProductId, d);
-    }
-    const games: XboxGame[] = [];
-    const visitedIds = new Set<string>();
-    // Спочатку додаємо ігри з головного каталогу (allSet)
-    for (const id of allSet) {
-      const product = detailMap.get(id);
-      const title = product?.LocalizedProperties?.[0]?.ProductTitle;
-      if (!title) continue;
-      const priceInfo = product ? extractXboxPrice(product) : { originalPrice: 0, discountPrice: 0, discountPercent: 0, currency: 'UAH' };
-      games.push({
-        id,
-        title,
-        description: product?.LocalizedProperties?.[0]?.ProductDescription || '',
-        imageUrl: product ? extractXboxImage(product) : '',
-        originalPrice: priceInfo.originalPrice,
-        discountPrice: priceInfo.discountPrice,
-        discountPercent: priceInfo.discountPercent,
-        currency: priceInfo.currency,
-        url: `https://www.xbox.com/uk-ua/games/store/-/${encodeURIComponent(id)}`,
-        isGamePass: true,
-        isNewToGamePass: newSet.has(id),
-        isComingSoon: comingSet.has(id),
-        isDiscounted: priceInfo.discountPercent > 0,
-      });
-      visitedIds.add(id);
-    }
-    // Додаємо ігри з EA Play, яких ще немає в головному каталозі
-    for (const id of eaSet) {
-      if (visitedIds.has(id)) continue;
-      const product = detailMap.get(id);
-      const title = product?.LocalizedProperties?.[0]?.ProductTitle;
-      if (!title) continue;
-      const priceInfo = product ? extractXboxPrice(product) : { originalPrice: 0, discountPrice: 0, discountPercent: 0, currency: 'UAH' };
-      games.push({
-        id,
-        title,
-        description: product?.LocalizedProperties?.[0]?.ProductDescription || '',
-        imageUrl: product ? extractXboxImage(product) : '',
-        originalPrice: priceInfo.originalPrice,
-        discountPrice: priceInfo.discountPrice,
-        discountPercent: priceInfo.discountPercent,
-        currency: priceInfo.currency,
-        url: `https://www.xbox.com/uk-ua/games/store/-/${encodeURIComponent(id)}`,
-        isGamePass: true,
-        isNewToGamePass: newSet.has(id),
-        isComingSoon: comingSet.has(id),
-        isDiscounted: priceInfo.discountPercent > 0,
-      });
-    }
-    return { games, allIds, newIds: newSet, comingIds: comingSet };
-  } catch (err) {
-    throw new Error(`Error fetching Xbox games: ${err instanceof Error ? err.message : String(err)}`, { cause: err });
-  }
-}
-
 async function sendTelegramMessage(text: string) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
@@ -550,12 +358,11 @@ async function run() {
       lastUpdated: typeof p.lastUpdated === 'string' ? p.lastUpdated : '',
       epic: Array.isArray(p.epic) ? (p.epic as DealsData['epic']) : [],
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
-      xbox: Array.isArray(p.xbox) ? (p.xbox as DealsData['xbox']) : [],
       notifiedHistory: {},
     };
   };
 
-  let oldData: DealsData = { lastUpdated: "", epic: [], steam: [], xbox: [], notifiedHistory: {} };
+  let oldData: DealsData = { lastUpdated: "", epic: [], steam: [], notifiedHistory: {} };
   if (fs.existsSync(DEALS_PATH)) {
     try {
       oldData = coerceOldData(JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')));
@@ -630,12 +437,9 @@ async function run() {
   // Fetch fresh data
   let epicFetchSuccess = false;
   let steamFetchSuccess = false;
-  let xboxFetchSuccess = false;
   
   const freshEpic = await fetchEpicGames().then(r => { epicFetchSuccess = true; return r; }).catch(() => []);
   const freshSteam = await fetchSteamGames().then(r => { steamFetchSuccess = true; return r; }).catch(() => []);
-  const freshXboxData = await fetchXboxGames().then(r => { xboxFetchSuccess = true; return r; }).catch(() => ({ games: [], allIds: [], newIds: new Set(), comingIds: new Set() }));
-  const freshXbox = freshXboxData.games;
   
   // Guard against API/scraping failure:
   // If fetch failed (not just empty) but we had games previously, abort to prevent data deletion.
@@ -645,10 +449,6 @@ async function run() {
   if (!steamFetchSuccess && oldData.steam.length > 0) {
     throw new Error('Steam games fetch failed, but previous data was not empty. Aborting to prevent data deletion.');
   }
-  if (!xboxFetchSuccess && oldData.xbox.length > 0) {
-    throw new Error('Xbox games fetch failed, but previous data was not empty. Aborting to prevent data deletion.');
-  }
-  
   // If fetch succeeded but returned empty, log warning but continue (could be legitimate no deals)
   if (epicFetchSuccess && freshEpic.length === 0 && oldData.epic.length > 0) {
     logger.warn('⚠️ Epic Games fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
@@ -656,16 +456,11 @@ async function run() {
   if (steamFetchSuccess && freshSteam.length === 0 && oldData.steam.length > 0) {
     logger.warn('⚠️ Steam fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
   }
-  if (xboxFetchSuccess && freshXbox.length === 0 && oldData.xbox.length > 0) {
-    logger.warn('⚠️ Xbox fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
-  }
-  
   // Detect changes
   const newFreeGames: EpicGame[] = [];
   const newEpicDiscounts: EpicGame[] = [];
   const newSteamFreeGames: SteamGame[] = [];
   const newSteamDeals: SteamGame[] = [];
-  const newXboxAdditions: XboxGame[] = [];
   
   // Epic: Find currently free games and discounts that were not notified
   for (const game of freshEpic) {
@@ -746,35 +541,7 @@ async function run() {
     
   }
   
-  // Xbox: Find new Game Pass additions
-  // Використовуємо ID попереднього запуску для виявлення нових ігор,
-  // які могли не потрапити до списку "Нещодавно додані" (наприклад, Ubisoft).
-  const oldXboxIds = new Set(oldData.xbox.map(g => g.id));
-
-  for (const game of freshXbox) {
-    // Вважаємо гру "новою", якщо:
-    // 1. Вона позначена як isNewToGamePass (список "Нещодавно додані"), АБО
-    // 2. Її ID немає в попередніх даних (нова в каталозі)
-    const isNewToCatalog = !oldXboxIds.has(game.id);
-    if (game.isNewToGamePass || isNewToCatalog) {
-      const historyKey = `xbox_new_${game.id}`;
-      const historyEntry = notifiedHistory[historyKey];
-      let shouldNotify = false;
-      if (!historyEntry) {
-        shouldNotify = true;
-      } else {
-        const lastNotified = new Date(historyEntry.timestamp).getTime();
-        if (now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS) {
-          shouldNotify = true;
-        }
-      }
-      if (shouldNotify) {
-        newXboxAdditions.push(game);
-      }
-    }
-  }
-
-  logger.info(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam, ${newXboxAdditions.length} new Xbox Game Pass.`);
+  logger.info(`Detected: ${newFreeGames.length} free Epic, ${newEpicDiscounts.length} discounted Epic, ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam.`);
 
   function markNotified(key: string, entry: NotifiedItem) {
     notifiedHistory[key] = entry;
@@ -878,40 +645,11 @@ async function run() {
     );
   }
   
-  if (newXboxAdditions.length > 0) {
-    await sendBatched(
-      `🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n`,
-      newXboxAdditions,
-      `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
-      (game) => {
-        let text = `🎮 ${gameTitle(game.title)}\n`;
-        const desc = game.description?.trim();
-        if (desc) {
-          text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
-        }
-        if (game.originalPrice > 0) {
-          text += `💰 Ціна в магазині: <b>${formatPrice(game.originalPrice, game.currency)}</b>\n`;
-        }
-        if (game.isComingSoon) {
-          text += `📅 Скоро в Game Pass\n`;
-        } else {
-          text += `✅ Доступно в PC Game Pass\n`;
-        }
-        text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
-        return text;
-      },
-      (i) => markNotified(`xbox_new_${newXboxAdditions[i].id}`, {
-        title: newXboxAdditions[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'xbox_new'
-      }),
-    );
-  }
-  
   // Save updated data
   const newData: DealsData = {
     lastUpdated: new Date().toISOString(),
     epic: freshEpic,
     steam: freshSteam,
-    xbox: freshXbox,
     notifiedHistory: {}
   };
   
