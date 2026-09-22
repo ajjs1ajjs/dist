@@ -249,6 +249,27 @@ for i in $(seq 1 15); do
     else echo -n "."; sleep 1; fi
 done
 
+# Optional: install a local Linux CI runner alongside the server.
+# MYGIT_INSTALL_RUNNER=1 (optional MYGIT_RUNNER_CPUS / MYGIT_RUNNER_MEMORY / MYGIT_RUNNER_COUNT).
+if [ "${MYGIT_INSTALL_RUNNER:-0}" = "1" ]; then
+    echo ""
+    echo "[i] Installing a local CI runner..."
+    R_CPUS="${MYGIT_RUNNER_CPUS:-0}"
+    R_MEM="${MYGIT_RUNNER_MEMORY:-0}"
+    R_COUNT="${MYGIT_RUNNER_COUNT:-1}"
+    TOKEN="$(MYGIT_DB_PATH="$DATA_DIR/mygit.db" "$INSTALL_DIR/mygit" add-runner \
+        --name "local-$(hostname)" --os linux \
+        --cpus "$R_CPUS" --memory "$R_MEM" --replicas "$R_COUNT" 2>/dev/null | tail -n1)"
+    if [ -n "$TOKEN" ]; then
+        curl -sSL "http://localhost:$PORT/install-runner.sh" | \
+            bash -s -- --url "http://localhost:$PORT" --token "$TOKEN" \
+                --cpus "$R_CPUS" --memory "$R_MEM" --count "$R_COUNT" \
+            || echo "  [warn] runner install failed; add it later from the web UI (Admin -> Runners)."
+    else
+        echo "  [warn] could not create a runner token; add a runner from the web UI (Admin -> Runners)."
+    fi
+fi
+
 echo "[4/4] Done."
 echo ""
 if [ "$IS_UPDATE" = "1" ]; then
