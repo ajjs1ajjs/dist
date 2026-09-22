@@ -16,6 +16,7 @@
 ![MyGit · Ubuntu](https://img.shields.io/badge/MyGit-Ubuntu-181717?style=for-the-badge&logo=git&logoColor=white)
 ![RDM Manager · Windows](https://img.shields.io/badge/RDM_Manager-Windows-26A69A?style=for-the-badge&logo=tauri&logoColor=white)
 ![Game Sales · Web](https://img.shields.io/badge/Game_Sales-PWA-c084fc?style=for-the-badge&logo=steam&logoColor=white)
+![Uptime Monitor · Ubuntu](https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14b8a6?style=for-the-badge&logo=linux&logoColor=white)
 
 **[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
@@ -37,7 +38,8 @@
 | 📡 **PyMon NOC** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Моніторинг інфраструктури та NOC-дашборд |
 | 🐙 **MyGit** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Self-hosted Git-платформа (GitLab/Gitea-альтернатива) |
 | 🔌 **RDM Manager** | Windows 10 / 11 · x64 | Менеджер віддалених підключень (SSH/RDP) для SRE/DevOps |
-| 🎮 **Game Sales** | Web · PWA (GitHub Pages) | Радар знижок і безкоштовних ігор (Steam / Epic / Xbox) |
+| 🎮 **Game Sales** | Web · PWA (GitHub Pages) | Радар знижок і безкоштовних ігор (Steam / Epic) |
+| ⏱️ **Uptime Monitor** | Ubuntu / Debian 24 / 25 / 26 · amd64/arm64 | Моніторинг доступності та SSL, сповіщення, SLA-звіти |
 
 ---
 
@@ -154,7 +156,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 
 ### 🎮 Game Sales
 
-Персональний радар знижок і безкоштовних ігор — Steam, Epic Games Store, Xbox Game Pass (PC).
+Персональний радар знижок і безкоштовних ігор — Steam та Epic Games Store.
 Оновлюється автоматично кілька разів на добу.
 
 <a href="https://ajjs1ajjs.github.io/dist/sales/">
@@ -166,6 +168,21 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 - Telegram-канал: [@salesgamesua](https://t.me/salesgamesua).
 
 [📖 Деталі](apps/sales/README.md)
+
+### ⏱️ Uptime Monitor
+
+Моніторинг доступності сайтів, сервісів і SSL-сертифікатів — одна команда встановлює
+**і оновлює** (Ubuntu/Debian 24/25/26).
+
+```bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash
+```
+
+- Ставить systemd-сервіс; конфіг, БД, користувачі та пароль зберігаються при оновленні.
+- Перевіряє SHA-256 бінарника (`checksums.txt`) перед встановленням.
+- Невдалий старт не рапортується як успіх — бінарник відкочується.
+
+[📜 Скрипт встановлення](apps/uptime-monitor/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/uptime-monitor/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Uptime Monitor](https://github.com/ajjs1ajjs/dist/releases?q=uptime)
 
 ---
 
@@ -198,6 +215,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 | PyMon NOC | `monitoring-v<версія>` | `monitoring-v3.3.0` |
 | MyGit | `mygit-v<версія>` | `mygit-v3.7.0` |
 | RDM Manager | `rdm-v<версія>` | `rdm-v2.1.5` |
+| Uptime Monitor | `uptime-v<версія>` | `uptime-v3.7.2` |
 
 ---
 
