@@ -81,9 +81,10 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 ## ✅ Підпис і цілісність
 
 - Кожен реліз містить `SHA256SUMS.txt` — звіряйте хеш перед запуском.
-- `ITE.ResourceCalculator.exe` підписаний **Authenticode** (самопідписаний сертифікат
-  IT-Enterprise). Застосунок приймає оновлення лише з підписом, що збігається з піном
-  відбитка сертифіката в його коді, — підмінити файл не вийде.
+- `ITE.ResourceCalculator.exe` і `DiskCleaner.exe` підписані **Authenticode**
+  (самопідписаний сертифікат IT-Enterprise). Застосунки приймають оновлення лише з
+  підписом, що збігається з піном відбитка сертифіката в їхньому коді, — підмінити
+  файл не вийде.
 
 ---
 
@@ -98,7 +99,7 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 |---|---|---|
 | BCK | `bck-v<версія>` | `bck-v0.10.0` |
 | Resource Calculator | `calculator-v<версія>` | `calculator-v2.5.0` |
-| DiskCleaner | `diskcleaner-v<версія>` | `diskcleaner-v1.3.0` |
+| DiskCleaner | `diskcleaner-v<версія>` | `diskcleaner-v1.4.0` |
 
 ---
 
