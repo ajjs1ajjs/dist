@@ -1,0 +1,10 @@
+{
+  "version": "0.3.29",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcEkxTjZJY2cwMjZldnZtNUlGY1kwSEVMRGZYem1qYzNzUk5LeXl2ZFJrWjlRQnVvRDRFa0ZySGxVY2k2bjZyZkEwTjJ0YlpQSnpZS2FZQWFjTDFaQnFrNC92MVlrdGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDkwNDc0CWZpbGU6S3ViZUxlbnNfMC4zLjI5X3g2NC1zZXR1cC5leGUKYk8vRlA2c2RlV2ozOEtESWhML2dDazBzMjVFaVhvMzhSRndQVlJ3K2xyd2twOWE1c1RUQWxlb3lFNmJWaGNTdkQ1cWJMdkd1ZFRjUHZaUkpTZGNkQXc9PQo=",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.29/KubeLens_0.3.29_x64-setup.exe"
+    }
+  }
+}
+
