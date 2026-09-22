@@ -29,18 +29,128 @@
 
 ## 📦 Продукти
 
-| | Продукт | Платформа | Призначення |
-|---|---|---|---|
-| 🗄️ | **BCK** | Ubuntu 24 / 25 / 26 · x86_64 | Enterprise backup & disaster recovery (Veeam-альтернатива) |
-| 🧮 | **Resource Calculator** | Windows 10 / 11 · x64 | Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу |
-| 🧹 | **DiskCleaner** | Windows 10 / 11 · x64 | Чистка диска `C:` — тимчасові файли, кеші, логи, залишки білдів |
-| 🏋️ | **Gym Tracker** | Web · PWA | Офлайн-трекер тренувань і прогресу тіла |
-| 🔭 | **KubeLens** | Windows 10 / 11 · x64 | Kubernetes desktop IDE — workloads, логи, Helm, топологія |
-| 📡 | **PyMon NOC** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Моніторинг інфраструктури та NOC-дашборд |
-| 🐙 | **MyGit** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Self-hosted Git-платформа (GitLab/Gitea-альтернатива) |
-| 🔌 | **RDM Manager** | Windows 10 / 11 · x64 | Менеджер віддалених підключень (SSH/RDP) для SRE/DevOps |
-| 🎮 | **Game Sales** | Web · PWA | Радар знижок і безкоштовних ігор (Steam / Epic) |
-| ⏱️ | **Uptime Monitor** | Ubuntu / Debian 24 / 25 / 26 · amd64/arm64 | Моніторинг доступності та SSL, сповіщення, SLA-звіти |
+<table>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="#bck"><img src="https://img.shields.io/badge/BCK--2EA44F?style=for-the-badge&logo=linux&logoColor=white" alt="BCK"></a>
+<br>
+<sub>Ubuntu 24 / 25 / 26 · x86_64</sub>
+<br><br>
+Enterprise backup &amp; disaster recovery — Veeam-альтернатива
+<br><br>
+<a href="#bck">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="#calculator"><img src="https://img.shields.io/badge/Resource_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Resource Calculator"></a>
+<br>
+<sub>Windows 10 / 11 · x64</sub>
+<br><br>
+Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу
+<br><br>
+<a href="#calculator">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="#diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner--0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
+<br>
+<sub>Windows 10 / 11 · x64</sub>
+<br><br>
+Чистка диска <code>C:</code> — тимчасові файли, кеші, логи, залишки білдів
+<br><br>
+<a href="#diskcleaner">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="#gym"><img src="https://img.shields.io/badge/Gym_Tracker--FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="Gym Tracker"></a>
+<br>
+<sub>Web · PWA</sub>
+<br><br>
+Офлайн-трекер тренувань і прогресу тіла
+<br><br>
+<a href="#gym">▶️ <b>Відкрити</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="#kubelens"><img src="https://img.shields.io/badge/KubeLens--24C8DB?style=for-the-badge&logo=kubernetes&logoColor=white" alt="KubeLens"></a>
+<br>
+<sub>Windows 10 / 11 · x64</sub>
+<br><br>
+Kubernetes desktop IDE — workloads, логи, Helm, топологія
+<br><br>
+<a href="#kubelens">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="#monitoring"><img src="https://img.shields.io/badge/PyMon_NOC--E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="PyMon NOC"></a>
+<br>
+<sub>Ubuntu 24 / 25 / 26 · amd64/arm64</sub>
+<br><br>
+Моніторинг інфраструктури та NOC-дашборд
+<br><br>
+<a href="#monitoring">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="#mygit"><img src="https://img.shields.io/badge/MyGit--181717?style=for-the-badge&logo=git&logoColor=white" alt="MyGit"></a>
+<br>
+<sub>Ubuntu 24 / 25 / 26 · amd64/arm64</sub>
+<br><br>
+Self-hosted Git-платформа — GitLab/Gitea-альтернатива
+<br><br>
+<a href="#mygit">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="#rdm"><img src="https://img.shields.io/badge/RDM_Manager--6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="RDM Manager"></a>
+<br>
+<sub>Windows 10 / 11 · x64</sub>
+<br><br>
+Менеджер віддалених підключень (SSH/RDP) для SRE/DevOps
+<br><br>
+<a href="#rdm">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="#sales"><img src="https://img.shields.io/badge/Game_Sales--C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
+<br>
+<sub>Web · PWA</sub>
+<br><br>
+Радар знижок і безкоштовних ігор (Steam / Epic)
+<br><br>
+<a href="#sales">▶️ <b>Відкрити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor--14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
+<br>
+<sub>Ubuntu / Debian 24 / 25 / 26 · amd64/arm64</sub>
+<br><br>
+Моніторинг доступності та SSL, сповіщення, SLA-звіти
+<br><br>
+<a href="#uptime-monitor">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -66,9 +176,9 @@
 
 ### 🗄️ BCK
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=bck"><img src="https://img.shields.io/badge/BCK-Ubuntu_24%2F25%2F26-2EA44F?style=flat-square&logo=linux&logoColor=white" alt="BCK · Ubuntu"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=bck"><img src="https://img.shields.io/badge/BCK--2EA44F?style=for-the-badge&logo=linux&logoColor=white" alt="BCK"></a>
 
-Enterprise backup & disaster recovery (Veeam-альтернатива).
+**Ubuntu 24 / 25 / 26 · x86_64** — Enterprise backup & disaster recovery (Veeam-альтернатива).
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash
@@ -86,9 +196,9 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 ### 🧮 Resource Calculator
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator"><img src="https://img.shields.io/badge/Resource_Calculator-Windows_10%2F11-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Resource Calculator · Windows"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator"><img src="https://img.shields.io/badge/Resource_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Resource Calculator"></a>
 
-Портативний застосунок для Windows — **один `.exe`**, встановлення не потрібне.
+**Windows 10 / 11 · x64** — портативний застосунок, **один `.exe`**, встановлення не потрібне.
 
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator">
   <img src="https://img.shields.io/badge/Download-latest-512BD4?style=for-the-badge" alt="Завантажити останню версію">
@@ -105,9 +215,9 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 ### 🧹 DiskCleaner
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner-Windows_10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white" alt="DiskCleaner · Windows"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner--0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
 
-Портативний очищувач диска `C:` — **один `.exe`**, встановлення не потрібне.
+**Windows 10 / 11 · x64** — портативний очищувач диска, **один `.exe`**, встановлення не потрібне.
 
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner">
   <img src="https://img.shields.io/badge/Download-latest-0078D4?style=for-the-badge" alt="Завантажити останню версію">
@@ -124,9 +234,9 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 ### 🏋️ Gym Tracker
 
-<a href="https://ajjs1ajjs.github.io/dist/gym/"><img src="https://img.shields.io/badge/Gym_Tracker-Web_%2F_PWA-FF6B6B?style=flat-square&logo=pwa&logoColor=white" alt="Gym Tracker · PWA"></a>
+<a href="https://ajjs1ajjs.github.io/dist/gym/"><img src="https://img.shields.io/badge/Gym_Tracker--FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="Gym Tracker"></a>
 
-Офлайн-first PWA — працює у браузері, встановлюється на телефон, дані зберігаються локально.
+**Web · PWA** — офлайн-first, працює у браузері, встановлюється на телефон, дані зберігаються локально.
 
 <a href="https://ajjs1ajjs.github.io/dist/gym/">
   <img src="https://img.shields.io/badge/Open-live_app-FF6B6B?style=for-the-badge" alt="Відкрити застосунок">
@@ -143,9 +253,9 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 ### 🔭 KubeLens
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens"><img src="https://img.shields.io/badge/KubeLens-Windows_10%2F11-24C8DB?style=flat-square&logo=kubernetes&logoColor=white" alt="KubeLens · Windows"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens"><img src="https://img.shields.io/badge/KubeLens--24C8DB?style=for-the-badge&logo=kubernetes&logoColor=white" alt="KubeLens"></a>
 
-Kubernetes desktop IDE для Windows — **один інсталятор NSIS**, оновлюється всередині застосунку.
+**Windows 10 / 11 · x64** — Kubernetes desktop IDE, **один інсталятор NSIS**, оновлюється всередині.
 
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens">
   <img src="https://img.shields.io/badge/Download-latest-24C8DB?style=for-the-badge" alt="Завантажити останню версію">
@@ -162,9 +272,9 @@ Kubernetes desktop IDE для Windows — **один інсталятор NSIS**
 
 ### 📡 PyMon NOC
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=monitoring"><img src="https://img.shields.io/badge/PyMon_NOC-Ubuntu_24%2F25%2F26-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="PyMon NOC · Ubuntu"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=monitoring"><img src="https://img.shields.io/badge/PyMon_NOC--E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="PyMon NOC"></a>
 
-Сервер моніторингу інфраструктури — одна команда встановлює **і оновлює** (Ubuntu 24/25/26).
+**Ubuntu 24 / 25 / 26 · amd64/arm64** — сервер моніторингу інфраструктури.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash
@@ -181,9 +291,9 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/
 
 ### 🐙 MyGit
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=mygit"><img src="https://img.shields.io/badge/MyGit-Ubuntu_24%2F25%2F26-181717?style=flat-square&logo=git&logoColor=white" alt="MyGit · Ubuntu"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=mygit"><img src="https://img.shields.io/badge/MyGit--181717?style=for-the-badge&logo=git&logoColor=white" alt="MyGit"></a>
 
-Self-hosted Git-платформа — одна команда встановлює **і оновлює** (Ubuntu 24/25/26).
+**Ubuntu 24 / 25 / 26 · amd64/arm64** — self-hosted Git-платформа.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash
@@ -200,10 +310,9 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 
 ### 🔌 RDM Manager
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm"><img src="https://img.shields.io/badge/RDM_Manager-Windows_10%2F11-6366F1?style=flat-square&logo=windows&logoColor=white" alt="RDM Manager · Windows"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm"><img src="https://img.shields.io/badge/RDM_Manager--6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="RDM Manager"></a>
 
-Менеджер віддалених підключень для Windows — **NSIS-інсталятор** або portable ZIP,
-оновлюється всередині застосунку.
+**Windows 10 / 11 · x64** — **NSIS-інсталятор** або portable ZIP, оновлюється всередині.
 
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm">
   <img src="https://img.shields.io/badge/Download-latest-6366F1?style=for-the-badge" alt="Завантажити останню версію">
@@ -220,10 +329,9 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 
 ### 🎮 Game Sales
 
-<a href="https://ajjs1ajjs.github.io/dist/sales/"><img src="https://img.shields.io/badge/Game_Sales-Web_%2F_PWA-C084FC?style=flat-square&logo=steam&logoColor=white" alt="Game Sales · PWA"></a>
+<a href="https://ajjs1ajjs.github.io/dist/sales/"><img src="https://img.shields.io/badge/Game_Sales--C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 
-Персональний радар знижок і безкоштовних ігор — Steam та Epic Games Store.
-Оновлюється автоматично кілька разів на добу.
+**Web · PWA** — радар знижок і безкоштовних ігор (Steam / Epic), оновлюється автоматично.
 
 <a href="https://ajjs1ajjs.github.io/dist/sales/">
   <img src="https://img.shields.io/badge/Open-live_site-C084FC?style=for-the-badge" alt="Відкрити сайт">
@@ -241,10 +349,9 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 
 ### ⏱️ Uptime Monitor
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu_%2F_Debian-14B8A6?style=flat-square&logo=linux&logoColor=white" alt="Uptime Monitor · Ubuntu"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime"><img src="https://img.shields.io/badge/Uptime_Monitor--14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 
-Моніторинг доступності сайтів, сервісів і SSL-сертифікатів — одна команда встановлює
-**і оновлює** (Ubuntu/Debian 24/25/26).
+**Ubuntu / Debian 24 / 25 / 26 · amd64/arm64** — моніторинг доступності сайтів, сервісів і SSL.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash
