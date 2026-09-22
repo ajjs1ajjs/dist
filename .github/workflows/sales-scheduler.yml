@@ -21,6 +21,11 @@ concurrency:
 
 jobs:
   fetch:
+    # Secrets are used ONLY for trusted events. This repo has no push/PR
+    # triggers, and workflow_dispatch requires write access — so untrusted
+    # (fork) PRs can never reach the Telegram token. The guard is defensive:
+    # it keeps that property even if a trigger is added later.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
