@@ -163,7 +163,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 | Gym Tracker | `gym-v<версія>` | `gym-v3.5.0` |
 | KubeLens | `kubelens-v<версія>` | `kubelens-v0.3.29` |
 | PyMon NOC | `monitoring-v<версія>` | `monitoring-v3.3.0` |
-| MyGit | `mygit-v<версія>` | `mygit-v3.6.0` |
+| MyGit | `mygit-v<версія>` | `mygit-v3.6.1` |
 
 ---
 

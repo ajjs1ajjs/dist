@@ -17,7 +17,7 @@ DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="mygit-v"
 # Port to bind. If it is already taken, the script picks the next free port
 # automatically (you can pin one with MYGIT_PORT).
-PORT="${MYGIT_PORT:-8060}"
+PORT="${MYGIT_PORT:-9555}"
 
 # Find the first free TCP port starting from $1 (up to +30). Uses ss (iproute2);
 # falls back to the requested port if ss is unavailable.
