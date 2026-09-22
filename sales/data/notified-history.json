@@ -824,5 +824,19 @@
     "percent": 80,
     "timestamp": "2026-09-22T19:36:24.705Z",
     "type": "discount"
+  },
+  "steam_discount_2552430": {
+    "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+    "price": 419,
+    "percent": 70,
+    "timestamp": "2026-09-22T23:23:36.178Z",
+    "type": "discount"
+  },
+  "steam_discount_1374860": {
+    "title": "Nocturne",
+    "price": 387,
+    "percent": 10,
+    "timestamp": "2026-09-22T23:23:36.178Z",
+    "type": "discount"
   }
 }
