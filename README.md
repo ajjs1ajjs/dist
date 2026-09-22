@@ -1,49 +1,104 @@
-# dist — public distribution channel
+<div align="center">
 
-Source repositories are private. This repository is the **only public surface**:
-it carries the one-line installers and the prebuilt release artifacts.
+<img src="docs/banner.svg" width="100%" alt="IT-Enterprise Distribution">
 
-Nothing here is source code — only install scripts and build output that
-end users are meant to download anyway.
+### Публічний канал розповсюдження
 
-## Layout
+Тут **немає вихідного коду** — лише інсталятори та готові збірки, призначені для
+завантаження користувачам. Код продуктів лежить у приватних репозиторіях.
 
-```
-apps/<app>/install.sh     canonical installer, served over raw.githubusercontent.com
-apps/<app>/README.md      download / upgrade notes for apps without an installer
-releases (tags)           <app>-v<version>  e.g. bck-v0.10.0, calculator-v2.5.0
-```
+![BCK · Ubuntu](https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white)
+![Resource Calculator · Windows](https://img.shields.io/badge/Resource_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-## Release tags
+</div>
 
-Every app publishes under its own tag prefix, because `/releases/latest` is
-global to a repository and would collide across apps:
+---
 
-| App | Tag pattern | Example |
-|---|---|---|
-| BCK | `bck-v<semver>` | `bck-v0.10.0` |
-| Resource Calculator | `calculator-v<semver>` | `calculator-v2.5.0` |
+## 📦 Що тут є
 
-Installers resolve the newest release themselves by filtering the release
-list for their own prefix and sorting by semver — never via `/releases/latest`.
+| Продукт | Платформа | Призначення | Код (приватний) |
+|---|---|---|---|
+| 🗄️ **[BCK](#-bck--резервне-копіювання)** | Ubuntu 24 / 25 / 26 · x86_64 | Enterprise backup & disaster recovery (Veeam-альтернатива) | [ajjs1ajjs/BCK](https://github.com/ajjs1ajjs/BCK) |
+| 🧮 **[Resource Calculator](#-resource-calculator--сайзинг)** | Windows 10 / 11 · x64 | Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу | [ajjs1ajjs/Calculator-servers](https://github.com/ajjs1ajjs/Calculator-servers) |
 
-## Install
+---
+
+## 🗄️ BCK — резервне копіювання
+
+Одна команда встановлює **і оновлює**: повторний запуск робить апгрейд на місці,
+зберігаючи конфігурацію та дані.
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash
 ```
 
-Resource Calculator is a portable Windows exe (no installer) — download it from the
-[releases page](https://github.com/ajjs1ajjs/dist/releases) or see
-[`apps/calculator/README.md`](apps/calculator/README.md). The app also self-updates
-from this repository.
+- Встановлює `bckd`, `bck-agent`, `bck`, `bck-proxy` і вебконсоль.
+- Реєструє systemd-сервіс з автоперезапуском при збої.
+- Перевіряє SHA256 архіву перед встановленням.
 
-## Published artifacts
+→ [Скрипт встановлення](apps/bck/install.sh) · [Усі релізи BCK](https://github.com/ajjs1ajjs/dist/releases?q=bck) · [Код проєкту](https://github.com/ajjs1ajjs/BCK)
 
-| App | Asset | Platforms |
+---
+
+## 🧮 Resource Calculator — сайзинг
+
+Портативний застосунок для Windows — **один `.exe`**, встановлення не потрібне.
+
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator">
+  <img src="https://img.shields.io/badge/Download-latest-00A0C6?style=for-the-badge" alt="Завантажити останню версію">
+</a>
+
+- Завантажте `ITE.ResourceCalculator.exe`, звірте з `SHA256SUMS.txt`, запустіть.
+- Далі програма **оновлюється сама** — читає релізи цього репозиторію.
+
+→ [Деталі та перевірка](apps/calculator/README.md) · [Усі релізи Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator) · [Код проєкту](https://github.com/ajjs1ajjs/Calculator-servers)
+
+---
+
+## ✅ Цілісність і підпис
+
+- Кожен реліз містить `SHA256SUMS.txt` — звіряйте хеш перед запуском.
+- `ITE.ResourceCalculator.exe` підписаний **Authenticode** (самопідписаний сертифікат
+  IT-Enterprise). Застосунок приймає оновлення лише з підписом, що збігається з піном
+  відбитка сертифіката в його коді, — підмінити файл не вийде.
+
+---
+
+## 🔖 Теги релізів
+
+Репозиторій спільний для кількох продуктів, тож `/releases/latest` тут не
+використовується — кожен продукт шукає свій реліз за префіксом тега:
+
+| Продукт | Шаблон тега | Приклад |
 |---|---|---|
-| BCK | `bck-linux-x86_64.tar.gz` (+ `.sha256`) | Ubuntu 24/25/26 x86_64 |
-| Resource Calculator | `ITE.ResourceCalculator.exe` (+ `SHA256SUMS.txt`) | Windows 10/11 x64 |
+| BCK | `bck-v<версія>` | `bck-v0.10.0` |
+| Resource Calculator | `calculator-v<версія>` | `calculator-v2.5.0` |
 
-Artifacts are built locally and uploaded here, so no CI minutes are consumed
-and no build queue is involved.
+---
+
+## 🗂️ Структура
+
+```
+apps/<продукт>/install.sh    інсталятор (BCK)
+apps/<продукт>/README.md     інструкція для продуктів без інсталятора
+releases (теги)              <продукт>-v<версія>
+```
+
+---
+
+<details>
+<summary><b>Для супроводу (як публікується реліз)</b></summary>
+
+- Артефакти збираються **локально** й заливаються сюди — без CI-хвилин і черг.
+- Створення релізу:
+
+  ```bash
+  gh release create calculator-vX.Y.Z --repo ajjs1ajjs/dist \
+    ITE.ResourceCalculator.exe SHA256SUMS.txt --generate-notes
+  ```
+
+- Тег **мусить** мати правильний префікс (`bck-v` / `calculator-v`), інакше
+  відповідний застосунок не побачить оновлення.
+- Сюди не потрапляє жоден вихідний файл — лише install-скрипти та build-артефакти.
+
+</details>
