@@ -256,7 +256,7 @@ if [ "$ARCH_LOWER" != "x86_64" ]; then
     if [ -z "${BCK_SOURCE_URL:-}" ]; then
         fail "No prebuilt archive for $ARCH_LOWER (releases publish x86_64 only) and the source repository is private.
   Use an x86_64 host, or build from source with BCK_SOURCE_URL set to a git remote you can access:
-    BCK_SOURCE_URL=https://<user>:<token>@github.com/ajjs1ajjs/BCK.git curl -fsSL $(self_url) | sudo -E bash -s -- --from-source"
+    BCK_SOURCE_URL=https://<user>:<token>@github.com/<owner>/<repo>.git curl -fsSL $(self_url) | sudo -E bash -s -- --from-source"
     fi
     log "No prebuilt archive for this arch — building from source."
     MODE="source"
