@@ -29,6 +29,7 @@ scrape_configs:
 
   - job_name: windows_servers
     scrape_interval: 15s
+    scrape_timeout: 10s
     static_configs:
       - targets:
           - 192.168.1.100:9182
@@ -37,6 +38,7 @@ scrape_configs:
 
   - job_name: linux_servers
     scrape_interval: 15s
+    scrape_timeout: 10s
     static_configs:
       - targets:
           - 192.168.1.102:9100
@@ -49,23 +51,27 @@ alerting:
   rules:
     - name: HighCPU
       expr: cpu_percent
+      condition: greater_than
       threshold: 80
       duration: 300
       severity: warning
       message: "CPU usage is {{ value }}% on {{ server }}"
     - name: CriticalCPU
       expr: cpu_percent
+      condition: greater_than
       threshold: 95
       duration: 60
       severity: critical
       message: "CRITICAL: CPU usage is {{ value }}% on {{ server }}"
     - name: HighMemory
       expr: memory_percent
+      condition: greater_than
       threshold: 85
       duration: 300
       severity: warning
     - name: HighDisk
       expr: disk_percent
+      condition: greater_than
       threshold: 80
       duration: 600
       severity: warning
