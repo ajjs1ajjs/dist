@@ -220,7 +220,16 @@ systemctl restart $SERVICE_NAME
 echo -n "Waiting for MyGit on port $PORT to become healthy..."
 for i in $(seq 1 15); do
     if curl -fsS "http://localhost:$PORT/api/v1/health" >/dev/null 2>&1; then echo " OK"; break; fi
-    if [ "$i" = "15" ]; then echo " FAILED — is port $PORT free? (another service may be using it)"; exit 1; else echo -n "."; sleep 1; fi
+    if [ "$i" = "15" ]; then
+        echo " FAILED — service did not become healthy on port $PORT."
+        echo "--- systemctl status $SERVICE_NAME ---"
+        systemctl --no-pager --full status "$SERVICE_NAME" 2>&1 | head -25 || true
+        echo "--- journalctl -u $SERVICE_NAME (last 30) ---"
+        journalctl -u "$SERVICE_NAME" -n 30 --no-pager 2>&1 || true
+        echo "--- port $PORT in use? ---"
+        ss -ltnp 2>/dev/null | grep ":$PORT " || echo "(nothing listening on $PORT)"
+        exit 1
+    else echo -n "."; sleep 1; fi
 done
 
 echo "[4/4] Done."
