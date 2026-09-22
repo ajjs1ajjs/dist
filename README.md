@@ -14,6 +14,7 @@
 ![KubeLens · Windows](https://img.shields.io/badge/KubeLens-Windows-24c8db?style=for-the-badge&logo=tauri&logoColor=white)
 ![PyMon NOC · Ubuntu](https://img.shields.io/badge/PyMon_NOC-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![MyGit · Ubuntu](https://img.shields.io/badge/MyGit-Ubuntu-181717?style=for-the-badge&logo=git&logoColor=white)
+![RDM Manager · Windows](https://img.shields.io/badge/RDM_Manager-Windows-26A69A?style=for-the-badge&logo=tauri&logoColor=white)
 
 **[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
@@ -34,6 +35,7 @@
 | 🔭 **KubeLens** | Windows 10 / 11 · x64 | Kubernetes desktop IDE — workloads, логи, Helm, топологія |
 | 📡 **PyMon NOC** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Моніторинг інфраструктури та NOC-дашборд |
 | 🐙 **MyGit** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Self-hosted Git-платформа (GitLab/Gitea-альтернатива) |
+| 🔌 **RDM Manager** | Windows 10 / 11 · x64 | Менеджер віддалених підключень (SSH/RDP) для SRE/DevOps |
 
 ---
 
@@ -134,6 +136,20 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 
 [📜 Скрипт встановлення](apps/mygit/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/mygit/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи MyGit](https://github.com/ajjs1ajjs/dist/releases?q=mygit)
 
+### 🔌 RDM Manager
+
+Менеджер віддалених підключень для Windows — **NSIS-інсталятор** або portable ZIP, оновлюється
+всередині застосунку.
+
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm">
+  <img src="https://img.shields.io/badge/Download-latest-26A69A?style=for-the-badge" alt="Завантажити останню версію">
+</a>
+
+- `RDM.Manager_<версія>_x64-setup.exe` — інсталятор; `…Portable.zip` — портативна версія.
+- Далі застосунок сам перевіряє оновлення при старті (підпис minisign).
+
+[📖 Деталі](apps/rdm/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи RDM](https://github.com/ajjs1ajjs/dist/releases?q=rdm)
+
 ---
 
 <a id="verify"></a>
@@ -163,7 +179,8 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 | Gym Tracker | `gym-v<версія>` | `gym-v3.5.0` |
 | KubeLens | `kubelens-v<версія>` | `kubelens-v0.3.29` |
 | PyMon NOC | `monitoring-v<версія>` | `monitoring-v3.3.0` |
-| MyGit | `mygit-v<версія>` | `mygit-v3.6.1` |
+| MyGit | `mygit-v<версія>` | `mygit-v3.7.0` |
+| RDM Manager | `rdm-v<версія>` | `rdm-v2.1.5` |
 
 ---
 
