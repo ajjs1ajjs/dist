@@ -9,6 +9,8 @@ INSTALL_DIR="/opt/mygit"
 DATA_DIR="/var/lib/mygit"
 REPOS_DIR="/var/lib/mygit/repos"
 SERVICE_NAME="mygit"
+ENV_DIR="/etc/mygit"
+ENV_FILE="$ENV_DIR/mygit.env"
 MYGIT_VER="${MYGIT_VERSION:-latest}"
 # Релізи живуть у публічному dist (кодовий репозиторій приватний), тег mygit-v<version>.
 DIST_REPO="ajjs1ajjs/dist"
@@ -171,6 +173,24 @@ fi
 chown -R mygit:mygit "$INSTALL_DIR" "$DATA_DIR"
 systemctl stop $SERVICE_NAME 2>/dev/null || true
 
+# Required secrets. The server refuses to start (fail-closed) without
+# MYGIT_JWT_SECRET (>=32 chars) and MYGIT_INTERNAL_API_TOKEN. Generate them once
+# and keep them across updates via an EnvironmentFile.
+mkdir -p "$ENV_DIR"
+if [ ! -s "$ENV_FILE" ]; then
+    umask 077
+    JWT_SECRET="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
+    INTERNAL_TOKEN="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
+    cat > "$ENV_FILE" <<ENVEOF
+MYGIT_JWT_SECRET=$JWT_SECRET
+MYGIT_INTERNAL_API_TOKEN=$INTERNAL_TOKEN
+ENVEOF
+    chmod 600 "$ENV_FILE"
+    echo "Generated MYGIT_JWT_SECRET + MYGIT_INTERNAL_API_TOKEN -> $ENV_FILE (keep this file)"
+else
+    echo "Keeping existing secrets from $ENV_FILE"
+fi
+
 cat > /etc/systemd/system/$SERVICE_NAME.service <<EOF
 [Unit]
 Description=MyGit - self-hosted Git platform
@@ -182,6 +202,7 @@ Group=mygit
 ExecStart=$INSTALL_DIR/mygit -port $PORT
 Restart=always
 RestartSec=5
+EnvironmentFile=$ENV_FILE
 Environment=MYGIT_BASE_DIR=$DATA_DIR
 Environment=MYGIT_REPOS_ROOT=$REPOS_DIR
 Environment=MYGIT_DB_PATH=$DATA_DIR/mygit.db
