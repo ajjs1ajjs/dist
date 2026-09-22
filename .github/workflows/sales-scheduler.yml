@@ -1,0 +1,65 @@
+name: Sales — update deals & deploy
+
+# Runs in this public dist repo (Actions minutes are free for public repos).
+# Fetches the latest deals, writes them into the hosted site's data files and
+# pushes — GitHub Pages (from main) redeploys automatically.
+#
+# Secrets required in this repo:
+#   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID  (for the Telegram channel posts)
+
+on:
+  schedule:
+    - cron: '0 9,15,18,21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sales-fetch
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@40f1582b2485089dde7abd97c1529aa768e1baff # v5
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: apps/sales/fetch/package-lock.json
+
+      - name: Install fetcher dependencies
+        working-directory: apps/sales/fetch
+        run: npm ci
+
+      - name: Fetch latest deals
+        working-directory: apps/sales/fetch
+        env:
+          DEALS_DIR: ${{ github.workspace }}/sales/data
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: npm run fetch
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sales/data/deals.json sales/data/notified-history.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(sales): update deals data"
+          # Another run may have pushed while we were fetching — rebase first.
+          git pull --rebase --autostash origin main || {
+            git checkout --theirs -- sales/data/deals.json sales/data/notified-history.json
+            git add sales/data/deals.json sales/data/notified-history.json
+            GIT_EDITOR=true git rebase --continue
+          }
+          git push origin HEAD:main

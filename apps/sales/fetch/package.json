@@ -1,0 +1,18 @@
+{
+  "name": "sales-fetch",
+  "private": true,
+  "type": "module",
+  "description": "Game Sales Aggregator — deals fetcher (runs from the public dist repo)",
+  "scripts": {
+    "fetch": "tsx fetch-deals.ts"
+  },
+  "dependencies": {
+    "pino": "10.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.4",
+    "@types/pino": "7.0.4",
+    "tsx": "4.22.3",
+    "typescript": "6.0.3"
+  }
+}

@@ -15,6 +15,7 @@
 ![PyMon NOC · Ubuntu](https://img.shields.io/badge/PyMon_NOC-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![MyGit · Ubuntu](https://img.shields.io/badge/MyGit-Ubuntu-181717?style=for-the-badge&logo=git&logoColor=white)
 ![RDM Manager · Windows](https://img.shields.io/badge/RDM_Manager-Windows-26A69A?style=for-the-badge&logo=tauri&logoColor=white)
+![Game Sales · Web](https://img.shields.io/badge/Game_Sales-PWA-c084fc?style=for-the-badge&logo=steam&logoColor=white)
 
 **[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
@@ -36,6 +37,7 @@
 | 📡 **PyMon NOC** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Моніторинг інфраструктури та NOC-дашборд |
 | 🐙 **MyGit** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Self-hosted Git-платформа (GitLab/Gitea-альтернатива) |
 | 🔌 **RDM Manager** | Windows 10 / 11 · x64 | Менеджер віддалених підключень (SSH/RDP) для SRE/DevOps |
+| 🎮 **Game Sales** | Web · PWA (GitHub Pages) | Радар знижок і безкоштовних ігор (Steam / Epic / Xbox) |
 
 ---
 
@@ -149,6 +151,21 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 - Далі застосунок сам перевіряє оновлення при старті (підпис minisign).
 
 [📖 Деталі](apps/rdm/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи RDM](https://github.com/ajjs1ajjs/dist/releases?q=rdm)
+
+### 🎮 Game Sales
+
+Персональний радар знижок і безкоштовних ігор — Steam, Epic Games Store, Xbox Game Pass (PC).
+Оновлюється автоматично кілька разів на добу.
+
+<a href="https://ajjs1ajjs.github.io/dist/sales/">
+  <img src="https://img.shields.io/badge/Open-live_site-c084fc?style=for-the-badge" alt="Відкрити сайт">
+</a>
+
+- Відкрийте у браузері або встановіть як застосунок (PWA), працює офлайн.
+- Дані й збірка лежать у [`sales/`](sales/); збір даних — у [`apps/sales/fetch/`](apps/sales/fetch/).
+- Telegram-канал: [@salesgamesua](https://t.me/salesgamesua).
+
+[📖 Деталі](apps/sales/README.md)
 
 ---
 

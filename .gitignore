@@ -1,0 +1,2 @@
+# Fetcher dependencies (installed by CI / locally, never committed)
+node_modules/
