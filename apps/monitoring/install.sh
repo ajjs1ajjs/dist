@@ -320,7 +320,7 @@ if [ "$ADMIN_SET" = "1" ]; then
 elif [ "$IS_UPDATE" = "1" ]; then
     echo "Існуючі облікові дані збережено (пароль не змінювався)."
     echo "Якщо треба скинути пароль адміна:"
-    echo "  sudo PYMON_ADMIN_PASSWORD='YourStrongPass123' $INSTALL_DIR/pymon reset-admin --config $CONFIG_FILE"
+    echo "  sudo PYMON_ADMIN_PASSWORD='YourStrongPass123' DB_PATH=$DATA_DIR/pymon.db $INSTALL_DIR/pymon reset-admin --config $CONFIG_FILE"
     echo "  sudo systemctl restart $SERVICE_NAME"
     echo "  Логін: admin / YourStrongPass123"
 fi
