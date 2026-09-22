@@ -9,6 +9,7 @@
 
 ![BCK · Ubuntu](https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white)
 ![Resource Calculator · Windows](https://img.shields.io/badge/Resource_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![DiskCleaner · Windows](https://img.shields.io/badge/DiskCleaner-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
 **[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
@@ -24,6 +25,7 @@
 |---|---|---|
 | 🗄️ **BCK** | Ubuntu 24 / 25 / 26 · x86_64 | Enterprise backup & disaster recovery (Veeam-альтернатива) |
 | 🧮 **Resource Calculator** | Windows 10 / 11 · x64 | Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу |
+| 🧹 **DiskCleaner** | Windows 10 / 11 · x64 | Чистка диска `C:` — тимчасові файли, кеші, логи, залишки білдів |
 
 ---
 
@@ -59,6 +61,19 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 [📖 Деталі та перевірка](apps/calculator/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator)
 
+### 🧹 DiskCleaner
+
+Портативний очищувач диска `C:` — **один `.exe`**, встановлення не потрібне.
+
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner">
+  <img src="https://img.shields.io/badge/Download-latest-00A0C6?style=for-the-badge" alt="Завантажити останню версію">
+</a>
+
+- Завантажте `DiskCleaner.exe`, звірте з `SHA256SUMS.txt`, запустіть.
+- Агресивні пункти (Windows.old, Prefetch) вимкнені за замовчуванням.
+
+[📖 Деталі та перевірка](apps/diskcleaner/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи DiskCleaner](https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner)
+
 ---
 
 <a id="verify"></a>
@@ -83,6 +98,7 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 |---|---|---|
 | BCK | `bck-v<версія>` | `bck-v0.10.0` |
 | Resource Calculator | `calculator-v<версія>` | `calculator-v2.5.0` |
+| DiskCleaner | `diskcleaner-v<версія>` | `diskcleaner-v1.3.0` |
 
 ---
 
