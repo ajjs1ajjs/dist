@@ -754,5 +754,75 @@
     "percent": 10,
     "timestamp": "2026-09-15T18:37:27.467Z",
     "type": "discount"
+  },
+  "epic_free_8a20c6c8d5b5417e800c687e9d72013e": {
+    "title": "Mindcop",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "free"
+  },
+  "epic_free_b9ff3f98367a45cdac289dff6683a2bc": {
+    "title": "Shogun Showdown",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "free"
+  },
+  "epic_discount_944b5b5d646d46bc92bc33edfe983d26": {
+    "title": "LISA: The Definitive Edition",
+    "price": 249.5,
+    "percent": 50,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_4019220": {
+    "title": "Dressmaker",
+    "price": 301,
+    "percent": 10,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_620980": {
+    "title": "Beat Saber",
+    "price": 375,
+    "percent": 25,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_1172710": {
+    "title": "Dune: Awakening",
+    "price": 574,
+    "percent": 50,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_2909400": {
+    "title": "FINAL FANTASY VII REBIRTH",
+    "price": 509,
+    "percent": 70,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_1462040": {
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "price": 274,
+    "percent": 75,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_3699590": {
+    "title": "Well Dweller",
+    "price": 182,
+    "percent": 15,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
+  },
+  "steam_discount_1222140": {
+    "title": "Detroit: Become Human",
+    "price": 259,
+    "percent": 80,
+    "timestamp": "2026-09-22T19:36:24.705Z",
+    "type": "discount"
   }
 }
