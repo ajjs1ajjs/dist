@@ -36,6 +36,6 @@ certutil -hashfile DiskCleaner.exe SHA256
 
 ## Підпис
 
-exe підписаний Authenticode самопідписаним сертифікатом IT-Enterprise. SmartScreen усе одно
+exe підписаний Authenticode самопідписаним сертифікатом. SmartScreen усе одно
 може попередити (сертифікат не від публічної CA) — це нормально; довіру несе пін відбитка в
 застосунку. Запускайте лише після звірки SHA256.

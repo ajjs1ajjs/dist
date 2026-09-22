@@ -17,7 +17,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/insta
 Конкретна версія:
 
 ```bash
-MYGIT_VERSION=3.6.0 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash
+MYGIT_VERSION=3.7.0 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash
 ```
 
 ## Що робить скрипт

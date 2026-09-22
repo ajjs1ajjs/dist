@@ -7,7 +7,7 @@ Remote Connection Manager для SRE та DevOps (Tauri 2 + Rust + React + SQLit
 
 - [Усі релізи](https://github.com/ajjs1ajjs/dist/releases?q=rdm)
 - `RDM.Manager_<версія>_x64-setup.exe` — **NSIS-інсталятор** (встановлення в `%LOCALAPPDATA%`, ярлик у «Пуск», коректне видалення)
-- `RDM.Manager v<версія> Portable.zip` — **портативна** версія (розпакувати й запустити)
+- `RDM.Manager.v<версія>.Portable.zip` — **портативна** версія (розпакувати й запустити)
 
 Поруч — `SHA256SUMS.txt` для перевірки цілісності.
 
