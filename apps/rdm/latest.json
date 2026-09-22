@@ -1,0 +1,10 @@
+{
+  "version": "2.1.5",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzNoUGNuL2phMGNjczRMSEpxTm1xTHI1anh6cm15ZzI5bUYwMFQ2UUhZc3E3QmlYdjc0WXJYSUwvVXVQMjZvNFd3VjNSd2txRGl4b1pFam91bEF2UndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTAyNTczCWZpbGU6UkRNIE1hbmFnZXJfMi4xLjVfeDY0LXNldHVwLmV4ZQpzTGlkeXBWRnlPSS9OeG0rdDFLMHhiL3FCUlFGaGltUlhSR2s4aklHUWJaZ2tWd1Y3ZGEzK044NUtqVGNIT2NDVVFZZkU4cmdYdm1ja2M0Z29iV2RDQT09Cg==",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.5/RDM.Manager_2.1.5_x64-setup.exe"
+    }
+  }
+}
+
