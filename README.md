@@ -4,26 +4,34 @@
 
 ### Публічний канал розповсюдження
 
-Тут **немає вихідного коду** — лише інсталятори та готові збірки, призначені для
-завантаження користувачам. Код продуктів лежить у приватних репозиторіях.
+Це **відкритий репозиторій для оновлень і завантажень** — тут немає вихідного коду,
+лише інсталятори та готові збірки, призначені користувачам.
 
 ![BCK · Ubuntu](https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white)
 ![Resource Calculator · Windows](https://img.shields.io/badge/Resource_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+**[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
 </div>
 
 ---
 
-## 📦 Що тут є
+<a id="products"></a>
 
-| Продукт | Платформа | Призначення | Код (приватний) |
-|---|---|---|---|
-| 🗄️ **[BCK](#-bck--резервне-копіювання)** | Ubuntu 24 / 25 / 26 · x86_64 | Enterprise backup & disaster recovery (Veeam-альтернатива) | [ajjs1ajjs/BCK](https://github.com/ajjs1ajjs/BCK) |
-| 🧮 **[Resource Calculator](#-resource-calculator--сайзинг)** | Windows 10 / 11 · x64 | Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу | [ajjs1ajjs/Calculator-servers](https://github.com/ajjs1ajjs/Calculator-servers) |
+## 📦 Продукти
+
+| Продукт | Платформа | Призначення |
+|---|---|---|
+| 🗄️ **BCK** | Ubuntu 24 / 25 / 26 · x86_64 | Enterprise backup & disaster recovery (Veeam-альтернатива) |
+| 🧮 **Resource Calculator** | Windows 10 / 11 · x64 | Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу |
 
 ---
 
-## 🗄️ BCK — резервне копіювання
+<a id="download"></a>
+
+## ⬇️ Завантаження
+
+### 🗄️ BCK
 
 Одна команда встановлює **і оновлює**: повторний запуск робить апгрейд на місці,
 зберігаючи конфігурацію та дані.
@@ -36,11 +44,9 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 - Реєструє systemd-сервіс з автоперезапуском при збої.
 - Перевіряє SHA256 архіву перед встановленням.
 
-→ [Скрипт встановлення](apps/bck/install.sh) · [Усі релізи BCK](https://github.com/ajjs1ajjs/dist/releases?q=bck) · [Код проєкту](https://github.com/ajjs1ajjs/BCK)
+[📜 Скрипт встановлення](apps/bck/install.sh) &nbsp;·&nbsp; [⬇️ Усі релізи BCK](https://github.com/ajjs1ajjs/dist/releases?q=bck)
 
----
-
-## 🧮 Resource Calculator — сайзинг
+### 🧮 Resource Calculator
 
 Портативний застосунок для Windows — **один `.exe`**, встановлення не потрібне.
 
@@ -51,11 +57,13 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 - Завантажте `ITE.ResourceCalculator.exe`, звірте з `SHA256SUMS.txt`, запустіть.
 - Далі програма **оновлюється сама** — читає релізи цього репозиторію.
 
-→ [Деталі та перевірка](apps/calculator/README.md) · [Усі релізи Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator) · [Код проєкту](https://github.com/ajjs1ajjs/Calculator-servers)
+[📖 Деталі та перевірка](apps/calculator/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator)
 
 ---
 
-## ✅ Цілісність і підпис
+<a id="verify"></a>
+
+## ✅ Підпис і цілісність
 
 - Кожен реліз містить `SHA256SUMS.txt` — звіряйте хеш перед запуском.
 - `ITE.ResourceCalculator.exe` підписаний **Authenticode** (самопідписаний сертифікат
@@ -63,6 +71,8 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
   відбитка сертифіката в його коді, — підмінити файл не вийде.
 
 ---
+
+<a id="tags"></a>
 
 ## 🔖 Теги релізів
 
@@ -75,6 +85,8 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 | Resource Calculator | `calculator-v<версія>` | `calculator-v2.5.0` |
 
 ---
+
+<a id="structure"></a>
 
 ## 🗂️ Структура
 
