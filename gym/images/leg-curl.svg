@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="12" fill="#1a1a2e"/>
+  <g stroke="#00d4aa" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- bench -->
+    <rect x="40" y="60" width="90" height="12" rx="3" fill="#00d4aa" stroke="none" opacity="0.25"/>
+    <rect x="40" y="66" width="90" height="6" rx="2" fill="none" opacity="0.3"/>
+    <!-- body lying -->
+    <ellipse cx="100" cy="65" rx="12" ry="8"/>
+    <line x1="100" y1="72" x2="100" y2="105"/>
+    <!-- head -->
+    <circle cx="85" cy="50" r="10"/>
+    <!-- legs curling -->
+    <line x1="100" y1="105" x2="120" y2="125"/>
+    <line x1="120" y1="125" x2="140" y2="110"/>
+    <line x1="140" y1="110" x2="150" y2="135"/>
+    <!-- other leg -->
+    <line x1="100" y1="105" x2="115" y2="120"/>
+    <line x1="115" y1="120" x2="130" y2="115"/>
+    <!-- roller pad -->
+    <rect x="140" y="130" width="30" height="10" rx="4" fill="#00d4aa" stroke="none" opacity="0.4"/>
+  </g>
+</svg>

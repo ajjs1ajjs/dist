@@ -10,6 +10,7 @@
 ![BCK · Ubuntu](https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white)
 ![Resource Calculator · Windows](https://img.shields.io/badge/Resource_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![DiskCleaner · Windows](https://img.shields.io/badge/DiskCleaner-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![Gym Tracker · PWA](https://img.shields.io/badge/Gym_Tracker-PWA-ff6b6b?style=for-the-badge&logo=pwa&logoColor=white)
 
 **[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
@@ -26,6 +27,7 @@
 | 🗄️ **BCK** | Ubuntu 24 / 25 / 26 · x86_64 | Enterprise backup & disaster recovery (Veeam-альтернатива) |
 | 🧮 **Resource Calculator** | Windows 10 / 11 · x64 | Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу |
 | 🧹 **DiskCleaner** | Windows 10 / 11 · x64 | Чистка диска `C:` — тимчасові файли, кеші, логи, залишки білдів |
+| 🏋️ **Gym Tracker** | Web · PWA (GitHub Pages) | Офлайн-трекер тренувань і прогресу тіла |
 
 ---
 
@@ -74,6 +76,19 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 [📖 Деталі та перевірка](apps/diskcleaner/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи DiskCleaner](https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner)
 
+### 🏋️ Gym Tracker
+
+Офлайн-first PWA — працює у браузері, встановлюється на телефон, дані зберігаються локально.
+
+<a href="https://ajjs1ajjs.github.io/dist/gym/">
+  <img src="https://img.shields.io/badge/Open-live_app-ff6b6b?style=for-the-badge" alt="Відкрити застосунок">
+</a>
+
+- Відкрийте у браузері або додайте на головний екран телефона.
+- Збірка застосунку лежить у [`gym/`](gym/) (GitHub Pages).
+
+[📖 Деталі](apps/gym/README.md)
+
 ---
 
 <a id="verify"></a>
@@ -100,6 +115,7 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 | BCK | `bck-v<версія>` | `bck-v0.10.0` |
 | Resource Calculator | `calculator-v<версія>` | `calculator-v2.5.0` |
 | DiskCleaner | `diskcleaner-v<версія>` | `diskcleaner-v1.4.0` |
+| Gym Tracker | `gym-v<версія>` | `gym-v3.5.0` |
 
 ---
 

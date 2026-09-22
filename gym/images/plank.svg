@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="12" fill="#1a1a2e"/>
+  <g stroke="#f59e0b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- mat -->
+    <rect x="20" y="155" width="160" height="10" rx="4" fill="#f59e0b" opacity="0.15" stroke="none"/>
+    <!-- body plank position -->
+    <line x1="100" y1="50" x2="100" y2="100"/>
+    <!-- head -->
+    <circle cx="60" cy="45" r="11"/>
+    <!-- torso -->
+    <line x1="70" y1="52" x2="100" y2="70"/>
+    <line x1="100" y1="70" x2="100" y2="100"/>
+    <!-- arms straight -->
+    <line x1="70" y1="52" x2="70" y2="100"/>
+    <line x1="70" y1="100" x2="70" y2="155" opacity="0.4"/>
+    <line x1="100" y1="100" x2="100" y2="155"/>
+    <!-- legs -->
+    <line x1="100" y1="100" x2="130" y2="100"/>
+    <line x1="130" y1="100" x2="130" y2="155"/>
+    <!-- feet -->
+    <circle cx="70" cy="155" r="4"/>
+    <circle cx="130" cy="155" r="4"/>
+    <!-- timing indicator -->
+    <circle cx="150" cy="30" r="15" opacity="0.3"/>
+    <path d="M 150 30 L 150 20 A 10 10 0 0 1 158 24" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>
