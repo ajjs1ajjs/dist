@@ -65,7 +65,24 @@ fi
 
 # Resolve the final port before configuring the service so the health check and
 # the systemd unit agree with each other.
-PORT="$(find_free_port "$PORT")"
+#
+# On update, reuse the port already in the unit: the running service still holds
+# it, so find_free_port would see it as taken and drift to the next port on every
+# update. MYGIT_PORT always wins (and is checked for availability).
+EXISTING_UNIT="/etc/systemd/system/$SERVICE_NAME.service"
+if [ -n "${MYGIT_PORT:-}" ]; then
+    PORT="$(find_free_port "$MYGIT_PORT")"
+elif [ -f "$EXISTING_UNIT" ]; then
+    EXISTING_PORT="$(grep -oE -- '-port [0-9]+' "$EXISTING_UNIT" 2>/dev/null | awk '{print $2}' | head -n1)"
+    if [ -n "$EXISTING_PORT" ]; then
+        PORT="$EXISTING_PORT"
+        echo "[i] Reusing configured port $PORT"
+    else
+        PORT="$(find_free_port "$PORT")"
+    fi
+else
+    PORT="$(find_free_port "$PORT")"
+fi
 
 IS_UPDATE=0
 if [ -f "/etc/systemd/system/$SERVICE_NAME.service" ] || [ -x "$INSTALL_DIR/mygit" ] || [ -f "$DATA_DIR/mygit.db" ]; then
