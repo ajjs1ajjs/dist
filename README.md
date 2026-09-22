@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" width="100%" alt="IT-Enterprise Distribution">
+<img src="docs/banner.svg" width="100%" alt="Distribution">
 
 ### Публічний канал розповсюдження
 
@@ -255,16 +255,3 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 - Невдалий старт не рапортується як успіх — бінарник відкочується.
 
 [📜 Скрипт встановлення](apps/uptime-monitor/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/uptime-monitor/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Uptime Monitor](https://github.com/ajjs1ajjs/dist/releases?q=uptime)
-
----
-
-<a id="verify"></a>
-
-## ✅ Підпис і цілісність
-
-- Кожен реліз містить `SHA256SUMS.txt` — звіряйте хеш перед запуском.
-- `ITE.ResourceCalculator.exe` і `DiskCleaner.exe` підписані **Authenticode**
-  (самопідписаний сертифікат IT-Enterprise). Застосунки приймають оновлення лише з
-  підписом, що збігається з піном відбитка сертифіката в їхньому коді, — підмінити
-  файл не вийде.
-
