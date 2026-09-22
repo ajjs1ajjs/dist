@@ -12,6 +12,7 @@
 ![DiskCleaner · Windows](https://img.shields.io/badge/DiskCleaner-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Gym Tracker · PWA](https://img.shields.io/badge/Gym_Tracker-PWA-ff6b6b?style=for-the-badge&logo=pwa&logoColor=white)
 ![KubeLens · Windows](https://img.shields.io/badge/KubeLens-Windows-24c8db?style=for-the-badge&logo=tauri&logoColor=white)
+![PyMon NOC · Ubuntu](https://img.shields.io/badge/PyMon_NOC-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 **[📦 Продукти](#products)** &nbsp;·&nbsp; **[⬇️ Завантаження](#download)** &nbsp;·&nbsp; **[✅ Підпис і цілісність](#verify)** &nbsp;·&nbsp; **[🔖 Теги релізів](#tags)** &nbsp;·&nbsp; **[🗂️ Структура](#structure)**
 
@@ -30,6 +31,7 @@
 | 🧹 **DiskCleaner** | Windows 10 / 11 · x64 | Чистка диска `C:` — тимчасові файли, кеші, логи, залишки білдів |
 | 🏋️ **Gym Tracker** | Web · PWA (GitHub Pages) | Офлайн-трекер тренувань і прогресу тіла |
 | 🔭 **KubeLens** | Windows 10 / 11 · x64 | Kubernetes desktop IDE — workloads, логи, Helm, топологія |
+| 📡 **PyMon NOC** | Ubuntu 24 / 25 / 26 · amd64/arm64 | Моніторинг інфраструктури та NOC-дашборд |
 
 ---
 
@@ -104,6 +106,19 @@ Kubernetes desktop IDE для Windows — **один інсталятор NSIS**
 
 [📖 Деталі та перевірка](apps/kubelens/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи KubeLens](https://github.com/ajjs1ajjs/dist/releases?q=kubelens)
 
+### 📡 PyMon NOC
+
+Сервер моніторингу інфраструктури — одна команда встановлює **і оновлює** (Ubuntu 24/25/26).
+
+```bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash
+```
+
+- Ставить systemd-сервіс; конфіг, база й користувачі зберігаються при оновленні.
+- Перевіряє SHA-256 бінарника перед встановленням.
+
+[📜 Скрипт встановлення](apps/monitoring/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/monitoring/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи PyMon](https://github.com/ajjs1ajjs/dist/releases?q=monitoring)
+
 ---
 
 <a id="verify"></a>
@@ -132,6 +147,7 @@ Kubernetes desktop IDE для Windows — **один інсталятор NSIS**
 | DiskCleaner | `diskcleaner-v<версія>` | `diskcleaner-v1.4.0` |
 | Gym Tracker | `gym-v<версія>` | `gym-v3.5.0` |
 | KubeLens | `kubelens-v<версія>` | `kubelens-v0.3.29` |
+| PyMon NOC | `monitoring-v<версія>` | `monitoring-v3.3.0` |
 
 ---
 

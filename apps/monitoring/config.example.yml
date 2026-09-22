@@ -1,0 +1,100 @@
+# PyMon NOC (Go) — Configuration Example
+# Copy to config.yml and customize.
+
+server:
+  host: 0.0.0.0        # Bind address
+  port: 10000          # Dashboard / API port
+  domain: localhost
+
+storage:
+  backend: sqlite      # sqlite (memory removed in v3)
+  path: pymon.db       # Database path (overridden by DB_PATH env)
+  retention_hours: 168 # Metric/alert retention (168 = 7 days)
+
+auth:
+  admin_username: admin
+  admin_password: ""   # Leave empty to generate a random password on first run
+  jwt_expire_hours: 24
+
+scrape_configs:
+  - job_name: pymon_self
+    scrape_interval: 30s
+    scrape_timeout: 10s
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          - localhost:10000
+        labels:
+          env: production
+
+  - job_name: windows_servers
+    scrape_interval: 15s
+    static_configs:
+      - targets:
+          - 192.168.1.100:9182
+        labels:
+          os: windows
+
+  - job_name: linux_servers
+    scrape_interval: 15s
+    static_configs:
+      - targets:
+          - 192.168.1.102:9100
+        labels:
+          os: linux
+
+alerting:
+  enabled: true
+  evaluation_interval: 30s
+  rules:
+    - name: HighCPU
+      expr: cpu_percent
+      threshold: 80
+      duration: 300
+      severity: warning
+      message: "CPU usage is {{ value }}% on {{ server }}"
+    - name: CriticalCPU
+      expr: cpu_percent
+      threshold: 95
+      duration: 60
+      severity: critical
+      message: "CRITICAL: CPU usage is {{ value }}% on {{ server }}"
+    - name: HighMemory
+      expr: memory_percent
+      threshold: 85
+      duration: 300
+      severity: warning
+    - name: HighDisk
+      expr: disk_percent
+      threshold: 80
+      duration: 600
+      severity: warning
+
+notifications:
+  email:
+    enabled: false
+    smtp_server: smtp.example.com
+    smtp_port: 587
+    smtp_user: notifications@example.com
+    smtp_pass: your_password_here
+    to: admin@example.com
+    use_tls: true
+  telegram:
+    enabled: false
+    bot_token: ""
+    chat_id: ""
+  discord:
+    enabled: false
+    webhook_url: ""
+  slack:
+    enabled: false
+    webhook_url: ""
+  teams:
+    enabled: false
+    webhook_url: ""
+
+backup:
+  enabled: true
+  schedule: "0 2 * * *" # Daily at 02:00 (cron: min hour dom mon dow)
+  max_backups: 10
+  path: backups
