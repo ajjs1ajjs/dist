@@ -859,5 +859,12 @@
     "percent": 38,
     "timestamp": "2026-09-23T18:44:57.605Z",
     "type": "discount"
+  },
+  "steam_discount_1401590": {
+    "title": "Disney Dreamlight Valley",
+    "price": 719,
+    "percent": 40,
+    "timestamp": "2026-09-23T23:22:00.307Z",
+    "type": "discount"
   }
 }
