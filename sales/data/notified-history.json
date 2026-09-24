@@ -908,5 +908,47 @@
     "percent": 75,
     "timestamp": "2026-09-24T18:45:49.805Z",
     "type": "discount"
+  },
+  "steam_discount_570940": {
+    "title": "DARK SOULS™: REMASTERED",
+    "price": 399,
+    "percent": 50,
+    "timestamp": "2026-09-24T23:41:40.725Z",
+    "type": "discount"
+  },
+  "steam_discount_335300": {
+    "title": "DARK SOULS™ II: Scholar of the First Sin",
+    "price": 599,
+    "percent": 50,
+    "timestamp": "2026-09-24T23:41:40.725Z",
+    "type": "discount"
+  },
+  "steam_discount_374320": {
+    "title": "DARK SOULS™ III",
+    "price": 495,
+    "percent": 50,
+    "timestamp": "2026-09-24T23:41:40.725Z",
+    "type": "discount"
+  },
+  "steam_discount_524220": {
+    "title": "NieR:Automata™",
+    "price": 186,
+    "percent": 60,
+    "timestamp": "2026-09-24T23:41:40.725Z",
+    "type": "discount"
+  },
+  "steam_discount_2161700": {
+    "title": "Persona 3 Reload",
+    "price": 539,
+    "percent": 70,
+    "timestamp": "2026-09-24T23:41:40.725Z",
+    "type": "discount"
+  },
+  "steam_discount_1687950": {
+    "title": "Persona 5 Royal",
+    "price": 569,
+    "percent": 70,
+    "timestamp": "2026-09-24T23:41:40.725Z",
+    "type": "discount"
   }
 }
