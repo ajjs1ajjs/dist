@@ -866,5 +866,12 @@
     "percent": 40,
     "timestamp": "2026-09-23T23:22:00.307Z",
     "type": "discount"
+  },
+  "steam_discount_4259190": {
+    "title": "Kingdom Rush 6: Genesis TD",
+    "price": 387,
+    "percent": 10,
+    "timestamp": "2026-09-24T13:55:52.482Z",
+    "type": "discount"
   }
 }
