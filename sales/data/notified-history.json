@@ -873,5 +873,40 @@
     "percent": 10,
     "timestamp": "2026-09-24T13:55:52.482Z",
     "type": "discount"
+  },
+  "epic_free_7c14bf0cffdd43be968fdcf28e5af653": {
+    "title": "Astrea Six Sided Oracles",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-09-24T18:45:49.805Z",
+    "type": "free"
+  },
+  "epic_free_6d99eae44d724baf84d6261a7a0f05d2": {
+    "title": "Mechabellum",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-09-24T18:45:49.805Z",
+    "type": "free"
+  },
+  "steam_discount_2531310": {
+    "title": "The Last of Us™ Part II Remastered",
+    "price": 1004,
+    "percent": 33,
+    "timestamp": "2026-09-24T18:45:49.805Z",
+    "type": "discount"
+  },
+  "steam_discount_2796640": {
+    "title": "The Magus Circle",
+    "price": 265,
+    "percent": 10,
+    "timestamp": "2026-09-24T18:45:49.805Z",
+    "type": "discount"
+  },
+  "steam_discount_227300": {
+    "title": "Euro Truck Simulator 2",
+    "price": 100,
+    "percent": 75,
+    "timestamp": "2026-09-24T18:45:49.805Z",
+    "type": "discount"
   }
 }
