@@ -964,5 +964,33 @@
     "percent": 60,
     "timestamp": "2026-09-25T14:19:54.351Z",
     "type": "discount"
+  },
+  "steam_discount_292030": {
+    "title": "Відьмак 3: Дикий Гін — Повне Видання",
+    "price": 674,
+    "percent": 50,
+    "timestamp": "2026-09-25T23:43:13.525Z",
+    "type": "discount"
+  },
+  "steam_discount_1145350": {
+    "title": "Hades II",
+    "price": 322,
+    "percent": 30,
+    "timestamp": "2026-09-25T23:43:13.525Z",
+    "type": "discount"
+  },
+  "steam_discount_1145360": {
+    "title": "Hades",
+    "price": 128,
+    "percent": 75,
+    "timestamp": "2026-09-25T23:43:13.525Z",
+    "type": "discount"
+  },
+  "steam_discount_526870": {
+    "title": "Satisfactory",
+    "price": 518,
+    "percent": 30,
+    "timestamp": "2026-09-25T23:43:13.525Z",
+    "type": "discount"
   }
 }

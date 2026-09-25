@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T19:03:17.880Z",
+  "lastUpdated": "2026-09-25T23:43:14.511Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -110,6 +110,19 @@
       "isPopular": false
     },
     {
+      "id": "292030",
+      "title": "Відьмак 3: Дикий Гін — Повне Видання",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/0b9b71f862153baeddf4840b556fae572dd11124/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1788333513",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292030",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "570940",
       "title": "DARK SOULS™: REMASTERED",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
@@ -136,14 +149,14 @@
       "isPopular": false
     },
     {
-      "id": "1057090",
-      "title": "Ori and the Will of the Wisps",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
-      "originalPrice": 379,
-      "discountPrice": 37,
-      "discountPercent": 90,
+      "id": "1145350",
+      "title": "Hades II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
+      "originalPrice": 460,
+      "discountPrice": 322,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1057090",
+      "url": "https://store.steampowered.com/app/1145350",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -162,40 +175,27 @@
       "isPopular": false
     },
     {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
+      "id": "1145360",
+      "title": "Hades",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_616x353.jpg?t=1758127023",
+      "originalPrice": 515,
+      "discountPrice": 128,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/1145360",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 539,
-      "discountPercent": 70,
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1788349095",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1687950",
-      "title": "Persona 5 Royal",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1687950",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
