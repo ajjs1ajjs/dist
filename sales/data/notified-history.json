@@ -950,5 +950,19 @@
     "percent": 70,
     "timestamp": "2026-09-24T23:41:40.725Z",
     "type": "discount"
+  },
+  "steam_discount_1057090": {
+    "title": "Ori and the Will of the Wisps",
+    "price": 37,
+    "percent": 90,
+    "timestamp": "2026-09-25T14:19:54.351Z",
+    "type": "discount"
+  },
+  "steam_discount_1771300": {
+    "title": "Kingdom Come: Deliverance II",
+    "price": 639,
+    "percent": 60,
+    "timestamp": "2026-09-25T14:19:54.351Z",
+    "type": "discount"
   }
 }

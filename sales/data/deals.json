@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T23:41:42.411Z",
+  "lastUpdated": "2026-09-25T14:19:56.654Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -110,6 +110,19 @@
       "isPopular": false
     },
     {
+      "id": "1057090",
+      "title": "Ori and the Will of the Wisps",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
+      "originalPrice": 379,
+      "discountPrice": 37,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1057090",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "570940",
       "title": "DARK SOULS™: REMASTERED",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
@@ -118,19 +131,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/570940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "335300",
-      "title": "DARK SOULS™ II: Scholar of the First Sin",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/capsule_616x353.jpg?t=1760721873",
-      "originalPrice": 1199,
-      "discountPrice": 599,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/335300",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -149,14 +149,27 @@
       "isPopular": false
     },
     {
-      "id": "524220",
-      "title": "NieR:Automata™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg?t=1785182957",
-      "originalPrice": 466,
-      "discountPrice": 186,
+      "id": "335300",
+      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/capsule_616x353.jpg?t=1760721873",
+      "originalPrice": 1199,
+      "discountPrice": 599,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/335300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
       "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/524220",
+      "url": "https://store.steampowered.com/app/1771300",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -183,19 +196,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1687950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1789446799",
-      "originalPrice": 1699,
-      "discountPrice": 509,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
