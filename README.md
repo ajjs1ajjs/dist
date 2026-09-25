@@ -366,3 +366,12 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 - Невдалий старт не рапортується як успіх — бінарник відкочується.
 
 [📜 Скрипт встановлення](apps/uptime-monitor/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/uptime-monitor/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Uptime Monitor](https://github.com/ajjs1ajjs/dist/releases?q=uptime)
+
+---
+
+## 👨‍💻 Автор
+
+**Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
+
+- 🚀 [Портфоліо + кейси](https://site.yaroslav-andreichuk.workers.dev) — 10 продуктів, живий термінал, форма заявки
+- 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)
