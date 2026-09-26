@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T18:11:01.593Z",
+  "lastUpdated": "2026-09-26T23:16:31.240Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -110,19 +110,6 @@
       "isPopular": false
     },
     {
-      "id": "292030",
-      "title": "Відьмак 3: Дикий Гін — Повне Видання",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/0b9b71f862153baeddf4840b556fae572dd11124/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1788333513",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292030",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "570940",
       "title": "DARK SOULS™: REMASTERED",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
@@ -136,14 +123,14 @@
       "isPopular": false
     },
     {
-      "id": "1057090",
-      "title": "Ori and the Will of the Wisps",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
-      "originalPrice": 379,
-      "discountPrice": 37,
-      "discountPercent": 90,
+      "id": "292030",
+      "title": "Відьмак 3: Дикий Гін — Повне Видання",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/0b9b71f862153baeddf4840b556fae572dd11124/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1788333513",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1057090",
+      "url": "https://store.steampowered.com/app/292030",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -162,19 +149,6 @@
       "isPopular": false
     },
     {
-      "id": "1145350",
-      "title": "Hades II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
-      "originalPrice": 460,
-      "discountPrice": 322,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1145350",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "335300",
       "title": "DARK SOULS™ II: Scholar of the First Sin",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/capsule_616x353.jpg?t=1760721873",
@@ -188,14 +162,40 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "524220",
+      "title": "NieR:Automata™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg?t=1785182957",
+      "originalPrice": 466,
+      "discountPrice": 186,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/524220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1145350",
+      "title": "Hades II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg?t=1779901265",
+      "originalPrice": 460,
+      "discountPrice": 322,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1145350",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1788349095",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
