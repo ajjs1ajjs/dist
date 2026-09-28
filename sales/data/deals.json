@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T23:30:55.929Z",
+  "lastUpdated": "2026-09-28T17:12:30.227Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -84,14 +84,14 @@
   ],
   "steam": [
     {
-      "id": "4019220",
-      "title": "Dressmaker",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/dde8e789013d3ff938c10dffa3689e6977b0672c/capsule_616x353.jpg?t=1790484978",
-      "originalPrice": 335,
-      "discountPrice": 301,
-      "discountPercent": 10,
+      "id": "292030",
+      "title": "Відьмак 3: Дикий Гін — Повне Видання",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/0b9b71f862153baeddf4840b556fae572dd11124/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1788333513",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4019220",
+      "url": "https://store.steampowered.com/app/292030",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -110,19 +110,6 @@
       "isPopular": false
     },
     {
-      "id": "570940",
-      "title": "DARK SOULS™: REMASTERED",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
-      "originalPrice": 799,
-      "discountPrice": 399,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/570940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1057090",
       "title": "Ori and the Will of the Wisps",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
@@ -136,27 +123,14 @@
       "isPopular": false
     },
     {
-      "id": "292030",
-      "title": "Відьмак 3: Дикий Гін — Повне Видання",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/0b9b71f862153baeddf4840b556fae572dd11124/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1788333513",
-      "originalPrice": 1349,
-      "discountPrice": 674,
+      "id": "570940",
+      "title": "DARK SOULS™: REMASTERED",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
+      "originalPrice": 799,
+      "discountPrice": 399,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292030",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
+      "url": "https://store.steampowered.com/app/570940",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -175,6 +149,32 @@
       "isPopular": false
     },
     {
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1771300",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+      "originalPrice": 1599,
+      "discountPrice": 639,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1771300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "335300",
       "title": "DARK SOULS™ II: Scholar of the First Sin",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/capsule_616x353.jpg?t=1760721873",
@@ -188,14 +188,14 @@
       "isPopular": false
     },
     {
-      "id": "2001120",
-      "title": "Split Fiction",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
-      "originalPrice": 1299,
-      "discountPrice": 844,
-      "discountPercent": 35,
+      "id": "2161700",
+      "title": "Persona 3 Reload",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
+      "originalPrice": 1799,
+      "discountPrice": 539,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2001120",
+      "url": "https://store.steampowered.com/app/2161700",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
