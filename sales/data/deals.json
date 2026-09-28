@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T17:12:30.227Z",
+  "lastUpdated": "2026-09-28T22:48:10.795Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -110,19 +110,6 @@
       "isPopular": false
     },
     {
-      "id": "1057090",
-      "title": "Ori and the Will of the Wisps",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
-      "originalPrice": 379,
-      "discountPrice": 37,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1057090",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "570940",
       "title": "DARK SOULS™: REMASTERED",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
@@ -136,40 +123,14 @@
       "isPopular": false
     },
     {
-      "id": "524220",
-      "title": "NieR:Automata™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg?t=1785182957",
-      "originalPrice": 466,
-      "discountPrice": 186,
-      "discountPercent": 60,
+      "id": "1057090",
+      "title": "Ori and the Will of the Wisps",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
+      "originalPrice": 379,
+      "discountPrice": 37,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/524220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1771300",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
-      "originalPrice": 1599,
-      "discountPrice": 639,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1771300",
+      "url": "https://store.steampowered.com/app/1057090",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -188,14 +149,53 @@
       "isPopular": false
     },
     {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
-      "originalPrice": 1799,
-      "discountPrice": 539,
-      "discountPercent": 70,
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
+      "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1172710",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/91d477c909c88e9dadb3ac9681ab5af8229d71be/capsule_616x353_alt_assets_9_ukrainian.jpg?t=1790078722",
+      "originalPrice": 1149,
+      "discountPrice": 574,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1172710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2138720",
+      "title": "REMATCH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/a87f370c95978e2e2794fffef7084f7cde2b0852/capsule_616x353_alt_assets_1.jpg?t=1790262307",
+      "originalPrice": 680,
+      "discountPrice": 272,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138720",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "526870",
+      "title": "Satisfactory",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1788349095",
+      "originalPrice": 740,
+      "discountPrice": 518,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
