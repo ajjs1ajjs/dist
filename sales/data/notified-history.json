@@ -999,5 +999,12 @@
     "percent": 60,
     "timestamp": "2026-09-28T22:48:09.030Z",
     "type": "discount"
+  },
+  "steam_discount_4114220": {
+    "title": "Tempest Rising: The Veti’s Wrath",
+    "price": 467,
+    "percent": 10,
+    "timestamp": "2026-09-29T21:41:41.618Z",
+    "type": "discount"
   }
 }
