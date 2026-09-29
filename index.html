@@ -208,7 +208,7 @@
       <!-- Quick Metrics Counter Banner -->
       <div class="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
         <div class="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] backdrop-blur-sm">
-          <div class="text-3xl font-extrabold text-white font-mono text-cyan-400">10</div>
+          <div class="text-3xl font-extrabold text-white font-mono text-cyan-400">11</div>
           <div class="text-xs font-medium text-slate-400 mt-1">Готових продуктів</div>
         </div>
         <div class="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] backdrop-blur-sm">
@@ -234,7 +234,7 @@
         <!-- Category Chips -->
         <div class="flex flex-wrap items-center gap-2 w-full md:w-auto" id="filter-container">
           <button onclick="filterCategory('all')" data-cat="all" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-cyan-500 text-black shadow-md shadow-cyan-500/20">
-            Всі рішення (10)
+            Всі рішення (11)
           </button>
           <button onclick="filterCategory('linux')" data-cat="linux" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
             🐧 Linux / SRE (4)
@@ -243,7 +243,7 @@
             🪟 Windows (4)
           </button>
           <button onclick="filterCategory('web')" data-cat="web" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
-            🌐 Web & PWA (2)
+            🌐 Web & PWA (3)
           </button>
           <button onclick="filterCategory('monitoring')" data-cat="monitoring" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
             📡 Моніторинг
@@ -325,13 +325,13 @@
                 <i data-lucide="compass" class="w-6 h-6"></i>
               </div>
               <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-medium bg-cyan-500/10 text-cyan-300 border border-cyan-500/25">
-                Windows 10 / 11 · x64
+                Windows · macOS ARM (0.3.30+)
               </span>
             </div>
             
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
               KubeLens
-              <span class="text-xs px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-mono">v0.3.29</span>
+              <span class="text-xs px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-mono" data-latest="kubelens-v">v0.3.29</span>
             </h3>
             <p class="text-xs font-medium text-cyan-400 mt-1">Kubernetes Desktop IDE</p>
             <p class="text-slate-400 text-xs mt-3 leading-relaxed">
@@ -348,6 +348,7 @@
 
           <div class="mt-6 pt-4 border-t border-white/[0.08]">
             <a href="https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.29/KubeLens_0.3.29_x64-setup.exe" 
+               data-latest="kubelens-v" data-asset="setup\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
               <span>Завантажити інсталятор (.exe)</span>
@@ -380,7 +381,7 @@
             
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
               PyMon NOC
-              <span class="text-xs px-2 py-0.5 rounded bg-orange-500/20 text-orange-300 font-mono">v3.3.2</span>
+              <span class="text-xs px-2 py-0.5 rounded bg-orange-500/20 text-orange-300 font-mono" data-latest="monitoring-v">v3.3.2</span>
             </h3>
             <p class="text-xs font-medium text-orange-400 mt-1">Infrastructure Monitoring & NOC Dashboard</p>
             <p class="text-slate-400 text-xs mt-3 leading-relaxed">
@@ -427,13 +428,13 @@
                 <i data-lucide="terminal-square" class="w-6 h-6"></i>
               </div>
               <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-medium bg-indigo-500/10 text-indigo-300 border border-indigo-500/25">
-                Windows 10 / 11 · x64
+                Windows · macOS ARM (2.1.6+)
               </span>
             </div>
             
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
               RDM Manager
-              <span class="text-xs px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono">v2.1.5</span>
+              <span class="text-xs px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono" data-latest="rdm-v">v2.1.5</span>
             </h3>
             <p class="text-xs font-medium text-indigo-400 mt-1">Remote Connection Manager for SRE & DevOps</p>
             <p class="text-slate-400 text-xs mt-3 leading-relaxed">
@@ -444,12 +445,13 @@
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Tauri 2</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Rust</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">SQLite</span>
-              <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/15 border border-indigo-500/30 text-indigo-300">Portable & NSIS</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/15 border border-indigo-500/30 text-indigo-300">NSIS · macOS DMG</span>
             </div>
           </div>
 
           <div class="mt-6 pt-4 border-t border-white/[0.08]">
             <a href="https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.5/RDM.Manager_2.1.5_x64-setup.exe" 
+               data-latest="rdm-v" data-asset="setup\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
               <span>Завантажити інсталятор (.exe)</span>
@@ -681,7 +683,54 @@
           </div>
         </div>
 
-        <!-- 9. Resource Calculator -->
+        <!-- 9. 3D Games Collection (itch.io) -->
+        <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
+             data-category="web" 
+             data-title="3d games collection three.js webgl browser itch.io gravity shift drift terraformers echoes verdant" 
+             data-name="3D Games">
+          <div>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class="w-12 h-12 rounded-xl bg-lime-500/15 border border-lime-500/30 flex items-center justify-center text-lime-400 shadow-inner">
+                <i data-lucide="gamepad-2" class="w-6 h-6"></i>
+              </div>
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-medium bg-lime-500/10 text-lime-300 border border-lime-500/25">
+                Web · WebGL / Three.js
+              </span>
+            </div>
+            
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              3D Games Collection
+              <span class="text-xs px-2 py-0.5 rounded bg-lime-500/20 text-lime-300 font-mono">itch.io</span>
+            </h3>
+            <p class="text-xs font-medium text-lime-400 mt-1">5 браузерних 3D-ігор</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+              GravityShift, Drift, Terraformers, Echoes, Verdant — самодостатні WebGL-ігри. Публікуються на itch.io автоматично з GitHub Actions (butler).
+            </p>
+
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Three.js</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">WebGL</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">itch.io</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-lime-500/15 border border-lime-500/30 text-lime-300">GitHub Actions</span>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-white/[0.08]">
+            <a href="https://ajjs1ajjs.itch.io/" target="_blank" 
+               class="w-full py-2.5 px-4 rounded-xl bg-lime-600 hover:bg-lime-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-lime-600/20 hover:scale-[1.01]">
+              <i data-lucide="external-link" class="w-4 h-4"></i>
+              <span>Відкрити на itch.io</span>
+            </a>
+            <div class="mt-3 flex items-center justify-between text-xs pt-1">
+              <span class="text-slate-500 text-[11px]">Публікація — 1 жовтня (відкладений реліз)</span>
+              <a href="https://ajjs1ajjs.itch.io/" target="_blank" class="text-slate-400 hover:text-lime-400 transition-colors flex items-center gap-1">
+                @ajjs1ajjs <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Resource Calculator -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
              data-title="resource calculator it infrastructure sizing dotnet csharp windows portable" 
@@ -730,7 +779,7 @@
           </div>
         </div>
 
-        <!-- 10. DiskCleaner -->
+        <!-- 11. DiskCleaner -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
              data-title="diskcleaner clean disk drive temp files cache windows portable" 
@@ -948,9 +997,9 @@
                 <td class="py-3 px-4 font-bold text-white flex items-center gap-2">
                   <span class="w-2 h-2 rounded-full bg-cyan-400"></span> KubeLens
                 </td>
-                <td class="py-3 px-4">Windows 10/11 · x64</td>
+                <td class="py-3 px-4">Windows · macOS ARM</td>
                 <td class="py-3 px-4">Tauri 2 · Rust · React</td>
-                <td class="py-3 px-4 text-cyan-400">NSIS Setup (.exe)</td>
+                <td class="py-3 px-4 text-cyan-400">NSIS (.exe) · DMG</td>
                 <td class="py-3 px-4">In-App (Minisign)</td>
                 <td class="py-3 px-4 text-right">
                   <a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens" target="_blank" class="text-cyan-400 hover:underline">.exe</a>
@@ -972,9 +1021,9 @@
                 <td class="py-3 px-4 font-bold text-white flex items-center gap-2">
                   <span class="w-2 h-2 rounded-full bg-indigo-400"></span> RDM Manager
                 </td>
-                <td class="py-3 px-4">Windows 10/11 · x64</td>
+                <td class="py-3 px-4">Windows · macOS ARM</td>
                 <td class="py-3 px-4">Tauri 2 · SQLite</td>
-                <td class="py-3 px-4 text-indigo-400">Setup & Portable zip</td>
+                <td class="py-3 px-4 text-indigo-400">NSIS (.exe) · DMG</td>
                 <td class="py-3 px-4">In-App (Minisign)</td>
                 <td class="py-3 px-4 text-right">
                   <a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm" target="_blank" class="text-cyan-400 hover:underline">.exe</a>
@@ -1208,7 +1257,7 @@
       },
       kubelens: {
         title: 'KubeLens — Kubernetes Desktop IDE',
-        category: 'Windows 10/11 · x64 · Tauri 2 / Rust / React',
+        category: 'Windows · macOS ARM (0.3.30+) · Tauri 2 / Rust / React',
         iconBg: 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30',
         icon: 'compass',
         html: `
@@ -1229,8 +1278,8 @@
           </div>
         `,
         actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.29/KubeLens_0.3.29_x64-setup.exe" class="px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити KubeLens_0.3.29_x64-setup.exe
+          <a href="https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.29/KubeLens_0.3.29_x64-setup.exe" data-latest="kubelens-v" data-asset="setup\.exe$" class="px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити інсталятор (.exe)
           </a>
         `
       },
@@ -1253,7 +1302,7 @@
             </div>
             <div class="p-3 rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-300">
               <strong>Встановлення конкретної версії:</strong><br>
-              <code class="font-mono text-[11px]">PYMON_VERSION=3.3.2 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash</code>
+              <code class="font-mono text-[11px]">PYMON_VERSION=&lt;версія&gt; curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash</code>
             </div>
           </div>
         `,
@@ -1265,7 +1314,7 @@
       },
       rdm: {
         title: 'RDM Manager — Remote Connection Manager',
-        category: 'Windows 10/11 · x64 · Tauri 2 / Rust / SQLite',
+        category: 'Windows · macOS ARM (2.1.6+) · Tauri 2 / Rust / SQLite',
         iconBg: 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30',
         icon: 'terminal-square',
         html: `
@@ -1274,8 +1323,8 @@
             <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
               <h5 class="font-bold text-white mb-2">Формати релізів:</h5>
               <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li><code class="text-cyan-400 font-mono">RDM.Manager_*_x64-setup.exe</code> — стандартний NSIS-інсталятор</li>
-                <li><code class="text-cyan-400 font-mono">RDM.Manager.v*.Portable.zip</code> — портативна версія для запуску без встановлення</li>
+                <li><code class="text-cyan-400 font-mono">RDM.Manager_*_x64-setup.exe</code> — NSIS-інсталятор для Windows</li>
+                <li><code class="text-cyan-400 font-mono">RDM.Manager_*_aarch64.dmg</code> — інсталятор для macOS (Apple Silicon), з релізу 2.1.6</li>
               </ul>
             </div>
             <div class="p-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-300">
@@ -1284,7 +1333,7 @@
           </div>
         `,
         actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.5/RDM.Manager_2.1.5_x64-setup.exe" class="px-3.5 py-2 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition-colors flex items-center gap-1.5">
+          <a href="https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.5/RDM.Manager_2.1.5_x64-setup.exe" data-latest="rdm-v" data-asset="setup\.exe$" class="px-3.5 py-2 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition-colors flex items-center gap-1.5">
             <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити NSIS Setup
           </a>
         `
@@ -1395,6 +1444,9 @@
               <code class="text-cyan-300">(Get-FileHash .\\ITE.ResourceCalculator.exe -Algorithm SHA256).Hash</code>
             </div>
             <p class="text-slate-400">Програма не потребує встановлення і самостійно перевіряє оновлення з репозиторію при наявності інтернету.</p>
+            <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300">
+              <strong>Оновлення зі старих версій (≤ 2.4.12):</strong> вони читали релізи зі старого кодового репозиторію, який тепер приватний, тож автоматичне оновлення в них більше не працює. Одноразово завантажте ITE.ResourceCalculator.exe версії v2.5.0+ вручну — далі оновлення знову відбуватимуться автоматично з цього репозиторію.
+            </div>
           </div>
         `,
         actions: `
@@ -1527,6 +1579,7 @@
 
       document.getElementById('quickModal').classList.remove('hidden');
       lucide.createIcons();
+      resolveLatestReleases();
     }
 
     function closeModal() {
@@ -1597,7 +1650,7 @@
           <div class="text-orange-300">==> Перевірка архітектури процесора: x86_64 / Ubuntu 24.04</div>
           <div class="text-slate-400">==> Виявлено існуючий конфіг /etc/pymon/config.yml (збережено без змін)</div>
           <div class="text-slate-400">==> Створення бекапу попереднього бінарника: pymon.old</div>
-          <div class="text-slate-400">==> Оновлення бінарника pymon-server до версії 3.3.2...</div>
+          <div class="text-slate-400">==> Оновлення бінарника pymon-server до останньої версії...</div>
           <div class="text-slate-400">==> Перезапуск systemd unit pymon.service...</div>
           <div class="text-emerald-400 font-bold">✓ PyMon NOC успішно оновлено! Дашборд моніторингу доступний.</div>
           <div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>
@@ -1615,7 +1668,7 @@
       } else if (type === 'uptime') {
         script = `
           <div class="text-white"><span class="text-teal-400">root@server:~#</span> curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash</div>
-          <div class="text-teal-300">==> Завантаження Uptime Monitor v3.7.2...</div>
+          <div class="text-teal-300">==> Завантаження Uptime Monitor (остання версія)...</div>
           <div class="text-slate-400">==> Звірка з checksums.txt: <span class="text-emerald-400">VALID</span></div>
           <div class="text-slate-400">==> Тестовий старт бінарника: self-check PASS</div>
           <div class="text-slate-400">==> Перезапуск служби uptime-monitor.service...</div>
@@ -1627,6 +1680,57 @@
       out.innerHTML = script;
       out.scrollTop = out.scrollHeight;
     }
+
+    // --- Динамічні посилання на останні релізи (фолбек — статичні URL у HTML вище) ---
+    // Портал статичний (GitHub Pages), тож прямі кнопки завантаження раніше «застигали»
+    // на версії, вписаній у HTML. Тепер один запит до GitHub API резолвить найновіший
+    // реліз кожного продукту й оновлює бейджі та лінки; якщо запит не вдався
+    // (offline / rate limit) — лишаються статичні посилання, вони завжди робочі.
+    const LATEST_ASSET_PATTERNS = {
+      'kubelens-v': /setup\.exe$/i,
+      'rdm-v': /setup\.exe$/i
+    };
+    let latestReleasesPromise = null;
+
+    function resolveLatestReleases() {
+      const targets = Array.from(document.querySelectorAll('[data-latest]'));
+      if (!targets.length) return;
+      const prefixes = [...new Set(targets.map(el => el.dataset.latest))];
+
+      latestReleasesPromise = latestReleasesPromise || fetch('https://api.github.com/repos/ajjs1ajjs/dist/releases?per_page=100')
+        .then(res => {
+          if (!res.ok) throw new Error('GitHub API ' + res.status);
+          return res.json();
+        })
+        .then(releases => releases.filter(rel => !rel.draft && !rel.prerelease))
+        .catch(() => null);
+
+      latestReleasesPromise.then(releases => {
+        if (!releases) return;
+        const latest = {};
+        for (const rel of releases) {
+          for (const prefix of prefixes) {
+            if (!latest[prefix] && rel.tag_name && rel.tag_name.startsWith(prefix)) {
+              latest[prefix] = rel;
+            }
+          }
+        }
+        document.querySelectorAll('[data-latest]').forEach(el => {
+          const rel = latest[el.dataset.latest];
+          if (!rel) return;
+          const version = rel.tag_name.slice(el.dataset.latest.length).replace(/^v/i, '');
+          if (el.tagName === 'A') {
+            const pattern = LATEST_ASSET_PATTERNS[el.dataset.latest];
+            const asset = pattern && (rel.assets || []).find(a => pattern.test(a.name));
+            if (asset) el.href = asset.browser_download_url;
+          } else {
+            el.textContent = 'v' + version;
+          }
+        });
+      });
+    }
+
+    resolveLatestReleases();
   </script>
 </body>
 </html>
