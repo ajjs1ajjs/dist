@@ -1006,5 +1006,19 @@
     "percent": 10,
     "timestamp": "2026-09-29T21:41:41.618Z",
     "type": "discount"
+  },
+  "steam_discount_1488490": {
+    "title": "Nivalis Nights",
+    "price": 531,
+    "percent": 10,
+    "timestamp": "2026-09-30T15:29:28.481Z",
+    "type": "discount"
+  },
+  "steam_discount_3438810": {
+    "title": "프린세스 메이커 : 예언의 아이들",
+    "price": 560,
+    "percent": 20,
+    "timestamp": "2026-09-30T15:29:28.481Z",
+    "type": "discount"
   }
 }

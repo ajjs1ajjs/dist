@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T21:41:43.361Z",
+  "lastUpdated": "2026-09-30T15:29:29.511Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -86,12 +86,25 @@
     {
       "id": "292030",
       "title": "Відьмак 3: Дикий гін — Перевидання",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/04d8abf756a6f166fb3a54e8dddf94af31532174/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1790693338",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/04d8abf756a6f166fb3a54e8dddf94af31532174/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1790769419",
       "originalPrice": 1349,
       "discountPrice": 674,
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/292030",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1488490",
+      "title": "Nivalis Nights",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488490/daabe3a1412b729b9f0d19b38a30370a46b8b3be/capsule_616x353.jpg?t=1790694813",
+      "originalPrice": 590,
+      "discountPrice": 531,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1488490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -110,6 +123,19 @@
       "isPopular": false
     },
     {
+      "id": "1057090",
+      "title": "Ori and the Will of the Wisps",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
+      "originalPrice": 379,
+      "discountPrice": 37,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1057090",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "570940",
       "title": "DARK SOULS™: REMASTERED",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
@@ -118,45 +144,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/570940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4114220",
-      "title": "Tempest Rising: The Veti’s Wrath",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4114220/0405834cc2df09ff90f624bea5d1609c1d06b807/capsule_616x353.jpg?t=1790709077",
-      "originalPrice": 519,
-      "discountPrice": 467,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4114220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "526870",
-      "title": "Satisfactory",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/290c413f4075e43a5d2e106dcbbaa036b3271621/capsule_616x353.jpg?t=1788349095",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/526870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -175,14 +162,14 @@
       "isPopular": false
     },
     {
-      "id": "2138720",
-      "title": "REMATCH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/a87f370c95978e2e2794fffef7084f7cde2b0852/capsule_616x353_alt_assets_1.jpg?t=1790262307",
-      "originalPrice": 680,
-      "discountPrice": 272,
-      "discountPercent": 60,
+      "id": "3438810",
+      "title": "프린세스 메이커 : 예언의 아이들",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438810/3cfdbbc60fb6692a28687425e00c08a55e2830df/capsule_616x353.jpg?t=1790761177",
+      "originalPrice": 700,
+      "discountPrice": 560,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138720",
+      "url": "https://store.steampowered.com/app/3438810",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -196,6 +183,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/374320",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
