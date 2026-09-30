@@ -1,7 +1,10 @@
-# Resource Calculator — завантаження
+# Server Infrastructure Calculator (IT-Enterprise) — завантаження
 
-Портативний застосунок для Windows 10/11 — один `.exe`, self-contained, встановлення
-не потрібне. Просто завантажте файл у будь-яку теку й запустіть.
+Флагманський портативний інженерний застосунок для Windows 10/11 — комплексний
+сайзинг серверної інфраструктури (Kubernetes, Windows Server, Гібрид, СУБД
+MS SQL/PostgreSQL/Oracle, дискові масиви, IOPS, середовища DEV/TEST/PreProd/PROD
+за стандартом D-AD-ADM-E). Один `.exe`, self-contained, встановлення не потрібне.
+Просто завантажте файл у будь-яку теку й запустіть.
 
 ## Завантажити
 

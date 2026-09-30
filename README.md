@@ -13,7 +13,8 @@
 <br><br>
 
 <a href="#bck"><img src="https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white" alt="BCK"></a>
-<a href="#calculator"><img src="https://img.shields.io/badge/Resource_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Resource Calculator"></a>
+<a href="#calculator"><img src="https://img.shields.io/badge/Server_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
+<a href="#rescalc"><img src="https://img.shields.io/badge/Sales_Calculator-Windows-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Sales Proposal Calculator"></a>
 <a href="#diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
 <a href="#gym"><img src="https://img.shields.io/badge/Gym_Tracker-PWA-FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="Gym Tracker"></a>
 <a href="#kubelens"><img src="https://img.shields.io/badge/KubeLens-Windows-24C8DB?style=for-the-badge&logo=kubernetes&logoColor=white" alt="KubeLens"></a>
@@ -23,7 +24,7 @@
 <a href="#sales"><img src="https://img.shields.io/badge/Game_Sales-PWA-C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 
-<sub><b>10 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>11 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
@@ -48,17 +49,28 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 </td>
 <td align="center" width="50%">
 <br>
-<a href="#calculator"><img src="https://img.shields.io/badge/Resource_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Resource Calculator"></a>
+<a href="#calculator"><img src="https://img.shields.io/badge/Server_Infrastructure_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
 <br>
-<sub>Windows 10 / 11 · x64</sub>
+<sub>Windows 10 / 11 · x64 · Portable</sub>
 <br><br>
-Розрахунок ресурсів IT-інфраструктури за матрицею сайзингу
+<b>Флагман:</b> інженерний сайзинг кластерів, Kubernetes, СУБД та дисків (D-AD-ADM-E)
 <br><br>
 <a href="#calculator">⬇️ <b>Завантажити</b></a>
 <br><br>
 </td>
 </tr>
 <tr>
+<td align="center" width="50%">
+<br>
+<a href="#rescalc"><img src="https://img.shields.io/badge/Sales_Proposal_Calculator--2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Sales Proposal Calculator"></a>
+<br>
+<sub>Windows 10 / 11 · x64 · Installer</sub>
+<br><br>
+Швидкий розрахунок серверних ресурсів для КП сейлз-менеджерами
+<br><br>
+<a href="#rescalc">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
 <td align="center" width="50%">
 <br>
 <a href="#diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner--0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
@@ -198,20 +210,41 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 <a id="calculator"></a>
 
-### 🧮 Resource Calculator
+### 🖥️ Server Infrastructure Calculator (IT-Enterprise)
 
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator"><img src="https://img.shields.io/badge/Resource_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Resource Calculator"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator"><img src="https://img.shields.io/badge/Server_Infrastructure_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
 
-**Windows 10 / 11 · x64** — портативний застосунок, **один `.exe`**, встановлення не потрібне.
+**Windows 10 / 11 · x64** — **флагманський інженерний застосунок**, портативний, **один `.exe`**, встановлення не потрібне.
 
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator">
   <img src="https://img.shields.io/badge/Download-latest-512BD4?style=for-the-badge" alt="Завантажити останню версію">
 </a>
 
+- Точний сайзинг серверної інфраструктури (Kubernetes, Windows Server, Гібрид, СУБД MS SQL/PostgreSQL/Oracle, диски, IOPS, DEV/TEST/PreProd/PROD за стандартом D-AD-ADM-E).
 - Завантажте `ITE.ResourceCalculator.exe`, звірте з `SHA256SUMS.txt`, запустіть.
-- Далі програма **оновлюється сама** — читає релізи цього репозиторію.
+- Далі програма **оновлюється сама** — читає релізи цього репозиторію (теги `calculator-v*`).
 
-[📖 Деталі та перевірка](apps/calculator/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator)
+[📖 Деталі та перевірка](apps/calculator/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Server Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator)
+
+---
+
+<a id="rescalc"></a>
+
+### 💼 Sales Proposal Calculator
+
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=rescalc"><img src="https://img.shields.io/badge/Sales_Proposal_Calculator--2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Sales Proposal Calculator"></a>
+
+**Windows 10 / 11 · x64** — швидкий розрахунок серверних ресурсів для комерційних пропозицій (КП), **Inno Setup інсталятор**.
+
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=rescalc">
+  <img src="https://img.shields.io/badge/Download-latest-2563EB?style=for-the-badge" alt="Завантажити останню версію">
+</a>
+
+- Підбір ліцензій модулів для сейлз-менеджерів, формування розрахунку та експорт КП у Excel/PDF.
+- Завантажте `ResourceCalculator_Setup_v*.exe` і встановіть у пару кліків.
+- Застосунок **оновлюється сам** при старті (теги `rescalc-v*`).
+
+[📖 Деталі та перевірка](apps/rescalc/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Sales Calculator](https://github.com/ajjs1ajjs/dist/releases?q=rescalc)
 
 ---
 
