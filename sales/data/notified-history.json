@@ -1020,5 +1020,12 @@
     "percent": 20,
     "timestamp": "2026-09-30T15:29:28.481Z",
     "type": "discount"
+  },
+  "steam_discount_1706510": {
+    "title": "Songs of Glimmerwick",
+    "price": 477,
+    "percent": 10,
+    "timestamp": "2026-09-30T21:42:13.549Z",
+    "type": "discount"
   }
 }

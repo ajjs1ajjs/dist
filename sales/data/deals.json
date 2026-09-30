@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T15:29:29.511Z",
+  "lastUpdated": "2026-09-30T21:42:14.898Z",
   "epic": [
     {
       "id": "7c14bf0cffdd43be968fdcf28e5af653",
@@ -123,19 +123,6 @@
       "isPopular": false
     },
     {
-      "id": "1057090",
-      "title": "Ori and the Will of the Wisps",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg?t=1759530749",
-      "originalPrice": 379,
-      "discountPrice": 37,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1057090",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "570940",
       "title": "DARK SOULS™: REMASTERED",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg?t=1778518110",
@@ -144,32 +131,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/570940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "335300",
-      "title": "DARK SOULS™ II: Scholar of the First Sin",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/capsule_616x353.jpg?t=1760721873",
-      "originalPrice": 1199,
-      "discountPrice": 599,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/335300",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3438810",
-      "title": "프린세스 메이커 : 예언의 아이들",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3438810/3cfdbbc60fb6692a28687425e00c08a55e2830df/capsule_616x353.jpg?t=1790761177",
-      "originalPrice": 700,
-      "discountPrice": 560,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3438810",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -188,6 +149,19 @@
       "isPopular": false
     },
     {
+      "id": "335300",
+      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335300/capsule_616x353.jpg?t=1760721873",
+      "originalPrice": 1199,
+      "discountPrice": 599,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/335300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "374320",
       "title": "DARK SOULS™ III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
@@ -196,6 +170,32 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1789446715",
+      "originalPrice": 1099,
+      "discountPrice": 274,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1462040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1706510",
+      "title": "Songs of Glimmerwick",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/0aa9ac47e02b5f3bb1fc86932ac3d675cee08344/capsule_616x353.jpg?t=1790786083",
+      "originalPrice": 530,
+      "discountPrice": 477,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1706510",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
