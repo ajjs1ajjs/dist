@@ -1,15 +1,11 @@
 {
-  "version": "2.1.9",
-  "notes": "RDM Manager 2.1.9",
-  "pub_date": "2026-10-01T14:00:18.392Z",
+  "version": "2.1.10",
+  "notes": "RDM Manager 2.1.10",
+  "pub_date": "2026-10-01T20:27:26.805Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzRzRUVETXViWkJqalZwUjljUHpaSGlEc3VaNTRvamZnZURtM3lCazVoVVFlNm1KNHhvZE9ORWVFT3NEWXhyNTBCd3VwM2E0UjJiamJBU0lMSlBSR3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODYzMjAwCWZpbGU6UkRNIE1hbmFnZXJfMi4xLjlfeDY0LXNldHVwLmV4ZQprZUQ0TFRXc1Y2RVNwNThlN0U3ZTNvVC9PdWhLQ1I5bC9hbDEwQlB1Q3RPTktGTXZKRkpoNjZmY0paem1YWUZEV2pHRUtKalI1ZE53Y0tUeS96S0VBUT09Cg==",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.9/RDM.Manager_2.1.9_x64-setup.exe"
-    },
-    "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEK3l6RjBleG1PcU8zeGhzc0l4ZzJ4eHVZTTh2YzZBSG1HMXNhZ1BuZTlITnV3ZlByL0VadXZoSzNxZDJWaVZUUk5yd2J4b0s3dDBHT1hhcGxJUTFrb1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODYyOTAzCWZpbGU6UkRNIE1hbmFnZXIuYXBwLnRhci5negpUQVBlRkNjUkdwT090UGo4Z3pGaHRCckQyaVhYckhNc1ZLZUF3WUxmUTUwaU1ZTG9XcjlCMFY3akxjdWhJYUt2S2NBeWhFVjdTdFZzL1UwQWYxQTNCUT09Cg==",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.9/RDM.Manager.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEK3dwZGJRUzRXQmpXSjVVbUVEd1BacC8reDJIU1d2OERCS2xkaFk2aHZOd055TFZCSmQzd1R2VW5rRXZNTzArM3VLTE1GbFVLU25rTnpLMmI0bGFSNVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODg2NDQ2CWZpbGU6UkRNIE1hbmFnZXJfMi4xLjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoyLjEuMTAKZ0FNMHNFbzZ6QTJiRlNKL2JldDdDK3Q1RjdXZDJCcGxWMStzY2RBSHhPRjVVS2ZZZDgvVzRsck9wUUk4MmtFZ3FyRzdockR3cXAzNFBkeVFhMWZoQlE9PQo=",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.10/RDM.Manager_2.1.10_x64-setup.exe"
     }
   }
 }
