@@ -9,7 +9,10 @@ name: Sales — update deals & deploy
 
 on:
   schedule:
-    - cron: '0 9,15,18,21 * * *'
+    # Щогодини (хв :07 — щоб не товктись на межі години).
+    # Публічне репо: хвилини Actions безкоштовні.
+    # Steam API без ключа: ~4 запити на ран — далеко від лімітів.
+    - cron: '7 * * * *'
   workflow_dispatch:
 
 permissions:
