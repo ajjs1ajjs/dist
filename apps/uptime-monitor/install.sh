@@ -130,7 +130,11 @@ else
         rm -f "$TMP_BIN" "$TMP_SUM"
         exit 1
     fi
-    EXPECTED="$(tr -d '\r' < "$TMP_SUM" | grep "${BINARY_NAME}$" | awk '{print $1}')"
+    # Витягаємо "<hash>  <binary>" парою, а не цілим рядком: так працює і для
+    # канонічного checksums.txt (два рядки), і для битого однолайнера без \n
+    # (uptime-v3.8.8), а також для CRLF і `*` (sha256sum -b). grep -oE повертає
+    # лише збіг "<hash> <ім'я>", awk забирає перше поле.
+    EXPECTED="$(tr -d '\r' < "$TMP_SUM" | grep -oE '[0-9a-fA-F]{64}[[:space:]]+\*?'"${BINARY_NAME}" | awk '{print $1}' | head -n 1)"
     if [ -z "$EXPECTED" ]; then
         echo "ERROR: checksums.txt has no entry for ${BINARY_NAME}; refusing to install an unverified binary."
         rm -f "$TMP_BIN" "$TMP_SUM"
