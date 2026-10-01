@@ -1,15 +1,15 @@
 {
-  "version": "0.3.30",
-  "notes": "KubeLens 0.3.30",
-  "pub_date": "2026-10-01T08:45:26.863Z",
+  "version": "0.3.31",
+  "notes": "KubeLens 0.3.31",
+  "pub_date": "2026-10-01T09:14:28.714Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRDVPeFpvd3VuZ1ZnQm5CdXpPNDF3ZnBKaC94a25pV3dIaWVaTjZXK2lneS9BdkNROEQrbHVKUUxBaTlrbnZUemhxY24wYTdkblordGJERnRaYTVyakFWbjRma05oZGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODQ0MTIwCWZpbGU6S3ViZUxlbnNfMC4zLjMwX3g2NC1zZXR1cC5leGUKQ1hvMTBFKzI3alRCQW4zK1I2U1RVUjBmVUVVVFBXT2tDMXZWZlJDM0Q1TTJtZDYyZDQxcDRBVkJlNVpVZGdiRlRjcDFvYzk1alUrbWw1UURvQ3NGRFE9PQo=",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.30/KubeLens_0.3.30_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjRCV1ROdndRNlQyajd2V2JvVmwzSWU3OWlKSWVMaHBCbU9EQTlteHpRZ2Zpcmx3YnQwdVpKMXhrZlpjNktyS3hYS2FndzduSnBtV2c3dFhsWCt3MzFERmZRbUppMmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODQ2MDQ4CWZpbGU6S3ViZUxlbnNfMC4zLjMxX3g2NC1zZXR1cC5leGUKS1czQWZ0OE8wSVYrMTFiaHNFNDY4MEJkV3p4YXlaelhlc2M4bzQ2UWQ5Y1AxVXp4amZ6U1kxVlNleGg2cUM2bTF6TUh6Mk9JWWJreUVVZ3k3MTZpQnc9PQo=",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.31/KubeLens_0.3.31_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSRDVPeFpvd3VuZ2EzZ2xaeElwcUpGdzRVa29kRzcxK1Z1QzNmMEltb2V5eU9FQVdQZXJDdnFXSFRpS3FuaTVkalpKczA3S3lyVVhSQTJXbzRaWkxKSTloWE1rVXdRa1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODQzMTA2CWZpbGU6S3ViZUxlbnMuYXBwLnRhci5negprUjBmRURzSEY3SmovNXBzSEo2cldXNkVNNTZRNi9OUjl5M1h6MnpKdnBMYVRkK2tmbzZ4S3ZsTTUzbDY0TFFXN1M3YTBydzYrTjd0YU9tQ2tSL01Cdz09Cg==",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.30/KubeLens.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjRCV1ROdndRNmN0eFZqRGttbm5mQTJ0R1dTZmJjZVNIR3dnQy9XN0tCaTFRaHJMeldRN096K1V6eWFSczRhRzVoYXJ1L0pVY2NyU1E0eWdtdTRoMzQzdkJsb1BiOUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODQ1Nzk3CWZpbGU6S3ViZUxlbnMuYXBwLnRhci5negp3dmxwdUxwei96SHRMVmwvMzk3L2x4K2JxNHZadnZZUjhWTUtiN0JMQkVESkZJaGt1YS9Ha3NoYWNZMW5VbHNDYi8rOGF1ZlFqOGEvYkJyVkpEb1pDQT09Cg==",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.31/KubeLens.app.tar.gz"
     }
   }
 }
