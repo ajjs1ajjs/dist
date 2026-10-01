@@ -1,0 +1,31 @@
+# Dependabot: keeps Actions pins and the sales fetcher deps fresh.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Europe/Kyiv
+    groups:
+      actions-minor:
+        patterns: ["*"]
+        update-types: [minor, patch]
+    commit-message:
+      prefix: chore(deps)
+    open-pull-requests-limit: 5
+  - package-ecosystem: npm
+    directory: /apps/sales/fetch
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Europe/Kyiv
+    groups:
+      npm-minor:
+        patterns: ["*"]
+        update-types: [minor, patch]
+    commit-message:
+      prefix: chore(deps)
+    open-pull-requests-limit: 5
