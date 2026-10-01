@@ -1,15 +1,15 @@
 {
-  "version": "2.1.7",
-  "notes": "RDM Manager 2.1.7",
-  "pub_date": "2026-10-01T12:05:55.977Z",
+  "version": "2.1.8",
+  "notes": "RDM Manager 2.1.8",
+  "pub_date": "2026-10-01T13:38:10.470Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzUxV1ZuU2w1bjUycGtZbjJWVjF3YkNOczRhWTA4S1poYXEzVzlsYU9QcUhJRmxvNk5adjBBTkhWdkFpSWxzNnZTbCtGNWxLYUJYdk8wdGRQZmhFWEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODU2MzM1CWZpbGU6UkRNIE1hbmFnZXJfMi4xLjdfeDY0LXNldHVwLmV4ZQpOdUNJZlhFaWZlUFE3TEtCWXJTang5dWFNK0EzYnVwNGFnTTMvLzVNd0llQnFjanlYcldzbXVpLzB3YkxNbVRmZEI3ZS9RUGMrdVl6UVBCb25OdkJEUT09Cg==",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.7/RDM.Manager_2.1.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzBuQjFqTDBRNjlPQnpOa0Y2YStjdStWZFNIdFJacnUrV0NMWWl2S2pBeDhBNkZTaXFWZkM5TkVRQVNYVGQvb2g3SXBxKzRJVDJvMFh4KzVVRUpRUkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODYwNzE3CWZpbGU6UkRNIE1hbmFnZXJfMi4xLjhfeDY0LXNldHVwLmV4ZQpGaVp0bnEyVW1vdmJ2MDZtZ3g1UERzMEVzeXovK01Od0NrOEVRazBaUjlCTzRId0k2RHh0YUJ3Zk5yVlZaRHVPZWVNZmU4QVorbXdPMUFRdVViWXVEQT09Cg==",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.8/RDM.Manager_2.1.8_x64-setup.exe"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKytURGVFTjRDMkJ0ZjI5cldSbWxJWHVJRGhUMU9mM2FNVlFqR2tTeTNBSU9Da01nRUtjcTU2UzN3UjJJWmEvK3pWcUFaejBpK2o1ck9UVHdnR3RiM3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODU2MTA0CWZpbGU6UkRNIE1hbmFnZXIuYXBwLnRhci5negpGSS9sZklDNjZKM1k4Z3RmM1JNeWdYMDN1L2pTWUV3WERTei9udXkyaDd1V3paai9NTDJ0cjROVjFwMnhsbFo2MTFISjVrcGg2bTFRVHIvaUR5YjZCUT09Cg==",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.7/RDM.Manager.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzJhbXh3VlBoUkVuMnhTMVpELzc5OEZDMVdVZ0NYaFVsOExwUXVRT3ZNUGptaERZRVQyOFJacVVPRVZ0UFJYTGc1bHpRYStWdlp4ZE5xN3pzWFdBUlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODU5OTI2CWZpbGU6UkRNIE1hbmFnZXIuYXBwLnRhci5negpyZjlMUWMwMkdTQ0VmbEpSdFRxU0xZYk9pUkx5TG5jYlNFUzl5NWJWMm5kTkl3eXk4cGJGYlVZZzhYSTF5RzNGZCszeFZrQWt5bEJlY2dsdVJLRDdEUT09Cg==",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.8/RDM.Manager.app.tar.gz"
     }
   }
 }
