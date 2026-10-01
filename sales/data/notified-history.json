@@ -1027,5 +1027,19 @@
     "percent": 10,
     "timestamp": "2026-09-30T21:42:13.549Z",
     "type": "discount"
+  },
+  "epic_free_7ae00c3e89174012b175cc73b4737723": {
+    "title": "System Shock 2: 25th Anniversary Remaster",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-10-01T15:52:19.261Z",
+    "type": "free"
+  },
+  "epic_free_af4c34934afe4db0870b8a1d82dceb94": {
+    "title": "BURIED STARS",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-10-01T15:52:19.261Z",
+    "type": "free"
   }
 }
