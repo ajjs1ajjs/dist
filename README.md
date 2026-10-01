@@ -24,7 +24,7 @@
 <a href="#sales"><img src="https://img.shields.io/badge/Game_Sales-PWA-C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 
-<sub><b>11 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
@@ -82,6 +82,8 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 <a href="#diskcleaner">⬇️ <b>Завантажити</b></a>
 <br><br>
 </td>
+</tr>
+<tr>
 <td align="center" width="50%">
 <br>
 <a href="#gym"><img src="https://img.shields.io/badge/Gym_Tracker--FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="Gym Tracker"></a>
@@ -91,6 +93,17 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 Офлайн-трекер тренувань і прогресу тіла
 <br><br>
 <a href="#gym">▶️ <b>Відкрити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="https://ajjs1ajjs.itch.io/"><img src="https://img.shields.io/badge/3D_Games--A3E635?style=for-the-badge&logo=itchdotio&logoColor=black" alt="3D Games"></a>
+<br>
+<sub>Web · WebGL / Three.js</sub>
+<br><br>
+5 браузерних 3D-ігор — GravityShift, Drift, Terraformers, Echoes, Verdant
+<br><br>
+<a href="https://ajjs1ajjs.itch.io/">▶️ <b>Грати на itch.io</b></a>
 <br><br>
 </td>
 </tr>
@@ -406,5 +419,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 10 продуктів, живий термінал, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 12 продуктів, живий термінал, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)

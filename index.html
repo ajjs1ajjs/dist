@@ -6,9 +6,11 @@
   <title>DIST — Екосистема інструментів, дистрибутивів та PWA</title>
   <meta name="description" content="Публічний хаб інсталяторів, готових бінарників та офлайн PWA застосунків. Linux SRE сервіси, Windows утиліти, криптографічна перевірка SHA-256 та Minisign.">
   <meta property="og:title" content="DIST — Публічний канал розповсюдження ПЗ">
-  <meta property="og:description" content="10 автономних продуктів для Linux, Windows та Web. Встановлення однією командою, zero-telemetry, повна безпека.">
+  <meta property="og:description" content="12 автономних продуктів для Linux, Windows та Web. Встановлення однією командою, zero-telemetry, повна безпека.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ajjs1ajjs.github.io/dist/">
+  <meta name="theme-color" content="#05070d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2306b6d4'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23070a12'/%3E%3Crect x='2' y='2' width='60' height='60' rx='14' fill='none' stroke='url(%23g)' stroke-width='3'/%3E%3Cpath d='M20 44V20h10a10 10 0 0 1 0 20H20zm10-14h8' stroke='%2322d3ee' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,8 +29,8 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-            mono: ['"JetBrains Mono"', 'monospace'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
           },
           colors: {
             brand: {
@@ -42,20 +44,51 @@
               card: '#0d1322',
               cardHover: '#131b30',
               border: '#1f293d',
+            },
+            ink: {
+              950: '#05070d',
+              900: '#070a12',
+              850: '#0a0f1c',
+              800: '#0d1322',
             }
           },
           animation: {
-            'glow-pulse': 'glowPulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'glow-pulse': 'glowPulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
             'float': 'float 6s ease-in-out infinite',
+            'gradient-x': 'gradientX 6s ease infinite',
+            'marquee': 'marquee 32s linear infinite',
+            'fade-up': 'fadeUp .7s cubic-bezier(.16,1,.3,1) both',
+            'modal-in': 'modalIn .28s cubic-bezier(.16,1,.3,1) both',
+            'shine': 'shine 2.8s ease-in-out infinite',
           },
           keyframes: {
             glowPulse: {
-              '0%, 100%': { opacity: '0.3', transform: 'scale(1)' },
-              '50%': { opacity: '0.6', transform: 'scale(1.05)' },
+              '0%, 100%': { opacity: '0.35', transform: 'scale(1)' },
+              '50%': { opacity: '0.65', transform: 'scale(1.06)' },
             },
             float: {
               '0%, 100%': { transform: 'translateY(0)' },
               '50%': { transform: 'translateY(-8px)' },
+            },
+            gradientX: {
+              '0%, 100%': { 'background-position': '0% 50%' },
+              '50%': { 'background-position': '100% 50%' },
+            },
+            marquee: {
+              '0%': { transform: 'translateX(0)' },
+              '100%': { transform: 'translateX(-50%)' },
+            },
+            fadeUp: {
+              '0%': { opacity: '0', transform: 'translateY(18px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            modalIn: {
+              '0%': { opacity: '0', transform: 'translateY(14px) scale(.97)' },
+              '100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
+            },
+            shine: {
+              '0%': { transform: 'translateX(-120%) skewX(-18deg)' },
+              '55%, 100%': { transform: 'translateX(240%) skewX(-18deg)' },
             }
           }
         }
@@ -64,107 +97,250 @@
   </script>
 
   <style>
-    body {
-      background-color: #060911;
-      color: #e2e8f0;
+    :root {
+      --accent: 6 182 212;
+      color-scheme: dark;
     }
-    
-    /* Background grid effect */
+    html { scroll-padding-top: 110px; }
+    body {
+      background-color: #05070d;
+      color: #e2e8f0;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: rgba(34,211,238,.28); color: #fff; }
+
+    /* Background: grid + mask + noise + vignette */
     .bg-grid-pattern {
-      background-size: 38px 38px;
-      background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+      background-size: 36px 36px;
+      background-image:
+        linear-gradient(to right, rgba(148,163,184,.07) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148,163,184,.07) 1px, transparent 1px);
+      mask-image: radial-gradient(ellipse 90% 62% at 50% 0%, black 35%, transparent 78%);
+      -webkit-mask-image: radial-gradient(ellipse 90% 62% at 50% 0%, black 35%, transparent 78%);
+    }
+    .noise-overlay {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+      opacity: .05;
+      mix-blend-mode: overlay;
+    }
+    .vignette {
+      background: radial-gradient(ellipse 120% 90% at 50% 40%, transparent 55%, rgba(0,0,0,.5) 100%);
     }
 
     .glass-nav {
-      background: rgba(7, 10, 18, 0.75);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(5,7,13,.72);
+      backdrop-filter: blur(18px) saturate(1.3);
+      -webkit-backdrop-filter: blur(18px) saturate(1.3);
+      border-bottom: 1px solid rgba(148,163,184,.12);
     }
+    .nav-scrolled { box-shadow: 0 12px 40px -12px rgba(0,0,0,.7); }
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: ""; position: absolute; left: 0; bottom: -6px; height: 2px; width: 100%;
+      border-radius: 999px; transform: scaleX(0); transform-origin: left;
+      background: linear-gradient(90deg, #22d3ee, #8b5cf6);
+      transition: transform .25s cubic-bezier(.16,1,.3,1);
+    }
+    .nav-link:hover::after, .nav-link.active::after { transform: scaleX(1); }
+    .nav-link.active { color: #fff; }
 
     .glass-card {
-      background: rgba(13, 19, 34, 0.75);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      background: linear-gradient(180deg, rgba(20,28,48,.82), rgba(10,15,28,.86));
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(148,163,184,.13);
+      transition: transform .28s cubic-bezier(.16,1,.3,1), border-color .28s, box-shadow .28s, background .28s;
+      isolation: isolate;
+    }
+    .glass-card::before {
+      content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: 0;
+      opacity: 0; transition: opacity .3s;
+      background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 0%), rgba(var(--accent, 6 182 212) / .14), transparent 65%);
+      pointer-events: none;
+    }
+    .glass-card::after {
+      content: ""; position: absolute; top: 0; left: 12%; right: 12%; height: 1px; z-index: 1;
+      background: linear-gradient(90deg, transparent, rgba(var(--accent, 6 182 212) / .65), transparent);
+      opacity: .55;
+    }
+    .glass-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(var(--accent, 6 182 212) / .38);
+      box-shadow: 0 24px 48px -18px rgba(0,0,0,.7), 0 0 0 1px rgba(var(--accent, 6 182 212) / .08), 0 12px 40px -12px rgba(var(--accent, 6 182 212) / .22);
+    }
+    .glass-card:hover::before { opacity: 1; }
+    .glass-card > * { position: relative; z-index: 1; }
+
+    .btn-primary { position: relative; overflow: hidden; isolation: isolate; }
+    .btn-primary .shine {
+      position: absolute; top: 0; bottom: 0; width: 40%; z-index: 1;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.35), transparent);
+      animation: shine 3.2s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .btn-primary:active { transform: scale(.98); }
+
+    .chip-active {
+      background: linear-gradient(135deg, #06b6d4, #3b82f6) !important;
+      color: #020617 !important;
+      border-color: transparent !important;
+      box-shadow: 0 8px 24px -8px rgba(6,182,212,.5);
     }
 
-    .glass-card:hover {
-      background: rgba(19, 27, 48, 0.9);
-      border-color: rgba(6, 182, 212, 0.35);
-      transform: translateY(-3px);
-      box-shadow: 0 16px 36px -12px rgba(6, 182, 212, 0.15);
+    kbd.kbd {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px; line-height: 1;
+      padding: 3px 6px; border-radius: 6px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-bottom-width: 2px;
+      color: #94a3b8;
     }
+
+    .reveal { opacity: 0; transform: translateY(22px); }
+    .revealed {
+      opacity: 1; transform: none;
+      transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
+    }
+
+    .marquee-mask {
+      mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+      -webkit-mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+    }
+    .marquee-track:hover { animation-play-state: paused; }
+
+    .table-wrap { position: relative; }
+    .table-wrap::before, .table-wrap::after {
+      content: ""; position: absolute; top: 0; bottom: 0; width: 28px; z-index: 2; pointer-events: none;
+    }
+    .table-wrap::before { left: 0; background: linear-gradient(90deg, #0a0f1c, transparent); }
+    .table-wrap::after { right: 0; background: linear-gradient(-90deg, #0a0f1c, transparent); }
 
     /* Custom scrollbar */
-    ::-webkit-scrollbar {
-      width: 8px;
-      height: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #060911;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #1e293b;
-      border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #334155;
-    }
+    ::-webkit-scrollbar { width: 9px; height: 9px; }
+    ::-webkit-scrollbar-track { background: #05070d; }
+    ::-webkit-scrollbar-thumb { background: #1c2740; border-radius: 8px; border: 2px solid #05070d; }
+    ::-webkit-scrollbar-thumb:hover { background: #2b3a5e; }
 
     .cmd-badge {
-      background: rgba(0, 0, 0, 0.45);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(148,163,184,.16);
+      transition: border-color .2s;
+    }
+    .cmd-badge:hover { border-color: rgba(34,211,238,.4); }
+
+    /* Per-product spotlight accents */
+    .product-card[data-name="BCK"] { --accent: 16 185 129; }
+    .product-card[data-name="KubeLens"] { --accent: 34 211 238; }
+    .product-card[data-name="PyMon NOC"] { --accent: 251 146 60; }
+    .product-card[data-name="RDM Manager"] { --accent: 129 140 248; }
+    .product-card[data-name="MyGit"] { --accent: 167 139 250; }
+    .product-card[data-name="Uptime Monitor"] { --accent: 45 212 191; }
+    .product-card[data-name="Gym Tracker"] { --accent: 251 113 133; }
+    .product-card[data-name="Game Sales"] { --accent: 232 121 249; }
+    .product-card[data-name="3D Games"] { --accent: 163 230 53; }
+    .product-card[data-name="Server Infrastructure Calculator"] { --accent: 139 92 246; }
+    .product-card[data-name="Sales Proposal Calculator"] { --accent: 96 165 250; }
+    .product-card[data-name="DiskCleaner"] { --accent: 56 189 248; }
+    .product-card.featured {
+      border-color: rgba(139,92,246,.45);
+      background: linear-gradient(180deg, rgba(88,60,180,.22), rgba(10,15,28,.88));
+      box-shadow: 0 24px 60px -20px rgba(139,92,246,.35);
+    }
+
+    :focus-visible {
+      outline: 2px solid #22d3ee;
+      outline-offset: 3px;
+      border-radius: 8px;
+    }
+
+    #scrollProgress {
+      transform-origin: left;
+      transform: scaleX(0);
+    }
+
+    .modal-panel { animation: modalIn .3s cubic-bezier(.16,1,.3,1) both; }
+
+    .toast-bar { animation: toastBar 2.5s linear forwards; }
+    @keyframes toastBar { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+      .reveal { opacity: 1; transform: none; }
     }
   </style>
 </head>
 
 <body class="min-h-screen selection:bg-cyan-500 selection:text-black font-sans antialiased overflow-x-hidden">
 
-  <!-- Ambient Glowing Background Spheres -->
-  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-    <div class="absolute -top-32 left-1/4 w-[600px] h-[600px] bg-cyan-600/15 rounded-full blur-[140px] animate-glow-pulse"></div>
-    <div class="absolute top-1/3 -right-32 w-[550px] h-[550px] bg-purple-600/15 rounded-full blur-[150px] animate-glow-pulse" style="animation-delay: 2s;"></div>
-    <div class="absolute -bottom-20 left-1/3 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[130px]"></div>
-    <div class="absolute inset-0 bg-grid-pattern opacity-80"></div>
+  <!-- Ambient background: aurora + grid + noise + vignette -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
+    <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[420px] bg-gradient-to-r from-cyan-500/20 via-sky-500/10 to-purple-600/20 rounded-full blur-[120px]"></div>
+    <div class="absolute -top-24 left-[8%] w-[480px] h-[480px] bg-cyan-500/12 rounded-full blur-[130px] animate-glow-pulse"></div>
+    <div class="absolute top-[34%] -right-40 w-[560px] h-[560px] bg-violet-600/14 rounded-full blur-[150px] animate-glow-pulse" style="animation-delay: 1.8s;"></div>
+    <div class="absolute -bottom-32 left-[28%] w-[520px] h-[520px] bg-blue-600/10 rounded-full blur-[130px]"></div>
+    <div class="absolute inset-0 bg-grid-pattern"></div>
+    <div class="absolute inset-0 noise-overlay"></div>
+    <div class="absolute inset-0 vignette"></div>
+  </div>
+
+  <!-- Scroll progress -->
+  <div class="fixed top-0 left-0 right-0 h-[2px] z-50 bg-transparent">
+    <div id="scrollProgress" class="h-full w-full bg-gradient-to-r from-cyan-400 via-sky-400 to-violet-500"></div>
   </div>
 
   <!-- Navigation Bar -->
-  <header class="sticky top-0 z-40 glass-nav transition-all duration-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <a href="#hero" class="flex items-center gap-2.5 group">
-          <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500 to-purple-600 p-[1.5px] shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
-            <div class="w-full h-full bg-[#070a12] rounded-[10px] flex items-center justify-center">
-              <i data-lucide="layers" class="w-5 h-5 text-cyan-400"></i>
-            </div>
-          </div>
-          <div>
-            <span class="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
-              DIST <span class="text-xs px-2 py-0.5 rounded-full font-mono bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">Hub</span>
+  <header id="siteNav" class="sticky top-0 z-40 glass-nav transition-shadow duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3 min-w-0">
+        <a href="#hero" class="flex items-center gap-2.5 group" aria-label="DIST — на головну">
+          <span class="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-400 to-violet-600 p-[1.5px] shadow-lg shadow-cyan-500/25 group-hover:scale-105 group-hover:rotate-3 transition-transform">
+            <span class="w-full h-full bg-[#070a12] rounded-[10px] flex items-center justify-center">
+              <i data-lucide="layers" class="w-5 h-5 text-cyan-300"></i>
             </span>
-          </div>
+          </span>
+          <span class="flex items-center gap-2 min-w-0">
+            <span class="text-lg font-extrabold tracking-tight text-white">DIST</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full font-mono bg-cyan-400/10 text-cyan-200 border border-cyan-400/25">Hub</span>
+            <span class="hidden sm:inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300/90">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>12 live
+            </span>
+          </span>
         </a>
       </div>
 
-      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-300">
-        <a href="#products" class="hover:text-cyan-400 transition-colors">Каталог продуктів</a>
-        <a href="#terminal" class="hover:text-cyan-400 transition-colors">Демо-термінал</a>
-        <a href="#security" class="hover:text-cyan-400 transition-colors">Безпека & Архітектура</a>
-        <a href="#matrix" class="hover:text-cyan-400 transition-colors">Матриця рішень</a>
+      <nav class="hidden md:flex items-center gap-7 text-[13px] font-semibold text-slate-300" aria-label="Основна навігація">
+        <a href="#products" data-nav="products" class="nav-link hover:text-white transition-colors">Каталог</a>
+        <a href="#terminal" data-nav="terminal" class="nav-link hover:text-white transition-colors">Термінал</a>
+        <a href="#security" data-nav="security" class="nav-link hover:text-white transition-colors">Безпека</a>
+        <a href="#matrix" data-nav="matrix" class="nav-link hover:text-white transition-colors">Матриця</a>
       </nav>
 
-      <div class="flex items-center gap-3">
-        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener noreferrer" 
-           class="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-white transition-all hover:scale-[1.02] shadow-sm">
+      <div class="flex items-center gap-2.5">
+        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener noreferrer"
+           class="hidden sm:flex items-center gap-2 pl-3.5 pr-3 py-1.5 rounded-xl bg-white/[0.06] hover:bg-white/[0.1] border border-white/10 text-xs font-semibold text-white transition-all hover:-translate-y-px">
           <i data-lucide="github" class="w-4 h-4 text-slate-200"></i>
           <span>GitHub</span>
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
         </a>
+        <button id="menuBtn" class="md:hidden w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-200 hover:bg-white/10 transition-colors" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobileMenu">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
       </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-t border-white/10 bg-[#05070d]/95 backdrop-blur-xl">
+      <nav class="px-4 py-3 flex flex-col text-sm font-semibold text-slate-200" aria-label="Мобільна навігація">
+        <a href="#products" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Каталог продуктів</a>
+        <a href="#terminal" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Демо-термінал</a>
+        <a href="#security" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Безпека & Архітектура</a>
+        <a href="#matrix" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Матриця рішень</a>
+        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" class="mt-1 px-3 py-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub-репозиторій
+        </a>
+      </nav>
     </div>
   </header>
 
@@ -172,94 +348,166 @@
   <main class="relative z-10">
 
     <!-- HERO SECTION -->
-    <section id="hero" class="pt-20 pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-cyan-500/10 via-purple-500/10 to-cyan-500/10 border border-cyan-500/25 text-cyan-300 text-xs font-semibold mb-8 animate-float shadow-inner">
-        <span class="flex h-2 w-2 relative">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-400"></span>
+    <section id="hero" class="pt-16 sm:pt-20 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
+      <div class="reveal inline-flex items-center gap-2.5 pl-2 pr-3.5 py-1.5 rounded-full bg-white/[0.04] border border-white/10 text-xs font-semibold mb-7 shadow-inner backdrop-blur-md">
+        <span class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/25 text-emerald-300">
+          <span class="relative flex h-1.5 w-1.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400"></span>
+          </span>
+          LIVE
         </span>
-        Публічний канал релізів · 10 автономних продуктів
+        <span class="text-slate-300">Публічний канал релізів · <span class="text-white font-bold">12</span> продуктів · SHA-256 verified</span>
       </div>
 
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-[1.15]">
-        Екосистема інструментів для <br class="hidden sm:inline">
-        <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-sky-300 to-purple-400">
+      <h1 class="reveal text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-7xl font-extrabold tracking-[-0.03em] text-white max-w-5xl mx-auto" style="transition-delay:.08s">
+        Екосистема інструментів для<br class="hidden sm:inline">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-400 bg-[length:200%_auto] animate-gradient-x drop-shadow-[0_0_28px_rgba(34,211,238,.25)]">
           DevOps, SRE та продуктивності
         </span>
       </h1>
 
-      <p class="mt-6 text-base sm:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-        Публічний хаб інсталяторів, бінарників та офлайн-застосунків. 
-        Жодного стороннього коду чи сміття — розгортання в один рядок, нульова телеметрія та суворий криптографічний контроль.
+      <p class="reveal mt-6 text-[15px] sm:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed" style="transition-delay:.14s">
+        Публічний хаб інсталяторів, бінарників та офлайн-застосунків.
+        Розгортання <span class="text-slate-200 font-semibold">однією командою</span>, <span class="text-slate-200 font-semibold">нуль телеметрії</span> та суворий криптографічний контроль кожного релізу.
       </p>
 
       <!-- Action Buttons -->
-      <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
-        <a href="#products" class="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold text-sm hover:from-cyan-400 hover:to-blue-500 transition-all shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:scale-[1.02] flex items-center gap-2">
-          <i data-lucide="package" class="w-4 h-4"></i>
+      <div class="reveal mt-9 flex flex-wrap items-center justify-center gap-3" style="transition-delay:.2s">
+        <a href="#products" class="btn-primary group px-6 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-blue-600 text-[#020617] font-bold text-sm hover:brightness-110 transition-all shadow-[0_16px_40px_-12px_rgba(6,182,212,.55)] hover:-translate-y-0.5 flex items-center gap-2">
+          <span class="shine"></span>
+          <i data-lucide="layout-grid" class="w-4 h-4"></i>
           <span>Оглянути всі продукти</span>
+          <i data-lucide="arrow-down" class="w-4 h-4 opacity-70 group-hover:translate-y-0.5 transition-transform"></i>
         </a>
-        <a href="#terminal" class="px-6 py-3 rounded-xl bg-slate-900/80 hover:bg-slate-800 text-slate-200 font-semibold text-sm border border-slate-700 hover:border-slate-500 transition-all hover:scale-[1.02] flex items-center gap-2">
-          <i data-lucide="terminal" class="w-4 h-4 text-cyan-400"></i>
-          <span>Демо-термінал інсталяції</span>
+        <a href="#terminal" class="px-6 py-3 rounded-2xl bg-white/[0.04] hover:bg-white/[0.08] text-slate-100 font-semibold text-sm border border-white/10 hover:border-white/20 transition-all hover:-translate-y-0.5 flex items-center gap-2 backdrop-blur-md">
+          <i data-lucide="terminal" class="w-4 h-4 text-cyan-300"></i>
+          <span>Демо-термінал</span>
+          <kbd class="kbd hidden sm:inline-block">1-клік</kbd>
         </a>
       </div>
 
+      <!-- Platforms trust row -->
+      <div class="reveal mt-8 flex flex-wrap items-center justify-center gap-2 text-[12px] font-medium text-slate-400" style="transition-delay:.26s">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="terminal" class="w-3.5 h-3.5 text-emerald-300"></i> Linux-сервіси</span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="app-window" class="w-3.5 h-3.5 text-sky-300"></i> Windows-утиліти</span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="globe" class="w-3.5 h-3.5 text-violet-300"></i> Web / PWA офлайн</span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="shield-check" class="w-3.5 h-3.5 text-amber-300"></i> Minisign + SHA-256</span>
+      </div>
+
       <!-- Quick Metrics Counter Banner -->
-      <div class="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto">
-        <div class="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] backdrop-blur-sm">
-          <div class="text-3xl font-extrabold text-white font-mono text-cyan-400">11</div>
-          <div class="text-xs font-medium text-slate-400 mt-1">Готових продуктів</div>
+      <div class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-4xl mx-auto text-left">
+        <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-cyan-400/30 hover:-translate-y-0.5 transition-all">
+          <div class="flex items-center justify-between"><i data-lucide="package" class="w-4 h-4 text-cyan-300"></i><span class="w-8 h-px bg-gradient-to-r from-cyan-400 to-transparent"></span></div>
+          <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="12">12</span></div>
+          <div class="text-xs font-semibold text-slate-300 mt-1">Готових продуктів</div>
+          <div class="text-[11px] text-slate-500">Linux · Win · Web</div>
         </div>
-        <div class="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] backdrop-blur-sm">
-          <div class="text-3xl font-extrabold text-white font-mono text-purple-400">3</div>
-          <div class="text-xs font-medium text-slate-400 mt-1">Платформи (Linux, Win, Web)</div>
+        <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-violet-400/30 hover:-translate-y-0.5 transition-all" style="transition-delay:.06s">
+          <div class="flex items-center justify-between"><i data-lucide="layers" class="w-4 h-4 text-violet-300"></i><span class="w-8 h-px bg-gradient-to-r from-violet-400 to-transparent"></span></div>
+          <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="3">3</span></div>
+          <div class="text-xs font-semibold text-slate-300 mt-1">Платформи</div>
+          <div class="text-[11px] text-slate-500">Linux, Windows, Web</div>
         </div>
-        <div class="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] backdrop-blur-sm">
-          <div class="text-3xl font-extrabold text-white font-mono text-emerald-400">100%</div>
-          <div class="text-xs font-medium text-slate-400 mt-1">SHA-256 & Minisign</div>
+        <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-emerald-400/30 hover:-translate-y-0.5 transition-all" style="transition-delay:.12s">
+          <div class="flex items-center justify-between"><i data-lucide="fingerprint" class="w-4 h-4 text-emerald-300"></i><span class="w-8 h-px bg-gradient-to-r from-emerald-400 to-transparent"></span></div>
+          <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="100" data-suffix="%">100%</span></div>
+          <div class="text-xs font-semibold text-slate-300 mt-1">SHA-256 & Minisign</div>
+          <div class="text-[11px] text-slate-500">Перевірка кожного релізу</div>
         </div>
-        <div class="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] backdrop-blur-sm">
-          <div class="text-3xl font-extrabold text-white font-mono text-amber-400">0%</div>
-          <div class="text-xs font-medium text-slate-400 mt-1">Телеметрії / Трекерів</div>
+        <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-amber-400/30 hover:-translate-y-0.5 transition-all" style="transition-delay:.18s">
+          <div class="flex items-center justify-between"><i data-lucide="eye-off" class="w-4 h-4 text-amber-300"></i><span class="w-8 h-px bg-gradient-to-r from-amber-400 to-transparent"></span></div>
+          <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="0" data-suffix="%">0%</span></div>
+          <div class="text-xs font-semibold text-slate-300 mt-1">Телеметрії</div>
+          <div class="text-[11px] text-slate-500">Жодних трекерів</div>
+        </div>
+      </div>
+
+      <!-- Products marquee -->
+      <div class="reveal mt-10 marquee-mask overflow-hidden" style="transition-delay:.22s" aria-hidden="true">
+        <div class="marquee-track flex w-max gap-2.5 animate-marquee">
+          <div class="flex gap-2.5 pr-2.5">
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">BCK · backup</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">KubeLens · k8s IDE</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">PyMon NOC · metrics</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">RDM · ssh/rdp</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">MyGit · self-hosted</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Uptime · ssl/sla</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Gym · pwa offline</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Game Sales · radar</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">3D Games · webgl</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Server Calculator · flagship</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Sales Calculator · КП</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">DiskCleaner · portable</span>
+          </div>
+          <div class="flex gap-2.5 pr-2.5">
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">BCK · backup</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">KubeLens · k8s IDE</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">PyMon NOC · metrics</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">RDM · ssh/rdp</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">MyGit · self-hosted</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Uptime · ssl/sla</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Gym · pwa offline</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Game Sales · radar</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">3D Games · webgl</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Server Calculator · flagship</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Sales Calculator · КП</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">DiskCleaner · portable</span>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- INTERACTIVE PRODUCTS SHOWCASE -->
-    <section id="products" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      
-      <!-- Filter and Search Toolbar -->
-      <div class="flex flex-col md:flex-row items-center justify-between gap-4 mb-10 pb-6 border-b border-white/[0.08]">
-        <!-- Category Chips -->
-        <div class="flex flex-wrap items-center gap-2 w-full md:w-auto" id="filter-container">
-          <button onclick="filterCategory('all')" data-cat="all" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-cyan-500 text-black shadow-md shadow-cyan-500/20">
-            Всі рішення (11)
-          </button>
-          <button onclick="filterCategory('linux')" data-cat="linux" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
-            🐧 Linux / SRE (4)
-          </button>
-          <button onclick="filterCategory('windows')" data-cat="windows" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
-            🪟 Windows (4)
-          </button>
-          <button onclick="filterCategory('web')" data-cat="web" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
-            🌐 Web & PWA (3)
-          </button>
-          <button onclick="filterCategory('monitoring')" data-cat="monitoring" class="cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
-            📡 Моніторинг
-          </button>
+    <section id="products" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
+      <div class="reveal flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
+        <div>
+          <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold">Каталог · 12 рішень</p>
+          <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight text-white">Оберіть інструмент під задачу</h2>
+          <p class="mt-2 text-sm text-slate-400 max-w-xl">Фільтруйте за платформою або шукайте за назвою, стеком і призначенням. Натисніть <kbd class="kbd">/</kbd> щоб швидко знайти.</p>
         </div>
+        <p id="resultCount" class="text-xs font-mono text-slate-400 shrink-0 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10" aria-live="polite">Показано 12 з 12</p>
+      </div>
 
-        <!-- Search Input -->
-        <div class="relative w-full md:w-72">
-          <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-          <input type="text" id="searchInput" oninput="handleSearch()" placeholder="Пошук інструменту (напр. git, lens)..." 
-                 class="w-full pl-10 pr-4 py-2 rounded-xl bg-slate-900/90 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition-colors">
+      <!-- Filter and Search Toolbar -->
+      <div class="reveal sticky top-16 z-30 rounded-2xl bg-[#070b14]/85 backdrop-blur-xl border border-white/10 p-3 mb-8 shadow-[0_16px_40px_-16px_rgba(0,0,0,.7)]">
+        <div class="flex flex-col lg:flex-row items-stretch lg:items-center gap-3">
+          <!-- Category Chips -->
+          <div class="flex items-center gap-2 overflow-x-auto pb-1 lg:pb-0 flex-1" id="filter-container" role="tablist" aria-label="Фільтр за платформою">
+            <button onclick="filterCategory('all')" data-cat="all" role="tab" class="cat-btn chip-active shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
+              <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i> Всі · 12
+            </button>
+            <button onclick="filterCategory('linux')" data-cat="linux" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
+              <i data-lucide="terminal" class="w-3.5 h-3.5 text-emerald-300"></i> Linux · 4
+            </button>
+            <button onclick="filterCategory('windows')" data-cat="windows" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
+              <i data-lucide="app-window" class="w-3.5 h-3.5 text-sky-300"></i> Windows · 5
+            </button>
+            <button onclick="filterCategory('web')" data-cat="web" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
+              <i data-lucide="globe" class="w-3.5 h-3.5 text-violet-300"></i> Web & PWA · 3
+            </button>
+            <button onclick="filterCategory('monitoring')" data-cat="monitoring" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
+              <i data-lucide="activity" class="w-3.5 h-3.5 text-orange-300"></i> Моніторинг · 2
+            </button>
+          </div>
+
+          <!-- Search Input -->
+          <div class="relative w-full lg:w-72 shrink-0">
+            <i data-lucide="search" class="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+            <input type="text" id="searchInput" oninput="handleSearch()" placeholder="Пошук: git, k8s, backup…" autocomplete="off"
+                   class="w-full pl-10 pr-16 py-2.5 rounded-xl bg-black/40 border border-white/10 text-[13px] text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400/60 focus:ring-2 focus:ring-cyan-400/20 transition-all">
+            <span class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
+              <button id="clearSearch" onclick="resetFilters()" class="hidden w-5 h-5 rounded-md bg-white/10 hover:bg-white/20 text-slate-300 items-center justify-center" aria-label="Очистити пошук">
+                <i data-lucide="x" class="w-3 h-3"></i>
+              </button>
+              <kbd class="kbd">/</kbd>
+            </span>
+          </div>
         </div>
       </div>
 
       <!-- CARDS GRID -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="productsGrid">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-stretch" id="productsGrid">
 
         <!-- 1. BCK -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
@@ -730,11 +978,14 @@
           </div>
         </div>
 
-        <!-- 10. Server Infrastructure Calculator -->
-        <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
+        <!-- 10. Server Infrastructure Calculator — FLAGSHIP -->
+        <div class="product-card featured glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="server infrastructure calculator it sizing clusters kubernetes windows vm storage iops portable dotnet" 
+             data-title="server infrastructure calculator it sizing clusters kubernetes windows vm storage iops portable dotnet flagship" 
              data-name="Server Infrastructure Calculator">
+          <span class="absolute -top-3 left-6 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg shadow-violet-500/30">
+            <i data-lucide="crown" class="w-3 h-3"></i> FLAGSHIP · вибір архітекторів
+          </span>
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
               <div class="w-12 h-12 rounded-xl bg-violet-500/15 border border-violet-500/30 flex items-center justify-center text-violet-400 shadow-inner">
@@ -895,17 +1146,17 @@
     </section>
 
     <!-- INTERACTIVE TERMINAL SIMULATOR -->
-    <section id="terminal" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="text-xs font-mono text-cyan-400 uppercase tracking-wider font-semibold">Live Sandbox</span>
-        <h2 class="text-3xl font-bold text-white mt-1">Інтерактивна консоль розгортання</h2>
+    <section id="terminal" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
+      <div class="reveal text-center max-w-2xl mx-auto mb-8">
+        <span class="inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300 uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/20"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live Sandbox</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-3">Інтерактивна консоль розгортання</h2>
         <p class="text-sm text-slate-400 mt-2">
-          Натисніть на команду, щоб побачити симуляцію процесу безпечного встановлення та збереження даних.
+          Натисніть команду — побачите симуляцію безпечного встановлення. Це ті самі one-line інсталятори, що й на картках.
         </p>
       </div>
 
       <!-- Terminal Window -->
-      <div class="max-w-4xl mx-auto rounded-2xl bg-[#090d16] border border-white/10 shadow-2xl overflow-hidden font-mono text-xs">
+      <div class="reveal max-w-4xl mx-auto rounded-3xl bg-[#070b14]/90 border border-white/10 shadow-[0_32px_80px_-24px_rgba(0,0,0,.8)] overflow-hidden font-mono text-xs backdrop-blur-xl">
         
         <!-- Terminal Header -->
         <div class="px-4 py-3 bg-[#0d1322] border-b border-white/10 flex items-center justify-between">
@@ -923,27 +1174,27 @@
         </div>
 
         <!-- Preset Command Bar -->
-        <div class="px-4 py-2.5 bg-white/[0.02] border-b border-white/[0.06] flex flex-wrap items-center gap-2">
-          <span class="text-slate-500 text-[11px] mr-1">Швидкі команди:</span>
-          <button onclick="runSimulation('bck')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-cyan-300 text-[11px] border border-slate-700 transition-colors">
-            curl bck
+        <div class="px-4 py-3 bg-white/[0.02] border-b border-white/[0.08] flex flex-wrap items-center gap-2">
+          <span class="text-slate-500 text-[11px] mr-1 font-sans font-semibold">Швидкі команди:</span>
+          <button onclick="runSimulation('bck')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-400/10 hover:bg-emerald-400/20 text-emerald-200 text-[11px] font-bold border border-emerald-400/25 transition-all hover:-translate-y-px">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> bck
           </button>
-          <button onclick="runSimulation('pymon')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-orange-300 text-[11px] border border-slate-700 transition-colors">
-            curl pymon
+          <button onclick="runSimulation('pymon')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-orange-400/10 hover:bg-orange-400/20 text-orange-200 text-[11px] font-bold border border-orange-400/25 transition-all hover:-translate-y-px">
+            <span class="w-1.5 h-1.5 rounded-full bg-orange-400"></span> pymon
           </button>
-          <button onclick="runSimulation('mygit')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-purple-300 text-[11px] border border-slate-700 transition-colors">
-            curl mygit
+          <button onclick="runSimulation('mygit')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-violet-400/10 hover:bg-violet-400/20 text-violet-200 text-[11px] font-bold border border-violet-400/25 transition-all hover:-translate-y-px">
+            <span class="w-1.5 h-1.5 rounded-full bg-violet-400"></span> mygit
           </button>
-          <button onclick="runSimulation('uptime')" class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-teal-300 text-[11px] border border-slate-700 transition-colors">
-            curl uptime
+          <button onclick="runSimulation('uptime')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-teal-400/10 hover:bg-teal-400/20 text-teal-200 text-[11px] font-bold border border-teal-400/25 transition-all hover:-translate-y-px">
+            <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span> uptime
           </button>
-          <button onclick="clearTerminal()" class="ml-auto px-2 py-1 text-slate-500 hover:text-slate-300 text-[11px] flex items-center gap-1">
-            <i data-lucide="trash-2" class="w-3 h-3"></i> Очистити
+          <button onclick="clearTerminal()" class="ml-auto px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-200 hover:bg-white/5 text-[11px] flex items-center gap-1.5 transition-colors font-sans">
+            <i data-lucide="trash-2" class="w-3.5 h-3.5"></i> Очистити
           </button>
         </div>
 
         <!-- Terminal Output Area -->
-        <div id="terminalOutput" class="p-6 h-80 overflow-y-auto space-y-1.5 text-slate-300 font-mono text-[12px] leading-relaxed">
+        <div id="terminalOutput" class="p-5 sm:p-6 h-80 overflow-y-auto space-y-1.5 text-slate-300 font-mono text-[12px] leading-relaxed" aria-live="polite">
           <div class="text-slate-500"># Ласкаво просимо до терміналу дистрибуції ajjs1ajjs/dist.</div>
           <div class="text-slate-500"># Виберіть будь-яку команду вище або скопіюйте інсталятор для вашого сервера.</div>
           <div class="text-cyan-400 flex items-center gap-2 pt-2">
@@ -951,59 +1202,67 @@
             <span class="animate-pulse">_</span>
           </div>
         </div>
+        <div class="px-4 py-3 border-t border-white/[0.08] bg-white/[0.015] flex flex-wrap items-center justify-between gap-2 font-sans">
+          <p class="text-[11px] text-slate-500">Симуляція для демо · реальні команди — на картках продуктів, з перевіркою SHA-256</p>
+          <span class="text-[11px] font-mono text-slate-500 hidden sm:inline">bash · systemd · sha256sum</span>
+        </div>
 
       </div>
     </section>
 
     <!-- SECURITY & ARCHITECTURE PILLARS -->
-    <section id="security" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      <div class="text-center max-w-2xl mx-auto mb-12">
-        <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider font-semibold">Security & Integrity</span>
-        <h2 class="text-3xl font-bold text-white mt-1">Принципи надійності та безпеки</h2>
+    <section id="security" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
+      <div class="reveal text-center max-w-2xl mx-auto mb-10">
+        <span class="inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300 uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/20">Security & Integrity</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-3">Принципи надійності та безпеки</h2>
         <p class="text-sm text-slate-400 mt-2">
-          Чому розповсюдження через цей репозиторій є передбачуваним, захищеним і безпечним для виробничого середовища.
+          Чому розповсюдження через цей репозиторій є передбачуваним, захищеним і безпечним для production.
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         
-        <div class="glass-card rounded-2xl p-6">
-          <div class="w-10 h-10 rounded-xl bg-cyan-500/15 text-cyan-400 flex items-center justify-center mb-4">
+        <div class="reveal glass-card rounded-2xl p-6 overflow-hidden" style="--accent: 34 211 238">
+          <span class="absolute top-4 right-5 text-[11px] font-mono font-bold text-slate-600">01</span>
+          <div class="w-10 h-10 rounded-xl bg-cyan-400/10 border border-cyan-400/25 text-cyan-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(34,211,238,.5)]">
             <i data-lucide="key-round" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-base font-bold text-white">Minisign Підпис</h4>
-          <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-            Десктопні застосунки (KubeLens, RDM) перевіряють цифрові підписи збірок за допомогою асиметричної криптографії перед кожним оновленням.
+          <h4 class="text-[15px] font-bold text-white">Minisign-підпис</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+            Десктопні застосунки (KubeLens, RDM) перевіряють цифрові підписи збірок перед кожним оновленням.
           </p>
         </div>
 
-        <div class="glass-card rounded-2xl p-6">
-          <div class="w-10 h-10 rounded-xl bg-purple-500/15 text-purple-400 flex items-center justify-center mb-4">
+        <div class="reveal glass-card rounded-2xl p-6 overflow-hidden" style="--accent: 167 139 250; transition-delay:.06s">
+          <span class="absolute top-4 right-5 text-[11px] font-mono font-bold text-slate-600">02</span>
+          <div class="w-10 h-10 rounded-xl bg-violet-400/10 border border-violet-400/25 text-violet-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(167,139,250,.5)]">
             <i data-lucide="file-check-2" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-base font-bold text-white">SHA-256 Контроль</h4>
-          <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-            Кожен реліз супроводжується файлом контрольних сум. Інсталяційні curl-скрипти автоматично перевіряють хеш бінарника перед запуском.
+          <h4 class="text-[15px] font-bold text-white">SHA-256 контроль</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+            Кожен реліз має файл контрольних сум. Curl-скрипти автоматично звіряють хеш перед запуском.
           </p>
         </div>
 
-        <div class="glass-card rounded-2xl p-6">
-          <div class="w-10 h-10 rounded-xl bg-emerald-500/15 text-emerald-400 flex items-center justify-center mb-4">
+        <div class="reveal glass-card rounded-2xl p-6 overflow-hidden" style="--accent: 16 185 129; transition-delay:.12s">
+          <span class="absolute top-4 right-5 text-[11px] font-mono font-bold text-slate-600">03</span>
+          <div class="w-10 h-10 rounded-xl bg-emerald-400/10 border border-emerald-400/25 text-emerald-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(16,185,129,.5)]">
             <i data-lucide="database-backup" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-base font-bold text-white">Безпечні Апгрейди</h4>
-          <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-            Скрипти оновлення Linux-сервісів ніколи не чіпають конфігураційні файли, бази SQLite та облікові записи. Замінюється лише бінарник.
+          <h4 class="text-[15px] font-bold text-white">Безпечні апгрейди</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+            Конфіги, SQLite-бази та користувачі зберігаються. Замінюється лише бінарник, з автобекапом.
           </p>
         </div>
 
-        <div class="glass-card rounded-2xl p-6">
-          <div class="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-400 flex items-center justify-center mb-4">
+        <div class="reveal glass-card rounded-2xl p-6 overflow-hidden" style="--accent: 251 191 36; transition-delay:.18s">
+          <span class="absolute top-4 right-5 text-[11px] font-mono font-bold text-slate-600">04</span>
+          <div class="w-10 h-10 rounded-xl bg-amber-400/10 border border-amber-400/25 text-amber-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(251,191,36,.5)]">
             <i data-lucide="wifi-off" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-base font-bold text-white">Zero-Telemetry & Offline</h4>
-          <p class="text-xs text-slate-400 mt-2 leading-relaxed">
-            PWA застосунки працюють офлайн через Service Workers. Дані зберігаються локально на пристрої без передачі на сторонні сервери.
+          <h4 class="text-[15px] font-bold text-white">Zero-telemetry & Offline</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+            PWA працюють офлайн через Service Workers. Дані — лише локально, без сторонніх серверів.
           </p>
         </div>
 
@@ -1011,14 +1270,17 @@
     </section>
 
     <!-- ARCHITECTURE & SOLUTIONS MATRIX -->
-    <section id="matrix" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="text-xs font-mono text-cyan-400 uppercase tracking-wider font-semibold">Compatibility Matrix</span>
-        <h2 class="text-3xl font-bold text-white mt-1">Зведена таблиця екосистеми</h2>
+    <section id="matrix" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
+      <div class="reveal flex flex-col sm:flex-row sm:items-end justify-between gap-3 max-w-none mb-6">
+        <div>
+          <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold">Compatibility Matrix</p>
+          <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-2">Зведена таблиця екосистеми</h2>
+        </div>
+        <p class="text-[12px] text-slate-500 font-mono shrink-0">12 продуктів · гортайте → на мобільному</p>
       </div>
 
-      <div class="glass-card rounded-2xl overflow-hidden border border-white/10">
-        <div class="overflow-x-auto">
+      <div class="reveal glass-card rounded-2xl overflow-hidden">
+        <div class="table-wrap overflow-x-auto">
           <table class="w-full text-left text-xs text-slate-300">
             <thead class="bg-white/[0.03] text-slate-400 uppercase font-mono text-[11px] border-b border-white/10">
               <tr>
@@ -1172,42 +1434,56 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="mt-20 border-t border-white/[0.08] bg-[#050810] py-12 px-4 sm:px-6 lg:px-8 relative z-10 text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-      <div class="flex items-center gap-3">
-        <div class="w-7 h-7 rounded-lg bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
-          <i data-lucide="layers" class="w-4 h-4"></i>
+  <footer class="mt-16 border-t border-white/[0.08] bg-[#04060b]/90 backdrop-blur-xl py-12 px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[1.4fr_1fr_1fr] gap-8">
+      <div>
+        <div class="flex items-center gap-3">
+          <span class="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-400 to-violet-600 p-[1.5px] shadow-lg shadow-cyan-500/20">
+            <span class="w-full h-full bg-[#070a12] rounded-[10px] flex items-center justify-center">
+              <i data-lucide="layers" class="w-4 h-4 text-cyan-300"></i>
+            </span>
+          </span>
+          <div>
+            <p class="text-slate-100 font-extrabold text-sm tracking-tight">DIST Distribution Channel</p>
+            <p class="text-slate-500 text-[12px]">Готові релізи, інсталятори та автономні вебзастосунки</p>
+          </div>
         </div>
-        <div>
-          <span class="text-slate-300 font-semibold text-sm">DIST Distribution Channel</span>
-          <p class="text-slate-500 text-[11px]">Готові релізи, інсталятори та автономні вебзастосунки</p>
+        <div class="mt-4 flex flex-wrap gap-2">
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-emerald-400/10 border border-emerald-400/25 text-emerald-300"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>SHA-256 Verified</span>
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">GitHub Pages · Live</span>
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">12 продуктів</span>
         </div>
       </div>
 
-      <div class="flex items-center gap-6 font-medium">
-        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" class="hover:text-slate-300 transition-colors flex items-center gap-1.5">
-          <i data-lucide="github" class="w-3.5 h-3.5"></i> Репозиторій
-        </a>
-        <a href="https://github.com/ajjs1ajjs/dist/releases" target="_blank" class="hover:text-slate-300 transition-colors flex items-center gap-1.5">
-          <i data-lucide="tag" class="w-3.5 h-3.5"></i> Усі релізи
-        </a>
-        <a href="https://t.me/salesgamesua" target="_blank" class="hover:text-slate-300 transition-colors flex items-center gap-1.5">
-          <i data-lucide="send" class="w-3.5 h-3.5"></i> Telegram
-        </a>
-        <a href="https://andreichuk.dev" target="_blank" class="hover:text-slate-300 transition-colors flex items-center gap-1.5">
-          <i data-lucide="user" class="w-3.5 h-3.5"></i> Автор — портфоліо
-        </a>
-      </div>
+      <nav class="text-[13px]" aria-label="Продукти">
+        <p class="text-[11px] font-mono uppercase tracking-[0.18em] text-slate-500 font-bold mb-3">Навігація</p>
+        <div class="grid grid-cols-2 md:grid-cols-1 gap-2 font-semibold text-slate-300">
+          <a href="#products" class="hover:text-white transition-colors">Каталог продуктів</a>
+          <a href="#terminal" class="hover:text-white transition-colors">Демо-термінал</a>
+          <a href="#security" class="hover:text-white transition-colors">Безпека</a>
+          <a href="#matrix" class="hover:text-white transition-colors">Матриця рішень</a>
+        </div>
+      </nav>
 
-      <div class="text-[11px] font-mono">
-        © 2026 ajjs1ajjs · SHA-256 Verified
-      </div>
+      <nav class="text-[13px]" aria-label="Ресурси">
+        <p class="text-[11px] font-mono uppercase tracking-[0.18em] text-slate-500 font-bold mb-3">Ресурси</p>
+        <div class="flex flex-col gap-2 font-semibold text-slate-300">
+          <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="github" class="w-3.5 h-3.5"></i> Репозиторій</a>
+          <a href="https://github.com/ajjs1ajjs/dist/releases" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="tag" class="w-3.5 h-3.5"></i> Усі релізи</a>
+          <a href="https://t.me/salesgamesua" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="send" class="w-3.5 h-3.5"></i> Telegram-канал</a>
+          <a href="https://andreichuk.dev" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="user" class="w-3.5 h-3.5"></i> Автор — портфоліо</a>
+        </div>
+      </nav>
+    </div>
+    <div class="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/[0.07] flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] font-mono text-slate-500">
+      <span>© <span id="year">2026</span> ajjs1ajjs · zero-telemetry · зібрано в GitHub Actions</span>
+      <a href="#hero" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/[0.04] border border-white/10 text-slate-300 hover:bg-white/[0.08] hover:text-white transition-all">Догори <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i></a>
     </div>
   </footer>
 
   <!-- MODAL: QUICK VIEW / DETAILS -->
-  <div id="quickModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
-    <div class="relative w-full max-w-2xl bg-[#0d1322] border border-white/10 rounded-2xl shadow-2xl overflow-hidden animate-float" style="animation-duration: 0.2s;">
+  <div id="quickModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/75 backdrop-blur-md" onclick="if(event.target===this)closeModal()">
+    <div class="modal-panel relative w-full max-w-2xl bg-[#0a0f1c] border border-white/10 rounded-3xl shadow-[0_40px_100px_-20px_rgba(0,0,0,.9)] overflow-hidden">
       
       <!-- Modal Header -->
       <div class="p-5 border-b border-white/10 flex items-center justify-between bg-white/[0.02]">
@@ -1237,8 +1513,8 @@
   </div>
 
   <!-- MODAL: LIVE PREVIEW (PWA Simulator) -->
-  <div id="previewModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-2 sm:p-6 bg-black/85 backdrop-blur-md">
-    <div class="relative w-full max-w-5xl h-[88vh] bg-[#0b0f19] border border-white/15 rounded-2xl shadow-2xl flex flex-col overflow-hidden">
+  <div id="previewModal" class="fixed inset-0 z-50 hidden items-center justify-center p-2 sm:p-6 bg-black/80 backdrop-blur-md" onclick="if(event.target===this)closePreview()">
+    <div class="modal-panel relative w-full max-w-5xl h-[88vh] bg-[#070b14] border border-white/15 rounded-3xl shadow-[0_40px_100px_-20px_rgba(0,0,0,.9)] flex flex-col overflow-hidden">
       
       <!-- Preview Header -->
       <div class="px-5 py-3 border-b border-white/10 flex items-center justify-between bg-[#0e1424]">
@@ -1274,11 +1550,12 @@
   </div>
 
   <!-- TOAST NOTIFICATION -->
-  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-2.5 px-4 py-3 rounded-xl bg-slate-900 border border-cyan-500/40 text-white shadow-2xl text-xs font-medium">
-    <div class="w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center">
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:right-6 z-[60] translate-y-24 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-2.5 pl-3 pr-4 py-2.5 rounded-2xl bg-[#0a0f1c]/95 backdrop-blur-xl border border-emerald-400/30 text-white shadow-[0_20px_60px_-12px_rgba(0,0,0,.8)] text-[13px] font-semibold overflow-hidden">
+    <span class="w-6 h-6 rounded-full bg-emerald-400/15 border border-emerald-400/30 text-emerald-300 flex items-center justify-center shrink-0">
       <i data-lucide="check" class="w-3.5 h-3.5"></i>
-    </div>
-    <span id="toastMessage">Команду скопійовано в буфер!</span>
+    </span>
+    <span id="toastMessage">Команду скопійовано!</span>
+    <span class="toast-bar absolute bottom-0 left-0 h-[2px] w-full origin-left bg-gradient-to-r from-emerald-400 to-cyan-400"></span>
   </div>
 
   <!-- JAVASCRIPT LOGIC -->
@@ -1571,87 +1848,108 @@
       }
     };
 
-    // Category Filtering
-    function filterCategory(category) {
-      document.querySelectorAll('.cat-btn').forEach(btn => {
-        if (btn.getAttribute('data-cat') === category) {
-          btn.className = 'cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-cyan-500 text-black shadow-md shadow-cyan-500/20';
-        } else {
-          btn.className = 'cat-btn px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800';
-        }
-      });
+    const filterState = { cat: 'all', q: '' };
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    // Combined category + search filtering
+    function applyFilters() {
       const cards = document.querySelectorAll('.product-card');
       let visibleCount = 0;
-
       cards.forEach(card => {
-        const cardCats = card.getAttribute('data-category').split(' ');
-        if (category === 'all' || cardCats.includes(category)) {
-          card.classList.remove('hidden');
+        const cats = (card.getAttribute('data-category') || '').split(' ');
+        const text = ((card.getAttribute('data-title') || '') + ' ' + (card.getAttribute('data-name') || '')).toLowerCase();
+        const okCat = filterState.cat === 'all' || cats.includes(filterState.cat);
+        const okQ = !filterState.q || text.includes(filterState.q);
+        const show = okCat && okQ;
+        card.classList.toggle('hidden', !show);
+        if (show) {
           visibleCount++;
-        } else {
-          card.classList.add('hidden');
+          card.style.animation = 'none';
+          void card.offsetWidth;
+          card.style.animation = '';
         }
       });
-
       toggleNoResults(visibleCount);
+      const rc = document.getElementById('resultCount');
+      if (rc) rc.textContent = `Показано ${visibleCount} з ${cards.length}`;
+      const clearBtn = document.getElementById('clearSearch');
+      if (clearBtn) {
+        const hasQ = !!filterState.q;
+        clearBtn.classList.toggle('hidden', !hasQ);
+        clearBtn.classList.toggle('inline-flex', hasQ);
+      }
+    }
+
+    function filterCategory(category) {
+      filterState.cat = category;
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        const active = btn.getAttribute('data-cat') === category;
+        btn.classList.toggle('chip-active', active);
+      });
+      applyFilters();
     }
 
     // Search Filtering
     function handleSearch() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.product-card');
-      let visibleCount = 0;
-
-      cards.forEach(card => {
-        const text = card.getAttribute('data-title').toLowerCase();
-        if (text.includes(query)) {
-          card.classList.remove('hidden');
-          visibleCount++;
-        } else {
-          card.classList.add('hidden');
-        }
-      });
-
-      toggleNoResults(visibleCount);
+      const input = document.getElementById('searchInput');
+      filterState.q = (input.value || '').toLowerCase().trim();
+      applyFilters();
     }
 
     function toggleNoResults(count) {
       const noResults = document.getElementById('noResults');
-      if (count === 0) {
-        noResults.classList.remove('hidden');
-      } else {
-        noResults.classList.add('hidden');
-      }
+      if (!noResults) return;
+      noResults.classList.toggle('hidden', count !== 0);
     }
 
     function resetFilters() {
-      document.getElementById('searchInput').value = '';
+      const input = document.getElementById('searchInput');
+      if (input) input.value = '';
+      filterState.q = '';
       filterCategory('all');
     }
 
-    // Clipboard Copy with Animated Toast
-    function copyCommand(text, btnElement) {
-      navigator.clipboard.writeText(text).then(() => {
-        showToast('Команду скопійовано в буфер обміну!');
-        if (btnElement) {
-          const originalText = btnElement.innerHTML;
-          btnElement.innerHTML = '<span class="text-emerald-400 font-bold">✓ Скопійовано!</span>';
-          setTimeout(() => {
-            btnElement.innerHTML = originalText;
-            lucide.createIcons();
-          }, 2000);
+    // Clipboard Copy with Animated Toast (+ fallback)
+    async function copyCommand(text, btnElement) {
+      try {
+        if (navigator.clipboard && window.isSecureContext !== false) {
+          await navigator.clipboard.writeText(text);
+        } else {
+          const ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          ta.remove();
         }
-      });
+        showToast('Команду скопійовано в буфер обміну');
+      } catch (e) {
+        showToast('Не вдалось скопіювати — виділіть вручну');
+      }
+      if (btnElement) {
+        const original = btnElement.innerHTML;
+        btnElement.innerHTML = '<span class="text-emerald-300 font-bold">✓ Скопійовано</span>';
+        setTimeout(() => {
+          btnElement.innerHTML = original;
+          if (window.lucide) lucide.createIcons();
+        }, 1800);
+      }
     }
 
+    let toastTimer = null;
     function showToast(message) {
       const toast = document.getElementById('toast');
       const toastMsg = document.getElementById('toastMessage');
-      toastMsg.innerText = message;
-      toast.classList.remove('translate-y-20', 'opacity-0', 'pointer-events-none');
-      setTimeout(() => {
-        toast.classList.add('translate-y-20', 'opacity-0', 'pointer-events-none');
+      if (!toast || !toastMsg) return;
+      toastMsg.textContent = message;
+      const bar = toast.querySelector('.toast-bar');
+      toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+      if (bar) { bar.style.animation = 'none'; void bar.offsetWidth; bar.style.animation = ''; }
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
       }, 2500);
     }
 
@@ -1664,19 +1962,124 @@
       document.getElementById('modalCategory').innerText = data.category;
       
       const iconEl = document.getElementById('modalIcon');
-      iconEl.className = 'w-9 h-9 rounded-xl flex items-center justify-center ' + data.iconBg;
+      iconEl.className = 'w-10 h-10 rounded-2xl flex items-center justify-center shrink-0 ' + data.iconBg;
       iconEl.innerHTML = `<i data-lucide="${data.icon}" class="w-5 h-5"></i>`;
 
       document.getElementById('modalBody').innerHTML = data.html;
-      document.getElementById('modalFooter').innerHTML = data.actions;
+      document.getElementById('modalFooter').innerHTML = `
+        <button onclick="closeModal()" class="px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold transition-colors">Закрити</button>
+        ${data.actions}`;
 
-      document.getElementById('quickModal').classList.remove('hidden');
+      const m = document.getElementById('quickModal');
+      m.classList.remove('hidden');
+      m.classList.add('flex');
+      document.body.style.overflow = 'hidden';
       lucide.createIcons();
-      resolveLatestReleases();
+    // --- UI init: reveal, spotlight, progress, counters, menu ---
+    function initReveal() {
+      const els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window) || reduceMotion) {
+        els.forEach(el => el.classList.add('revealed'));
+        return;
+      }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('revealed'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(el => io.observe(el));
+      // Product cards: stagger reveal
+      const cards = document.querySelectorAll('.product-card');
+      cards.forEach((c, idx) => {
+        c.classList.add('reveal');
+        c.style.transitionDelay = Math.min((idx % 3) * 0.07, 0.2) + 's';
+        io.observe(c);
+      });
+    }
+
+    function initSpotlight() {
+      if (reduceMotion) return;
+      document.querySelectorAll('.product-card, .glass-card').forEach(card => {
+        card.addEventListener('pointermove', ev => {
+          const r = card.getBoundingClientRect();
+          card.style.setProperty('--mx', ((ev.clientX - r.left) / r.width * 100).toFixed(1) + '%');
+          card.style.setProperty('--my', ((ev.clientY - r.top) / r.height * 100).toFixed(1) + '%');
+        });
+      });
+    }
+
+    function initCounters() {
+      const nums = document.querySelectorAll('[data-count]');
+      if (!nums.length) return;
+      const animate = el => {
+        const target = parseInt(el.getAttribute('data-count'), 10) || 0;
+        const suffix = el.getAttribute('data-suffix') || '';
+        if (reduceMotion) { el.textContent = target + suffix; return; }
+        const dur = 1100, t0 = performance.now();
+        const tick = now => {
+          const p = Math.min((now - t0) / dur, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * eased) + suffix;
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      };
+      if (!('IntersectionObserver' in window)) { nums.forEach(animate); return; }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { animate(e.target); io.unobserve(e.target); } });
+      }, { threshold: 0.5 });
+      nums.forEach(n => io.observe(n));
+    }
+
+    function initChrome() {
+      const prog = document.getElementById('scrollProgress');
+      const nav = document.getElementById('siteNav');
+      const onScroll = () => {
+        const h = document.documentElement;
+        const max = h.scrollHeight - h.clientHeight;
+        const p = max > 0 ? (h.scrollTop / max) : 0;
+        if (prog) prog.style.transform = `scaleX(${p})`;
+        if (nav) nav.classList.toggle('nav-scrolled', h.scrollTop > 8);
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      const menuBtn = document.getElementById('menuBtn');
+      if (menuBtn) menuBtn.addEventListener('click', () => toggleMobileMenu());
+      document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', () => toggleMobileMenu(false)));
+
+      // Active nav highlight
+      const links = document.querySelectorAll('[data-nav]');
+      const sections = ['products', 'terminal', 'security', 'matrix'].map(id => document.getElementById(id)).filter(Boolean);
+      if ('IntersectionObserver' in window && sections.length) {
+        const so = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              links.forEach(l => l.classList.toggle('active', l.getAttribute('data-nav') === e.target.id));
+            }
+          });
+        }, { rootMargin: '-40% 0px -55% 0px' });
+        sections.forEach(s => so.observe(s));
+      }
+
+      const y = document.getElementById('year');
+      if (y) y.textContent = String(new Date().getFullYear());
+    }
+
+    initReveal();
+    initSpotlight();
+    initCounters();
+    initChrome();
+    applyFilters();
+
+    resolveLatestReleases();
     }
 
     function closeModal() {
-      document.getElementById('quickModal').classList.add('hidden');
+      const m = document.getElementById('quickModal');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+      if (document.getElementById('previewModal').classList.contains('hidden')) document.body.style.overflow = '';
     }
 
     // Live PWA Preview Modal
@@ -1685,12 +2088,18 @@
       document.getElementById('previewUrlBadge').innerText = url;
       document.getElementById('previewExternalLink').href = url;
       document.getElementById('previewIframe').src = url;
-      document.getElementById('previewModal').classList.remove('hidden');
+      const m = document.getElementById('previewModal');
+      m.classList.remove('hidden');
+      m.classList.add('flex');
+      document.body.style.overflow = 'hidden';
     }
 
     function closePreview() {
       document.getElementById('previewIframe').src = '';
-      document.getElementById('previewModal').classList.add('hidden');
+      const m = document.getElementById('previewModal');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+      if (document.getElementById('quickModal').classList.contains('hidden')) document.body.style.overflow = '';
     }
 
     function reloadPreview() {
@@ -1700,78 +2109,101 @@
 
     // Keyboard shortcuts: ESC to close modals, / to focus search
     window.addEventListener('keydown', (e) => {
+      const tag = (document.activeElement && document.activeElement.tagName) || '';
+      const typing = tag === 'INPUT' || tag === 'TEXTAREA' || (document.activeElement && document.activeElement.isContentEditable);
       if (e.key === 'Escape') {
         closeModal();
         closePreview();
+        const mm = document.getElementById('mobileMenu');
+        if (mm && !mm.classList.contains('hidden')) toggleMobileMenu(false);
       }
-      if (e.key === '/' && document.activeElement !== document.getElementById('searchInput')) {
+      if (e.key === '/' && !typing) {
         e.preventDefault();
-        document.getElementById('searchInput').focus();
+        const si = document.getElementById('searchInput');
+        if (si) { si.focus(); si.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' }); }
       }
     });
 
-    // Terminal Playground Simulation
+    function toggleMobileMenu(force) {
+      const mm = document.getElementById('mobileMenu');
+      const btn = document.getElementById('menuBtn');
+      if (!mm) return;
+      const show = typeof force === 'boolean' ? force : mm.classList.contains('hidden');
+      mm.classList.toggle('hidden', !show);
+      if (btn) btn.setAttribute('aria-expanded', String(show));
+    }
+
+    // Terminal Playground Simulation (typewriter)
+    let termTimer = null;
     function clearTerminal() {
+      clearTimeout(termTimer);
       const out = document.getElementById('terminalOutput');
       out.innerHTML = `
-        <div class="text-slate-500"># Консоль очищено. Оберіть команду або інсталятор для симуляції.</div>
+        <div class="text-slate-500"># Консоль очищено. Оберіть команду для симуляції.</div>
         <div class="text-cyan-400 flex items-center gap-2 pt-2">
           <span>root@server:~#</span> <span class="animate-pulse">_</span>
         </div>
       `;
     }
 
+    const SIMULATIONS = {
+      bck: [
+        '<div class="text-white"><span class="text-emerald-400">root@server:~#</span> curl -fsSL .../apps/bck/install.sh | sudo bash</div>',
+        '<div class="text-cyan-300">==&gt; Завантаження BCK installer...</div>',
+        '<div class="text-slate-400">==&gt; Перевірка SHA256: <span class="text-emerald-400 font-bold">OK [fa9b8...31c]</span></div>',
+        '<div class="text-slate-400">==&gt; Зупинка bck.service (якщо запущений)... збереження конфігів</div>',
+        '<div class="text-slate-400">==&gt; Встановлення bckd, bck-agent, bck CLI, bck-proxy + вебконсоль...</div>',
+        '<div class="text-slate-400">==&gt; systemd unit: /etc/systemd/system/bck.service → healthcheck PASS</div>',
+        '<div class="text-emerald-400 font-bold">✓ BCK встановлено! Веб-консоль на :8080, бекапи збережено.</div>'
+      ],
+      pymon: [
+        '<div class="text-white"><span class="text-orange-400">root@server:~#</span> curl -sSL .../apps/monitoring/install.sh | sudo bash</div>',
+        '<div class="text-orange-300">==&gt; Архітектура: x86_64 · Ubuntu 24.04 · systemd</div>',
+        '<div class="text-slate-400">==&gt; Конфіг /etc/pymon/config.yml <span class="text-emerald-400">збережено без змін</span></div>',
+        '<div class="text-slate-400">==&gt; Бекап бінарника: pymon.old · оновлення до latest...</div>',
+        '<div class="text-slate-400">==&gt; Перезапуск pymon.service...</div>',
+        '<div class="text-emerald-400 font-bold">✓ PyMon NOC оновлено! NOC-дашборд доступний.</div>'
+      ],
+      mygit: [
+        '<div class="text-white"><span class="text-purple-400">root@server:~#</span> curl -sSL .../apps/mygit/install.sh | sudo bash</div>',
+        '<div class="text-purple-300">==&gt; Встановлення MyGit — self-hosted Git в одному бінарнику...</div>',
+        '<div class="text-slate-400">==&gt; Сховище /var/lib/mygit <span class="text-emerald-400">збережено</span> · права git:git</div>',
+        '<div class="text-slate-400">==&gt; Веб-інтерфейс на порту 9555...</div>',
+        '<div class="text-emerald-400 font-bold">✓ MyGit готовий! Відкрийте http://&lt;IP&gt;:9555/ — перший юзер = superuser.</div>'
+      ],
+      uptime: [
+        '<div class="text-white"><span class="text-teal-400">root@server:~#</span> curl -sSL .../apps/uptime-monitor/install.sh | sudo bash</div>',
+        '<div class="text-teal-300">==&gt; Завантаження Uptime Monitor (latest)...</div>',
+        '<div class="text-slate-400">==&gt; checksums.txt: <span class="text-emerald-400 font-bold">VALID</span> · self-check PASS</div>',
+        '<div class="text-slate-400">==&gt; Перезапуск uptime-monitor.service...</div>',
+        '<div class="text-emerald-400 font-bold">✓ Uptime Monitor активний! HTTP/SSL/SLA-моніторинг запущено.</div>'
+      ]
+    };
+
     function runSimulation(type) {
       const out = document.getElementById('terminalOutput');
-      let script = '';
-      
-      if (type === 'bck') {
-        script = `
-          <div class="text-white"><span class="text-emerald-400">root@server:~#</span> curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash</div>
-          <div class="text-cyan-300">==> Завантаження BCK installer...</div>
-          <div class="text-slate-400">==> Перевірка SHA256 checksum: <span class="text-emerald-400">OK [fa9b8...31c]</span></div>
-          <div class="text-slate-400">==> Зупинка сервісу bck.service (якщо запущений)...</div>
-          <div class="text-slate-400">==> Встановлення компонентів bckd, bck-agent, bck CLI, bck-proxy...</div>
-          <div class="text-slate-400">==> Реєстрація systemd unit: /etc/systemd/system/bck.service</div>
-          <div class="text-slate-400">==> Запуск сервісу та перевірка healthcheck...</div>
-          <div class="text-emerald-400 font-bold">✓ BCK успішно встановлено! Веб-консоль активна на порту 8080.</div>
-          <div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>
-        `;
-      } else if (type === 'pymon') {
-        script = `
-          <div class="text-white"><span class="text-orange-400">root@server:~#</span> curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash</div>
-          <div class="text-orange-300">==> Перевірка архітектури процесора: x86_64 / Ubuntu 24.04</div>
-          <div class="text-slate-400">==> Виявлено існуючий конфіг /etc/pymon/config.yml (збережено без змін)</div>
-          <div class="text-slate-400">==> Створення бекапу попереднього бінарника: pymon.old</div>
-          <div class="text-slate-400">==> Оновлення бінарника pymon-server до останньої версії...</div>
-          <div class="text-slate-400">==> Перезапуск systemd unit pymon.service...</div>
-          <div class="text-emerald-400 font-bold">✓ PyMon NOC успішно оновлено! Дашборд моніторингу доступний.</div>
-          <div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>
-        `;
-      } else if (type === 'mygit') {
-        script = `
-          <div class="text-white"><span class="text-purple-400">root@server:~#</span> curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash</div>
-          <div class="text-purple-300">==> Встановлення MyGit (Self-hosted Git Platform)...</div>
-          <div class="text-slate-400">==> Сховище репозиторіїв: /var/lib/mygit (збережено)</div>
-          <div class="text-slate-400">==> Створення користувача системи git та налаштування прав...</div>
-          <div class="text-slate-400">==> Запуск веб-інтерфейсу на порту 9555...</div>
-          <div class="text-emerald-400 font-bold">✓ MyGit готовий до роботи! Відкрийте http://&lt;IP&gt;:9555/ для створення першого користувача-суперюзера.</div>
-          <div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>
-        `;
-      } else if (type === 'uptime') {
-        script = `
-          <div class="text-white"><span class="text-teal-400">root@server:~#</span> curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash</div>
-          <div class="text-teal-300">==> Завантаження Uptime Monitor (остання версія)...</div>
-          <div class="text-slate-400">==> Звірка з checksums.txt: <span class="text-emerald-400">VALID</span></div>
-          <div class="text-slate-400">==> Тестовий старт бінарника: self-check PASS</div>
-          <div class="text-slate-400">==> Перезапуск служби uptime-monitor.service...</div>
-          <div class="text-emerald-400 font-bold">✓ Uptime Monitor активний! Моніторинг доступності та термінів SSL запущено.</div>
-          <div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>
-        `;
+      const lines = SIMULATIONS[type];
+      if (!out || !lines) return;
+      clearTimeout(termTimer);
+      if (reduceMotion) {
+        out.innerHTML = lines.join('') + '<div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>';
+        out.scrollTop = out.scrollHeight;
+        return;
       }
-
-      out.innerHTML = script;
-      out.scrollTop = out.scrollHeight;
+      out.innerHTML = '';
+      let i = 0;
+      const step = () => {
+        if (i < lines.length) {
+          out.insertAdjacentHTML('beforeend', lines[i]);
+          i++;
+          out.scrollTop = out.scrollHeight;
+          termTimer = setTimeout(step, 300);
+        } else {
+          out.insertAdjacentHTML('beforeend', '<div class="text-cyan-400 flex items-center gap-2 pt-2"><span>root@server:~#</span> <span class="animate-pulse">_</span></div>');
+          out.scrollTop = out.scrollHeight;
+        }
+      };
+      step();
     }
 
     // --- Динамічні посилання на останні релізи (фолбек — статичні URL у HTML вище) ---
