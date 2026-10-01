@@ -157,7 +157,11 @@ else
         echo "or set MYGIT_SKIP_CHECKSUM=1 to explicitly bypass verification."
         rm -f "$TMP_BIN" "$TMP_SUM"; exit 1
     fi
-    EXPECTED="$(grep " ${BINARY_NAME}\$" "$TMP_SUM" | awk '{print $1}')"
+    # CRLF/* tolerant + терпить склеєний рядок (mygit-v3.7.3 мав
+    # "hash1  file1hash2  file2" в один рядок через -NoNewline в Release-Local.ps1).
+    # Шукаємо "64hex + пробіли + [*]filename" як підрядок, без прив'язки до кінця рядка.
+    # tr є в coreutils разом із sha256sum.
+    EXPECTED="$(tr -d '\r' < "$TMP_SUM" | grep -oE "[0-9a-fA-F]{64}[[:space:]]+\\*?${BINARY_NAME}" | awk '{print $1}' | head -n1)"
     if [ -z "$EXPECTED" ]; then
         echo "ERROR: checksums.txt has no entry for ${BINARY_NAME}; refusing to install."
         rm -f "$TMP_BIN" "$TMP_SUM"; exit 1
