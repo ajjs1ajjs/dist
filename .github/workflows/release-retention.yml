@@ -1,0 +1,50 @@
+name: Release retention (keep last 3)
+
+# Shared hub: every product version duplicates full binaries, so keep only
+# the 3 newest `prefix-vX.Y.Z` releases per product. Older ones go away
+# together with their tags (`--cleanup-tag`).
+#
+# NOTE: GitHub Releases on public repos are free/unlimited — this is hygiene,
+# not quota. Rollback is always possible to 2 previous versions, plus any
+# version can be rebuilt from source (`Release-Local.ps1 -Version X.Y.Z`).
+
+on:
+  schedule:
+    # Monthly, 1st day 03:17 UTC. Public repo — minutes are free.
+    - cron: '17 3 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-retention
+  cancel-in-progress: false
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Delete releases older than newest 3 per prefix
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          KEEP: '3'
+          PREFIXES: 'sales gym bck kubelens rdm calculator rescalc diskcleaner monitoring mygit uptime game'
+        run: |
+          set -euo pipefail
+          for prefix in $PREFIXES; do
+            old=$(gh release list --limit 500 --json tagName --jq '.[].tagName' \
+              | grep -E "^${prefix}-v[0-9]+\.[0-9]+\.[0-9]+$" \
+              | sed "s/^${prefix}-v//" | sort -V -r | tail -n +$((KEEP+1)) || true)
+            if [ -z "$old" ]; then
+              echo "$prefix: nothing to prune"
+              continue
+            fi
+            echo "$old" | while read -r ver; do
+              [ -n "$ver" ] || continue
+              tag="${prefix}-v${ver}"
+              echo "deleting $tag"
+              gh release delete "$tag" --cleanup-tag --yes
+            done
+          done
