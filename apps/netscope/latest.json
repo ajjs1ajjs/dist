@@ -1,0 +1,9 @@
+{
+  "version": "1.1.0",
+  "notes": "NetScope 1.1.0: self-update channel (dist-hub manifest, Ed25519 fail-closed, in-place replace + auto-relaunch, no token needed); CIDR subnet scanning; inspector actions (ping/ports/traceroute/RDP/SSH/Web/PS); embedded file version.",
+  "portable": {
+    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.1.0/NetScope-v1.1.0-update.zip",
+    "sha256": "5152dea02a67c0e7e63064fc88027a8e88541b3fa3cb8d46d8a836632994742c",
+    "signature": "mfOBTe6KQJVwwL+5AXc9/l8+kTjQw7ndaYKZLot3XWogyvugDY9URJ3+HW/4sI/A4C+B85BCJxNEVz+7ASC/Cw=="
+  }
+}
