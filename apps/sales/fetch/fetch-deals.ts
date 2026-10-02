@@ -17,6 +17,10 @@ const CONFIG = {
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
   tgMessageLimit: 4000,
+  // TG-політика проти спаму: постимо лише глибокі знижки, не більше N за ран.
+  // Сайт при цьому лишає всі пропозиції від 5% — ріжеться тільки нотифікація.
+  tgMinDiscountPercent: 50,
+  tgMaxDealsPerRun: 10,
   tgTimeoutMs: 10000,
   fetchTimeoutMs: 30000,
   fetchRetries: 3,
@@ -466,7 +470,7 @@ async function run() {
 
   // Detect changes
   const newSteamFreeGames: SteamGame[] = [];
-  const newSteamDeals: SteamGame[] = [];
+  let newSteamDeals: SteamGame[] = [];
 
   // Steam: Find new items
   for (const game of freshSteam) {
@@ -479,8 +483,8 @@ async function run() {
       }
     }
 
-    // Hot deals: newly marked as isSpecial and discount >= 5
-    if (game.isSpecial && game.discountPercent >= 5) {
+    // TG: лише глибокі знижки (від tgMinDiscountPercent). Сайт показує всі від 5%.
+    if (game.isSpecial && game.discountPercent >= CONFIG.tgMinDiscountPercent) {
       const historyKey = `steam_discount_${game.id}`;
       const historyEntry = notifiedHistory[historyKey];
 
@@ -489,7 +493,10 @@ async function run() {
         shouldNotify = true;
       } else {
         const lastNotified = new Date(historyEntry.timestamp).getTime();
-        const priceDropped = game.discountPrice < historyEntry.price;
+        // Повторно постимо лише за значущого здешевлення (≥5% дешевше за
+        // останню запощену ціну) або після 30-денного кулдауну. Порівняння
+        // "будь-яка копійка нижче" спамило канал на округленнях/флуктуаціях Steam.
+        const priceDropped = game.discountPrice < historyEntry.price * 0.95;
         const cooldownExpired = now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS;
         if (priceDropped || cooldownExpired) {
           shouldNotify = true;
@@ -501,6 +508,19 @@ async function run() {
       }
     }
 
+  }
+
+  // Кап проти заливки каналу (розпродажі Steam рухають сотні цін за раз):
+  // беремо топ за відсотком, решта мовчки лишається на сайті.
+  newSteamDeals.sort(
+    (a, b) => b.discountPercent - a.discountPercent || (b.originalPrice - b.discountPrice) - (a.originalPrice - a.discountPrice),
+  );
+  if (newSteamDeals.length > CONFIG.tgMaxDealsPerRun) {
+    logger.info(
+      { total: newSteamDeals.length, capped: CONFIG.tgMaxDealsPerRun },
+      'capping telegram deals to top by discount percent',
+    );
+    newSteamDeals = newSteamDeals.slice(0, CONFIG.tgMaxDealsPerRun);
   }
 
   logger.info(`Detected: ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam (total ${freshSteam.length}).`);
@@ -553,7 +573,7 @@ async function run() {
 
   if (newSteamDeals.length > 0) {
     await sendBatched(
-      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 5%)!</b>\n\n`,
+      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 50%)!</b>\n\n`,
       newSteamDeals,
       `🚀 Більше знижок дивіться на нашому сайті!`,
       (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Steam'),
