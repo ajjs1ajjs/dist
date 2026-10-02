@@ -1,13 +1,13 @@
 {
-  "version": "0.18.0",
-  "notes": "Harness 0.18.0",
+  "version": "0.18.1",
+  "notes": "Harness 0.18.1",
   "setup": {
-    "url": "https://github.com/ajjs1ajjs/dist/releases/download/harness-v0.18.0/Harness_0.18.0_x64-setup.exe",
-    "sha256": "f40f226b7d6e4cc4e3b0ee358cd63835b7000d135fa8a77561ddd976f6e6ba32",
-    "signature": "OK+SAnJoSnbcybvCU8BF5Tatooe2LTU76mh+xZsDR3udq0B+g/grKd9/L+fOIufYPYlSMVpCmSJGS98Yx1oHAQ=="
+    "url": "https://github.com/ajjs1ajjs/dist/releases/download/harness-v0.18.1/Harness_0.18.1_x64-setup.exe",
+    "sha256": "2df4145774e2910dd3469c444426ecb5eadf5d790ecfd7e0c6ce3209e289d96c",
+    "signature": "ym7UTXR6h37zaBgINpjvAlM3QOTMP/FyKU4f4q5xV1g26327H3UievuX0Gty290KTTGFLz9FWuFYMbaDykH1BA=="
   },
   "portable": {
-    "url": "https://github.com/ajjs1ajjs/dist/releases/download/harness-v0.18.0/Harness_0.18.0_Portable.zip",
-    "sha256": "d461eaea672d6fe21c131e9a571089773f26f6a86066df1e961b0813def72e8f"
+    "url": "https://github.com/ajjs1ajjs/dist/releases/download/harness-v0.18.1/Harness_0.18.1_Portable.zip",
+    "sha256": "cc5aaeb4b91f247931ceebef8fb6f13f3d8d49b253650eaffe0d266879f1da4f"
   }
 }
