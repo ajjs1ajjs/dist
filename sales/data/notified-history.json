@@ -2686,5 +2686,96 @@
     "percent": 70,
     "timestamp": "2026-10-01T21:15:14.462Z",
     "type": "discount"
+  },
+  "steam_discount_414700": {
+    "title": "Outlast 2",
+    "price": 103,
+    "percent": 75,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_2486820": {
+    "title": "Sonic Racing: CrossWorlds",
+    "price": 959,
+    "percent": 60,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_3731020": {
+    "title": "Five Hearts Under One Roof season 2",
+    "price": 355,
+    "percent": 25,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_2781620": {
+    "title": "Risk of Rain 2: Alloyed Collective",
+    "price": 135,
+    "percent": 35,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_2424420": {
+    "title": "Avatar Legends: The Fighting Game",
+    "price": 480,
+    "percent": 20,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_2185060": {
+    "title": "Two Point Museum",
+    "price": 803,
+    "percent": 33,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_1895880": {
+    "title": "Ratchet & Clank: Rift Apart",
+    "price": 679,
+    "percent": 60,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_1282100": {
+    "title": "REMNANT II®",
+    "price": 259,
+    "percent": 80,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_239140": {
+    "title": "Dying Light",
+    "price": 65,
+    "percent": 90,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_611670": {
+    "title": "The Elder Scrolls V: Skyrim VR",
+    "price": 390,
+    "percent": 75,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_2495100": {
+    "title": "Hello Kitty Island Adventure",
+    "price": 566,
+    "percent": 45,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_3712080": {
+    "title": "Funnel Runners",
+    "price": 112,
+    "percent": 30,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
+  },
+  "steam_discount_629730": {
+    "title": "Blade and Sorcery",
+    "price": 509,
+    "percent": 15,
+    "timestamp": "2026-10-02T01:32:22.641Z",
+    "type": "discount"
   }
 }
