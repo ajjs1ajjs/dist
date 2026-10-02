@@ -1,11 +1,11 @@
 {
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzFVL3BmMTdMWjd5SzcxZ3N0NW40bThnWVZUbmpnMkNWcERsK1ZIZCtvdHErTEJPNTl4N2U4S01ITWdSY2ZacGdRamh6aHZnaklKMlh2aTJjM3FaeHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTI1NzA2CWZpbGU6UkRNIE1hbmFnZXJfMi4xLjEyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoyLjEuMTIKcTJNcWJ6MEpScmdBZzF5aUpZOXRCSUJjNkxxRE00R1ZhUHZ0OFVpS1V1dS81NFBnWEhlUnNNT0J6dEtxTGR0bU5rZjkxZ0JIekRyYzNDOUZINDZBREE9PQo=",
-                                             "url":  "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.12/RDM.Manager_2.1.12_x64-setup.exe"
-                                         }
-                  },
-    "pub_date":  "2026-10-02T07:22:47.660Z",
-    "version":  "2.1.12",
-    "notes":  "RDM Manager 2.1.12"
+  "version": "2.1.13",
+  "notes": "RDM Manager 2.1.13",
+  "pub_date": "2026-10-02T07:49:28.173Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRbVJWQW5waWdEKzRSUVBSSk50U1ZWM2ltM1hqWUVGUjUrczdlYTYvTktSVjFnWi82SkEwYUJMcENVVkpCdy8vQ21DdVVldkJ4cldvNnZTcW5CU0ZYQXJRbEIzdUxWYlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTI3MzY3CWZpbGU6UkRNIE1hbmFnZXJfMi4xLjEzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjoyLjEuMTMKYjBld08zbjB2NEFybFR0Q0xXWWZsdzBZaHc4VDJYK2ZCYUlJZjhNVEFERFZzZG1mWk1BRDZtVS96V3lWQWxjSGs4bmxXQ2YwQkdkaWhYcDh1ZW1CQkE9PQo=",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.13/RDM.Manager_2.1.13_x64-setup.exe"
+    }
+  }
 }
