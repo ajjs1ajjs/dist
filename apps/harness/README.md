@@ -6,8 +6,8 @@ Native Windows AI harness: subscriptions (Claude Max, ChatGPT Plus, Google AI) +
 ## Download
 
 - [All releases](https://github.com/ajjs1ajjs/dist/releases?q=harness)
-- `Harness_0.13.2_x64-setup.exe` - **NSIS installer** (per-user, Start menu shortcut, clean uninstall)
-- `Harness_0.13.2_Portable.zip` - **portable** (unzip and run)
+- `Harness_0.14.0_x64-setup.exe` - **NSIS installer** (per-user, Start menu shortcut, clean uninstall)
+- `Harness_0.14.0_Portable.zip` - **portable** (unzip and run)
 
 Check ``SHA256SUMS.txt`` to verify integrity.
 
