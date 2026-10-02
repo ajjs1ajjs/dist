@@ -1,0 +1,12 @@
+{
+    "version":  "0.7.0",
+    "notes":  "Harness 0.7.0",
+    "setup":  {
+                  "url":  "https://github.com/ajjs1ajjs/dist/releases/download/harness-v0.7.0/Harness_0.7.0_x64-setup.exe",
+                  "sha256":  "e2fc17f52d2fbdfd30d4dce234430d6ae468ab2c7ed79ee29eb2b45447be95a5"
+              },
+    "portable":  {
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/harness-v0.7.0/Harness_0.7.0_Portable.zip",
+                     "sha256":  "1298d184edc212d40df1577a94d0d3736c3a173262cea7c9531b7ec040549d50"
+                 }
+}
