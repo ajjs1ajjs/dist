@@ -1,9 +1,9 @@
 {
-  "version": "1.2.0",
-  "notes": "NetScope 1.2.0: scan reliability — cancel long scans (partial result kept), live progress bar, target queue with merged graph, IPv6 single-host scans, IPv6 ping fix. Self-update channel unchanged (Ed25519 fail-closed, in-place replace).",
+  "version": "1.3.0",
+  "notes": "NetScope 1.3.0: subnet clustering for big graphs (auto-fold above 120 nodes, click to unfold, filter-aware). Self-update channel unchanged (Ed25519 fail-closed, in-place replace).",
   "portable": {
-    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.2.0/NetScope-v1.2.0-update.zip",
-    "sha256": "886f8f9bfbfb418a0291d0a611da774b1fd4cf2e95713855c9d1bfca7698e5e1",
-    "signature": "MzGiJiOJjNpOgaLyDANgsVpkwreKioRxLqXsiW3rVVh092R75CiOJ5Umo2epPoC1L30cj5bpcsHuBwJxW2PsCQ=="
+    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.0/NetScope-v1.3.0-update.zip",
+    "sha256": "63f9565d4f032e731f9df61286813c08efdcc9abd1f1048309f5822a7e050b41",
+    "signature": "D05KWYK54Li2BlxHFqO8WyKCwvKusk6F2pKOzzI4ufYE5RCCv/U7N8ZZDJfN5tcuS03m3U8BcpS+ECP53jYmAw=="
   }
 }
