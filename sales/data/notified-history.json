@@ -2777,5 +2777,75 @@
     "percent": 15,
     "timestamp": "2026-10-02T01:32:22.641Z",
     "type": "discount"
+  },
+  "steam_discount_934700": {
+    "title": "Dead Island 2",
+    "price": 133,
+    "percent": 90,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_1774580": {
+    "title": "STAR WARS Jedi: Survivor™",
+    "price": 254,
+    "percent": 85,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_1118010": {
+    "title": "Monster Hunter World: Iceborne",
+    "price": 209,
+    "percent": 85,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_435150": {
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "price": 132,
+    "percent": 82,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_1971870": {
+    "title": "Mortal Kombat 1",
+    "price": 259,
+    "percent": 80,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_960170": {
+    "title": "DJMAX RESPECT V",
+    "price": 210,
+    "percent": 80,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_620": {
+    "title": "Portal 2",
+    "price": 45,
+    "percent": 80,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_805550": {
+    "title": "Assetto Corsa Competizione",
+    "price": 249,
+    "percent": 75,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_601150": {
+    "title": "Devil May Cry 5",
+    "price": 237,
+    "percent": 75,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
+  },
+  "steam_discount_699130": {
+    "title": "World War Z",
+    "price": 187,
+    "percent": 75,
+    "timestamp": "2026-10-05T15:37:24.712Z",
+    "type": "discount"
   }
 }
