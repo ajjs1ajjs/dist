@@ -8,13 +8,13 @@
 ## Завантажити
 
 - [⬇️ Усі релізи NetScope](https://github.com/ajjs1ajjs/dist/releases?q=netscope)
-- ``NetScope-v1.3.0-portable.zip`` — **портативна версія** (розпакувати в будь-яку теку, запуск ``NetScope.exe`` в 1 клік).
-- ``NetScope-v1.3.0-update.zip`` — службовий архів **внутрішнього апдейтера** (той самий вміст без обгортки; качається самим застосунком).
+- ``NetScope-v1.3.1-portable.zip`` — **портативна версія** (розпакувати в будь-яку теку, запуск ``NetScope.exe`` в 1 клік).
+- ``NetScope-v1.3.1-update.zip`` — службовий архів **внутрішнього апдейтера** (той самий вміст без обгортки; качається самим застосунком).
 
 Поруч публікується ``SHA256SUMS.txt`` для перевірки цілісності:
 
 ```powershell
-(Get-FileHash .\NetScope-v1.3.0-portable.zip -Algorithm SHA256).Hash
+(Get-FileHash .\NetScope-v1.3.1-portable.zip -Algorithm SHA256).Hash
 ```
 
 ---
