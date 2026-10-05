@@ -23,9 +23,8 @@
 <a href="#rdm"><img src="https://img.shields.io/badge/RDM_Manager-Windows-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="RDM Manager"></a>
 <a href="#sales"><img src="https://img.shields.io/badge/Game_Sales-PWA-C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
-<a href="#harness"><img src="https://img.shields.io/badge/Harness-Windows-EC4899?style=for-the-badge&logo=openai&logoColor=white" alt="Harness"></a>
 
-<sub><b>13 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
@@ -163,7 +162,7 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 <br>
 <sub>Web · PWA</sub>
 <br><br>
-Радар знижок і безкоштовних ігор (Steam / Epic)
+Радар знижок і безкоштовних ігор (Steam)
 <br><br>
 <a href="#sales">▶️ <b>Відкрити</b></a>
 <br><br>
@@ -181,17 +180,6 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 </td>
 </tr>
 <tr>
-<td align="center" width="50%">
-<br>
-<a href="#harness"><img src="https://img.shields.io/badge/Harness--EC4899?style=for-the-badge&logo=openai&logoColor=white" alt="Harness"></a>
-<br>
-<sub>Windows 10 / 11 · x64 · Installer / Portable</sub>
-<br><br>
-Нативний AI-оркестратор: OpenAI, Claude, Gemini, BYOK, MCP
-<br><br>
-<a href="#harness">⬇️ <b>Завантажити</b></a>
-<br><br>
-</td>
 <td align="center" width="50%">
 <br>
 <a href="https://github.com/ajjs1ajjs/System-Design"><img src="https://img.shields.io/badge/NetScope_Enterprise--0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
@@ -437,26 +425,6 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 - Невдалий старт не рапортується як успіх — бінарник відкочується.
 
 [📜 Скрипт встановлення](apps/uptime-monitor/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/uptime-monitor/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Uptime Monitor](https://github.com/ajjs1ajjs/dist/releases?q=uptime)
-
----
-
-<a id="harness"></a>
-
-### 🤖 Harness
-
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=harness"><img src="https://img.shields.io/badge/Harness--EC4899?style=for-the-badge&logo=openai&logoColor=white" alt="Harness"></a>
-
-**Windows 10 / 11 · x64** — нативний десктопний AI-оркестратор (Rust + eframe), мульти-провайдери (OpenAI, Claude, Gemini, OpenCode Zen/Go), BYOK у Windows Credential Manager, Model Context Protocol (MCP) та підписані автооновлення.
-
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=harness">
-  <img src="https://img.shields.io/badge/Download-latest-EC4899?style=for-the-badge" alt="Завантажити останню версію">
-</a>
-
-- `Harness_*_x64-setup.exe` — **NSIS-інсталятор** (per-user, меню «Пуск», чисте видалення).
-- `Harness_*_Portable.zip` — **портативна версія** (розпакувати й запустити).
-- Подвійний захист: Authenticode-підпис (IT-Enterprise) + відокремлений цифровий підпис каналу оновлень (Ed25519) із верифікацією через `latest.json`.
-
-[📖 Деталі та перевірка](apps/harness/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Harness](https://github.com/ajjs1ajjs/dist/releases?q=harness)
 
 ---
 
