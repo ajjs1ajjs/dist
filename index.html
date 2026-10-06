@@ -271,6 +271,7 @@
       .reveal { opacity: 1; transform: none; }
     }
   </style>
+  <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 
 <body class="min-h-screen selection:bg-cyan-500 selection:text-black font-sans antialiased overflow-x-hidden">
@@ -575,7 +576,7 @@
                 <i data-lucide="compass" class="w-6 h-6"></i>
               </div>
               <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-medium bg-cyan-500/10 text-cyan-300 border border-cyan-500/25">
-                Windows x64 (0.3.30+)
+                Windows x64 (0.3.29+)
               </span>
             </div>
             
@@ -675,10 +676,10 @@
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
               <div class="w-12 h-12 rounded-xl bg-indigo-500/15 border border-indigo-500/30 flex items-center justify-center text-indigo-400 shadow-inner">
-                <i data-lucide="terminal-square" class="w-6 h-6"></i>
+                <i data-lucide="square-terminal" class="w-6 h-6"></i>
               </div>
               <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-medium bg-indigo-500/10 text-indigo-300 border border-indigo-500/25">
-                Windows x64 (2.1.6+)
+                Windows x64 (2.1.5+)
               </span>
             </div>
             
@@ -1278,7 +1279,7 @@
           <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold">Compatibility Matrix</p>
           <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-2">Зведена таблиця екосистеми</h2>
         </div>
-        <p class="text-[12px] text-slate-500 font-mono shrink-0">13 продуктів · гортайте → на мобільному</p>
+        <p class="text-[12px] text-slate-500 font-mono shrink-0">12 продуктів · гортайте → на мобільному</p>
       </div>
 
       <div class="reveal glass-card rounded-2xl overflow-hidden">
@@ -1393,6 +1394,18 @@
               </tr>
               <tr class="hover:bg-white/[0.02] transition-colors">
                 <td class="py-3 px-4 font-bold text-white flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full bg-lime-400"></span> 3D Games
+                </td>
+                <td class="py-3 px-4">Web · WebGL / Three.js</td>
+                <td class="py-3 px-4">Three.js · WebGL</td>
+                <td class="py-3 px-4 text-lime-400">itch.io / GitHub Pages</td>
+                <td class="py-3 px-4">GitHub Actions збірка</td>
+                <td class="py-3 px-4 text-right">
+                  <a href="https://ajjs1ajjs.itch.io/" target="_blank" class="text-cyan-400 hover:underline">itch.io</a>
+                </td>
+              </tr>
+              <tr class="hover:bg-white/[0.02] transition-colors">
+                <td class="py-3 px-4 font-bold text-white flex items-center gap-2">
                   <span class="w-2 h-2 rounded-full bg-violet-400"></span> Server Infrastructure Calculator
                 </td>
                 <td class="py-3 px-4">Windows 10/11 · x64</td>
@@ -1453,7 +1466,7 @@
         <div class="mt-4 flex flex-wrap gap-2">
           <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-emerald-400/10 border border-emerald-400/25 text-emerald-300"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>SHA-256 Verified</span>
           <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">GitHub Pages · Live</span>
-          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">13 продуктів</span>
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">12 продуктів</span>
         </div>
       </div>
 
@@ -1657,7 +1670,7 @@
         title: 'RDM Manager — Remote Connection Manager',
         category: 'Windows x64 · Tauri 2 / Rust / SQLite',
         iconBg: 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30',
-        icon: 'terminal-square',
+        icon: 'square-terminal',
         html: `
           <div class="space-y-3">
             <p><strong>RDM Manager</strong> об'єднує всі ваші підключення (SSH, RDP, консолі) в одному зручному та надійному інтерфейсі.</p>
@@ -1977,6 +1990,8 @@
       m.classList.add('flex');
       document.body.style.overflow = 'hidden';
       lucide.createIcons();
+    }
+
     // --- UI init: reveal, spotlight, progress, counters, menu ---
     function initReveal() {
       const els = document.querySelectorAll('.reveal');
@@ -2073,9 +2088,6 @@
     initCounters();
     initChrome();
     applyFilters();
-
-    resolveLatestReleases();
-    }
 
     function closeModal() {
       const m = document.getElementById('quickModal');
