@@ -2847,5 +2847,47 @@
     "percent": 75,
     "timestamp": "2026-10-05T15:37:24.712Z",
     "type": "discount"
+  },
+  "steam_discount_107410": {
+    "title": "Arma 3",
+    "price": 187,
+    "percent": 75,
+    "timestamp": "2026-10-06T14:00:06.485Z",
+    "type": "discount"
+  },
+  "steam_discount_530611": {
+    "title": "End of Zoe",
+    "price": 122,
+    "percent": 75,
+    "timestamp": "2026-10-06T14:00:06.485Z",
+    "type": "discount"
+  },
+  "steam_discount_477160": {
+    "title": "Human Fall Flat",
+    "price": 83,
+    "percent": 70,
+    "timestamp": "2026-10-06T14:00:06.485Z",
+    "type": "discount"
+  },
+  "steam_discount_553640": {
+    "title": "ICEY",
+    "price": 62,
+    "percent": 65,
+    "timestamp": "2026-10-06T14:00:06.485Z",
+    "type": "discount"
+  },
+  "steam_discount_513710": {
+    "title": "SCUM",
+    "price": 460,
+    "percent": 60,
+    "timestamp": "2026-10-06T14:00:06.485Z",
+    "type": "discount"
+  },
+  "steam_discount_1129580": {
+    "title": "Medieval Dynasty",
+    "price": 345,
+    "percent": 50,
+    "timestamp": "2026-10-06T14:00:06.485Z",
+    "type": "discount"
   }
 }
