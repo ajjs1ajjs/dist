@@ -2091,6 +2091,7 @@
       m.classList.add('flex');
       document.body.style.overflow = 'hidden';
       lucide.createIcons();
+      refreshModalLinks();
     }
 
     // --- UI init: reveal, spotlight, progress, counters, menu ---
@@ -2337,10 +2338,6 @@
     let latestReleasesPromise = null;
 
     function resolveLatestReleases() {
-      const targets = Array.from(document.querySelectorAll('[data-latest]'));
-      if (!targets.length) return;
-      const prefixes = [...new Set(targets.map(el => el.dataset.latest))];
-
       latestReleasesPromise = latestReleasesPromise || fetch('https://api.github.com/repos/ajjs1ajjs/dist/releases?per_page=100')
         .then(res => {
           if (!res.ok) throw new Error('GitHub API ' + res.status);
@@ -2351,26 +2348,58 @@
 
       latestReleasesPromise.then(releases => {
         if (!releases) return;
-        const latest = {};
-        for (const rel of releases) {
-          for (const prefix of prefixes) {
-            if (!latest[prefix] && rel.tag_name && rel.tag_name.startsWith(prefix)) {
-              latest[prefix] = rel;
-            }
-          }
+        applyLatestTo(document, releases);
+      });
+    }
+
+    // Порівняння semver: API не гарантує порядок релізів за датою,
+    // тому latest — це максимальна версія, а не перший збіг у списку.
+    function cmpVer(a, b) {
+      const pa = String(a).split('.').map(x => parseInt(x, 10) || 0);
+      const pb = String(b).split('.').map(x => parseInt(x, 10) || 0);
+      for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+        const d = (pa[i] || 0) - (pb[i] || 0);
+        if (d) return d;
+      }
+      return 0;
+    }
+
+    // Оновлює бейджі версій і посилання в межах scope.
+    // Викликається і при завантаженні (document), і при відкритті модалки (modalFooter),
+    // бо контент модалки інжектиться в DOM вже після першого проходу резолвера.
+    function applyLatestTo(scope, releases) {
+      const targets = Array.from(scope.querySelectorAll('[data-latest]'));
+      if (!targets.length) return;
+      const prefixes = [...new Set(targets.map(el => el.dataset.latest))];
+      const latest = {};
+      for (const rel of releases) {
+        for (const prefix of prefixes) {
+          if (!rel.tag_name || !rel.tag_name.startsWith(prefix)) continue;
+          const ver = rel.tag_name.slice(prefix.length).replace(/^v/i, '');
+          if (!latest[prefix] || cmpVer(ver, latest[prefix].ver) > 0) latest[prefix] = { rel, ver };
         }
-        document.querySelectorAll('[data-latest]').forEach(el => {
-          const rel = latest[el.dataset.latest];
-          if (!rel) return;
-          const version = rel.tag_name.slice(el.dataset.latest.length).replace(/^v/i, '');
-          if (el.tagName === 'A') {
-            const pattern = LATEST_ASSET_PATTERNS[el.dataset.latest];
-            const asset = pattern && (rel.assets || []).find(a => pattern.test(a.name));
-            if (asset) el.href = asset.browser_download_url;
-          } else {
-            el.textContent = 'v' + version;
-          }
-        });
+      }
+      targets.forEach(el => {
+        const hit = latest[el.dataset.latest];
+        if (!hit) return;
+        const rel = hit.rel;
+        const version = hit.ver;
+        if (el.tagName === 'A') {
+          const pattern = LATEST_ASSET_PATTERNS[el.dataset.latest];
+          const asset = pattern && (rel.assets || []).find(a => pattern.test(a.name));
+          if (asset) el.href = asset.browser_download_url;
+        } else {
+          el.textContent = 'v' + version;
+        }
+      });
+    }
+
+    function refreshModalLinks() {
+      if (!latestReleasesPromise) return;
+      latestReleasesPromise.then(releases => {
+        if (!releases) return;
+        const footer = document.getElementById('modalFooter');
+        if (footer) applyLatestTo(footer, releases);
       });
     }
 
