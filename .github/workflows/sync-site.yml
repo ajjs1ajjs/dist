@@ -1,0 +1,92 @@
+# Синхронізація версій SITE з живими релізами dist.
+# Чому тут, а не в SITE: SITE приватний, а білінг GitHub заморожено —
+# його воркфлоу не стартують. dist публічний, ранери безкоштовні.
+# Тригери: новий реліз (одразу), страховка cron, ручний запуск.
+# Береже public/index.html в SITE свіжим: версії data-latest-ver +
+# лінки data-latest-href/code. Push у main SITE автоматично
+# збирає Cloudflare Workers Builds. Секрет: SITE_DISPATCH_TOKEN
+# (PAT з правом запису в ajjs1ajjs/SITE).
+
+name: Sync SITE versions
+
+on:
+  release:
+    types: [published]
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Тег для тесту (напр. rdm-v2.1.16)'
+        required: false
+        default: 'manual-test'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-site-versions
+  cancel-in-progress: false
+
+jobs:
+  sync-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout SITE
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          repository: ajjs1ajjs/SITE
+          token: ${{ secrets.SITE_DISPATCH_TOKEN }}
+          path: site
+
+      - name: Setup Node.js
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+
+      - name: Sync versions from dist releases
+        working-directory: site
+        run: node scripts/sync-versions.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for changes
+        id: diff
+        working-directory: site
+        run: |
+          if git diff --quiet -- public/index.html; then
+            {
+              echo "changed=false"
+            } >> "$GITHUB_OUTPUT"
+            echo "SITE вже свіжий — змін нема."
+          else
+            {
+              echo "changed=true"
+            } >> "$GITHUB_OUTPUT"
+            echo "Знайдено свіжі версії для SITE."
+          fi
+
+      - name: Validate code syntax
+        if: steps.diff.outputs.changed == 'true'
+        working-directory: site
+        run: |
+          node --check public/app.js
+
+      - name: Commit and push fresh versions to SITE
+        if: steps.diff.outputs.changed == 'true'
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          TAG="${{ github.event.release.tag_name }}"
+          if [ -z "$TAG" ]; then
+            TAG="${{ inputs.tag }}"
+          fi
+          if [ -n "$TAG" ] && [ "$TAG" != "manual-test" ]; then
+            MSG="chore(site): sync versions from dist ($TAG)"
+          else
+            MSG="chore(site): sync versions from dist"
+          fi
+          git add public/index.html
+          git commit -m "$MSG"
+          git push origin HEAD:main
