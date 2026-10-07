@@ -1,9 +1,9 @@
 {
-  "version": "1.3.1",
-  "notes": "NetScope 1.3.1. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v1.3.0...netscope-v1.3.1",
-  "portable": {
-    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.1/NetScope-v1.3.1-update.zip",
-    "sha256": "695fad37f62cff44dab103eec4d62096d3aa91255b795a5795249acc167ff07e",
-    "signature": "KLWh16YR8YM4Awu7EkwTA6/OYPZGCiv7wFODyTDQtsL3q8sGBFnUj+QEeQjkxaKKPlVduni83fF2XWZa+Xz1Dg=="
-  }
+    "version":  "1.3.2",
+    "notes":  "NetScope 1.3.2. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v1.3.1...netscope-v1.3.2",
+    "portable":  {
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.2/NetScope-v1.3.2-update.zip",
+                     "sha256":  "a694672b0fe0b6ddcd58c4f79abaff78549d2f78bbb3e6ef87c6df02982da94e",
+                     "signature":  "DqYGBAUV/fCACnMW108dbUto8bZ2jM0S3ZsA3tEDgWnnIiUaKPuGFQeV8pkIQG9mEGO1WpX2ATLrNSuqCp5vCQ=="
+                 }
 }
