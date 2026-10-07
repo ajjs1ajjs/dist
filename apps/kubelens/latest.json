@@ -1,11 +1,11 @@
 {
-  "version": "0.3.33",
-  "notes": "KubeLens 0.3.33",
-  "pub_date": "2026-10-06T12:22:03.794Z",
+  "version": "0.3.34",
+  "notes": "KubeLens 0.3.34",
+  "pub_date": "2026-10-07T09:10:18.332Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjRCV1ROdndRNmNGN0lOa0VCR0RTNHhjb0RqeDM1Zkk4cExDdS85UEZhdUZTR1kzeHZ4WkNGSis0Z1hiYzF2VlNqRk1QT09pL2d3bzNQcHNjbnJ5cVdGSFprcVJwZlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjg5MzIzCWZpbGU6S3ViZUxlbnNfMC4zLjMzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuMzMKRXZKSjZlTTJCaVZ3ei9TU013MG95SDM1dFNjbStoNEEvdjZzSUtCNGY2dDUwQmtHV3o5OExxcFh1OFFqUXRLQmt4UVVOTmZTRUQyTjNRRml4Y2JyRFE9PQo=",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.33/KubeLens_0.3.33_x64-setup.exe"
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.34/KubeLens_0.3.33_x64-setup.exe"
     }
   }
 }
