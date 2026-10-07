@@ -90,3 +90,44 @@ jobs:
           git add public/index.html
           git commit -m "$MSG"
           git push origin HEAD:main
+
+  # Хаб dist (index.html) — та сама логіка newest-тегу, що й для SITE.
+  # Раніше оновлювався вручну і відставав; тепер на кожен реліз + cron.
+  sync-hub:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout dist
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+
+      - name: Catalog consistency gate
+        run: node scripts/sync-hub.mjs --check-catalog
+        env:
+          # SITE недоступний у цьому джобі — скрипт звіряє каталог з хабом
+          # і retention; повну звірку (включно з SITE) роби локально.
+          SITE_DIR: /tmp/no-site-here
+
+      - name: Sync hub versions from dist releases
+        run: node scripts/sync-hub.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push hub versions
+        run: |
+          if git diff --quiet -- index.html apps/catalog.json; then
+            echo "Хаб уже свіжий — змін нема."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          TAG="${{ github.event.release.tag_name }}"
+          if [ -n "$TAG" ]; then MSG="chore(hub): sync versions ($TAG)"; else MSG="chore(hub): sync versions"; fi
+          git add index.html apps/catalog.json
+          git commit -m "$MSG"
+          git push

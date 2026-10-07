@@ -1,0 +1,17 @@
+{
+  "_comment": "Single registry of products published through ajjs1ajjs/dist. When adding a product: 1) add entry here, 2) add card to dist index.html + SITE public/index.html (accepted design), 3) add prefix to SITE scripts/sync-versions.mjs CONFIG, 4) add prefix to release-retention.yml PREFIXES. scripts/sync-hub.mjs --check-catalog verifies all four stay in sync.",
+  "products": [
+    { "prefix": "bck-v", "name": "BCK" },
+    { "prefix": "calculator-v", "name": "Calculator" },
+    { "prefix": "diskcleaner-v", "name": "DiskCleaner" },
+    { "prefix": "gym-v", "name": "Gym" },
+    { "prefix": "kubelens-v", "name": "KubeLens" },
+    { "prefix": "monitoring-v", "name": "Monitoring" },
+    { "prefix": "mygit-v", "name": "MyGit" },
+    { "prefix": "netscope-v", "name": "NetScope" },
+    { "prefix": "rdm-v", "name": "RDM" },
+    { "prefix": "rescalc-v", "name": "ResourceCalculator" },
+    { "prefix": "sales-v", "name": "Sales" },
+    { "prefix": "uptime-v", "name": "Uptime-Monitor" }
+  ]
+}
