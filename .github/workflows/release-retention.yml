@@ -30,7 +30,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           KEEP: '3'
-          PREFIXES: 'sales gym bck kubelens rdm calculator rescalc diskcleaner monitoring mygit uptime game'
+          PREFIXES: 'sales gym bck kubelens rdm calculator rescalc diskcleaner monitoring mygit uptime game netscope'
         run: |
           set -euo pipefail
           for prefix in $PREFIXES; do
