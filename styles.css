@@ -284,10 +284,6 @@ sup { font-size: .6em; }
 }
 
 /* ---------- Cases ---------- */
-.group-title {
-  font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
-  color: var(--dim); margin: 34px 0 16px;
-}
 .case-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; }
 .case { background: var(--panel-2); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 18px; display: flex; flex-direction: column; gap: 12px; }
 .case-head { display: flex; align-items: center; gap: 12px; }
@@ -298,9 +294,6 @@ sup { font-size: .6em; }
 }
 .case-head h3 { font-size: 16px; }
 .case-badge { font-family: var(--mono); font-size: 11px; color: var(--dim); }
-.case-flow { display: flex; flex-direction: column; gap: 8px; }
-.case-flow p { font-size: 13px; color: var(--muted); border-left: 2px solid var(--line); padding-left: 10px; }
-.case-flow b { color: var(--text); }
 .case ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 13px; display: flex; flex-direction: column; gap: 5px; }
 .case-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto; }
 .case-actions .meta { font-family: var(--mono); font-size: 11px; color: var(--dim); }
