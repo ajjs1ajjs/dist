@@ -24,7 +24,7 @@
 <a href="#sales"><img src="https://img.shields.io/badge/Game_Sales-PWA-C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 
-<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>13 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
@@ -432,5 +432,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 13 продуктів, живий термінал, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 13 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)

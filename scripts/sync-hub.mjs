@@ -72,18 +72,23 @@ async function main() {
   const changes = [];
   for (const [prefix, rel] of Object.entries(latest)) {
     const ver = 'v' + rel.tag_name.slice(prefix.length).replace(/^v/i, '');
-    const verRe = new RegExp(`(data-latest="${escRe(prefix)}">)[^<]*<`, 'g');
+    const verRe = new RegExp(`(data-latest-ver="${escRe(prefix)}">)[^<]*<`, 'g');
     const before = html;
     html = html.replace(verRe, `$1${ver}<`);
     if (html !== before) changes.push(`${prefix} ver -> ${ver}`);
     const asset = rel.assets?.find(a => CONFIG[prefix].pattern.test(a.name));
     if (asset?.browser_download_url) {
       const url = asset.browser_download_url;
-      const hrefRe1 = new RegExp(`(data-latest="${escRe(prefix)}"[^>]*?href=")[^"]*(")`, 'g');
-      const hrefRe2 = new RegExp(`(href=")[^"]*("[^>]*?data-latest="${escRe(prefix)}")`, 'g');
+      const hrefRe1 = new RegExp(`(data-latest-href="${escRe(prefix)}"[^>]*?href=")[^"]*(")`, 'g');
+      const hrefRe2 = new RegExp(`(href=")[^"]*("[^>]*?data-latest-href="${escRe(prefix)}")`, 'g');
       const h0 = html;
       html = html.replace(hrefRe1, `$1${url}$2`).replace(hrefRe2, `$1${url}$2`);
       if (html !== h0) changes.push(`${prefix} href -> ${asset.name}`);
+
+      const codeRe = new RegExp(`(data-latest-code="${escRe(prefix)}">)[^<]*<`, 'g');
+      const c0 = html;
+      html = html.replace(codeRe, `$1${asset.name}<`);
+      if (html !== c0) changes.push(`${prefix} file -> ${asset.name}`);
     }
   }
   if (!changes.length) {
@@ -106,7 +111,7 @@ function checkCatalog() {
   const catalog = JSON.parse(readFileSync(CATALOG, 'utf8')).products.map(p => p.prefix).sort();
   const problems = [];
   const hubHtml = readFileSync(INDEX, 'utf8');
-  const hub = [...new Set([...hubHtml.matchAll(/data-latest="([a-z]+-v)"/g)].map(m => m[1]))].sort();
+  const hub = [...new Set([...hubHtml.matchAll(/data-latest-ver="([a-z]+-v)"/g)].map(m => m[1]))].sort();
   const checks = [['hub', hub]];
   try {
     const siteHtml = readFileSync(SITE_INDEX, 'utf8');
