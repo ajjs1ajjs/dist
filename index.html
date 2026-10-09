@@ -314,13 +314,19 @@
       </div>
 
       <nav class="hidden md:flex items-center gap-7 text-[13px] font-semibold text-slate-300" aria-label="Основна навігація">
-        <a href="#products" data-nav="products" class="nav-link hover:text-white transition-colors">Каталог</a>
-        <a href="#terminal" data-nav="terminal" class="nav-link hover:text-white transition-colors">Термінал</a>
-        <a href="#security" data-nav="security" class="nav-link hover:text-white transition-colors">Безпека</a>
-        <a href="#matrix" data-nav="matrix" class="nav-link hover:text-white transition-colors">Матриця</a>
+        <a href="#products" data-nav="products" data-i18n="nav_catalog" class="nav-link hover:text-white transition-colors">Каталог</a>
+        <a href="#terminal" data-nav="terminal" data-i18n="nav_terminal" class="nav-link hover:text-white transition-colors">Термінал</a>
+        <a href="#security" data-nav="security" data-i18n="nav_security" class="nav-link hover:text-white transition-colors">Безпека</a>
+        <a href="#matrix" data-nav="matrix" data-i18n="nav_matrix" class="nav-link hover:text-white transition-colors">Матриця</a>
       </nav>
 
       <div class="flex items-center gap-2.5">
+        <!-- Language Switcher -->
+        <div class="flex items-center p-0.5 rounded-xl bg-white/[0.05] border border-white/10 text-xs font-mono font-semibold" role="group" aria-label="Мова сайту / Language">
+          <button id="langBtnUk" onclick="setLanguage('uk')" class="px-2.5 py-1 rounded-lg transition-all" aria-label="Українська версія">UA</button>
+          <button id="langBtnEn" onclick="setLanguage('en')" class="px-2.5 py-1 rounded-lg transition-all" aria-label="English version">EN</button>
+        </div>
+
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener noreferrer"
            class="hidden sm:flex items-center gap-2 pl-3.5 pr-3 py-1.5 rounded-xl bg-white/[0.06] hover:bg-white/[0.1] border border-white/10 text-xs font-semibold text-white transition-all hover:-translate-y-px">
           <i data-lucide="github" class="w-4 h-4 text-slate-200"></i>
@@ -335,13 +341,20 @@
     <!-- Mobile menu -->
     <div id="mobileMenu" class="md:hidden hidden border-t border-white/10 bg-[#05070d]/95 backdrop-blur-xl">
       <nav class="px-4 py-3 flex flex-col text-sm font-semibold text-slate-200" aria-label="Мобільна навігація">
-        <a href="#products" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Каталог продуктів</a>
-        <a href="#terminal" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Демо-термінал</a>
-        <a href="#security" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Безпека & Архітектура</a>
-        <a href="#matrix" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Матриця рішень</a>
+        <a href="#products" data-i18n="nav_mobile_catalog" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Каталог продуктів</a>
+        <a href="#terminal" data-i18n="nav_mobile_terminal" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Демо-термінал</a>
+        <a href="#security" data-i18n="nav_mobile_security" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Безпека & Архітектура</a>
+        <a href="#matrix" data-i18n="nav_mobile_matrix" class="px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors">Матриця рішень</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" class="mt-1 px-3 py-2.5 rounded-xl bg-white/5 border border-white/10 flex items-center gap-2">
-          <i data-lucide="github" class="w-4 h-4"></i> GitHub-репозиторій
+          <i data-lucide="github" class="w-4 h-4"></i> <span data-i18n="nav_mobile_github">GitHub-репозиторій</span>
         </a>
+        <div class="mt-2 pt-2 border-t border-white/10 flex items-center justify-between px-3">
+          <span class="text-xs text-slate-400 font-sans" data-i18n="nav_lang_label">Мова / Language</span>
+          <div class="flex items-center p-0.5 rounded-xl bg-white/[0.05] border border-white/10 text-xs font-mono font-semibold">
+            <button id="mobileLangBtnUk" onclick="setLanguage('uk')" class="px-2.5 py-1 rounded-lg transition-all">UA</button>
+            <button id="mobileLangBtnEn" onclick="setLanguage('en')" class="px-2.5 py-1 rounded-lg transition-all">EN</button>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -359,17 +372,17 @@
           </span>
           LIVE
         </span>
-        <span class="text-slate-300">Публічний канал релізів · <span class="text-white font-bold">13</span> продуктів · SHA-256 verified</span>
+        <span class="text-slate-300" data-i18n-html="hero_live_badge">Публічний канал релізів · <span class="text-white font-bold">13</span> продуктів · SHA-256 verified</span>
       </div>
 
-      <h1 class="reveal text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-7xl font-extrabold tracking-[-0.03em] text-white max-w-5xl mx-auto" style="transition-delay:.08s">
+      <h1 class="reveal text-[2.6rem] leading-[1.05] sm:text-6xl lg:text-7xl font-extrabold tracking-[-0.03em] text-white max-w-5xl mx-auto" style="transition-delay:.08s" data-i18n-html="hero_title">
         Екосистема інструментів для<br class="hidden sm:inline">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-400 bg-[length:200%_auto] animate-gradient-x drop-shadow-[0_0_28px_rgba(34,211,238,.25)]">
           DevOps, SRE та продуктивності
         </span>
       </h1>
 
-      <p class="reveal mt-6 text-[15px] sm:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed" style="transition-delay:.14s">
+      <p class="reveal mt-6 text-[15px] sm:text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed" style="transition-delay:.14s" data-i18n-html="hero_desc">
         Публічний хаб інсталяторів, бінарників та офлайн-застосунків.
         Розгортання <span class="text-slate-200 font-semibold">однією командою</span>, <span class="text-slate-200 font-semibold">нуль телеметрії</span> та суворий криптографічний контроль кожного релізу.
       </p>
@@ -379,21 +392,21 @@
         <a href="#products" class="btn-primary group px-6 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-blue-600 text-[#020617] font-bold text-sm hover:brightness-110 transition-all shadow-[0_16px_40px_-12px_rgba(6,182,212,.55)] hover:-translate-y-0.5 flex items-center gap-2">
           <span class="shine"></span>
           <i data-lucide="layout-grid" class="w-4 h-4"></i>
-          <span>Оглянути всі продукти</span>
+          <span data-i18n="hero_btn_explore">Оглянути всі продукти</span>
           <i data-lucide="arrow-down" class="w-4 h-4 opacity-70 group-hover:translate-y-0.5 transition-transform"></i>
         </a>
         <a href="#terminal" class="px-6 py-3 rounded-2xl bg-white/[0.04] hover:bg-white/[0.08] text-slate-100 font-semibold text-sm border border-white/10 hover:border-white/20 transition-all hover:-translate-y-0.5 flex items-center gap-2 backdrop-blur-md">
           <i data-lucide="terminal" class="w-4 h-4 text-cyan-300"></i>
-          <span>Демо-термінал</span>
-          <kbd class="kbd hidden sm:inline-block">1-клік</kbd>
+          <span data-i18n="hero_btn_terminal">Демо-термінал</span>
+          <kbd class="kbd hidden sm:inline-block" data-i18n="hero_kbd_1click">1-клік</kbd>
         </a>
       </div>
 
       <!-- Platforms trust row -->
       <div class="reveal mt-8 flex flex-wrap items-center justify-center gap-2 text-[12px] font-medium text-slate-400" style="transition-delay:.26s">
-        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="terminal" class="w-3.5 h-3.5 text-emerald-300"></i> Linux-сервіси</span>
-        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="app-window" class="w-3.5 h-3.5 text-sky-300"></i> Windows-утиліти</span>
-        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="globe" class="w-3.5 h-3.5 text-violet-300"></i> Web / PWA офлайн</span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="terminal" class="w-3.5 h-3.5 text-emerald-300"></i> <span data-i18n="trust_linux">Linux-сервіси</span></span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="app-window" class="w-3.5 h-3.5 text-sky-300"></i> <span data-i18n="trust_windows">Windows-утиліти</span></span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="globe" class="w-3.5 h-3.5 text-violet-300"></i> <span data-i18n="trust_web">Web / PWA офлайн</span></span>
         <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/[0.03] border border-white/[0.08]"><i data-lucide="shield-check" class="w-3.5 h-3.5 text-amber-300"></i> Minisign + SHA-256</span>
       </div>
 
@@ -402,26 +415,26 @@
         <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-cyan-400/30 hover:-translate-y-0.5 transition-all">
           <div class="flex items-center justify-between"><i data-lucide="package" class="w-4 h-4 text-cyan-300"></i><span class="w-8 h-px bg-gradient-to-r from-cyan-400 to-transparent"></span></div>
           <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="13">13</span></div>
-          <div class="text-xs font-semibold text-slate-300 mt-1">Готових продуктів</div>
+          <div class="text-xs font-semibold text-slate-300 mt-1" data-i18n="metric_products_lbl">Готових продуктів</div>
           <div class="text-[11px] text-slate-500">Linux · Win · Web</div>
         </div>
         <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-violet-400/30 hover:-translate-y-0.5 transition-all" style="transition-delay:.06s">
           <div class="flex items-center justify-between"><i data-lucide="layers" class="w-4 h-4 text-violet-300"></i><span class="w-8 h-px bg-gradient-to-r from-violet-400 to-transparent"></span></div>
           <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="3">3</span></div>
-          <div class="text-xs font-semibold text-slate-300 mt-1">Платформи</div>
+          <div class="text-xs font-semibold text-slate-300 mt-1" data-i18n="metric_platforms_lbl">Платформи</div>
           <div class="text-[11px] text-slate-500">Linux, Windows, Web</div>
         </div>
         <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-emerald-400/30 hover:-translate-y-0.5 transition-all" style="transition-delay:.12s">
           <div class="flex items-center justify-between"><i data-lucide="fingerprint" class="w-4 h-4 text-emerald-300"></i><span class="w-8 h-px bg-gradient-to-r from-emerald-400 to-transparent"></span></div>
           <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="100" data-suffix="%">100%</span></div>
           <div class="text-xs font-semibold text-slate-300 mt-1">SHA-256 & Minisign</div>
-          <div class="text-[11px] text-slate-500">Перевірка кожного релізу</div>
+          <div class="text-[11px] text-slate-500" data-i18n="metric_verify_sub">Перевірка кожного релізу</div>
         </div>
         <div class="reveal p-4 sm:p-5 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-md hover:border-amber-400/30 hover:-translate-y-0.5 transition-all" style="transition-delay:.18s">
           <div class="flex items-center justify-between"><i data-lucide="eye-off" class="w-4 h-4 text-amber-300"></i><span class="w-8 h-px bg-gradient-to-r from-amber-400 to-transparent"></span></div>
           <div class="mt-3 text-3xl font-extrabold font-mono text-white"><span data-count="0" data-suffix="%">0%</span></div>
-          <div class="text-xs font-semibold text-slate-300 mt-1">Телеметрії</div>
-          <div class="text-[11px] text-slate-500">Жодних трекерів</div>
+          <div class="text-xs font-semibold text-slate-300 mt-1" data-i18n="metric_telemetry_lbl">Телеметрії</div>
+          <div class="text-[11px] text-slate-500" data-i18n="metric_telemetry_sub">Жодних трекерів</div>
         </div>
       </div>
 
@@ -439,7 +452,7 @@
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Game Sales · radar</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">3D Games · webgl</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Server Calculator · flagship</span>
-            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Sales Calculator · КП</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300" data-i18n="marquee_sales_calc">Sales Calculator · КП</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">DiskCleaner · portable</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">NetScope · inventory</span>
 
@@ -455,7 +468,7 @@
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Game Sales · radar</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">3D Games · webgl</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Server Calculator · flagship</span>
-            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">Sales Calculator · КП</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300" data-i18n="marquee_sales_calc">Sales Calculator · КП</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">DiskCleaner · portable</span>
             <span class="px-3.5 py-1.5 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">NetScope · inventory</span>
 
@@ -468,9 +481,9 @@
     <section id="products" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
       <div class="reveal flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
         <div>
-          <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold">Каталог · 13 рішень</p>
-          <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight text-white">Оберіть інструмент під задачу</h2>
-          <p class="mt-2 text-sm text-slate-400 max-w-xl">Фільтруйте за платформою або шукайте за назвою, стеком і призначенням. Натисніть <kbd class="kbd">/</kbd> щоб швидко знайти.</p>
+          <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold" data-i18n="cat_tag">Каталог · 13 рішень</p>
+          <h2 class="mt-2 text-2xl sm:text-3xl font-extrabold tracking-tight text-white" data-i18n="cat_title">Оберіть інструмент під задачу</h2>
+          <p class="mt-2 text-sm text-slate-400 max-w-xl" data-i18n-html="cat_desc">Фільтруйте за платформою або шукайте за назвою, стеком і призначенням. Натисніть <kbd class="kbd">/</kbd> щоб швидко знайти.</p>
         </div>
         <p id="resultCount" class="text-xs font-mono text-slate-400 shrink-0 px-3 py-1.5 rounded-full bg-white/[0.04] border border-white/10" aria-live="polite">Показано 13 з 13</p>
       </div>
@@ -481,26 +494,26 @@
           <!-- Category Chips -->
           <div class="flex items-center gap-2 overflow-x-auto pb-1 lg:pb-0 flex-1" id="filter-container" role="tablist" aria-label="Фільтр за платформою">
             <button onclick="filterCategory('all')" data-cat="all" role="tab" class="cat-btn chip-active shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
-              <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i> Всі · 13
+              <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i> <span data-i18n="filter_all">Всі · 13</span>
             </button>
             <button onclick="filterCategory('linux')" data-cat="linux" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
-              <i data-lucide="terminal" class="w-3.5 h-3.5 text-emerald-300"></i> Linux · 4
+              <i data-lucide="terminal" class="w-3.5 h-3.5 text-emerald-300"></i> <span data-i18n="filter_linux">Linux · 4</span>
             </button>
             <button onclick="filterCategory('windows')" data-cat="windows" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
-              <i data-lucide="app-window" class="w-3.5 h-3.5 text-sky-300"></i> Windows · 6
+              <i data-lucide="app-window" class="w-3.5 h-3.5 text-sky-300"></i> <span data-i18n="filter_windows">Windows · 6</span>
             </button>
             <button onclick="filterCategory('web')" data-cat="web" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
-              <i data-lucide="globe" class="w-3.5 h-3.5 text-violet-300"></i> Web & PWA · 3
+              <i data-lucide="globe" class="w-3.5 h-3.5 text-violet-300"></i> <span data-i18n="filter_web">Web & PWA · 3</span>
             </button>
             <button onclick="filterCategory('monitoring')" data-cat="monitoring" role="tab" class="cat-btn shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-white/[0.05] text-slate-300 hover:bg-white/[0.09] border border-white/10">
-              <i data-lucide="activity" class="w-3.5 h-3.5 text-orange-300"></i> Моніторинг · 2
+              <i data-lucide="activity" class="w-3.5 h-3.5 text-orange-300"></i> <span data-i18n="filter_monitoring">Моніторинг · 2</span>
             </button>
           </div>
 
           <!-- Search Input -->
           <div class="relative w-full lg:w-72 shrink-0">
             <i data-lucide="search" class="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-            <input type="text" id="searchInput" oninput="handleSearch()" placeholder="Пошук: git, k8s, backup…" autocomplete="off"
+            <input type="text" id="searchInput" oninput="handleSearch()" placeholder="Пошук: git, k8s, backup…" data-i18n-placeholder="search_placeholder" autocomplete="off"
                    class="w-full pl-10 pr-16 py-2.5 rounded-xl bg-black/40 border border-white/10 text-[13px] text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400/60 focus:ring-2 focus:ring-cyan-400/20 transition-all">
             <span class="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1.5">
               <button id="clearSearch" onclick="resetFilters()" class="hidden w-5 h-5 rounded-md bg-white/10 hover:bg-white/20 text-slate-300 items-center justify-center" aria-label="Очистити пошук">
@@ -518,7 +531,7 @@
         <!-- 1. BCK -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="linux" 
-             data-title="bck enterprise backup disaster recovery veeam linux ubuntu" 
+             data-title="bck enterprise backup disaster recovery veeam linux ubuntu бекап резервне копіювання відновлення" 
              data-name="BCK">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -535,8 +548,8 @@
               <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">x86_64</span>
               <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-mono" data-latest="bck-v">v0.10.10</span>
             </h3>
-            <p class="text-xs font-medium text-emerald-400 mt-1">Enterprise Backup & Disaster Recovery</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-emerald-400 mt-1" data-i18n="p_bck_sub">Enterprise Backup & Disaster Recovery</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_bck_desc">
               Повноцінна альтернатива Veeam для інфраструктури: включає демон <code class="text-slate-300 font-mono">bckd</code>, агент, CLI, proxy та веб-консоль керування.
             </p>
 
@@ -550,9 +563,9 @@
 
           <div class="mt-6 pt-4 border-t border-white/[0.08]">
             <div class="text-[11px] text-slate-400 mb-1.5 flex items-center justify-between">
-              <span>Встановлення / Оновлення:</span>
+              <span data-i18n="common_install_update">Встановлення / Оновлення:</span>
               <button onclick="copyCommand('curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash', this)" class="text-cyan-400 hover:text-cyan-300 text-[11px] flex items-center gap-1 font-mono">
-                <i data-lucide="copy" class="w-3 h-3"></i> <span>Копіювати</span>
+                <i data-lucide="copy" class="w-3 h-3"></i> <span data-i18n="common_copy">Копіювати</span>
               </button>
             </div>
             <div class="cmd-badge rounded-lg p-2.5 font-mono text-[11px] text-slate-300 overflow-x-auto select-all flex items-center justify-between group">
@@ -560,10 +573,10 @@
             </div>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('bck')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та архітектура
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_bck_details">Деталі та архітектура</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=bck" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_releases">Релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -572,7 +585,7 @@
         <!-- 2. KubeLens -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="kubelens kubernetes desktop ide lens tauri rust react k8s" 
+             data-title="kubelens kubernetes desktop ide lens tauri rust react k8s кубернетес кластер" 
              data-name="KubeLens">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -588,8 +601,8 @@
               KubeLens
               <span class="text-xs px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-mono" data-latest="kubelens-v">v0.3.34</span>
             </h3>
-            <p class="text-xs font-medium text-cyan-400 mt-1">Kubernetes Desktop IDE</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-cyan-400 mt-1" data-i18n="p_kubelens_sub">Kubernetes Desktop IDE</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_kubelens_desc">
               Швидкий десктопний клієнт для K8s: моніторинг робочих навантажень, реалтайм-стрімінг логів, менеджер Helm-релізів та інтерактивна топологія кластера.
             </p>
 
@@ -597,7 +610,7 @@
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Tauri 2</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Rust</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">React</span>
-              <span class="text-[10px] px-2 py-0.5 rounded bg-cyan-500/15 border border-cyan-500/30 text-cyan-300">Minisign Підпис</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-cyan-500/15 border border-cyan-500/30 text-cyan-300" data-i18n="p_kubelens_tag_minisign">Minisign Підпис</span>
             </div>
           </div>
 
@@ -606,14 +619,14 @@
                data-latest="kubelens-v" data-asset="setup\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
-              <span>Завантажити інсталятор (.exe)</span>
+              <span data-i18n="common_download_installer">Завантажити інсталятор (.exe)</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('kubelens')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та перевірка
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_kubelens_details">Деталі та перевірка</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Всі релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_all_releases">Всі релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -622,7 +635,7 @@
         <!-- 3. PyMon NOC -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="linux monitoring" 
-             data-title="pymon noc infrastructure monitoring metrics node_exporter ubuntu linux" 
+             data-title="pymon noc infrastructure monitoring metrics node_exporter ubuntu linux моніторинг серверів" 
              data-name="PyMon NOC">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -638,8 +651,8 @@
               PyMon NOC
               <span class="text-xs px-2 py-0.5 rounded bg-orange-500/20 text-orange-300 font-mono" data-latest="monitoring-v">v3.3.4</span>
             </h3>
-            <p class="text-xs font-medium text-orange-400 mt-1">Infrastructure Monitoring & NOC Dashboard</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-orange-400 mt-1" data-i18n="p_monitoring_sub">Infrastructure Monitoring & NOC Dashboard</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_monitoring_desc">
               Сервер моніторингу на Go з підтримкою <code class="text-slate-300 font-mono">node_exporter</code> (Linux) та <code class="text-slate-300 font-mono">windows_exporter</code>. Візуальний NOC-дашборд у реальному часі.
             </p>
 
@@ -653,9 +666,9 @@
 
           <div class="mt-6 pt-4 border-t border-white/[0.08]">
             <div class="text-[11px] text-slate-400 mb-1.5 flex items-center justify-between">
-              <span>Встановлення в один клік:</span>
+              <span data-i18n="common_install_oneclick">Встановлення в один клік:</span>
               <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash', this)" class="text-cyan-400 hover:text-cyan-300 text-[11px] flex items-center gap-1 font-mono">
-                <i data-lucide="copy" class="w-3 h-3"></i> <span>Копіювати</span>
+                <i data-lucide="copy" class="w-3 h-3"></i> <span data-i18n="common_copy">Копіювати</span>
               </button>
             </div>
             <div class="cmd-badge rounded-lg p-2.5 font-mono text-[11px] text-slate-300 overflow-x-auto select-all flex items-center justify-between">
@@ -663,10 +676,10 @@
             </div>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('monitoring')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та конфіг
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_monitoring_details">Деталі та конфіг</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=monitoring" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_releases">Релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -675,7 +688,7 @@
         <!-- 4. RDM Manager -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="rdm manager remote desktop ssh rdp connection manager sre tauri rust" 
+             data-title="rdm manager remote desktop ssh rdp connection manager sre tauri rust віддалений робочий стіл" 
              data-name="RDM Manager">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -691,8 +704,8 @@
               RDM Manager
               <span class="text-xs px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono" data-latest="rdm-v">v2.1.29</span>
             </h3>
-            <p class="text-xs font-medium text-indigo-400 mt-1">Remote Connection Manager for SRE & DevOps</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-indigo-400 mt-1" data-i18n="p_rdm_sub">Remote Connection Manager for SRE & DevOps</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_rdm_desc">
               Єдине робоче місце для підключень до серверів (SSH / RDP / Тунелі). Локальне шифрування ключів, база SQLite та автооновлення із підписом.
             </p>
 
@@ -709,14 +722,14 @@
                data-latest="rdm-v" data-asset="setup\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
-              <span>Завантажити інсталятор (.exe)</span>
+              <span data-i18n="common_download_installer">Завантажити інсталятор (.exe)</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('rdm')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та Portable версія
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_rdm_details">Деталі та Portable версія</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Всі релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_all_releases">Всі релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -725,7 +738,7 @@
         <!-- 5. MyGit -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="linux" 
-             data-title="mygit git self hosted server gitea gitlab lightweight ubuntu go" 
+             data-title="mygit git self hosted server gitea gitlab lightweight ubuntu go репозиторій гіт" 
              data-name="MyGit">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -741,8 +754,8 @@
               MyGit
               <span class="text-xs px-2 py-0.5 rounded bg-purple-500/20 text-purple-300 font-mono" data-latest="mygit-v">v3.7.3</span>
             </h3>
-            <p class="text-xs font-medium text-purple-400 mt-1">Self-Hosted Lightweight Git Platform</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-purple-400 mt-1" data-i18n="p_mygit_sub">Self-Hosted Lightweight Git Platform</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_mygit_desc">
               Надшвидка та невибаглива альтернатива Gitea/GitLab на Go. Розгортається за секунди, веб-інтерфейс на порту <code class="text-slate-300 font-mono">:9555</code>.
             </p>
 
@@ -756,9 +769,9 @@
 
           <div class="mt-6 pt-4 border-t border-white/[0.08]">
             <div class="text-[11px] text-slate-400 mb-1.5 flex items-center justify-between">
-              <span>Встановлення в один рядок:</span>
+              <span data-i18n="common_install_oneline">Встановлення в один рядок:</span>
               <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash', this)" class="text-cyan-400 hover:text-cyan-300 text-[11px] flex items-center gap-1 font-mono">
-                <i data-lucide="copy" class="w-3 h-3"></i> <span>Копіювати</span>
+                <i data-lucide="copy" class="w-3 h-3"></i> <span data-i18n="common_copy">Копіювати</span>
               </button>
             </div>
             <div class="cmd-badge rounded-lg p-2.5 font-mono text-[11px] text-slate-300 overflow-x-auto select-all flex items-center justify-between">
@@ -766,10 +779,10 @@
             </div>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('mygit')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та збереження даних
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_mygit_details">Деталі та збереження даних</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=mygit" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_releases">Релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -778,7 +791,7 @@
         <!-- 6. Uptime Monitor -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="linux monitoring" 
-             data-title="uptime monitor ssl certificate health sla alerts debian ubuntu linux" 
+             data-title="uptime monitor ssl certificate health sla alerts debian ubuntu linux доступність сервісів" 
              data-name="Uptime Monitor">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -794,8 +807,8 @@
               Uptime Monitor
               <span class="text-xs px-2 py-0.5 rounded bg-teal-500/20 text-teal-300 font-mono" data-latest="uptime-v">v3.8.9</span>
             </h3>
-            <p class="text-xs font-medium text-teal-400 mt-1">Website, Service & SSL Health Sentinel</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-teal-400 mt-1" data-i18n="p_uptime_sub">Website, Service & SSL Health Sentinel</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_uptime_desc">
               Моніторинг доступності HTTP/TCP сервісів, контроль термінів дії SSL-сертифікатів, сповіщення при збоях та збереження SLA.
             </p>
 
@@ -809,9 +822,9 @@
 
           <div class="mt-6 pt-4 border-t border-white/[0.08]">
             <div class="text-[11px] text-slate-400 mb-1.5 flex items-center justify-between">
-              <span>Встановлення в один рядок:</span>
+              <span data-i18n="common_install_oneline">Встановлення в один рядок:</span>
               <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash', this)" class="text-cyan-400 hover:text-cyan-300 text-[11px] flex items-center gap-1 font-mono">
-                <i data-lucide="copy" class="w-3 h-3"></i> <span>Копіювати</span>
+                <i data-lucide="copy" class="w-3 h-3"></i> <span data-i18n="common_copy">Копіювати</span>
               </button>
             </div>
             <div class="cmd-badge rounded-lg p-2.5 font-mono text-[11px] text-slate-300 overflow-x-auto select-all flex items-center justify-between">
@@ -819,10 +832,10 @@
             </div>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('uptime')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та відкат
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_uptime_details">Деталі та відкат</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_releases">Релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -831,7 +844,7 @@
         <!-- 7. Gym Tracker (PWA) -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="web" 
-             data-title="gym tracker workout svelte pwa mobile fitness offline" 
+             data-title="gym tracker workout svelte pwa mobile fitness offline тренування спортзал офлайн" 
              data-name="Gym Tracker">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -848,8 +861,8 @@
               <span class="text-xs px-2 py-0.5 rounded bg-rose-500/20 text-rose-300 font-mono">PWA Live</span>
               <span class="text-xs px-2 py-0.5 rounded bg-rose-500/20 text-rose-300 font-mono" data-latest="gym-v">v3.5.3</span>
             </h3>
-            <p class="text-xs font-medium text-rose-400 mt-1">Офлайн-трекер тренувань та прогресу тіла</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-rose-400 mt-1" data-i18n="p_gym_sub">Офлайн-трекер тренувань та прогресу тіла</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_gym_desc">
               Сучасний мобільний трекер на Svelte 5. Повністю працює без інтернету, всі тренування зберігаються лише на вашому пристрої в <code class="text-slate-300 font-mono">localStorage</code>.
             </p>
 
@@ -857,7 +870,7 @@
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Svelte 5</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">TypeScript</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Service Worker</span>
-              <span class="text-[10px] px-2 py-0.5 rounded bg-rose-500/15 border border-rose-500/30 text-rose-300">100% Приватність</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-rose-500/15 border border-rose-500/30 text-rose-300" data-i18n="p_gym_tag_privacy">100% Приватність</span>
             </div>
           </div>
 
@@ -866,7 +879,7 @@
               <a href="./gym/" target="_blank" 
                  class="py-2.5 px-3 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-1.5 shadow-lg shadow-rose-600/20 hover:scale-[1.01]">
                 <i data-lucide="play" class="w-3.5 h-3.5 fill-current"></i>
-                <span>Відкрити застосунок</span>
+                <span data-i18n="common_open_app">Відкрити застосунок</span>
               </a>
               <button onclick="openPreview('./gym/', 'Gym Tracker (PWA)')" 
                       class="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5">
@@ -876,9 +889,9 @@
             </div>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('gym')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Інструкція зі встановлення PWA
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_gym_details">Інструкція зі встановлення PWA</span>
               </button>
-              <span class="text-slate-500 text-[11px]">Працює без сервера</span>
+              <span class="text-slate-500 text-[11px]" data-i18n="common_no_server">Працює без сервера</span>
             </div>
           </div>
         </div>
@@ -886,7 +899,7 @@
         <!-- 8. Game Sales Radar (PWA) -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="web" 
-             data-title="game sales steam deals discounts radar telegram" 
+             data-title="game sales steam deals discounts radar telegram знижки ігри стім роздачі" 
              data-name="Game Sales">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -903,8 +916,8 @@
               <span class="text-xs px-2 py-0.5 rounded bg-fuchsia-500/20 text-fuchsia-300 font-mono">Live Sync</span>
               <span class="text-xs px-2 py-0.5 rounded bg-fuchsia-500/20 text-fuchsia-300 font-mono" data-latest="sales-v">v0.1.1</span>
             </h3>
-            <p class="text-xs font-medium text-fuchsia-400 mt-1">Радар знижок і спеціальних пропозицій Steam</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-fuchsia-400 mt-1" data-i18n="p_sales_sub">Радар знижок і спеціальних пропозицій Steam</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_sales_desc">
               Автоматичний парсер найкращих знижок та лідерів продажу Steam. Щоденно синхронізується через GitHub Actions та транслює в Telegram.
             </p>
 
@@ -921,7 +934,7 @@
               <a href="./sales/" target="_blank" 
                  class="py-2.5 px-3 rounded-xl bg-fuchsia-600 hover:bg-fuchsia-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-1.5 shadow-lg shadow-fuchsia-600/20 hover:scale-[1.01]">
                 <i data-lucide="play" class="w-3.5 h-3.5 fill-current"></i>
-                <span>Відкрити сайт</span>
+                <span data-i18n="common_open_site">Відкрити сайт</span>
               </a>
               <button onclick="openPreview('./sales/', 'Game Sales Radar')" 
                       class="py-2.5 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-xs border border-slate-700 transition-all flex items-center justify-center gap-1.5">
@@ -934,7 +947,7 @@
                 <i data-lucide="send" class="w-3 h-3"></i> @salesgamesua
               </a>
               <button onclick="openModal('sales')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors text-[11px]">
-                <i data-lucide="info" class="w-3 h-3 text-cyan-400"></i> Архітектура парсера
+                <i data-lucide="info" class="w-3 h-3 text-cyan-400"></i> <span data-i18n="p_sales_details">Архітектура парсера</span>
               </button>
             </div>
           </div>
@@ -943,7 +956,7 @@
         <!-- 9. 3D Games Collection (itch.io) -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="web" 
-             data-title="3d games collection three.js webgl browser itch.io gravity shift drift terraformers echoes verdant" 
+             data-title="3d games collection three.js webgl browser itch.io gravity shift drift terraformers echoes verdant браузерні ігри" 
              data-name="3D Games">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -959,8 +972,8 @@
               3D Games Collection
               <span class="text-xs px-2 py-0.5 rounded bg-lime-500/20 text-lime-300 font-mono">itch.io</span>
             </h3>
-            <p class="text-xs font-medium text-lime-400 mt-1">5 браузерних 3D-ігор</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-lime-400 mt-1" data-i18n="p_games_sub">5 браузерних 3D-ігор</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_games_desc">
               GravityShift, Drift, Terraformers, Echoes, Verdant — самодостатні WebGL-ігри. Збірка — GitHub Actions, на itch.io заливаються вручну.
             </p>
 
@@ -976,10 +989,10 @@
             <a href="https://ajjs1ajjs.itch.io/" target="_blank" 
                class="w-full py-2.5 px-4 rounded-xl bg-lime-600 hover:bg-lime-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-lime-600/20 hover:scale-[1.01]">
               <i data-lucide="external-link" class="w-4 h-4"></i>
-              <span>Відкрити на itch.io</span>
+              <span data-i18n="common_open_itch">Відкрити на itch.io</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
-              <span class="text-slate-500 text-[11px]">Збірки — у GitHub-релізах</span>
+              <span class="text-slate-500 text-[11px]" data-i18n="common_itch_builds">Збірки — у GitHub-релізах</span>
               <a href="https://ajjs1ajjs.itch.io/" target="_blank" class="text-slate-400 hover:text-lime-400 transition-colors flex items-center gap-1">
                 @ajjs1ajjs <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
@@ -990,10 +1003,10 @@
         <!-- 10. Server Infrastructure Calculator — FLAGSHIP -->
         <div class="product-card featured glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="server infrastructure calculator it sizing clusters kubernetes windows vm storage iops portable dotnet flagship" 
+             data-title="server infrastructure calculator it sizing clusters kubernetes windows vm storage iops portable dotnet flagship калькулятор серверів сайзинг" 
              data-name="Server Infrastructure Calculator">
           <span class="absolute -top-3 left-6 inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg shadow-violet-500/30">
-            <i data-lucide="crown" class="w-3 h-3"></i> FLAGSHIP · вибір архітекторів
+            <i data-lucide="crown" class="w-3 h-3"></i> <span data-i18n="p_calculator_flagship_badge">FLAGSHIP · вибір архітекторів</span>
           </span>
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -1010,8 +1023,8 @@
               <span class="text-xs px-2 py-0.5 rounded bg-violet-500/20 text-violet-300 font-mono">Flagship · Portable</span>
               <span class="text-xs px-2 py-0.5 rounded bg-violet-500/20 text-violet-300 font-mono" data-latest="calculator-v">v2.7.1</span>
             </h3>
-            <p class="text-xs font-medium text-violet-400 mt-1">Комплексний сайзинг серверів, K8s, СУБД та дисків</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-violet-400 mt-1" data-i18n="p_calculator_sub">Комплексний сайзинг серверів, K8s, СУБД та дисків</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_calculator_desc">
               Флагманська інженерна система для системних архітекторів: точний сайзинг кластерів (K8s / Windows VM / Гібрид), розбивка дисків (OS/Data/Logs/Content/Pagefile/IOPS) та середовищ DEV/TEST/PreProd/PROD за стандартом D-AD-ADM-E. Портативний <code class="text-slate-300 font-mono">.exe</code> файл з автооновленням.
             </p>
 
@@ -1029,14 +1042,14 @@
                data-latest="calculator-v" data-asset="\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-violet-600 hover:bg-violet-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-violet-600/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
-              <span>Завантажити ITE.ResourceCalculator.exe</span>
+              <span data-i18n="common_download_calculator">Завантажити ITE.ResourceCalculator.exe</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('calculator')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Хеш та перевірка
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_calculator_details">Хеш та перевірка</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Всі релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_all_releases">Всі релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -1045,7 +1058,7 @@
         <!-- 11. Sales Proposal Calculator -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="sales proposal calculator resource sales commercial proposal csharp windows installer" 
+             data-title="sales proposal calculator resource sales commercial proposal csharp windows installer розрахунок кп сейлз" 
              data-name="Sales Proposal Calculator">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -1062,8 +1075,8 @@
               <span class="text-xs px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 font-mono">Installer</span>
               <span class="text-xs px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 font-mono" data-latest="rescalc-v">v2.0.6</span>
             </h3>
-            <p class="text-xs font-medium text-blue-400 mt-1">Розрахунок ресурсів для сейлзів та КП</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-blue-400 mt-1" data-i18n="p_rescalc_sub">Розрахунок ресурсів для сейлзів та КП</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_rescalc_desc">
               Швидкий підрахунок серверних ресурсів за ліцензіями модулів для формування комерційних пропозицій (КП) з експортом у Excel та PDF. Зручний Inno Setup інсталятор.
             </p>
 
@@ -1080,14 +1093,14 @@
                data-latest="rescalc-v" data-asset="setup.*\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
-              <span>Завантажити ResourceCalculator_Setup.exe</span>
+              <span data-i18n="common_download_rescalc">Завантажити ResourceCalculator_Setup.exe</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('rescalc')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Хеш та перевірка
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_rescalc_details">Хеш та перевірка</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=rescalc" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Всі релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_all_releases">Всі релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -1096,7 +1109,7 @@
         <!-- 12. DiskCleaner -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="diskcleaner clean disk drive temp files cache windows portable" 
+             data-title="diskcleaner clean disk drive temp files cache windows portable чистка диска очищення" 
              data-name="DiskCleaner">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -1113,14 +1126,14 @@
               <span class="text-xs px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 font-mono">Portable</span>
               <span class="text-xs px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 font-mono" data-latest="diskcleaner-v">v1.4.8</span>
             </h3>
-            <p class="text-xs font-medium text-blue-400 mt-1">Очищувач диска C: без встановлення</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-blue-400 mt-1" data-i18n="p_diskcleaner_sub">Очищувач диска C: без встановлення</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_diskcleaner_desc">
               Портативна утиліта глибокої чистки диска <code class="text-slate-300 font-mono">C:</code>: видаляє залишки збірок, тимчасові файли та кеші. Безпечні налаштування за замовчуванням.
             </p>
 
             <div class="mt-4 flex flex-wrap gap-1.5">
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Single Exe</span>
-              <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Без встановлення</span>
+              <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300" data-i18n="p_diskcleaner_tag_noinstall">Без встановлення</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Safe Defaults</span>
               <span class="text-[10px] px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">SHA-256</span>
             </div>
@@ -1131,14 +1144,14 @@
                data-latest="diskcleaner-v" data-asset="\.exe$"
                class="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-600/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
-              <span>Завантажити DiskCleaner.exe</span>
+              <span data-i18n="common_download_diskcleaner">Завантажити DiskCleaner.exe</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('diskcleaner')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Як перевірити SHA-256
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_diskcleaner_details">Як перевірити SHA-256</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Всі релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_all_releases">Всі релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -1147,7 +1160,7 @@
         <!-- 13. NetScope Enterprise -->
         <div class="product-card glass-card rounded-2xl p-6 flex flex-col justify-between" 
              data-category="windows" 
-             data-title="netscope enterprise network inventory ad ldap ip scanner topology offline windows portable ed25519" 
+             data-title="netscope enterprise network inventory ad ldap ip scanner topology offline windows portable ed25519 інвентаризація мережі" 
              data-name="NetScope">
           <div>
             <div class="flex items-start justify-between gap-3 mb-4">
@@ -1163,8 +1176,8 @@
               NetScope Enterprise
               <span class="text-xs px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-mono" data-latest="netscope-v">v1.3.2</span>
             </h3>
-            <p class="text-xs font-medium text-amber-400 mt-1">Офлайн-інвентаризація мережі</p>
-            <p class="text-slate-400 text-xs mt-3 leading-relaxed">
+            <p class="text-xs font-medium text-amber-400 mt-1" data-i18n="p_netscope_sub">Офлайн-інвентаризація мережі</p>
+            <p class="text-slate-400 text-xs mt-3 leading-relaxed" data-i18n-html="p_netscope_desc">
               Інвентаризація мережі без інтернету: опитування <code class="text-slate-300 font-mono">AD/LDAP</code>, IP-сканування та побудова топології. Портативний ZIP, підписані автооновлення <code class="text-slate-300 font-mono">Ed25519</code>.
             </p>
 
@@ -1181,14 +1194,14 @@
                data-latest="netscope-v" data-asset="portable\.zip$"
                class="w-full py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-semibold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20 hover:scale-[1.01]">
               <i data-lucide="download" class="w-4 h-4"></i>
-              <span>Завантажити Portable (.zip)</span>
+              <span data-i18n="common_download_portable">Завантажити Portable (.zip)</span>
             </a>
             <div class="mt-3 flex items-center justify-between text-xs pt-1">
               <button onclick="openModal('netscope')" class="text-slate-400 hover:text-white flex items-center gap-1 transition-colors">
-                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> Деталі та перевірка
+                <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400"></i> <span data-i18n="p_netscope_details">Деталі та перевірка</span>
               </button>
               <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope" target="_blank" class="text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1">
-                Всі релізи <i data-lucide="external-link" class="w-3 h-3"></i>
+                <span data-i18n="common_all_releases">Всі релізи</span> <i data-lucide="external-link" class="w-3 h-3"></i>
               </a>
             </div>
           </div>
@@ -1201,9 +1214,9 @@
         <div class="w-16 h-16 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 mx-auto mb-4">
           <i data-lucide="search-x" class="w-8 h-8"></i>
         </div>
-        <h4 class="text-lg font-bold text-white">Нічого не знайдено</h4>
-        <p class="text-slate-400 text-sm mt-1">Спробуйте змінити пошуковий запит або обрати іншу категорію</p>
-        <button onclick="resetFilters()" class="mt-4 px-4 py-2 rounded-xl bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-xs font-semibold hover:bg-cyan-500/30 transition-colors">
+        <h4 class="text-lg font-bold text-white" data-i18n="no_results_title">Нічого не знайдено</h4>
+        <p class="text-slate-400 text-sm mt-1" data-i18n="no_results_desc">Спробуйте змінити пошуковий запит або обрати іншу категорію</p>
+        <button onclick="resetFilters()" class="mt-4 px-4 py-2 rounded-xl bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 text-xs font-semibold hover:bg-cyan-500/30 transition-colors" data-i18n="no_results_reset">
           Скинути фільтри
         </button>
       </div>
@@ -1213,9 +1226,9 @@
     <!-- INTERACTIVE TERMINAL SIMULATOR -->
     <section id="terminal" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
       <div class="reveal text-center max-w-2xl mx-auto mb-8">
-        <span class="inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300 uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/20"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Live Sandbox</span>
-        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-3">Інтерактивна консоль розгортання</h2>
-        <p class="text-sm text-slate-400 mt-2">
+        <span class="inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300 uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/20"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> <span data-i18n="term_tag">Live Sandbox</span></span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-3" data-i18n="term_title">Інтерактивна консоль розгортання</h2>
+        <p class="text-sm text-slate-400 mt-2" data-i18n="term_desc">
           Натисніть команду — побачите симуляцію безпечного встановлення. Це ті самі one-line інсталятори, що й на картках.
         </p>
       </div>
@@ -1240,7 +1253,7 @@
 
         <!-- Preset Command Bar -->
         <div class="px-4 py-3 bg-white/[0.02] border-b border-white/[0.08] flex flex-wrap items-center gap-2">
-          <span class="text-slate-500 text-[11px] mr-1 font-sans font-semibold">Швидкі команди:</span>
+          <span class="text-slate-500 text-[11px] mr-1 font-sans font-semibold" data-i18n="term_quick_label">Швидкі команди:</span>
           <button onclick="runSimulation('bck')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-400/10 hover:bg-emerald-400/20 text-emerald-200 text-[11px] font-bold border border-emerald-400/25 transition-all hover:-translate-y-px">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> bck
           </button>
@@ -1254,7 +1267,7 @@
             <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span> uptime
           </button>
           <button onclick="clearTerminal()" class="ml-auto px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-200 hover:bg-white/5 text-[11px] flex items-center gap-1.5 transition-colors font-sans">
-            <i data-lucide="trash-2" class="w-3.5 h-3.5"></i> Очистити
+            <i data-lucide="trash-2" class="w-3.5 h-3.5"></i> <span data-i18n="term_clear_btn">Очистити</span>
           </button>
         </div>
 
@@ -1268,7 +1281,7 @@
           </div>
         </div>
         <div class="px-4 py-3 border-t border-white/[0.08] bg-white/[0.015] flex flex-wrap items-center justify-between gap-2 font-sans">
-          <p class="text-[11px] text-slate-500">Симуляція для демо · реальні команди — на картках продуктів, з перевіркою SHA-256</p>
+          <p class="text-[11px] text-slate-500" data-i18n="term_footer_note">Симуляція для демо · реальні команди — на картках продуктів, з перевіркою SHA-256</p>
           <span class="text-[11px] font-mono text-slate-500 hidden sm:inline">bash · systemd · sha256sum</span>
         </div>
 
@@ -1278,9 +1291,9 @@
     <!-- SECURITY & ARCHITECTURE PILLARS -->
     <section id="security" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
       <div class="reveal text-center max-w-2xl mx-auto mb-10">
-        <span class="inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300 uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/20">Security & Integrity</span>
-        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-3">Принципи надійності та безпеки</h2>
-        <p class="text-sm text-slate-400 mt-2">
+        <span class="inline-flex items-center gap-1.5 text-[11px] font-mono text-emerald-300 uppercase tracking-[0.2em] font-bold px-3 py-1 rounded-full bg-emerald-400/10 border border-emerald-400/20" data-i18n="sec_tag">Security & Integrity</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-3" data-i18n="sec_title">Принципи надійності та безпеки</h2>
+        <p class="text-sm text-slate-400 mt-2" data-i18n="sec_desc">
           Чому розповсюдження через цей репозиторій є передбачуваним, захищеним і безпечним для production.
         </p>
       </div>
@@ -1292,8 +1305,8 @@
           <div class="w-10 h-10 rounded-xl bg-cyan-400/10 border border-cyan-400/25 text-cyan-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(34,211,238,.5)]">
             <i data-lucide="key-round" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-[15px] font-bold text-white">Minisign-підпис</h4>
-          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+          <h4 class="text-[15px] font-bold text-white" data-i18n="sec_1_title">Minisign-підпис</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed" data-i18n="sec_1_desc">
             Десктопні застосунки (KubeLens, RDM) перевіряють цифрові підписи збірок перед кожним оновленням.
           </p>
         </div>
@@ -1303,8 +1316,8 @@
           <div class="w-10 h-10 rounded-xl bg-violet-400/10 border border-violet-400/25 text-violet-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(167,139,250,.5)]">
             <i data-lucide="file-check-2" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-[15px] font-bold text-white">SHA-256 контроль</h4>
-          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+          <h4 class="text-[15px] font-bold text-white" data-i18n="sec_2_title">SHA-256 контроль</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed" data-i18n="sec_2_desc">
             Кожен реліз має файл контрольних сум. Curl-скрипти автоматично звіряють хеш перед запуском.
           </p>
         </div>
@@ -1314,8 +1327,8 @@
           <div class="w-10 h-10 rounded-xl bg-emerald-400/10 border border-emerald-400/25 text-emerald-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(16,185,129,.5)]">
             <i data-lucide="database-backup" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-[15px] font-bold text-white">Безпечні апгрейди</h4>
-          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+          <h4 class="text-[15px] font-bold text-white" data-i18n="sec_3_title">Безпечні апгрейди</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed" data-i18n="sec_3_desc">
             Конфіги, SQLite-бази та користувачі зберігаються. Замінюється лише бінарник, з автобекапом.
           </p>
         </div>
@@ -1325,8 +1338,8 @@
           <div class="w-10 h-10 rounded-xl bg-amber-400/10 border border-amber-400/25 text-amber-300 flex items-center justify-center mb-4 shadow-[0_0_24px_-6px_rgba(251,191,36,.5)]">
             <i data-lucide="wifi-off" class="w-5 h-5"></i>
           </div>
-          <h4 class="text-[15px] font-bold text-white">Zero-telemetry & Offline</h4>
-          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed">
+          <h4 class="text-[15px] font-bold text-white" data-i18n="sec_4_title">Zero-telemetry & Offline</h4>
+          <p class="text-[13px] text-slate-400 mt-2 leading-relaxed" data-i18n="sec_4_desc">
             PWA працюють офлайн через Service Workers. Дані — лише локально, без сторонніх серверів.
           </p>
         </div>
@@ -1338,10 +1351,10 @@
     <section id="matrix" class="py-14 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-24">
       <div class="reveal flex flex-col sm:flex-row sm:items-end justify-between gap-3 max-w-none mb-6">
         <div>
-          <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold">Compatibility Matrix</p>
-          <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-2">Зведена таблиця екосистеми</h2>
+          <p class="text-[11px] font-mono uppercase tracking-[0.2em] text-cyan-300 font-semibold" data-i18n="mat_tag">Compatibility Matrix</p>
+          <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mt-2" data-i18n="mat_title">Зведена таблиця екосистеми</h2>
         </div>
-        <p class="text-[12px] text-slate-500 font-mono shrink-0">13 продуктів · гортайте → на мобільному</p>
+        <p class="text-[12px] text-slate-500 font-mono shrink-0" data-i18n="mat_subtitle">13 продуктів · гортайте → на мобільному</p>
       </div>
 
       <div class="reveal glass-card rounded-2xl overflow-hidden">
@@ -1349,12 +1362,12 @@
           <table class="w-full text-left text-xs text-slate-300">
             <thead class="bg-white/[0.03] text-slate-400 uppercase font-mono text-[11px] border-b border-white/10">
               <tr>
-                <th class="py-3.5 px-4 font-semibold">Продукт</th>
-                <th class="py-3.5 px-4 font-semibold">Платформа</th>
-                <th class="py-3.5 px-4 font-semibold">Стек</th>
-                <th class="py-3.5 px-4 font-semibold">Формат поставки</th>
-                <th class="py-3.5 px-4 font-semibold">Механізм оновлення</th>
-                <th class="py-3.5 px-4 font-semibold text-right">Дія</th>
+                <th class="py-3.5 px-4 font-semibold" data-i18n="mat_th_product">Продукт</th>
+                <th class="py-3.5 px-4 font-semibold" data-i18n="mat_th_platform">Платформа</th>
+                <th class="py-3.5 px-4 font-semibold" data-i18n="mat_th_stack">Стек</th>
+                <th class="py-3.5 px-4 font-semibold" data-i18n="mat_th_format">Формат поставки</th>
+                <th class="py-3.5 px-4 font-semibold" data-i18n="mat_th_update">Механізм оновлення</th>
+                <th class="py-3.5 px-4 font-semibold text-right" data-i18n="mat_th_action">Дія</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-white/[0.06] font-mono text-[11px]">
@@ -1365,7 +1378,7 @@
                 <td class="py-3 px-4">Ubuntu 24-26 · x86_64</td>
                 <td class="py-3 px-4">Rust · systemd</td>
                 <td class="py-3 px-4 text-emerald-400">curl | bash</td>
-                <td class="py-3 px-4">Автозбереження конфігів</td>
+                <td class="py-3 px-4" data-i18n="mat_row_bck_update">Автозбереження конфігів</td>
                 <td class="py-3 px-4 text-right">
                   <button onclick="copyCommand('curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash', this)" class="text-cyan-400 hover:underline">curl</button>
                 </td>
@@ -1389,7 +1402,7 @@
                 <td class="py-3 px-4">Ubuntu · amd64/arm64</td>
                 <td class="py-3 px-4">Go · node_exporter</td>
                 <td class="py-3 px-4 text-orange-400">curl | bash</td>
-                <td class="py-3 px-4">Збереження SQLite</td>
+                <td class="py-3 px-4" data-i18n="mat_row_pymon_update">Збереження SQLite</td>
                 <td class="py-3 px-4 text-right">
                   <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash', this)" class="text-cyan-400 hover:underline">curl</button>
                 </td>
@@ -1413,7 +1426,7 @@
                 <td class="py-3 px-4">Ubuntu · amd64/arm64</td>
                 <td class="py-3 px-4">Go · HTTP :9555</td>
                 <td class="py-3 px-4 text-purple-400">curl | bash</td>
-                <td class="py-3 px-4">Збереження репозиторіїв</td>
+                <td class="py-3 px-4" data-i18n="mat_row_mygit_update">Збереження репозиторіїв</td>
                 <td class="py-3 px-4 text-right">
                   <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash', this)" class="text-cyan-400 hover:underline">curl</button>
                 </td>
@@ -1425,7 +1438,7 @@
                 <td class="py-3 px-4">Debian/Ubuntu · multiarch</td>
                 <td class="py-3 px-4">Go · SSL engine</td>
                 <td class="py-3 px-4 text-teal-400">curl | bash</td>
-                <td class="py-3 px-4">Auto-rollback при збої</td>
+                <td class="py-3 px-4" data-i18n="mat_row_uptime_update">Auto-rollback при збої</td>
                 <td class="py-3 px-4 text-right">
                   <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash', this)" class="text-cyan-400 hover:underline">curl</button>
                 </td>
@@ -1461,7 +1474,7 @@
                 <td class="py-3 px-4">Web · WebGL / Three.js</td>
                 <td class="py-3 px-4">Three.js · WebGL</td>
                 <td class="py-3 px-4 text-lime-400">itch.io / GitHub Pages</td>
-                <td class="py-3 px-4">GitHub Actions збірка</td>
+                <td class="py-3 px-4" data-i18n="mat_row_games_update">GitHub Actions збірка</td>
                 <td class="py-3 px-4 text-right">
                   <a href="https://ajjs1ajjs.itch.io/" target="_blank" class="text-cyan-400 hover:underline">itch.io</a>
                 </td>
@@ -1497,7 +1510,7 @@
                 <td class="py-3 px-4">Windows 10/11 · x64</td>
                 <td class="py-3 px-4">Python · stdlib</td>
                 <td class="py-3 px-4 text-blue-400">Single Portable .exe</td>
-                <td class="py-3 px-4">Портативний запуск</td>
+                <td class="py-3 px-4" data-i18n="mat_row_diskcleaner_update">Портативний запуск</td>
                 <td class="py-3 px-4 text-right">
                   <a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner" target="_blank" class="text-cyan-400 hover:underline">.exe</a>
                 </td>
@@ -1509,7 +1522,7 @@
                 <td class="py-3 px-4">Windows 10/11 · x64</td>
                 <td class="py-3 px-4">Native · AD/LDAP</td>
                 <td class="py-3 px-4 text-amber-400">Portable .zip (Offline)</td>
-                <td class="py-3 px-4">Підписане (Ed25519)</td>
+                <td class="py-3 px-4" data-i18n="mat_row_netscope_update">Підписане (Ed25519)</td>
                 <td class="py-3 px-4 text-right">
                   <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope" target="_blank" class="text-cyan-400 hover:underline">.zip</a>
                 </td>
@@ -1534,39 +1547,39 @@
           </span>
           <div>
             <p class="text-slate-100 font-extrabold text-sm tracking-tight">DIST Distribution Channel</p>
-            <p class="text-slate-500 text-[12px]">Готові релізи, інсталятори та автономні вебзастосунки</p>
+            <p class="text-slate-500 text-[12px]" data-i18n="footer_subtitle">Готові релізи, інсталятори та автономні вебзастосунки</p>
           </div>
         </div>
         <div class="mt-4 flex flex-wrap gap-2">
           <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-emerald-400/10 border border-emerald-400/25 text-emerald-300"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>SHA-256 Verified</span>
           <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">GitHub Pages · Live</span>
-          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300">13 продуктів</span>
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-mono bg-white/[0.04] border border-white/10 text-slate-300" data-i18n="footer_badge_products">13 продуктів</span>
         </div>
       </div>
 
       <nav class="text-[13px]" aria-label="Продукти">
-        <p class="text-[11px] font-mono uppercase tracking-[0.18em] text-slate-500 font-bold mb-3">Навігація</p>
+        <p class="text-[11px] font-mono uppercase tracking-[0.18em] text-slate-500 font-bold mb-3" data-i18n="footer_col_nav">Навігація</p>
         <div class="grid grid-cols-2 md:grid-cols-1 gap-2 font-semibold text-slate-300">
-          <a href="#products" class="hover:text-white transition-colors">Каталог продуктів</a>
-          <a href="#terminal" class="hover:text-white transition-colors">Демо-термінал</a>
-          <a href="#security" class="hover:text-white transition-colors">Безпека</a>
-          <a href="#matrix" class="hover:text-white transition-colors">Матриця рішень</a>
+          <a href="#products" class="hover:text-white transition-colors" data-i18n="nav_mobile_catalog">Каталог продуктів</a>
+          <a href="#terminal" class="hover:text-white transition-colors" data-i18n="nav_terminal">Демо-термінал</a>
+          <a href="#security" class="hover:text-white transition-colors" data-i18n="nav_security">Безпека</a>
+          <a href="#matrix" class="hover:text-white transition-colors" data-i18n="nav_matrix">Матриця рішень</a>
         </div>
       </nav>
 
       <nav class="text-[13px]" aria-label="Ресурси">
-        <p class="text-[11px] font-mono uppercase tracking-[0.18em] text-slate-500 font-bold mb-3">Ресурси</p>
+        <p class="text-[11px] font-mono uppercase tracking-[0.18em] text-slate-500 font-bold mb-3" data-i18n="footer_col_resources">Ресурси</p>
         <div class="flex flex-col gap-2 font-semibold text-slate-300">
-          <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="github" class="w-3.5 h-3.5"></i> Репозиторій</a>
-          <a href="https://github.com/ajjs1ajjs/dist/releases" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="tag" class="w-3.5 h-3.5"></i> Усі релізи</a>
-          <a href="https://t.me/salesgamesua" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="send" class="w-3.5 h-3.5"></i> Telegram-канал</a>
-          <a href="https://andreichuk.dev" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="user" class="w-3.5 h-3.5"></i> Автор — портфоліо</a>
+          <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="github" class="w-3.5 h-3.5"></i> <span data-i18n="footer_repo">Репозиторій</span></a>
+          <a href="https://github.com/ajjs1ajjs/dist/releases" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="tag" class="w-3.5 h-3.5"></i> <span data-i18n="footer_releases">Усі релізи</span></a>
+          <a href="https://t.me/salesgamesua" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="send" class="w-3.5 h-3.5"></i> <span data-i18n="footer_telegram">Telegram-канал</span></a>
+          <a href="https://andreichuk.dev" target="_blank" rel="noopener" class="hover:text-white transition-colors inline-flex items-center gap-1.5"><i data-lucide="user" class="w-3.5 h-3.5"></i> <span data-i18n="footer_author">Автор — портфоліо</span></a>
         </div>
       </nav>
     </div>
     <div class="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/[0.07] flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] font-mono text-slate-500">
-      <span>© <span id="year">2026</span> ajjs1ajjs · zero-telemetry · зібрано в GitHub Actions</span>
-      <a href="#hero" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/[0.04] border border-white/10 text-slate-300 hover:bg-white/[0.08] hover:text-white transition-all">Догори <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i></a>
+      <span>© <span id="year">2026</span> ajjs1ajjs · zero-telemetry · <span data-i18n="footer_bottom_built">зібрано в GitHub Actions</span></span>
+      <a href="#hero" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/[0.04] border border-white/10 text-slate-300 hover:bg-white/[0.08] hover:text-white transition-all"><span data-i18n="footer_to_top">Догори</span> <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i></a>
     </div>
   </footer>
 
@@ -1652,317 +1665,684 @@
     // Initialize Lucide Icons
     lucide.createIcons();
 
-    // Data for Quick View Modals
+    // Multilingual Translations Dictionary (UK / EN)
+    const TRANSLATIONS = {
+  "uk": {
+    "page_title": "DIST — Екосистема інструментів, дистрибутивів та PWA",
+    "meta_desc": "Публічний хаб інсталяторів, готових бінарників та офлайн PWA застосунків. Linux SRE сервіси, Windows утиліти, криптографічна перевірка SHA-256 та Minisign.",
+    "og_title": "DIST — Публічний канал розповсюдження ПЗ",
+    "og_desc": "13 автономних продуктів для Linux, Windows та Web. Встановлення однією командою, zero-telemetry, повна безпека.",
+    "nav_catalog": "Каталог",
+    "nav_terminal": "Термінал",
+    "nav_security": "Безпека",
+    "nav_matrix": "Матриця",
+    "nav_mobile_catalog": "Каталог продуктів",
+    "nav_mobile_terminal": "Демо-термінал",
+    "nav_mobile_security": "Безпека & Архітектура",
+    "nav_mobile_matrix": "Матриця рішень",
+    "nav_mobile_github": "GitHub-репозиторій",
+    "nav_lang_label": "Мова / Language",
+    "hero_live_badge": "Публічний канал релізів · <span class=\"text-white font-bold\">13</span> продуктів · SHA-256 verified",
+    "hero_title": "Екосистема інструментів для<br class=\"hidden sm:inline\"><span class=\"bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-400 bg-[length:200%_auto] animate-gradient-x drop-shadow-[0_0_28px_rgba(34,211,238,.25)]\">DevOps, SRE та продуктивності</span>",
+    "hero_desc": "Публічний хаб інсталяторів, бінарників та офлайн-застосунків. Розгортання <span class=\"text-slate-200 font-semibold\">однією командою</span>, <span class=\"text-slate-200 font-semibold\">нуль телеметрії</span> та суворий криптографічний контроль кожного релізу.",
+    "hero_btn_explore": "Оглянути всі продукти",
+    "hero_btn_terminal": "Демо-термінал",
+    "hero_kbd_1click": "1-клік",
+    "trust_linux": "Linux-сервіси",
+    "trust_windows": "Windows-утиліти",
+    "trust_web": "Web / PWA офлайн",
+    "metric_products_lbl": "Готових продуктів",
+    "metric_platforms_lbl": "Платформи",
+    "metric_verify_sub": "Перевірка кожного релізу",
+    "metric_telemetry_lbl": "Телеметрії",
+    "metric_telemetry_sub": "Жодних трекерів",
+    "marquee_sales_calc": "Sales Calculator · КП",
+    "cat_tag": "Каталог · 13 рішень",
+    "cat_title": "Оберіть інструмент під задачу",
+    "cat_desc": "Фільтруйте за платформою або шукайте за назвою, стеком і призначенням. Натисніть <kbd class=\"kbd\">/</kbd> щоб швидко знайти.",
+    "filter_all": "Всі · 13",
+    "filter_linux": "Linux · 4",
+    "filter_windows": "Windows · 6",
+    "filter_web": "Web & PWA · 3",
+    "filter_monitoring": "Моніторинг · 2",
+    "search_placeholder": "Пошук: git, k8s, backup…",
+    "search_clear_aria": "Очистити пошук",
+    "no_results_title": "Нічого не знайдено",
+    "no_results_desc": "Спробуйте змінити пошуковий запит або обрати іншу категорію",
+    "no_results_reset": "Скинути фільтри",
+    "term_tag": "Live Sandbox",
+    "term_title": "Інтерактивна консоль розгортання",
+    "term_desc": "Натисніть команду — побачите симуляцію безпечного встановлення. Це ті самі one-line інсталятори, що й на картках.",
+    "term_quick_label": "Швидкі команди:",
+    "term_clear_btn": "Очистити",
+    "term_intro_1": "# Ласкаво просимо до терміналу дистрибуції ajjs1ajjs/dist.",
+    "term_intro_2": "# Виберіть будь-яку команду вище або скопіюйте інсталятор для вашого сервера.",
+    "term_footer_note": "Симуляція для демо · реальні команди — на картках продуктів, з перевіркою SHA-256",
+    "sec_tag": "Security & Integrity",
+    "sec_title": "Принципи надійності та безпеки",
+    "sec_desc": "Чому розповсюдження через цей репозиторій є передбачуваним, захищеним і безпечним для production.",
+    "sec_1_title": "Minisign-підпис",
+    "sec_1_desc": "Десктопні застосунки (KubeLens, RDM) перевіряють цифрові підписи збірок перед кожним оновленням.",
+    "sec_2_title": "SHA-256 контроль",
+    "sec_2_desc": "Кожен реліз має файл контрольних сум. Curl-скрипти автоматично звіряють хеш перед запуском.",
+    "sec_3_title": "Безпечні апгрейди",
+    "sec_3_desc": "Конфіги, SQLite-бази та користувачі зберігаються. Замінюється лише бінарник, з автобекапом.",
+    "sec_4_title": "Zero-telemetry & Offline",
+    "sec_4_desc": "PWA працюють офлайн через Service Workers. Дані — лише локально, без сторонніх серверів.",
+    "mat_tag": "Compatibility Matrix",
+    "mat_title": "Зведена таблиця екосистеми",
+    "mat_subtitle": "13 продуктів · гортайте → на мобільному",
+    "mat_th_product": "Продукт",
+    "mat_th_platform": "Платформа",
+    "mat_th_stack": "Стек",
+    "mat_th_format": "Формат поставки",
+    "mat_th_update": "Механізм оновлення",
+    "mat_th_action": "Дія",
+    "footer_subtitle": "Готові релізи, інсталятори та автономні вебзастосунки",
+    "footer_badge_products": "13 продуктів",
+    "footer_col_nav": "Навігація",
+    "footer_col_resources": "Ресурси",
+    "footer_repo": "Репозиторій",
+    "footer_releases": "Усі релізи",
+    "footer_telegram": "Telegram-канал",
+    "footer_author": "Автор — портфоліо",
+    "footer_bottom_built": "зібрано в GitHub Actions",
+    "footer_to_top": "Догори",
+    "preview_reload_title": "Оновити фрейм",
+    "preview_external_title": "Відкрити в новому вікні",
+    "modal_close_btn": "Закрити",
+    "toast_copied": "Команду скопійовано в буфер обміну",
+    "toast_copy_error": "Не вдалось скопіювати — виділіть вручну",
+    "btn_copied": "✓ Скопійовано",
+    "common_copy": "Копіювати",
+    "common_install_update": "Встановлення / Оновлення:",
+    "common_install_oneclick": "Встановлення в один клік:",
+    "common_install_oneline": "Встановлення в один рядок:",
+    "common_download_installer": "Завантажити інсталятор (.exe)",
+    "common_download_portable": "Завантажити Portable (.zip)",
+    "common_download_calculator": "Завантажити ITE.ResourceCalculator.exe",
+    "common_download_rescalc": "Завантажити ResourceCalculator_Setup.exe",
+    "common_download_diskcleaner": "Завантажити DiskCleaner.exe",
+    "common_open_app": "Відкрити застосунок",
+    "common_open_site": "Відкрити сайт",
+    "common_open_itch": "Відкрити на itch.io",
+    "common_releases": "Релізи",
+    "common_all_releases": "Всі релізи",
+    "common_no_server": "Працює без сервера",
+    "common_itch_builds": "Збірки — у GitHub-релізах",
+    "p_bck_sub": "Enterprise Backup & Disaster Recovery",
+    "p_bck_desc": "Повноцінна альтернатива Veeam для інфраструктури: включає демон <code class=\"text-slate-300 font-mono\">bckd</code>, агент, CLI, proxy та веб-консоль керування.",
+    "p_bck_details": "Деталі та архітектура",
+    "p_kubelens_sub": "Kubernetes Desktop IDE",
+    "p_kubelens_desc": "Швидкий десктопний клієнт для K8s: моніторинг робочих навантажень, реалтайм-стрімінг логів, менеджер Helm-релізів та інтерактивна топологія кластера.",
+    "p_kubelens_tag_minisign": "Minisign Підпис",
+    "p_kubelens_details": "Деталі та перевірка",
+    "p_monitoring_sub": "Infrastructure Monitoring & NOC Dashboard",
+    "p_monitoring_desc": "Сервер моніторингу на Go з підтримкою <code class=\"text-slate-300 font-mono\">node_exporter</code> (Linux) та <code class=\"text-slate-300 font-mono\">windows_exporter</code>. Візуальний NOC-дашборд у реальному часі.",
+    "p_monitoring_details": "Деталі та конфіг",
+    "p_rdm_sub": "Remote Connection Manager for SRE & DevOps",
+    "p_rdm_desc": "Єдине робоче місце для підключень до серверів (SSH / RDP / Тунелі). Локальне шифрування ключів, база SQLite та автооновлення із підписом.",
+    "p_rdm_details": "Деталі та Portable версія",
+    "p_mygit_sub": "Self-Hosted Lightweight Git Platform",
+    "p_mygit_desc": "Надшвидка та невибаглива альтернатива Gitea/GitLab на Go. Розгортається за секунди, веб-інтерфейс на порту <code class=\"text-slate-300 font-mono\">:9555</code>.",
+    "p_mygit_details": "Деталі та збереження даних",
+    "p_uptime_sub": "Website, Service & SSL Health Sentinel",
+    "p_uptime_desc": "Моніторинг доступності HTTP/TCP сервісів, контроль термінів дії SSL-сертифікатів, сповіщення при збоях та збереження SLA.",
+    "p_uptime_details": "Деталі та відкат",
+    "p_gym_sub": "Офлайн-трекер тренувань та прогресу тіла",
+    "p_gym_desc": "Сучасний мобільний трекер на Svelte 5. Повністю працює без інтернету, всі тренування зберігаються лише на вашому пристрої в <code class=\"text-slate-300 font-mono\">localStorage</code>.",
+    "p_gym_tag_privacy": "100% Приватність",
+    "p_gym_details": "Інструкція зі встановлення PWA",
+    "p_sales_sub": "Радар знижок і спеціальних пропозицій Steam",
+    "p_sales_desc": "Автоматичний парсер найкращих знижок та лідерів продажу Steam. Щоденно синхронізується через GitHub Actions та транслює в Telegram.",
+    "p_sales_details": "Архітектура парсера",
+    "p_games_sub": "5 браузерних 3D-ігор",
+    "p_games_desc": "GravityShift, Drift, Terraformers, Echoes, Verdant — самодостатні WebGL-ігри. Збірка — GitHub Actions, на itch.io заливаються вручну.",
+    "p_calculator_flagship_badge": "FLAGSHIP · вибір архітекторів",
+    "p_calculator_sub": "Комплексний сайзинг серверів, K8s, СУБД та дисків",
+    "p_calculator_desc": "Флагманська інженерна система для системних архітекторів: точний сайзинг кластерів (K8s / Windows VM / Гібрид), розбивка дисків (OS/Data/Logs/Content/Pagefile/IOPS) та середовищ DEV/TEST/PreProd/PROD за стандартом D-AD-ADM-E. Портативний <code class=\"text-slate-300 font-mono\">.exe</code> файл з автооновленням.",
+    "p_calculator_details": "Хеш та перевірка",
+    "p_rescalc_sub": "Розрахунок ресурсів для сейлзів та КП",
+    "p_rescalc_desc": "Швидкий підрахунок серверних ресурсів за ліцензіями модулів для формування комерційних пропозицій (КП) з експортом у Excel та PDF. Зручний Inno Setup інсталятор.",
+    "p_rescalc_details": "Хеш та перевірка",
+    "p_diskcleaner_sub": "Очищувач диска C: без встановлення",
+    "p_diskcleaner_desc": "Портативна утиліта глибокої чистки диска <code class=\"text-slate-300 font-mono\">C:</code>: видаляє залишки збірок, тимчасові файли та кеші. Безпечні налаштування за замовчуванням.",
+    "p_diskcleaner_tag_noinstall": "Без встановлення",
+    "p_diskcleaner_details": "Як перевірити SHA-256",
+    "p_netscope_sub": "Офлайн-інвентаризація мережі",
+    "p_netscope_desc": "Інвентаризація мережі без інтернету: опитування <code class=\"text-slate-300 font-mono\">AD/LDAP</code>, IP-сканування та побудова топології. Портативний ZIP, підписані автооновлення <code class=\"text-slate-300 font-mono\">Ed25519</code>.",
+    "p_netscope_details": "Деталі та перевірка",
+    "mat_row_bck_update": "Автозбереження конфігів",
+    "mat_row_pymon_update": "Збереження SQLite",
+    "mat_row_mygit_update": "Збереження репозиторіїв",
+    "mat_row_uptime_update": "Auto-rollback при збої",
+    "mat_row_games_update": "GitHub Actions збірка",
+    "mat_row_diskcleaner_update": "Портативний запуск",
+    "mat_row_netscope_update": "Підписане (Ed25519)"
+  },
+  "en": {
+    "page_title": "DIST — Tool Ecosystem, Distributions & PWAs",
+    "meta_desc": "Public hub for installers, prebuilt binaries, and offline PWA apps. Linux SRE services, Windows utilities, cryptographic SHA-256 and Minisign verification.",
+    "og_title": "DIST — Public Software Distribution Channel",
+    "og_desc": "13 standalone products for Linux, Windows, and Web. One-command deployment, zero-telemetry, hardened security.",
+    "nav_catalog": "Catalog",
+    "nav_terminal": "Terminal",
+    "nav_security": "Security",
+    "nav_matrix": "Matrix",
+    "nav_mobile_catalog": "Product Catalog",
+    "nav_mobile_terminal": "Demo Terminal",
+    "nav_mobile_security": "Security & Architecture",
+    "nav_mobile_matrix": "Solutions Matrix",
+    "nav_mobile_github": "GitHub Repository",
+    "nav_lang_label": "Language / Мова",
+    "hero_live_badge": "Public release channel · <span class=\"text-white font-bold\">13</span> products · SHA-256 verified",
+    "hero_title": "Tool Ecosystem for<br class=\"hidden sm:inline\"><span class=\"bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-400 bg-[length:200%_auto] animate-gradient-x drop-shadow-[0_0_28px_rgba(34,211,238,.25)]\">DevOps, SRE & Productivity</span>",
+    "hero_desc": "Public hub for installers, binaries, and offline applications. Deployment in <span class=\"text-slate-200 font-semibold\">one command</span>, <span class=\"text-slate-200 font-semibold\">zero telemetry</span>, and strict cryptographic verification of every release.",
+    "hero_btn_explore": "Explore All Products",
+    "hero_btn_terminal": "Demo Terminal",
+    "hero_kbd_1click": "1-click",
+    "trust_linux": "Linux Services",
+    "trust_windows": "Windows Utilities",
+    "trust_web": "Web / PWA Offline",
+    "metric_products_lbl": "Ready Products",
+    "metric_platforms_lbl": "Platforms",
+    "metric_verify_sub": "Verified every release",
+    "metric_telemetry_lbl": "Telemetry",
+    "metric_telemetry_sub": "Zero trackers",
+    "marquee_sales_calc": "Sales Calculator · Quotes",
+    "cat_tag": "Catalog · 13 Solutions",
+    "cat_title": "Choose the right tool for the job",
+    "cat_desc": "Filter by platform or search by name, stack, and purpose. Press <kbd class=\"kbd\">/</kbd> to search quickly.",
+    "filter_all": "All · 13",
+    "filter_linux": "Linux · 4",
+    "filter_windows": "Windows · 6",
+    "filter_web": "Web & PWA · 3",
+    "filter_monitoring": "Monitoring · 2",
+    "search_placeholder": "Search: git, k8s, backup…",
+    "search_clear_aria": "Clear search",
+    "no_results_title": "Nothing Found",
+    "no_results_desc": "Try modifying your search query or selecting another category",
+    "no_results_reset": "Reset filters",
+    "term_tag": "Live Sandbox",
+    "term_title": "Interactive Deployment Console",
+    "term_desc": "Click any command below to simulate safe installation. These are the exact one-line installers from the product cards.",
+    "term_quick_label": "Quick commands:",
+    "term_clear_btn": "Clear",
+    "term_intro_1": "# Welcome to the ajjs1ajjs/dist distribution terminal.",
+    "term_intro_2": "# Select any command above or copy the installer for your server.",
+    "term_footer_note": "Simulation for demo · real commands on product cards with SHA-256 verification",
+    "sec_tag": "Security & Integrity",
+    "sec_title": "Reliability & Security Principles",
+    "sec_desc": "Why distribution through this repository is predictable, hardened, and production-ready.",
+    "sec_1_title": "Minisign Signatures",
+    "sec_1_desc": "Desktop applications (KubeLens, RDM) cryptographically verify binary signatures before every update.",
+    "sec_2_title": "SHA-256 Control",
+    "sec_2_desc": "Every release provides checksum files. Shell scripts automatically verify hashes prior to execution.",
+    "sec_3_title": "Safe Upgrades",
+    "sec_3_desc": "Configurations, SQLite databases, and users are preserved. Only binaries are replaced, with auto-backups.",
+    "sec_4_title": "Zero-telemetry & Offline",
+    "sec_4_desc": "PWAs work offline via Service Workers. All data remains local with zero third-party telemetry.",
+    "mat_tag": "Compatibility Matrix",
+    "mat_title": "Ecosystem Overview Matrix",
+    "mat_subtitle": "13 products · scroll → on mobile",
+    "mat_th_product": "Product",
+    "mat_th_platform": "Platform",
+    "mat_th_stack": "Stack",
+    "mat_th_format": "Delivery Format",
+    "mat_th_update": "Update Mechanism",
+    "mat_th_action": "Action",
+    "footer_subtitle": "Ready releases, installers, and standalone web applications",
+    "footer_badge_products": "13 products",
+    "footer_col_nav": "Navigation",
+    "footer_col_resources": "Resources",
+    "footer_repo": "Repository",
+    "footer_releases": "All Releases",
+    "footer_telegram": "Telegram Channel",
+    "footer_author": "Author — Portfolio",
+    "footer_bottom_built": "built with GitHub Actions",
+    "footer_to_top": "To top",
+    "preview_reload_title": "Reload frame",
+    "preview_external_title": "Open in new window",
+    "modal_close_btn": "Close",
+    "toast_copied": "Command copied to clipboard",
+    "toast_copy_error": "Failed to copy — please select manually",
+    "btn_copied": "✓ Copied",
+    "common_copy": "Copy",
+    "common_install_update": "Install / Update:",
+    "common_install_oneclick": "One-click install:",
+    "common_install_oneline": "One-line install:",
+    "common_download_installer": "Download installer (.exe)",
+    "common_download_portable": "Download Portable (.zip)",
+    "common_download_calculator": "Download ITE.ResourceCalculator.exe",
+    "common_download_rescalc": "Download ResourceCalculator_Setup.exe",
+    "common_download_diskcleaner": "Download DiskCleaner.exe",
+    "common_open_app": "Launch App",
+    "common_open_site": "Open Website",
+    "common_open_itch": "Open on itch.io",
+    "common_releases": "Releases",
+    "common_all_releases": "All releases",
+    "common_no_server": "Runs without server",
+    "common_itch_builds": "Builds in GitHub Releases",
+    "p_bck_sub": "Enterprise Backup & Disaster Recovery",
+    "p_bck_desc": "A complete Veeam alternative for infrastructure: includes <code class=\"text-slate-300 font-mono\">bckd</code> daemon, agent, CLI, proxy, and web management console.",
+    "p_bck_details": "Details & architecture",
+    "p_kubelens_sub": "Kubernetes Desktop IDE",
+    "p_kubelens_desc": "Fast desktop client for K8s: real-time workload monitoring, live log streaming, Helm release manager, and interactive cluster topology.",
+    "p_kubelens_tag_minisign": "Minisign Signature",
+    "p_kubelens_details": "Details & verification",
+    "p_monitoring_sub": "Infrastructure Monitoring & NOC Dashboard",
+    "p_monitoring_desc": "Go-powered monitoring server supporting <code class=\"text-slate-300 font-mono\">node_exporter</code> (Linux) and <code class=\"text-slate-300 font-mono\">windows_exporter</code>. Real-time visual NOC dashboard.",
+    "p_monitoring_details": "Details & config",
+    "p_rdm_sub": "Remote Connection Manager for SRE & DevOps",
+    "p_rdm_desc": "Unified workstation for server connections (SSH / RDP / Tunnels). Local key encryption, SQLite database, and signed auto-updates.",
+    "p_rdm_details": "Details & Portable version",
+    "p_mygit_sub": "Self-Hosted Lightweight Git Platform",
+    "p_mygit_desc": "Ultra-fast, lightweight Gitea/GitLab alternative in Go. Deploys in seconds, web interface on port <code class=\"text-slate-300 font-mono\">:9555</code>.",
+    "p_mygit_details": "Details & data persistence",
+    "p_uptime_sub": "Website, Service & SSL Health Sentinel",
+    "p_uptime_desc": "Monitors HTTP/TCP service availability, tracks SSL certificate expiration, issues incident alerts, and tracks SLA uptime.",
+    "p_uptime_details": "Details & rollback",
+    "p_gym_sub": "Offline Workout & Body Progress Tracker",
+    "p_gym_desc": "Modern mobile workout tracker built with Svelte 5. Operates completely offline, storing all workouts locally in <code class=\"text-slate-300 font-mono\">localStorage</code>.",
+    "p_gym_tag_privacy": "100% Privacy",
+    "p_gym_details": "PWA install guide",
+    "p_sales_sub": "Steam Discounts & Specials Radar",
+    "p_sales_desc": "Automated scraper for top Steam discounts and bestsellers. Daily sync via GitHub Actions with live broadcasts to Telegram.",
+    "p_sales_details": "Parser architecture",
+    "p_games_sub": "5 Browser 3D Games",
+    "p_games_desc": "GravityShift, Drift, Terraformers, Echoes, Verdant — standalone WebGL games. Automated GitHub Actions builds, uploaded manually to itch.io.",
+    "p_calculator_flagship_badge": "FLAGSHIP · Architect's Choice",
+    "p_calculator_sub": "Comprehensive Sizing for Servers, K8s, DBMS & Storage",
+    "p_calculator_desc": "Flagship engineering system for systems architects: precise cluster sizing (K8s / Windows VM / Hybrid), storage breakdown (OS/Data/Logs/Content/Pagefile/IOPS), and DEV/TEST/PreProd/PROD tiers per D-AD-ADM-E standard. Portable <code class=\"text-slate-300 font-mono\">.exe</code> with auto-updates.",
+    "p_calculator_details": "Hash & verification",
+    "p_rescalc_sub": "Resource Calculation for Sales & Proposals",
+    "p_rescalc_desc": "Rapid server sizing based on module licensing for commercial proposals with direct Excel and PDF export. Convenient Inno Setup installer.",
+    "p_rescalc_details": "Hash & verification",
+    "p_diskcleaner_sub": "Drive C: Cleaner Without Installation",
+    "p_diskcleaner_desc": "Portable utility for deep cleaning drive <code class=\"text-slate-300 font-mono\">C:</code>: clears build artifacts, temporary files, and caches. Safe defaults by design.",
+    "p_diskcleaner_tag_noinstall": "No Installation",
+    "p_diskcleaner_details": "How to verify SHA-256",
+    "p_netscope_sub": "Offline Network Inventory",
+    "p_netscope_desc": "Air-gapped network inventory: <code class=\"text-slate-300 font-mono\">AD/LDAP</code> querying, IP scanning, and topology mapping. Portable ZIP with signed <code class=\"text-slate-300 font-mono\">Ed25519</code> auto-updates.",
+    "p_netscope_details": "Details & verification",
+    "mat_row_bck_update": "Auto config preservation",
+    "mat_row_pymon_update": "SQLite state preserved",
+    "mat_row_mygit_update": "Repositories preserved",
+    "mat_row_uptime_update": "Auto-rollback on failure",
+    "mat_row_games_update": "GitHub Actions build",
+    "mat_row_diskcleaner_update": "Portable execution",
+    "mat_row_netscope_update": "Signed (Ed25519)"
+  }
+};
+
+    // Data for Quick View Modals (UK / EN)
     const productDocs = {
-      bck: {
-        title: 'BCK — Enterprise Backup & Disaster Recovery',
-        category: 'Linux / Ubuntu 24/25/26 · x86_64',
-        iconBg: 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30',
-        icon: 'shield-check',
-        html: `
-          <div class="space-y-3">
-            <p><strong>BCK</strong> — це повноцінне корпоративне рішення для резервного копіювання, що розгортається як системний сервіс на Ubuntu.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Архітектура компонентів:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li><code class="text-cyan-400 font-mono">bckd</code> — центральний фоновий демон координації</li>
-                <li><code class="text-cyan-400 font-mono">bck-agent</code> — легкий агент для зняття бекапів</li>
-                <li><code class="text-cyan-400 font-mono">bck</code> — консольна утиліта управління (CLI)</li>
-                <li><code class="text-cyan-400 font-mono">bck-proxy</code> — захищений тунель передачі даних</li>
-                <li>Веб-консоль адміністрування з графіками статусів</li>
-              </ul>
-            </div>
-            <div class="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300">
-              <strong>Безпека та оновлення:</strong> скрипт інсталяції перевіряє SHA-256 хеш архіву перед розгортанням. При повторному запуску скрипту конфігурації та збережені бекапи залишаються неушкодженими.
-            </div>
-          </div>
-        `,
-        actions: `
-          <button onclick="copyCommand('curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash', this)" class="px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5">
-            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Скопіювати команду
-          </button>
-        `
-      },
-      kubelens: {
-        title: 'KubeLens — Kubernetes Desktop IDE',
-        category: 'Windows x64 · Tauri 2 / Rust / React',
-        iconBg: 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30',
-        icon: 'compass',
-        html: `
-          <div class="space-y-3">
-            <p><strong>KubeLens</strong> створено як надшвидку альтернативу важким Electron-клієнтам для керування кластерами Kubernetes.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Основні можливості:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li>Моніторинг Pods, Deployments, StatefulSets, DaemonSets у реальному часі</li>
-                <li>Миттєвий стрімінг логів контейнерів із фільтрацією</li>
-                <li>Керування Helm-релізами: інсталяція, відкат, перегляд values</li>
-                <li>Інтерактивна топологія зв'язків між сервісами та інґресами</li>
-              </ul>
-            </div>
-            <div class="p-3 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-300">
-              <strong>Криптографічний захист:</strong> оновлення перевіряються через <code class="font-mono">latest.json</code> за допомогою цифрового підпису <strong>minisign</strong>.
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.34/KubeLens_0.3.34_x64-setup.exe" data-latest="kubelens-v" data-asset="setup\.exe$" class="px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити інсталятор (.exe)
-          </a>
-        `
-      },
-      monitoring: {
-        title: 'PyMon NOC — Моніторинг інфраструктури',
-        category: 'Ubuntu 24/25/26 · amd64/arm64 · Go',
-        iconBg: 'bg-orange-500/20 text-orange-400 border border-orange-500/30',
-        icon: 'activity',
-        html: `
-          <div class="space-y-3">
-            <p><strong>PyMon NOC</strong> — це сервер збору метрик та моніторингу працездатності серверів у реальному часі.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Ключові особливості:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li>Сумісність з <code class="text-cyan-400 font-mono">node_exporter</code> на Linux та <code class="text-cyan-400 font-mono">windows_exporter</code> на Windows</li>
-                <li>Автономний systemd-сервіс із мінімальним використанням оперативної пам'яті</li>
-                <li>Конфігураційний файл: <code class="font-mono text-cyan-400">/etc/pymon/config.yml</code></li>
-                <li>Збереження бази даних та облікових записів користувачів при апгрейді</li>
-              </ul>
-            </div>
-            <div class="p-3 rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-300">
-              <strong>Встановлення конкретної версії:</strong><br>
-              <code class="font-mono text-[11px]">PYMON_VERSION=&lt;версія&gt; curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash</code>
-            </div>
-          </div>
-        `,
-        actions: `
-          <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash', this)" class="px-3.5 py-2 rounded-xl bg-orange-500 text-white font-semibold hover:bg-orange-400 transition-colors flex items-center gap-1.5">
-            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Скопіювати команду
-          </button>
-        `
-      },
-      rdm: {
-        title: 'RDM Manager — Remote Connection Manager',
-        category: 'Windows x64 · Tauri 2 / Rust / SQLite',
-        iconBg: 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30',
-        icon: 'square-terminal',
-        html: `
-          <div class="space-y-3">
-            <p><strong>RDM Manager</strong> об'єднує всі ваші підключення (SSH, RDP, консолі) в одному зручному та надійному інтерфейсі.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Формати релізів:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li><code class="text-cyan-400 font-mono">RDM.Manager_*_x64-setup.exe</code> — NSIS-інсталятор для Windows</li>
-              </ul>
-            </div>
-            <div class="p-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-300">
-              <strong>Шифрування:</strong> паролі та ключі шифруються локально, база даних зберігається у вбудованій SQLite без зовнішніх хмарних залежностей.
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.29/RDM.Manager_2.1.29_x64-setup.exe" data-latest="rdm-v" data-asset="setup\.exe$" class="px-3.5 py-2 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити NSIS Setup
-          </a>
-        `
-      },
-      mygit: {
-        title: 'MyGit — Легка Git-платформа',
-        category: 'Ubuntu 24/25/26 · amd64/arm64 · Go',
-        iconBg: 'bg-purple-500/20 text-purple-400 border border-purple-500/30',
-        icon: 'git-branch',
-        html: `
-          <div class="space-y-3">
-            <p><strong>MyGit</strong> — це приватний Git-сервер в одному бінарнику, що ідеально підходить для локальної інфраструктури або ізольованих контурів.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Швидкий старт:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li>Після встановлення відкрийте: <code class="text-cyan-400 font-mono">http://&lt;IP-адреса&gt;:9555/</code></li>
-                <li><strong>Перший зареєстрований користувач</strong> автоматично стає власником та головним адміністратором (superuser).</li>
-                <li>Дані та сховище репозиторіїв знаходяться за адресою <code class="text-cyan-400 font-mono">/var/lib/mygit</code>.</li>
-              </ul>
-            </div>
-          </div>
-        `,
-        actions: `
-          <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash', this)" class="px-3.5 py-2 rounded-xl bg-purple-600 text-white font-semibold hover:bg-purple-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Скопіювати команду
-          </button>
-        `
-      },
-      uptime: {
-        title: 'Uptime Monitor — Моніторинг доступності та SSL',
-        category: 'Ubuntu/Debian 24/25/26 · Go',
-        iconBg: 'bg-teal-500/20 text-teal-400 border border-teal-500/30',
-        icon: 'clock',
-        html: `
-          <div class="space-y-3">
-            <p><strong>Uptime Monitor</strong> відстежує стан ваших веб-сервісів, перевіряє латентність та завчасно попереджає про закінчення терміну дії SSL-сертифікатів.</p>
-            <div class="p-3 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-300">
-              <strong>Автоматичний відкат:</strong> якщо при оновленні бінарник не зміг коректно запуститися, скрипт негайно повертає попередню робочу версію з бекапу (<code class="font-mono">uptime-monitor.old</code>).
-            </div>
-            <p class="text-slate-400">Конфігураційний файл: <code class="font-mono text-cyan-400">/etc/uptime-monitor/config.json</code></p>
-          </div>
-        `,
-        actions: `
-          <button onclick="copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash', this)" class="px-3.5 py-2 rounded-xl bg-teal-500 text-black font-semibold hover:bg-teal-400 transition-colors flex items-center gap-1.5">
-            <i data-lucide="copy" class="w-3.5 h-3.5"></i> Скопіювати команду
-          </button>
-        `
-      },
-      gym: {
-        title: 'Gym Tracker — Офлайн PWA',
-        category: 'Web · Svelte 5 / TypeScript / Vite',
-        iconBg: 'bg-rose-500/20 text-rose-400 border border-rose-500/30',
-        icon: 'dumbbell',
-        html: `
-          <div class="space-y-3">
-            <p><strong>Gym Tracker</strong> — це прогресивний вебзастосунок, спроектований за принципом <em>offline-first</em>.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Як встановити на смартфон:</h5>
-              <ol class="list-decimal list-inside space-y-1 text-slate-300">
-                <li>Відкрийте посилання <code class="text-cyan-400 font-mono">https://ajjs1ajjs.github.io/dist/gym/</code> в Safari (iOS) або Chrome (Android).</li>
-                <li>Натисніть кнопку меню або «Поділитися».</li>
-                <li>Оберіть <strong>«На початковий екран» (Add to Home Screen)</strong>.</li>
-                <li>Застосунок працюватиме як рідна нативна програма навіть у режимі "У літаку".</li>
-              </ol>
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="./gym/" target="_blank" class="px-3.5 py-2 rounded-xl bg-rose-600 text-white font-semibold hover:bg-rose-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Відкрити Gym Tracker
-          </a>
-        `
-      },
-      sales: {
-        title: 'Game Sales Radar — Знижки та роздачі ігор',
-        category: 'Web / PWA + GitHub Actions + Telegram',
-        iconBg: 'bg-fuchsia-500/20 text-fuchsia-400 border border-fuchsia-500/30',
-        icon: 'gamepad-2',
-        html: `
-          <div class="space-y-3">
-            <p><strong>Game Sales Radar</strong> моніторить каталог Steam у пошуках найкращих знижок, спеціальних пропозицій та лідерів продажу.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Як влаштований пайплайн:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li>GitHub Actions запускає фетчер за розкладом щодня о 09:00 за Києвом (07:00 UTC)</li>
-                <li>Дані оновлюються у файлі <code class="text-cyan-400 font-mono">sales/data/deals.json</code></li>
-                <li>Нові гарячі знижки автоматично надсилаються в канал Telegram: <a href="https://t.me/salesgamesua" target="_blank" class="text-cyan-400 underline">@salesgamesua</a></li>
-              </ul>
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="./sales/" target="_blank" class="px-3.5 py-2 rounded-xl bg-fuchsia-600 text-white font-semibold hover:bg-fuchsia-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="external-link" class="w-3.5 h-3.5"></i> Відкрити Game Sales
-          </a>
-        `
-      },
-      calculator: {
-        title: 'Server Infrastructure Calculator — Комплексний сайзинг серверів',
-        category: 'Windows 10/11 · x64 · .NET Portable · Flagship',
-        iconBg: 'bg-violet-500/20 text-violet-400 border border-violet-500/30',
-        icon: 'server',
-        html: `
-          <div class="space-y-3">
-            <p><strong>Server Infrastructure Calculator</strong> — флагманська інженерна система для системних архітекторів, інженерів та IT-директорів: детальний сайзинг серверної інфраструктури за регламентом D-AD-ADM-E.</p>
-            <ul class="list-disc list-inside text-slate-400 text-xs space-y-1">
-              <li>3 моделі розгортання: Kubernetes, Windows Server, Гібрид</li>
-              <li>СУБД: MS SQL Server, PostgreSQL, Oracle 19c</li>
-              <li>Деталізація дисків (OS, Data, Logs, Content, Pagefile, IOPS, латентність)</li>
-              <li>Середовища: PROD, DEV, TEST, PreProd з власними ліцензіями</li>
-            </ul>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10 font-mono text-[11px]">
-              <span class="text-slate-400 block mb-1">Перевірка хешу в PowerShell:</span>
-              <code class="text-cyan-300">(Get-FileHash .\\ITE.ResourceCalculator.exe -Algorithm SHA256).Hash</code>
-            </div>
-            <p class="text-slate-400">Програма портативна, не потребує встановлення і самостійно перевіряє оновлення з репозиторію.</p>
-            <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300">
-              <strong>Оновлення зі старих версій (≤ 2.4.12):</strong> вони читали релізи зі старого кодового репозиторію, який тепер приватний, тож автоматичне оновлення в них більше не працює. Одноразово завантажте ITE.ResourceCalculator.exe версії v2.5.0+ вручну — далі оновлення знову відбуватимуться автоматично з цього репозиторію.
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/calculator-v2.7.1/ITE.ResourceCalculator.exe" data-latest="calculator-v" data-asset="\.exe$" class="px-3.5 py-2 rounded-xl bg-violet-600 text-white font-semibold hover:bg-violet-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити ITE.ResourceCalculator.exe
-          </a>
-        `
-      },
-      rescalc: {
-        title: 'Sales Proposal Calculator — Розрахунок серверних ресурсів для КП',
-        category: 'Windows 10/11 · x64 · Inno Setup Installer',
-        iconBg: 'bg-blue-500/20 text-blue-400 border border-blue-500/30',
-        icon: 'receipt',
-        html: `
-          <div class="space-y-3">
-            <p><strong>Sales Proposal Calculator</strong> — спеціалізований інструмент для сейлз-менеджерів та комерційного відділу для швидкого розрахунку серверних ресурсів під час підготовки комерційних пропозицій (КП).</p>
-            <ul class="list-disc list-inside text-slate-400 text-xs space-y-1">
-              <li>Швидкий підбір модулів та кількості ліцензій</li>
-              <li>Експорт КП у формати Excel (.xlsx) та PDF</li>
-              <li>Зручне встановлення через Inno Setup інсталятор</li>
-              <li>Автоматична перевірка та завантаження оновлень</li>
-            </ul>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10 font-mono text-[11px]">
-              <span class="text-slate-400 block mb-1">Перевірка хешу в PowerShell:</span>
-              <code class="text-cyan-300">(Get-FileHash .\\ResourceCalculator_Setup_*.exe -Algorithm SHA256).Hash</code>
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/rescalc-v2.0.6/ResourceCalculator_Setup_v2.0.6.exe" data-latest="rescalc-v" data-asset="setup.*\.exe$" class="px-3.5 py-2 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити інсталятор
-          </a>
-        `
-      },
-      diskcleaner: {
-        title: 'DiskCleaner — Портативна чистка диска C:',
-        category: 'Windows 10/11 · x64 · Portable Single Exe',
-        iconBg: 'bg-blue-500/20 text-blue-400 border border-blue-500/30',
-        icon: 'sparkles',
-        html: `
-          <div class="space-y-3">
-            <p><strong>DiskCleaner</strong> звільняє гігабайти пам'яті на системному диску, видаляючи тимчасові файли, кеші компіляторів, дампи пам'яті та логи.</p>
-            <div class="p-3 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-300 font-mono text-[11px]">
-              <span class="text-slate-400 block mb-1">Перевірка цілісності:</span>
-              <code>certutil -hashfile DiskCleaner.exe SHA256</code>
-            </div>
-            <p class="text-slate-400">Всі ризиковані системні папки (Windows.old, Prefetch) вимкнені за замовчуванням задля збереження стабільності ОС.</p>
-          </div>
-        `,
-        actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/diskcleaner-v1.4.8/DiskCleaner.exe" data-latest="diskcleaner-v" data-asset="\.exe$" class="px-3.5 py-2 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити DiskCleaner.exe
-          </a>
-        `
-      },
-      netscope: {
-        title: 'NetScope Enterprise — Офлайн-інвентаризація мережі',
-        category: 'Windows 10/11 · x64 · Portable ZIP · Offline',
-        iconBg: 'bg-amber-500/20 text-amber-400 border border-amber-500/30',
-        icon: 'network',
-        html: `
-          <div class="space-y-3">
-            <p><strong>NetScope Enterprise</strong> інвентаризує локальну мережу без доступу до інтернету: опитування <code class="text-cyan-400 font-mono">AD/LDAP</code>, IP-сканування та побудова топології.</p>
-            <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10">
-              <h5 class="font-bold text-white mb-2">Формати релізів:</h5>
-              <ul class="list-disc list-inside space-y-1 text-slate-300">
-                <li><code class="text-cyan-400 font-mono">NetScope-*-portable.zip</code> — портативна версія без встановлення</li>
-                <li><code class="text-cyan-400 font-mono">NetScope-*-update.zip</code> — пакет підписаного автооновлення (Ed25519)</li>
-              </ul>
-            </div>
-            <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300 font-mono text-[11px]">
-              <span class="text-slate-400 block mb-1">Перевірка цілісності:</span>
-              <code>certutil -hashfile NetScope-*.zip SHA256</code> — звірте з <code>SHA256SUMS.txt</code> у релізі.
-            </div>
-          </div>
-        `,
-        actions: `
-          <a href="https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.2/NetScope-v1.3.2-portable.zip" data-latest="netscope-v" data-asset="portable\.zip$" class="px-3.5 py-2 rounded-xl bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors flex items-center gap-1.5">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i> Завантажити Portable (.zip)
-          </a>
-        `
+  "uk": {
+    "bck": {
+      "title": "BCK — Enterprise Backup & Disaster Recovery",
+      "category": "Linux / Ubuntu 24/25/26 · x86_64",
+      "iconBg": "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30",
+      "icon": "shield-check",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>BCK</strong> — це повноцінне корпоративне рішення для резервного копіювання, що розгортається як системний сервіс на Ubuntu.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Архітектура компонентів:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li><code class=\"text-cyan-400 font-mono\">bckd</code> — центральний фоновий демон координації</li>\n              <li><code class=\"text-cyan-400 font-mono\">bck-agent</code> — легкий агент для зняття бекапів</li>\n              <li><code class=\"text-cyan-400 font-mono\">bck</code> — консольна утиліта управління (CLI)</li>\n              <li><code class=\"text-cyan-400 font-mono\">bck-proxy</code> — захищений тунель передачі даних</li>\n              <li>Веб-консоль адміністрування з графіками статусів</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300\">\n            <strong>Безпека та оновлення:</strong> скрипт інсталяції перевіряє SHA-256 хеш архіву перед розгортанням. При повторному запуску скрипту конфігурації та збережені бекапи залишаються неушкодженими.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Скопіювати команду\n        </button>\n      "
+    },
+    "kubelens": {
+      "title": "KubeLens — Kubernetes Desktop IDE",
+      "category": "Windows x64 · Tauri 2 / Rust / React",
+      "iconBg": "bg-cyan-500/20 text-cyan-400 border border-cyan-500/30",
+      "icon": "compass",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>KubeLens</strong> створено як надшвидку альтернативу важким Electron-клієнтам для керування кластерами Kubernetes.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Основні можливості:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>Моніторинг Pods, Deployments, StatefulSets, DaemonSets у реальному часі</li>\n              <li>Миттєвий стрімінг логів контейнерів із фільтрацією</li>\n              <li>Керування Helm-релізами: інсталяція, відкат, перегляд values</li>\n              <li>Інтерактивна топологія зв'язків між сервісами та інґресами</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-300\">\n            <strong>Криптографічний захист:</strong> оновлення перевіряються через <code class=\"font-mono\">latest.json</code> за допомогою цифрового підпису <strong>minisign</strong>.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.34/KubeLens_0.3.34_x64-setup.exe\" data-latest=\"kubelens-v\" data-asset=\"setup\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Завантажити інсталятор (.exe)\n        </a>\n      "
+    },
+    "monitoring": {
+      "title": "PyMon NOC — Моніторинг інфраструктури",
+      "category": "Ubuntu 24/25/26 · amd64/arm64 · Go",
+      "iconBg": "bg-orange-500/20 text-orange-400 border border-orange-500/30",
+      "icon": "activity",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>PyMon NOC</strong> — це сервер збору метрик та моніторингу працездатності серверів у реальному часі.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Ключові особливості:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>Сумісність з <code class=\"text-cyan-400 font-mono\">node_exporter</code> на Linux та <code class=\"text-cyan-400 font-mono\">windows_exporter</code> на Windows</li>\n              <li>Автономний systemd-сервіс із мінімальним використанням оперативної пам'яті</li>\n              <li>Конфігураційний файл: <code class=\"font-mono text-cyan-400\">/etc/pymon/config.yml</code></li>\n              <li>Збереження бази даних та облікових записів користувачів при апгрейді</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-300\">\n            <strong>Встановлення конкретної версії:</strong><br>\n            <code class=\"font-mono text-[11px]\">PYMON_VERSION=&lt;версія&gt; curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash</code>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-orange-500 text-white font-semibold hover:bg-orange-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Скопіювати команду\n        </button>\n      "
+    },
+    "rdm": {
+      "title": "RDM Manager — Remote Connection Manager",
+      "category": "Windows x64 · Tauri 2 / Rust / SQLite",
+      "iconBg": "bg-indigo-500/20 text-indigo-400 border border-indigo-500/30",
+      "icon": "square-terminal",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>RDM Manager</strong> об'єднує всі ваші підключення (SSH, RDP, консолі) в одному зручному та надійному інтерфейсі.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Формати релізів:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li><code class=\"text-cyan-400 font-mono\">RDM.Manager_*_x64-setup.exe</code> — NSIS-інсталятор для Windows</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-300\">\n            <strong>Шифрування:</strong> паролі та ключі шифруються локально, база даних зберігається у вбудованій SQLite без зовнішніх хмарних залежностей.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.29/RDM.Manager_2.1.29_x64-setup.exe\" data-latest=\"rdm-v\" data-asset=\"setup\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Завантажити NSIS Setup\n        </a>\n      "
+    },
+    "mygit": {
+      "title": "MyGit — Легка Git-платформа",
+      "category": "Ubuntu 24/25/26 · amd64/arm64 · Go",
+      "iconBg": "bg-purple-500/20 text-purple-400 border border-purple-500/30",
+      "icon": "git-branch",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>MyGit</strong> — це приватний Git-сервер в одному бінарнику, що ідеально підходить для локальної інфраструктури або ізольованих контурів.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Швидкий старт:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>Після встановлення відкрийте: <code class=\"text-cyan-400 font-mono\">http://&lt;IP-адреса&gt;:9555/</code></li>\n              <li><strong>Перший зареєстрований користувач</strong> автоматично стає власником та головним адміністратором (superuser).</li>\n              <li>Дані та сховище репозиторіїв знаходяться за адресою <code class=\"text-cyan-400 font-mono\">/var/lib/mygit</code>.</li>\n            </ul>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-purple-600 text-white font-semibold hover:bg-purple-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Скопіювати команду\n        </button>\n      "
+    },
+    "uptime": {
+      "title": "Uptime Monitor — Моніторинг доступності та SSL",
+      "category": "Ubuntu/Debian 24/25/26 · Go",
+      "iconBg": "bg-teal-500/20 text-teal-400 border border-teal-500/30",
+      "icon": "clock",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Uptime Monitor</strong> відстежує стан ваших веб-сервісів, перевіряє латентність та завчасно попереджає про закінчення терміну дії SSL-сертифікатів.</p>\n          <div class=\"p-3 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-300\">\n            <strong>Автоматичний відкат:</strong> якщо при оновленні бінарник не зміг коректно запуститися, скрипт негайно повертає попередню робочу версію з бекапу (<code class=\"font-mono\">uptime-monitor.old</code>).\n          </div>\n          <p class=\"text-slate-400\">Конфігураційний файл: <code class=\"font-mono text-cyan-400\">/etc/uptime-monitor/config.json</code></p>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-teal-500 text-black font-semibold hover:bg-teal-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Скопіювати команду\n        </button>\n      "
+    },
+    "gym": {
+      "title": "Gym Tracker — Офлайн PWA",
+      "category": "Web · Svelte 5 / TypeScript / Vite",
+      "iconBg": "bg-rose-500/20 text-rose-400 border border-rose-500/30",
+      "icon": "dumbbell",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Gym Tracker</strong> — це прогресивний вебзастосунок, спроектований за принципом <em>offline-first</em>.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Як встановити на смартфон:</h5>\n            <ol class=\"list-decimal list-inside space-y-1 text-slate-300\">\n              <li>Відкрийте посилання <code class=\"text-cyan-400 font-mono\">https://ajjs1ajjs.github.io/dist/gym/</code> в Safari (iOS) або Chrome (Android).</li>\n              <li>Натисніть кнопку меню або «Поділитися».</li>\n              <li>Оберіть <strong>«На початковий екран» (Add to Home Screen)</strong>.</li>\n              <li>Застосунок працюватиме як рідна нативна програма навіть у режимі \"У літаку\".</li>\n            </ol>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"./gym/\" target=\"_blank\" class=\"px-3.5 py-2 rounded-xl bg-rose-600 text-white font-semibold hover:bg-rose-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"external-link\" class=\"w-3.5 h-3.5\"></i> Відкрити Gym Tracker\n        </a>\n      "
+    },
+    "sales": {
+      "title": "Game Sales Radar — Знижки та роздачі ігор",
+      "category": "Web / PWA + GitHub Actions + Telegram",
+      "iconBg": "bg-fuchsia-500/20 text-fuchsia-400 border border-fuchsia-500/30",
+      "icon": "gamepad-2",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Game Sales Radar</strong> моніторить каталог Steam у пошуках найкращих знижок, спеціальних пропозицій та лідерів продажу.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Як влаштований пайплайн:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>GitHub Actions запускає фетчер за розкладом щодня о 09:00 за Києвом (07:00 UTC)</li>\n              <li>Дані оновлюються у файлі <code class=\"text-cyan-400 font-mono\">sales/data/deals.json</code></li>\n              <li>Нові гарячі знижки автоматично надсилаються в канал Telegram: <a href=\"https://t.me/salesgamesua\" target=\"_blank\" class=\"text-cyan-400 underline\">@salesgamesua</a></li>\n            </ul>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"./sales/\" target=\"_blank\" class=\"px-3.5 py-2 rounded-xl bg-fuchsia-600 text-white font-semibold hover:bg-fuchsia-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"external-link\" class=\"w-3.5 h-3.5\"></i> Відкрити Game Sales\n        </a>\n      "
+    },
+    "calculator": {
+      "title": "Server Infrastructure Calculator — Комплексний сайзинг серверів",
+      "category": "Windows 10/11 · x64 · .NET Portable · Flagship",
+      "iconBg": "bg-violet-500/20 text-violet-400 border border-violet-500/30",
+      "icon": "server",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Server Infrastructure Calculator</strong> — флагманська інженерна система для системних архітекторів, інженерів та IT-директорів: детальний сайзинг серверної інфраструктури за регламентом D-AD-ADM-E.</p>\n          <ul class=\"list-disc list-inside text-slate-400 text-xs space-y-1\">\n            <li>3 моделі розгортання: Kubernetes, Windows Server, Гібрид</li>\n            <li>СУБД: MS SQL Server, PostgreSQL, Oracle 19c</li>\n            <li>Деталізація дисків (OS, Data, Logs, Content, Pagefile, IOPS, латентність)</li>\n            <li>Середовища: PROD, DEV, TEST, PreProd з власними ліцензіями</li>\n          </ul>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Перевірка хешу в PowerShell:</span>\n            <code class=\"text-cyan-300\">(Get-FileHash .\\\\ITE.ResourceCalculator.exe -Algorithm SHA256).Hash</code>\n          </div>\n          <p class=\"text-slate-400\">Програма портативна, не потребує встановлення і самостійно перевіряє оновлення з репозиторію.</p>\n          <div class=\"p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300\">\n            <strong>Оновлення зі старих версій (≤ 2.4.12):</strong> вони читали релізи зі старого кодового репозиторію, який тепер приватний, тож автоматичне оновлення в них більше не працює. Одноразово завантажте ITE.ResourceCalculator.exe версії v2.5.0+ вручну — далі оновлення знову відбуватимуться автоматично з цього репозиторію.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/calculator-v2.7.1/ITE.ResourceCalculator.exe\" data-latest=\"calculator-v\" data-asset=\"\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-violet-600 text-white font-semibold hover:bg-violet-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Завантажити ITE.ResourceCalculator.exe\n        </a>\n      "
+    },
+    "rescalc": {
+      "title": "Sales Proposal Calculator — Розрахунок серверних ресурсів для КП",
+      "category": "Windows 10/11 · x64 · Inno Setup Installer",
+      "iconBg": "bg-blue-500/20 text-blue-400 border border-blue-500/30",
+      "icon": "receipt",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Sales Proposal Calculator</strong> — спеціалізований інструмент для сейлз-менеджерів та комерційного відділу для швидкого розрахунку серверних ресурсів під час підготовки комерційних пропозицій (КП).</p>\n          <ul class=\"list-disc list-inside text-slate-400 text-xs space-y-1\">\n            <li>Швидкий підбір модулів та кількості ліцензій</li>\n            <li>Експорт КП у формати Excel (.xlsx) та PDF</li>\n            <li>Зручне встановлення через Inno Setup інсталятор</li>\n            <li>Автоматична перевірка та завантаження оновлень</li>\n          </ul>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Перевірка хешу в PowerShell:</span>\n            <code class=\"text-cyan-300\">(Get-FileHash .\\\\ResourceCalculator_Setup_*.exe -Algorithm SHA256).Hash</code>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/rescalc-v2.0.6/ResourceCalculator_Setup_v2.0.6.exe\" data-latest=\"rescalc-v\" data-asset=\"setup.*\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Завантажити інсталятор\n        </a>\n      "
+    },
+    "diskcleaner": {
+      "title": "DiskCleaner — Портативна чистка диска C:",
+      "category": "Windows 10/11 · x64 · Portable Single Exe",
+      "iconBg": "bg-blue-500/20 text-blue-400 border border-blue-500/30",
+      "icon": "sparkles",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>DiskCleaner</strong> звільняє гігабайти пам'яті на системному диску, видаляючи тимчасові файли, кеші компіляторів, дампи пам'яті та логи.</p>\n          <div class=\"p-3 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-300 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Перевірка цілісності:</span>\n            <code>certutil -hashfile DiskCleaner.exe SHA256</code>\n          </div>\n          <p class=\"text-slate-400\">Всі ризиковані системні папки (Windows.old, Prefetch) вимкнені за замовчуванням задля збереження стабільності ОС.</p>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/diskcleaner-v1.4.8/DiskCleaner.exe\" data-latest=\"diskcleaner-v\" data-asset=\"\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Завантажити DiskCleaner.exe\n        </a>\n      "
+    },
+    "netscope": {
+      "title": "NetScope Enterprise — Офлайн-інвентаризація мережі",
+      "category": "Windows 10/11 · x64 · Portable ZIP · Offline",
+      "iconBg": "bg-amber-500/20 text-amber-400 border border-amber-500/30",
+      "icon": "network",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>NetScope Enterprise</strong> інвентаризує локальну мережу без доступу до інтернету: опитування <code class=\"text-cyan-400 font-mono\">AD/LDAP</code>, IP-сканування та побудова топології.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Формати релізів:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li><code class=\"text-cyan-400 font-mono\">NetScope-*-portable.zip</code> — портативна версія без встановлення</li>\n              <li><code class=\"text-cyan-400 font-mono\">NetScope-*-update.zip</code> — пакет підписаного автооновлення (Ed25519)</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Перевірка цілісності:</span>\n            <code>certutil -hashfile NetScope-*.zip SHA256</code> — звірте з <code>SHA256SUMS.txt</code> у релізі.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.2/NetScope-v1.3.2-portable.zip\" data-latest=\"netscope-v\" data-asset=\"portable\\.zip$\" class=\"px-3.5 py-2 rounded-xl bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Завантажити Portable (.zip)\n        </a>\n      "
+    }
+  },
+  "en": {
+    "bck": {
+      "title": "BCK — Enterprise Backup & Disaster Recovery",
+      "category": "Linux / Ubuntu 24/25/26 · x86_64",
+      "iconBg": "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30",
+      "icon": "shield-check",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>BCK</strong> is a comprehensive enterprise backup solution deployed as a native system service on Ubuntu.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Component Architecture:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li><code class=\"text-cyan-400 font-mono\">bckd</code> — central coordination background daemon</li>\n              <li><code class=\"text-cyan-400 font-mono\">bck-agent</code> — lightweight backup execution agent</li>\n              <li><code class=\"text-cyan-400 font-mono\">bck</code> — management command-line interface (CLI)</li>\n              <li><code class=\"text-cyan-400 font-mono\">bck-proxy</code> — encrypted data transit tunnel</li>\n              <li>Web administration console with real-time status telemetry</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300\">\n            <strong>Security & Updates:</strong> the installer script validates the SHA-256 archive checksum prior to deployment. Re-running the script preserves configurations and existing backups intact.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Copy command\n        </button>\n      "
+    },
+    "kubelens": {
+      "title": "KubeLens — Kubernetes Desktop IDE",
+      "category": "Windows x64 · Tauri 2 / Rust / React",
+      "iconBg": "bg-cyan-500/20 text-cyan-400 border border-cyan-500/30",
+      "icon": "compass",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>KubeLens</strong> is engineered as a fast, resource-efficient alternative to bloated Electron clients for managing Kubernetes clusters.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Key Features:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>Real-time telemetry for Pods, Deployments, StatefulSets, and DaemonSets</li>\n              <li>Instant container log streaming with live filters</li>\n              <li>Helm release manager: install, rollback, and inspect values</li>\n              <li>Interactive visual cluster topology map for services and ingresses</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-300\">\n            <strong>Cryptographic Security:</strong> update integrity is verified via <code class=\"font-mono\">latest.json</code> using <strong>minisign</strong> digital signatures.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.34/KubeLens_0.3.34_x64-setup.exe\" data-latest=\"kubelens-v\" data-asset=\"setup\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-cyan-500 text-black font-semibold hover:bg-cyan-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Download installer (.exe)\n        </a>\n      "
+    },
+    "monitoring": {
+      "title": "PyMon NOC — Infrastructure Monitoring",
+      "category": "Ubuntu 24/25/26 · amd64/arm64 · Go",
+      "iconBg": "bg-orange-500/20 text-orange-400 border border-orange-500/30",
+      "icon": "activity",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>PyMon NOC</strong> is a high-speed metrics collector and real-time server health monitoring hub.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Key Highlights:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>Native support for <code class=\"text-cyan-400 font-mono\">node_exporter</code> (Linux) and <code class=\"text-cyan-400 font-mono\">windows_exporter</code> (Windows)</li>\n              <li>Standalone systemd service with minimal memory footprint</li>\n              <li>Configuration file: <code class=\"font-mono text-cyan-400\">/etc/pymon/config.yml</code></li>\n              <li>Database state and user credentials persist across upgrades</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-300\">\n            <strong>Pin a specific version:</strong><br>\n            <code class=\"font-mono text-[11px]\">PYMON_VERSION=&lt;version&gt; curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash</code>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-orange-500 text-white font-semibold hover:bg-orange-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Copy command\n        </button>\n      "
+    },
+    "rdm": {
+      "title": "RDM Manager — Remote Connection Manager",
+      "category": "Windows x64 · Tauri 2 / Rust / SQLite",
+      "iconBg": "bg-indigo-500/20 text-indigo-400 border border-indigo-500/30",
+      "icon": "square-terminal",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>RDM Manager</strong> consolidates all your server connections (SSH, RDP, tunnels, serial) into a single secure and modern interface.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Release Formats:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li><code class=\"text-cyan-400 font-mono\">RDM.Manager_*_x64-setup.exe</code> — NSIS installer for Windows</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-300\">\n            <strong>Security:</strong> credentials and private keys are encrypted locally; connection profiles are stored in an embedded SQLite database with zero external cloud dependencies.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.29/RDM.Manager_2.1.29_x64-setup.exe\" data-latest=\"rdm-v\" data-asset=\"setup\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-indigo-600 text-white font-semibold hover:bg-indigo-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Download NSIS Setup\n        </a>\n      "
+    },
+    "mygit": {
+      "title": "MyGit — Lightweight Git Platform",
+      "category": "Ubuntu 24/25/26 · amd64/arm64 · Go",
+      "iconBg": "bg-purple-500/20 text-purple-400 border border-purple-500/30",
+      "icon": "git-branch",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>MyGit</strong> is a private Git server in a single compiled binary, perfectly suited for local infrastructure or air-gapped network zones.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Quick Start:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>After installation, open: <code class=\"text-cyan-400 font-mono\">http://&lt;IP-address&gt;:9555/</code></li>\n              <li><strong>The first registered account</strong> automatically becomes the repository owner and superuser.</li>\n              <li>Repository data and databases are stored in <code class=\"text-cyan-400 font-mono\">/var/lib/mygit</code>.</li>\n            </ul>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-purple-600 text-white font-semibold hover:bg-purple-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Copy command\n        </button>\n      "
+    },
+    "uptime": {
+      "title": "Uptime Monitor — Availability & SSL Sentinel",
+      "category": "Ubuntu/Debian 24/25/26 · Go",
+      "iconBg": "bg-teal-500/20 text-teal-400 border border-teal-500/30",
+      "icon": "clock",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Uptime Monitor</strong> tracks the reachability of your web endpoints, measures response times, and sends early notifications before SSL certificates expire.</p>\n          <div class=\"p-3 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-300\">\n            <strong>Automatic Rollback:</strong> if the updated binary fails its launch verification, the script immediately rolls back to the previous working backup (<code class=\"font-mono\">uptime-monitor.old</code>).\n          </div>\n          <p class=\"text-slate-400\">Configuration file: <code class=\"font-mono text-cyan-400\">/etc/uptime-monitor/config.json</code></p>\n        </div>\n      ",
+      "actions": "\n        <button onclick=\"copyCommand('curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash', this)\" class=\"px-3.5 py-2 rounded-xl bg-teal-500 text-black font-semibold hover:bg-teal-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"copy\" class=\"w-3.5 h-3.5\"></i> Copy command\n        </button>\n      "
+    },
+    "gym": {
+      "title": "Gym Tracker — Offline PWA",
+      "category": "Web · Svelte 5 / TypeScript / Vite",
+      "iconBg": "bg-rose-500/20 text-rose-400 border border-rose-500/30",
+      "icon": "dumbbell",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Gym Tracker</strong> is a progressive web app designed from the ground up with an <em>offline-first</em> philosophy.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">How to install on your smartphone:</h5>\n            <ol class=\"list-decimal list-inside space-y-1 text-slate-300\">\n              <li>Open <code class=\"text-cyan-400 font-mono\">https://ajjs1ajjs.github.io/dist/gym/</code> in Safari (iOS) or Chrome (Android).</li>\n              <li>Tap the browser share or menu button.</li>\n              <li>Choose <strong>«Add to Home Screen»</strong>.</li>\n              <li>The application runs exactly like a native app even in Airplane Mode.</li>\n            </ol>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"./gym/\" target=\"_blank\" class=\"px-3.5 py-2 rounded-xl bg-rose-600 text-white font-semibold hover:bg-rose-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"external-link\" class=\"w-3.5 h-3.5\"></i> Open Gym Tracker\n        </a>\n      "
+    },
+    "sales": {
+      "title": "Game Sales Radar — Deals & Giveaways",
+      "category": "Web / PWA + GitHub Actions + Telegram",
+      "iconBg": "bg-fuchsia-500/20 text-fuchsia-400 border border-fuchsia-500/30",
+      "icon": "gamepad-2",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Game Sales Radar</strong> tracks the Steam catalog for the deepest discounts, promotions, and top-selling games.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Automation Pipeline:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li>GitHub Actions executes the scraper on schedule daily at 09:00 Kyiv (07:00 UTC)</li>\n              <li>Data is updated directly in <code class=\"text-cyan-400 font-mono\">sales/data/deals.json</code></li>\n              <li>Hot new deals are broadcast to the Telegram channel: <a href=\"https://t.me/salesgamesua\" target=\"_blank\" class=\"text-cyan-400 underline\">@salesgamesua</a></li>\n            </ul>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"./sales/\" target=\"_blank\" class=\"px-3.5 py-2 rounded-xl bg-fuchsia-600 text-white font-semibold hover:bg-fuchsia-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"external-link\" class=\"w-3.5 h-3.5\"></i> Open Game Sales\n        </a>\n      "
+    },
+    "calculator": {
+      "title": "Server Infrastructure Calculator — Infrastructure Sizing",
+      "category": "Windows 10/11 · x64 · .NET Portable · Flagship",
+      "iconBg": "bg-violet-500/20 text-violet-400 border border-violet-500/30",
+      "icon": "server",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Server Infrastructure Calculator</strong> is a flagship engineering system for system architects, infrastructure leads, and IT directors: comprehensive sizing following the D-AD-ADM-E standard.</p>\n          <ul class=\"list-disc list-inside text-slate-400 text-xs space-y-1\">\n            <li>3 deployment topologies: Kubernetes, Windows Server, and Hybrid</li>\n            <li>DBMS engines: MS SQL Server, PostgreSQL, Oracle 19c</li>\n            <li>Storage tier breakdown (OS, Data, Logs, Content, Pagefile, IOPS, latency)</li>\n            <li>Environment tiers: PROD, DEV, TEST, PreProd with independent licensing</li>\n          </ul>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Verify SHA-256 hash in PowerShell:</span>\n            <code class=\"text-cyan-300\">(Get-FileHash .\\\\ITE.ResourceCalculator.exe -Algorithm SHA256).Hash</code>\n          </div>\n          <p class=\"text-slate-400\">Portable application with zero installation footprint that automatically checks for repository updates.</p>\n          <div class=\"p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300\">\n            <strong>Upgrading from legacy versions (≤ 2.4.12):</strong> previous releases checked an earlier private repository. Please download ITE.ResourceCalculator.exe v2.5.0+ once manually — future updates will proceed automatically from this distribution channel.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/calculator-v2.7.1/ITE.ResourceCalculator.exe\" data-latest=\"calculator-v\" data-asset=\"\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-violet-600 text-white font-semibold hover:bg-violet-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Download ITE.ResourceCalculator.exe\n        </a>\n      "
+    },
+    "rescalc": {
+      "title": "Sales Proposal Calculator — Server Sizing for Proposals",
+      "category": "Windows 10/11 · x64 · Inno Setup Installer",
+      "iconBg": "bg-blue-500/20 text-blue-400 border border-blue-500/30",
+      "icon": "receipt",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>Sales Proposal Calculator</strong> is a specialized utility for pre-sales and commercial teams to swiftly calculate infrastructure requirements when drafting commercial proposals.</p>\n          <ul class=\"list-disc list-inside text-slate-400 text-xs space-y-1\">\n            <li>Rapid module selection and licensing quantification</li>\n            <li>Export proposal summaries to Excel (.xlsx) and PDF</li>\n            <li>Standard Inno Setup guided installation</li>\n            <li>Automated update detection and download</li>\n          </ul>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Verify SHA-256 hash in PowerShell:</span>\n            <code class=\"text-cyan-300\">(Get-FileHash .\\\\ResourceCalculator_Setup_*.exe -Algorithm SHA256).Hash</code>\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/rescalc-v2.0.6/ResourceCalculator_Setup_v2.0.6.exe\" data-latest=\"rescalc-v\" data-asset=\"setup.*\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Download installer\n        </a>\n      "
+    },
+    "diskcleaner": {
+      "title": "DiskCleaner — Portable Drive C: Cleaner",
+      "category": "Windows 10/11 · x64 · Portable Single Exe",
+      "iconBg": "bg-blue-500/20 text-blue-400 border border-blue-500/30",
+      "icon": "sparkles",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>DiskCleaner</strong> recovers gigabytes of drive space on system disks by safely removing build remnants, compiler caches, crash dumps, and stale logs.</p>\n          <div class=\"p-3 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-300 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Integrity verification:</span>\n            <code>certutil -hashfile DiskCleaner.exe SHA256</code>\n          </div>\n          <p class=\"text-slate-400\">High-risk system locations (Windows.old, Prefetch) are unchecked by default to protect OS stability.</p>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/diskcleaner-v1.4.8/DiskCleaner.exe\" data-latest=\"diskcleaner-v\" data-asset=\"\\.exe$\" class=\"px-3.5 py-2 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Download DiskCleaner.exe\n        </a>\n      "
+    },
+    "netscope": {
+      "title": "NetScope Enterprise — Offline Network Inventory",
+      "category": "Windows 10/11 · x64 · Portable ZIP · Offline",
+      "iconBg": "bg-amber-500/20 text-amber-400 border border-amber-500/30",
+      "icon": "network",
+      "html": "\n        <div class=\"space-y-3\">\n          <p><strong>NetScope Enterprise</strong> audits and inventories local networks without internet connectivity: queries <code class=\"text-cyan-400 font-mono\">AD/LDAP</code>, scans IP ranges, and generates topology graphs.</p>\n          <div class=\"p-3 rounded-xl bg-white/[0.03] border border-white/10\">\n            <h5 class=\"font-bold text-white mb-2\">Release Formats:</h5>\n            <ul class=\"list-disc list-inside space-y-1 text-slate-300\">\n              <li><code class=\"text-cyan-400 font-mono\">NetScope-*-portable.zip</code> — zero-installation portable archive</li>\n              <li><code class=\"text-cyan-400 font-mono\">NetScope-*-update.zip</code> — cryptographically signed auto-update package (Ed25519)</li>\n            </ul>\n          </div>\n          <div class=\"p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300 font-mono text-[11px]\">\n            <span class=\"text-slate-400 block mb-1\">Integrity verification:</span>\n            <code>certutil -hashfile NetScope-*.zip SHA256</code> — cross-reference with <code>SHA256SUMS.txt</code> in the release.\n          </div>\n        </div>\n      ",
+      "actions": "\n        <a href=\"https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.2/NetScope-v1.3.2-portable.zip\" data-latest=\"netscope-v\" data-asset=\"portable\\.zip$\" class=\"px-3.5 py-2 rounded-xl bg-amber-500 text-black font-semibold hover:bg-amber-400 transition-colors flex items-center gap-1.5\">\n          <i data-lucide=\"download\" class=\"w-3.5 h-3.5\"></i> Download Portable (.zip)\n        </a>\n      "
+    }
+  }
+};
+
+    // Terminal Playground Simulation lines (UK / EN)
+    const SIMULATIONS = {
+  "uk": {
+    "bck": [
+      "<div class=\"text-white\"><span class=\"text-emerald-400\">root@server:~#</span> curl -fsSL .../apps/bck/install.sh | sudo bash</div>",
+      "<div class=\"text-cyan-300\">==&gt; Завантаження BCK installer...</div>",
+      "<div class=\"text-slate-400\">==&gt; Перевірка SHA256: <span class=\"text-emerald-400 font-bold\">OK [fa9b8...31c]</span></div>",
+      "<div class=\"text-slate-400\">==&gt; Зупинка bck.service (якщо запущений)... збереження конфігів</div>",
+      "<div class=\"text-slate-400\">==&gt; Встановлення bckd, bck-agent, bck CLI, bck-proxy + вебконсоль...</div>",
+      "<div class=\"text-slate-400\">==&gt; systemd unit: /etc/systemd/system/bck.service → healthcheck PASS</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ BCK встановлено! Веб-консоль на :8080, бекапи збережено.</div>"
+    ],
+    "pymon": [
+      "<div class=\"text-white\"><span class=\"text-orange-400\">root@server:~#</span> curl -sSL .../apps/monitoring/install.sh | sudo bash</div>",
+      "<div class=\"text-orange-300\">==&gt; Архітектура: x86_64 · Ubuntu 24.04 · systemd</div>",
+      "<div class=\"text-slate-400\">==&gt; Конфіг /etc/pymon/config.yml <span class=\"text-emerald-400\">збережено без змін</span></div>",
+      "<div class=\"text-slate-400\">==&gt; Бекап бінарника: pymon.old · оновлення до latest...</div>",
+      "<div class=\"text-slate-400\">==&gt; Перезапуск pymon.service...</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ PyMon NOC оновлено! NOC-дашборд доступний.</div>"
+    ],
+    "mygit": [
+      "<div class=\"text-white\"><span class=\"text-purple-400\">root@server:~#</span> curl -sSL .../apps/mygit/install.sh | sudo bash</div>",
+      "<div class=\"text-purple-300\">==&gt; Встановлення MyGit — self-hosted Git в одному бінарнику...</div>",
+      "<div class=\"text-slate-400\">==&gt; Сховище /var/lib/mygit <span class=\"text-emerald-400\">збережено</span> · права git:git</div>",
+      "<div class=\"text-slate-400\">==&gt; Веб-інтерфейс на порту 9555...</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ MyGit готовий! Відкрийте http://&lt;IP&gt;:9555/ — перший юзер = superuser.</div>"
+    ],
+    "uptime": [
+      "<div class=\"text-white\"><span class=\"text-teal-400\">root@server:~#</span> curl -sSL .../apps/uptime-monitor/install.sh | sudo bash</div>",
+      "<div class=\"text-teal-300\">==&gt; Завантаження Uptime Monitor (latest)...</div>",
+      "<div class=\"text-slate-400\">==&gt; checksums.txt: <span class=\"text-emerald-400 font-bold\">VALID</span> · self-check PASS</div>",
+      "<div class=\"text-slate-400\">==&gt; Перезапуск uptime-monitor.service...</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ Uptime Monitor активний! HTTP/SSL/SLA-моніторинг запущено.</div>"
+    ]
+  },
+  "en": {
+    "bck": [
+      "<div class=\"text-white\"><span class=\"text-emerald-400\">root@server:~#</span> curl -fsSL .../apps/bck/install.sh | sudo bash</div>",
+      "<div class=\"text-cyan-300\">==&gt; Downloading BCK installer...</div>",
+      "<div class=\"text-slate-400\">==&gt; Verifying SHA256: <span class=\"text-emerald-400 font-bold\">OK [fa9b8...31c]</span></div>",
+      "<div class=\"text-slate-400\">==&gt; Stopping bck.service (if active)... preserving configs</div>",
+      "<div class=\"text-slate-400\">==&gt; Installing bckd, bck-agent, bck CLI, bck-proxy + web console...</div>",
+      "<div class=\"text-slate-400\">==&gt; systemd unit: /etc/systemd/system/bck.service → healthcheck PASS</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ BCK installed successfully! Web console on :8080, backups safe.</div>"
+    ],
+    "pymon": [
+      "<div class=\"text-white\"><span class=\"text-orange-400\">root@server:~#</span> curl -sSL .../apps/monitoring/install.sh | sudo bash</div>",
+      "<div class=\"text-orange-300\">==&gt; Architecture: x86_64 · Ubuntu 24.04 · systemd</div>",
+      "<div class=\"text-slate-400\">==&gt; Config /etc/pymon/config.yml <span class=\"text-emerald-400\">preserved without changes</span></div>",
+      "<div class=\"text-slate-400\">==&gt; Binary backup: pymon.old · upgrading to latest...</div>",
+      "<div class=\"text-slate-400\">==&gt; Restarting pymon.service...</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ PyMon NOC updated! Real-time NOC dashboard online.</div>"
+    ],
+    "mygit": [
+      "<div class=\"text-white\"><span class=\"text-purple-400\">root@server:~#</span> curl -sSL .../apps/mygit/install.sh | sudo bash</div>",
+      "<div class=\"text-purple-300\">==&gt; Installing MyGit — single-binary self-hosted Git platform...</div>",
+      "<div class=\"text-slate-400\">==&gt; Repository storage /var/lib/mygit <span class=\"text-emerald-400\">preserved</span> · permissions git:git</div>",
+      "<div class=\"text-slate-400\">==&gt; Web interface binding to port 9555...</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ MyGit ready! Navigate to http://&lt;IP&gt;:9555/ — first user is superuser.</div>"
+    ],
+    "uptime": [
+      "<div class=\"text-white\"><span class=\"text-teal-400\">root@server:~#</span> curl -sSL .../apps/uptime-monitor/install.sh | sudo bash</div>",
+      "<div class=\"text-teal-300\">==&gt; Downloading Uptime Monitor (latest)...</div>",
+      "<div class=\"text-slate-400\">==&gt; checksums.txt: <span class=\"text-emerald-400 font-bold\">VALID</span> · self-check PASS</div>",
+      "<div class=\"text-slate-400\">==&gt; Restarting uptime-monitor.service...</div>",
+      "<div class=\"text-emerald-400 font-bold\">✓ Uptime Monitor active! HTTP/SSL/SLA monitoring running.</div>"
+    ]
+  }
+};
+
+    let currentLang = 'uk';
+    let currentModalProductId = null;
+
+    function getInitialLang() {
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const langParam = urlParams.get('lang');
+        if (langParam === 'en' || langParam === 'uk') return langParam;
+        const stored = localStorage.getItem('dist_lang');
+        if (stored === 'en' || stored === 'uk') return stored;
+      } catch (e) {}
+      return 'uk';
+    }
+
+    function setLanguage(lang) {
+      if (lang !== 'uk' && lang !== 'en') lang = 'uk';
+      currentLang = lang;
+      try {
+        localStorage.setItem('dist_lang', lang);
+        const url = new URL(window.location.href);
+        if (url.searchParams.get('lang') !== lang) {
+          url.searchParams.set('lang', lang);
+          window.history.replaceState({}, '', url.toString());
+        }
+      } catch (e) {}
+
+      document.documentElement.lang = lang;
+      const dict = TRANSLATIONS[lang] || TRANSLATIONS.uk;
+
+      // Update document title and meta
+      if (dict.page_title) document.title = dict.page_title;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc && dict.meta_desc) metaDesc.setAttribute('content', dict.meta_desc);
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle && dict.og_title) ogTitle.setAttribute('content', dict.og_title);
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogDesc && dict.og_desc) ogDesc.setAttribute('content', dict.og_desc);
+
+      // Update text nodes [data-i18n]
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) {
+          el.textContent = dict[key];
+        }
+      });
+
+      // Update HTML nodes [data-i18n-html]
+      document.querySelectorAll('[data-i18n-html]').forEach(el => {
+        const key = el.getAttribute('data-i18n-html');
+        if (dict[key] !== undefined) {
+          el.innerHTML = dict[key];
+        }
+      });
+
+      // Update placeholders [data-i18n-placeholder]
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (dict[key] !== undefined) {
+          el.placeholder = dict[key];
+        }
+      });
+
+      // Update language toggle buttons active classes
+      const activeBtnClass = 'bg-cyan-400 text-black font-bold shadow-sm shadow-cyan-400/30';
+      const inactiveBtnClass = 'text-slate-400 hover:text-white';
+
+      const updateBtn = (btn, active) => {
+        if (!btn) return;
+        if (active) {
+          btn.className = 'px-2.5 py-1 rounded-lg transition-all ' + activeBtnClass;
+          btn.setAttribute('aria-pressed', 'true');
+        } else {
+          btn.className = 'px-2.5 py-1 rounded-lg transition-all ' + inactiveBtnClass;
+          btn.setAttribute('aria-pressed', 'false');
+        }
+      };
+
+      updateBtn(document.getElementById('langBtnUk'), lang === 'uk');
+      updateBtn(document.getElementById('langBtnEn'), lang === 'en');
+      updateBtn(document.getElementById('mobileLangBtnUk'), lang === 'uk');
+      updateBtn(document.getElementById('mobileLangBtnEn'), lang === 'en');
+
+      // Update result count & filters
+      applyFilters();
+
+      // If quick modal is open, re-render it in new language
+      if (currentModalProductId && !document.getElementById('quickModal').classList.contains('hidden')) {
+        openModal(currentModalProductId);
       }
-    };
+
+      // If terminal is at default state, update welcome prompt
+      const termOut = document.getElementById('terminalOutput');
+      if (termOut && termOut.textContent.includes('dist')) {
+        clearTerminal();
+      }
+
+      if (window.lucide) lucide.createIcons();
+    }
 
     const filterState = { cat: 'all', q: '' };
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1987,7 +2367,11 @@
       });
       toggleNoResults(visibleCount);
       const rc = document.getElementById('resultCount');
-      if (rc) rc.textContent = `Показано ${visibleCount} з ${cards.length}`;
+      if (rc) {
+        rc.textContent = currentLang === 'en'
+          ? `Showing ${visibleCount} of ${cards.length}`
+          : `Показано ${visibleCount} з ${cards.length}`;
+      }
       const clearBtn = document.getElementById('clearSearch');
       if (clearBtn) {
         const hasQ = !!filterState.q;
@@ -2027,6 +2411,7 @@
 
     // Clipboard Copy with Animated Toast (+ fallback)
     async function copyCommand(text, btnElement) {
+      const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.uk;
       try {
         if (navigator.clipboard && window.isSecureContext !== false) {
           await navigator.clipboard.writeText(text);
@@ -2040,13 +2425,14 @@
           document.execCommand('copy');
           ta.remove();
         }
-        showToast('Команду скопійовано в буфер обміну');
+        showToast(dict.toast_copied || 'Команду скопійовано в буфер обміну');
       } catch (e) {
-        showToast('Не вдалось скопіювати — виділіть вручну');
+        showToast(dict.toast_copy_error || 'Не вдалось скопіювати — виділіть вручну');
       }
       if (btnElement) {
         const original = btnElement.innerHTML;
-        btnElement.innerHTML = '<span class="text-emerald-300 font-bold">✓ Скопійовано</span>';
+        const copiedLabel = dict.btn_copied || '✓ Скопійовано';
+        btnElement.innerHTML = `<span class="text-emerald-300 font-bold">${copiedLabel}</span>`;
         setTimeout(() => {
           btnElement.innerHTML = original;
           if (window.lucide) lucide.createIcons();
@@ -2071,9 +2457,12 @@
 
     // Modal Details Management
     function openModal(productId) {
-      const data = productDocs[productId];
+      currentModalProductId = productId;
+      const langDocs = productDocs[currentLang] || productDocs.uk;
+      const data = langDocs[productId];
       if (!data) return;
 
+      const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.uk;
       document.getElementById('modalTitle').innerText = data.title;
       document.getElementById('modalCategory').innerText = data.category;
       
@@ -2082,16 +2471,50 @@
       iconEl.innerHTML = `<i data-lucide="${data.icon}" class="w-5 h-5"></i>`;
 
       document.getElementById('modalBody').innerHTML = data.html;
+      const closeLabel = dict.modal_close_btn || 'Закрити';
       document.getElementById('modalFooter').innerHTML = `
-        <button onclick="closeModal()" class="px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold transition-colors">Закрити</button>
+        <button onclick="closeModal()" class="px-3.5 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 text-xs font-semibold transition-colors">${closeLabel}</button>
         ${data.actions}`;
 
       const m = document.getElementById('quickModal');
       m.classList.remove('hidden');
       m.classList.add('flex');
       document.body.style.overflow = 'hidden';
-      lucide.createIcons();
+      if (window.lucide) lucide.createIcons();
       refreshModalLinks();
+    }
+
+    function closeModal() {
+      currentModalProductId = null;
+      const m = document.getElementById('quickModal');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+      if (document.getElementById('previewModal').classList.contains('hidden')) document.body.style.overflow = '';
+    }
+
+    // Live PWA Preview Modal
+    function openPreview(url, title) {
+      document.getElementById('previewTitle').innerText = title;
+      document.getElementById('previewUrlBadge').innerText = url;
+      document.getElementById('previewExternalLink').href = url;
+      document.getElementById('previewIframe').src = url;
+      const m = document.getElementById('previewModal');
+      m.classList.remove('hidden');
+      m.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePreview() {
+      document.getElementById('previewIframe').src = '';
+      const m = document.getElementById('previewModal');
+      m.classList.add('hidden');
+      m.classList.remove('flex');
+      if (document.getElementById('quickModal').classList.contains('hidden')) document.body.style.overflow = '';
+    }
+
+    function reloadPreview() {
+      const iframe = document.getElementById('previewIframe');
+      iframe.src = iframe.src;
     }
 
     // --- UI init: reveal, spotlight, progress, counters, menu ---
@@ -2185,44 +2608,6 @@
       if (y) y.textContent = String(new Date().getFullYear());
     }
 
-    initReveal();
-    initSpotlight();
-    initCounters();
-    initChrome();
-    applyFilters();
-
-    function closeModal() {
-      const m = document.getElementById('quickModal');
-      m.classList.add('hidden');
-      m.classList.remove('flex');
-      if (document.getElementById('previewModal').classList.contains('hidden')) document.body.style.overflow = '';
-    }
-
-    // Live PWA Preview Modal
-    function openPreview(url, title) {
-      document.getElementById('previewTitle').innerText = title;
-      document.getElementById('previewUrlBadge').innerText = url;
-      document.getElementById('previewExternalLink').href = url;
-      document.getElementById('previewIframe').src = url;
-      const m = document.getElementById('previewModal');
-      m.classList.remove('hidden');
-      m.classList.add('flex');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closePreview() {
-      document.getElementById('previewIframe').src = '';
-      const m = document.getElementById('previewModal');
-      m.classList.add('hidden');
-      m.classList.remove('flex');
-      if (document.getElementById('quickModal').classList.contains('hidden')) document.body.style.overflow = '';
-    }
-
-    function reloadPreview() {
-      const iframe = document.getElementById('previewIframe');
-      iframe.src = iframe.src;
-    }
-
     // Keyboard shortcuts: ESC to close modals, / to focus search
     window.addEventListener('keydown', (e) => {
       const tag = (document.activeElement && document.activeElement.tagName) || '';
@@ -2253,52 +2638,21 @@
     let termTimer = null;
     function clearTerminal() {
       clearTimeout(termTimer);
+      const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.uk;
       const out = document.getElementById('terminalOutput');
+      const msg = dict.term_intro_1 ? dict.term_intro_1 : '# Консоль очищено. Оберіть команду для симуляції.';
       out.innerHTML = `
-        <div class="text-slate-500"># Консоль очищено. Оберіть команду для симуляції.</div>
+        <div class="text-slate-500">${msg}</div>
         <div class="text-cyan-400 flex items-center gap-2 pt-2">
           <span>root@server:~#</span> <span class="animate-pulse">_</span>
         </div>
       `;
     }
 
-    const SIMULATIONS = {
-      bck: [
-        '<div class="text-white"><span class="text-emerald-400">root@server:~#</span> curl -fsSL .../apps/bck/install.sh | sudo bash</div>',
-        '<div class="text-cyan-300">==&gt; Завантаження BCK installer...</div>',
-        '<div class="text-slate-400">==&gt; Перевірка SHA256: <span class="text-emerald-400 font-bold">OK [fa9b8...31c]</span></div>',
-        '<div class="text-slate-400">==&gt; Зупинка bck.service (якщо запущений)... збереження конфігів</div>',
-        '<div class="text-slate-400">==&gt; Встановлення bckd, bck-agent, bck CLI, bck-proxy + вебконсоль...</div>',
-        '<div class="text-slate-400">==&gt; systemd unit: /etc/systemd/system/bck.service → healthcheck PASS</div>',
-        '<div class="text-emerald-400 font-bold">✓ BCK встановлено! Веб-консоль на :8080, бекапи збережено.</div>'
-      ],
-      pymon: [
-        '<div class="text-white"><span class="text-orange-400">root@server:~#</span> curl -sSL .../apps/monitoring/install.sh | sudo bash</div>',
-        '<div class="text-orange-300">==&gt; Архітектура: x86_64 · Ubuntu 24.04 · systemd</div>',
-        '<div class="text-slate-400">==&gt; Конфіг /etc/pymon/config.yml <span class="text-emerald-400">збережено без змін</span></div>',
-        '<div class="text-slate-400">==&gt; Бекап бінарника: pymon.old · оновлення до latest...</div>',
-        '<div class="text-slate-400">==&gt; Перезапуск pymon.service...</div>',
-        '<div class="text-emerald-400 font-bold">✓ PyMon NOC оновлено! NOC-дашборд доступний.</div>'
-      ],
-      mygit: [
-        '<div class="text-white"><span class="text-purple-400">root@server:~#</span> curl -sSL .../apps/mygit/install.sh | sudo bash</div>',
-        '<div class="text-purple-300">==&gt; Встановлення MyGit — self-hosted Git в одному бінарнику...</div>',
-        '<div class="text-slate-400">==&gt; Сховище /var/lib/mygit <span class="text-emerald-400">збережено</span> · права git:git</div>',
-        '<div class="text-slate-400">==&gt; Веб-інтерфейс на порту 9555...</div>',
-        '<div class="text-emerald-400 font-bold">✓ MyGit готовий! Відкрийте http://&lt;IP&gt;:9555/ — перший юзер = superuser.</div>'
-      ],
-      uptime: [
-        '<div class="text-white"><span class="text-teal-400">root@server:~#</span> curl -sSL .../apps/uptime-monitor/install.sh | sudo bash</div>',
-        '<div class="text-teal-300">==&gt; Завантаження Uptime Monitor (latest)...</div>',
-        '<div class="text-slate-400">==&gt; checksums.txt: <span class="text-emerald-400 font-bold">VALID</span> · self-check PASS</div>',
-        '<div class="text-slate-400">==&gt; Перезапуск uptime-monitor.service...</div>',
-        '<div class="text-emerald-400 font-bold">✓ Uptime Monitor активний! HTTP/SSL/SLA-моніторинг запущено.</div>'
-      ]
-    };
-
     function runSimulation(type) {
       const out = document.getElementById('terminalOutput');
-      const lines = SIMULATIONS[type];
+      const langSims = SIMULATIONS[currentLang] || SIMULATIONS.uk;
+      const lines = langSims[type];
       if (!out || !lines) return;
       clearTimeout(termTimer);
       if (reduceMotion) {
@@ -2322,11 +2676,7 @@
       step();
     }
 
-    // --- Динамічні посилання на останні релізи (фолбек — статичні URL у HTML вище) ---
-    // Портал статичний (GitHub Pages), тож прямі кнопки завантаження раніше «застигали»
-    // на версії, вписаній у HTML. Тепер один запит до GitHub API резолвить найновіший
-    // реліз кожного продукту й оновлює бейджі та лінки; якщо запит не вдався
-    // (offline / rate limit) — лишаються статичні посилання, вони завжди робочі.
+    // --- Dynamic release links resolver (1:1 with sync-hub) ---
     const LATEST_ASSET_PATTERNS = {
       'kubelens-v': /setup\.exe$/i,
       'rdm-v': /setup\.exe$/i,
@@ -2352,8 +2702,6 @@
       });
     }
 
-    // Порівняння semver: API не гарантує порядок релізів за датою,
-    // тому latest — це максимальна версія, а не перший збіг у списку.
     function cmpVer(a, b) {
       const pa = String(a).split('.').map(x => parseInt(x, 10) || 0);
       const pb = String(b).split('.').map(x => parseInt(x, 10) || 0);
@@ -2364,9 +2712,6 @@
       return 0;
     }
 
-    // Оновлює бейджі версій і посилання в межах scope.
-    // Викликається і при завантаженні (document), і при відкритті модалки (modalFooter),
-    // бо контент модалки інжектиться в DOM вже після першого проходу резолвера.
     function applyLatestTo(scope, releases) {
       const targets = Array.from(scope.querySelectorAll('[data-latest]'));
       if (!targets.length) return;
@@ -2403,7 +2748,16 @@
       });
     }
 
+    // Initialize all components & language
+    initReveal();
+    initSpotlight();
+    initCounters();
+    initChrome();
     resolveLatestReleases();
+
+    // Set initial language from URL or localStorage
+    const initialLang = getInitialLang();
+    setLanguage(initialLang);
   </script>
 </body>
 </html>
