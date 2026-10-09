@@ -16,6 +16,8 @@ const SITE_INDEX = join(process.env.SITE_DIR || join(ROOT, '..', 'SITE'), 'publi
 const REPO = process.env.DIST_REPO || 'ajjs1ajjs/dist';
 
 // Патерни асета для A-посилань — 1:1 з LATEST_ASSET_PATTERNS в index.html.
+// Усі 12 префіксів (як у SITE sync-versions.mjs): спершу тут було лише 6, тож
+// fallback-версії bck/uptime/monitoring/mygit/gym/sales у HTML не оновлювались.
 const CONFIG = {
   'kubelens-v': { pattern: /setup\.exe$/i },
   'rdm-v': { pattern: /setup\.exe$/i },
@@ -23,6 +25,12 @@ const CONFIG = {
   'calculator-v': { pattern: /\.exe$/i },
   'rescalc-v': { pattern: /setup.*\.exe$/i },
   'diskcleaner-v': { pattern: /\.exe$/i },
+  'bck-v': { pattern: /linux.*\.tar\.gz$/i },
+  'uptime-v': { pattern: null },
+  'monitoring-v': { pattern: null },
+  'mygit-v': { pattern: null },
+  'gym-v': { pattern: null },
+  'sales-v': { pattern: null },
 };
 
 async function fetchReleases() {
@@ -76,7 +84,8 @@ async function main() {
     const before = html;
     html = html.replace(verRe, `$1${ver}<`);
     if (html !== before) changes.push(`${prefix} ver -> ${ver}`);
-    const asset = rel.assets?.find(a => CONFIG[prefix].pattern.test(a.name));
+    const pattern = CONFIG[prefix].pattern;
+    const asset = pattern ? rel.assets?.find(a => pattern.test(a.name)) : null;
     if (asset?.browser_download_url) {
       const url = asset.browser_download_url;
       const hrefRe1 = new RegExp(`(data-latest-href="${escRe(prefix)}"[^>]*?href=")[^"]*(")`, 'g');

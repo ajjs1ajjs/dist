@@ -23,6 +23,8 @@
 <a href="#rdm"><img src="https://img.shields.io/badge/RDM_Manager-Windows-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="RDM Manager"></a>
 <a href="#sales"><img src="https://img.shields.io/badge/Game_Sales-PWA-C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
+<a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
 
 <sub><b>13 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
