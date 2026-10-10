@@ -17,7 +17,6 @@
 
 <a href="#bck"><img src="https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white" alt="BCK"></a>
 <a href="#calculator"><img src="https://img.shields.io/badge/Server_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
-<a href="#rescalc"><img src="https://img.shields.io/badge/Sales_Calculator-Windows-2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Sales Proposal Calculator"></a>
 <a href="#diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
 <a href="#gym"><img src="https://img.shields.io/badge/Gym_Tracker-PWA-FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="Gym Tracker"></a>
 <a href="#kubelens"><img src="https://img.shields.io/badge/KubeLens-Windows-24C8DB?style=for-the-badge&logo=kubernetes&logoColor=white" alt="KubeLens"></a>
@@ -29,7 +28,7 @@
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
 <a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
 
-<sub><b>13 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
@@ -65,17 +64,6 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 </td>
 </tr>
 <tr>
-<td align="center" width="50%">
-<br>
-<a href="#rescalc"><img src="https://img.shields.io/badge/Sales_Proposal_Calculator--2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Sales Proposal Calculator"></a>
-<br>
-<sub>Windows 10 / 11 · x64 · Installer</sub>
-<br><br>
-Швидкий розрахунок серверних ресурсів для КП сейлз-менеджерами
-<br><br>
-<a href="#rescalc">⬇️ <b>Завантажити</b></a>
-<br><br>
-</td>
 <td align="center" width="50%">
 <br>
 <a href="#diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner--0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
@@ -259,27 +247,8 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 
 ---
 
-<a id="rescalc"></a>
-
-### 💼 Sales Proposal Calculator
-
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=rescalc"><img src="https://img.shields.io/badge/Sales_Proposal_Calculator--2563EB?style=for-the-badge&logo=windows&logoColor=white" alt="Sales Proposal Calculator"></a>
-
-**Windows 10 / 11 · x64** — швидкий розрахунок серверних ресурсів для комерційних пропозицій (КП), **Inno Setup інсталятор**.
-
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=rescalc">
-  <img src="https://img.shields.io/badge/Download-latest-2563EB?style=for-the-badge" alt="Завантажити останню версію">
-</a>
-
-- Підбір ліцензій модулів для сейлз-менеджерів, формування розрахунку та експорт КП у Excel/PDF.
-- Завантажте `ResourceCalculator_Setup_v*.exe` і встановіть у пару кліків.
-- Застосунок **оновлюється сам** при старті (теги `rescalc-v*`).
-
-[📖 Деталі та перевірка](apps/rescalc/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Sales Calculator](https://github.com/ajjs1ajjs/dist/releases?q=rescalc)
-
----
-
 <a id="diskcleaner"></a>
+
 
 ### 🧹 DiskCleaner
 
@@ -437,5 +406,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 13 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 12 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)

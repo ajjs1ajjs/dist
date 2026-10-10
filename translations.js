@@ -4,8 +4,8 @@ window.SITE_I18N = {
   uk: {
     /* --- meta --- */
     'meta.site.title': 'Ярослав — SRE / DevOps / Software Developer',
-    'meta.site.desc': 'SRE, DevOps і системний софт: backup, моніторинг, self-hosted сервіси, десктоп на Rust/Tauri. Каталог з 13 продуктів DIST, кейси, послуги.',
-    'meta.hub.title': 'DIST — канал релізів: 13 продуктів та PWA',
+    'meta.site.desc': 'SRE, DevOps і системний софт: backup, моніторинг, self-hosted сервіси, десктоп на Rust/Tauri. Каталог з 12 продуктів DIST, кейси, послуги.',
+    'meta.hub.title': 'DIST — канал релізів: 12 продуктів та PWA',
     'meta.hub.desc': 'Публічний хаб інсталяторів і PWA: BCK, KubeLens, PyMon, RDM, MyGit, Uptime Monitor, NetScope та інші. SHA-256, Minisign, zero-telemetry.',
     'skip': 'Перейти до контенту',
     'modal.close': 'Закрити',
@@ -27,21 +27,21 @@ window.SITE_I18N = {
     'nav.m.home': 'Головна',
 
     /* --- hero (site) --- */
-    'hero.badge': 'DIST ecosystem · 13 продуктів · zero-telemetry',
+    'hero.badge': 'DIST ecosystem · 12 продуктів · zero-telemetry',
     'hero.h1a': 'Інфраструктура, яка',
     'hero.h1b': 'не ламається',
-    'hero.sub': 'Я — Ярослав, SRE / DevOps / Software Developer. Проєктую й супроводжую backup, моніторинг, self-hosted сервіси та десктоп-застосунки. DIST — власна екосистема з 13 продуктів для Linux, Windows і Web.',
+    'hero.sub': 'Я — Ярослав, SRE / DevOps / Software Developer. Проєктую й супроводжую backup, моніторинг, self-hosted сервіси та десктоп-застосунки. DIST — власна екосистема з 12 продуктів для Linux, Windows і Web.',
     'hero.cta1': 'Дивитись продукти ↓',
     'hero.cta2': 'Обговорити задачу',
     'hero.note': 'Спробувати легко: 3 дні безкоштовного тріалу, без картки.',
-    'hero.stat1b': '13', 'hero.stat1': 'продуктів у каталозі',
+    'hero.stat1b': '12', 'hero.stat1': 'продуктів у каталозі',
     'hero.stat2b': '3', 'hero.stat2': 'платформи: Linux / Win / Web',
     'hero.stat3b': '100%', 'hero.stat3': 'SHA-256 та Minisign',
     'hero.stat4b': '0%', 'hero.stat4': 'телеметрії й трекерів',
 
     /* --- hero (hub) --- */
     'hub.badge': 'DIST HUB · публічний канал релізів',
-    'hub.h1a': '13 продуктів.',
+    'hub.h1a': '12 продуктів.',
     'hub.h1b': 'Один канал оновлень.',
     'hub.sub': 'Інсталятори, SHA-256 хеші, підписані автооновлення та офлайн-PWA. Той самий каталог, що на andreichuk.dev — тут зібрані всі релізи й завантаження.',
     'hub.cta1': 'До каталогу ↓',
@@ -49,12 +49,12 @@ window.SITE_I18N = {
     'hub.note': '3 дні тріалу без картки · SHA-256 для бінарників · Minisign / Ed25519 для десктопу',
 
     /* --- products --- */
-    'prod.eyebrow': '01 / Каталог · 13 продуктів',
+    'prod.eyebrow': '01 / Каталог · 12 продуктів',
     'prod.title': 'Продукти DIST',
     'prod.sub': 'Кожен продукт — з реальним скріном інтерфейсу, ціною та актуальним релізом. Фільтруйте за платформою або шукайте за назвою.',
-    'prod.filterAll': 'Всі · 13',
+    'prod.filterAll': 'Всі · 12',
     'prod.filterLinux': '🐧 Linux · 4',
-    'prod.filterWindows': '🪟 Windows · 6',
+    'prod.filterWindows': '🪟 Windows · 5',
     'prod.filterWeb': '🌐 Web & PWA · 3',
     'prod.filterMonitoring': '📡 Моніторинг · 4',
     'prod.searchPh': 'Пошук: backup, k8s, PWA…',
@@ -72,7 +72,7 @@ window.SITE_I18N = {
     'prod.trial': '3 дні безкоштовно',
     'banner.tag': '🎁 3 дні тріалу без картки',
     'banner.title': 'Комерційне ліцензування',
-    'banner.text': 'Кожен платний продукт можна спробувати 3 дні безкоштовно, а ключ активується автоматично після оплати. Повний пакет <b>All-Access Bundle (всі 13 продуктів) — 15 000 ₴/міс або 180 000 ₴/рік</b>.',
+    'banner.text': 'Кожен платний продукт можна спробувати 3 дні безкоштовно, а ключ активується автоматично після оплати. Повний пакет <b>All-Access Bundle (всі продукти) — 10 200 ₴/міс або 97 900 ₴/рік</b>.',
     'banner.pay': 'Оплата Monobank ↗',
 
     /* --- buy modal --- */
@@ -88,7 +88,7 @@ window.SITE_I18N = {
     'buy.step3.d': 'Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.',
     'buy.pay': 'Оплатити в Monobank ↗',
     'buy.email': 'Написати на email',
-    'buy.note': 'All-Access Bundle (всі продукти): 15 000 ₴/міс · 180 000 ₴/рік. Для команд — безкоштовні корпоративні ліцензії, напишіть.',
+    'buy.note': 'All-Access Bundle (всі продукти): 10 200 ₴/міс · 97 900 ₴/рік. Для команд — безкоштовні корпоративні ліцензії, напишіть.',
 
     /* --- about --- */
     'about.eyebrow': '02 / Про мене',
@@ -183,7 +183,7 @@ window.SITE_I18N = {
     'hub.sec.4.desc': 'PWA працюють офлайн через Service Workers. Дані — лише локально, без сторонніх серверів.',
     'hub.mat.eyebrow': '03 / Сумісність',
     'hub.mat.title': 'Зведена таблиця продуктів',
-    'hub.mat.sub': '13 продуктів · гортайте → на мобільному',
+    'hub.mat.sub': '12 продуктів · гортайте → на мобільному',
     'hub.mat.th.product': 'Продукт',
     'hub.mat.th.platform': 'Платформа',
     'hub.mat.th.delivery': 'Поставка',
@@ -204,7 +204,6 @@ window.SITE_I18N = {
     'hub.mat.update.sales': 'Cron · GitHub Actions',
     'hub.mat.update.games': 'itch.io · миттєво',
     'hub.mat.update.calc': 'In-App · авто',
-    'hub.mat.update.rescalc': 'In-App · авто',
     'hub.mat.update.diskcleaner': 'Auto · SHA-256',
     'hub.mat.update.netscope': 'In-App · Ed25519',
 
@@ -240,8 +239,6 @@ window.SITE_I18N = {
     'p.games.desc': 'GravityShift, Drift, Terraformers, Echoes, Verdant. Грається прямо в браузері, без встановлення.',
     'p.calc.sub': 'Інженерний сайзинг інфраструктури',
     'p.calc.desc': 'Флагманський розрахунок для кластерів, Kubernetes, СУБД та дисків (D-AD-ADM-E). Портативний .exe з автооновленням.',
-    'p.rescalc.sub': 'Розрахунок ресурсів для КП',
-    'p.rescalc.desc': 'Швидкий підрахунок серверних ресурсів за модулями для комерційних пропозицій. Експорт у Excel/PDF.',
     'p.diskcleaner.sub': 'Чистка диска без встановлення',
     'p.diskcleaner.desc': 'Залишки збірок, temp, кеші — з безпечними налаштуваннями за замовчуванням. Один portable .exe.',
     'p.netscope.sub': 'Офлайн-інвентаризація мережі',
@@ -251,8 +248,8 @@ window.SITE_I18N = {
   en: {
     /* --- meta --- */
     'meta.site.title': 'Yaroslav — SRE / DevOps / Software Developer',
-    'meta.site.desc': 'SRE, DevOps and systems software: backup, monitoring, self-hosted services, Rust/Tauri desktop. DIST catalog of 13 products, cases, services.',
-    'meta.hub.title': 'DIST — release channel: 13 products and PWAs',
+    'meta.site.desc': 'SRE, DevOps and systems software: backup, monitoring, self-hosted services, Rust/Tauri desktop. DIST catalog of 12 products, cases, services.',
+    'meta.hub.title': 'DIST — release channel: 12 products and PWAs',
     'meta.hub.desc': 'Public hub of installers and PWAs: BCK, KubeLens, PyMon, RDM, MyGit, Uptime Monitor, NetScope and more. SHA-256, Minisign, zero-telemetry.',
     'skip': 'Skip to content',
     'modal.close': 'Close',
@@ -274,21 +271,21 @@ window.SITE_I18N = {
     'nav.m.home': 'Home',
 
     /* --- hero (site) --- */
-    'hero.badge': 'DIST ecosystem · 13 products · zero-telemetry',
+    'hero.badge': 'DIST ecosystem · 12 products · zero-telemetry',
     'hero.h1a': 'Infrastructure that',
     'hero.h1b': 'never breaks',
-    'hero.sub': 'I am Yaroslav, SRE / DevOps / Software Developer. I design and operate backups, monitoring, self-hosted services and desktop apps. DIST is my own ecosystem of 13 products for Linux, Windows and the Web.',
+    'hero.sub': 'I am Yaroslav, SRE / DevOps / Software Developer. I design and operate backups, monitoring, self-hosted services and desktop apps. DIST is my own ecosystem of 12 products for Linux, Windows and the Web.',
     'hero.cta1': 'Browse products ↓',
     'hero.cta2': 'Discuss a project',
     'hero.note': 'Easy to try: 3-day free trial, no card required.',
-    'hero.stat1b': '13', 'hero.stat1': 'products in the catalog',
+    'hero.stat1b': '12', 'hero.stat1': 'products in the catalog',
     'hero.stat2b': '3', 'hero.stat2': 'platforms: Linux / Win / Web',
     'hero.stat3b': '100%', 'hero.stat3': 'SHA-256 & Minisign',
     'hero.stat4b': '0%', 'hero.stat4': 'telemetry & trackers',
 
     /* --- hero (hub) --- */
     'hub.badge': 'DIST HUB · public release channel',
-    'hub.h1a': '13 products.',
+    'hub.h1a': '12 products.',
     'hub.h1b': 'One update channel.',
     'hub.sub': 'Installers, SHA-256 checksums, signed auto-updates and offline PWAs. The same catalog as on andreichuk.dev — with every release and download in one place.',
     'hub.cta1': 'Open the catalog ↓',
@@ -296,12 +293,12 @@ window.SITE_I18N = {
     'hub.note': '3-day trial without a card · SHA-256 for binaries · Minisign / Ed25519 for desktop',
 
     /* --- products --- */
-    'prod.eyebrow': '01 / Catalog · 13 products',
+    'prod.eyebrow': '01 / Catalog · 12 products',
     'prod.title': 'DIST products',
     'prod.sub': 'Every product comes with a real UI screenshot, a price and its current release. Filter by platform or search by name.',
-    'prod.filterAll': 'All · 13',
+    'prod.filterAll': 'All · 12',
     'prod.filterLinux': '🐧 Linux · 4',
-    'prod.filterWindows': '🪟 Windows · 6',
+    'prod.filterWindows': '🪟 Windows · 5',
     'prod.filterWeb': '🌐 Web & PWA · 3',
     'prod.filterMonitoring': '📡 Monitoring · 4',
     'prod.searchPh': 'Search: backup, k8s, PWA…',
@@ -319,7 +316,7 @@ window.SITE_I18N = {
     'prod.trial': '3 days free',
     'banner.tag': '🎁 3-day trial, no card',
     'banner.title': 'Commercial licensing',
-    'banner.text': 'Every paid product can be tried for 3 days for free, and the license key activates automatically after payment. Full bundle <b>All-Access (all 13 products) — 15,000 ₴/mo or 180,000 ₴/yr</b>.',
+    'banner.text': 'Every paid product can be tried for 3 days for free, and the license key activates automatically after payment. Full bundle <b>All-Access (all products) — 10,200 ₴/mo or 97,900 ₴/yr</b>.',
     'banner.pay': 'Pay via Monobank ↗',
 
     /* --- buy modal --- */
@@ -335,7 +332,7 @@ window.SITE_I18N = {
     'buy.step3.d': 'The key activates automatically (usually within 5 minutes). Questions — just email me.',
     'buy.pay': 'Pay via Monobank ↗',
     'buy.email': 'Email me',
-    'buy.note': 'All-Access Bundle (all products): 15,000 ₴/mo · 180,000 ₴/yr. Free corporate licenses are available for teams — just ask.',
+    'buy.note': 'All-Access Bundle (all products): 10,200 ₴/mo · 97,900 ₴/yr. Free corporate licenses are available for teams — just ask.',
 
     /* --- about --- */
     'about.eyebrow': '02 / About',
@@ -430,7 +427,7 @@ window.SITE_I18N = {
     'hub.sec.4.desc': 'PWAs work offline via Service Workers. Data stays local, with no third-party servers.',
     'hub.mat.eyebrow': '03 / Compatibility',
     'hub.mat.title': 'Product matrix',
-    'hub.mat.sub': '13 products · scroll → on mobile',
+    'hub.mat.sub': '12 products · scroll → on mobile',
     'hub.mat.th.product': 'Product',
     'hub.mat.th.platform': 'Platform',
     'hub.mat.th.delivery': 'Delivery',
@@ -451,7 +448,6 @@ window.SITE_I18N = {
     'hub.mat.update.sales': 'Cron · GitHub Actions',
     'hub.mat.update.games': 'itch.io · instant',
     'hub.mat.update.calc': 'In-app · auto',
-    'hub.mat.update.rescalc': 'In-app · auto',
     'hub.mat.update.diskcleaner': 'Auto · SHA-256',
     'hub.mat.update.netscope': 'In-app · Ed25519',
 
@@ -487,8 +483,6 @@ window.SITE_I18N = {
     'p.games.desc': 'GravityShift, Drift, Terraformers, Echoes, Verdant. Play straight in the browser, nothing to install.',
     'p.calc.sub': 'Engineering infrastructure sizing',
     'p.calc.desc': 'Flagship sizing for clusters, Kubernetes, DBMS and disks (D-AD-ADM-E). Portable .exe with auto-update.',
-    'p.rescalc.sub': 'Resource sizing for quotes',
-    'p.rescalc.desc': 'Fast server resource estimates by module for commercial proposals. Excel/PDF export.',
     'p.diskcleaner.sub': 'Disk cleanup with no installation',
     'p.diskcleaner.desc': 'Build leftovers, temp files and caches — with safe defaults. A single portable .exe.',
     'p.netscope.sub': 'Offline network inventory',

@@ -10,7 +10,6 @@
     { "prefix": "mygit-v", "name": "MyGit" },
     { "prefix": "netscope-v", "name": "NetScope" },
     { "prefix": "rdm-v", "name": "RDM" },
-    { "prefix": "rescalc-v", "name": "ResourceCalculator" },
     { "prefix": "sales-v", "name": "Sales" },
     { "prefix": "uptime-v", "name": "Uptime-Monitor" }
   ]
