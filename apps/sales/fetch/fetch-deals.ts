@@ -328,37 +328,57 @@ async function sendTelegramMessage(text: string) {
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   const logSafeUrl = 'https://api.telegram.org/bot[REDACTED]/sendMessage';
 
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), CONFIG.tgTimeoutMs);
+  // 3 короткі спроби на мережевий бліп (DNS/TLS/таймаут): одиничний збій
+  // мережі не має зривати ран до коміту даних. Сталі помилки вилітають —
+  // викликач вирішує (мережа/429/5xx — перервати ран; решта 4xx — пропустити).
+  const attempts = 3;
+  let response: Response | undefined;
+  let lastErr: unknown;
 
-  let response: Response;
-  try {
-    response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text: text,
-        parse_mode: 'HTML',
-        disable_web_page_preview: false
-      }),
-      signal: controller.signal
-    });
-  } catch (err) {
-    clearTimeout(timeout);
-    const message = err instanceof Error ? err.message : String(err);
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), CONFIG.tgTimeoutMs);
+    try {
+      response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: chatId,
+          text: text,
+          parse_mode: 'HTML',
+          disable_web_page_preview: false
+        }),
+        signal: controller.signal
+      });
+      break;
+    } catch (err) {
+      lastErr = err;
+      const message = err instanceof Error ? err.message : String(err);
+      const sanitized = message.split(token).join('[REDACTED]');
+      logger.warn({ url: logSafeUrl, attempt, attempts, err: sanitized }, 'telegram api network error');
+      if (attempt < attempts) await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  if (!response) {
+    const message = lastErr instanceof Error ? lastErr.message : String(lastErr);
     const sanitized = message.split(token).join('[REDACTED]');
-    logger.error({ url: logSafeUrl, err: sanitized }, 'telegram api network error');
-    throw new Error(`Telegram send failed: ${sanitized}`, { cause: err });
-  } finally {
-    clearTimeout(timeout);
+    throw new Error(`Telegram send failed: ${sanitized}`, { cause: lastErr });
   }
 
   if (!response.ok) {
+    // M1: тихий пропуск гірший за падіння рану — невідправлене маркувалось
+    // sent і чекало кулдауну 30 днів. Кидаємо зі статусом: викликач вирішує
+    // (429/5xx — перервати ран і повторити наступного разу; решта 4xx —
+    // перманентно, маркувати щоб не отруїти чергу).
     logger.error({ url: logSafeUrl, status: response.status }, 'telegram api error');
-  } else {
-    logger.info('✅ Telegram message sent successfully.');
+    const err = new Error(`Telegram send failed: HTTP ${response.status}`);
+    (err as NodeJS.ErrnoException).code = `HTTP_${response.status}`;
+    throw err;
   }
+  logger.info('✅ Telegram message sent successfully.');
 }
 
 async function run() {
@@ -548,7 +568,9 @@ async function run() {
 
   // Helper: split array of items into batches and send each as Telegram message.
   // Calls markSent(index) after each successful batch to prevent duplicate
-  // notifications on the next cron run if a later batch fails.
+  // notifications on the next cron run if a later batch fails. Retryable
+  // failures (network/429/5xx) abort the run unmarked (retry next time);
+  // permanent 4xx are marked to avoid poisoning the queue forever.
   async function sendBatched<T>(
     header: string,
     items: T[],
@@ -564,7 +586,15 @@ async function run() {
         text += buildItem(item) + '\n\n';
       }
       text += footer;
-      await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+      try {
+        await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+      } catch (err) {
+        const code = (err as NodeJS.ErrnoException)?.code ?? '';
+        const status = Number(code.replace('HTTP_', ''));
+        const retryable = code === '' || status === 429 || status >= 500;
+        if (retryable) throw err;
+        logger.error({ err: String(err) }, 'permanent telegram error, marking batch as sent');
+      }
       for (let j = 0; j < batch.length; j++) {
         markSent(i + j);
       }
