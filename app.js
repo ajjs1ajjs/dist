@@ -210,6 +210,7 @@
   /* ---------- Buy modal ---------- */
   const fmtNum = (n) => Number(n).toLocaleString('uk-UA').replace(/\u00A0/g, ' ');
   const fmtPrice = (n) => (n ? fmtNum(n) + ' ₴' : '—');
+  const MONO_JAR = 'https://send.monobank.ua/jar/89iqM1LmXv';
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-buy]');
     if (!b) return;
@@ -224,6 +225,11 @@
     $('#buyName').textContent = name;
     $('#buyMonth').textContent = fmtPrice(month) + ' / ' + t('buy.moSuffix');
     $('#buyYear').textContent = fmtPrice(year) + ' / ' + t('buy.yrSuffix');
+    // Клік на суму → банка Monobank із підставленою сумою (?amount=)
+    const monthLink = $('#buyMonthLink');
+    const yearLink = $('#buyYearLink');
+    if (monthLink) monthLink.href = month ? `${MONO_JAR}?amount=${month}` : MONO_JAR;
+    if (yearLink) yearLink.href = year ? `${MONO_JAR}?amount=${year}` : MONO_JAR;
     const mail = $('#buyEmail');
     if (mail) {
       const subj = (currentLang === 'en' ? 'License — ' : 'Ліцензія — ') + name;

@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261010b">
+  <link rel="stylesheet" href="./styles.css?v=20261010c">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0f16'/%3E%3Cpath d='M20 44V20h10a10 10 0 0 1 0 20H20zm10-14h8' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
 </head>
 <body data-page="hub">
@@ -557,16 +557,19 @@
       <h3 id="buyTitle"><span data-i18n="buy.title">Ліцензія</span> · <span id="buyName">—</span></h3>
       <p class="modal-sub" data-i18n="buy.sub">Оформлення підписки за 3 кроки.</p>
       <div class="price-pair">
-        <div class="price-opt"><b id="buyMonth">—</b><span data-i18n="buy.month">за місяць</span></div>
-        <div class="price-opt hot"><b id="buyYear">—</b><span data-i18n="buy.year">за рік</span></div>
+        <a class="price-opt" id="buyMonthLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyMonth">—</b><span data-i18n="buy.month">за місяць</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+        <a class="price-opt hot" id="buyYearLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyYear">—</b><span data-i18n="buy.year">за рік</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
       </div>
       <div class="buy-steps">
         <div class="buy-step"><b data-i18n="buy.step1.t">1 · Спробуйте безкоштовно</b><p data-i18n="buy.step1.d">Запустіть програму — вона сама запропонує 3-денний тріал за email. Без картки.</p></div>
-        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Переказуєте суму за місяць або рік на банку Monobank. У коментарі — той самий email, який вказали в програмі.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму вище — банка Monobank відкриється з уже підставленою сумою. У коментарі вкажіть email, який вводили в програмі.</p></div>
         <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.</p></div>
       </div>
       <div class="modal-actions">
-        <a class="btn btn-primary" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener" data-i18n="buy.pay">Оплатити в Monobank ↗</a>
         <a class="btn" id="buyEmail" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="buy.email">Написати на email</a>
       </div>
       <p class="modal-note" data-i18n="buy.note">All-Access Bundle (всі продукти): 10 200 ₴/міс · 97 900 ₴/рік.</p>
@@ -583,7 +586,7 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="./translations.js?v=20261010b" defer></script>
-  <script src="./app.js?v=20261010b" defer></script>
+  <script src="./translations.js?v=20261010c" defer></script>
+  <script src="./app.js?v=20261010c" defer></script>
 </body>
 </html>
