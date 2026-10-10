@@ -14,8 +14,8 @@
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261010d">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=20261010e">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0f16'/%3E%3Cpath d='M20 44V20h10a10 10 0 0 1 0 20H20zm10-14h8' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
 </head>
 <body data-page="hub">
@@ -54,15 +54,29 @@
   <main id="main">
     <!-- HERO -->
     <section class="hero" id="hero">
-      <div class="wrap">
-        <p class="badge-line" data-i18n="hub.badge">DIST HUB · публічний канал релізів</p>
-        <h1><span data-i18n="hub.h1a">12 продуктів.</span> <span class="accent" data-i18n="hub.h1b">Один канал оновлень.</span></h1>
-        <p class="hero-sub" data-i18n="hub.sub">Інсталятори, SHA-256 хеші, підписані автооновлення та офлайн-PWA. Той самий каталог, що на andreichuk.dev — тут зібрані всі релізи й завантаження.</p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="#products" data-i18n="hub.cta1">До каталогу ↓</a>
-          <a class="btn" href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" data-i18n="hub.cta2">GitHub ↗</a>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="badge-line" data-i18n="hub.badge">DIST HUB · публічний канал релізів</p>
+          <h1><span data-i18n="hub.h1a">12 продуктів.</span> <span class="accent" data-i18n="hub.h1b">Один канал оновлень.</span></h1>
+          <p class="hero-sub" data-i18n="hub.sub">Інсталятори, SHA-256 хеші, підписані автооновлення та офлайн-PWA. Той самий каталог, що на andreichuk.dev — тут зібрані всі релізи й завантаження.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#products" data-i18n="hub.cta1">До каталогу ↓</a>
+            <a class="btn" href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener" data-i18n="hub.cta2">GitHub ↗</a>
+          </div>
+          <p class="hero-note" data-i18n="hub.note">3 дні тріалу без картки · SHA-256 для бінарників · Minisign / Ed25519 для десктопу</p>
         </div>
-        <p class="hero-note" data-i18n="hub.note">3 дні тріалу без картки · SHA-256 для бінарників · Minisign / Ed25519 для десктопу</p>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="frame">
+            <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="hero.frame">kubelens · live</em></span>
+            <img src="./shots/kubelens.webp" alt="" width="1200" height="777">
+          </div>
+          <div class="hero-float">
+            <span class="hero-float-ico">🛡</span>
+            <div><b data-i18n="hero.float.b">12 продуктів у каталозі</b><span class="mono" data-i18n="hero.float.s">SHA-256 · Minisign · zero-telemetry</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
         <div class="stats">
           <div class="stat"><b data-i18n="hero.stat1b">12</b><span data-i18n="hero.stat1">продуктів у каталозі</span></div>
           <div class="stat"><b data-i18n="hero.stat2b">3</b><span data-i18n="hero.stat2">платформи: Linux / Win / Web</span></div>
@@ -583,7 +597,7 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="./translations.js?v=20261010d" defer></script>
-  <script src="./app.js?v=20261010d" defer></script>
+  <script src="./translations.js?v=20261010e" defer></script>
+  <script src="./app.js?v=20261010e" defer></script>
 </body>
 </html>

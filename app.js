@@ -115,12 +115,26 @@
 
   /* ---------- To top ---------- */
   const toTop = $('#toTop');
+  const headEl = $('.site-head');
+  addEventListener('scroll', () => {
+    if (toTop) toTop.classList.toggle('show', scrollY > 640);
+    if (headEl) headEl.classList.toggle('is-scrolled', scrollY > 8);
+  }, { passive: true });
   if (toTop) {
-    addEventListener('scroll', () => {
-      toTop.classList.toggle('show', scrollY > 640);
-    }, { passive: true });
     toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }));
   }
+
+  /* ---------- Screenshot states: skeleton → loaded / broken ---------- */
+  $$('.card-shot img').forEach((img) => {
+    const wrap = img.closest('.card-shot');
+    if (!wrap) return;
+    const loaded = () => wrap.classList.add('loaded');
+    if (img.complete && img.naturalWidth > 0) loaded();
+    else {
+      img.addEventListener('load', loaded, { once: true });
+      img.addEventListener('error', () => wrap.classList.add('loaded', 'broken'), { once: true });
+    }
+  });
 
   /* ---------- Copy ---------- */
   document.addEventListener('click', async (e) => {
