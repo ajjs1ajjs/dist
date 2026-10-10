@@ -72,8 +72,7 @@ window.SITE_I18N = {
     'prod.trial': '3 дні безкоштовно',
     'banner.tag': '🎁 3 дні тріалу без картки',
     'banner.title': 'Комерційне ліцензування',
-    'banner.text': 'Кожен платний продукт можна спробувати 3 дні безкоштовно, а ключ активується автоматично після оплати. Повний пакет <b>All-Access Bundle (всі продукти) — 10 200 ₴/міс або 97 900 ₴/рік</b>.',
-    'banner.pay': 'Оплата Monobank ↗',
+    'banner.text': 'Кожен платний продукт має 3-денний тріал без картки. Щоб купити — відкрийте картку продукту і натисніть свою суму: банка Monobank відкриється з уже підставленою ціною.',
 
     /* --- buy modal --- */
     'buy.title': 'Ліцензія',
@@ -88,7 +87,7 @@ window.SITE_I18N = {
     'buy.step3.t': '3 · Активація',
     'buy.step3.d': 'Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.',
     'buy.email': 'Написати на email',
-    'buy.note': 'All-Access Bundle (всі продукти): 10 200 ₴/міс · 97 900 ₴/рік. Для команд — безкоштовні корпоративні ліцензії, напишіть.',
+    'buy.note': 'Для команд — безкоштовні корпоративні ліцензії, напишіть на email.',
 
     /* --- about --- */
     'about.eyebrow': '02 / Про мене',
@@ -316,8 +315,7 @@ window.SITE_I18N = {
     'prod.trial': '3 days free',
     'banner.tag': '🎁 3-day trial, no card',
     'banner.title': 'Commercial licensing',
-    'banner.text': 'Every paid product can be tried for 3 days for free, and the license key activates automatically after payment. Full bundle <b>All-Access (all products) — 10,200 ₴/mo or 97,900 ₴/yr</b>.',
-    'banner.pay': 'Pay via Monobank ↗',
+    'banner.text': 'Every paid product has a 3-day free trial, no card. To buy, open a product card and click the amount: the Monobank jar opens with the price prefilled.',
 
     /* --- buy modal --- */
     'buy.title': 'License',
@@ -332,7 +330,7 @@ window.SITE_I18N = {
     'buy.step3.t': '3 · Activation',
     'buy.step3.d': 'The key activates automatically (usually within 5 minutes). Questions — just email me.',
     'buy.email': 'Email me',
-    'buy.note': 'All-Access Bundle (all products): 10,200 ₴/mo · 97,900 ₴/yr. Free corporate licenses are available for teams — just ask.',
+    'buy.note': 'Free corporate licenses are available for teams — just email me.',
 
     /* --- about --- */
     'about.eyebrow': '02 / About',
