@@ -1,3 +1,5 @@
 # Fetcher dependencies (installed by CI / locally, never committed)
 node_modules/
 .freebuff/
+# Wrangler local state (sales-cron worker)
+.wrangler/

@@ -31,10 +31,10 @@ npx wrangler deploy
 npx wrangler tail
 ```
 
-Локальний тест scheduled-хендлера:
+Локальний тест scheduled-хендлера після деплою (бере справжній секрет CF):
 
 ```sh
-npx wrangler dev --test-scheduled
+npx wrangler dev --remote --test-scheduled
 # в іншому терміналі:
 curl "http://localhost:8787/__scheduled?cron=0+7+*+*+*"
 ```
