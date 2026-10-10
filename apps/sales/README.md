@@ -11,8 +11,11 @@
 ## Оновлення даних
 
 - [`fetch/`](fetch/) — скрипт збору знижок (Steam API → Telegram).
-- [`.github/workflows/sales-scheduler.yml`](../../.github/workflows/sales-scheduler.yml) — запускає парсер за розкладом щодня о 07:00 UTC (09:00 за Києвом взимку / 10:00 влітку), записує свіжі `deals.json` та `notified-history.json` у `sales/data/` і публікує (GitHub Pages деплоїться з `main`).
+- [`cron/`](cron/) — Cloudflare Worker, що викликає воркфлоу рівно о 07:00 UTC
+  (09:00 за Києвом взимку / 10:00 влітку): GitHub `schedule` затримується на
+  години, тому основний тригер — зовнішній, а розклад у воркфлоу — страховка.
+- [`.github/workflows/sales-scheduler.yml`](../../.github/workflows/sales-scheduler.yml) — запускає парсер, записує свіжі `deals.json` та `notified-history.json` у `sales/data/` і публікує (GitHub Pages деплоїться з `main`).
 
-Потрібні секрети репозиторію: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+Потрібні секрети: у репо — `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`; у воркера — `GITHUB_TOKEN` (fine-grained PAT, тільки цей репо, Actions: write).
 
 Вихідний код застосунку — у приватному репозиторії.
