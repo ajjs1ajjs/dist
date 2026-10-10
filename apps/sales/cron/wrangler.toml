@@ -1,10 +1,11 @@
-# Cloudflare Worker: щоденний dispatch sales-шедулера в цьому ж репо (публічний dist).
+# Cloudflare Worker: dispatch sales-шедулера в цьому ж репо (публічний dist).
 # Навіщо: GitHub schedule-тригери стабільно затримуються на 5–8 годин — цей
-# воркер викликає workflow_dispatch рівно о 07:00 UTC (09:00 Київ взимку,
-# 10:00 влітку). Розклад у самому воркфлоу лишається як страховка.
+# воркер викликає workflow_dispatch за розкладом нижче: 4 перевірки на добу.
+# Пости в Telegram виходять лише за НОВИМИ знижками (≥50%, до 10 за ран), тож
+# 4 рани = до 4 повідомлень/добу. Розклад у самому воркфлоу — страховка.
 #
-# Секрет: GITHUB_TOKEN — fine-grained PAT (тільки repo ajjs1ajjs/dist,
-# право Actions: Read and write). Задати: npx wrangler secret put GITHUB_TOKEN
+# Секрет: GITHUB_TOKEN — PAT з правом тригерити Actions у dist (Actions: write).
+# Задати: gh auth token | npx wrangler secret put GITHUB_TOKEN  (або дашборд CF)
 #
 # Деплой з цієї теки: npx wrangler deploy   Логи: npx wrangler tail
 name = "sales-cron"
@@ -12,4 +13,4 @@ main = "src/index.js"
 compatibility_date = "2026-10-10"
 
 [triggers]
-crons = ["0 7 * * *"]
+crons = ["0 6,10,14,18 * * *"]

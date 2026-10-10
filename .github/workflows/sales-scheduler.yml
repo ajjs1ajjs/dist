@@ -5,8 +5,9 @@ name: Sales — update deals & deploy
 # pushes — GitHub Pages (from main) redeploys automatically.
 #
 # Triggers: зовнішній cron (Cloudflare Worker apps/sales/cron) викликає
-# workflow_dispatch рівно о 07:00 UTC — GitHub schedule затримується на
-# години. Розклад нижче лишається страховкою; руками — Actions → Run workflow.
+# workflow_dispatch кілька разів на добу (06/10/14/18 UTC) — GitHub schedule
+# затримується на години. Розклад нижче лишається страховкою; руками —
+# Actions → Run workflow.
 #
 # Secrets required in this repo:
 #   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID  (for the Telegram channel posts)
