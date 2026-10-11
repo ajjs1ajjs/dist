@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:08:35.190Z",
+  "lastUpdated": "2026-10-11T15:09:11.441Z",
   "steam": [
     {
       "id": "1808500",
@@ -3032,6 +3032,132 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-10-11T15:08:32.021Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PK8PHLCQDF6": {
+      "title": "Aniimo",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P402RWR63H4": {
+      "title": "RuneScape: Dragonwilds",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N034X5G08B7": {
+      "title": "The Royal Writ",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NSM674QVLBS": {
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N72SFQ24KW8": {
+      "title": "Call of Duty®: Black Ops Cold War (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPKR9N31BW6": {
+      "title": "SpeedRunners 2: King of Speed",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N51NR4GX891": {
+      "title": "Shelldiver",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPBNCXP0096": {
+      "title": "Resonance: A Plague Tale Legacy",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N0QWXC09MPT": {
+      "title": "Once Human",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9MSVBF0KZFVW": {
+      "title": "Blood Dungeon",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PM709J61828": {
+      "title": "Farming Simulator 25 (PC)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PBRN7JS4XPC": {
+      "title": "Heroes of the Storm™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NP6WL1XQDBW": {
+      "title": "SnowRunner - Windows",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9P2VGCTBMM52": {
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PD0Z90216RJ": {
+      "title": "Football Manager 26",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NDKFJ6XDX2M": {
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9N4W31HSMVVD": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PGZ346PSLN0": {
+      "title": "Cities: Skylines II - PC Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:08.624Z",
       "type": "gamepass"
     }
   }
