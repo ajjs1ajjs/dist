@@ -2315,5 +2315,152 @@
     "percent": 25,
     "timestamp": "2026-10-11T14:57:39.618Z",
     "type": "discount"
+  },
+  "gamepass_popular_9PM3J18QM4Q3": {
+    "title": "Minecraft Dungeons II",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9N72DFC6GL91": {
+    "title": "Echo Weaver",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NFB47H2SDRX": {
+    "title": "Forever Ago",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9P5QV5XX8S9H": {
+    "title": "Neon Abyss 2",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9N4PT8HGCDHQ": {
+    "title": "Gears of War: E-Day",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9PM3J18QM4Q3": {
+    "title": "Minecraft Dungeons II",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9N944N1WP67T": {
+    "title": "Mad King Redemption",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9PLH7R84GJWP": {
+    "title": "Well Dweller",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9PJ6FV3130QZ": {
+    "title": "Dune: Awakening",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NXSNQR7CM1Q": {
+    "title": "Kernel Hearts",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_9PK0DZ68LGC0": {
+    "title": "Shape of Dreams",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9P402RWR63H4": {
+    "title": "RuneScape: Dragonwilds",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9NXP44L49SHJ": {
+    "title": "Minecraft: Java & Bedrock Edition for PC",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9N431PX143P8": {
+    "title": "Forza Horizon 6 Standard Edition",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9N8KMNW6942X": {
+    "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9NNFG8BQRCXL": {
+    "title": "Call of Duty®: Warzone™",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9PB301R051CQ": {
+    "title": "League of Legends",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9NKCCHCFTHV2": {
+    "title": "VALORANT PC",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9P36DQX6W9CS": {
+    "title": "Overwatch® PC",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9N0H62KZ3BXV": {
+    "title": "Diablo® IV PC",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9WZDNCRFHWD2": {
+    "title": "Microsoft Solitaire Collection",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T15:08:32.021Z",
+    "type": "gamepass"
   }
 }
