@@ -29,6 +29,22 @@ MYGIT_VERSION=3.7.0 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/m
 - Генерує обов'язкові секрети (`MYGIT_JWT_SECRET`, `MYGIT_INTERNAL_API_TOKEN`) у `/etc/mygit/mygit.env`.
 - Ставить systemd-юніт; порт типово **9555** (`MYGIT_PORT` для зміни).
 
+## Ліцензія
+
+Сервер fail-closed перевіряє ліцензію при старті: без неї він не запускається.
+Інсталятор пропонує активувати її одразу — ввести ключ (`AK-…`) або отримати 3-денний
+Trial (потрібен email). Пропустити безпечно: оновлення відкочується на попередню версію
+(сервіс далі працює), свіже встановлення лишається зупиненим — без циклу перезапусків.
+
+Для неінтерактивних запусків:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo MYGIT_TRIAL_EMAIL=you@example.com bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo MYGIT_LICENSE_KEY=AK-XXXX-XXXX-XXXX bash
+```
+
+Керування: `sudo mygit license status` (або `activate` / `trial`).
+
 ## CI-раннери
 
 Пайплайни виконуються на ваших машинах. Зареєструй раннер у веб-UI

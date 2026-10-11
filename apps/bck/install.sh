@@ -445,6 +445,109 @@ done
 # Ownership (ignore failures on non-root / weird mounts)
 chown -R "$BCK_USER:$BCK_GROUP" "$BCK_HOME" "$BCK_DATA_DIR" "$BCK_CONFIG_DIR" 2>/dev/null || true
 
+# --- License preflight --------------------------------------------------------
+# bckd starts without a license (it only warns), but CLI operations are blocked
+# and the console shows "no license". Offer the key / 3-day trial right here —
+# `curl | sudo bash` keeps the script itself on stdin, so prompts read from
+# /dev/tty. Unattended runs: BCK_LICENSE_KEY=<key> or BCK_TRIAL_EMAIL=<email>.
+BCK_LICENSE_FILE="$BCK_HOME/.config/bck/license.json"
+bck_lic_valid() {
+    [ -s "$BCK_LICENSE_FILE" ] || return 1
+    local exp epoch now
+    exp="$(sed -n 's/.*"expires_at"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$BCK_LICENSE_FILE" | head -n 1)"
+    [ -n "$exp" ] || return 0
+    epoch="$(date -u -d "$exp" +%s 2>/dev/null)" || return 0
+    now="$(date -u +%s)"
+    [ "$epoch" -gt "$now" ]
+}
+# `bck license` prints activation errors but exits 0 even when it fails, so the
+# result is confirmed by re-reading the license file.
+bck_lic_activate() {
+    [ -n "${1:-}" ] || return 1
+    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$BCK_HOME/bin/bck" license activate --key "$1"
+    bck_lic_valid
+}
+bck_lic_trial() {
+    [ -n "${1:-}" ] || return 1
+    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$BCK_HOME/bin/bck" license trial --email "$1"
+    bck_lic_valid
+}
+
+# The CLI's own hints say `bck license ...` — make that work: point root's
+# config dir at the service user's (root runs with HOME=/root; without the link
+# `sudo bck license activate` would write a license bckd never reads).
+SVC_CFG_DIR="$BCK_HOME/.config/bck"
+mkdir -p "$SVC_CFG_DIR"
+if [ ! -e /root/.config/bck ] && [ ! -L /root/.config/bck ]; then
+    mkdir -p /root/.config
+    ln -s "$SVC_CFG_DIR" /root/.config/bck
+elif [ -d /root/.config/bck ] && [ ! -L /root/.config/bck ] \
+     && [ -s /root/.config/bck/license.json ] && [ ! -s "$SVC_CFG_DIR/license.json" ]; then
+    # A license was once activated as root: migrate it where bckd looks.
+    cp /root/.config/bck/license.json "$SVC_CFG_DIR/license.json"
+fi
+chown -R "$BCK_USER:$BCK_GROUP" "$BCK_HOME/.config" 2>/dev/null || true
+
+BCK_LICENSE_OK=0
+if bck_lic_valid; then
+    BCK_LICENSE_OK=1
+    log "Ліцензія: активна."
+elif [ -n "${BCK_LICENSE_KEY:-}" ]; then
+    log "Активація ліцензії з BCK_LICENSE_KEY..."
+    if bck_lic_activate "$BCK_LICENSE_KEY"; then BCK_LICENSE_OK=1; fi
+elif [ -n "${BCK_TRIAL_EMAIL:-}" ]; then
+    log "Активація 3-денного Trial для $BCK_TRIAL_EMAIL..."
+    if bck_lic_trial "$BCK_TRIAL_EMAIL"; then BCK_LICENSE_OK=1; fi
+elif { true </dev/tty; } 2>/dev/null; then
+    echo ""
+    echo "======================================================="
+    echo "  ЛІЦЕНЗІЯ BCK Enterprise не активована."
+    echo "  bckd запуститься, але без ліцензії CLI-операції"
+    echo "  заблоковані. Активуйте зараз — це займе кілька секунд."
+    echo "======================================================="
+    while [ "$BCK_LICENSE_OK" != "1" ]; do
+        echo ""
+        echo "  1) Ввести ліцензійний ключ (AK-…)"
+        echo "  2) Отримати безкоштовний 3-денний Trial (потрібен email)"
+        echo "  3) Пропустити"
+        printf '  Ваш вибір [1/2/3]: '
+        LIC_CHOICE=""
+        read -r LIC_CHOICE </dev/tty || LIC_CHOICE=""
+        case "$LIC_CHOICE" in
+            1)
+                printf '  Ліцензійний ключ: '
+                LIC_KEY=""
+                read -r LIC_KEY </dev/tty || LIC_KEY=""
+                if bck_lic_activate "$LIC_KEY"; then
+                    BCK_LICENSE_OK=1
+                else
+                    echo "  [x] Активувати не вдалося — перевірте ключ і мережу та спробуйте ще раз."
+                fi
+                ;;
+            2)
+                printf '  Email для Trial: '
+                LIC_EMAIL=""
+                read -r LIC_EMAIL </dev/tty || LIC_EMAIL=""
+                if bck_lic_trial "$LIC_EMAIL"; then
+                    BCK_LICENSE_OK=1
+                else
+                    echo "  [x] Trial не активовано — перевірте email і мережу та спробуйте ще раз."
+                fi
+                ;;
+            3|"")
+                break
+                ;;
+            *)
+                echo "  Введіть 1, 2 або 3."
+                ;;
+        esac
+    done
+fi
+if [ "$BCK_LICENSE_OK" != "1" ]; then
+    warn "Ліцензію не активовано — bckd працюватиме, але CLI-операції заблоковані."
+    warn "Активуйте пізніше: sudo bck license trial --email <email>  |  sudo bck license activate --key <key>"
+fi
+
 # ------------------------------------------------------------- service ---------
 if command -v systemctl >/dev/null 2>&1; then
     cat > /etc/systemd/system/bckd.service <<EOF
@@ -516,6 +619,7 @@ log "   Data:    $BCK_DATA_DIR"
 log "   Web UI:  http://localhost:${BCK_PORT}  (bootstrap admin password is shown above / in $BCK_DATA_DIR/bootstrap_admin.txt)"
 log "   Binaries: ${BCK_HOME}/bin/{bckd,bck-agent,bck,bck-proxy}"
 log "   CLI:     bck --help"
+log "   License: sudo bck license status"
 log "   Agent:   bck-agent --server <host> --port 9440"
 log "==============================================="
 log "Re-run this installer any time to update."

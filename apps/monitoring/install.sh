@@ -175,9 +175,16 @@ if [ -d "$INSTALL_DIR/pymon" ]; then
     rm -rf "$INSTALL_DIR/pymon"
 fi
 
-# On update, keep a rollback copy of the previous binary.
+# On update, keep a rollback copy of the previous binary — but only when it is
+# a DIFFERENT version from the one being installed. Copying a same-version
+# binary (retry after a failed update) would overwrite the last known-good
+# .old with the very version that does not start.
 if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon" ]; then
-    cp -f "$INSTALL_DIR/pymon" "$INSTALL_DIR/pymon.old" 2>/dev/null || true
+    CUR_V="$("$INSTALL_DIR/pymon" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
+    NEW_V="$(printf '%s' "$NEW_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
+    if [ -n "$CUR_V" ] && [ "$CUR_V" != "$NEW_V" ]; then
+        cp -f "$INSTALL_DIR/pymon" "$INSTALL_DIR/pymon.old" 2>/dev/null || true
+    fi
 fi
 
 install -m 0755 "$TMP_BIN" "$INSTALL_DIR/pymon"
@@ -203,8 +210,6 @@ if ! id pymon >/dev/null 2>&1; then
     useradd -r -s /bin/false -d "$INSTALL_DIR" pymon
 fi
 chown -R pymon:pymon "$INSTALL_DIR" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
-
-systemctl stop $SERVICE_NAME 2>/dev/null || true
 
 cat > /etc/systemd/system/$SERVICE_NAME.service <<EOF
 [Unit]
@@ -245,6 +250,156 @@ EOF
 systemctl daemon-reload
 systemctl enable $SERVICE_NAME
 
+# --- License preflight --------------------------------------------------------
+# The server verifies the license on every start and exits without one (fail
+# closed), so on an unlicensed host the update would end with a crash-looping
+# unit and the operator hunting for commands. Offer the key / 3-day trial right
+# here — `curl | sudo bash` keeps the script itself on stdin, so every prompt
+# reads from /dev/tty. Skipping never leaves a dead service: an update is rolled
+# back to the previous binary (which keeps running), a fresh install stays
+# stopped with exact steps. Unattended runs: PYMON_LICENSE_KEY=<key> or
+# PYMON_TRIAL_EMAIL=<email>.
+LICENSE_FILE="$INSTALL_DIR/.config/pymon/license.json"
+lic_cli() { sudo -u pymon env HOME="$INSTALL_DIR" "$INSTALL_DIR/pymon" "$@"; }
+lic_valid() {
+    [ -s "$LICENSE_FILE" ] || return 1
+    local exp epoch now
+    exp="$(sed -n 's/.*"expires_at"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$LICENSE_FILE" | head -n 1)"
+    [ -n "$exp" ] || return 0                    # unparsable -> let the service decide
+    epoch="$(date -u -d "$exp" +%s 2>/dev/null)" || return 0
+    now="$(date -u +%s)"
+    [ "$epoch" -gt "$now" ]
+}
+license_activate_key() { [ -n "$1" ] && lic_cli license activate "$1"; }
+license_start_trial()  { [ -n "$1" ] && lic_cli license trial "$1"; }
+
+# The binary's own hints say `pymon license ...` — make that work: symlink onto
+# PATH and point root's config dir at the service user's (root runs with
+# HOME=/root; without the link `sudo pymon license activate` would write a
+# license the service never reads).
+mkdir -p /usr/local/bin
+ln -sf "$INSTALL_DIR/pymon" /usr/local/bin/pymon
+SVC_CFG_DIR="$INSTALL_DIR/.config/pymon"
+mkdir -p "$SVC_CFG_DIR"
+if [ ! -e /root/.config/pymon ] && [ ! -L /root/.config/pymon ]; then
+    mkdir -p /root/.config
+    ln -s "$SVC_CFG_DIR" /root/.config/pymon
+elif [ -d /root/.config/pymon ] && [ ! -L /root/.config/pymon ] \
+     && [ -s /root/.config/pymon/license.json ] && [ ! -s "$SVC_CFG_DIR/license.json" ]; then
+    # A license was once activated as root: migrate it where the service looks.
+    cp /root/.config/pymon/license.json "$SVC_CFG_DIR/license.json"
+fi
+chown -R pymon:pymon "$INSTALL_DIR/.config" 2>/dev/null || true
+
+LICENSE_OK=0
+if lic_valid; then
+    LICENSE_OK=1
+    echo "[i] Ліцензія: активна."
+elif [ -n "$PYMON_LICENSE_KEY" ]; then
+    echo "[i] Активація ліцензії з PYMON_LICENSE_KEY..."
+    if license_activate_key "$PYMON_LICENSE_KEY"; then LICENSE_OK=1; fi
+elif [ -n "$PYMON_TRIAL_EMAIL" ]; then
+    echo "[i] Активація 3-денного Trial для $PYMON_TRIAL_EMAIL..."
+    if license_start_trial "$PYMON_TRIAL_EMAIL"; then LICENSE_OK=1; fi
+elif { true </dev/tty; } 2>/dev/null; then
+    echo ""
+    echo "======================================================="
+    echo "  ЛІЦЕНЗІЯ PyMon не активована."
+    echo "  Сервіс перевіряє ліцензію при кожному старті: без неї він"
+    echo "  не запускається, а systemd зациклює перезапуски."
+    echo "  Активуйте зараз — це займе кілька секунд."
+    echo "======================================================="
+    while [ "$LICENSE_OK" != "1" ]; do
+        echo ""
+        echo "  1) Ввести ліцензійний ключ (AK-…)"
+        echo "  2) Отримати безкоштовний 3-денний Trial (потрібен email)"
+        echo "  3) Пропустити"
+        printf '  Ваш вибір [1/2/3]: '
+        LIC_CHOICE=""
+        read -r LIC_CHOICE </dev/tty || LIC_CHOICE=""
+        case "$LIC_CHOICE" in
+            1)
+                printf '  Ліцензійний ключ: '
+                LIC_KEY=""
+                read -r LIC_KEY </dev/tty || LIC_KEY=""
+                if license_activate_key "$LIC_KEY"; then
+                    LICENSE_OK=1
+                else
+                    echo "  [x] Активувати не вдалося — перевірте ключ і мережу та спробуйте ще раз."
+                fi
+                ;;
+            2)
+                printf '  Email для Trial: '
+                LIC_EMAIL=""
+                read -r LIC_EMAIL </dev/tty || LIC_EMAIL=""
+                if license_start_trial "$LIC_EMAIL"; then
+                    LICENSE_OK=1
+                else
+                    echo "  [x] Trial не активовано — перевірте email і мережу та спробуйте ще раз."
+                fi
+                ;;
+            3|"")
+                break
+                ;;
+            *)
+                echo "  Введіть 1, 2 або 3."
+                ;;
+        esac
+    done
+fi
+
+if [ "$LICENSE_OK" != "1" ]; then
+    echo ""
+    echo "Ліцензію не активовано — нову версію не запускаю, щоб нічого не зламати."
+    ROLLBACK_OK=0
+    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon.old" ] \
+       && "$INSTALL_DIR/pymon.old" --version >/dev/null 2>&1; then
+        OLD_V="$("$INSTALL_DIR/pymon.old" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
+        NEWV="$(printf '%s' "$NEW_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
+        # Rollback only makes sense to a DIFFERENT version than the new one.
+        if [ -n "$OLD_V" ] && [ "$OLD_V" != "$NEWV" ]; then ROLLBACK_OK=1; fi
+    fi
+    if [ "$ROLLBACK_OK" = "1" ]; then
+        install -m 0755 "$INSTALL_DIR/pymon.old" "$INSTALL_DIR/pymon"
+        systemctl restart $SERVICE_NAME >/dev/null 2>&1 || true
+        RESTORED_V="$("$INSTALL_DIR/pymon" --version 2>/dev/null || echo '?')"
+        echo "Оновлення скасовано: відновлено попередню версію ($RESTORED_V)."
+        if systemctl is-active --quiet $SERVICE_NAME; then
+            echo "Сервіс працює, як і до оновлення."
+        else
+            echo "УВАГА: сервіс не піднявся — перевірте: systemctl status $SERVICE_NAME"
+        fi
+    else
+        systemctl disable $SERVICE_NAME >/dev/null 2>&1 || true
+        # A crash-looping unit (auto-restart) is almost never "active" when
+        # sampled; stop it so the loop does not keep hammering. A healthy
+        # running service is left up.
+        WAS_UP=1
+        for _ in 1 2 3; do
+            if ! systemctl is-active --quiet $SERVICE_NAME; then WAS_UP=0; break; fi
+            sleep 1
+        done
+        if [ "$WAS_UP" != "1" ]; then systemctl stop $SERVICE_NAME >/dev/null 2>&1 || true; fi
+        if [ "$WAS_UP" = "1" ]; then
+            echo "Нову версію не запущено. Поточний сервіс продовжує працювати; автозапуск вимкнено (новий бінарник без ліцензії не стартує)."
+        else
+            echo "Сервіс встановлено, але НЕ запущено й автозапуск вимкнено (без ліцензії він не стартує)."
+        fi
+    fi
+    echo ""
+    echo "Активуйте ліцензію та повторіть встановлення:"
+    echo "  sudo pymon license trial <email>          # 3-денний Trial"
+    echo "  sudo pymon license activate <key>         # придбаний ключ"
+    echo "  sudo systemctl enable --now $SERVICE_NAME          # якщо автозапуск вимкнено"
+    echo "Або просто запустіть інсталятор ще раз — він запитає ключ/email сам:"
+    echo "  curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash"
+    echo ""
+    echo "Не звітую про успіх: сервіс не працює на новій версії."
+    exit 1
+fi
+
+systemctl stop $SERVICE_NAME 2>/dev/null || true
+
 # --- Admin password (fresh install only, unless PYMON_ADMIN_PASSWORD set) ---
 ADMIN_SET=0
 if [ "$IS_UPDATE" = "1" ] && [ -z "$PYMON_ADMIN_PASSWORD" ]; then
@@ -284,6 +439,18 @@ for i in $(seq 1 15); do
     if [ "$i" = "15" ]; then
         echo " FAILED"
         echo "Check the service log: journalctl -u $SERVICE_NAME"
+        if journalctl -u $SERVICE_NAME -n 30 --no-pager 2>/dev/null | grep -q 'ЛІЦЕНЗІЯ'; then
+            echo "--- ліцензія ---"
+            echo "Схоже, сервіс не піднявся через ліцензію (див. [ЛІЦЕНЗІЯ] вище). Активуйте та повторіть:"
+            echo "  sudo pymon license trial <email>    # або: sudo pymon license activate <key>"
+            echo "  sudo systemctl restart $SERVICE_NAME"
+        fi
+        if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon.old" ]; then
+            echo "--- відкат ---"
+            echo "  sudo systemctl stop $SERVICE_NAME"
+            echo "  sudo mv $INSTALL_DIR/pymon.old $INSTALL_DIR/pymon && sudo systemctl start $SERVICE_NAME"
+        fi
+        exit 1
     else
         echo -n "."
         sleep 1
@@ -307,6 +474,7 @@ else
 fi
 echo ""
 echo "Dashboard: http://localhost:10000/"
+echo "Ліцензія:   sudo pymon license status   (trial/activate — ті самі команди)"
 echo ""
 if [ "$ADMIN_SET" = "1" ]; then
     echo "===================================="
