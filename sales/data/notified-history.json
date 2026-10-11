@@ -6,34 +6,6 @@
     "timestamp": "2026-10-01T21:15:14.462Z",
     "type": "discount"
   },
-  "steam_discount_4739660": {
-    "title": "Drag'n Wash",
-    "price": 301,
-    "percent": 10,
-    "timestamp": "2026-09-10T19:25:43.025Z",
-    "type": "discount"
-  },
-  "steam_discount_1850570": {
-    "title": "DEATH STRANDING DIRECTOR'S CUT",
-    "price": 299,
-    "percent": 75,
-    "timestamp": "2026-09-10T20:28:11.196Z",
-    "type": "discount"
-  },
-  "steam_discount_2536520": {
-    "title": "Diablo II: Resurrected - Infernal Edition",
-    "price": 1189,
-    "percent": 30,
-    "timestamp": "2026-09-10T22:10:53.957Z",
-    "type": "discount"
-  },
-  "steam_discount_2668510": {
-    "title": "Red Dead Redemption",
-    "price": 1099,
-    "percent": 50,
-    "timestamp": "2026-09-10T22:52:22.621Z",
-    "type": "discount"
-  },
   "steam_discount_2456740": {
     "title": "inZOI",
     "price": 959,
