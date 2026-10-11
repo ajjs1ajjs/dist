@@ -2756,5 +2756,33 @@
     "percent": 0,
     "timestamp": "2026-10-11T15:11:53.755Z",
     "type": "gamepass"
+  },
+  "gamepass_popular_9NWB9PL1L2PQ": {
+    "title": "Warcraft® III: Reforged",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T18:00:22.365Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9NKX70BBCDRN": {
+    "title": "Forza Horizon 5 Standard Edition",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T18:00:22.365Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NWB9PL1L2PQ": {
+    "title": "Warcraft® III: Reforged",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T18:00:22.365Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NKX70BBCDRN": {
+    "title": "Forza Horizon 5 Standard Edition",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-11T18:00:22.365Z",
+    "type": "gamepass"
   }
 }
