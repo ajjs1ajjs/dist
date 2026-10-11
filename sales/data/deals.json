@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:09:11.441Z",
+  "lastUpdated": "2026-10-11T15:09:43.700Z",
   "steam": [
     {
       "id": "1808500",
@@ -3158,6 +3158,76 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-10-11T15:09:08.624Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NKDZ44LZR2R": {
+      "title": "Transference",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N5VHX8KMVNV": {
+      "title": "Vapor World: Over The Mind (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPH71DV44T7": {
+      "title": "Sandustry (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N6JF50HZFW9": {
+      "title": "Cricket 26 - The Official Game of the Ashes",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P9GX5D8H9DW": {
+      "title": "TCG Card Shop Simulator",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NDJX252Q5BW": {
+      "title": "Moonlighter 2: The Endless Vault",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P91FNMH1GG0": {
+      "title": "Age of Empires III: Definitive Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NXP44L49SHJ": {
+      "title": "Minecraft: Java & Bedrock Edition for PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N431PX143P8": {
+      "title": "Forza Horizon 6 Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N8KMNW6942X": {
+      "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:09:40.576Z",
       "type": "gamepass"
     }
   }
