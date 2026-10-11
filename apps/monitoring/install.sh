@@ -130,36 +130,52 @@ echo "[1/4] Downloading PyMon ${TAG} (${BINARY_NAME})..."
 TMP_BIN="$(mktemp)"
 curl -fsSL "$DOWNLOAD_URL" -o "$TMP_BIN" || { echo "ERROR: download failed. Is release ${TAG} published?"; rm -f "$TMP_BIN"; exit 1; }
 
-# --- Verify SHA-256 checksum ------------------------------------------------
+# --- Verify SHA-256 checksum (fail-closed) ----------------------------------
+# Glued/CRLF-tolerant parsing like uptime/mygit: look for "64hex  [*]name" as
+# a substring, not anchored to end-of-line. An old release glued both entries
+# on one line and the end-anchored grep silently skipped verification (amd64)
+# or compared the wrong hash (arm64).
 echo "Verifying checksum..."
-TMP_SUM="$(mktemp)"
-curl -fsSL "$CHECKSUM_URL" -o "$TMP_SUM" 2>/dev/null || true
-if [ -s "$TMP_SUM" ]; then
-    EXPECTED="$(grep "${BINARY_NAME}$" "$TMP_SUM" | awk '{print $1}')"
-    if [ -n "$EXPECTED" ]; then
-        if command -v sha256sum >/dev/null 2>&1; then
-            ACTUAL="$(sha256sum "$TMP_BIN" | awk '{print $1}')"
-        elif command -v shasum >/dev/null 2>&1; then
-            ACTUAL="$(shasum -a 256 "$TMP_BIN" | awk '{print $1}')"
-        else
-            echo "Warning: no sha256 utility found, skipping checksum verification."
-            ACTUAL=""
-        fi
-        if [ -n "$ACTUAL" ] && [ "$EXPECTED" != "$ACTUAL" ]; then
-            echo "ERROR: checksum mismatch for ${BINARY_NAME}."
-            echo "  expected: ${EXPECTED}"
-            echo "  actual:   ${ACTUAL}"
-            rm -f "$TMP_BIN" "$TMP_SUM"
-            exit 1
-        fi
-        echo "Checksum OK."
-    else
-        echo "Warning: no checksum entry for ${BINARY_NAME}, skipping verification."
-    fi
+if [ "${PYMON_SKIP_CHECKSUM:-0}" = "1" ]; then
+    echo "WARNING: checksum verification explicitly skipped (PYMON_SKIP_CHECKSUM=1). Installing unverified binary."
 else
-    echo "Warning: could not download checksums.txt, skipping verification."
+    TMP_SUM="$(mktemp)"
+    DOWNLOADED_SUM=0
+    if curl -fsSL "$CHECKSUM_URL" -o "$TMP_SUM" 2>/dev/null; then DOWNLOADED_SUM=1; fi
+    if [ "$DOWNLOADED_SUM" != "1" ] || [ ! -s "$TMP_SUM" ]; then
+        echo "ERROR: could not download checksums.txt from ${CHECKSUM_URL}."
+        echo "Refusing to install an unverified binary. Re-run once GitHub is reachable,"
+        echo "or set PYMON_SKIP_CHECKSUM=1 to explicitly bypass verification."
+        rm -f "$TMP_BIN" "$TMP_SUM"
+        exit 1
+    fi
+    EXPECTED="$(tr -d '\r' < "$TMP_SUM" | grep -oE "[0-9a-fA-F]{64}[[:space:]]+\\*?${BINARY_NAME}" | awk '{print $1}' | head -n1)"
+    if [ -z "$EXPECTED" ]; then
+        echo "ERROR: checksums.txt has no entry for ${BINARY_NAME}; refusing to install an unverified binary."
+        echo "Re-run once GitHub is reachable, or set PYMON_SKIP_CHECKSUM=1 to explicitly bypass verification."
+        rm -f "$TMP_BIN" "$TMP_SUM"
+        exit 1
+    fi
+    if command -v sha256sum >/dev/null 2>&1; then
+        ACTUAL="$(sha256sum "$TMP_BIN" | awk '{print $1}')"
+    elif command -v shasum >/dev/null 2>&1; then
+        ACTUAL="$(shasum -a 256 "$TMP_BIN" | awk '{print $1}')"
+    else
+        echo "ERROR: neither sha256sum nor shasum is installed; cannot verify checksum."
+        echo "Install one of them and re-run, or set PYMON_SKIP_CHECKSUM=1 to bypass."
+        rm -f "$TMP_BIN" "$TMP_SUM"
+        exit 1
+    fi
+    if [ "$EXPECTED" != "$ACTUAL" ]; then
+        echo "ERROR: checksum mismatch for ${BINARY_NAME}."
+        echo "  expected: ${EXPECTED}"
+        echo "  actual:   ${ACTUAL}"
+        rm -f "$TMP_BIN" "$TMP_SUM"
+        exit 1
+    fi
+    echo "Checksum OK."
+    rm -f "$TMP_SUM"
 fi
-rm -f "$TMP_SUM"
 
 chmod +x "$TMP_BIN"
 "$TMP_BIN" --version >/dev/null 2>&1 || { echo "ERROR: downloaded file is not a valid PyMon binary"; rm -f "$TMP_BIN"; exit 1; }
