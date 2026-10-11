@@ -2784,5 +2784,12 @@
     "percent": 0,
     "timestamp": "2026-10-11T18:00:22.365Z",
     "type": "gamepass"
+  },
+  "steam_discount_2138710": {
+    "title": "Sifu",
+    "price": 142,
+    "percent": 75,
+    "timestamp": "2026-10-11T20:00:22.199Z",
+    "type": "discount"
   }
 }

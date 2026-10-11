@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:00:22.599Z",
+  "lastUpdated": "2026-10-11T20:00:24.515Z",
   "steam": [
     {
       "id": "1808500",
@@ -80,6 +80,19 @@
       "isPopular": false
     },
     {
+      "id": "2138710",
+      "title": "Sifu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg?t=1782742326",
+      "originalPrice": 569,
+      "discountPrice": 142,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1790336367",
@@ -119,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -140,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -3364,6 +3377,13 @@
       "percent": 0,
       "timestamp": "2026-10-11T18:00:22.365Z",
       "type": "gamepass"
+    },
+    "steam_discount_2138710": {
+      "title": "Sifu",
+      "price": 142,
+      "percent": 75,
+      "timestamp": "2026-10-11T20:00:22.199Z",
+      "type": "discount"
     }
   }
 }
