@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T22:00:24.819Z",
+  "lastUpdated": "2026-10-11T23:00:24.259Z",
   "steam": [
     {
       "id": "1808500",
@@ -67,19 +67,6 @@
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1790336367",
@@ -93,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "2138710",
-      "title": "Sifu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg?t=1782742326",
-      "originalPrice": 569,
-      "discountPrice": 142,
-      "discountPercent": 75,
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138710",
+      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -171,14 +158,14 @@
       "isPopular": true
     },
     {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1790942385",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
+      "id": "3010850",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg?t=1791488050",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
+      "url": "https://store.steampowered.com/app/3010850",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -597,13 +584,6 @@
       "price": 1119,
       "percent": 30,
       "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_2456740": {
-      "title": "inZOI",
-      "price": 959,
-      "percent": 20,
-      "timestamp": "2026-09-11T22:54:44.764Z",
       "type": "discount"
     },
     "steam_discount_252490": {
