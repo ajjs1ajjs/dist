@@ -100,6 +100,11 @@ jobs:
     steps:
       - name: Checkout dist
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          # release-подія чекаутить тег (detached HEAD) — коміт бота мусить
+          # лягати в main, інакше `git push` падає "not currently on a branch"
+          # (runs 38129235336/…; sync-site поруч пушить HEAD:main саме тому).
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
@@ -130,4 +135,5 @@ jobs:
           if [ -n "$TAG" ]; then MSG="chore(hub): sync versions ($TAG)"; else MSG="chore(hub): sync versions"; fi
           git add index.html apps/catalog.json
           git commit -m "$MSG"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
