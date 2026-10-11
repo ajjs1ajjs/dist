@@ -34,7 +34,9 @@ export function formatDate(dateStr: string, includeTime = false): string {
 }
 
 export function escapeHtml(str: string): string {
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  // L1: single quotes escaped too — escapeHtml is also used to build
+  // single-quoted contexts, and pairing callers must not rely on luck.
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&#39;');
 }
 
 export function escapeAttr(url: string): string {

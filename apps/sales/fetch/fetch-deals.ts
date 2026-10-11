@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pino from 'pino';
 import { RateLimiter } from './rate-limiter';
-import type { SteamGame, DealsData, NotifiedItem } from './types';
+import type { SteamGame, GamePassGame, DealsData, NotifiedItem } from './types';
 import { formatPrice, escapeHtml, escapeAttr } from './format';
 
 const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
@@ -17,9 +17,10 @@ const CONFIG = {
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
   tgMessageLimit: 4000,
-  // TG-політика проти спаму: постимо лише глибокі знижки, не більше N за ран.
-  // Сайт при цьому лишає всі пропозиції від 5% — ріжеться тільки нотифікація.
-  tgMinDiscountPercent: 50,
+  // Порог знижки — однаковий для сайту і Telegram (вимога власника: правила
+  // сайту й каналу мають збігатися). Сайт показує знижки від 25%, глибші —
+  // ще й постить у канал (з анти-спам капом і кулдаунами нижче).
+  minDiscountPercent: 25,
   tgMaxDealsPerRun: 10,
   tgTimeoutMs: 10000,
   fetchTimeoutMs: 30000,
@@ -29,6 +30,22 @@ const CONFIG = {
   // Безкоштовно, без ключа; 4 запити на ран (1 categories + 3 search).
   searchPages: 3,
   searchCount: 100,
+  // Game Pass для ПК: неофіційний каталог catalog.gamepass.com (списки
+  // «Recently added» / «Most popular», як на xbox.com) + displaycatalog
+  // для назв/зображень. Без ключа; ~5 запитів на ран.
+  gamepass: {
+    market: 'UA',
+    language: 'uk-ua',
+    /** BigId підписки Game Pass Ultimate (cfq7ttc0khs0 на xbox.com). */
+    subscriptionUltimate: 'cfq7ttc0khs0',
+    /** Sigl-колекції xbox.com: PC «Recently added» та «Most popular». */
+    siglNew: '06323672-b8c8-43cc-b0de-32d5a9834749',
+    siglPopular: 'a884932a-f02b-40c8-a903-a008c23b1df1',
+    detailsBatchSize: 20,
+    // Ключі gamepass_ живуть довше за 30 днів: інакше гра, що тижнями
+    // висить у «Recently added», після очистки сповістилася б повторно.
+    historyRetentionMs: 120 * 24 * 60 * 60 * 1000,
+  },
 } as const;
 
 const DEALS_DIR = CONFIG.dealsDir;
@@ -53,6 +70,9 @@ const STEAM_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (
 // Один лімітер на весь Steam (categories + search): безкоштовно, без ключа,
 // ~4 запити на ран — далеко від обмежень Store API.
 const steamLimiter = new RateLimiter(60);
+
+// Microsoft-каталог: ~5 запитів на ран (2 списки + батчі деталей).
+const gamepassLimiter = new RateLimiter(30);
 
 async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000, timeoutMs = 30000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -116,6 +136,28 @@ interface SteamSearchResponse {
   success?: number;
   total_count?: number;
   results_html?: string;
+}
+
+// Minimal typings for catalog.gamepass.com / displaycatalog responses.
+interface GamePassCatalogEntry {
+  id?: string;
+}
+interface GamePassImage {
+  ImagePurpose?: string;
+  Uri?: string;
+}
+interface GamePassLocalizedProperty {
+  Language?: string;
+  ProductTitle?: string;
+  ProductDescription?: string;
+  Images?: GamePassImage[];
+}
+interface GamePassProduct {
+  ProductId?: string;
+  LocalizedProperties?: GamePassLocalizedProperty[];
+}
+interface GamePassDetailsResponse {
+  Products?: GamePassProduct[];
 }
 
 function decodeEntities(s: string): string {
@@ -203,11 +245,11 @@ function processCategoryItems(
     const isFree = originalPrice > 0 && discountPrice === 0;
     // У top_sellers багато повноцінних ігор без знижки — прапорець isPopular
     // ставимо всім записам бакета, а isSpecial лише реальним знижкам.
-    const isDiscounted = !isFree && pct >= 5;
+    const isDiscounted = !isFree && pct >= CONFIG.minDiscountPercent;
     const isSpecial = opts.specialBucket ? (isDiscounted || isFree) : isDiscounted;
     const isPopular = opts.popularBucket;
 
-    // Зі specials-бакета беремо лише реальні знижки/безкоштовне;
+    // Зі specials-бакета беремо лише знижки від порога/безкоштовне;
     // з top_sellers — усе (топи потрібні для секції трендів).
     if (opts.specialBucket && !opts.popularBucket && !isSpecial && !isFree) continue;
     if (!isSpecial && !isFree && !isPopular) continue;
@@ -262,7 +304,7 @@ function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>): number
         ? Math.round((discountPrice / (1 - discountPercent / 100)) * 100) / 100
         : discountPrice;
     const isFree = discountPercent >= 100 || (originalPrice > 0 && discountPrice === 0);
-    const isSpecial = !isFree && discountPercent >= 5;
+    const isSpecial = !isFree && discountPercent >= CONFIG.minDiscountPercent;
 
     if (!isSpecial && !isFree) continue;
 
@@ -314,6 +356,144 @@ async function fetchSteamGames(): Promise<SteamGame[]> {
   await fetchSteamSearchDeals(gamesMap);
 
   return Array.from(gamesMap.values());
+}
+
+/** Порядок переваги зображень каталогу (усі landscape або близькі до 16:9). */
+const GAMEPASS_IMAGE_PRIORITY = ['TitledHeroArt', 'SuperHeroArt', 'FeaturePromotionalSquareArt', 'BoxArt', 'Poster'] as const;
+
+/** Protocol-relative URI (`//store-images...`) → https — safeUrl у UI такі відкидає. */
+function toHttpsUri(uri: string): string {
+  return uri.startsWith('//') ? `https:${uri}` : uri;
+}
+
+/** Slug у шляху xbox.com довільний (реальний slug підставляє сам сайт), тому робимо з назви. */
+function gamepassProductUrl(id: string, title: string): string {
+  const slug = title
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 80) || 'game';
+  return `https://www.xbox.com/uk-UA/games/store/${slug}/${id}`;
+}
+
+function pickGamePassTitle(product: GamePassProduct): string {
+  const localized = product.LocalizedProperties ?? [];
+  const uk = localized.find((l) => typeof l.Language === 'string' && l.Language.toLowerCase().startsWith('uk'));
+  const title = (uk ?? localized[0])?.ProductTitle;
+  return typeof title === 'string' ? title.trim().slice(0, 300) : '';
+}
+
+function pickGamePassDescription(product: GamePassProduct): string {
+  const localized = product.LocalizedProperties ?? [];
+  const uk = localized.find((l) => typeof l.Language === 'string' && l.Language.toLowerCase().startsWith('uk'));
+  const description = (uk ?? localized[0])?.ProductDescription;
+  // Один рядок без переносів — інакше TG-пост «пливе».
+  return typeof description === 'string' ? description.replace(/\s+/g, ' ').trim().slice(0, 200) : '';
+}
+
+function pickGamePassImage(product: GamePassProduct): string {
+  const images = (product.LocalizedProperties ?? []).flatMap((l) => l.Images ?? []);
+  for (const purpose of GAMEPASS_IMAGE_PRIORITY) {
+    const image = images.find((i) => i.ImagePurpose === purpose && typeof i.Uri === 'string' && i.Uri.length > 0);
+    if (image && image.Uri) return toHttpsUri(image.Uri);
+  }
+  const any = images.find((i) => typeof i.Uri === 'string' && i.Uri.length > 0);
+  return any && any.Uri ? toHttpsUri(any.Uri) : '';
+}
+
+/** Id з sigl-колекції Game Pass (перший елемент відповіді — заголовок колекції). */
+async function fetchGamePassIds(siglId: string): Promise<string[]> {
+  await gamepassLimiter.take();
+  const url =
+    `https://catalog.gamepass.com/sigls/v3?id=${siglId}` +
+    `&language=${CONFIG.gamepass.language}&market=${CONFIG.gamepass.market}` +
+    `&platformContext=pc&subscriptionContext=${CONFIG.gamepass.subscriptionUltimate}`;
+  const res = await fetchWithRetry(url, { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } });
+  const data: unknown = await res.json();
+  if (!Array.isArray(data)) {
+    logger.warn({ siglId }, 'gamepass sigl response is not an array');
+    return [];
+  }
+
+  const ids: string[] = [];
+  for (const entry of data as GamePassCatalogEntry[]) {
+    const id = typeof entry?.id === 'string' ? entry.id.trim().toUpperCase() : '';
+    if (/^[A-Z0-9]{8,20}$/.test(id)) ids.push(id);
+  }
+  logger.info({ siglId, count: ids.length }, 'gamepass list fetched');
+  return [...new Set(ids)];
+}
+
+/** Деталі продуктів (назва/опис/зображення) батчами через displaycatalog. */
+async function fetchGamePassDetails(ids: string[]): Promise<Map<string, { title: string; description: string; imageUrl: string }>> {
+  const details = new Map<string, { title: string; description: string; imageUrl: string }>();
+  for (let i = 0; i < ids.length; i += CONFIG.gamepass.detailsBatchSize) {
+    const batch = ids.slice(i, i + CONFIG.gamepass.detailsBatchSize);
+    try {
+      await gamepassLimiter.take();
+      const url =
+        `https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=${batch.join(',')}` +
+        `&market=${CONFIG.gamepass.market}&languages=${CONFIG.gamepass.language}`;
+      const res = await fetchWithRetry(url, { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } });
+      const data = (await res.json()) as GamePassDetailsResponse;
+      for (const product of data.Products ?? []) {
+        const id = typeof product.ProductId === 'string' ? product.ProductId.trim().toUpperCase() : '';
+        const title = pickGamePassTitle(product);
+        if (!id || !title) continue;
+        details.set(id, { title, description: pickGamePassDescription(product), imageUrl: pickGamePassImage(product) });
+      }
+    } catch (err) {
+      // Частковий збій батча не має валити весь каталог — решта батчів іде далі.
+      logger.warn({ offset: i, err: err instanceof Error ? err.message : String(err) }, 'gamepass details batch failed');
+    }
+  }
+  return details;
+}
+
+async function fetchGamePassGames(): Promise<GamePassGame[]> {
+  logger.info('Fetching Game Pass for PC: recently added + most popular...');
+  const [newIds, popularIds] = await Promise.all([
+    fetchGamePassIds(CONFIG.gamepass.siglNew),
+    fetchGamePassIds(CONFIG.gamepass.siglPopular),
+  ]);
+
+  const flags = new Map<string, { isNew: boolean; isPopular: boolean }>();
+  for (const id of newIds) flags.set(id, { isNew: true, isPopular: false });
+  for (const id of popularIds) {
+    const entry = flags.get(id) ?? { isNew: false, isPopular: false };
+    entry.isPopular = true;
+    flags.set(id, entry);
+  }
+
+  const ids = [...flags.keys()];
+  const details = await fetchGamePassDetails(ids);
+  // Більшість батчів не віддали деталей — вважаємо ран невдалим, щоб не
+  // підмінити повний каталог обрізком.
+  if (ids.length > 0 && details.size < ids.length / 2) {
+    throw new Error(`gamepass details resolved only ${details.size}/${ids.length}`);
+  }
+
+  const games: GamePassGame[] = [];
+  for (const [id, flag] of flags) {
+    const detail = details.get(id);
+    if (!detail) continue; // без назви картка марна — краще пропустити
+    games.push({
+      id,
+      title: detail.title,
+      imageUrl: detail.imageUrl,
+      url: gamepassProductUrl(id, detail.title),
+      description: detail.description,
+      isNew: flag.isNew,
+      isPopular: flag.isPopular,
+    });
+  }
+  logger.info(
+    { total: games.length, recentlyAdded: newIds.length, mostPopular: popularIds.length },
+    'gamepass catalog fetched',
+  );
+  return games;
 }
 
 async function sendTelegramMessage(text: string) {
@@ -382,7 +562,7 @@ async function sendTelegramMessage(text: string) {
 }
 
 async function run() {
-  logger.info('Starting deals fetcher script (Steam-only)...');
+  logger.info('Starting deals fetcher script (Steam + Game Pass PC)...');
 
   // Load previous deals for comparison.
   // Поле `epic` зі старих файлів ігнорується (перехід на Steam-only):
@@ -392,11 +572,12 @@ async function run() {
     return {
       lastUpdated: typeof p.lastUpdated === 'string' ? p.lastUpdated : '',
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
+      gamepass: Array.isArray(p.gamepass) ? (p.gamepass as GamePassGame[]) : [],
       notifiedHistory: {},
     };
   };
 
-  let oldData: DealsData = { lastUpdated: '', steam: [], notifiedHistory: {} };
+  let oldData: DealsData = { lastUpdated: '', steam: [], gamepass: [], notifiedHistory: {} };
   if (fs.existsSync(DEALS_PATH)) {
     try {
       oldData = coerceOldData(JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')));
@@ -459,13 +640,15 @@ async function run() {
 
   // Clean notified history: remove expired (30 days) and corrupted (NaN timestamp) entries
   const now = new Date();
-  const thirtyDaysAgo = now.getTime() - 30 * 24 * 60 * 60 * 1000;
 
   for (const [key, value] of Object.entries(notifiedHistory)) {
     const notifiedTime = new Date(value.timestamp).getTime();
     // Видаляємо застарілі ТА пошкоджені (невалідна дата → NaN) записи,
     // інакше биті записи накопичувалися б вічно (NaN < x === false).
-    if (Number.isNaN(notifiedTime) || notifiedTime < thirtyDaysAgo) {
+    // Game Pass-ключі тримаємо довше (див. CONFIG.gamepass): запис, що
+    // зник із файлу, поки гра ще висить у «Recently added», дав би дубль.
+    const maxAgeMs = key.startsWith('gamepass_') ? CONFIG.gamepass.historyRetentionMs : CONFIG.historyRetentionMs;
+    if (Number.isNaN(notifiedTime) || notifiedTime < now.getTime() - maxAgeMs) {
       delete notifiedHistory[key];
     }
   }
@@ -488,6 +671,22 @@ async function run() {
     logger.warn('⚠️ Steam fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
   }
 
+  // Fetch Game Pass for PC catalog. Збій Microsoft-каталогу не має валити ран
+  // і не має стирати попередній каталог — лишаємо старі дані, якщо нові пусті.
+  let freshGamePass: GamePassGame[] = [];
+  let gamepassFetchSuccess = false;
+  try {
+    freshGamePass = await fetchGamePassGames();
+    gamepassFetchSuccess = true;
+  } catch (err) {
+    logger.error({ err: err instanceof Error ? err.message : String(err) }, 'gamepass fetch failed');
+  }
+  if (gamepassFetchSuccess && freshGamePass.length === 0 && (oldData.gamepass?.length ?? 0) > 0) {
+    logger.warn('⚠️ gamepass fetch succeeded but returned an empty list. Keeping previous catalog.');
+  }
+  const gamepass: GamePassGame[] =
+    gamepassFetchSuccess && freshGamePass.length > 0 ? freshGamePass : oldData.gamepass ?? [];
+
   // Detect changes
   const newSteamFreeGames: SteamGame[] = [];
   let newSteamDeals: SteamGame[] = [];
@@ -503,8 +702,9 @@ async function run() {
       }
     }
 
-    // TG: лише глибокі знижки (від tgMinDiscountPercent). Сайт показує всі від 5%.
-    if (game.isSpecial && game.discountPercent >= CONFIG.tgMinDiscountPercent) {
+    // TG: той самий порог, що й на сайті (від CONFIG.minDiscountPercent) —
+    // правила сайту та каналу однакові; анти-спам нижче ріже обсяг.
+    if (game.isSpecial && game.discountPercent >= CONFIG.minDiscountPercent) {
       const historyKey = `steam_discount_${game.id}`;
       const historyEntry = notifiedHistory[historyKey];
 
@@ -543,7 +743,60 @@ async function run() {
     newSteamDeals = newSteamDeals.slice(0, CONFIG.tgMaxDealsPerRun);
   }
 
-  logger.info(`Detected: ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam (total ${freshSteam.length}).`);
+  // Game Pass: новинки каталогу. Перший ран після деплою (жодного ключа
+  // gamepass_ в історії) лише запам'ятовує поточний список — без заливки
+  // каналу десятками постів; далі постимо тільки реально нові ігри.
+  const hasGamePassHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_'));
+  const newGamePassGames: GamePassGame[] = [];
+  for (const game of gamepass) {
+    const historyKey = `gamepass_${game.id}`;
+    if (notifiedHistory[historyKey]) continue;
+    if (!hasGamePassHistory) {
+      markNotified(historyKey, {
+        title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass',
+      });
+      continue;
+    }
+    newGamePassGames.push(game);
+  }
+  if (newGamePassGames.length > CONFIG.tgMaxDealsPerRun) {
+    logger.info(
+      { total: newGamePassGames.length, capped: CONFIG.tgMaxDealsPerRun },
+      'capping gamepass telegram posts (rest stays for next run)',
+    );
+    newGamePassGames.length = CONFIG.tgMaxDealsPerRun;
+  }
+
+  // Game Pass: топ популярних — постимо гру, коли вона вперше потрапляє в
+  // список «Most popular» (повторних постів про той самий топ немає).
+  // Гра, яку цього ж рану вже запостили як новинку, не дублюється.
+  const hasGamePassPopularHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_popular_'));
+  const newPopularGamePassGames: GamePassGame[] = [];
+  const justPostedGamePassIds = new Set(newGamePassGames.map((g) => g.id));
+  for (const game of gamepass) {
+    if (!game.isPopular) continue;
+    const historyKey = `gamepass_popular_${game.id}`;
+    if (notifiedHistory[historyKey]) continue;
+    if (!hasGamePassPopularHistory || justPostedGamePassIds.has(game.id)) {
+      markNotified(historyKey, {
+        title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass',
+      });
+      continue;
+    }
+    newPopularGamePassGames.push(game);
+  }
+  if (newPopularGamePassGames.length > CONFIG.tgMaxDealsPerRun) {
+    logger.info(
+      { total: newPopularGamePassGames.length, capped: CONFIG.tgMaxDealsPerRun },
+      'capping gamepass popular telegram posts (rest stays for next run)',
+    );
+    newPopularGamePassGames.length = CONFIG.tgMaxDealsPerRun;
+  }
+
+  logger.info(
+    `Detected: ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam (total ${freshSteam.length}), ` +
+    `${newGamePassGames.length} new Game Pass, ${newPopularGamePassGames.length} popular Game Pass (catalog ${gamepass.length}).`,
+  );
 
   function markNotified(key: string, entry: NotifiedItem) {
     notifiedHistory[key] = entry;
@@ -603,7 +856,7 @@ async function run() {
 
   if (newSteamDeals.length > 0) {
     await sendBatched(
-      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 50%)!</b>\n\n`,
+      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n`,
       newSteamDeals,
       `🚀 Більше знижок дивіться на нашому сайті!`,
       (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Steam'),
@@ -625,11 +878,56 @@ async function run() {
     );
   }
 
-  // Save updated data (Steam-only; поле epic видалено)
+  if (newGamePassGames.length > 0) {
+    await sendBatched(
+      `🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n`,
+      newGamePassGames,
+      `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
+      (game) => {
+        let text = `🎮 ${gameTitle(game.title)}\n`;
+        const desc = game.description?.trim();
+        if (desc) {
+          text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
+        }
+        text += `✅ Доступно в PC Game Pass\n`;
+        text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
+        return text;
+      },
+      (i) => markNotified(`gamepass_${newGamePassGames[i].id}`, {
+        title: newGamePassGames[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
+      }),
+    );
+  }
+
+  if (newPopularGamePassGames.length > 0) {
+    await sendBatched(
+      `🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n`,
+      newPopularGamePassGames,
+      `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
+      (game) => {
+        let text = `🎮 ${gameTitle(game.title)}\n`;
+        const desc = game.description?.trim();
+        if (desc) {
+          text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
+        }
+        text += `🔥 Зараз у топі популярних PC Game Pass\n`;
+        text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
+        return text;
+      },
+      (i) => markNotified(`gamepass_popular_${newPopularGamePassGames[i].id}`, {
+        title: newPopularGamePassGames[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
+      }),
+    );
+  }
+
+  // Save updated data (Steam + Game Pass for PC; поле epic видалено).
+  // notifiedHistory вбудовуємо і в deals.json: сайт читає історію саме звідти
+  // (окремий notified-history.json — merge-friendly джерело для scheduler-а).
   const newData: DealsData = {
     lastUpdated: new Date().toISOString(),
     steam: freshSteam,
-    notifiedHistory: {}
+    gamepass,
+    notifiedHistory
   };
 
   await fs.promises.mkdir(DEALS_DIR, { recursive: true });
