@@ -241,7 +241,7 @@ RestrictRealtime=true
 LockPersonality=true
 MemoryDenyWriteExecute=true
 RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
-ReadWritePaths=$DATA_DIR $LOG_DIR
+ReadWritePaths=$DATA_DIR $LOG_DIR -$INSTALL_DIR/.config
 
 [Install]
 WantedBy=multi-user.target

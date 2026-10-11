@@ -254,7 +254,7 @@ ProtectKernelModules=yes
 ProtectControlGroups=yes
 RestrictSUIDSGID=yes
 CapabilityBoundingSet=
-ReadWritePaths=$DATA_DIR $LOG_DIR $CONFIG_DIR
+ReadWritePaths=$DATA_DIR $LOG_DIR $CONFIG_DIR -$INSTALL_DIR/.config
 
 [Install]
 WantedBy=multi-user.target
