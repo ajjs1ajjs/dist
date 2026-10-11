@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T14:00:23.446Z",
+  "lastUpdated": "2026-10-11T14:57:42.159Z",
   "steam": [
     {
       "id": "1808500",
@@ -10,19 +10,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1808500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -41,27 +28,14 @@
       "isPopular": false
     },
     {
-      "id": "4968640",
-      "title": "Japanese Ramen Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/307166efa12d7b776a606c66440a989fae5be1c4/capsule_616x353.jpg?t=1791626249",
-      "originalPrice": 335,
-      "discountPrice": 284,
-      "discountPercent": 15,
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4968640",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2254990",
-      "title": "Permafrost",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254990/322d6c88c579a5ebad51c3dba9d1255b9ec3399a/capsule_616x353.jpg?t=1791608052",
-      "originalPrice": 499,
-      "discountPrice": 399,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2254990",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -88,19 +62,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3883570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1478500",
-      "title": "Big Walk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674",
-      "originalPrice": 449,
-      "discountPrice": 359,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1478500",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -158,19 +119,6 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3219030",
       "title": "Planet Zoo 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1790942385",
@@ -179,6 +127,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3219030",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -210,5 +171,3162 @@
       "isPopular": true
     }
   ],
-  "notifiedHistory": {}
+  "gamepass": [
+    {
+      "id": "9N72DFC6GL91",
+      "title": "Echo Weaver",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28636.14007070537305664.00bf98ed-c00e-4026-9697-fb45bcd66227.f67c6ef9-d16c-47c8-b273-776aa35b8043",
+      "url": "https://www.xbox.com/uk-UA/games/store/echo-weaver/9N72DFC6GL91",
+      "description": "Time is Your Resource Master an unraveling time loop in this knowledge-based Metroidvania. As the last Weaver, exploit time-altering anomalies and use what you learn to break the cycle. Explore what r",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NFB47H2SDRX",
+      "title": "Forever Ago",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34764.13602461240998233.6f87298c-1315-45ca-95cb-f70de3689fc6.a2ce05cb-60a9-404b-b9b9-30672f026ec7",
+      "url": "https://www.xbox.com/uk-UA/games/store/forever-ago/9NFB47H2SDRX",
+      "description": "Після певних трагічних подій Альфред вирушає на північ у пошуках спокути. Мандруйте дорогами разом із ним у цій грі для одного користувача й побачте неймовірні місця, зробіть пам’ятні знімки, зустрінь",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9P5QV5XX8S9H",
+      "title": "Neon Abyss 2",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.37622.14568732908027610.68635d5d-3a83-401c-989b-7640ee69ed9c.6d37d4c2-fa60-4549-8f7a-a7fe3f42441d",
+      "url": "https://www.xbox.com/uk-UA/games/store/neon-abyss-2/9P5QV5XX8S9H",
+      "description": "Зануртеся глибше в хаотичну Безодню в Neon Abyss 2! Події розгортаються ще стрімкіше, ставки стають іще вищими, а можливості — безмежними. На вас чекають перестрілки в стилі «біжи та стріляй», різнома",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N4PT8HGCDHQ",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.7129.13978914104035031.46ab30c4-87b3-48d6-9e4a-ed44b301b17a.c6a61057-524a-4b26-a462-7cb77482c68f",
+      "url": "https://www.xbox.com/uk-UA/games/store/gears-of-war-e-day/9N4PT8HGCDHQ",
+      "description": "Початок вторгнення Відчуйте жах і жорстокість Дня вторгнення Чотирнадцять років до оригінальної Gears of War — приєднуйтеся до Маркуса Фенікса та Домініка Сантьяго в оригінальній напруженій сюжетній к",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PM3J18QM4Q3",
+      "title": "Minecraft Dungeons II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42553.14305479850136392.1d44bfb9-b43e-4fae-a421-d6f972529d66.9523b661-eef0-4e38-88f4-d425d8e88953",
+      "url": "https://www.xbox.com/uk-UA/games/store/minecraft-dungeons-ii/9PM3J18QM4Q3",
+      "description": "Над Верхнім світом нависла нова загроза… Minecraft Dungeons II вже вийшла. На вас чекає ще більше дій, більше здобичі й більше пригод. Пройдіть крізь Розлом і вирушайте туди, де ще не бував жоден геро",
+      "isNew": true,
+      "isPopular": true
+    },
+    {
+      "id": "9N944N1WP67T",
+      "title": "Mad King Redemption",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14521.13544556109351948.9c4c33b4-f6ce-4d2c-ac5f-3aa565d08d7d.eb03fc89-f3ca-415d-aef6-27921c78ef63",
+      "url": "https://www.xbox.com/uk-UA/games/store/mad-king-redemption/9N944N1WP67T",
+      "description": "The Kingdom has fallen to the Mad King, who has used forbidden magic to try to resuscitate the queen. But the powers of life and death were too big to handle for him, and as a consequence, the King lo",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PLH7R84GJWP",
+      "title": "Well Dweller",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.21357.14313416011451880.0dc13654-082f-4832-844b-343ef39821bf.c6427bfa-024b-4e0b-a064-009b6cbc3d92",
+      "url": "https://www.xbox.com/uk-UA/games/store/well-dweller/9PLH7R84GJWP",
+      "description": "Deep within the forest, at the bottom of a well, lives the only creature brave enough to kill the queen... WELL DWELLER is a dark fairy-tale metroidvania made by the creators of Crypt Custodian and Is",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PJ6FV3130QZ",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.57302.14221973547534254.c9400a22-a0eb-4428-bc72-11e2270ad849.eafa7d9c-446c-44be-b6f6-2c84d41417e7",
+      "url": "https://www.xbox.com/uk-UA/games/store/dune-awakening/9PJ6FV3130QZ",
+      "description": "Dune: Awakening — це рольова гра в жанрі «виживання» у відкритому світі, який можна вивчати як в одноосібному, так і в багатоосібному режимах. Досліджуйте, будуйте, майструйте й дізнавайтеся видовищну",
+      "isNew": true,
+      "isPopular": true
+    },
+    {
+      "id": "9NXSNQR7CM1Q",
+      "title": "Kernel Hearts",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56117.14493835367297887.3d2ad750-4d36-4684-b869-351a4f2e7062.6bf5e000-a5fb-4932-a6eb-000de15a5a9e",
+      "url": "https://www.xbox.com/uk-UA/games/store/kernel-hearts/9NXSNQR7CM1Q",
+      "description": "Kernel Hearts is a unique blend of action RPG and roguelike elements with multiplayer co-op. As part of the M.A.H.O.U Unit, you are tasked with climbing the Tower of Babel, eliminating the angelic cre",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PK0DZ68LGC0",
+      "title": "Shape of Dreams",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.58855.14272457971400341.9e426def-5803-4abc-8dd4-76b9f9ab9f3d.fa41ff41-262a-4780-942a-7a2c33876e87",
+      "url": "https://www.xbox.com/uk-UA/games/store/shape-of-dreams/9PK0DZ68LGC0",
+      "description": "Shape of Dreams is an action roguelite that combines hack-and-slash combat, MOBA-style team play, and strategic choices. Journey through ever-changing worlds, from scorching lava fields and blizzard m",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PK8PHLCQDF6",
+      "title": "Aniimo",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.6922.14271146495264987.c32913b7-6895-4338-ad19-54121ee5a1e9.f22c3b18-4a40-420c-a12f-73706aac4519",
+      "url": "https://www.xbox.com/uk-UA/games/store/aniimo/9PK8PHLCQDF6",
+      "description": "Aniimo — це безплатна рольова гра наступного покоління з відкритим світом, де потрібно ловити створінь. На просторах великого материка Ідилл ви зустрінете безліч унікальних істот, яких кличуть Aniimo.",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9P402RWR63H4",
+      "title": "RuneScape: Dragonwilds",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.53893.14598963835318421.d3340a04-fc78-4b06-9abb-2849494504b3.79722929-7bde-4f54-83cf-ea35aec60bef",
+      "url": "https://www.xbox.com/uk-UA/games/store/runescape-dragonwilds/9P402RWR63H4",
+      "description": "On RuneScape's forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft in this co-operative survival adventure. Only by mastering survival and uncovering ancient secrets ",
+      "isNew": true,
+      "isPopular": true
+    },
+    {
+      "id": "9N034X5G08B7",
+      "title": "The Royal Writ",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.18331.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.4b8d8879-9625-4c06-9ccf-a9f8f83ca818",
+      "url": "https://www.xbox.com/uk-UA/games/store/the-royal-writ/9N034X5G08B7",
+      "description": "In The Royal Writ, you don't just play cards - you command them on the battlefield. Place your loyal subjects strategically as they advance toward the enemy, dealing damage. But beware: any card that ",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NSM674QVLBS",
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54610.14360936962313275.d2dd0342-a5b1-4e46-bd2a-9de7360ee291.b384634a-f7e7-430e-a4dd-7357c19fb512",
+      "url": "https://www.xbox.com/uk-UA/games/store/virtua-fighter-5-r-e-v-o-world-stage/9NSM674QVLBS",
+      "description": "Легендарна серія 3D-файтингу виходить на новий рівень. Зустрічайте Virtua Fighter 5 R.E.V.O. World Stage на Xbox Series X|S. Virtua Fighter 5 R.E.V.O. World Stage представляє вдосконалений ігролад Vir",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N72SFQ24KW8",
+      "title": "Call of Duty®: Black Ops Cold War (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65365.14006772409173009.275a9108-bec7-47d8-b889-1be3519a0aa3.9718df8d-4baa-4b95-a9af-b84fd157a6d8",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-cold-war-windows/9N72SFQ24KW8",
+      "description": "Includes: - Call of Duty®: Black Ops Cold War game - Legendary Captain Price Operator Skin* Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, drops fans into the depths of the Cold Wa",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PPKR9N31BW6",
+      "title": "SpeedRunners 2: King of Speed",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.15531.14327242010981927.a5495c37-2e09-4b3f-82a1-e015a8eb734a.be00583f-85c9-4ed5-804d-9c2eef34992d",
+      "url": "https://www.xbox.com/uk-UA/games/store/speedrunners-2-king-of-speed/9PPKR9N31BW6",
+      "description": "НАСТУПНЕ ПОКОЛІННЯ SPEEDRUNNERS У цьому сиквелі ми хотіли ретельно відтворити унікальний \"стиль SpeedRunners\" у новій ері, зберігши глибину та плинність системи руху, а також її простоту. Окрім цього,",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N51NR4GX891",
+      "title": "Shelldiver",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.3140.13976576036437000.15d2217e-0f3f-430d-bd96-a7159bbf5985.c877d7da-9a69-41bd-82ce-37d9ccfab8a6",
+      "url": "https://www.xbox.com/uk-UA/games/store/shelldiver/9N51NR4GX891",
+      "description": "All aboard the submarine! Shelldiver is an incremental game about a turtle fishing jellyfish and selling them at their little shop. Help our senior protagonist upgrade their equipment, explore various",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PPBNCXP0096",
+      "title": "Resonance: A Plague Tale Legacy",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31449.14332070469741251.b219f2ed-9161-4e36-815d-0a90a76aae89.6174385d-b0b1-4c4f-beca-601d61c12e16",
+      "url": "https://www.xbox.com/uk-UA/games/store/resonance-a-plague-tale-legacy/9PPBNCXP0096",
+      "description": "Події розгортаються за 15 років до «Реквієму», і ви граєте за Софію — молоду, але безстрашну розбійницю, яка переховується від погоні й прагне розгадати таємниці свого минулого. Пориньте в захопливу і",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N0QWXC09MPT",
+      "title": "Once Human",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.9986.13916126641198036.93e1b525-8641-4737-a69b-7287498c268a.938577e6-b327-4bc4-ba65-ecad80e27f5f",
+      "url": "https://www.xbox.com/uk-UA/games/store/once-human/9N0QWXC09MPT",
+      "description": "Once Human — це гра про виживання в дивних світах, дія якої розгортається в химерному постапокаліптичному світі. Боріться пліч-о-пліч із друзями за ресурси для виживання, будуйте свою домашню територі",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9MSVBF0KZFVW",
+      "title": "Blood Dungeon",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.5432.13820636594696612.89ecbd3c-b2c0-41f3-8114-c05de3a18b22.8ed39ec1-10f1-4c0d-b59e-343b5680a023",
+      "url": "https://www.xbox.com/uk-UA/games/store/blood-dungeon/9MSVBF0KZFVW",
+      "description": "Від творців Nidhogg — виживайте в динамічному 2D-платформері. Майстерно долайте підступні підземелля, тримайте монстрів на відстані та збирайте кров і підсилення. Переживіть вилазку, віднесіть здобуті",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NKDZ44LZR2R",
+      "title": "Transference",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42332.13662575907042688.2861c98a-7aa5-4a06-a574-f6e3595fc74e.d81d6a36-4966-463a-b92f-9e5eee64c7e6",
+      "url": "https://www.xbox.com/uk-UA/games/store/transference/9NKDZ44LZR2R",
+      "description": "Available in VR and Non-VR. Imagine an escape room set in a deranged mind. Experience a first-person exploration game in a chilling new dimension. Shift between three perspectives of a family in this ",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N5VHX8KMVNV",
+      "title": "Vapor World: Over The Mind (Game Preview)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14555.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.059227ec-dfc5-442d-93a7-efa17f457bab",
+      "url": "https://www.xbox.com/uk-UA/games/store/vapor-world-over-the-mind-game-preview/9N5VHX8KMVNV",
+      "description": "The full message from the director is included at the bottom of the game description page. Lost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-dri",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9PPH71DV44T7",
+      "title": "Sandustry (Game Preview)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.12646.14324477862367650.3d3cc6a2-f95a-4f3c-a402-9cd3bfe2dcd9.1cf079d6-83b6-4490-8b72-6b27cd69443e",
+      "url": "https://www.xbox.com/uk-UA/games/store/sandustry-game-preview/9PPH71DV44T7",
+      "description": "Sandustry — це гра про автоматизацію виробництва, у якій кожен піксель — це ресурс, що чекає, доки його видобудуть, поєднають, оброблять або знищать. Досліджуйте величезний відкритий світ, де все можн",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N6JF50HZFW9",
+      "title": "Cricket 26 - The Official Game of the Ashes",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28605.14013085416782408.e98ee06f-ac83-4b7e-91fa-fefedfe1c305.0d8f110d-5463-47b9-8ed4-6b6622930eb2",
+      "url": "https://www.xbox.com/uk-UA/games/store/cricket-26-the-official-game-of-the-ashes/9N6JF50HZFW9",
+      "description": "Зовсім нова кар'єра менеджера, більша і краща професійна команда, поглиблений режим Ashes та розширений контроль на полі та поза ним завдяки вдосконаленому ігровому процесу та глибоким стратегіям — Cr",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9P9GX5D8H9DW",
+      "title": "TCG Card Shop Simulator",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.64311.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.eaef76d6-e392-41b4-a1a5-4ed9c5855ae2",
+      "url": "https://www.xbox.com/uk-UA/games/store/tcg-card-shop-simulator/9P9GX5D8H9DW",
+      "description": "TCG Card Shop Simulator is a trading card shop simulation where you sell card booster packs to earn money and build your card shop business. Manage Your Shop: Design your own TCG shop. Organize shelve",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NDJX252Q5BW",
+      "title": "Moonlighter 2: The Endless Vault",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.30993.13613495733795404.958a29ae-aca4-4c3f-a15c-62c6c57d4d68.09a6ffc2-b885-4057-b80e-f382b4b8a2f4",
+      "url": "https://www.xbox.com/uk-UA/games/store/moonlighter-2-the-endless-vault/9NDJX252Q5BW",
+      "description": "WILL IS BACK TO BUSINESS Live the double life of a resourceful merchant and fearless adventurer in this sequel to the hit rogue-lite Action-RPG! Stranded without a coin in the village of Tresna, Will ",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9P91FNMH1GG0",
+      "title": "Age of Empires III: Definitive Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20714.14081462193625859.994d9972-d3a0-4111-83ed-b0dd9fc78edd.e4baaecf-b239-4ef8-b204-fef8f0c984f0",
+      "url": "https://www.xbox.com/uk-UA/games/store/age-of-empires-iii-definitive-edition/9P91FNMH1GG0",
+      "description": "Age of Empires III: Definitive Edition відзначає одну з найулюбленіших франшиз у жанрі стратегії в реальному часі в повному виданні з розширеними функціями та модернізованим ігровим процесом. Візьміть",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NXP44L49SHJ",
+      "title": "Minecraft: Java & Bedrock Edition for PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.58378.14492077886571533.338a563a-86e7-47b1-b9dc-41cf411f5dcd.dc840f22-6e8f-4a59-b7bc-57958a0740fd",
+      "url": "https://www.xbox.com/uk-UA/games/store/minecraft-java-bedrock-edition-for-pc/9NXP44L49SHJ",
+      "description": "ВТІЛЮЙТЕ ІДЕЇ Створюйте все, що можете уявити, у власному безмежному світі, що є унікальним для кожного проходження. ДОСЛІДЖУЙТЕ Знаходьте біоми, ресурси та мобів, прокладіть свій власний шлях у світі",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N431PX143P8",
+      "title": "Forza Horizon 6 Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50642.14202278764680089.8e4c786a-0a1c-4737-a244-0bdfa34aab7b.5a985817-6d04-4bda-970d-b74bb963c0b8",
+      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-6-standard-edition/9N431PX143P8",
+      "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend at the Horizon Festival. Start your journey as a tourist and explore a world full of hit music and ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N8KMNW6942X",
+      "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.58660.14316447222402733.7ce700b1-c1f1-4c72-a33b-ea4a18861dcb.784fadc8-05a3-4d01-b772-2ca2c4d6e955",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-7-cross-gen-bundle/9N8KMNW6942X",
+      "description": "Includes: - Cross-Gen Bundle of Call of Duty®: Black Ops 7 -- Includes Xbox Series X|S, Xbox One and Xbox on PC versions of the game In Call of Duty®: Black Ops 7, Treyarch and Raven Software are brin",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NNFG8BQRCXL",
+      "title": "Call of Duty®: Warzone™",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.49174.13739535057760905.ee63b998-143e-4256-bd0e-3e78d667ab11.963f63f6-39e4-49ae-9285-4bb326510e56",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-warzone/9NNFG8BQRCXL",
+      "description": "Call of Duty®: Warzone™ will no longer be playable on Xbox One at the end of Season 06 of Black Ops 7. Welcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling m",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PB301R051CQ",
+      "title": "League of Legends",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
+      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
+      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NKCCHCFTHV2",
+      "title": "VALORANT PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20115.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.13d8e735-10da-4211-8403-8119d39f1b0a",
+      "url": "https://www.xbox.com/uk-UA/games/store/valorant-pc/9NKCCHCFTHV2",
+      "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork. DEFY THE LIM",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9P36DQX6W9CS",
+      "title": "Overwatch® PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61926.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.37d8b348-3f90-4136-84f7-318395b75e82",
+      "url": "https://www.xbox.com/uk-UA/games/store/overwatch-pc/9P36DQX6W9CS",
+      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N0H62KZ3BXV",
+      "title": "Diablo® IV PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
+      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
+      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9WZDNCRFHWD2",
+      "title": "Microsoft Solitaire Collection",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
+      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PBRN7JS4XPC",
+      "title": "Heroes of the Storm™",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
+      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
+      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NP6WL1XQDBW",
+      "title": "SnowRunner - Windows",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
+      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
+      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9P2VGCTBMM52",
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
+      "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PD0Z90216RJ",
+      "title": "Football Manager 26",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31556.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.585f6932-0069-484a-a733-76359843a3ba",
+      "url": "https://www.xbox.com/uk-UA/games/store/football-manager-26/9PD0Z90216RJ",
+      "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI Нова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. Переосмислений інт",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NDKFJ6XDX2M",
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
+      "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PGZ346PSLN0",
+      "title": "Cities: Skylines II - PC Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54933.14241982748923031.b7ab82d8-956b-4d85-b739-c1cd07cb25df.63a2e437-2ce6-4dab-a6fe-a1d8d901b187",
+      "url": "https://www.xbox.com/uk-UA/games/store/cities-skylines-ii-pc-edition/9PGZ346PSLN0",
+      "description": "Збудуй свою мрію. Побудуйте місто з нуля і перетворіть його на квітучий мегаполіс. Ви досі не стикалися із будівництвом такого масштабу. Будуйте без обмежень разом із Cities: Skylines II. Закладіть ос",
+      "isNew": false,
+      "isPopular": true
+    }
+  ],
+  "notifiedHistory": {
+    "steam_discount_3768760": {
+      "title": "007 First Light",
+      "price": 1119,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2456740": {
+      "title": "inZOI",
+      "price": 959,
+      "percent": 20,
+      "timestamp": "2026-09-11T22:54:44.764Z",
+      "type": "discount"
+    },
+    "steam_discount_252490": {
+      "title": "Rust",
+      "price": 389,
+      "percent": 50,
+      "timestamp": "2026-09-13T00:32:24.482Z",
+      "type": "discount"
+    },
+    "steam_discount_4108000": {
+      "title": "Machine Party",
+      "price": 159,
+      "percent": 20,
+      "timestamp": "2026-09-13T05:33:30.890Z",
+      "type": "discount"
+    },
+    "steam_discount_1086940": {
+      "title": "Baldur's Gate 3",
+      "price": 629,
+      "percent": 30,
+      "timestamp": "2026-09-14T21:13:39.281Z",
+      "type": "discount"
+    },
+    "steam_discount_3008130": {
+      "title": "Dying Light: The Beast",
+      "price": 799,
+      "percent": 50,
+      "timestamp": "2026-09-14T21:13:39.281Z",
+      "type": "discount"
+    },
+    "steam_discount_3375780": {
+      "title": "Trails in the Sky 1st Chapter",
+      "price": 562,
+      "percent": 50,
+      "timestamp": "2026-09-14T21:13:39.281Z",
+      "type": "discount"
+    },
+    "steam_discount_1172620": {
+      "title": "Sea of Thieves: 2026 Edition",
+      "price": 360,
+      "percent": 65,
+      "timestamp": "2026-09-14T21:13:39.281Z",
+      "type": "discount"
+    },
+    "steam_discount_2001120": {
+      "title": "Split Fiction",
+      "price": 844,
+      "percent": 35,
+      "timestamp": "2026-09-14T21:13:39.281Z",
+      "type": "discount"
+    },
+    "steam_discount_1426210": {
+      "title": "It Takes Two",
+      "price": 299,
+      "percent": 70,
+      "timestamp": "2026-09-15T14:02:23.026Z",
+      "type": "discount"
+    },
+    "steam_discount_4557380": {
+      "title": "Batomon Showdown",
+      "price": 217,
+      "percent": 35,
+      "timestamp": "2026-09-15T14:02:23.026Z",
+      "type": "discount"
+    },
+    "steam_discount_1627720": {
+      "title": "Lies of P",
+      "price": 812,
+      "percent": 50,
+      "timestamp": "2026-09-15T14:02:23.026Z",
+      "type": "discount"
+    },
+    "xbox_new_9P402RWR63H4": {
+      "title": "RuneScape: Dragonwilds",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-15T14:02:23.026Z",
+      "type": "xbox_new"
+    },
+    "xbox_new_9P9GX5D8H9DW": {
+      "title": "TCG Card Shop Simulator",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-09-15T14:02:23.026Z",
+      "type": "xbox_new"
+    },
+    "steam_discount_2402680": {
+      "title": "Dimraeth",
+      "price": 419,
+      "percent": 10,
+      "timestamp": "2026-09-15T18:37:27.467Z",
+      "type": "discount"
+    },
+    "steam_discount_4019220": {
+      "title": "Dressmaker",
+      "price": 301,
+      "percent": 10,
+      "timestamp": "2026-09-22T19:36:24.705Z",
+      "type": "discount"
+    },
+    "steam_discount_620980": {
+      "title": "Beat Saber",
+      "price": 375,
+      "percent": 25,
+      "timestamp": "2026-09-22T19:36:24.705Z",
+      "type": "discount"
+    },
+    "steam_discount_1172710": {
+      "title": "Dune: Awakening",
+      "price": 574,
+      "percent": 50,
+      "timestamp": "2026-09-22T19:36:24.705Z",
+      "type": "discount"
+    },
+    "steam_discount_2909400": {
+      "title": "FINAL FANTASY VII REBIRTH",
+      "price": 509,
+      "percent": 70,
+      "timestamp": "2026-09-22T19:36:24.705Z",
+      "type": "discount"
+    },
+    "steam_discount_1462040": {
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "price": 274,
+      "percent": 75,
+      "timestamp": "2026-09-22T19:36:24.705Z",
+      "type": "discount"
+    },
+    "steam_discount_3699590": {
+      "title": "Well Dweller",
+      "price": 182,
+      "percent": 15,
+      "timestamp": "2026-09-22T19:36:24.705Z",
+      "type": "discount"
+    },
+    "steam_discount_1222140": {
+      "title": "Detroit: Become Human",
+      "price": 129,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2552430": {
+      "title": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
+      "price": 419,
+      "percent": 70,
+      "timestamp": "2026-09-22T23:23:36.178Z",
+      "type": "discount"
+    },
+    "steam_discount_1374860": {
+      "title": "Nocturne",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-09-22T23:23:36.178Z",
+      "type": "discount"
+    },
+    "steam_discount_4225980": {
+      "title": "Trails in the Sky 2nd Chapter",
+      "price": 1035,
+      "percent": 10,
+      "timestamp": "2026-09-23T13:59:03.038Z",
+      "type": "discount"
+    },
+    "steam_discount_3020510": {
+      "title": "Heroes' Vow: Three Kingdoms",
+      "price": 373,
+      "percent": 10,
+      "timestamp": "2026-09-23T13:59:03.038Z",
+      "type": "discount"
+    },
+    "steam_discount_3527290": {
+      "title": "PEAK",
+      "price": 98,
+      "percent": 38,
+      "timestamp": "2026-09-23T18:44:57.605Z",
+      "type": "discount"
+    },
+    "steam_discount_1401590": {
+      "title": "Disney Dreamlight Valley",
+      "price": 719,
+      "percent": 40,
+      "timestamp": "2026-09-23T23:22:00.307Z",
+      "type": "discount"
+    },
+    "steam_discount_4259190": {
+      "title": "Kingdom Rush 6: Genesis TD",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-09-24T13:55:52.482Z",
+      "type": "discount"
+    },
+    "steam_discount_2531310": {
+      "title": "The Last of Us™ Part II Remastered",
+      "price": 1004,
+      "percent": 33,
+      "timestamp": "2026-09-24T18:45:49.805Z",
+      "type": "discount"
+    },
+    "steam_discount_2796640": {
+      "title": "The Magus Circle",
+      "price": 265,
+      "percent": 10,
+      "timestamp": "2026-09-24T18:45:49.805Z",
+      "type": "discount"
+    },
+    "steam_discount_227300": {
+      "title": "Euro Truck Simulator 2",
+      "price": 100,
+      "percent": 75,
+      "timestamp": "2026-09-24T18:45:49.805Z",
+      "type": "discount"
+    },
+    "steam_discount_570940": {
+      "title": "DARK SOULS™: REMASTERED",
+      "price": 399,
+      "percent": 50,
+      "timestamp": "2026-09-24T23:41:40.725Z",
+      "type": "discount"
+    },
+    "steam_discount_335300": {
+      "title": "DARK SOULS™ II: Scholar of the First Sin",
+      "price": 599,
+      "percent": 50,
+      "timestamp": "2026-09-24T23:41:40.725Z",
+      "type": "discount"
+    },
+    "steam_discount_374320": {
+      "title": "DARK SOULS™ III",
+      "price": 495,
+      "percent": 50,
+      "timestamp": "2026-09-24T23:41:40.725Z",
+      "type": "discount"
+    },
+    "steam_discount_524220": {
+      "title": "NieR:Automata™",
+      "price": 186,
+      "percent": 60,
+      "timestamp": "2026-09-24T23:41:40.725Z",
+      "type": "discount"
+    },
+    "steam_discount_2161700": {
+      "title": "Persona 3 Reload",
+      "price": 539,
+      "percent": 70,
+      "timestamp": "2026-09-24T23:41:40.725Z",
+      "type": "discount"
+    },
+    "steam_discount_1687950": {
+      "title": "Persona 5 Royal",
+      "price": 569,
+      "percent": 70,
+      "timestamp": "2026-09-24T23:41:40.725Z",
+      "type": "discount"
+    },
+    "steam_discount_1057090": {
+      "title": "Ori and the Will of the Wisps",
+      "price": 37,
+      "percent": 90,
+      "timestamp": "2026-09-25T14:19:54.351Z",
+      "type": "discount"
+    },
+    "steam_discount_1771300": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 639,
+      "percent": 60,
+      "timestamp": "2026-09-25T14:19:54.351Z",
+      "type": "discount"
+    },
+    "steam_discount_292030": {
+      "title": "Відьмак 3: Дикий Гін — Повне Видання",
+      "price": 674,
+      "percent": 50,
+      "timestamp": "2026-09-25T23:43:13.525Z",
+      "type": "discount"
+    },
+    "steam_discount_1145350": {
+      "title": "Hades II",
+      "price": 322,
+      "percent": 30,
+      "timestamp": "2026-09-25T23:43:13.525Z",
+      "type": "discount"
+    },
+    "steam_discount_1145360": {
+      "title": "Hades",
+      "price": 128,
+      "percent": 75,
+      "timestamp": "2026-09-25T23:43:13.525Z",
+      "type": "discount"
+    },
+    "steam_discount_526870": {
+      "title": "Satisfactory",
+      "price": 518,
+      "percent": 30,
+      "timestamp": "2026-09-25T23:43:13.525Z",
+      "type": "discount"
+    },
+    "steam_discount_2138720": {
+      "title": "REMATCH",
+      "price": 272,
+      "percent": 60,
+      "timestamp": "2026-09-28T22:48:09.030Z",
+      "type": "discount"
+    },
+    "steam_discount_4114220": {
+      "title": "Tempest Rising: The Veti’s Wrath",
+      "price": 467,
+      "percent": 10,
+      "timestamp": "2026-09-29T21:41:41.618Z",
+      "type": "discount"
+    },
+    "steam_discount_1488490": {
+      "title": "Nivalis Nights",
+      "price": 531,
+      "percent": 10,
+      "timestamp": "2026-09-30T15:29:28.481Z",
+      "type": "discount"
+    },
+    "steam_discount_3438810": {
+      "title": "프린세스 메이커 : 예언의 아이들",
+      "price": 560,
+      "percent": 20,
+      "timestamp": "2026-09-30T15:29:28.481Z",
+      "type": "discount"
+    },
+    "steam_discount_1706510": {
+      "title": "Songs of Glimmerwick",
+      "price": 477,
+      "percent": 10,
+      "timestamp": "2026-09-30T21:42:13.549Z",
+      "type": "discount"
+    },
+    "steam_discount_1091500": {
+      "title": "Cyberpunk 2077",
+      "price": 419,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1304930": {
+      "title": "The Outlast Trials",
+      "price": 74,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_489830": {
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "price": 64,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1174180": {
+      "title": "Red Dead Redemption 2",
+      "price": 649,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_814380": {
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "price": 1017,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1817070": {
+      "title": "Marvel’s Spider-Man Remastered",
+      "price": 559,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1158310": {
+      "title": "Crusader Kings III",
+      "price": 404,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1142710": {
+      "title": "Total War: WARHAMMER III",
+      "price": 284,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_270880": {
+      "title": "American Truck Simulator",
+      "price": 100,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4001890": {
+      "title": "How to Fish",
+      "price": 98,
+      "percent": 38,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_553850": {
+      "title": "HELLDIVERS™ 2",
+      "price": 899,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_381210": {
+      "title": "Dead by Daylight",
+      "price": 172,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2483190": {
+      "title": "Forza Horizon 6",
+      "price": 1839,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2138330": {
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "price": 419,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1669000": {
+      "title": "Age of Wonders 4",
+      "price": 674,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2651280": {
+      "title": "Marvel's Spider-Man 2",
+      "price": 1138,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3932890": {
+      "title": "Escape from Tarkov",
+      "price": 1537,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1888930": {
+      "title": "The Last of Us™ Part I",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_899770": {
+      "title": "Last Epoch",
+      "price": 490,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2399830": {
+      "title": "ARK: Survival Ascended",
+      "price": 411,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_394360": {
+      "title": "Hearts of Iron IV",
+      "price": 404,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2215430": {
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "price": 1019,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2369390": {
+      "title": "Far Cry® 6",
+      "price": 91,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1808500": {
+      "title": "ARC Raiders",
+      "price": 695,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1478500": {
+      "title": "Big Walk",
+      "price": 359,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_413150": {
+      "title": "Stardew Valley",
+      "price": 160,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_108600": {
+      "title": "Project Zomboid",
+      "price": 355,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_892970": {
+      "title": "Valheim",
+      "price": 540,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1623730": {
+      "title": "Palworld",
+      "price": 420,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1551360": {
+      "title": "Forza Horizon 5",
+      "price": 479,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1643320": {
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "price": 979,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_582660": {
+      "title": "Black Desert",
+      "price": 14,
+      "percent": 91,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_261550": {
+      "title": "Mount & Blade II: Bannerlord",
+      "price": 424,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_281990": {
+      "title": "Stellaris",
+      "price": 404,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2050650": {
+      "title": "Resident Evil 4",
+      "price": 300,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2246340": {
+      "title": "Monster Hunter Wilds",
+      "price": 1049,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_306130": {
+      "title": "The Elder Scrolls® Online",
+      "price": 149,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3489700": {
+      "title": "Stellar Blade™",
+      "price": 1339,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1326470": {
+      "title": "Sons Of The Forest",
+      "price": 174,
+      "percent": 71,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3595270": {
+      "title": "Call of Duty®: Modern Warfare® III",
+      "price": 612,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_250900": {
+      "title": "The Binding of Isaac: Rebirth",
+      "price": 171,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1067360": {
+      "title": "Pax Autocratica",
+      "price": 124,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2322010": {
+      "title": "God of War Ragnarök",
+      "price": 1138,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1672970": {
+      "title": "Minecraft Dungeons",
+      "price": 252,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2475460": {
+      "title": "SOS OPS!",
+      "price": 14,
+      "percent": 91,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1446780": {
+      "title": "MONSTER HUNTER RISE",
+      "price": 139,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_431960": {
+      "title": "Wallpaper Engine",
+      "price": 100,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2186680": {
+      "title": "Warhammer 40,000: Rogue Trader",
+      "price": 239,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2215200": {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "price": 1329,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1364780": {
+      "title": "Street Fighter™ 6",
+      "price": 479,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2537590": {
+      "title": "Microsoft Flight Simulator 2024",
+      "price": 1680,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1285190": {
+      "title": "Borderlands 4",
+      "price": 1499,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1361210": {
+      "title": "Warhammer 40,000: Darktide",
+      "price": 189,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_447040": {
+      "title": "Watch_Dogs® 2",
+      "price": 45,
+      "percent": 95,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_949230": {
+      "title": "Cities: Skylines II",
+      "price": 944,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1593500": {
+      "title": "God of War",
+      "price": 479,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_294100": {
+      "title": "RimWorld",
+      "price": 375,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1297900": {
+      "title": "Gothic 1 Remake",
+      "price": 1204,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3164500": {
+      "title": "Schedule I",
+      "price": 290,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_284160": {
+      "title": "BeamNG.drive",
+      "price": 412,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3940610": {
+      "title": "EA SPORTS™ Madden NFL 27",
+      "price": 1429,
+      "percent": 35,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2300320": {
+      "title": "Farming Simulator 25",
+      "price": 697,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_648800": {
+      "title": "Raft",
+      "price": 288,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3280350": {
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "price": 1839,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2679460": {
+      "title": "Metaphor: ReFantazio",
+      "price": 879,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_813780": {
+      "title": "Age of Empires II: Definitive Edition",
+      "price": 589,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3159330": {
+      "title": "Assassin’s Creed Shadows",
+      "price": 799,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_835960": {
+      "title": "The Talos Principle 2",
+      "price": 60,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2067820": {
+      "title": "RetroSpace",
+      "price": 387,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1151340": {
+      "title": "Fallout 76",
+      "price": 133,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_105600": {
+      "title": "Terraria",
+      "price": 112,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2958130": {
+      "title": "Jurassic World Evolution 3",
+      "price": 971,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_376210": {
+      "title": "The Isle",
+      "price": 278,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1817190": {
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "price": 599,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4032350": {
+      "title": "EA SPORTS™ College Football 27",
+      "price": 1429,
+      "percent": 35,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3751950": {
+      "title": "Assassin's Creed Black Flag Resynced",
+      "price": 1619,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2221490": {
+      "title": "Tom Clancy’s The Division® 2",
+      "price": 64,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1659040": {
+      "title": "HITMAN World of Assassination",
+      "price": 60,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_990080": {
+      "title": "Hogwarts Legacy",
+      "price": 159,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1486920": {
+      "title": "Tempest Rising",
+      "price": 499,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3812600": {
+      "title": "ReStory: Chill Electronics Repairs",
+      "price": 239,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3017860": {
+      "title": "DOOM: The Dark Ages",
+      "price": 749,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1659420": {
+      "title": "UNCHARTED™: Legacy of Thieves Collection",
+      "price": 494,
+      "percent": 67,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_632360": {
+      "title": "Risk of Rain 2",
+      "price": 108,
+      "percent": 67,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_221100": {
+      "title": "DayZ",
+      "price": 599,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_460920": {
+      "title": "Steep™",
+      "price": 22,
+      "percent": 95,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3241660": {
+      "title": "R.E.P.O.",
+      "price": 126,
+      "percent": 35,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1233570": {
+      "title": "Mirror's Edge™ Catalyst",
+      "price": 34,
+      "percent": 95,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_739630": {
+      "title": "Phasmophobia",
+      "price": 272,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1295660": {
+      "title": "Sid Meier's Civilization VII",
+      "price": 1499,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_552520": {
+      "title": "Far Cry® 5",
+      "price": 137,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_266410": {
+      "title": "iRacing",
+      "price": 103,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3186540": {
+      "title": "Destiny 2: Renegades",
+      "price": 299,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_812140": {
+      "title": "Assassin's Creed® Odyssey",
+      "price": 183,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_393380": {
+      "title": "Squad",
+      "price": 549,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1066890": {
+      "title": "Automobilista 2",
+      "price": 239,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1466860": {
+      "title": "Age of Empires IV: Anniversary Edition",
+      "price": 468,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3059520": {
+      "title": "F1® 25",
+      "price": 1119,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1547000": {
+      "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+      "price": 494,
+      "percent": 67,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2290180": {
+      "title": "Riders Republic",
+      "price": 119,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1449110": {
+      "title": "The Outer Worlds 2",
+      "price": 1149,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1903340": {
+      "title": "Clair Obscur: Expedition 33",
+      "price": 1199,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3722330": {
+      "title": "Shift At Midnight",
+      "price": 207,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1716740": {
+      "title": "Starfield",
+      "price": 899,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_268910": {
+      "title": "Cuphead",
+      "price": 195,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_550": {
+      "title": "Left 4 Dead 2",
+      "price": 45,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_728880": {
+      "title": "Overcooked! 2",
+      "price": 104,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_701160": {
+      "title": "Kingdom Two Crowns",
+      "price": 41,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4704690": {
+      "title": "MECCHA CHAMELEON",
+      "price": 108,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1273400": {
+      "title": "Construction Simulator",
+      "price": 51,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_594570": {
+      "title": "Total War: WARHAMMER II",
+      "price": 237,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_412020": {
+      "title": "Metro Exodus",
+      "price": 79,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_784080": {
+      "title": "MechWarrior 5: Mercenaries",
+      "price": 94,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1118520": {
+      "title": "Paralives",
+      "price": 592,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_12210": {
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "price": 128,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_753640": {
+      "title": "Outer Wilds",
+      "price": 249,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2420110": {
+      "title": "Повне видання Horizon Forbidden West™",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1259420": {
+      "title": "Days Gone",
+      "price": 479,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_5053820": {
+      "title": "Mimic Party",
+      "price": 136,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1466060": {
+      "title": "Tainted Grail: The Fall of Avalon",
+      "price": 417,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1313140": {
+      "title": "Cult of the Lamb",
+      "price": 249,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1868140": {
+      "title": "DAVE THE DIVER",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_518790": {
+      "title": "theHunter: Call of the Wild™",
+      "price": 41,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_292000": {
+      "title": "No More Room in Hell 2",
+      "price": 450,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_418370": {
+      "title": "Resident Evil 7 Biohazard",
+      "price": 259,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_377160": {
+      "title": "Fallout 4",
+      "price": 139,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2950790": {
+      "title": "IRON NEST: Heavy Turret Simulator",
+      "price": 224,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1167630": {
+      "title": "Teardown",
+      "price": 324,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_286160": {
+      "title": "Tabletop Simulator",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_870780": {
+      "title": "CONTROL Ultimate Edition",
+      "price": 101,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3186490": {
+      "title": "Destiny 2: The Edge of Fate",
+      "price": 209,
+      "percent": 65,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_304390": {
+      "title": "FOR HONOR™",
+      "price": 45,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1874880": {
+      "title": "Arma Reforger",
+      "price": 629,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_883710": {
+      "title": "Resident Evil 2",
+      "price": 240,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_894020": {
+      "title": "Death's Door",
+      "price": 41,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2627260": {
+      "title": "NINJA GAIDEN 4",
+      "price": 1149,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_251570": {
+      "title": "7 Days to Die",
+      "price": 459,
+      "percent": 45,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_255710": {
+      "title": "Cities: Skylines",
+      "price": 242,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2515020": {
+      "title": "FINAL FANTASY XVI",
+      "price": 559,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_594650": {
+      "title": "Hunt: Showdown 1896",
+      "price": 215,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1196590": {
+      "title": "Resident Evil Village",
+      "price": 300,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2661300": {
+      "title": "Grounded 2",
+      "price": 899,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3124540": {
+      "title": "Far Far West",
+      "price": 279,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2840770": {
+      "title": "Avatar: Frontiers of Pandora™",
+      "price": 472,
+      "percent": 45,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1809540": {
+      "title": "Nine Sols",
+      "price": 300,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2842040": {
+      "title": "Star Wars Outlaws",
+      "price": 379,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1790600": {
+      "title": "DRAGON BALL: Sparking! ZERO",
+      "price": 899,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_264710": {
+      "title": "Subnautica",
+      "price": 199,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1943950": {
+      "title": "Escape the Backrooms",
+      "price": 155,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2208920": {
+      "title": "Assassin's Creed Valhalla",
+      "price": 183,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2592160": {
+      "title": "Dispatch",
+      "price": 480,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_364360": {
+      "title": "Total War: WARHAMMER",
+      "price": 237,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1149460": {
+      "title": "ICARUS",
+      "price": 350,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2399420": {
+      "title": "Le Mans Ultimate",
+      "price": 797,
+      "percent": 45,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_219990": {
+      "title": "Grim Dawn",
+      "price": 79,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2684630": {
+      "title": "Endacopia",
+      "price": 287,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1190970": {
+      "title": "House Flipper 2",
+      "price": 346,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_582010": {
+      "title": "Monster Hunter: World",
+      "price": 246,
+      "percent": 74,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_322330": {
+      "title": "Don't Starve Together",
+      "price": 77,
+      "percent": 66,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1237970": {
+      "title": "Titanfall® 2",
+      "price": 119,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3105440": {
+      "title": "Heroes of Might and Magic: Olden Era",
+      "price": 449,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2129530": {
+      "title": "REANIMAL",
+      "price": 555,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_529340": {
+      "title": "Victoria 3",
+      "price": 404,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_379430": {
+      "title": "Kingdom Come: Deliverance",
+      "price": 119,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1875830": {
+      "title": "Shin Megami Tensei V: Vengeance",
+      "price": 629,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3948120": {
+      "title": "Scritchy Scratchy",
+      "price": 73,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_218620": {
+      "title": "PAYDAY 2",
+      "price": 97,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_582160": {
+      "title": "Assassin's Creed® Origins",
+      "price": 137,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_242760": {
+      "title": "The Forest",
+      "price": 58,
+      "percent": 79,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_686060": {
+      "title": "Mewgenics",
+      "price": 450,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1084160": {
+      "title": "Jagged Alliance 3",
+      "price": 83,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2379780": {
+      "title": "Balatro",
+      "price": 260,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1778820": {
+      "title": "TEKKEN 8",
+      "price": 719,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2142790": {
+      "title": "Fields of Mistria",
+      "price": 248,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1096530": {
+      "title": "Solasta: Crown of the Magister",
+      "price": 60,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_962130": {
+      "title": "Grounded",
+      "price": 239,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_979690": {
+      "title": "The Ascent",
+      "price": 63,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1984270": {
+      "title": "Digimon Story Time Stranger",
+      "price": 1139,
+      "percent": 43,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3407390": {
+      "title": "ENDLESS Legend™ 2",
+      "price": 349,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4623570": {
+      "title": "Deskrawl: Idle ARPG",
+      "price": 119,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3274580": {
+      "title": "Anno 117: Pax Romana",
+      "price": 1117,
+      "percent": 35,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_460930": {
+      "title": "Tom Clancy's Ghost Recon® Wildlands",
+      "price": 151,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2688950": {
+      "title": "Planet Coaster 2",
+      "price": 370,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3404260": {
+      "title": "Dead as Disco",
+      "price": 391,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1426300": {
+      "title": "The Binding of Isaac: Repentance",
+      "price": 0,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1332010": {
+      "title": "Stray",
+      "price": 289,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2670630": {
+      "title": "Supermarket Simulator",
+      "price": 257,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2680010": {
+      "title": "The First Berserker: Khazan",
+      "price": 989,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_289070": {
+      "title": "Sid Meier’s Civilization® VI",
+      "price": 52,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1384160": {
+      "title": "GUILTY GEAR -STRIVE-",
+      "price": 581,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1363080": {
+      "title": "Manor Lords",
+      "price": 389,
+      "percent": 35,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4000": {
+      "title": "Garry's Mod",
+      "price": 84,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_916440": {
+      "title": "Anno 1800",
+      "price": 228,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_397540": {
+      "title": "Borderlands 3",
+      "price": 84,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_440900": {
+      "title": "Conan Exiles Enhanced",
+      "price": 239,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2479810": {
+      "title": "Gray Zone Warfare",
+      "price": 669,
+      "percent": 33,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1934680": {
+      "title": "Age of Mythology: Retold",
+      "price": 325,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2927200": {
+      "title": "Mount & Blade II: Bannerlord - War Sails",
+      "price": 559,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4380490": {
+      "title": "Cat Mail Co.",
+      "price": 244,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_346110": {
+      "title": "ARK: Survival Evolved",
+      "price": 214,
+      "percent": 34,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_236850": {
+      "title": "Europa Universalis IV",
+      "price": 134,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_673880": {
+      "title": "Warhammer 40,000: Mechanicus",
+      "price": 30,
+      "percent": 95,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2806050": {
+      "title": "Halo: Campaign Evolved",
+      "price": 1599,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2273430": {
+      "title": "BlazBlue Entropy Effect",
+      "price": 249,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2369900": {
+      "title": "Castlevania Dominus Collection",
+      "price": 257,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_208650": {
+      "title": "Batman™: Arkham Knight",
+      "price": 55,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_244210": {
+      "title": "Assetto Corsa",
+      "price": 103,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_238320": {
+      "title": "Outlast",
+      "price": 81,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1941540": {
+      "title": "Mafia: The Old Country",
+      "price": 1199,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_960090": {
+      "title": "Bloons TD 6",
+      "price": 76,
+      "percent": 65,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3917700": {
+      "title": "Dicevaders",
+      "price": 301,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2879840": {
+      "title": "Escape Simulator 2",
+      "price": 279,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2623190": {
+      "title": "The Elder Scrolls IV: Oblivion Remastered",
+      "price": 1259,
+      "percent": 30,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3035570": {
+      "title": "Assassin's Creed Mirage",
+      "price": 326,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1113000": {
+      "title": "Persona 4 Golden",
+      "price": 324,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1256670": {
+      "title": "Library Of Ruina",
+      "price": 128,
+      "percent": 66,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2231380": {
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "price": 183,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_243470": {
+      "title": "Watch_Dogs™",
+      "price": 42,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1113560": {
+      "title": "NieR Replicant™ ver.1.22474487139...",
+      "price": 559,
+      "percent": 60,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2677660": {
+      "title": "Indiana Jones and the Great Circle",
+      "price": 1469,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_488790": {
+      "title": "South Park™: The Fractured But Whole™",
+      "price": 194,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1004640": {
+      "title": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+      "price": 839,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4570720": {
+      "title": "DragonSword : Awakening",
+      "price": 719,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_400750": {
+      "title": "Call to Arms - Gates of Hell: Ostfront",
+      "price": 175,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2698940": {
+      "title": "The Crew Motorfest",
+      "price": 303,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2968420": {
+      "title": "PowerWash Simulator 2",
+      "price": 375,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_427410": {
+      "title": "Abiotic Factor",
+      "price": 560,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_588650": {
+      "title": "Dead Cells",
+      "price": 164,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_4113940": {
+      "title": "Sovereign Tower",
+      "price": 479,
+      "percent": 20,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_534380": {
+      "title": "Dying Light 2 Stay Human: Reloaded Edition",
+      "price": 319,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_952060": {
+      "title": "Resident Evil 3",
+      "price": 240,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_2172010": {
+      "title": "Until Dawn™",
+      "price": 999,
+      "percent": 50,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1229490": {
+      "title": "ULTRAKILL",
+      "price": 243,
+      "percent": 25,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_298110": {
+      "title": "Far Cry® 4",
+      "price": 91,
+      "percent": 80,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_457140": {
+      "title": "Oxygen Not Included",
+      "price": 98,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_782330": {
+      "title": "DOOM Eternal",
+      "price": 214,
+      "percent": 67,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_548430": {
+      "title": "Deep Rock Galactic",
+      "price": 152,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_5241370": {
+      "title": "SOS OPS! - OVERBOOKED",
+      "price": 20,
+      "percent": 26,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3832490": {
+      "title": "Antivirus Survivors 2003 Professional",
+      "price": 139,
+      "percent": 10,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_703080": {
+      "title": "Planet Zoo",
+      "price": 248,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1250410": {
+      "title": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+      "price": 539,
+      "percent": 65,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1604030": {
+      "title": "V Rising",
+      "price": 315,
+      "percent": 55,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_546560": {
+      "title": "Half-Life: Alyx",
+      "price": 281,
+      "percent": 75,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1599600": {
+      "title": "PlateUp!",
+      "price": 41,
+      "percent": 90,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_568220": {
+      "title": "Lobotomy Corporation | Monster Management Simulation",
+      "price": 111,
+      "percent": 66,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_262060": {
+      "title": "Darkest Dungeon®",
+      "price": 74,
+      "percent": 85,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_3065800": {
+      "title": "Marathon",
+      "price": 689,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_1260320": {
+      "title": "Party Animals",
+      "price": 303,
+      "percent": 40,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_637650": {
+      "title": "FINAL FANTASY XV WINDOWS EDITION",
+      "price": 210,
+      "percent": 70,
+      "timestamp": "2026-10-01T21:15:14.462Z",
+      "type": "discount"
+    },
+    "steam_discount_414700": {
+      "title": "Outlast 2",
+      "price": 103,
+      "percent": 75,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_2486820": {
+      "title": "Sonic Racing: CrossWorlds",
+      "price": 959,
+      "percent": 60,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_3731020": {
+      "title": "Five Hearts Under One Roof season 2",
+      "price": 355,
+      "percent": 25,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_2781620": {
+      "title": "Risk of Rain 2: Alloyed Collective",
+      "price": 135,
+      "percent": 35,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_2424420": {
+      "title": "Avatar Legends: The Fighting Game",
+      "price": 480,
+      "percent": 20,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_2185060": {
+      "title": "Two Point Museum",
+      "price": 803,
+      "percent": 33,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_1895880": {
+      "title": "Ratchet & Clank: Rift Apart",
+      "price": 679,
+      "percent": 60,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_1282100": {
+      "title": "REMNANT II®",
+      "price": 259,
+      "percent": 80,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_239140": {
+      "title": "Dying Light",
+      "price": 65,
+      "percent": 90,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_611670": {
+      "title": "The Elder Scrolls V: Skyrim VR",
+      "price": 390,
+      "percent": 75,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_2495100": {
+      "title": "Hello Kitty Island Adventure",
+      "price": 566,
+      "percent": 45,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_3712080": {
+      "title": "Funnel Runners",
+      "price": 112,
+      "percent": 30,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_629730": {
+      "title": "Blade and Sorcery",
+      "price": 509,
+      "percent": 15,
+      "timestamp": "2026-10-02T01:32:22.641Z",
+      "type": "discount"
+    },
+    "steam_discount_934700": {
+      "title": "Dead Island 2",
+      "price": 133,
+      "percent": 90,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_1774580": {
+      "title": "STAR WARS Jedi: Survivor™",
+      "price": 254,
+      "percent": 85,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_1118010": {
+      "title": "Monster Hunter World: Iceborne",
+      "price": 209,
+      "percent": 85,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_435150": {
+      "title": "Divinity: Original Sin 2 - Definitive Edition",
+      "price": 132,
+      "percent": 82,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_1971870": {
+      "title": "Mortal Kombat 1",
+      "price": 259,
+      "percent": 80,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_960170": {
+      "title": "DJMAX RESPECT V",
+      "price": 210,
+      "percent": 80,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_620": {
+      "title": "Portal 2",
+      "price": 45,
+      "percent": 80,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_805550": {
+      "title": "Assetto Corsa Competizione",
+      "price": 249,
+      "percent": 75,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_601150": {
+      "title": "Devil May Cry 5",
+      "price": 237,
+      "percent": 75,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_699130": {
+      "title": "World War Z",
+      "price": 187,
+      "percent": 75,
+      "timestamp": "2026-10-05T15:37:24.712Z",
+      "type": "discount"
+    },
+    "steam_discount_107410": {
+      "title": "Arma 3",
+      "price": 187,
+      "percent": 75,
+      "timestamp": "2026-10-06T14:00:06.485Z",
+      "type": "discount"
+    },
+    "steam_discount_530611": {
+      "title": "End of Zoe",
+      "price": 122,
+      "percent": 75,
+      "timestamp": "2026-10-06T14:00:06.485Z",
+      "type": "discount"
+    },
+    "steam_discount_477160": {
+      "title": "Human Fall Flat",
+      "price": 83,
+      "percent": 70,
+      "timestamp": "2026-10-06T14:00:06.485Z",
+      "type": "discount"
+    },
+    "steam_discount_553640": {
+      "title": "ICEY",
+      "price": 62,
+      "percent": 65,
+      "timestamp": "2026-10-06T14:00:06.485Z",
+      "type": "discount"
+    },
+    "steam_discount_513710": {
+      "title": "SCUM",
+      "price": 460,
+      "percent": 60,
+      "timestamp": "2026-10-06T14:00:06.485Z",
+      "type": "discount"
+    },
+    "steam_discount_1129580": {
+      "title": "Medieval Dynasty",
+      "price": 345,
+      "percent": 50,
+      "timestamp": "2026-10-06T14:00:06.485Z",
+      "type": "discount"
+    },
+    "steam_discount_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 879,
+      "percent": 56,
+      "timestamp": "2026-10-10T19:01:51.421Z",
+      "type": "discount"
+    },
+    "gamepass_9N72DFC6GL91": {
+      "title": "Echo Weaver",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NFB47H2SDRX": {
+      "title": "Forever Ago",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P5QV5XX8S9H": {
+      "title": "Neon Abyss 2",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N4PT8HGCDHQ": {
+      "title": "Gears of War: E-Day",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PM3J18QM4Q3": {
+      "title": "Minecraft Dungeons II",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N944N1WP67T": {
+      "title": "Mad King Redemption",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PLH7R84GJWP": {
+      "title": "Well Dweller",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PJ6FV3130QZ": {
+      "title": "Dune: Awakening",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NXSNQR7CM1Q": {
+      "title": "Kernel Hearts",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PK0DZ68LGC0": {
+      "title": "Shape of Dreams",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PK8PHLCQDF6": {
+      "title": "Aniimo",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P402RWR63H4": {
+      "title": "RuneScape: Dragonwilds",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N034X5G08B7": {
+      "title": "The Royal Writ",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NSM674QVLBS": {
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N72SFQ24KW8": {
+      "title": "Call of Duty®: Black Ops Cold War (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPKR9N31BW6": {
+      "title": "SpeedRunners 2: King of Speed",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N51NR4GX891": {
+      "title": "Shelldiver",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPBNCXP0096": {
+      "title": "Resonance: A Plague Tale Legacy",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N0QWXC09MPT": {
+      "title": "Once Human",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9MSVBF0KZFVW": {
+      "title": "Blood Dungeon",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NKDZ44LZR2R": {
+      "title": "Transference",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N5VHX8KMVNV": {
+      "title": "Vapor World: Over The Mind (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPH71DV44T7": {
+      "title": "Sandustry (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N6JF50HZFW9": {
+      "title": "Cricket 26 - The Official Game of the Ashes",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P9GX5D8H9DW": {
+      "title": "TCG Card Shop Simulator",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NDJX252Q5BW": {
+      "title": "Moonlighter 2: The Endless Vault",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P91FNMH1GG0": {
+      "title": "Age of Empires III: Definitive Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NXP44L49SHJ": {
+      "title": "Minecraft: Java & Bedrock Edition for PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N431PX143P8": {
+      "title": "Forza Horizon 6 Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N8KMNW6942X": {
+      "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NNFG8BQRCXL": {
+      "title": "Call of Duty®: Warzone™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PB301R051CQ": {
+      "title": "League of Legends",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NKCCHCFTHV2": {
+      "title": "VALORANT PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P36DQX6W9CS": {
+      "title": "Overwatch® PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N0H62KZ3BXV": {
+      "title": "Diablo® IV PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9WZDNCRFHWD2": {
+      "title": "Microsoft Solitaire Collection",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PM709J61828": {
+      "title": "Farming Simulator 25 (PC)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PBRN7JS4XPC": {
+      "title": "Heroes of the Storm™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NP6WL1XQDBW": {
+      "title": "SnowRunner - Windows",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P2VGCTBMM52": {
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PD0Z90216RJ": {
+      "title": "Football Manager 26",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NDKFJ6XDX2M": {
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N4W31HSMVVD": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PGZ346PSLN0": {
+      "title": "Cities: Skylines II - PC Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PM3J18QM4Q3": {
+      "title": "Minecraft Dungeons II",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PJ6FV3130QZ": {
+      "title": "Dune: Awakening",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9P402RWR63H4": {
+      "title": "RuneScape: Dragonwilds",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NXP44L49SHJ": {
+      "title": "Minecraft: Java & Bedrock Edition for PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9N431PX143P8": {
+      "title": "Forza Horizon 6 Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9N8KMNW6942X": {
+      "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NNFG8BQRCXL": {
+      "title": "Call of Duty®: Warzone™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PB301R051CQ": {
+      "title": "League of Legends",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NKCCHCFTHV2": {
+      "title": "VALORANT PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9P36DQX6W9CS": {
+      "title": "Overwatch® PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9N0H62KZ3BXV": {
+      "title": "Diablo® IV PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9WZDNCRFHWD2": {
+      "title": "Microsoft Solitaire Collection",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PM709J61828": {
+      "title": "Farming Simulator 25 (PC)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PBRN7JS4XPC": {
+      "title": "Heroes of the Storm™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NP6WL1XQDBW": {
+      "title": "SnowRunner - Windows",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9P2VGCTBMM52": {
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PD0Z90216RJ": {
+      "title": "Football Manager 26",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9NDKFJ6XDX2M": {
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9N4W31HSMVVD": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PGZ346PSLN0": {
+      "title": "Cities: Skylines II - PC Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "gamepass"
+    },
+    "steam_discount_4656000": {
+      "title": "BOMBANANA!",
+      "price": 117,
+      "percent": 40,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "discount"
+    },
+    "steam_discount_3883570": {
+      "title": "Invokyr",
+      "price": 221,
+      "percent": 25,
+      "timestamp": "2026-10-11T14:57:39.618Z",
+      "type": "discount"
+    }
+  }
 }
