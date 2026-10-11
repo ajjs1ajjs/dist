@@ -1,25 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <rect width="200" height="200" rx="12" fill="#1a1a2e"/>
-  <g stroke="#e76f51" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- seat back -->
-    <rect x="40" y="60" width="60" height="90" rx="6" fill="#e76f51" stroke="none" opacity="0.15"/>
-    <!-- body -->
-    <line x1="90" y1="70" x2="95" y2="130"/>
-    <!-- head -->
-    <circle cx="75" cy="55" r="11"/>
-    <!-- arms pressing -->
-    <line x1="90" y1="80" x2="130" y2="75"/>
-    <line x1="90" y1="85" x2="135" y2="90"/>
-    <!-- hands -->
-    <circle cx="132" cy="76" r="4"/>
-    <circle cx="137" cy="91" r="4"/>
-    <!-- handles -->
-    <line x1="130" y1="60" x2="130" y2="75" opacity="0.4"/>
-    <line x1="135" y1="75" x2="135" y2="90" opacity="0.4"/>
-    <!-- legs -->
-    <line x1="95" y1="130" x2="80" y2="175"/>
-    <line x1="95" y1="130" x2="110" y2="175"/>
-    <!-- seat -->
-    <rect x="78" y="145" width="40" height="8" rx="3" fill="#e76f51" opacity="0.3" stroke="none"/>
+  <rect width="200" height="200" rx="16" fill="#16213e"/>
+  <g stroke="#00d4aa" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="152" y1="60" x2="152" y2="150"/>
+    <line x1="136" y1="88" x2="152" y2="88"/>
+    <line x1="66" y1="74" x2="74" y2="114"/>
+    <line x1="74" y1="118" x2="114" y2="118"/>
+  </g>
+  <g stroke="#e0e0f0" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="78" cy="64" r="12"/>
+    <path d="M84 76 L90 112"/>
+    <path d="M90 82 L112 88 L136 88"/>
+    <path d="M90 114 L114 124 L120 148"/>
+    <path d="M120 148 L136 148"/>
   </g>
 </svg>

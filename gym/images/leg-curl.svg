@@ -1,22 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <rect width="200" height="200" rx="12" fill="#1a1a2e"/>
-  <g stroke="#00d4aa" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- bench -->
-    <rect x="40" y="60" width="90" height="12" rx="3" fill="#00d4aa" stroke="none" opacity="0.25"/>
-    <rect x="40" y="66" width="90" height="6" rx="2" fill="none" opacity="0.3"/>
-    <!-- body lying -->
-    <ellipse cx="100" cy="65" rx="12" ry="8"/>
-    <line x1="100" y1="72" x2="100" y2="105"/>
-    <!-- head -->
-    <circle cx="85" cy="50" r="10"/>
-    <!-- legs curling -->
-    <line x1="100" y1="105" x2="120" y2="125"/>
-    <line x1="120" y1="125" x2="140" y2="110"/>
-    <line x1="140" y1="110" x2="150" y2="135"/>
-    <!-- other leg -->
-    <line x1="100" y1="105" x2="115" y2="120"/>
-    <line x1="115" y1="120" x2="130" y2="115"/>
-    <!-- roller pad -->
-    <rect x="140" y="130" width="30" height="10" rx="4" fill="#00d4aa" stroke="none" opacity="0.4"/>
+  <rect width="200" height="200" rx="16" fill="#16213e"/>
+  <g stroke="#00d4aa" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="64" y1="64" x2="74" y2="110"/>
+    <line x1="74" y1="116" x2="122" y2="116"/>
   </g>
+  <g stroke="#e0e0f0" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="72" cy="56" r="12"/>
+    <path d="M78 66 L86 104"/>
+    <path d="M82 74 L102 94"/>
+    <path d="M86 106 L128 106"/>
+    <path d="M128 106 L138 140"/>
+  </g>
+  <circle cx="141" cy="144" r="8" fill="#00d4aa"/>
 </svg>
