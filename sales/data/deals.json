@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T15:09:43.700Z",
+  "lastUpdated": "2026-10-11T15:12:32.469Z",
   "steam": [
     {
       "id": "1808500",
@@ -3228,6 +3228,104 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-10-11T15:09:40.576Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NNFG8BQRCXL": {
+      "title": "Call of Duty®: Warzone™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PB301R051CQ": {
+      "title": "League of Legends",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NKCCHCFTHV2": {
+      "title": "VALORANT PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P36DQX6W9CS": {
+      "title": "Overwatch® PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N0H62KZ3BXV": {
+      "title": "Diablo® IV PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9WZDNCRFHWD2": {
+      "title": "Microsoft Solitaire Collection",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PM709J61828": {
+      "title": "Farming Simulator 25 (PC)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PBRN7JS4XPC": {
+      "title": "Heroes of the Storm™",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NP6WL1XQDBW": {
+      "title": "SnowRunner - Windows",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P2VGCTBMM52": {
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PD0Z90216RJ": {
+      "title": "Football Manager 26",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9NDKFJ6XDX2M": {
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9N4W31HSMVVD": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PGZ346PSLN0": {
+      "title": "Cities: Skylines II - PC Edition",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-11T15:11:53.755Z",
       "type": "gamepass"
     }
   }
