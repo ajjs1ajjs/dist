@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T16:33:13.618Z",
+  "lastUpdated": "2026-10-12T17:00:24.155Z",
   "steam": [
     {
       "id": "1808500",
@@ -67,14 +67,14 @@
       "isPopular": false
     },
     {
-      "id": "105600",
-      "title": "Terraria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
+      "id": "1621690",
+      "title": "Core Keeper",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/395bfdc1017f69dfe248c9ee6635af44f838b5d2/capsule_616x353_alt_assets_12.jpg?t=1791454740",
+      "originalPrice": 415,
+      "discountPrice": 249,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/105600",
+      "url": "https://store.steampowered.com/app/1621690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -385,15 +385,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.30993.13613495733795404.958a29ae-aca4-4c3f-a15c-62c6c57d4d68.09a6ffc2-b885-4057-b80e-f382b4b8a2f4",
       "url": "https://www.xbox.com/uk-UA/games/store/moonlighter-2-the-endless-vault/9NDJX252Q5BW",
       "description": "WILL IS BACK TO BUSINESS Live the double life of a resourceful merchant and fearless adventurer in this sequel to the hit rogue-lite Action-RPG! Stranded without a coin in the village of Tresna, Will ",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9P91FNMH1GG0",
-      "title": "Age of Empires III: Definitive Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20714.14081462193625859.994d9972-d3a0-4111-83ed-b0dd9fc78edd.e4baaecf-b239-4ef8-b204-fef8f0c984f0",
-      "url": "https://www.xbox.com/uk-UA/games/store/age-of-empires-iii-definitive-edition/9P91FNMH1GG0",
-      "description": "Age of Empires III: Definitive Edition відзначає одну з найулюбленіших франшиз у жанрі стратегії в реальному часі в повному виданні з розширеними функціями та модернізованим ігровим процесом. Візьміть",
       "isNew": true,
       "isPopular": false
     },
@@ -3358,6 +3349,13 @@
       "percent": 0,
       "timestamp": "2026-10-12T16:33:04.750Z",
       "type": "gamepass"
+    },
+    "steam_discount_1621690": {
+      "title": "Core Keeper",
+      "price": 249,
+      "percent": 40,
+      "timestamp": "2026-10-12T17:00:21.663Z",
+      "type": "discount"
     }
   }
 }
