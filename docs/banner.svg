@@ -26,7 +26,7 @@
   <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
     <text x="80" y="104" fill="#ffffff" font-size="54" font-weight="700" letter-spacing="-1">Distribution</text>
     <text x="80" y="150" fill="#a9bdd4" font-size="24">Публічні інсталятори та готові збірки</text>
-    <text x="80" y="184" fill="#6b7c93" font-size="18">12 продуктів · Linux · Windows · Web / PWA</text>
+    <text x="80" y="184" fill="#6b7c93" font-size="18">11 продуктів · Linux · Windows · Web / PWA</text>
   </g>
 
   <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="600">
@@ -34,7 +34,7 @@
     <text x="118" y="237" text-anchor="middle" fill="#4ade80">BCK</text>
 
     <rect x="170" y="210" width="228" height="42" rx="21" fill="#ffffff" fill-opacity="0.09"/>
-    <text x="284" y="237" text-anchor="middle" fill="#a78bfa">Resource Calculator</text>
+    <text x="284" y="237" text-anchor="middle" fill="#a78bfa">NetScope</text>
 
     <rect x="412" y="210" width="152" height="42" rx="21" fill="#ffffff" fill-opacity="0.09"/>
     <text x="488" y="237" text-anchor="middle" fill="#60a5fa">DiskCleaner</text>

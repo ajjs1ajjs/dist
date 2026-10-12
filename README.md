@@ -16,7 +16,6 @@
 <br><br>
 
 <a href="#bck"><img src="https://img.shields.io/badge/BCK-Ubuntu-2EA44F?style=for-the-badge&logo=linux&logoColor=white" alt="BCK"></a>
-<a href="#calculator"><img src="https://img.shields.io/badge/Server_Calculator-Windows-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
 <a href="#diskcleaner"><img src="https://img.shields.io/badge/DiskCleaner-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="DiskCleaner"></a>
 <a href="#gym"><img src="https://img.shields.io/badge/Gym_Tracker-PWA-FF6B6B?style=for-the-badge&logo=pwa&logoColor=white" alt="Gym Tracker"></a>
 <a href="#kubelens"><img src="https://img.shields.io/badge/KubeLens-Windows-24C8DB?style=for-the-badge&logo=kubernetes&logoColor=white" alt="KubeLens"></a>
@@ -28,7 +27,7 @@
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
 <a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
 
-<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>11 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
@@ -53,13 +52,13 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 </td>
 <td align="center" width="50%">
 <br>
-<a href="#calculator"><img src="https://img.shields.io/badge/Server_Infrastructure_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
+<a href="https://github.com/ajjs1ajjs/System-Design"><img src="https://img.shields.io/badge/NetScope_Enterprise--0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
 <br>
-<sub>Windows 10 / 11 · x64 · Portable</sub>
+<sub>Windows 10 / 11 · x64 · From Source</sub>
 <br><br>
-<b>Флагман:</b> інженерний сайзинг кластерів, Kubernetes, СУБД та дисків (D-AD-ADM-E)
+Офлайн-карта мережі та інфраструктури: AD/LDAP, сайти, топологія
 <br><br>
-<a href="#calculator">⬇️ <b>Завантажити</b></a>
+<a href="https://github.com/ajjs1ajjs/System-Design">📦 <b>GitHub Репозиторій</b></a>
 <br><br>
 </td>
 </tr>
@@ -172,19 +171,6 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 <br><br>
 </td>
 </tr>
-<tr>
-<td align="center" width="50%">
-<br>
-<a href="https://github.com/ajjs1ajjs/System-Design"><img src="https://img.shields.io/badge/NetScope_Enterprise--0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
-<br>
-<sub>Windows 10 / 11 · x64 · From Source</sub>
-<br><br>
-Офлайн-карта мережі та інфраструктури: AD/LDAP, сайти, топологія
-<br><br>
-<a href="https://github.com/ajjs1ajjs/System-Design">📦 <b>GitHub Репозиторій</b></a>
-<br><br>
-</td>
-</tr>
 </table>
 
 ---
@@ -224,26 +210,6 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 - Перевіряє SHA256 архіву перед встановленням.
 
 [📜 Скрипт встановлення](apps/bck/install.sh) &nbsp;·&nbsp; [📖 Деталі](apps/bck/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи BCK](https://github.com/ajjs1ajjs/dist/releases?q=bck)
-
----
-
-<a id="calculator"></a>
-
-### 🖥️ Server Infrastructure Calculator (IT-Enterprise)
-
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator"><img src="https://img.shields.io/badge/Server_Infrastructure_Calculator--512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Server Infrastructure Calculator"></a>
-
-**Windows 10 / 11 · x64** — **флагманський інженерний застосунок**, портативний, **один `.exe`**, встановлення не потрібне.
-
-<a href="https://github.com/ajjs1ajjs/dist/releases?q=calculator">
-  <img src="https://img.shields.io/badge/Download-latest-512BD4?style=for-the-badge" alt="Завантажити останню версію">
-</a>
-
-- Точний сайзинг серверної інфраструктури (Kubernetes, Windows Server, Гібрид, СУБД MS SQL/PostgreSQL/Oracle, диски, IOPS, DEV/TEST/PreProd/PROD за стандартом D-AD-ADM-E).
-- Завантажте `ITE.ResourceCalculator.exe`, звірте з `SHA256SUMS.txt`, запустіть.
-- Далі програма **оновлюється сама** — читає релізи цього репозиторію (теги `calculator-v*`).
-
-[📖 Деталі та перевірка](apps/calculator/README.md) &nbsp;·&nbsp; [⬇️ Усі релізи Server Calculator](https://github.com/ajjs1ajjs/dist/releases?q=calculator)
 
 ---
 
