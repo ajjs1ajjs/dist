@@ -318,7 +318,6 @@
     'kubelens-v': { pattern: /setup\.exe$/i },
     'netscope-v': { pattern: /portable\.zip$/i },
     'rdm-v': { pattern: /setup\.exe$/i },
-    'calculator-v': { pattern: /\.exe$/i },
     'rescalc-v': { pattern: /setup.*\.exe$/i },
     'diskcleaner-v': { pattern: /\.exe$/i },
     'bck-v': { pattern: /linux.*\.tar\.gz$/i },
