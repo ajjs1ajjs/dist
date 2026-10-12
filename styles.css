@@ -366,6 +366,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .buy--free b { font-size: 15.5px; }
 .buy--free span { color: var(--accent); opacity: 1; }
 .trial-note { text-align: center; color: var(--dim); font-size: 12px; font-family: var(--font-mono); }
+.corp-note { text-align: center; color: var(--dim); font-size: 12px; font-family: var(--font-mono); }
 
 .card-actions { display: flex; flex-direction: column; gap: 9px; border-top: 1px solid var(--line); padding-top: 13px; }
 .cmd {
