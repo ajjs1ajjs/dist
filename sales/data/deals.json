@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T16:00:24.856Z",
+  "lastUpdated": "2026-10-12T16:33:13.618Z",
   "steam": [
     {
       "id": "1808500",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
-      "originalPrice": 195,
-      "discountPrice": 117,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "814380",
       "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
@@ -67,6 +54,19 @@
       "isPopular": false
     },
     {
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
+      "originalPrice": 195,
+      "discountPrice": 117,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4656000",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "105600",
       "title": "Terraria",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
@@ -75,6 +75,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/105600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1623730",
+      "title": "Palworld",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1790336367",
+      "originalPrice": 600,
+      "discountPrice": 420,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1623730",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -319,7 +332,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/resonance-a-plague-tale-legacy/9PPBNCXP0096",
       "description": "Події розгортаються за 15 років до «Реквієму», і ви граєте за Софію — молоду, але безстрашну розбійницю, яка переховується від погоні й прагне розгадати таємниці свого минулого. Пориньте в захопливу і",
       "isNew": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "9N0QWXC09MPT",
@@ -457,6 +470,15 @@
       "isPopular": true
     },
     {
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9WZDNCRFHWD2",
       "title": "Microsoft Solitaire Collection",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
@@ -471,24 +493,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
       "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
       "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NP6WL1XQDBW",
-      "title": "SnowRunner - Windows",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
-      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
-      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
       "isNew": false,
       "isPopular": true
     },
@@ -511,6 +515,24 @@
       "isPopular": true
     },
     {
+      "id": "9NP6WL1XQDBW",
+      "title": "SnowRunner - Windows",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
+      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
+      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PPT8K6GQHRZ",
+      "title": "Clair Obscur: Expedition 33",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.51080.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.97df3890-5a55-4249-9093-8df24a47256e",
+      "url": "https://www.xbox.com/uk-UA/games/store/clair-obscur-expedition-33/9PPT8K6GQHRZ",
+      "description": "«Рік у рік вона стирає нас». Раз на рік Художниця прокидається й малює на Моноліті. Малює своє прокляте число. Тоді кожен, хто досяг цього віку, перетворюється на дим і зникає. Рік у рік цифра зменшує",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9NDKFJ6XDX2M",
       "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
@@ -520,29 +542,11 @@
       "isPopular": true
     },
     {
-      "id": "9PGZ346PSLN0",
-      "title": "Cities: Skylines II - PC Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54933.14241982748923031.b7ab82d8-956b-4d85-b739-c1cd07cb25df.63a2e437-2ce6-4dab-a6fe-a1d8d901b187",
-      "url": "https://www.xbox.com/uk-UA/games/store/cities-skylines-ii-pc-edition/9PGZ346PSLN0",
-      "description": "Збудуй свою мрію. Побудуйте місто з нуля і перетворіть його на квітучий мегаполіс. Ви досі не стикалися із будівництвом такого масштабу. Будуйте без обмежень разом із Cities: Skylines II. Закладіть ос",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NKX70BBCDRN",
-      "title": "Forza Horizon 5 Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
-      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
-      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9PD0Z90216RJ",
-      "title": "Football Manager 26",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31556.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.585f6932-0069-484a-a733-76359843a3ba",
-      "url": "https://www.xbox.com/uk-UA/games/store/football-manager-26/9PD0Z90216RJ",
-      "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI Нова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. Переосмислений інт",
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
       "isNew": false,
       "isPopular": true
     }
@@ -3333,6 +3337,27 @@
       "percent": 75,
       "timestamp": "2026-10-11T20:00:22.199Z",
       "type": "discount"
+    },
+    "gamepass_popular_9PPT8K6GQHRZ": {
+      "title": "Clair Obscur: Expedition 33",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-12T16:33:04.750Z",
+      "type": "gamepass"
+    },
+    "gamepass_9PPT8K6GQHRZ": {
+      "title": "Clair Obscur: Expedition 33",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-12T16:33:04.750Z",
+      "type": "gamepass"
+    },
+    "gamepass_popular_9PPBNCXP0096": {
+      "title": "Resonance: A Plague Tale Legacy",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-12T16:33:04.750Z",
+      "type": "gamepass"
     }
   }
 }
