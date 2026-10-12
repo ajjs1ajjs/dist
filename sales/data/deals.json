@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:00:25.649Z",
+  "lastUpdated": "2026-10-12T20:00:27.168Z",
   "steam": [
     {
       "id": "1808500",
@@ -54,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "4656000",
       "title": "BOMBANANA!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
@@ -75,6 +62,19 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4656000",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -119,14 +119,27 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "5155360",
+      "title": "Hood Warfare 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
+      "originalPrice": 155,
+      "discountPrice": 139,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5155360",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
+      "originalPrice": 829,
+      "discountPrice": 829,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
