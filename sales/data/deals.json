@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T13:00:25.378Z",
+  "lastUpdated": "2026-10-12T14:00:31.498Z",
   "steam": [
     {
       "id": "1808500",
@@ -41,6 +41,19 @@
       "isPopular": false
     },
     {
+      "id": "3883570",
+      "title": "Invokyr",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/01f83e02e38a2162e84f8cf02645a425ea1e410e/capsule_616x353.jpg?t=1791547174",
+      "originalPrice": 295,
+      "discountPrice": 221,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3883570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4656000",
       "title": "BOMBANANA!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
@@ -62,19 +75,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/814380",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3883570",
-      "title": "Invokyr",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/01f83e02e38a2162e84f8cf02645a425ea1e410e/capsule_616x353.jpg?t=1791547174",
-      "originalPrice": 295,
-      "discountPrice": 221,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3883570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -140,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
