@@ -1,9 +1,9 @@
 {
-  "version": "1.3.3",
-  "notes": "NetScope 1.3.3. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v1.3.2...netscope-v1.3.3",
-  "portable": {
-    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.3/NetScope-v1.3.3-update.zip",
-    "sha256": "0da451704ec189079ca85050b69a34ae2211bdb195643e8d28186f48896fca11",
-    "signature": "zCSY0y2o6pSR/GRLEUOMMHgoDGidn9BoQsUG3zovRySHFXAGjHf1JVjCaTdfHapTBJPeUnLE1MGSXFB75FaAAQ=="
-  }
+    "version":  "1.3.4",
+    "notes":  "NetScope 1.3.4 — надійна робота за корпоративною SSL/TLS-інспекцією (ESET, Kaspersky, проксі): якщо системна перевірка сертифіката не проходить, запит автоматично повторюється через системний стек Windows (schannel) — активація ліцензії та автооновлення працюють без змін в антивірусі. Також: людські повідомлення помилок ліцензійного API та TLS-діагностика в netscope_desktop.log.\n",
+    "portable":  {
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v1.3.4/NetScope-v1.3.4-update.zip",
+                     "sha256":  "9f3987f94661cf750345acc7232196f8b47e850f33ee164e8667cf4c6070c840",
+                     "signature":  "UTtInkPkzyI5ptSn/jv7Stz4OaryvHj3prHIvFGeZTAmdjhZbzi7cHHUnoMaHxQ3TsLH8fuxbELW0K7Enwf7CQ=="
+                 }
 }
