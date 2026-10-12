@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T05:00:26.008Z",
+  "lastUpdated": "2026-10-12T06:00:26.671Z",
   "steam": [
     {
       "id": "1808500",
@@ -67,19 +67,6 @@
       "isPopular": false
     },
     {
-      "id": "3883570",
-      "title": "Invokyr",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/01f83e02e38a2162e84f8cf02645a425ea1e410e/capsule_616x353.jpg?t=1791547174",
-      "originalPrice": 295,
-      "discountPrice": 221,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3883570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1623730",
       "title": "Palworld",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1790336367",
@@ -88,6 +75,19 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1623730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2138710",
+      "title": "Sifu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg?t=1782742326",
+      "originalPrice": 569,
+      "discountPrice": 142,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138710",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -106,14 +106,14 @@
       "isPopular": true
     },
     {
-      "id": "3055670",
-      "title": "Risk of Rain 2: Hallowed Concepts",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055670/9220991d3c4cf7a71617439e3a800488cd6b5ced/capsule_616x353.jpg?t=1791531426",
-      "originalPrice": 209,
-      "discountPrice": 209,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3055670",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -132,6 +132,19 @@
       "isPopular": true
     },
     {
+      "id": "3055670",
+      "title": "Risk of Rain 2: Hallowed Concepts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3055670/9220991d3c4cf7a71617439e3a800488cd6b5ced/capsule_616x353.jpg?t=1791531426",
+      "originalPrice": 209,
+      "discountPrice": 209,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3055670",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
@@ -140,19 +153,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
