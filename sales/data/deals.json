@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T14:00:31.498Z",
+  "lastUpdated": "2026-10-12T15:00:31.411Z",
   "steam": [
     {
       "id": "1808500",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "3883570",
-      "title": "Invokyr",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/01f83e02e38a2162e84f8cf02645a425ea1e410e/capsule_616x353.jpg?t=1791547174",
-      "originalPrice": 295,
-      "discountPrice": 221,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3883570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "4656000",
       "title": "BOMBANANA!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
@@ -75,6 +62,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/814380",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3883570",
+      "title": "Invokyr",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3883570/01f83e02e38a2162e84f8cf02645a425ea1e410e/capsule_616x353.jpg?t=1791547174",
+      "originalPrice": 295,
+      "discountPrice": 221,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3883570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -106,19 +106,6 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4078430",
       "title": "STAR WARS: Galactic Racer™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
@@ -132,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791569657",
@@ -140,19 +140,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -354,15 +341,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.14555.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.059227ec-dfc5-442d-93a7-efa17f457bab",
       "url": "https://www.xbox.com/uk-UA/games/store/vapor-world-over-the-mind-game-preview/9N5VHX8KMVNV",
       "description": "The full message from the director is included at the bottom of the game description page. Lost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-dri",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9PPH71DV44T7",
-      "title": "Sandustry (Game Preview)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.12646.14324477862367650.3d3cc6a2-f95a-4f3c-a402-9cd3bfe2dcd9.1cf079d6-83b6-4490-8b72-6b27cd69443e",
-      "url": "https://www.xbox.com/uk-UA/games/store/sandustry-game-preview/9PPH71DV44T7",
-      "description": "Sandustry — це гра про автоматизацію виробництва, у якій кожен піксель — це ресурс, що чекає, доки його видобудуть, поєднають, оброблять або знищать. Досліджуйте величезний відкритий світ, де все можн",
       "isNew": true,
       "isPopular": false
     },
