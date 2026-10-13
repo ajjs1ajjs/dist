@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T15:00:23.957Z",
+  "lastUpdated": "2026-10-13T16:00:29.208Z",
   "steam": [
     {
       "id": "1808500",
@@ -67,30 +67,17 @@
       "isPopular": false
     },
     {
-      "id": "1621690",
-      "title": "Core Keeper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/395bfdc1017f69dfe248c9ee6635af44f838b5d2/capsule_616x353_alt_assets_12.jpg?t=1791454740",
-      "originalPrice": 415,
-      "discountPrice": 249,
-      "discountPercent": 40,
+      "id": "105600",
+      "title": "Terraria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1621690",
+      "url": "https://store.steampowered.com/app/105600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
-    },
-    {
-      "id": "4888270",
-      "title": "Battlefield Pro сезону 5— Battlefield™ 6 і REDSEC",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4888270/9a7e743ae473c8753a436dd5556625908086625e/capsule_616x353.jpg?t=1791881955",
-      "originalPrice": 749,
-      "discountPrice": 749,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4888270",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
     },
     {
       "id": "3219030",
@@ -106,14 +93,27 @@
       "isPopular": true
     },
     {
-      "id": "5155360",
-      "title": "Hood Warfare 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
-      "originalPrice": 155,
-      "discountPrice": 139,
-      "discountPercent": 10,
+      "id": "3846830",
+      "title": "Total War: SHOGUN 2 - Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3846830/9b5a02f97947c4fc7d8b0d5f8f1a28d32bb34d2d/capsule_616x353.jpg?t=1791903651",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5155360",
+      "url": "https://store.steampowered.com/app/3846830",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4888270",
+      "title": "Battlefield Pro сезону 5— Battlefield™ 6 і REDSEC",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4888270/9a7e743ae473c8753a436dd5556625908086625e/capsule_616x353.jpg?t=1791881955",
+      "originalPrice": 749,
+      "discountPrice": 749,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4888270",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -127,6 +127,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5155360",
+      "title": "Hood Warfare 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
+      "originalPrice": 155,
+      "discountPrice": 139,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5155360",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -156,22 +169,18 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
-    },
-    {
-      "id": "4078430",
-      "title": "STAR WARS: Galactic Racer™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
-      "originalPrice": 1390,
-      "discountPrice": 1390,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4078430",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9P55XDLRJDHB",
+      "title": "Battlefield™ 6 - PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.34028.14575335752877003.2d45c53a-ed38-497f-93c5-4867ec70c026.96bb52c6-85a4-4f53-bf5a-335c2635ceeb",
+      "url": "https://www.xbox.com/uk-UA/games/store/battlefield-6-pc/9P55XDLRJDHB",
+      "description": "The ultimate all-out warfare experience. Fight in high-intensity infantry combat. Rip through the skies in aerial dogfights. Demolish your environment for a strategic advantage. Harness complete contr",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9PPF72ZH6RP8",
       "title": "Deep Dish Dungeon",
@@ -3357,6 +3366,13 @@
       "price": 0,
       "percent": 0,
       "timestamp": "2026-10-13T14:50:53.293Z",
+      "type": "gamepass"
+    },
+    "gamepass_9P55XDLRJDHB": {
+      "title": "Battlefield™ 6 - PC",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-13T16:00:26.859Z",
       "type": "gamepass"
     }
   }
