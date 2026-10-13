@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T11:00:32.983Z",
+  "lastUpdated": "2026-10-13T12:00:28.559Z",
   "steam": [
     {
       "id": "1808500",
@@ -114,6 +114,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
