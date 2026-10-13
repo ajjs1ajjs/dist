@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T18:00:22.421Z",
+  "lastUpdated": "2026-10-13T19:00:31.478Z",
   "steam": [
     {
       "id": "1808500",
@@ -54,6 +54,19 @@
       "isPopular": false
     },
     {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4656000",
       "title": "BOMBANANA!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
@@ -67,17 +80,17 @@
       "isPopular": false
     },
     {
-      "id": "1623730",
-      "title": "Palworld",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/57df7aed61d65c9012a11d58e812aff275b7daed/capsule_616x353.jpg?t=1790336367",
-      "originalPrice": 600,
-      "discountPrice": 420,
-      "discountPercent": 30,
+      "id": "3219030",
+      "title": "Planet Zoo 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791912652",
+      "originalPrice": 1145,
+      "discountPrice": 1145,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1623730",
-      "isSpecial": true,
+      "url": "https://store.steampowered.com/app/3219030",
+      "isSpecial": false,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3846830",
@@ -88,19 +101,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3846830",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791912652",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -119,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "5155360",
+      "title": "Hood Warfare 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
+      "originalPrice": 155,
+      "discountPrice": 139,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5155360",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -132,14 +145,27 @@
       "isPopular": true
     },
     {
-      "id": "5155360",
-      "title": "Hood Warfare 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
-      "originalPrice": 155,
-      "discountPrice": 139,
-      "discountPercent": 10,
+      "id": "2590240",
+      "title": "METRO 2039",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2590240/321a293a7b81dbfda31dd648c9c64fd759ec62e5/capsule_616x353.jpg?t=1791916257",
+      "originalPrice": 2199,
+      "discountPrice": 2199,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5155360",
+      "url": "https://store.steampowered.com/app/2590240",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2828710",
+      "title": "Valor Mortis",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/5f97602e3b39b9ec219f94469529404cdb19d66d/capsule_616x353.jpg?t=1791911208",
+      "originalPrice": 1149,
+      "discountPrice": 1149,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2828710",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
