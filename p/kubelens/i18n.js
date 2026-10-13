@@ -33,7 +33,9 @@ Object.assign(window.SITE_I18N, {
     "p.kubelens.reqs.3": "Права в кластері визначає ваш RBAC — застосунок не створює окремих акаунтів",
     "p.kubelens.reqs.4": "Для збірки з вихідників: Node.js 22+, Rust stable (MSVC) і VS Build Tools із C++ workload",
     "p.kubelens.shots.0.cap": "Воркспейс: кластери й активне підключення",
-    "p.kubelens.shots.1.cap": "Налаштування застосунку та kubeconfig",
+    "p.kubelens.shots.1.cap": "Поди й ворклоади в реальному часі",
+    "p.kubelens.shots.2.cap": "Стрім логів пода з пошуком",
+    "p.kubelens.shots.3.cap": "Налаштування застосунку та kubeconfig",
     "p.kubelens.links.0": "релізи ↗",
     "p.kubelens.links.1": "як встановити ↗",
     "p.kubelens.install.note": "Інсталятор NSIS (.exe) з авто-оновленням — завантажте з релізів kubelens-v*"
@@ -70,7 +72,9 @@ Object.assign(window.SITE_I18N, {
     "p.kubelens.reqs.3": "Cluster permissions come from your own RBAC — the app creates no separate accounts",
     "p.kubelens.reqs.4": "Building from source: Node.js 22+, Rust stable (MSVC) and VS Build Tools with the C++ workload",
     "p.kubelens.shots.0.cap": "Workspace: clusters and the active connection",
-    "p.kubelens.shots.1.cap": "App settings and kubeconfig",
+    "p.kubelens.shots.1.cap": "Pods and workloads in real time",
+    "p.kubelens.shots.2.cap": "Pod log stream with search",
+    "p.kubelens.shots.3.cap": "App settings and kubeconfig",
     "p.kubelens.links.0": "releases ↗",
     "p.kubelens.links.1": "how to install ↗",
     "p.kubelens.install.note": "NSIS installer (.exe) with the auto-updater bundle — download from the kubelens-v* releases"
