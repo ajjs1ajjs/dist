@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T14:00:25.219Z",
+  "lastUpdated": "2026-10-13T14:50:58.182Z",
   "steam": [
     {
       "id": "1808500",
@@ -54,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "1621690",
-      "title": "Core Keeper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/395bfdc1017f69dfe248c9ee6635af44f838b5d2/capsule_616x353_alt_assets_12.jpg?t=1791454740",
-      "originalPrice": 415,
-      "discountPrice": 249,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1621690",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "4656000",
       "title": "BOMBANANA!",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
@@ -80,6 +67,19 @@
       "isPopular": false
     },
     {
+      "id": "1621690",
+      "title": "Core Keeper",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/395bfdc1017f69dfe248c9ee6635af44f838b5d2/capsule_616x353_alt_assets_12.jpg?t=1791454740",
+      "originalPrice": 415,
+      "discountPrice": 249,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1621690",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4888270",
       "title": "Battlefield Pro сезону 5— Battlefield™ 6 і REDSEC",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4888270/9a7e743ae473c8753a436dd5556625908086625e/capsule_616x353.jpg?t=1791881955",
@@ -88,6 +88,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4888270",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3219030",
+      "title": "Planet Zoo 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791901018",
+      "originalPrice": 1145,
+      "discountPrice": 1145,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3219030",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -119,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1790774170",
@@ -145,20 +145,42 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "4078430",
+      "title": "STAR WARS: Galactic Racer™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
+      "originalPrice": 1390,
+      "discountPrice": 1390,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/4078430",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9PPF72ZH6RP8",
+      "title": "Deep Dish Dungeon",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24721.14326063685133853.939b1741-3671-493b-b12d-2c262722c883.5ca038e4-4a9c-44dc-95d7-1adda3f6ad1d",
+      "url": "https://www.xbox.com/uk-UA/games/store/deep-dish-dungeon/9PPF72ZH6RP8",
+      "description": "Deep Dish Dungeon is a dungeon crawler and exploration game that rewards curiosity and resourcefulness. In an atmospheric environment, explore corridors, rooms and passageways solo or with up to two f",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9N72DFC6GL91",
       "title": "Echo Weaver",
@@ -3329,6 +3351,13 @@
       "percent": 40,
       "timestamp": "2026-10-12T17:00:21.663Z",
       "type": "discount"
+    },
+    "gamepass_9PPF72ZH6RP8": {
+      "title": "Deep Dish Dungeon",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-13T14:50:53.293Z",
+      "type": "gamepass"
     }
   }
 }

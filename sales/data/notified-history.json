@@ -2798,5 +2798,12 @@
     "percent": 40,
     "timestamp": "2026-10-12T17:00:21.663Z",
     "type": "discount"
+  },
+  "gamepass_9PPF72ZH6RP8": {
+    "title": "Deep Dish Dungeon",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-13T14:50:53.293Z",
+    "type": "gamepass"
   }
 }
