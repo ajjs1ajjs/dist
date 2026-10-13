@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу · DIST</title>
+  <meta name="description" content="Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму зберігаються за будь-який період, а інциденти…">
+  <meta name="theme-color" content="#0b0f16">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:title" content="Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу">
+  <meta property="og:description" content="Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму…">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ajjs1ajjs.github.io/dist/p/uptime/">
+  <meta property="og:image" content="https://ajjs1ajjs.github.io/dist/og/uptime.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу">
+  <meta name="twitter:description" content="Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами…">
+  <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/uptime.png">
+  <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/uptime/">
+  <meta property="og:locale" content="uk_UA">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Uptime Monitor",
+    "description": "Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму зберігаються за будь-який період, а інциденти видно в дашборді.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Linux",
+    "url": "https://ajjs1ajjs.github.io/dist/p/uptime/",
+    "image": "https://ajjs1ajjs.github.io/dist/og/uptime.png",
+    "softwareVersion": "3.8.15",
+    "offers": {
+      "@type": "Offer",
+      "price": "500",
+      "priceCurrency": "UAH",
+      "description": "Місячна підписка; 3-денний тріал без картки"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Ярослав",
+      "url": "https://andreichuk.dev/"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=20261013a">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+</head>
+<body data-page="p-uptime">
+  <a class="skip" href="#main" data-i18n="skip">Перейти до контенту</a>
+
+<header class="site-head">
+    <div class="wrap head-in">
+      <a class="brand" href="../../#hero"><span class="b-mark">◢</span> AJ<span class="b-mark">_</span>SRE <em>dist ecosystem</em></a>
+      <nav class="nav-links" aria-label="Головна навігація" data-i18n-attr="aria-label:nav.aria">
+        <a href="../../#products" data-i18n="nav.products">Продукти</a>
+        <a href="../../#about" data-i18n="nav.about">Про мене</a>
+        <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+        <a href="../../#services" data-i18n="nav.services">Послуги</a>
+        <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-sm btn-primary nav-cta" href="../../#contact" data-i18n="nav.contact">Написати</a>
+      </nav>
+      <div class="head-mobile">
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" aria-label="Меню" data-i18n-attr="aria-label:nav.menuAria" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../../#hero" data-i18n="nav.m.home">Головна</a>
+      <a href="../../#products" data-i18n="nav.products">Продукти</a>
+      <a href="../../#about" data-i18n="nav.about">Про мене</a>
+      <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+      <a href="../../#services" data-i18n="nav.services">Послуги</a>
+      <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="../../#contact" data-i18n="nav.contact">Написати</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <nav class="wrap crumbs" aria-label="Навігаційний ланцюжок" data-i18n-attr="aria-label:pd.crumbsAria">
+      <a href="../../#products" data-i18n="pd.crumbs">Продукти</a>
+      <span aria-hidden="true">›</span>
+      <span class="crumbs-cur">Uptime Monitor</span>
+    </nav>
+
+    <section class="wrap prod-hero">
+      <div class="prod-hero-copy">
+        <p class="badge-line">DIST ecosystem · Debian/Ubuntu · multiarch</p>
+        <h1>Uptime Monitor <span class="ver" data-latest-ver="uptime-v">v3.8.15</span></h1>
+        <p class="prod-sub" data-i18n="p.uptime.sub">Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу</p>
+        <div class="tags"><span>Go</span><span>SSL engine</span><span>SLA</span></div>
+        <div class="prod-buy">
+          <button class="buy" type="button" data-buy data-name="Uptime Monitor" data-month="500" data-year="5000">
+                <b>500 ₴/міс</b><span data-i18n="prod.buy">Купити ліцензію</span>
+              </button>
+          <span class="trial-note" data-i18n="prod.trial">3 дні безкоштовно</span>
+        </div>
+        <div class="card-actions">
+          <div class="cmd"><code>curl … /apps/uptime-monitor/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+          <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
+        </div>
+      </div>
+      <div class="prod-hero-shot">
+        <div class="frame">
+          <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.uptime.shots.0.cap">Дашборд зі станом перевірок</em></span>
+          <button class="prod-shot-btn" type="button" data-shot="../../shots/uptime/dashboard.webp" data-shot-alt="Дашборд зі станом перевірок" aria-label="Дашборд зі станом перевірок">
+            <img src="../../shots/uptime/dashboard.webp" alt="Дашборд зі станом перевірок" width="1200" decoding="async">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="shots">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.shots">01 / Скріни</p>
+        <h2 data-i18n="pd.title.shots">Інтерфейс</h2>
+      </div>
+      <div class="gallery">
+        <figure>
+          <button type="button" data-shot="../../shots/uptime/status.webp" data-shot-alt="Публічна сторінка статусу без входу" aria-label="Публічна сторінка статусу без входу">
+            <img src="../../shots/uptime/status.webp" alt="Публічна сторінка статусу без входу" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.uptime.shots.1.cap">Публічна сторінка статусу без входу</figcaption>
+        </figure>
+        <figure>
+          <button type="button" data-shot="../../shots/uptime/login.webp" data-shot-alt="Вхід адміністратора в дашборд" aria-label="Вхід адміністратора в дашборд">
+            <img src="../../shots/uptime/login.webp" alt="Вхід адміністратора в дашборд" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.uptime.shots.2.cap">Вхід адміністратора в дашборд</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="about">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.about">02 / Опис</p>
+        <h2 data-i18n="pd.title.about">Що це</h2>
+      </div>
+      <div class="prod-cols">
+        <div class="prod-prose">
+          <p data-i18n="p.uptime.intro.0">Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму зберігаються за будь-який період, а інциденти видно в дашборді.</p>
+          <p data-i18n="p.uptime.intro.1">Коли щось падає, спрацьовують 10+ каналів сповіщень: Telegram, Discord, Slack, MS Teams, email, SMS, webhook, Pushover, Gotify і ntfy. Публічна сторінка /status показує стан без автентифікації та встановлюється на телефон як PWA. Дві копії сервісу можуть працювати над спільною базою в режимі active-passive, а одна curl-команда і встановлює, і оновлює сервіс — конфіг, база, користувачі та паролі зберігаються.</p>
+        </div>
+        <aside class="prod-facts">
+          <h3 data-i18n="pd.facts.title">Коротко</h3>
+          <ul class="facts">
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Debian/Ubuntu · multiarch</span></li>
+            <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · 3 дні тріалу</span></li>
+            <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
+            <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="how">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.how">03 / Як працює</p>
+        <h2 data-i18n="pd.title.how">Принцип роботи</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-step">
+          <span class="how-num mono">01</span>
+          <h3 data-i18n="p.uptime.how.0.t">Встановлення однією командою</h3>
+          <p data-i18n="p.uptime.how.0.d">Скрипт ставить бінарник і systemd-юніт із hardening, перевіряє SHA-256 та друкує згенеровані логін і пароль адміністратора.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">02</span>
+          <h3 data-i18n="p.uptime.how.1.t">Додайте цілі перевірок</h3>
+          <p data-i18n="p.uptime.how.1.d">URL — для HTTP/HTTPS, хост із портом — для TCP, IP — для Ping, домен — для DNS, адреса — для SSL. Інтервал — від 5 секунд.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">03</span>
+          <h3 data-i18n="p.uptime.how.2.t">Підключіть сповіщення</h3>
+          <p data-i18n="p.uptime.how.2.d">Увімкніть один або кілька каналів: Telegram, Discord, Slack, email, SMS, webhook тощо. Секрети каналів шифруються AES-GCM.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">04</span>
+          <h3 data-i18n="p.uptime.how.3.t">Слідкуйте за статусом</h3>
+          <p data-i18n="p.uptime.how.3.d">Інциденти, uptime % і SLA-звіти — у дашборді; публічна сторінка /status доступна клієнтам без входу в систему.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="feat">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.feat">04 / Можливості</p>
+        <h2 data-i18n="pd.title.feat">Що вміє</h2>
+      </div>
+      <ul class="feat-list">
+          <li data-i18n="p.uptime.feat.0">5 типів перевірок: HTTP/HTTPS, TCP-порт, Ping, DNS і SSL</li>
+          <li data-i18n="p.uptime.feat.1">SSL-контроль із порогами 30/14/7/5/3/1 день до завершення</li>
+          <li data-i18n="p.uptime.feat.2">10+ каналів сповіщень: від Telegram і Slack до SMS та webhook</li>
+          <li data-i18n="p.uptime.feat.3">Публічна сторінка /status без автентифікації, встановлюється як PWA</li>
+          <li data-i18n="p.uptime.feat.4">Історія перевірок та uptime % за будь-який період</li>
+          <li data-i18n="p.uptime.feat.5">SLA-звіти з експортом у JSON, CSV та HTML-PDF</li>
+          <li data-i18n="p.uptime.feat.6">Ролі admin/viewer, API-ключі, CSRF, rate-limit і SSRF-guard</li>
+          <li data-i18n="p.uptime.feat.7">Maintenance windows, бекапи та відновлення бази</li>
+      </ul>
+    </section>
+
+    <section class="wrap prod-sec" id="stack">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.stack">05 / Стек</p>
+        <h2 data-i18n="pd.title.stack">Технології</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.uptime.stack.0.g">Мова</span>
+          <div class="tags"><span>Go 1.26.6</span><span>net/http</span><span>golang.org/x/crypto</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.uptime.stack.1.g">Дані</span>
+          <div class="tags"><span>SQLite (WAL)</span><span>modernc.org/sqlite</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.uptime.stack.2.g">Веб</span>
+          <div class="tags"><span>gorilla/websocket</span><span>pongo2 (Jinja2)</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.uptime.stack.3.g">Фронтенд</span>
+          <div class="tags"><span>Vanilla JS</span><span>Tailwind</span><span>PWA</span><span>WebSocket</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.uptime.stack.4.g">Поставка</span>
+          <div class="tags"><span>systemd</span><span>go:embed</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="install">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.install">06 / Встановлення</p>
+        <h2 data-i18n="pd.title.install">Як почати</h2>
+      </div>
+      <div class="prod-cols">
+        <div>
+          <div class="card-actions">
+            <div class="cmd"><code>curl … /apps/uptime-monitor/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+          </div>
+          <p class="prod-note" data-i18n="p.uptime.install.note">Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… або 3-денний Trial.</p>
+          <p class="prod-links">
+            <a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="p.uptime.links.0">релізи ↗</a>
+            <a href="https://github.com/ajjs1ajjs/dist/tree/main/apps/uptime-monitor" target="_blank" rel="noopener" data-i18n="p.uptime.links.1">інсталятор ↗</a>
+          </p>
+        </div>
+        <ul class="reqs">
+          <li data-i18n="p.uptime.reqs.0">Ubuntu/Debian 24/25/26, amd64 або arm64</li>
+          <li data-i18n="p.uptime.reqs.1">systemd — інсталятор ставить юніт із hardening</li>
+          <li data-i18n="p.uptime.reqs.2">Права root/sudo для встановлення</li>
+          <li data-i18n="p.uptime.reqs.3">Вбудована SQLite (WAL) — зовнішня база не потрібна</li>
+          <li data-i18n="p.uptime.reqs.4">Для active-passive пари — спільна база на одному хості (не NFS/CIFS)</li>
+          <li data-i18n="p.uptime.reqs.5">Активна ліцензія — ключ AK-… або 3-денний Trial за email</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap prod-cta">
+      <div class="prod-cta-box">
+        <div>
+          <h2 data-i18n="pd.cta.title">Спробуйте 3 дні безкоштовно</h2>
+          <p data-i18n="pd.cta.desc">Запустіть програму — вона сама запропонує тріал за email, без картки. Ліцензія активується автоматично після оплати.</p>
+        </div>
+        <div class="prod-cta-btns">
+          <a class="btn btn-primary" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="pd.cta.contact">Обговорити задачу</a>
+          <a class="btn" href="../../#products" data-i18n="pd.cta.products">Усі продукти</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="footer">
+    <div class="wrap footer-in">
+      <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
+      <nav aria-label="Футер">
+        <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
+        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="totop" id="toTop" type="button" aria-label="Догори" data-i18n-attr="aria-label:footer.toTop">↑</button>
+
+<!-- BUY MODAL -->
+  <div class="modal" id="buyModal" hidden role="dialog" aria-modal="true" aria-labelledby="buyTitle">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <h3 id="buyTitle"><span data-i18n="buy.title">Ліцензія</span> · <span id="buyName">—</span></h3>
+      <p class="modal-sub" data-i18n="buy.sub">Оформлення підписки за 3 кроки.</p>
+      <div class="price-pair">
+        <a class="price-opt" id="buyMonthLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyMonth">—</b><span data-i18n="buy.month">за місяць</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+        <a class="price-opt hot" id="buyYearLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyYear">—</b><span data-i18n="buy.year">за рік</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+      </div>
+      <div class="buy-steps">
+        <div class="buy-step"><b data-i18n="buy.step1.t">1 · Спробуйте безкоштовно</b><p data-i18n="buy.step1.d">Запустіть програму — вона сама запропонує 3-денний тріал за email. Без картки.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму вище — банка Monobank відкриється з уже підставленою сумою. У коментарі вкажіть email, який вводили в програмі.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.</p></div>
+      </div>
+      <div class="modal-actions">
+        <a class="btn" id="buyEmail" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="buy.email">Написати на email</a>
+      </div>
+      <p class="modal-note" data-i18n="buy.note">Для команд — безкоштовні корпоративні ліцензії, напишіть на email.</p>
+    </div>
+  </div>
+
+<!-- SCREENSHOT MODAL -->
+  <div class="modal modal--shot" id="shotModal" hidden role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <img id="shotImg" alt="">
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+<script src="../../translations.js?v=20261013a" defer></script>
+  <script src="./i18n.js?v=20261013a" defer></script>
+  <script src="../../app.js?v=20261013a" defer></script>
+  <!-- Cloudflare Web Analytics -->
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>

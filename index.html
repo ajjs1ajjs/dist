@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=20261012c">
+  <link rel="stylesheet" href="./styles.css?v=20261013a">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0f16'/%3E%3Cpath d='M20 44V20h10a10 10 0 0 1 0 20H20zm10-14h8' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
 </head>
 <body data-page="hub">
@@ -117,18 +117,18 @@
         <div class="grid" id="productGrid">
 
           <!-- BCK -->
-          <article class="card" data-cat="linux" data-search="bck backup бекап резервне копіювання disaster recovery veeam go systemd linux ubuntu">
-            <button class="card-shot" type="button" data-shot="./shots/bck.webp" data-shot-alt="BCK — дашборд веб-консолі" aria-label="Збільшити скрін BCK">
+          <article class="card" data-cat="linux" data-search="bck backup бекап резервне копіювання disaster recovery veeam rust systemd linux ubuntu">
+            <a class="card-shot card-shot--open" href="./p/bck/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/bck.webp" alt="BCK — дашборд веб-консолі" width="1200" height="771" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>BCK <span class="ver" data-latest-ver="bck-v">v0.10.15</span></h3>
+                <h3><a href="./p/bck/">BCK</a> <span class="ver" data-latest-ver="bck-v">v0.10.15</span></h3>
                 <span class="cat">Ubuntu 24–26 · x86_64</span>
               </div>
               <p class="card-sub" data-i18n="p.bck.sub">Enterprise Backup &amp; Disaster Recovery — альтернатива Veeam</p>
               <p class="card-desc" data-i18n="p.bck.desc">Демон bckd, агент, CLI, proxy та веб-консоль. Інкрементальні зліпки, збереження конфігів при оновленні, перевірка SHA-256.</p>
-              <div class="tags"><span>Go</span><span>systemd</span><span>Web Console</span><span>SHA-256</span></div>
+              <div class="tags"><span>Rust</span><span>systemd</span><span>Web Console</span><span>SHA-256</span></div>
               <button class="buy" type="button" data-buy data-name="BCK" data-month="2500" data-year="28000">
                 <b>2 500 ₴/міс</b><span data-i18n="prod.buy">Купити ліцензію</span>
               </button>
@@ -137,17 +137,18 @@
                 <div class="cmd"><code>curl … /apps/bck/install.sh | sudo bash</code><button type="button" data-copy="curl -fsSL https://ajjs1ajjs.github.io/dist/apps/bck/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=bck" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">13.5 MB · tar.gz</span></div>
               </div>
+              <a class="details-link" href="./p/bck/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- KubeLens -->
           <article class="card" data-cat="windows" data-search="kubelens kubernetes k8s ide tauri rust react lens десктоп кластер helm windows">
-            <button class="card-shot" type="button" data-shot="./shots/kubelens.webp" data-shot-alt="KubeLens — воркспейс із кластерами" aria-label="Збільшити скрін KubeLens">
+            <a class="card-shot card-shot--open" href="./p/kubelens/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/kubelens.webp" alt="KubeLens — воркспейс із кластерами" width="1200" height="777" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>KubeLens <span class="ver" data-latest-ver="kubelens-v">v0.3.35</span></h3>
+                <h3><a href="./p/kubelens/">KubeLens</a> <span class="ver" data-latest-ver="kubelens-v">v0.3.35</span></h3>
                 <span class="cat">Windows 10/11 · x64</span>
               </div>
               <p class="card-sub" data-i18n="p.kubelens.sub">Kubernetes Desktop IDE</p>
@@ -161,17 +162,18 @@
                 <div class="cmd"><code data-latest-code="kubelens-v">KubeLens_0.3.35_x64-setup.exe</code><a class="copybtn" data-latest-href="kubelens-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.35/KubeLens_0.3.35_x64-setup.exe">завантажити</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">NSIS · підпис</span></div>
               </div>
+              <a class="details-link" href="./p/kubelens/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- PyMon -->
           <article class="card" data-cat="linux monitoring" data-search="pymon monitoring моніторинг noc dashboard node_exporter sla telegram go графіки">
-            <button class="card-shot" type="button" data-shot="./shots/pymon.webp" data-shot-alt="PyMon NOC — дашборд моніторингу" aria-label="Збільшити скрін PyMon">
+            <a class="card-shot card-shot--open" href="./p/pymon/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/pymon.webp" alt="PyMon NOC — дашборд моніторингу" width="1200" height="750" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>PyMon NOC <span class="ver" data-latest-ver="monitoring-v">v3.3.7</span></h3>
+                <h3><a href="./p/pymon/">PyMon NOC</a> <span class="ver" data-latest-ver="monitoring-v">v3.3.7</span></h3>
                 <span class="cat">Ubuntu · amd64/arm64</span>
               </div>
               <p class="card-sub" data-i18n="p.pymon.sub">Infrastructure Monitoring &amp; NOC Dashboard</p>
@@ -185,17 +187,18 @@
                 <div class="cmd"><code>curl … /apps/monitoring/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/monitoring/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=monitoring" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
               </div>
+              <a class="details-link" href="./p/pymon/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- RDM -->
           <article class="card" data-cat="windows" data-search="rdm remote connection manager ssh rdp тунелі vault паролі tauri rust sqlite windows">
-            <button class="card-shot" type="button" data-shot="./shots/rdm.webp" data-shot-alt="RDM Manager — каталог з'єднань" aria-label="Збільшити скрін RDM">
+            <a class="card-shot card-shot--open" href="./p/rdm/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/rdm.webp" alt="RDM Manager — каталог з'єднань" width="1400" height="749" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>RDM Manager <span class="ver" data-latest-ver="rdm-v">v2.1.32</span></h3>
+                <h3><a href="./p/rdm/">RDM Manager</a> <span class="ver" data-latest-ver="rdm-v">v2.1.32</span></h3>
                 <span class="cat">Windows 10/11 · x64</span>
               </div>
               <p class="card-sub" data-i18n="p.rdm.sub">Remote Connection Manager для SRE</p>
@@ -209,17 +212,18 @@
                 <div class="cmd"><code data-latest-code="rdm-v">RDM.Manager_2.1.32_x64-setup.exe</code><a class="copybtn" data-latest-href="rdm-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.32/RDM.Manager_2.1.32_x64-setup.exe">завантажити</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">NSIS · переносний</span></div>
               </div>
+              <a class="details-link" href="./p/rdm/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- MyGit -->
           <article class="card" data-cat="linux" data-search="mygit git gitea gitlab self-hosted репозиторії go light linux">
-            <button class="card-shot" type="button" data-shot="./shots/mygit.webp" data-shot-alt="MyGit — сторінка репозиторію" aria-label="Збільшити скрін MyGit">
+            <a class="card-shot card-shot--open" href="./p/mygit/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/mygit.webp" alt="MyGit — сторінка репозиторію" width="1200" height="750" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>MyGit <span class="ver" data-latest-ver="mygit-v">v3.7.11</span></h3>
+                <h3><a href="./p/mygit/">MyGit</a> <span class="ver" data-latest-ver="mygit-v">v3.7.11</span></h3>
                 <span class="cat">Debian/Ubuntu · multiarch</span>
               </div>
               <p class="card-sub" data-i18n="p.mygit.sub">Self-hosted Git — легка альтернатива Gitea/GitLab</p>
@@ -233,17 +237,18 @@
                 <div class="cmd"><code>curl … /apps/mygit/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/mygit/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=mygit" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
               </div>
+              <a class="details-link" href="./p/mygit/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Uptime -->
           <article class="card" data-cat="linux monitoring" data-search="uptime monitor health sentinel ssl sla алерти telegram перевірки http tcp go">
-            <button class="card-shot" type="button" data-shot="./shots/uptime.webp" data-shot-alt="Uptime Monitor — дашборд" aria-label="Збільшити скрін Uptime Monitor">
+            <a class="card-shot card-shot--open" href="./p/uptime/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/uptime.webp" alt="Uptime Monitor — дашборд" width="1200" height="771" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>Uptime Monitor <span class="ver" data-latest-ver="uptime-v">v3.8.15</span></h3>
+                <h3><a href="./p/uptime/">Uptime Monitor</a> <span class="ver" data-latest-ver="uptime-v">v3.8.15</span></h3>
                 <span class="cat">Debian/Ubuntu · multiarch</span>
               </div>
               <p class="card-sub" data-i18n="p.uptime.sub">Health Sentinel &amp; SLA-моніторинг</p>
@@ -257,17 +262,18 @@
                 <div class="cmd"><code>curl … /apps/uptime-monitor/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
               </div>
+              <a class="details-link" href="./p/uptime/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Gym -->
           <article class="card" data-cat="web" data-search="gym tracker тренування pwa svelte офлайн workout фітнес">
-            <button class="card-shot" type="button" data-shot="./shots/gym.webp" data-shot-alt="Gym Tracker — програма тренування" aria-label="Збільшити скрін Gym Tracker">
+            <a class="card-shot card-shot--open" href="./p/gym/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/gym.webp" alt="Gym Tracker — програма тренування" width="1200" height="760" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>Gym Tracker <span class="ver" data-latest-ver="gym-v">v3.6.0</span></h3>
+                <h3><a href="./p/gym/">Gym Tracker</a> <span class="ver" data-latest-ver="gym-v">v3.6.0</span></h3>
                 <span class="cat">Web · PWA · офлайн</span>
               </div>
               <p class="card-sub" data-i18n="p.gym.sub">Офлайн-трекер тренувань (PWA)</p>
@@ -280,17 +286,18 @@
                 <div class="cmd"><code>dist/gym/ · install as PWA</code><a class="copybtn" href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/Gym" target="_blank" rel="noopener">GitHub ↗</a><span class="mono">installs offline</span></div>
               </div>
+              <a class="details-link" href="./p/gym/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Sales -->
           <article class="card" data-cat="web monitoring" data-search="sales steam знижки deals роздачі telegram pwa cron агрегатор">
-            <button class="card-shot" type="button" data-shot="./shots/sales.webp" data-shot-alt="Game Sales Radar — стрічка знижок Steam" aria-label="Збільшити скрін Game Sales Radar">
+            <a class="card-shot card-shot--open" href="./p/sales/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/sales.webp" alt="Game Sales Radar — стрічка знижок Steam" width="1200" height="760" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>Game Sales Radar <span class="ver" data-latest-ver="sales-v">v0.1.2</span></h3>
+                <h3><a href="./p/sales/">Game Sales Radar</a> <span class="ver" data-latest-ver="sales-v">v0.1.2</span></h3>
                 <span class="cat">Web · PWA · Telegram</span>
               </div>
               <p class="card-sub" data-i18n="p.sales.sub">Радар знижок Steam + Telegram</p>
@@ -303,17 +310,18 @@
                 <div class="cmd"><code>t.me/salesgamesua · sync daily</code><a class="copybtn" href="https://ajjs1ajjs.github.io/dist/sales/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
                 <div class="links"><a href="https://t.me/salesgamesua" target="_blank" rel="noopener">@salesgamesua ↗</a><span class="mono">Steam · щодня</span></div>
               </div>
+              <a class="details-link" href="./p/sales/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Games -->
           <article class="card" data-cat="web" data-search="games ігри three.js 3d браузер gravityshift drift terraformers echoes verdant itch.io">
-            <button class="card-shot" type="button" data-shot="./shots/games.webp" data-shot-alt="GravityShift — одна з 5 браузерних 3D-ігор" aria-label="Збільшити скрін гри">
+            <a class="card-shot card-shot--open" href="./p/games/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/games.webp" alt="GravityShift — одна з 5 браузерних 3D-ігор" width="1000" height="562" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>3D Game Collection <span class="ver">v1.0.0</span></h3>
+                <h3><a href="./p/games/">3D Game Collection</a> <span class="ver">v1.0.0</span></h3>
                 <span class="cat">Web · Three.js · itch.io</span>
               </div>
               <p class="card-sub" data-i18n="p.games.sub">5 браузерних 3D-ігор на Three.js</p>
@@ -326,17 +334,18 @@
                 <div class="cmd"><code>itch.io · play in browser</code><a class="copybtn" href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener" data-i18n="prod.play">Грати ↗</a></div>
                 <div class="links"><a href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener">Всі 5 ігор ↗</a><span class="mono">no install</span></div>
               </div>
+              <a class="details-link" href="./p/games/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- DiskCleaner -->
           <article class="card" data-cat="windows" data-search="diskcleaner чистка диска temp кеші portable windows safe звільнити місце">
-            <button class="card-shot" type="button" data-shot="./shots/diskcleaner.webp" data-shot-alt="DiskCleaner — категорії для очищення" aria-label="Збільшити скрін DiskCleaner">
+            <a class="card-shot card-shot--open" href="./p/diskcleaner/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/diskcleaner.webp" alt="DiskCleaner — категорії для очищення" width="896" height="779" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>DiskCleaner <span class="ver" data-latest-ver="diskcleaner-v">v1.4.11</span></h3>
+                <h3><a href="./p/diskcleaner/">DiskCleaner</a> <span class="ver" data-latest-ver="diskcleaner-v">v1.4.11</span></h3>
                 <span class="cat">Windows · Portable</span>
               </div>
               <p class="card-sub" data-i18n="p.diskcleaner.sub">Чистка диска без встановлення</p>
@@ -350,17 +359,18 @@
                 <div class="cmd"><code data-latest-code="diskcleaner-v">DiskCleaner.exe</code><a class="copybtn" data-latest-href="diskcleaner-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/diskcleaner-v1.4.11/DiskCleaner.exe">завантажити</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">single exe · auto</span></div>
               </div>
+              <a class="details-link" href="./p/diskcleaner/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- NetScope -->
           <article class="card" data-cat="windows monitoring" data-search="netscope мережа топологія ad ldap сканування підмереж офлайн inventory windows">
-            <button class="card-shot" type="button" data-shot="./shots/netscope.webp" data-shot-alt="NetScope — карта топології мережі" aria-label="Збільшити скрін NetScope">
+            <a class="card-shot card-shot--open" href="./p/netscope/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
               <img src="./shots/netscope.webp" alt="NetScope — карта топології мережі" width="1400" height="887" loading="lazy" decoding="async">
-            </button>
+            </a>
             <div class="card-body">
               <div class="card-head">
-                <h3>NetScope Enterprise <span class="ver" data-latest-ver="netscope-v">v2.0.0</span></h3>
+                <h3><a href="./p/netscope/">NetScope Enterprise</a> <span class="ver" data-latest-ver="netscope-v">v2.0.0</span></h3>
                 <span class="cat">Windows · Offline</span>
               </div>
               <p class="card-sub" data-i18n="p.netscope.sub">Офлайн-інвентаризація мережі</p>
@@ -374,6 +384,7 @@
                 <div class="cmd"><code data-latest-code="netscope-v">NetScope-v2.0.0-portable.zip</code><a class="copybtn" data-latest-href="netscope-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.0.0/NetScope-v2.0.0-portable.zip">завантажити</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">portable zip · auto</span></div>
               </div>
+              <a class="details-link" href="./p/netscope/" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
@@ -565,7 +576,7 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="./translations.js?v=20261012c" defer></script>
-  <script src="./app.js?v=20261012c" defer></script>
+  <script src="./translations.js?v=20261013a" defer></script>
+  <script src="./app.js?v=20261013a" defer></script>
 </body>
 </html>

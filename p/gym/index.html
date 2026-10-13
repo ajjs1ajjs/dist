@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Gym Tracker — Офлайн-first трекер тренувань і прогресу тіла (PWA) · DIST</title>
+  <meta name="description" content="Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються локально в браузері та нікуди не надсилаються, а застосунок працює офлайн і встановлюється на телефон…">
+  <meta name="theme-color" content="#0b0f16">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:title" content="Gym Tracker — Офлайн-first трекер тренувань і прогресу тіла (PWA)">
+  <meta property="og:description" content="Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються локально в браузері та нікуди не надсилаються, а…">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ajjs1ajjs.github.io/dist/p/gym/">
+  <meta property="og:image" content="https://ajjs1ajjs.github.io/dist/og/gym.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Gym Tracker — Офлайн-first трекер тренувань і прогресу тіла (PWA)">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gym Tracker — Офлайн-first трекер тренувань і прогресу тіла (PWA)">
+  <meta name="twitter:description" content="Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються…">
+  <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/gym.png">
+  <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/gym/">
+  <meta property="og:locale" content="uk_UA">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Gym Tracker",
+    "description": "Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються локально в браузері та нікуди не надсилаються, а застосунок працює офлайн і встановлюється на телефон як звичайний.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://ajjs1ajjs.github.io/dist/p/gym/",
+    "image": "https://ajjs1ajjs.github.io/dist/og/gym.png",
+    "softwareVersion": "3.6.0",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "UAH",
+      "description": "Безкоштовно"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Ярослав",
+      "url": "https://andreichuk.dev/"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=20261013a">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+</head>
+<body data-page="p-gym">
+  <a class="skip" href="#main" data-i18n="skip">Перейти до контенту</a>
+
+<header class="site-head">
+    <div class="wrap head-in">
+      <a class="brand" href="../../#hero"><span class="b-mark">◢</span> AJ<span class="b-mark">_</span>SRE <em>dist ecosystem</em></a>
+      <nav class="nav-links" aria-label="Головна навігація" data-i18n-attr="aria-label:nav.aria">
+        <a href="../../#products" data-i18n="nav.products">Продукти</a>
+        <a href="../../#about" data-i18n="nav.about">Про мене</a>
+        <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+        <a href="../../#services" data-i18n="nav.services">Послуги</a>
+        <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-sm btn-primary nav-cta" href="../../#contact" data-i18n="nav.contact">Написати</a>
+      </nav>
+      <div class="head-mobile">
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" aria-label="Меню" data-i18n-attr="aria-label:nav.menuAria" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../../#hero" data-i18n="nav.m.home">Головна</a>
+      <a href="../../#products" data-i18n="nav.products">Продукти</a>
+      <a href="../../#about" data-i18n="nav.about">Про мене</a>
+      <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+      <a href="../../#services" data-i18n="nav.services">Послуги</a>
+      <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="../../#contact" data-i18n="nav.contact">Написати</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <nav class="wrap crumbs" aria-label="Навігаційний ланцюжок" data-i18n-attr="aria-label:pd.crumbsAria">
+      <a href="../../#products" data-i18n="pd.crumbs">Продукти</a>
+      <span aria-hidden="true">›</span>
+      <span class="crumbs-cur">Gym Tracker</span>
+    </nav>
+
+    <section class="wrap prod-hero">
+      <div class="prod-hero-copy">
+        <p class="badge-line">DIST ecosystem · Web · PWA · офлайн</p>
+        <h1>Gym Tracker <span class="ver" data-latest-ver="gym-v">v3.6.0</span></h1>
+        <p class="prod-sub" data-i18n="p.gym.sub">Офлайн-first трекер тренувань і прогресу тіла (PWA)</p>
+        <div class="tags"><span>Svelte 5</span><span>TypeScript</span><span>Service Worker</span></div>
+        <div class="prod-buy">
+          <a class="buy buy--free" href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener">
+            <b data-i18n="prod.free">Безкоштовно</b><span data-i18n="prod.live">Відкрити ↗</span>
+          </a>
+        </div>
+        <div class="card-actions">
+          <div class="cmd"><code>dist/gym/ · install as PWA</code><a class="copybtn" href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
+          <div class="links"><a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener">DIST Hub ↗</a><span class="mono">installs offline</span></div>
+        </div>
+      </div>
+      <div class="prod-hero-shot">
+        <div class="frame">
+          <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.gym.shots.0.cap">Екран тренування дня</em></span>
+          <button class="prod-shot-btn" type="button" data-shot="../../shots/gym/main.webp" data-shot-alt="Екран тренування дня" aria-label="Екран тренування дня">
+            <img src="../../shots/gym/main.webp" alt="Екран тренування дня" width="1200" decoding="async">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="shots">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.shots">01 / Скріни</p>
+        <h2 data-i18n="pd.title.shots">Інтерфейс</h2>
+      </div>
+      <div class="gallery">
+        <figure>
+          <button type="button" data-shot="../../shots/gym/history.webp" data-shot-alt="Історія тренувань по днях" aria-label="Історія тренувань по днях">
+            <img src="../../shots/gym/history.webp" alt="Історія тренувань по днях" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.gym.shots.1.cap">Історія тренувань по днях</figcaption>
+        </figure>
+        <figure>
+          <button type="button" data-shot="../../shots/gym/weights.webp" data-shot-alt="Контроль ваги та прогрес" aria-label="Контроль ваги та прогрес">
+            <img src="../../shots/gym/weights.webp" alt="Контроль ваги та прогрес" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.gym.shots.2.cap">Контроль ваги та прогрес</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="about">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.about">02 / Опис</p>
+        <h2 data-i18n="pd.title.about">Що це</h2>
+      </div>
+      <div class="prod-cols">
+        <div class="prod-prose">
+          <p data-i18n="p.gym.intro.0">Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються локально в браузері та нікуди не надсилаються, а застосунок працює офлайн і встановлюється на телефон як звичайний.</p>
+          <p data-i18n="p.gym.intro.1">Прогрес видно наочно: графік ваги зі спарклайном, історія вимірювань зі змінами та історія тренувань по днях із відсотком виконання. Таймер відпочинку нагадує вібрацією та сповіщенням, підтримує +15 секунд і Wake Lock, тож екран не гасне між підходами. Усі дані можна експортувати в JSON і відновити з бекапу.</p>
+        </div>
+        <aside class="prod-facts">
+          <h3 data-i18n="pd.facts.title">Коротко</h3>
+          <ul class="facts">
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Web · PWA · офлайн</span></li>
+            <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.free">Безкоштовно</span></li>
+            <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
+            <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="how">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.how">03 / Як працює</p>
+        <h2 data-i18n="pd.title.how">Принцип роботи</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-step">
+          <span class="how-num mono">01</span>
+          <h3 data-i18n="p.gym.how.0.t">Відкрийте та встановіть</h3>
+          <p data-i18n="p.gym.how.0.d">Застосунок працює у браузері; на телефоні оберіть «Додати на головний екран» — далі він запускається офлайн.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">02</span>
+          <h3 data-i18n="p.gym.how.1.t">Ведіть підходи</h3>
+          <p data-i18n="p.gym.how.1.d">Відмічайте виконані підходи крапками та фіксуйте вагу кожної вправи — попередній результат видно підказкою.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">03</span>
+          <h3 data-i18n="p.gym.how.2.t">Відпочивайте за таймером</h3>
+          <p data-i18n="p.gym.how.2.d">Таймер між підходами нагадає вібрацією та сповіщенням; можна додати 15 секунд або тримати екран активним.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">04</span>
+          <h3 data-i18n="p.gym.how.3.t">Слідкуйте за прогресом</h3>
+          <p data-i18n="p.gym.how.3.d">Графік ваги, історія замірів і тренувань по днях — усе локально, з експортом у JSON для бекапу.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="feat">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.feat">04 / Можливості</p>
+        <h2 data-i18n="pd.title.feat">Що вміє</h2>
+      </div>
+      <ul class="feat-list">
+          <li data-i18n="p.gym.feat.0">19 вправ у 4 блоках: сила, фінішер, кор, кардіо</li>
+          <li data-i18n="p.gym.feat.1">Облік підходів і вага кожної вправи з історією</li>
+          <li data-i18n="p.gym.feat.2">Таймер відпочинку: вібрація, сповіщення, +15 с, Wake Lock</li>
+          <li data-i18n="p.gym.feat.3">Графік ваги та історія вимірювань зі змінами</li>
+          <li data-i18n="p.gym.feat.4">Історія тренувань по днях із відсотком виконання</li>
+          <li data-i18n="p.gym.feat.5">Undo: видалення вимірювання чи скидання прогресу скасовується тостом</li>
+          <li data-i18n="p.gym.feat.6">Експорт та імпорт усіх даних у JSON, старі бекапи підтримуються</li>
+          <li data-i18n="p.gym.feat.7">Офлайн-режим і localStorage з валідацією та карантином даних</li>
+      </ul>
+    </section>
+
+    <section class="wrap prod-sec" id="stack">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.stack">05 / Стек</p>
+        <h2 data-i18n="pd.title.stack">Технології</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.gym.stack.0.g">Фронтенд</span>
+          <div class="tags"><span>Svelte 5</span><span>TypeScript</span><span>Vite</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.gym.stack.1.g">PWA та дані</span>
+          <div class="tags"><span>vite-plugin-pwa</span><span>Service Worker</span><span>localStorage</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.gym.stack.2.g">Тести</span>
+          <div class="tags"><span>Vitest</span><span>Testing Library</span><span>Playwright</span><span>Lighthouse CI</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.gym.stack.3.g">Якість</span>
+          <div class="tags"><span>ESLint</span><span>svelte-check</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="install">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.install">06 / Встановлення</p>
+        <h2 data-i18n="pd.title.install">Як почати</h2>
+      </div>
+      <div class="prod-cols">
+        <div>
+          <div class="card-actions">
+            <div class="cmd"><code>dist/gym/ · install as PWA</code><a class="copybtn" href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
+          </div>
+          <p class="prod-note" data-i18n="p.gym.install.note">Встановлення не потрібне: відкрийте в браузері та додайте на головний екран — далі працює офлайн.</p>
+          <p class="prod-links">
+            <a href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener" data-i18n="p.gym.links.0">Відкрити ↗</a>
+            <a href="https://github.com/ajjs1ajjs/dist/releases?q=gym" target="_blank" rel="noopener" data-i18n="p.gym.links.1">релізи ↗</a>
+          </p>
+        </div>
+        <ul class="reqs">
+          <li data-i18n="p.gym.reqs.0">Сучасний браузер із підтримкою PWA</li>
+          <li data-i18n="p.gym.reqs.1">Телефон, планшет або десктоп — встановлюється як рідний застосунок</li>
+          <li data-i18n="p.gym.reqs.2">Інтернет потрібен лише для першого відкриття, далі — офлайн</li>
+          <li data-i18n="p.gym.reqs.3">Дані локальні (localStorage) — перед очищенням браузера зробіть JSON-бекап</li>
+          <li data-i18n="p.gym.reqs.4">Node.js 22 — лише для локальної розробки та збірки</li>
+          <li data-i18n="p.gym.reqs.5">Безкоштовно — без ліцензій і підписок</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap prod-cta">
+      <div class="prod-cta-box">
+        <div>
+          <h2 data-i18n="pd.cta.free.title">Безкоштовно та без реєстрації</h2>
+          <p data-i18n="pd.cta.free.desc">Відкрийте застосунок у браузері — він працює офлайн і встановлюється як PWA.</p>
+        </div>
+        <div class="prod-cta-btns">
+          <a class="btn btn-primary" href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a>
+          <a class="btn" href="../../#products" data-i18n="pd.cta.products">Усі продукти</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="footer">
+    <div class="wrap footer-in">
+      <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
+      <nav aria-label="Футер">
+        <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
+        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="totop" id="toTop" type="button" aria-label="Догори" data-i18n-attr="aria-label:footer.toTop">↑</button>
+
+<!-- BUY MODAL -->
+  <div class="modal" id="buyModal" hidden role="dialog" aria-modal="true" aria-labelledby="buyTitle">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <h3 id="buyTitle"><span data-i18n="buy.title">Ліцензія</span> · <span id="buyName">—</span></h3>
+      <p class="modal-sub" data-i18n="buy.sub">Оформлення підписки за 3 кроки.</p>
+      <div class="price-pair">
+        <a class="price-opt" id="buyMonthLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyMonth">—</b><span data-i18n="buy.month">за місяць</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+        <a class="price-opt hot" id="buyYearLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyYear">—</b><span data-i18n="buy.year">за рік</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+      </div>
+      <div class="buy-steps">
+        <div class="buy-step"><b data-i18n="buy.step1.t">1 · Спробуйте безкоштовно</b><p data-i18n="buy.step1.d">Запустіть програму — вона сама запропонує 3-денний тріал за email. Без картки.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму вище — банка Monobank відкриється з уже підставленою сумою. У коментарі вкажіть email, який вводили в програмі.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.</p></div>
+      </div>
+      <div class="modal-actions">
+        <a class="btn" id="buyEmail" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="buy.email">Написати на email</a>
+      </div>
+      <p class="modal-note" data-i18n="buy.note">Для команд — безкоштовні корпоративні ліцензії, напишіть на email.</p>
+    </div>
+  </div>
+
+<!-- SCREENSHOT MODAL -->
+  <div class="modal modal--shot" id="shotModal" hidden role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <img id="shotImg" alt="">
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+<script src="../../translations.js?v=20261013a" defer></script>
+  <script src="./i18n.js?v=20261013a" defer></script>
+  <script src="../../app.js?v=20261013a" defer></script>
+  <!-- Cloudflare Web Analytics -->
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>

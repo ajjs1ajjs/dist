@@ -9,6 +9,10 @@
 > ⚠️ Змінюєш `styles.css` / `app.js` / `translations.js` — підніми `?v=YYYYMMDD`
 > у посиланнях `index.html`, інакше в кеші (GitHub Pages/CDN) добу житиме стара версія.
 
+> 📄 Сторінки продуктів `/p/<slug>/` — дзеркало SITE (andreichuk.dev): генеруються
+> з `SITE/scripts/products/*.json` командою `npm run products:dist`. Правити треба
+> в SITE, у дисті файли лише оновлюються (як і спільні `styles.css`/`app.js`/`translations.js`).
+
 <br>
 
 <a href="https://ajjs1ajjs.github.io/dist/"><img src="https://img.shields.io/badge/🌐_Showcase_Portal-ajjs1ajjs.github.io%2Fdist-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Showcase Portal"></a>

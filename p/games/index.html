@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>3D Game Collection — П'ять браузерних 3D-ігор на Three.js — грати без встановлення · DIST</title>
+  <meta name="description" content="Колекція з п'яти браузерних 3D-ігор: GravityShift, Terraformers, Echoes, Drift і Verdant. Кожна гра — самодостатня папка з усіма потрібними файлами, тож її можна підняти локально будь-яким простим HTTP-сервером. Ігри публікуються на itch.io і граються прямо у вікні браузера — без встановлення…">
+  <meta name="theme-color" content="#0b0f16">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:title" content="3D Game Collection — П'ять браузерних 3D-ігор на Three.js — грати без встановлення">
+  <meta property="og:description" content="Колекція з п'яти браузерних 3D-ігор: GravityShift, Terraformers, Echoes, Drift і Verdant. Кожна гра — самодостатня папка з усіма потрібними файлами, тож її можна підняти локально будь-яким простим HTTP-сервером. Ігри публікуються на itch.io і…">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ajjs1ajjs.github.io/dist/p/games/">
+  <meta property="og:image" content="https://ajjs1ajjs.github.io/dist/og/games.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="3D Game Collection — П'ять браузерних 3D-ігор на Three.js — грати без встановлення">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="3D Game Collection — П'ять браузерних 3D-ігор на Three.js — грати без встановлення">
+  <meta name="twitter:description" content="Колекція з п'яти браузерних 3D-ігор: GravityShift, Terraformers, Echoes, Drift і Verdant. Кожна гра — самодостатня папка з усіма потрібними файлами, тож її можна підняти локально будь-яким простим…">
+  <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/games.png">
+  <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/games/">
+  <meta property="og:locale" content="uk_UA">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GameApplication",
+    "name": "3D Game Collection",
+    "description": "Колекція з п'яти браузерних 3D-ігор: GravityShift, Terraformers, Echoes, Drift і Verdant. Кожна гра — самодостатня папка з усіма потрібними файлами, тож її можна підняти локально будь-яким простим HTTP-сервером. Ігри публікуються на itch.io і граються прямо у вікні браузера — без встановлення, завантажень і обов'язкової оплати.",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Web",
+    "url": "https://ajjs1ajjs.github.io/dist/p/games/",
+    "image": "https://ajjs1ajjs.github.io/dist/og/games.png",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "UAH",
+      "description": "Безкоштовно"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Ярослав",
+      "url": "https://andreichuk.dev/"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=20261013a">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+</head>
+<body data-page="p-games">
+  <a class="skip" href="#main" data-i18n="skip">Перейти до контенту</a>
+
+<header class="site-head">
+    <div class="wrap head-in">
+      <a class="brand" href="../../#hero"><span class="b-mark">◢</span> AJ<span class="b-mark">_</span>SRE <em>dist ecosystem</em></a>
+      <nav class="nav-links" aria-label="Головна навігація" data-i18n-attr="aria-label:nav.aria">
+        <a href="../../#products" data-i18n="nav.products">Продукти</a>
+        <a href="../../#about" data-i18n="nav.about">Про мене</a>
+        <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+        <a href="../../#services" data-i18n="nav.services">Послуги</a>
+        <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-sm btn-primary nav-cta" href="../../#contact" data-i18n="nav.contact">Написати</a>
+      </nav>
+      <div class="head-mobile">
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" aria-label="Меню" data-i18n-attr="aria-label:nav.menuAria" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../../#hero" data-i18n="nav.m.home">Головна</a>
+      <a href="../../#products" data-i18n="nav.products">Продукти</a>
+      <a href="../../#about" data-i18n="nav.about">Про мене</a>
+      <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+      <a href="../../#services" data-i18n="nav.services">Послуги</a>
+      <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="../../#contact" data-i18n="nav.contact">Написати</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <nav class="wrap crumbs" aria-label="Навігаційний ланцюжок" data-i18n-attr="aria-label:pd.crumbsAria">
+      <a href="../../#products" data-i18n="pd.crumbs">Продукти</a>
+      <span aria-hidden="true">›</span>
+      <span class="crumbs-cur">3D Game Collection</span>
+    </nav>
+
+    <section class="wrap prod-hero">
+      <div class="prod-hero-copy">
+        <p class="badge-line">DIST ecosystem · Web · Three.js · itch.io</p>
+        <h1>3D Game Collection</h1>
+        <p class="prod-sub" data-i18n="p.games.sub">П'ять браузерних 3D-ігор на Three.js — грати без встановлення</p>
+        <div class="tags"><span>Three.js</span><span>WebGL</span><span>itch.io</span></div>
+        <div class="prod-buy">
+          <a class="buy buy--free" href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener">
+            <b data-i18n="prod.free">Безкоштовно</b><span data-i18n="prod.live">Відкрити ↗</span>
+          </a>
+        </div>
+        <div class="card-actions">
+          <div class="cmd"><code>itch.io · play in browser</code><a class="copybtn" href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener" data-i18n="prod.play">Грати ↗</a></div>
+          <div class="links"><a href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener">Всі 5 ігор ↗</a><span class="mono">no install</span></div>
+        </div>
+      </div>
+      <div class="prod-hero-shot">
+        <div class="frame">
+          <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.games.shots.0.cap">GravityShift — платформер з управлінням гравітацією</em></span>
+          <button class="prod-shot-btn" type="button" data-shot="../../shots/games/gravityshift.webp" data-shot-alt="GravityShift — платформер з управлінням гравітацією" aria-label="GravityShift — платформер з управлінням гравітацією">
+            <img src="../../shots/games/gravityshift.webp" alt="GravityShift — платформер з управлінням гравітацією" width="1200" decoding="async">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="shots">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.shots">01 / Скріни</p>
+        <h2 data-i18n="pd.title.shots">Інтерфейс</h2>
+      </div>
+      <div class="gallery">
+        <figure>
+          <button type="button" data-shot="../../shots/games/drift.webp" data-shot-alt="Drift — автогонки з реалістичним дрифтом" aria-label="Drift — автогонки з реалістичним дрифтом">
+            <img src="../../shots/games/drift.webp" alt="Drift — автогонки з реалістичним дрифтом" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.games.shots.1.cap">Drift — автогонки з реалістичним дрифтом</figcaption>
+        </figure>
+        <figure>
+          <button type="button" data-shot="../../shots/games/terraformers.webp" data-shot-alt="Terraformers — voxel-стратегія будування планет" aria-label="Terraformers — voxel-стратегія будування планет">
+            <img src="../../shots/games/terraformers.webp" alt="Terraformers — voxel-стратегія будування планет" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.games.shots.2.cap">Terraformers — voxel-стратегія будування планет</figcaption>
+        </figure>
+        <figure>
+          <button type="button" data-shot="../../shots/games/verdant.webp" data-shot-alt="Verdant — симуляція рослинного світу" aria-label="Verdant — симуляція рослинного світу">
+            <img src="../../shots/games/verdant.webp" alt="Verdant — симуляція рослинного світу" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.games.shots.3.cap">Verdant — симуляція рослинного світу</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="about">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.about">02 / Опис</p>
+        <h2 data-i18n="pd.title.about">Що це</h2>
+      </div>
+      <div class="prod-cols">
+        <div class="prod-prose">
+          <p data-i18n="p.games.intro.0">Колекція з п'яти браузерних 3D-ігор: GravityShift, Terraformers, Echoes, Drift і Verdant. Кожна гра — самодостатня папка з усіма потрібними файлами, тож її можна підняти локально будь-яким простим HTTP-сервером. Ігри публікуються на itch.io і граються прямо у вікні браузера — без встановлення, завантажень і обов'язкової оплати.</p>
+          <p data-i18n="p.games.intro.1">Модель доступу — free-to-play із добровільним донатом («Pay what you want»): на itch.io кожна гра налаштована як HTML-проєкт із ціною «$0 or donate» і вбудовою прямо на сторінці. Релізи збираються локальним скриптом Release-Local.ps1, який ставить тег game-v і додає zip-артефакти в GitHub, а завантаження на itch.io виконує npm run push:itch через butler.</p>
+        </div>
+        <aside class="prod-facts">
+          <h3 data-i18n="pd.facts.title">Коротко</h3>
+          <ul class="facts">
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Web · Three.js · itch.io</span></li>
+            <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.free">Безкоштовно</span></li>
+            <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
+            <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="how">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.how">03 / Як працює</p>
+        <h2 data-i18n="pd.title.how">Принцип роботи</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-step">
+          <span class="how-num mono">01</span>
+          <h3 data-i18n="p.games.how.0.t">Оберіть гру</h3>
+          <p data-i18n="p.games.how.0.d">GravityShift, Terraformers, Echoes, Drift або Verdant — у кожної своя сторінка на itch.io.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">02</span>
+          <h3 data-i18n="p.games.how.1.t">Грайте в браузері</h3>
+          <p data-i18n="p.games.how.1.d">Ігри вбудовані на сторінці (Embed in page) і стартують одразу у вікні браузера — без встановлення.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">03</span>
+          <h3 data-i18n="p.games.how.2.t">Скиньте донат</h3>
+          <p data-i18n="p.games.how.2.d">Ціна «$0 or donate»: гра безкоштовна, а підтримка автора — за бажанням.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">04</span>
+          <h3 data-i18n="p.games.how.3.t">Запуск локально</h3>
+          <p data-i18n="p.games.how.3.d">Кожна гра — самодостатня папка: достатньо python -m http.server у теці гри.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="feat">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.feat">04 / Можливості</p>
+        <h2 data-i18n="pd.title.feat">Що вміє</h2>
+      </div>
+      <ul class="feat-list">
+          <li data-i18n="p.games.feat.0">П'ять ігор: GravityShift, Terraformers, Echoes, Drift, Verdant</li>
+          <li data-i18n="p.games.feat.1">GravityShift — 3D-платформер з управлінням гравітацією</li>
+          <li data-i18n="p.games.feat.2">Terraformers — voxel-стратегія про будування планет</li>
+          <li data-i18n="p.games.feat.3">Echoes — мультиплеєрна пригода з голосовим чатом</li>
+          <li data-i18n="p.games.feat.4">Drift — автогонки з реалістичним дрифтом</li>
+          <li data-i18n="p.games.feat.5">Verdant — симуляція рослинного світу</li>
+          <li data-i18n="p.games.feat.6">Граються в браузері: вбудовані прямо на сторінці itch.io</li>
+          <li data-i18n="p.games.feat.7">Free-to-play з добровільним донатом «Pay what you want»</li>
+      </ul>
+    </section>
+
+    <section class="wrap prod-sec" id="stack">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.stack">05 / Стек</p>
+        <h2 data-i18n="pd.title.stack">Технології</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.games.stack.0.g">Рендеринг</span>
+          <div class="tags"><span>Three.js (WebGL)</span><span>WebGL / WebGPU</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.games.stack.1.g">Мова</span>
+          <div class="tags"><span>JavaScript</span><span>TypeScript</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.games.stack.2.g">Фізика</span>
+          <div class="tags"><span>Cannon.js</span><span>Ammo.js</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.games.stack.3.g">Публікація</span>
+          <div class="tags"><span>itch.io (butler)</span><span>GitHub Releases</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="install">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.install">06 / Встановлення</p>
+        <h2 data-i18n="pd.title.install">Як почати</h2>
+      </div>
+      <div class="prod-cols">
+        <div>
+          <div class="card-actions">
+            <div class="cmd"><code>itch.io · play in browser</code><a class="copybtn" href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener" data-i18n="prod.play">Грати ↗</a></div>
+          </div>
+          <p class="prod-note" data-i18n="p.games.install.note">Встановлення не потрібне — ігри запускаються прямо в браузері.</p>
+          <p class="prod-links">
+            <a href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener" data-i18n="p.games.links.0">Грати ↗</a>
+            <a href="https://github.com/ajjs1ajjs/Game" target="_blank" rel="noopener" data-i18n="p.games.links.1">код на GitHub ↗</a>
+          </p>
+        </div>
+        <ul class="reqs">
+          <li data-i18n="p.games.reqs.0">Сучасний браузер із підтримкою WebGL</li>
+          <li data-i18n="p.games.reqs.1">Для локального запуску — будь-який простий HTTP-сервер (наприклад, python -m http.server)</li>
+          <li data-i18n="p.games.reqs.2">Кожна гра — самодостатня папка з усіма необхідними файлами</li>
+          <li data-i18n="p.games.reqs.3">На itch.io проєкт має тип HTML і вбудовується у сторінку</li>
+          <li data-i18n="p.games.reqs.4">Node.js і npm — для публікації командою npm run push:itch</li>
+          <li data-i18n="p.games.reqs.5">butler — CLI від itch.io для завантаження білдів у канал html5</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap prod-cta">
+      <div class="prod-cta-box">
+        <div>
+          <h2 data-i18n="pd.cta.free.title">Безкоштовно та без реєстрації</h2>
+          <p data-i18n="pd.cta.free.desc">Відкрийте застосунок у браузері — він працює офлайн і встановлюється як PWA.</p>
+        </div>
+        <div class="prod-cta-btns">
+          <a class="btn btn-primary" href="https://ajjs1ajjs.itch.io" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a>
+          <a class="btn" href="../../#products" data-i18n="pd.cta.products">Усі продукти</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="footer">
+    <div class="wrap footer-in">
+      <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
+      <nav aria-label="Футер">
+        <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
+        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="totop" id="toTop" type="button" aria-label="Догори" data-i18n-attr="aria-label:footer.toTop">↑</button>
+
+<!-- BUY MODAL -->
+  <div class="modal" id="buyModal" hidden role="dialog" aria-modal="true" aria-labelledby="buyTitle">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <h3 id="buyTitle"><span data-i18n="buy.title">Ліцензія</span> · <span id="buyName">—</span></h3>
+      <p class="modal-sub" data-i18n="buy.sub">Оформлення підписки за 3 кроки.</p>
+      <div class="price-pair">
+        <a class="price-opt" id="buyMonthLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyMonth">—</b><span data-i18n="buy.month">за місяць</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+        <a class="price-opt hot" id="buyYearLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyYear">—</b><span data-i18n="buy.year">за рік</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+      </div>
+      <div class="buy-steps">
+        <div class="buy-step"><b data-i18n="buy.step1.t">1 · Спробуйте безкоштовно</b><p data-i18n="buy.step1.d">Запустіть програму — вона сама запропонує 3-денний тріал за email. Без картки.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму вище — банка Monobank відкриється з уже підставленою сумою. У коментарі вкажіть email, який вводили в програмі.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.</p></div>
+      </div>
+      <div class="modal-actions">
+        <a class="btn" id="buyEmail" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="buy.email">Написати на email</a>
+      </div>
+      <p class="modal-note" data-i18n="buy.note">Для команд — безкоштовні корпоративні ліцензії, напишіть на email.</p>
+    </div>
+  </div>
+
+<!-- SCREENSHOT MODAL -->
+  <div class="modal modal--shot" id="shotModal" hidden role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <img id="shotImg" alt="">
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+<script src="../../translations.js?v=20261013a" defer></script>
+  <script src="./i18n.js?v=20261013a" defer></script>
+  <script src="../../app.js?v=20261013a" defer></script>
+  <!-- Cloudflare Web Analytics -->
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
