@@ -34,7 +34,9 @@ Object.assign(window.SITE_I18N, {
     "p.rdm.reqs.3": "Сейф прив'язаний до користувача через Windows Credential Manager",
     "p.rdm.reqs.4": "Для збірки з вихідників: Node.js 20+, Rust 1.75+ і C++ Build Tools (MSVC)",
     "p.rdm.shots.0.cap": "Дашборд зі списком з'єднань",
-    "p.rdm.shots.1.cap": "Сховище облікових даних із шифруванням",
+    "p.rdm.shots.1.cap": "Налаштування застосунку й термінала",
+    "p.rdm.shots.2.cap": "Нове підключення: SSH, RDP, теги, сейф",
+    "p.rdm.shots.3.cap": "Сховище облікових даних із шифруванням",
     "p.rdm.links.0": "релізи ↗",
     "p.rdm.links.1": "як встановити ↗",
     "p.rdm.install.note": "NSIS-інсталятор, MSI або portable ZIP — усе в релізах rdm-v*"
@@ -71,8 +73,10 @@ Object.assign(window.SITE_I18N, {
     "p.rdm.reqs.2": "WebView2 — bundled with the NSIS installer; for the portable build keep WebView2Loader.dll next to rdm-manager.exe",
     "p.rdm.reqs.3": "The vault is tied to your user through Windows Credential Manager",
     "p.rdm.reqs.4": "Building from source: Node.js 20+, Rust 1.75+ and C++ Build Tools (MSVC)",
-    "p.rdm.shots.0.cap": "Dashboard with the connections list",
-    "p.rdm.shots.1.cap": "Credential vault with AES-256-GCM encryption",
+    "p.rdm.shots.0.cap": "Dashboard with the connection list",
+    "p.rdm.shots.1.cap": "App and terminal settings",
+    "p.rdm.shots.2.cap": "New connection: SSH, RDP, tags, vault",
+    "p.rdm.shots.3.cap": "Encrypted credential vault",
     "p.rdm.links.0": "releases ↗",
     "p.rdm.links.1": "how to install ↗",
     "p.rdm.install.note": "NSIS installer, MSI or portable ZIP — all in the rdm-v* releases"

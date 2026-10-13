@@ -35,7 +35,9 @@ Object.assign(window.SITE_I18N, {
     "p.sales.reqs.4": "Для деплою — секрет PUBLIC_RELEASE_TOKEN із правом repo на ajjs1ajjs/dist",
     "p.sales.reqs.5": "Для сповіщень — TELEGRAM_BOT_TOKEN і TELEGRAM_CHAT_ID у секретах репозиторію",
     "p.sales.shots.0.cap": "Стрічка гарячих знижок Steam",
-    "p.sales.shots.1.cap": "Історія сповіщень за 30 днів",
+    "p.sales.shots.1.cap": "Нові добавлення в Game Pass для ПК",
+    "p.sales.shots.2.cap": "Обране: стеження за цінами",
+    "p.sales.shots.3.cap": "Історія сповіщень за 30 днів",
     "p.sales.links.0": "Відкрити ↗",
     "p.sales.links.1": "Telegram-канал ↗",
     "p.sales.install.note": "Окремої команди немає: сайт ставиться як PWA прямо з браузера."
@@ -73,8 +75,10 @@ Object.assign(window.SITE_I18N, {
     "p.sales.reqs.3": "The build is static: any web server (nginx, Caddy) can serve dist/",
     "p.sales.reqs.4": "For deploys — a PUBLIC_RELEASE_TOKEN secret with repo access to ajjs1ajjs/dist",
     "p.sales.reqs.5": "For alerts — TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in repository secrets",
-    "p.sales.shots.0.cap": "Live feed of Steam hot deals",
-    "p.sales.shots.1.cap": "Notification history for the last 30 days",
+    "p.sales.shots.0.cap": "Hot Steam deals feed",
+    "p.sales.shots.1.cap": "New additions to PC Game Pass",
+    "p.sales.shots.2.cap": "Wishlist: price tracking",
+    "p.sales.shots.3.cap": "Notification history, 30 days",
     "p.sales.links.0": "Open ↗",
     "p.sales.links.1": "Telegram channel ↗",
     "p.sales.install.note": "No command needed: the site installs as a PWA straight from the browser."

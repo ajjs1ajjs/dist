@@ -34,6 +34,7 @@ Object.assign(window.SITE_I18N, {
     "p.diskcleaner.reqs.4": "Запуск із вихідників: Python із залежностями з requirements.lock, далі python app.py",
     "p.diskcleaner.shots.0.cap": "Категорії очищення та стан диска",
     "p.diskcleaner.shots.1.cap": "Результати сканування: 10,3 ГБ до видалення",
+    "p.diskcleaner.shots.2.cap": "Керування ліцензією та тріалом",
     "p.diskcleaner.links.0": "релізи ↗",
     "p.diskcleaner.links.1": "як встановити ↗",
     "p.diskcleaner.install.note": "Один .exe — завантажте з релізів diskcleaner-v* і запустіть"
@@ -71,6 +72,7 @@ Object.assign(window.SITE_I18N, {
     "p.diskcleaner.reqs.4": "Running from source: Python with requirements.lock installed, then python app.py",
     "p.diskcleaner.shots.0.cap": "Cleanup categories and disk state",
     "p.diskcleaner.shots.1.cap": "Scan results: 10.3 GB ready to delete",
+    "p.diskcleaner.shots.2.cap": "License and trial management",
     "p.diskcleaner.links.0": "releases ↗",
     "p.diskcleaner.links.1": "how to install ↗",
     "p.diskcleaner.install.note": "A single .exe — grab it from the diskcleaner-v* releases and run it"
