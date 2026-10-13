@@ -1,9 +1,9 @@
 {
-    "version":  "2.1.1",
-    "notes":  "**NetScope 2.1.1 — DNS-записи домену працюють навіть із закритим transfer.**\n\nПродовження 2.1.0: перелік машин із доменної DNS-зони тепер має три джерела, і головне з них не потребує ні transfer, ні прав на DNS-сервер.\n\n- **AD-розділ MicrosoftDNS (нове)**: записи зони читаються просто з Active Directory (`CN=MicrosoftDNS,DC=DomainDnsZones…`) тими ж доменними обліковими даними, що й збір AD. Працює без RSAT і без дозволеного перенесення зони — тобто у більшості реальних доменів.\n- **AXFR розумніший**: крім контролерів домену, пробуємо DNS-сервери з налаштувань Windows і авторитетні сервери зони з NS-записів; спроби паралельні з дедлайном — скан більше не витрачає на це десятки секунд (було 20+ с на глухому DNS, стало ~2.6 с у найгіршому разі).\n- **Без дублювання роботи**: зони, які вже віддав AD, по transfer не запитуються.\n- **Підказка в скані** переписана під усі три джерела: якщо жодне не спрацювало — буде прямо сказано, що саме закрито.\n\n**Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.1.0...netscope-v2.1.1\n",
+    "version":  "2.2.0",
+    "notes":  "**NetScope 2.2.0 — доступи й порти в звіті для керівництва.**\n\nПродовження 2.1.x: те, що видно у списку «Машини», тепер потрапляє і в звіт (PDF, Excel, HTML).\n\n- **Колонки «Доступи» і «Порти»** в інвентарі звіту — для контролерів домену, серверів і робочих станцій: `RDP, SMB, WinRM, Web` і `80, 445, 5985, 3389`.\n- **Новий розділ «DNS-імена домену (машини поза AD)»** із джерелом запису (AD-розділ DNS / AXFR / PTR) — видно, які машини знайдені з DNS, а не з AD.\n- **У підсумку** — кількість DNS-імен і машин за типами.\n- **Рекомендація «Відкритий RDP»** тепер рахується за сканованими портами (раніше — лише за рядком старого формату, тож на нових сканах могла не спрацьовувати).\n- **Старі скани та історія** теж показують доступи й порти: старий формат `OpenPorts` розбирається автоматично.\n- PDF-таблиці перекомпоновано під нові колонки (без «пливучого» тексту).\n\n**Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.1.1...netscope-v2.2.0\n",
     "portable":  {
-                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.1.1/NetScope-v2.1.1-update.zip",
-                     "sha256":  "c74671c7de8449cceda674db00a21b53dcb609e2fc555d91476eb25c2fffbcb5",
-                     "signature":  "SlSc8sNst5c+HcnYEPNkVwi7r3i4zlty3OT+zkyAojFWKx+zSnn/yANnpUhTIGUzAIGfe0bwvkXir03feoxTBg=="
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.2.0/NetScope-v2.2.0-update.zip",
+                     "sha256":  "e1fec4993a5d373fe8d61c2a3fcdbf4ef3eec4c5ab876067d16b5a94447a5499",
+                     "signature":  "eO9ZwWFnC8ycydl1EVwTlFz9UnhkXbhlPYGqiypgC/4Nka3UoiJE0CDSQEif5c26T++nTJvrSkrJQYk8D95HDA=="
                  }
 }
