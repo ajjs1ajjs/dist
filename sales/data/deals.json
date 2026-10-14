@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T09:00:43.471Z",
+  "lastUpdated": "2026-10-14T10:00:40.063Z",
   "steam": [
     {
       "id": "1808500",
@@ -119,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791824484",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -132,19 +145,6 @@
       "isPopular": true
     },
     {
-      "id": "5155360",
-      "title": "Hood Warfare 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
-      "originalPrice": 155,
-      "discountPrice": 139,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5155360",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3846830",
       "title": "Total War: SHOGUN 2 - Complete Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3846830/9b5a02f97947c4fc7d8b0d5f8f1a28d32bb34d2d/capsule_616x353.jpg?t=1791903651",
@@ -153,19 +153,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3846830",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791824484",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
