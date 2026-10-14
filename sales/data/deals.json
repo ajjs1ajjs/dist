@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T23:00:24.327Z",
+  "lastUpdated": "2026-10-14T00:00:42.575Z",
   "steam": [
     {
       "id": "1808500",
@@ -132,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "3846830",
-      "title": "Total War: SHOGUN 2 - Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3846830/9b5a02f97947c4fc7d8b0d5f8f1a28d32bb34d2d/capsule_616x353.jpg?t=1791903651",
-      "originalPrice": 1399,
-      "discountPrice": 1399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3846830",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -153,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3846830",
+      "title": "Total War: SHOGUN 2 - Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3846830/9b5a02f97947c4fc7d8b0d5f8f1a28d32bb34d2d/capsule_616x353.jpg?t=1791903651",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3846830",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
