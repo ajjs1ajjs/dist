@@ -2826,5 +2826,12 @@
     "percent": 0,
     "timestamp": "2026-10-14T17:00:36.572Z",
     "type": "gamepass"
+  },
+  "steam_discount_2183900": {
+    "title": "Warhammer 40,000: Space Marine 2",
+    "price": 389,
+    "percent": 75,
+    "timestamp": "2026-10-14T20:00:36.314Z",
+    "type": "discount"
   }
 }
