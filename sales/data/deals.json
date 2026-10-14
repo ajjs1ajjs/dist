@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T20:00:37.943Z",
+  "lastUpdated": "2026-10-14T21:00:36.915Z",
   "steam": [
     {
       "id": "1808500",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1808500",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "1091500",
@@ -23,6 +23,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -54,14 +67,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
+      "id": "814380",
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+      "originalPrice": 2035,
+      "discountPrice": 1017,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/814380",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,6 +93,19 @@
       "isPopular": true
     },
     {
+      "id": "3219030",
+      "title": "Planet Zoo 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
+      "originalPrice": 1145,
+      "discountPrice": 1145,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3219030",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -93,14 +119,14 @@
       "isPopular": true
     },
     {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -119,14 +145,14 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "5155360",
+      "title": "Hood Warfare 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
+      "originalPrice": 155,
+      "discountPrice": 139,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/5155360",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
