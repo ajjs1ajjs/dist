@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T21:00:36.915Z",
+  "lastUpdated": "2026-10-14T22:00:42.098Z",
   "steam": [
     {
       "id": "1808500",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -67,14 +54,14 @@
       "isPopular": false
     },
     {
-      "id": "814380",
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
-      "originalPrice": 2035,
-      "discountPrice": 1017,
-      "discountPercent": 50,
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/814380",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -106,19 +93,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -132,19 +106,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791824484",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5155360",
       "title": "Hood Warfare 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
@@ -153,6 +114,32 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5155360",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4231820",
+      "title": "Castlevania: Belmont's Curse",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1788478863",
+      "originalPrice": 1292,
+      "discountPrice": 1292,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4231820",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791824484",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -562,41 +549,6 @@
       "price": 1119,
       "percent": 30,
       "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_1086940": {
-      "title": "Baldur's Gate 3",
-      "price": 629,
-      "percent": 30,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_3008130": {
-      "title": "Dying Light: The Beast",
-      "price": 799,
-      "percent": 50,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_3375780": {
-      "title": "Trails in the Sky 1st Chapter",
-      "price": 562,
-      "percent": 50,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_1172620": {
-      "title": "Sea of Thieves: 2026 Edition",
-      "price": 360,
-      "percent": 65,
-      "timestamp": "2026-09-14T21:13:39.281Z",
-      "type": "discount"
-    },
-    "steam_discount_2001120": {
-      "title": "Split Fiction",
-      "price": 844,
-      "percent": 35,
-      "timestamp": "2026-09-14T21:13:39.281Z",
       "type": "discount"
     },
     "steam_discount_1426210": {

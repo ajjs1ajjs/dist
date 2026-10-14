@@ -6,41 +6,6 @@
     "timestamp": "2026-10-01T21:15:14.462Z",
     "type": "discount"
   },
-  "steam_discount_1086940": {
-    "title": "Baldur's Gate 3",
-    "price": 629,
-    "percent": 30,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_3008130": {
-    "title": "Dying Light: The Beast",
-    "price": 799,
-    "percent": 50,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_3375780": {
-    "title": "Trails in the Sky 1st Chapter",
-    "price": 562,
-    "percent": 50,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_1172620": {
-    "title": "Sea of Thieves: 2026 Edition",
-    "price": 360,
-    "percent": 65,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
-  "steam_discount_2001120": {
-    "title": "Split Fiction",
-    "price": 844,
-    "percent": 35,
-    "timestamp": "2026-09-14T21:13:39.281Z",
-    "type": "discount"
-  },
   "steam_discount_1426210": {
     "title": "It Takes Two",
     "price": 299,
