@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T17:00:38.803Z",
+  "lastUpdated": "2026-10-14T18:00:39.839Z",
   "steam": [
     {
       "id": "1808500",
@@ -80,22 +80,9 @@
       "isPopular": false
     },
     {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2929250",
       "title": "over the hill",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1791994837",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1791998688",
       "originalPrice": 530,
       "discountPrice": 424,
       "discountPercent": 20,
@@ -106,14 +93,14 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791824484",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
+      "id": "3219030",
+      "title": "Planet Zoo 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
+      "originalPrice": 1145,
+      "discountPrice": 1145,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
+      "url": "https://store.steampowered.com/app/3219030",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -132,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/f54fbdf163908f8c451e65409000ede81cd0e280/capsule_616x353_alt_assets_5_ukrainian.jpg?t=1791824484",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4231820",
       "title": "Castlevania: Belmont's Curse",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1788478863",
@@ -145,19 +145,6 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/24c0b6c0621560e922fbed18545921e7eaa9036e/capsule_616x353.jpg?t=1791928607",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5155360",
       "title": "Hood Warfare 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
@@ -166,6 +153,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5155360",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
