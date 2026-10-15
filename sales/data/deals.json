@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T08:00:38.321Z",
+  "lastUpdated": "2026-10-15T09:00:44.493Z",
   "steam": [
     {
       "id": "1808500",
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "4231820",
-      "title": "Castlevania: Belmont's Curse",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1792036946",
-      "originalPrice": 1292,
-      "discountPrice": 1292,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4231820",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -106,6 +106,19 @@
       "isPopular": true
     },
     {
+      "id": "4231820",
+      "title": "Castlevania: Belmont's Curse",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1792036946",
+      "originalPrice": 1292,
+      "discountPrice": 1292,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4231820",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2929250",
       "title": "over the hill",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1792002879",
@@ -119,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -140,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
