@@ -1,54 +1,15 @@
 {
-  "lastUpdated": "2026-10-15T19:00:41.244Z",
+  "lastUpdated": "2026-10-15T20:00:39.563Z",
   "steam": [
     {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
+      "id": "3569420",
+      "title": "Chained Beasts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/053d28d8abb4811bdaa53015b72c1f91ffcb936c/capsule_616x353.jpg?t=1792082632",
+      "originalPrice": 430,
+      "discountPrice": 279,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3569420",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -67,6 +28,58 @@
       "isPopular": false
     },
     {
+      "id": "1091500",
+      "title": "Cyberpunk 2077",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/a757b56d2078be8b09a04e2ad531f1fefafaa129/capsule_616x353.jpg?t=1784714077",
+      "originalPrice": 1399,
+      "discountPrice": 419,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1999,
+      "discountPrice": 879,
+      "discountPercent": 56,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -75,19 +88,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2347080",
-      "title": "Frosthaven",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2347080/0f2f7edc08fdb275c7b82cfe85f011b11f0849d8/capsule_616x353.jpg?t=1792089974",
-      "originalPrice": 740,
-      "discountPrice": 518,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2347080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -171,14 +171,14 @@
       "isPopular": true
     },
     {
-      "id": "2929250",
-      "title": "over the hill",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1792002879",
-      "originalPrice": 530,
-      "discountPrice": 424,
-      "discountPercent": 20,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2929250",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -3379,6 +3379,13 @@
       "percent": 0,
       "timestamp": "2026-10-15T18:00:40.128Z",
       "type": "gamepass"
+    },
+    "steam_discount_3569420": {
+      "title": "Chained Beasts",
+      "price": 279,
+      "percent": 35,
+      "timestamp": "2026-10-15T20:00:36.985Z",
+      "type": "discount"
     }
   }
 }

@@ -2777,5 +2777,12 @@
     "percent": 0,
     "timestamp": "2026-10-15T18:00:40.128Z",
     "type": "gamepass"
+  },
+  "steam_discount_3569420": {
+    "title": "Chained Beasts",
+    "price": 279,
+    "percent": 35,
+    "timestamp": "2026-10-15T20:00:36.985Z",
+    "type": "discount"
   }
 }
