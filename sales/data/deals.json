@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T18:00:46.036Z",
+  "lastUpdated": "2026-10-15T19:00:41.244Z",
   "steam": [
     {
       "id": "1091500",
@@ -54,6 +54,19 @@
       "isPopular": false
     },
     {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1599,
+      "discountPrice": 959,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -69,7 +82,7 @@
     {
       "id": "2347080",
       "title": "Frosthaven",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2347080/0f2f7edc08fdb275c7b82cfe85f011b11f0849d8/capsule_616x353.jpg?t=1792068928",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2347080/0f2f7edc08fdb275c7b82cfe85f011b11f0849d8/capsule_616x353.jpg?t=1792089974",
       "originalPrice": 740,
       "discountPrice": 518,
       "discountPercent": 30,
@@ -80,27 +93,14 @@
       "isPopular": false
     },
     {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg?t=1791542068",
-      "originalPrice": 195,
-      "discountPrice": 117,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3816030",
-      "title": "DayZ Badlands",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/c597753473f92a40f053307afd15d257156ce841/capsule_616x353.jpg?t=1792059040",
-      "originalPrice": 599,
-      "discountPrice": 539,
+      "id": "4954910",
+      "title": "Scam With Your Friends",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/376ff0c9354de04f0822e0eddad1ac8f53ac5c46/capsule_616x353.jpg?t=1792088818",
+      "originalPrice": 230,
+      "discountPrice": 207,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3816030",
+      "url": "https://store.steampowered.com/app/4954910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -114,6 +114,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3816030",
+      "title": "DayZ Badlands",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/c597753473f92a40f053307afd15d257156ce841/capsule_616x353.jpg?t=1792059040",
+      "originalPrice": 599,
+      "discountPrice": 539,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3816030",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -158,27 +171,14 @@
       "isPopular": true
     },
     {
-      "id": "1808500",
-      "title": "ARC Raiders",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0a1858e0ad97504cbaa70a931d870756de63c34c/capsule_616x353_alt_assets_8.jpg?t=1791401542",
-      "originalPrice": 1390,
-      "discountPrice": 1390,
-      "discountPercent": 0,
+      "id": "2929250",
+      "title": "over the hill",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1792002879",
+      "originalPrice": 530,
+      "discountPrice": 424,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1808500",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3219030",
-      "title": "Planet Zoo 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
-      "originalPrice": 1145,
-      "discountPrice": 1145,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3219030",
+      "url": "https://store.steampowered.com/app/2929250",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -603,16 +603,9 @@
   "notifiedHistory": {
     "steam_discount_3768760": {
       "title": "007 First Light",
-      "price": 1119,
-      "percent": 30,
-      "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_2402680": {
-      "title": "Dimraeth",
-      "price": 419,
-      "percent": 10,
-      "timestamp": "2026-09-15T18:37:27.467Z",
+      "price": 959,
+      "percent": 40,
+      "timestamp": "2026-10-15T19:00:39.388Z",
       "type": "discount"
     },
     "steam_discount_4019220": {
