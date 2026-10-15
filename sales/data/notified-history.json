@@ -2798,5 +2798,12 @@
     "percent": 75,
     "timestamp": "2026-10-14T20:00:36.314Z",
     "type": "discount"
+  },
+  "gamepass_9NQVHHW88XW9": {
+    "title": "Bluey's Happy Snaps",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-15T01:00:40.955Z",
+    "type": "gamepass"
   }
 }
