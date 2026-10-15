@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T14:00:41.547Z",
+  "lastUpdated": "2026-10-15T15:00:42.738Z",
   "steam": [
     {
       "id": "1808500",
@@ -145,19 +145,6 @@
       "isPopular": true
     },
     {
-      "id": "2929250",
-      "title": "over the hill",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1792002879",
-      "originalPrice": 530,
-      "discountPrice": 424,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2929250",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3219030",
       "title": "Planet Zoo 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
@@ -166,6 +153,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3219030",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2929250",
+      "title": "over the hill",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1792002879",
+      "originalPrice": 530,
+      "discountPrice": 424,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2929250",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -585,41 +585,6 @@
       "percent": 30,
       "timestamp": "2026-10-01T21:15:14.462Z",
       "type": "discount"
-    },
-    "steam_discount_1426210": {
-      "title": "It Takes Two",
-      "price": 299,
-      "percent": 70,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "discount"
-    },
-    "steam_discount_4557380": {
-      "title": "Batomon Showdown",
-      "price": 217,
-      "percent": 35,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "discount"
-    },
-    "steam_discount_1627720": {
-      "title": "Lies of P",
-      "price": 812,
-      "percent": 50,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "discount"
-    },
-    "xbox_new_9P402RWR63H4": {
-      "title": "RuneScape: Dragonwilds",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "xbox_new"
-    },
-    "xbox_new_9P9GX5D8H9DW": {
-      "title": "TCG Card Shop Simulator",
-      "price": 0,
-      "percent": 0,
-      "timestamp": "2026-09-15T14:02:23.026Z",
-      "type": "xbox_new"
     },
     "steam_discount_2402680": {
       "title": "Dimraeth",

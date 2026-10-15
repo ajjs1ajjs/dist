@@ -6,41 +6,6 @@
     "timestamp": "2026-10-01T21:15:14.462Z",
     "type": "discount"
   },
-  "steam_discount_1426210": {
-    "title": "It Takes Two",
-    "price": 299,
-    "percent": 70,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "discount"
-  },
-  "steam_discount_4557380": {
-    "title": "Batomon Showdown",
-    "price": 217,
-    "percent": 35,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "discount"
-  },
-  "steam_discount_1627720": {
-    "title": "Lies of P",
-    "price": 812,
-    "percent": 50,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "discount"
-  },
-  "xbox_new_9P402RWR63H4": {
-    "title": "RuneScape: Dragonwilds",
-    "price": 0,
-    "percent": 0,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "xbox_new"
-  },
-  "xbox_new_9P9GX5D8H9DW": {
-    "title": "TCG Card Shop Simulator",
-    "price": 0,
-    "percent": 0,
-    "timestamp": "2026-09-15T14:02:23.026Z",
-    "type": "xbox_new"
-  },
   "steam_discount_2402680": {
     "title": "Dimraeth",
     "price": 419,
