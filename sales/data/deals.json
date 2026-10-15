@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T10:00:39.210Z",
+  "lastUpdated": "2026-10-15T11:00:38.031Z",
   "steam": [
     {
       "id": "1808500",
@@ -80,6 +80,32 @@
       "isPopular": false
     },
     {
+      "id": "105600",
+      "title": "Terraria",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1769844435",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/105600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3816030",
+      "title": "DayZ Badlands",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/c597753473f92a40f053307afd15d257156ce841/capsule_616x353.jpg?t=1792059040",
+      "originalPrice": 599,
+      "discountPrice": 539,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3816030",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -119,6 +145,19 @@
       "isPopular": true
     },
     {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2929250",
       "title": "over the hill",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2929250/c9074a798026361d9c8521ef9a23d6e52c0bea38/capsule_616x353.jpg?t=1792002879",
@@ -140,19 +179,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
-      "originalPrice": 829,
-      "discountPrice": 829,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
