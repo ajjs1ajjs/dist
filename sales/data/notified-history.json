@@ -2784,5 +2784,12 @@
     "percent": 35,
     "timestamp": "2026-10-15T20:00:36.985Z",
     "type": "discount"
+  },
+  "gamepass_9N4ZMKC3GX4M": {
+    "title": "Beyond These Stars",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-16T19:01:22.170Z",
+    "type": "gamepass"
   }
 }
