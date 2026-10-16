@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T08:00:42.433Z",
+  "lastUpdated": "2026-10-16T09:00:44.663Z",
   "steam": [
     {
       "id": "3768760",
@@ -119,19 +119,6 @@
       "isPopular": true
     },
     {
-      "id": "3816030",
-      "title": "DayZ Badlands",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/c597753473f92a40f053307afd15d257156ce841/capsule_616x353.jpg?t=1792059040",
-      "originalPrice": 599,
-      "discountPrice": 539,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3816030",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1203620",
       "title": "Enshrouded",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
@@ -140,6 +127,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1203620",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3816030",
+      "title": "DayZ Badlands",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/c597753473f92a40f053307afd15d257156ce841/capsule_616x353.jpg?t=1792059040",
+      "originalPrice": 599,
+      "discountPrice": 539,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3816030",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -511,15 +511,6 @@
       "isPopular": true
     },
     {
-      "id": "9PPT8K6GQHRZ",
-      "title": "Clair Obscur: Expedition 33",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.51080.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.97df3890-5a55-4249-9093-8df24a47256e",
-      "url": "https://www.xbox.com/uk-UA/games/store/clair-obscur-expedition-33/9PPT8K6GQHRZ",
-      "description": "«Рік у рік вона стирає нас». Раз на рік Художниця прокидається й малює на Моноліті. Малює своє прокляте число. Тоді кожен, хто досяг цього віку, перетворюється на дим і зникає. Рік у рік цифра зменшує",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9PBRN7JS4XPC",
       "title": "Heroes of the Storm™",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
@@ -570,6 +561,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
       "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
       "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NP6WL1XQDBW",
+      "title": "SnowRunner - Windows",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
+      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
+      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
       "isNew": false,
       "isPopular": true
     }
