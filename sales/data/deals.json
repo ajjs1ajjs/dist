@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T17:01:19.080Z",
+  "lastUpdated": "2026-10-16T18:01:27.159Z",
   "steam": [
     {
       "id": "3768760",
@@ -23,19 +23,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1999,
-      "discountPrice": 879,
-      "discountPercent": 56,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -67,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "3569420",
-      "title": "Chained Beasts",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/053d28d8abb4811bdaa53015b72c1f91ffcb936c/capsule_616x353.jpg?t=1792082632",
-      "originalPrice": 430,
-      "discountPrice": 279,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3569420",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "990080",
       "title": "Hogwarts Legacy",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
@@ -88,6 +62,19 @@
       "discountPercent": 90,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/990080",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3569420",
+      "title": "Chained Beasts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/053d28d8abb4811bdaa53015b72c1f91ffcb936c/capsule_616x353.jpg?t=1792082632",
+      "originalPrice": 430,
+      "discountPrice": 279,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3569420",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -145,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4357610",
       "title": "Перепустка до Зали слави NBA 2K27: Season 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4357610/19b4aff4e9379b9979d496661eb8933f704a39f9/capsule_616x353.jpg?t=1792163082",
@@ -166,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4357610",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
