@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T19:01:25.207Z",
+  "lastUpdated": "2026-10-16T20:01:23.427Z",
   "steam": [
     {
       "id": "3768760",
@@ -54,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d06708fd9b55ec7675f1ec7c42e7c9b397fcfd8d/capsule_616x353_alt_assets_6_ukrainian.jpg?t=1792111318",
@@ -93,19 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "1203620",
-      "title": "Enshrouded",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
-      "originalPrice": 849,
-      "discountPrice": 764,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1203620",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
@@ -114,6 +88,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1203620",
+      "title": "Enshrouded",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
+      "originalPrice": 849,
+      "discountPrice": 764,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1203620",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -132,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "4078430",
+      "title": "STAR WARS: Galactic Racer™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
+      "originalPrice": 1390,
+      "discountPrice": 1390,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4078430",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4231820",
       "title": "Castlevania: Belmont's Curse",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1792036946",
@@ -145,14 +145,14 @@
       "isPopular": true
     },
     {
-      "id": "4078430",
-      "title": "STAR WARS: Galactic Racer™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
-      "originalPrice": 1390,
-      "discountPrice": 1390,
-      "discountPercent": 0,
+      "id": "3816030",
+      "title": "DayZ Badlands",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/c597753473f92a40f053307afd15d257156ce841/capsule_616x353.jpg?t=1792059040",
+      "originalPrice": 599,
+      "discountPrice": 539,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4078430",
+      "url": "https://store.steampowered.com/app/3816030",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
