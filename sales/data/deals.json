@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T10:00:46.805Z",
+  "lastUpdated": "2026-10-17T11:00:47.847Z",
   "steam": [
     {
       "id": "3768760",
@@ -145,19 +145,6 @@
       "isPopular": true
     },
     {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1791922282",
-      "originalPrice": 129,
-      "discountPrice": 129,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4080220",
       "title": "EA SPORTS FC™ 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/d3e9a412983e68c39b5751a5fc9480129ce745b3/capsule_616x353.jpg?t=1790973254",
@@ -171,14 +158,27 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
+      "id": "3219030",
+      "title": "Planet Zoo 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/d42390b547a06884e2b7cbf9bd1b0ae927b9bb46/capsule_616x353.jpg?t=1791984269",
+      "originalPrice": 1145,
+      "discountPrice": 1145,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
+      "url": "https://store.steampowered.com/app/3219030",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
