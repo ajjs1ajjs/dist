@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T07:00:49.698Z",
+  "lastUpdated": "2026-10-17T08:00:49.316Z",
   "steam": [
     {
       "id": "3768760",
@@ -67,6 +67,19 @@
       "isPopular": false
     },
     {
+      "id": "3569420",
+      "title": "Chained Beasts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3569420/053d28d8abb4811bdaa53015b72c1f91ffcb936c/capsule_616x353.jpg?t=1792082632",
+      "originalPrice": 430,
+      "discountPrice": 279,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3569420",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d06708fd9b55ec7675f1ec7c42e7c9b397fcfd8d/capsule_616x353_alt_assets_6_ukrainian.jpg?t=1792214069",
@@ -119,14 +132,14 @@
       "isPopular": true
     },
     {
-      "id": "4078430",
-      "title": "STAR WARS: Galactic Racer™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
-      "originalPrice": 1390,
-      "discountPrice": 1390,
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1791922282",
+      "originalPrice": 129,
+      "discountPrice": 129,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4078430",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -145,27 +158,14 @@
       "isPopular": true
     },
     {
-      "id": "4231820",
-      "title": "Castlevania: Belmont's Curse",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1792036946",
-      "originalPrice": 1292,
-      "discountPrice": 1292,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4231820",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
