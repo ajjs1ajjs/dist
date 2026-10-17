@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T09:00:47.461Z",
+  "lastUpdated": "2026-10-17T10:00:46.805Z",
   "steam": [
     {
       "id": "3768760",
@@ -119,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "1203620",
+      "title": "Enshrouded",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
+      "originalPrice": 849,
+      "discountPrice": 764,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1203620",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4954910",
       "title": "Scam With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/376ff0c9354de04f0822e0eddad1ac8f53ac5c46/capsule_616x353.jpg?t=1792088818",
@@ -145,14 +158,14 @@
       "isPopular": true
     },
     {
-      "id": "1203620",
-      "title": "Enshrouded",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
-      "originalPrice": 849,
-      "discountPrice": 764,
-      "discountPercent": 10,
+      "id": "4080220",
+      "title": "EA SPORTS FC™ 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/d3e9a412983e68c39b5751a5fc9480129ce745b3/capsule_616x353.jpg?t=1790973254",
+      "originalPrice": 2199,
+      "discountPrice": 2199,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1203620",
+      "url": "https://store.steampowered.com/app/4080220",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
