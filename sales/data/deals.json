@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T00:00:43.320Z",
+  "lastUpdated": "2026-10-18T01:00:45.743Z",
   "steam": [
     {
       "id": "3768760",
@@ -54,14 +54,14 @@
       "isPopular": false
     },
     {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
+      "id": "2215200",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1789746326",
+      "originalPrice": 1899,
+      "discountPrice": 1329,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
+      "url": "https://store.steampowered.com/app/2215200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -95,7 +95,7 @@
     {
       "id": "4954910",
       "title": "Scam With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/376ff0c9354de04f0822e0eddad1ac8f53ac5c46/capsule_616x353.jpg?t=1792088818",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4954910/376ff0c9354de04f0822e0eddad1ac8f53ac5c46/capsule_616x353.jpg?t=1792283115",
       "originalPrice": 230,
       "discountPrice": 207,
       "discountPercent": 10,
@@ -140,6 +140,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1203620",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5155360",
+      "title": "Hood Warfare 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
+      "originalPrice": 155,
+      "discountPrice": 155,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5155360",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
