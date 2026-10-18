@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T01:00:45.743Z",
+  "lastUpdated": "2026-10-18T02:00:44.772Z",
   "steam": [
     {
       "id": "3768760",
@@ -54,14 +54,14 @@
       "isPopular": false
     },
     {
-      "id": "2215200",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1789746326",
-      "originalPrice": 1899,
-      "discountPrice": 1329,
-      "discountPercent": 30,
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215200",
+      "url": "https://store.steampowered.com/app/990080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -106,19 +106,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4078430",
       "title": "STAR WARS: Galactic Racer™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/3c44afd74567d593c23049525c1b0376ae80e287/capsule_616x353.jpg?t=1791388584",
@@ -127,6 +114,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4078430",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -158,14 +158,14 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "4231820",
+      "title": "Castlevania: Belmont's Curse",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/03a29ad783287b690ab8fab0496d26b05cb872e7/capsule_616x353.jpg?t=1792036946",
+      "originalPrice": 1292,
+      "discountPrice": 1292,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/4231820",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -412,15 +412,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.42332.13662575907042688.2861c98a-7aa5-4a06-a574-f6e3595fc74e.d81d6a36-4966-463a-b92f-9e5eee64c7e6",
       "url": "https://www.xbox.com/uk-UA/games/store/transference/9NKDZ44LZR2R",
       "description": "Available in VR and Non-VR. Imagine an escape room set in a deranged mind. Experience a first-person exploration game in a chilling new dimension. Shift between three perspectives of a family in this ",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9N5VHX8KMVNV",
-      "title": "Vapor World: Over The Mind (Game Preview)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14555.14026248854300725.24c1a503-6f14-4fc7-a295-1bcfe3194519.059227ec-dfc5-442d-93a7-efa17f457bab",
-      "url": "https://www.xbox.com/uk-UA/games/store/vapor-world-over-the-mind-game-preview/9N5VHX8KMVNV",
-      "description": "The full message from the director is included at the bottom of the game description page. Lost in darkness, a boy drawn into a twisted dream, no way out. Vapor World: Over The Mind is a narrative-dri",
       "isNew": true,
       "isPopular": false
     },
