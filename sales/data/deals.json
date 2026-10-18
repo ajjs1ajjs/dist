@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T04:00:44.147Z",
+  "lastUpdated": "2026-10-18T05:00:46.209Z",
   "steam": [
     {
       "id": "3768760",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "990080",
       "title": "Hogwarts Legacy",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
@@ -62,6 +49,19 @@
       "discountPercent": 90,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/990080",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,19 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1867240",
       "title": "WARDOGS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
@@ -101,6 +88,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1867240",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -145,6 +145,19 @@
       "isPopular": true
     },
     {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1203620",
       "title": "Enshrouded",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
@@ -153,19 +166,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1203620",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5155360",
-      "title": "Hood Warfare 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5155360/92c06f010516f9fc5ac3e51da8ea155489101195/capsule_616x353.jpg?t=1791686243",
-      "originalPrice": 155,
-      "discountPrice": 155,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5155360",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
