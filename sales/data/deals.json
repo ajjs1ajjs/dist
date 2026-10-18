@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T03:00:48.176Z",
+  "lastUpdated": "2026-10-18T04:00:44.147Z",
   "steam": [
     {
       "id": "3768760",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
@@ -67,6 +54,19 @@
       "isPopular": false
     },
     {
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/990080",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d06708fd9b55ec7675f1ec7c42e7c9b397fcfd8d/capsule_616x353_alt_assets_6_ukrainian.jpg?t=1792214069",
@@ -75,6 +75,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -153,19 +166,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5155360",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
