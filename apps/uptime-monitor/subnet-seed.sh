@@ -9,10 +9,11 @@
 # Приклади:
 #   curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh | sudo bash
 #   sudo ./subnet-seed.sh 10.100.2.0/24 10.100.3.0/24=10.100.3.254
-#   NOTIFY='' sudo ./subnet-seed.sh        # не чіпати канали (при створенні — без сповіщень)
+#   NOTIFY='' sudo ./subnet-seed.sh        # нові монітори — без каналів
+#   FORCE_NOTIFY=1 sudo ./subnet-seed.sh   # перезаписати канали й у НАЯВНИХ моніторів
 #   RESET=0 sudo ./subnet-seed.sh          # не скидати стан/тривогу моніторів
 #
-# Потрібна версія >= 3.8.19 (команда `uptime-monitor subnet`).
+# Потрібна версія >= 3.8.20 (команда `uptime-monitor subnet`).
 set -euo pipefail
 
 DEFAULT_SUBNETS="10.100.2.0/24 10.100.3.0/24 10.100.4.0/24 10.100.5.0/24 10.100.6.0/24 10.100.7.0/24 10.100.8.0/24 10.100.9.0/24 10.100.10.0/24"
@@ -22,6 +23,7 @@ if [ -z "${NOTIFY+x}" ]; then NOTIFY='["telegram"]'; fi
 INTERVAL="${INTERVAL:-120}"
 UP_THRESHOLD="${UP_THRESHOLD:-5}"
 RESET="${RESET:-1}"
+FORCE_NOTIFY="${FORCE_NOTIFY:-0}"
 
 BIN="${UM_BIN:-/opt/uptime-monitor/uptime-monitor}"
 CONFIG="${UM_CONFIG:-/etc/uptime-monitor/config.json}"
@@ -40,9 +42,10 @@ if [ "$(id -u)" -eq 0 ] && id uptime >/dev/null 2>&1; then
   RUN=(sudo -u uptime "$BIN")
 fi
 
-# Перевірка можливості: команда `subnet` з'явилась у 3.8.19.
+# Перевірка можливості: команда `subnet` з'явилась у 3.8.19, актуальне
+# фінальне наповнення — у 3.8.20.
 if ! "${RUN[@]}" subnet list --config "$CONFIG" --db "$DB" >/dev/null 2>&1; then
-  die "встановлений бінарник не має команди 'subnet' (потрібна версія >= 3.8.19, зараз: $("$BIN" --version 2>/dev/null || echo '?')). Онови: curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash"
+  die "встановлений бінарник не має команди 'subnet' (потрібна версія >= 3.8.20, зараз: $("$BIN" --version 2>/dev/null || echo '?')). Онови: curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash"
 fi
 
 subnets=("$@")
@@ -59,6 +62,7 @@ for entry in "${subnets[@]}"; do
   [ "$RESET" = "1" ] && args+=( --reset-state )
   [ -n "$gw" ] && args+=( --targets "$gw" )
   [ -n "$NOTIFY" ] && args+=( --notify-methods "$NOTIFY" )
+  [ "$FORCE_NOTIFY" = "1" ] && args+=( --force-notify )
   "${RUN[@]}" "${args[@]}"
 done
 

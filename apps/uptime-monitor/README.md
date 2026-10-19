@@ -18,7 +18,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 UPTIME_MONITOR_VERSION=3.7.2 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash
 ```
 
-## Підмережі однією командою (v3.8.19+)
+## Підмережі однією командою (v3.8.20+)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh | sudo bash
@@ -38,6 +38,9 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-mon
 
 # канали для НОВИХ моніторів (дефолт ["telegram"]; [] — без сповіщень)
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh | sudo NOTIFY='[]' bash
+
+# канали наявних моніторів не змінюються, доки явно не додати FORCE_NOTIFY=1
+curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh | sudo FORCE_NOTIFY=1 bash
 ```
 
 ## Як це працює
