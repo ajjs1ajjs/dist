@@ -18,6 +18,28 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 UPTIME_MONITOR_VERSION=3.7.2 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash
 ```
 
+## Підмережі однією командою (v3.8.19+)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh | sudo bash
+```
+
+Створює/оновлює subnet-монітори для списку підмереж (дефолт: `10.100.2.0/24` … `10.100.10.0/24`):
+шлюз `.1` — якір, інтервал 120 с, UP-поріг 5, стара тривога моніторів скидається.
+Алерт у канал — лише коли **шлюз мовчить 2 цикли підряд або 0/N цілей**; часткова
+недоступність показується в дашборді, але не шле сповіщень.
+
+Свій список / канали:
+
+```bash
+# свої підмережі (необов'язково зі своїм шлюзом через =)
+curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh \
+  | sudo bash -s -- 10.100.2.0/24 10.100.3.0/24=10.100.3.254
+
+# канали для НОВИХ моніторів (дефолт ["telegram"]; [] — без сповіщень)
+curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/subnet-seed.sh | sudo NOTIFY='[]' bash
+```
+
 ## Як це працює
 
 - Бінарники (`uptime-monitor-linux-amd64` / `-arm64`) публікуються як релізи
@@ -49,4 +71,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 ## Файли
 
 - [`install.sh`](install.sh) - інсталятор/апдейтер (Ubuntu/Debian).
+- [`subnet-seed.sh`](subnet-seed.sh) - одноразове (ідемпотентне) налаштування subnet-моніторів.
 - Повний код - у приватному репозиторії `ajjs1ajjs/Uptime-Monitor`.
