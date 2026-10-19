@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T08:00:31.700Z",
+  "lastUpdated": "2026-10-19T09:00:36.512Z",
   "steam": [
     {
       "id": "3240220",
@@ -119,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
@@ -140,19 +153,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4954910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -390,15 +390,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.5432.13820636594696612.89ecbd3c-b2c0-41f3-8114-c05de3a18b22.8ed39ec1-10f1-4c0d-b59e-343b5680a023",
       "url": "https://www.xbox.com/uk-UA/games/store/blood-dungeon/9MSVBF0KZFVW",
       "description": "Від творців Nidhogg — виживайте в динамічному 2D-платформері. Майстерно долайте підступні підземелля, тримайте монстрів на відстані та збирайте кров і підсилення. Переживіть вилазку, віднесіть здобуті",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9NKDZ44LZR2R",
-      "title": "Transference",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.42332.13662575907042688.2861c98a-7aa5-4a06-a574-f6e3595fc74e.d81d6a36-4966-463a-b92f-9e5eee64c7e6",
-      "url": "https://www.xbox.com/uk-UA/games/store/transference/9NKDZ44LZR2R",
-      "description": "Available in VR and Non-VR. Imagine an escape room set in a deranged mind. Experience a first-person exploration game in a chilling new dimension. Shift between three perspectives of a family in this ",
       "isNew": true,
       "isPopular": false
     },
