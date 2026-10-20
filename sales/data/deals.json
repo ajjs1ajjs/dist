@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T17:00:31.918Z",
+  "lastUpdated": "2026-10-20T18:00:30.563Z",
   "steam": [
     {
       "id": "1091500",
@@ -80,27 +80,27 @@
       "isPopular": false
     },
     {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1792431472",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/1b37d83a584ba939f4f14ebf23cc13522aacb012/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1792519208",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -127,19 +127,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -497,20 +484,20 @@
       "isPopular": true
     },
     {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9WZDNCRFHWD2",
       "title": "Microsoft Solitaire Collection",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
       "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
       "isNew": false,
       "isPopular": true
     },
@@ -524,20 +511,20 @@
       "isPopular": true
     },
     {
-      "id": "9PBRN7JS4XPC",
-      "title": "Heroes of the Storm™",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
-      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
-      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9NWB9PL1L2PQ",
       "title": "Warcraft® III: Reforged",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
       "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
       "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PBRN7JS4XPC",
+      "title": "Heroes of the Storm™",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
+      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
+      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
       "isNew": false,
       "isPopular": true
     },
@@ -569,11 +556,11 @@
       "isPopular": true
     },
     {
-      "id": "9PGZ346PSLN0",
-      "title": "Cities: Skylines II - PC Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54933.14241982748923031.b7ab82d8-956b-4d85-b739-c1cd07cb25df.63a2e437-2ce6-4dab-a6fe-a1d8d901b187",
-      "url": "https://www.xbox.com/uk-UA/games/store/cities-skylines-ii-pc-edition/9PGZ346PSLN0",
-      "description": "Збудуй свою мрію. Побудуйте місто з нуля і перетворіть його на квітучий мегаполіс. Ви досі не стикалися із будівництвом такого масштабу. Будуйте без обмежень разом із Cities: Skylines II. Закладіть ос",
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
       "isNew": false,
       "isPopular": true
     }
