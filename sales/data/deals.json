@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T13:00:36.005Z",
+  "lastUpdated": "2026-10-20T14:00:35.196Z",
   "steam": [
     {
       "id": "1091500",
@@ -10,19 +10,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
-      "originalPrice": 1599,
-      "discountPrice": 959,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -54,14 +41,14 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1599,
+      "discountPrice": 959,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -75,6 +62,19 @@
       "discountPercent": 90,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/990080",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -119,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "2315050",
+      "title": "We Were Here Tomorrow",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/46f4da84a4f1b7e1b62877b4c579617755e1b81c/capsule_616x353_alt_assets_3.jpg?t=1792501768",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2315050",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
@@ -132,27 +145,14 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
-      "originalPrice": 829,
-      "discountPrice": 829,
+      "id": "5258280",
+      "title": "THE FINALS - Season 12 Ultimate Battle Pass Bundle",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5258280/933c3c5364b59a609c4fb5c3fc21c1144eb4e4f2/capsule_616x353.jpg?t=1792501156",
+      "originalPrice": 1490,
+      "discountPrice": 1490,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1203620",
-      "title": "Enshrouded",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/a8f53c82cb8ee725aeba714d65dce4b81f6ff2a6/capsule_616x353_alt_assets_2.jpg?t=1792078032",
-      "originalPrice": 849,
-      "discountPrice": 764,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1203620",
+      "url": "https://store.steampowered.com/app/5258280",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
