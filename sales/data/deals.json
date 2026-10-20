@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T16:00:32.558Z",
+  "lastUpdated": "2026-10-20T17:00:31.918Z",
   "steam": [
     {
       "id": "1091500",
@@ -67,19 +67,6 @@
       "isPopular": false
     },
     {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -93,9 +80,22 @@
       "isPopular": false
     },
     {
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/990080",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/d06708fd9b55ec7675f1ec7c42e7c9b397fcfd8d/capsule_616x353_alt_assets_6_ukrainian.jpg?t=1792431472",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1792431472",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
@@ -119,14 +119,14 @@
       "isPopular": true
     },
     {
-      "id": "2315050",
-      "title": "We Were Here Tomorrow",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/46f4da84a4f1b7e1b62877b4c579617755e1b81c/capsule_616x353_alt_assets_3.jpg?t=1792501768",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2315050",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -145,14 +145,27 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
+      "id": "2315050",
+      "title": "We Were Here Tomorrow",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/46f4da84a4f1b7e1b62877b4c579617755e1b81c/capsule_616x353_alt_assets_3.jpg?t=1792501768",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2315050",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
