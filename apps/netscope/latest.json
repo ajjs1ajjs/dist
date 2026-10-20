@@ -1,10 +1,10 @@
 {
-    "version":  "2.4.0",
-    "notes":  "**NetScope 2.4.0 — інсталятор, автоматичний E2E-дим, перф-контроль.**\n\n- **Інсталятор** `NetScope-v2.4.0-setup.exe`: ставиться **у профіль користувача** (прав адміністратора не потрібно), створює ярлики в «Пуск» і, за бажанням, на робочому столі, має коректну деінсталяцію. Портативний ZIP і канал оновлень працюють як раніше — оновлення накочуються у власну теку застосунку.\n- **Автоматична перевірка UI перед кожним релізом** (`scripts/e2e_smoke.py`): піднімає справжній сервер і headless Chromium, проходить ланцюжок «історія → карта → Машини → фільтр → сортування → CSV → дриль-даун» і повертає код виходу. Реліз більше не виходить без цієї перевірки.\n- **Перф-контроль**: тести на 2 000 і 10 000 вузлів (карта, diff, HTML/XLSX/PDF) із порогами — деградація на порядок ловиться локально, а не в замовника.\n- **Більше тестів там, де їх не було**: CLI-режим `--scan-once` (ліцензійний гейт, звіти, правила сповіщень), сповіщення (SMTP STARTTLS/SSL, Telegram, правила), серверна БД (шляхи, WAL, конкурентність), історія (межі diff). Разом — 208 тестів.\n- **Документація**: `docs/PLAN.md` — що зроблено за планом «закрити функціонал» і що лишилось; оновлені README (варіанти встановлення, підпис, ручна перевірка архівів) і ROADMAP (статус спринтів і позапланових релізів).\n\n**Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.3.0...netscope-v2.4.0\n",
+    "version":  "2.4.1",
+    "notes":  "NetScope 2.4.1. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.0...netscope-v2.4.1",
     "pubkey":  "cS6NGzxJSjJ2fLBE4YcZnAuL7yqed/iLNw8XehCfZEk=",
     "portable":  {
-                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.0/NetScope-v2.4.0-update.zip",
-                     "sha256":  "ebee3f3f5a86ba7bbbc8b8f3fb827c7b4c06b8cd9f6a15b3142b72a635df96bd",
-                     "signature":  "IRElJHsGONpulii48NDzD1iFK2/32wI+VXQBIuoU0AFMSo5cuh9XKCkUKMjTQpudCEqltaTw3mZnbhM+FTTyDg=="
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.1/NetScope-v2.4.1-update.zip",
+                     "sha256":  "08c51a35dc9255130804b4b6bdf166c3b728d9d4d48bf2abdb11aff19876e478",
+                     "signature":  "+n4E65EMJeYeohErg0klvpMivRuhqNTpIADOSrB3Q9M04T/66z7fbAWOH6rRDT4E5Ouleshixrwd48QUzLi1AA=="
                  }
 }
