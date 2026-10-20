@@ -7,8 +7,6 @@
 
 set -e
 
-unset PYMON_VERSION
-
 INSTALL_DIR="/opt/pymon"
 CONFIG_DIR="/etc/pymon"
 DATA_DIR="/var/lib/pymon"
@@ -18,8 +16,6 @@ PYMON_VER="${PYMON_VERSION:-latest}"
 # Релізи живуть у публічному dist (кодовий репозиторій приватний), тег monitoring-v<version>.
 DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="monitoring-v"
-
-echo "DEBUG: PYMON_VERSION='$PYMON_VERSION' PYMON_VER='$PYMON_VER'" >&2
 
 if [ "$PYMON_VER" != "latest" ] && ! echo "$PYMON_VER" | grep -qE '^([0-9]|v[0-9]|monitoring-v[0-9])'; then
     echo "ERROR: Invalid PYMON_VERSION '$PYMON_VER'. Must be 'latest' or a version like 3.3.0 / v3.3.0"
