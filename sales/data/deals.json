@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T18:00:30.563Z",
+  "lastUpdated": "2026-10-20T19:00:29.246Z",
   "steam": [
     {
       "id": "1091500",
@@ -54,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -80,14 +67,53 @@
       "isPopular": false
     },
     {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "463530",
+      "title": "Empires of the Undergrowth",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/8d001b479eabf42e1da138b6bf7d90a78dd3c078/capsule_616x353.jpg?t=1791278484",
+      "originalPrice": 399,
+      "discountPrice": 99,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/463530",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/1b37d83a584ba939f4f14ebf23cc13522aacb012/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1792519208",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/1b37d83a584ba939f4f14ebf23cc13522aacb012/capsule_616x353_alt_assets_7_ukrainian.jpg?t=1792522655",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -119,19 +145,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2315050",
       "title": "We Were Here Tomorrow",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/46f4da84a4f1b7e1b62877b4c579617755e1b81c/capsule_616x353_alt_assets_3.jpg?t=1792501768",
@@ -145,14 +158,14 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
+      "originalPrice": 829,
+      "discountPrice": 829,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
