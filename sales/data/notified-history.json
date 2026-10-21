@@ -2812,5 +2812,12 @@
     "percent": 30,
     "timestamp": "2026-10-21T20:00:28.638Z",
     "type": "discount"
+  },
+  "steam_discount_881020": {
+    "title": "Granblue Fantasy: Relink",
+    "price": 659,
+    "percent": 40,
+    "timestamp": "2026-10-21T22:00:26.789Z",
+    "type": "discount"
   }
 }
