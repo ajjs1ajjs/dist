@@ -31,7 +31,13 @@ if [ -f /etc/os-release ]; then
         exit 1
     fi
     ver="${VERSION_ID%%.*}"
-    supported="24 25 26"
+    if [ "$ID" = "ubuntu" ]; then
+        supported="24 25 26"
+        supported_desc="Ubuntu 24, 25, 26 (latest and preview)"
+    else
+        supported="11 12 13"
+        supported_desc="Debian 11, 12, 13 (Bullseye, Bookworm, Trixie)"
+    fi
     is_supported=0
     for s in $supported; do
         if [ "$ver" = "$s" ]; then
@@ -40,7 +46,7 @@ if [ -f /etc/os-release ]; then
         fi
     done
     if [ "$is_supported" -eq 0 ]; then
-        echo "ERROR: Unsupported $ID version: $VERSION_ID. Supported: Ubuntu/Debian 24, 25, 26 (latest and preview)."
+        echo "ERROR: Unsupported $ID version: $VERSION_ID. Supported: $supported_desc."
         exit 1
     fi
     echo "[OK] Detected $ID $VERSION_ID ($PRETTY_NAME) — supported."

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ajjs1ajjs.github.io/dist/sitemap.xml

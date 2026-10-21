@@ -65,8 +65,6 @@ if [ -f "/etc/systemd/system/$SERVICE_NAME.service" ] || [ -x "$INSTALL_DIR/pymo
     IS_UPDATE=1
 fi
 
-echo "DEBUG: IS_UPDATE=$IS_UPDATE INSTALL_DIR=$INSTALL_DIR DATA_DIR=$DATA_DIR"
-echo "DEBUG: checking /etc/systemd/system/$SERVICE_NAME.service: $([ -f /etc/systemd/system/$SERVICE_NAME.service ] && echo exists || echo missing)"
 
 if [ "$IS_UPDATE" = "1" ]; then
     MODE="Оновлення (update)"
@@ -120,7 +118,6 @@ if ! echo "$DOWNLOAD_URL" | grep -qE '^https://github\.com/[^/]+/[^/]+/releases/
     exit 1
 fi
 
-echo "DEBUG: TAG=$TAG DOWNLOAD_URL=$DOWNLOAD_URL"
 
 echo "[1/4] Downloading PyMon ${TAG} (${BINARY_NAME})..."
 TMP_BIN="$(mktemp)"
