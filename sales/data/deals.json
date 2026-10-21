@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T17:00:32.338Z",
+  "lastUpdated": "2026-10-21T18:00:35.672Z",
   "steam": [
     {
       "id": "1091500",
@@ -67,19 +67,6 @@
       "isPopular": false
     },
     {
-      "id": "1364780",
-      "title": "Street Fighter™ 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/a98f033cbda5b71dbd8db735808aaf232cf587dd/capsule_616x353_alt_assets_21.jpg?t=1791866175",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1364780",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
@@ -132,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "2087540",
+      "title": "Escape from Playtime",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/4a3cb866040237f05a4e2fd6604a8574c68092d2/capsule_616x353.jpg?t=1792598504",
+      "originalPrice": 369,
+      "discountPrice": 332,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2087540",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3259780",
       "title": "FINAL FANTASY RESONANCE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1788534743",
@@ -140,19 +140,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3259780",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1787142639",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -193,7 +180,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/valor-mortis/9P861V1542BL",
       "description": "Ви служили Наполеону. Ви вмерли за Наполеона. Ви повстали для Наполеона. Ви — Вільям, солдат Великої армії, піднятої з могил. Але нова Європа — не те місце, за яке ви колись віддали життя. Загадкова ч",
       "isNew": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "9P55XDLRJDHB",
@@ -475,20 +462,20 @@
       "isPopular": true
     },
     {
-      "id": "9N0H62KZ3BXV",
-      "title": "Diablo® IV PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
-      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
-      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9WZDNCRFHWD2",
       "title": "Microsoft Solitaire Collection",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
       "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N0H62KZ3BXV",
+      "title": "Diablo® IV PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
+      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
+      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
       "isNew": false,
       "isPopular": true
     },
@@ -511,29 +498,11 @@
       "isPopular": true
     },
     {
-      "id": "9NWB9PL1L2PQ",
-      "title": "Warcraft® III: Reforged",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
-      "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
-      "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9PBRN7JS4XPC",
       "title": "Heroes of the Storm™",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
       "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
       "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NDKFJ6XDX2M",
-      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
-      "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
       "isNew": false,
       "isPopular": true
     },
@@ -547,20 +516,29 @@
       "isPopular": true
     },
     {
-      "id": "9NKX70BBCDRN",
-      "title": "Forza Horizon 5 Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
-      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
-      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+      "id": "9NWB9PL1L2PQ",
+      "title": "Warcraft® III: Reforged",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
+      "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
+      "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
       "isNew": false,
       "isPopular": true
     },
     {
-      "id": "9N4W31HSMVVD",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
-      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
-      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "id": "9NDKFJ6XDX2M",
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
+      "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PD0Z90216RJ",
+      "title": "Football Manager 26",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31556.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.585f6932-0069-484a-a733-76359843a3ba",
+      "url": "https://www.xbox.com/uk-UA/games/store/football-manager-26/9PD0Z90216RJ",
+      "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI Нова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. Переосмислений інт",
       "isNew": false,
       "isPopular": true
     }
@@ -3365,6 +3343,13 @@
       "percent": 75,
       "timestamp": "2026-10-20T09:00:31.210Z",
       "type": "discount"
+    },
+    "gamepass_popular_9P861V1542BL": {
+      "title": "Valor Mortis",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-21T18:00:29.799Z",
+      "type": "gamepass"
     }
   }
 }

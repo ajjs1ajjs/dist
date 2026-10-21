@@ -2798,5 +2798,12 @@
     "percent": 75,
     "timestamp": "2026-10-20T09:00:31.210Z",
     "type": "discount"
+  },
+  "gamepass_popular_9P861V1542BL": {
+    "title": "Valor Mortis",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-21T18:00:29.799Z",
+    "type": "gamepass"
   }
 }
