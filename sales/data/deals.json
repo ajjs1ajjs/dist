@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T07:00:32.510Z",
+  "lastUpdated": "2026-10-21T08:00:29.981Z",
   "steam": [
     {
       "id": "1091500",
@@ -10,6 +10,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1599,
+      "discountPrice": 959,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -41,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
-      "originalPrice": 1599,
-      "discountPrice": 959,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
+      "id": "1364780",
+      "title": "Street Fighter™ 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/a98f033cbda5b71dbd8db735808aaf232cf587dd/capsule_616x353_alt_assets_21.jpg?t=1791866175",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
+      "url": "https://store.steampowered.com/app/1364780",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -140,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
