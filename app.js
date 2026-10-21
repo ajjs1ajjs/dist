@@ -293,8 +293,8 @@
     if (currentLang === 'en') u.searchParams.set('lang', 'en');
     const url = u.toString();
     const text = currentLang === 'en'
-      ? 'Yaroslav — SRE / DevOps / Software Developer · 13 products, cases'
-      : 'Ярослав — SRE / DevOps / Software Developer · 13 продуктів, кейси';
+      ? 'Yaroslav — SRE / DevOps / Software Developer · 11 products, cases'
+      : 'Ярослав — SRE / DevOps / Software Developer · 11 продуктів, кейси';
     if (kind === 'copy') {
       try { await navigator.clipboard.writeText(url); toast(t('toast.linkCopied')); } catch { toast(url); }
       return;

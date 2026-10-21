@@ -70,4 +70,9 @@
     <changefreq>hourly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://ajjs1ajjs.github.io/dist/p/slovakia/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

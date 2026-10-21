@@ -80,6 +80,7 @@ window.SITE_I18N = {
 
     /* --- product detail page (/p/<slug>/) --- */
     'pd.crumbs': 'Продукти',
+    'pd.crumbsAria': 'Навігаційний ланцюжок',
     'pd.eyebrow.shots': '01 / Скріни',
     'pd.title.shots': 'Інтерфейс',
     'pd.eyebrow.about': '02 / Опис',
@@ -269,6 +270,10 @@ window.SITE_I18N = {
     'p.gym.desc': 'Svelte 5, усе в localStorage, Service Worker. Працює офлайн і встановлюється в один тап. Безкоштовно.',
     'p.sales.sub': 'Радар знижок Steam + Telegram',
     'p.sales.desc': 'Безкоштовні пропозиції та знижки Steam. Cron-синк через GitHub Actions, миттєва трансляція в Telegram-канал.',
+    'p.slovakia.sub': 'Словацька з нуля до вільного спілкування (B2)',
+    'p.slovakia.desc': '111 лекцій, 467 сторінок, 1463 вбудовані аудіозаписи (PCM 22050 Гц). Працює офлайн в Adobe Reader. Безкоштовно.',
+    'p.slovakia.sub': 'Slovak from zero to B2 fluency',
+    'p.slovakia.desc': '111 lessons, 467 pages, 1463 embedded audio tracks (PCM 22050 Hz). Works offline in Adobe Reader. Free.',
     'p.games.sub': '5 браузерних 3D-ігор на Three.js',
     'p.games.desc': 'GravityShift, Drift, Terraformers, Echoes, Verdant. Грається прямо в браузері, без встановлення.',
     'p.diskcleaner.sub': 'Чистка диска без встановлення',
@@ -356,6 +361,7 @@ window.SITE_I18N = {
 
     /* --- product detail page (/p/<slug>/) --- */
     'pd.crumbs': 'Products',
+    'pd.crumbsAria': 'Breadcrumb navigation',
     'pd.eyebrow.shots': '01 / Screenshots',
     'pd.title.shots': 'Interface',
     'pd.eyebrow.about': '02 / Overview',

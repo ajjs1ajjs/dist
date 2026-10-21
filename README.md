@@ -30,8 +30,9 @@
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
 <a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
+<a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
-<sub><b>11 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
 
 </div>
 
