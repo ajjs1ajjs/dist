@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:00:31.980Z",
+  "lastUpdated": "2026-10-21T20:00:30.958Z",
   "steam": [
     {
       "id": "1091500",
@@ -15,19 +15,6 @@
       "isPopular": false
     },
     {
-      "id": "1174180",
-      "title": "Red Dead Redemption 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
-      "originalPrice": 2599,
-      "discountPrice": 649,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1174180",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
@@ -36,6 +23,19 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1174180",
+      "title": "Red Dead Redemption 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "originalPrice": 2599,
+      "discountPrice": 649,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1174180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "463530",
-      "title": "Empires of the Undergrowth",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/463530/8d001b479eabf42e1da138b6bf7d90a78dd3c078/capsule_616x353.jpg?t=1791278484",
-      "originalPrice": 399,
-      "discountPrice": 99,
-      "discountPercent": 75,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/463530",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -119,19 +119,6 @@
       "isPopular": true
     },
     {
-      "id": "2087540",
-      "title": "Escape from Playtime",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/4a3cb866040237f05a4e2fd6604a8574c68092d2/capsule_616x353.jpg?t=1792598504",
-      "originalPrice": 369,
-      "discountPrice": 332,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2087540",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3259780",
       "title": "FINAL FANTASY RESONANCE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1788534743",
@@ -140,6 +127,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3259780",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3740090",
+      "title": "Bruisers 2D Boxing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3740090/feac1c588c1c9f381d356badbe5574e13e7a4f18/capsule_616x353.jpg?t=1792610782",
+      "originalPrice": 470,
+      "discountPrice": 470,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3740090",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -3350,6 +3350,13 @@
       "percent": 0,
       "timestamp": "2026-10-21T18:00:29.799Z",
       "type": "gamepass"
+    },
+    "steam_discount_3764200": {
+      "title": "Resident Evil Requiem",
+      "price": 1399,
+      "percent": 30,
+      "timestamp": "2026-10-21T20:00:28.638Z",
+      "type": "discount"
     }
   }
 }
