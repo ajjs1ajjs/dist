@@ -2826,5 +2826,12 @@
     "percent": 0,
     "timestamp": "2026-10-22T01:00:27.567Z",
     "type": "gamepass"
+  },
+  "steam_discount_1449690": {
+    "title": "The Walking Dead: The Telltale Definitive Series",
+    "price": 92,
+    "percent": 90,
+    "timestamp": "2026-10-22T19:00:27.958Z",
+    "type": "discount"
   }
 }

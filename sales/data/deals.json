@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T18:00:40.348Z",
+  "lastUpdated": "2026-10-22T19:00:30.275Z",
   "steam": [
     {
       "id": "1091500",
@@ -67,6 +67,19 @@
       "isPopular": false
     },
     {
+      "id": "1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1449690",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/0d3514fc053179b6886fb9042177987cc9988537/capsule_616x353_alt_assets_14_ukrainian.jpg?t=1790874369",
@@ -75,19 +88,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "881020",
-      "title": "Granblue Fantasy: Relink",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/561059b191bc92de2409a0b6ebde56620ce66043/capsule_616x353.jpg?t=1792403376",
-      "originalPrice": 1099,
-      "discountPrice": 659,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/881020",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -106,19 +106,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3259780",
       "title": "FINAL FANTASY RESONANCE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1792685446",
@@ -132,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -140,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4890760",
+      "title": "THE DEAD WE KNEW: Open World Survival",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/73e9d842ba9a61ac461ddc047f9c586b2ddc7ab5/capsule_616x353.jpg?t=1792688504",
+      "originalPrice": 522,
+      "discountPrice": 443,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4890760",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -3380,6 +3393,13 @@
       "percent": 0,
       "timestamp": "2026-10-22T01:00:27.567Z",
       "type": "gamepass"
+    },
+    "steam_discount_1449690": {
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "price": 92,
+      "percent": 90,
+      "timestamp": "2026-10-22T19:00:27.958Z",
+      "type": "discount"
     }
   }
 }
