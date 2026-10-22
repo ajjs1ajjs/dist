@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T02:00:32.206Z",
+  "lastUpdated": "2026-10-22T03:00:29.501Z",
   "steam": [
     {
       "id": "1091500",
@@ -80,19 +80,6 @@
       "isPopular": false
     },
     {
-      "id": "881020",
-      "title": "Granblue Fantasy: Relink",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/561059b191bc92de2409a0b6ebde56620ce66043/capsule_616x353.jpg?t=1792403376",
-      "originalPrice": 1099,
-      "discountPrice": 659,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/881020",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -101,6 +88,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "881020",
+      "title": "Granblue Fantasy: Relink",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/561059b191bc92de2409a0b6ebde56620ce66043/capsule_616x353.jpg?t=1792403376",
+      "originalPrice": 1099,
+      "discountPrice": 659,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/881020",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -145,14 +145,14 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
-      "originalPrice": 829,
-      "discountPrice": 829,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1792637475",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
