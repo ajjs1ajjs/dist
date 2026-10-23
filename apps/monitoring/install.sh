@@ -17,6 +17,21 @@ PYMON_VER="${PYMON_VERSION:-latest}"
 DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="monitoring-v"
 
+# --- Database backend -------------------------------------------------------
+# New installations default to PostgreSQL (auto-provisioned locally with a
+# generated password). Existing installations keep whatever their config.yml
+# already uses. Set PYMON_DB_BACKEND=sqlite to opt out.
+DB_BACKEND="${PYMON_DB_BACKEND:-}"
+DB_DSN="${PYMON_DATABASE_URL:-${DATABASE_URL:-}}"
+PG_DB_NAME="${PYMON_PG_DATABASE:-pymon}"
+PG_DB_USER="${PYMON_PG_USER:-pymon}"
+PG_DB_NAME="$(printf '%s' "$PG_DB_NAME" | tr -cd 'A-Za-z0-9_')"
+PG_DB_USER="$(printf '%s' "$PG_DB_USER" | tr -cd 'A-Za-z0-9_')"
+PG_DB_HOST="${PYMON_PG_HOST:-127.0.0.1}"
+PG_DB_PORT="${PYMON_PG_PORT:-5432}"
+PG_PASSWORD="${PYMON_PG_PASSWORD:-}"
+PG_PASSWORD_FILE="$CONFIG_DIR/postgres_password.txt"
+
 if [ "$PYMON_VER" != "latest" ] && ! echo "$PYMON_VER" | grep -qE '^([0-9]|v[0-9]|monitoring-v[0-9])'; then
     echo "ERROR: Invalid PYMON_VERSION '$PYMON_VER'. Must be 'latest' or a version like 3.3.0 / v3.3.0"
     exit 1
@@ -59,6 +74,108 @@ if [ -f /etc/os-release ]; then
     echo "[OK] Detected Ubuntu $VERSION_ID ($PRETTY_NAME) — supported."
 fi
 
+# --- Database helpers --------------------------------------------------------
+existing_backend() {
+    [ -f "$CONFIG_FILE" ] || return 0
+    sed -n 's/^[[:space:]]*backend:[[:space:]]*//p' "$CONFIG_FILE" | head -n1 | tr -d '\r"' | awk '{print $1}'
+}
+
+existing_dsn() {
+    [ -f "$CONFIG_FILE" ] || return 0
+    sed -n 's/^[[:space:]]*dsn:[[:space:]]*//p' "$CONFIG_FILE" | head -n1 | sed 's/^["'\'']//; s/["'\'']$//'
+}
+
+provision_postgres() {
+    if [ -n "$DB_DSN" ]; then
+        echo "[i] PostgreSQL: зовнішній DSN із PYMON_DATABASE_URL/DATABASE_URL."
+        return 0
+    fi
+    case "$PG_DB_HOST" in
+        127.0.0.1|localhost|::1) ;;
+        *)
+            echo "ERROR: локальний PostgreSQL можна налаштувати лише для 127.0.0.1."
+            echo "Для зовнішнього сервера задайте PYMON_DATABASE_URL='postgres://user:pass@host:5432/db?sslmode=require'."
+            exit 1
+            ;;
+    esac
+
+    need_install=0
+    if ! command -v psql >/dev/null 2>&1 || ! command -v pg_isready >/dev/null 2>&1; then
+        need_install=1
+    elif ! pg_isready -h "$PG_DB_HOST" -p "$PG_DB_PORT" >/dev/null 2>&1; then
+        need_install=1
+    fi
+    if [ "$need_install" = "1" ]; then
+        echo "[i] Встановлюю PostgreSQL (пакет Ubuntu)..."
+        apt-get update -qq
+        DEBIAN_FRONTEND=noninteractive apt-get install -y -qq postgresql postgresql-client
+    fi
+    systemctl enable postgresql >/dev/null 2>&1 || true
+    systemctl start postgresql >/dev/null 2>&1 || true
+
+    ready=0
+    for _ in $(seq 1 30); do
+        if pg_isready -h "$PG_DB_HOST" -p "$PG_DB_PORT" >/dev/null 2>&1; then ready=1; break; fi
+        sleep 1
+    done
+    if [ "$ready" != "1" ]; then
+        echo "ERROR: PostgreSQL не відповідає на ${PG_DB_HOST}:${PG_DB_PORT}."
+        echo "Перевірте: systemctl status postgresql; journalctl -u postgresql -n 50"
+        exit 1
+    fi
+
+    if [ -z "$PG_PASSWORD" ]; then
+        PG_PASSWORD="$(head -c 32 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 24)"
+    fi
+    if [ -z "$PG_PASSWORD" ]; then
+        echo "ERROR: не вдалося згенерувати пароль PostgreSQL."
+        exit 1
+    fi
+
+    role_exists="$(sudo -u postgres psql -tAc "SELECT 1 FROM pg_roles WHERE rolname='${PG_DB_USER}'" 2>/dev/null || true)"
+    if [ "$role_exists" = "1" ]; then
+        sudo -u postgres psql -v ON_ERROR_STOP=1 -c "ALTER ROLE \"${PG_DB_USER}\" WITH LOGIN PASSWORD '${PG_PASSWORD}'" >/dev/null
+    else
+        sudo -u postgres psql -v ON_ERROR_STOP=1 -c "CREATE ROLE \"${PG_DB_USER}\" LOGIN PASSWORD '${PG_PASSWORD}'" >/dev/null
+    fi
+
+    db_exists="$(sudo -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname='${PG_DB_NAME}'" 2>/dev/null || true)"
+    if [ "$db_exists" != "1" ]; then
+        sudo -u postgres psql -v ON_ERROR_STOP=1 -c "CREATE DATABASE \"${PG_DB_NAME}\" OWNER \"${PG_DB_USER}\"" >/dev/null
+    fi
+
+    DB_DSN="postgres://${PG_DB_USER}:${PG_PASSWORD}@${PG_DB_HOST}:${PG_DB_PORT}/${PG_DB_NAME}?sslmode=disable"
+    mkdir -p "$CONFIG_DIR"
+    printf '%s\n' "$PG_PASSWORD" > "$PG_PASSWORD_FILE"
+    chmod 600 "$PG_PASSWORD_FILE"
+    echo "[OK] PostgreSQL готовий: ${PG_DB_USER}@${PG_DB_HOST}:${PG_DB_PORT}/${PG_DB_NAME}"
+    echo "     Пароль збережено: $PG_PASSWORD_FILE (0600)"
+}
+
+apply_storage_config() {
+    chmod 600 "$CONFIG_FILE"
+    local dsn_esc
+    dsn_esc="$(printf '%s' "$DB_DSN" | sed 's/[\\&|]/\\&/g')"
+    if grep -q '^[[:space:]]*backend:' "$CONFIG_FILE"; then
+        sed -i "s|^\([[:space:]]*\)backend:.*|\1backend: ${EFFECTIVE_BACKEND}|" "$CONFIG_FILE"
+    else
+        sed -i "/^storage:/a\\  backend: ${EFFECTIVE_BACKEND}" "$CONFIG_FILE"
+    fi
+    if [ "$EFFECTIVE_BACKEND" = "postgres" ]; then
+        if grep -q '^[[:space:]]*dsn:' "$CONFIG_FILE"; then
+            sed -i "s|^\([[:space:]]*\)dsn:.*|\1dsn: ${dsn_esc}|" "$CONFIG_FILE"
+        else
+            sed -i "/^[[:space:]]*backend:/a\\  dsn: ${dsn_esc}" "$CONFIG_FILE"
+        fi
+    fi
+    if ! grep -q '^[[:space:]]*data_dir:' "$CONFIG_FILE"; then
+        sed -i "/^[[:space:]]*backend:/a\\  data_dir: ${DATA_DIR}" "$CONFIG_FILE"
+    fi
+    if ! grep -q '^[[:space:]]*rollup_retention_days:' "$CONFIG_FILE"; then
+        sed -i "/^[[:space:]]*retention_hours:/a\\  rollup_retention_days: 90" "$CONFIG_FILE"
+    fi
+}
+
 # --- Detect existing installation -------------------------------------------
 IS_UPDATE=0
 if [ -f "/etc/systemd/system/$SERVICE_NAME.service" ] || [ -x "$INSTALL_DIR/pymon" ] || [ -f "$DATA_DIR/pymon.db" ]; then
@@ -70,6 +187,40 @@ if [ "$IS_UPDATE" = "1" ]; then
     MODE="Оновлення (update)"
 else
     MODE="Встановлення (install)"
+fi
+
+# --- Choose the database backend --------------------------------------------
+EFFECTIVE_BACKEND="$DB_BACKEND"
+if [ -z "$EFFECTIVE_BACKEND" ]; then
+    if [ "$IS_UPDATE" = "1" ]; then
+        EFFECTIVE_BACKEND="$(existing_backend)"
+    else
+        EFFECTIVE_BACKEND="postgres"
+    fi
+fi
+EFFECTIVE_BACKEND="$(printf '%s' "$EFFECTIVE_BACKEND" | tr 'A-Z' 'a-z')"
+case "$EFFECTIVE_BACKEND" in
+    postgres|postgresql|pg) EFFECTIVE_BACKEND="postgres" ;;
+    *)                      EFFECTIVE_BACKEND="sqlite" ;;
+esac
+if [ -n "$DB_DSN" ]; then EFFECTIVE_BACKEND="postgres"; fi
+if [ "$EFFECTIVE_BACKEND" = "postgres" ] && [ -z "$DB_DSN" ]; then
+    DB_DSN="$(existing_dsn)"
+fi
+if [ "$IS_UPDATE" = "1" ] && [ "$EFFECTIVE_BACKEND" = "postgres" ] && [ "$(existing_backend)" != "postgres" ]; then
+    echo "ERROR: перемикання наявної SQLite-інсталяції на PostgreSQL не робиться автоматично."
+    echo "Спершу перенесіть дані:"
+    echo "  sudo DB_PATH=$DATA_DIR/pymon.db $INSTALL_DIR/pymon db-migrate --source $DATA_DIR/pymon.db --target 'postgres://...'"
+    echo "Потім задайте storage.backend: postgres і storage.dsn у $CONFIG_FILE та запустіть інсталятор ще раз."
+    exit 1
+fi
+if [ "$EFFECTIVE_BACKEND" = "postgres" ] && [ -z "$DB_DSN" ]; then
+    provision_postgres
+fi
+if [ "$EFFECTIVE_BACKEND" = "postgres" ]; then
+    echo "[i] База даних: PostgreSQL (${PG_DB_HOST}:${PG_DB_PORT}/${PG_DB_NAME})"
+else
+    echo "[i] База даних: SQLite ($DATA_DIR/pymon.db)"
 fi
 echo "=============================================="
 echo "   PyMon NOC - $MODE"
@@ -207,11 +358,21 @@ if ! "$INSTALL_DIR/pymon" --version >/dev/null 2>&1; then
 fi
 
 # --- Config (kept on update, only created on first install) ----------------
+CONFIG_CREATED=0
 if [ ! -f "$CONFIG_FILE" ]; then
     echo "Creating default config at $CONFIG_FILE ..."
         curl -fsSL "https://raw.githubusercontent.com/${DIST_REPO}/main/apps/monitoring/config.example.yml" -o "$CONFIG_FILE" \
             || cp "$(dirname "$0")/config.example.yml" "$CONFIG_FILE" 2>/dev/null || true
+    CONFIG_CREATED=1
 fi
+if [ ! -f "$CONFIG_FILE" ]; then
+    echo "ERROR: не вдалося створити $CONFIG_FILE (немає ні мережі, ні config.example.yml поруч)."
+    exit 1
+fi
+if [ "$CONFIG_CREATED" = "1" ] || [ "$IS_UPDATE" != "1" ]; then
+    apply_storage_config
+fi
+chmod 600 "$CONFIG_FILE"
 
 # --- System user and service ------------------------------------------------
 echo "[3/4] Configuring system user and service..."
@@ -220,10 +381,19 @@ if ! id pymon >/dev/null 2>&1; then
 fi
 chown -R pymon:pymon "$INSTALL_DIR" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
 
+DB_UNIT_ENV="Environment=DB_PATH=$DATA_DIR/pymon.db"
+DB_UNIT_AFTER=""
+if [ "$EFFECTIVE_BACKEND" = "postgres" ]; then
+    DB_UNIT_ENV=""
+    if systemctl cat postgresql.service >/dev/null 2>&1; then
+        DB_UNIT_AFTER=" postgresql.service"
+    fi
+fi
+
 cat > /etc/systemd/system/$SERVICE_NAME.service <<EOF
 [Unit]
 Description=PyMon NOC Monitoring
-After=network.target
+After=network.target${DB_UNIT_AFTER}
 
 [Service]
 User=pymon
@@ -234,7 +404,7 @@ RestartSec=5
 Environment=CONFIG_PATH=$CONFIG_FILE
 Environment=DATA_DIR=$DATA_DIR
 Environment=LOG_DIR=$LOG_DIR
-Environment=DB_PATH=$DATA_DIR/pymon.db
+$DB_UNIT_ENV
 
 # Hardening
 NoNewPrivileges=true
@@ -478,7 +648,12 @@ else
     echo "PyMon NOC installed successfully."
     echo "  Version: ${NEW_VERSION}"
     echo "  Config:   $CONFIG_FILE"
-    echo "  Database: $DATA_DIR/pymon.db"
+    if [ "$EFFECTIVE_BACKEND" = "postgres" ]; then
+        echo "  Database: PostgreSQL ${PG_DB_USER}@${PG_DB_HOST}:${PG_DB_PORT}/${PG_DB_NAME}"
+        [ -f "$PG_PASSWORD_FILE" ] && echo "  DB pass:  $PG_PASSWORD_FILE (0600)"
+    else
+        echo "  Database: SQLite $DATA_DIR/pymon.db"
+    fi
     echo "  Service:  systemctl status $SERVICE_NAME"
 fi
 echo ""
@@ -497,7 +672,11 @@ if [ "$ADMIN_SET" = "1" ]; then
 elif [ "$IS_UPDATE" = "1" ]; then
     echo "Існуючі облікові дані збережено (пароль не змінювався)."
     echo "Якщо треба скинути пароль адміна:"
-    echo "  sudo PYMON_ADMIN_PASSWORD='YourStrongPass123' DB_PATH=$DATA_DIR/pymon.db $INSTALL_DIR/pymon reset-admin --config $CONFIG_FILE"
+    if [ "$EFFECTIVE_BACKEND" = "postgres" ]; then
+        echo "  sudo PYMON_ADMIN_PASSWORD='YourStrongPass123' $INSTALL_DIR/pymon reset-admin --config $CONFIG_FILE"
+    else
+        echo "  sudo PYMON_ADMIN_PASSWORD='YourStrongPass123' DB_PATH=$DATA_DIR/pymon.db $INSTALL_DIR/pymon reset-admin --config $CONFIG_FILE"
+    fi
     echo "  sudo systemctl restart $SERVICE_NAME"
     echo "  Логін: admin / YourStrongPass123"
 fi
