@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T18:00:29.353Z",
+  "lastUpdated": "2026-10-23T19:00:34.085Z",
   "steam": [
     {
       "id": "1091500",
@@ -10,6 +10,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1091500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1449690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -36,19 +49,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
-      "originalPrice": 925,
-      "discountPrice": 92,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1449690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -93,19 +93,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3259780",
       "title": "FINAL FANTASY RESONANCE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1792758611",
@@ -119,6 +106,19 @@
       "isPopular": true
     },
     {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -127,19 +127,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1792637475",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -565,13 +552,6 @@
       "price": 129,
       "percent": 90,
       "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_3527290": {
-      "title": "PEAK",
-      "price": 98,
-      "percent": 38,
-      "timestamp": "2026-09-23T18:44:57.605Z",
       "type": "discount"
     },
     "steam_discount_1401590": {
