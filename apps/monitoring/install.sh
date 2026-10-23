@@ -168,7 +168,9 @@ apply_storage_config() {
             sed -i "/^[[:space:]]*backend:/a\\  dsn: ${dsn_esc}" "$CONFIG_FILE"
         fi
     fi
-    if ! grep -q '^[[:space:]]*data_dir:' "$CONFIG_FILE"; then
+    if grep -q '^[[:space:]]*data_dir:' "$CONFIG_FILE"; then
+        sed -i "s|^\([[:space:]]*\)data_dir:.*|\1data_dir: ${DATA_DIR}|" "$CONFIG_FILE"
+    else
         sed -i "/^[[:space:]]*backend:/a\\  data_dir: ${DATA_DIR}" "$CONFIG_FILE"
     fi
     if ! grep -q '^[[:space:]]*rollup_retention_days:' "$CONFIG_FILE"; then
