@@ -7,9 +7,17 @@ server:
   domain: localhost
 
 storage:
-  backend: sqlite      # sqlite (memory removed in v3)
-  path: pymon.db       # Database path (overridden by DB_PATH env)
-  retention_hours: 168 # Metric/alert retention (168 = 7 days)
+  # sqlite (default, single file) or postgres (multi-user/production).
+  # The installer provisions a local PostgreSQL with a generated password when
+  # it creates a NEW installation; existing installs keep their backend.
+  backend: sqlite
+  path: pymon.db       # SQLite file (ignored by PostgreSQL; DB_PATH env overrides)
+  # PostgreSQL connection string. Also picked up from DATABASE_URL.
+  # Example: postgres://pymon:PASSWORD@127.0.0.1:5432/pymon?sslmode=disable
+  dsn: ""
+  data_dir: ""         # JWT secret / one-time admin password (empty = next to DB)
+  retention_hours: 168 # Raw metric/alert retention (168 = 7 days)
+  rollup_retention_days: 90 # Hourly aggregates used by 7d/15d/30d charts
 
 auth:
   admin_username: admin
