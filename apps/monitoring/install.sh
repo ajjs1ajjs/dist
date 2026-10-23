@@ -191,6 +191,16 @@ else
     MODE="Встановлення (install)"
 fi
 
+# An existing binary/unit without its config is a broken install. Guessing the
+# backend here could silently create a fresh SQLite DB next to a PostgreSQL
+# service and hide all existing data.
+if [ "$IS_UPDATE" = "1" ] && [ ! -f "$CONFIG_FILE" ]; then
+    echo "ERROR: знайдено існуючу інсталяцію, але $CONFIG_FILE відсутній."
+    echo "Відновіть конфіг (або базу) перед оновленням; автоматично створювати новий небезпечно."
+    echo "Якщо це справді нове встановлення — видаліть /opt/pymon/pymon і повторіть."
+    exit 1
+fi
+
 # --- Choose the database backend --------------------------------------------
 EFFECTIVE_BACKEND="$DB_BACKEND"
 if [ -z "$EFFECTIVE_BACKEND" ]; then
@@ -218,6 +228,13 @@ if [ "$IS_UPDATE" = "1" ] && [ "$EFFECTIVE_BACKEND" = "postgres" ] && [ "$(exist
 fi
 if [ "$EFFECTIVE_BACKEND" = "postgres" ] && [ -z "$DB_DSN" ]; then
     provision_postgres
+fi
+# 3.5.0 shipped config.example with data_dir: ""; on an existing PostgreSQL
+# install that silently moved the JWT secret to the service user's XDG dir.
+# Fill it in on update too (only when the value is empty).
+if [ "$IS_UPDATE" = "1" ] && grep -q '^[[:space:]]*data_dir:[[:space:]]*""' "$CONFIG_FILE" 2>/dev/null; then
+    sed -i "s|^\([[:space:]]*\)data_dir:.*|\1data_dir: ${DATA_DIR}|" "$CONFIG_FILE"
+    chmod 600 "$CONFIG_FILE"
 fi
 if [ "$EFFECTIVE_BACKEND" = "postgres" ]; then
     echo "[i] База даних: PostgreSQL (${PG_DB_HOST}:${PG_DB_PORT}/${PG_DB_NAME})"
