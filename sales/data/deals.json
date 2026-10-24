@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T18:00:32.504Z",
+  "lastUpdated": "2026-10-24T19:00:30.961Z",
   "steam": [
     {
       "id": "1091500",
@@ -534,27 +534,6 @@
       "price": 129,
       "percent": 90,
       "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_2531310": {
-      "title": "The Last of Us™ Part II Remastered",
-      "price": 1004,
-      "percent": 33,
-      "timestamp": "2026-09-24T18:45:49.805Z",
-      "type": "discount"
-    },
-    "steam_discount_2796640": {
-      "title": "The Magus Circle",
-      "price": 265,
-      "percent": 10,
-      "timestamp": "2026-09-24T18:45:49.805Z",
-      "type": "discount"
-    },
-    "steam_discount_227300": {
-      "title": "Euro Truck Simulator 2",
-      "price": 100,
-      "percent": 75,
-      "timestamp": "2026-09-24T18:45:49.805Z",
       "type": "discount"
     },
     "steam_discount_570940": {
