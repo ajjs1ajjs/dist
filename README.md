@@ -4,7 +4,8 @@
 
 ### Публічний канал розповсюдження
 
-Тут немає вихідного коду — лише **інсталятори та готові збірки** для користувачів.
+Тут зберігаються **інсталятори, готові збірки й код автоматизації дистрибуції**.
+Вихідний код більшості продуктів та PWA розміщено в окремих репозиторіях.
 
 > ⚠️ Змінюєш `styles.css` / `app.js` / `translations.js` — підніми `?v=YYYYMMDD`
 > у посиланнях `index.html`, інакше в кеші (GitHub Pages/CDN) добу житиме стара версія.
@@ -32,7 +33,7 @@
 <a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
 <a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
-<sub><b>12 продуктів</b> &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA &nbsp;·&nbsp; зібрано в GitHub Actions, перевірено SHA-256</sub>
+<sub><b>12 позицій каталогу</b> &nbsp;·&nbsp; 10 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA</sub>
 
 </div>
 

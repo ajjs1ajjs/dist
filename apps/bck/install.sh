@@ -22,11 +22,10 @@
 #   3. Create systemd service.
 #   4. Idempotent: safe to re-run, acts as an upgrade.
 #
-# Supply-chain (10/10):
-#   - Release archives are SHA256-verified when a .sha256 asset exists.
-#   - Set BCK_REQUIRE_CHECKSUM=1 to fail closed when no checksum is published.
-#   - Cosign/minisign signatures: verify manually for now
-#     (see docs/OPERATIONS.md); automated signature verification is roadmap.
+# Supply-chain:
+#   - Release archives must include a matching .sha256 asset; missing or
+#     mismatched checksums stop installation before any installed files change.
+#   - Cosign/minisign signatures are not yet verified by this installer.
 
 set -euo pipefail
 
@@ -276,15 +275,12 @@ if [ "$MODE" = "release" ]; then
         ARCHIVE="bck-${OS_LOWER}-${ARCH_LOWER}.tar.gz"
         URL="https://github.com/${REPO}/releases/download/${TAG}/${ARCHIVE}"
         if download "$URL" "$TMPDIR/$ARCHIVE"; then
-            # Verify SHA256 if .sha256 file is available (supply-chain)
+            # Fail closed: a root installer must never accept an unchecked archive.
             if download "$URL.sha256" "$TMPDIR/$ARCHIVE.sha256" 2>/dev/null; then
                 (cd "$TMPDIR" && sha256sum -c "$ARCHIVE.sha256") || fail "SHA256 verification failed for $ARCHIVE"
                 log "SHA256 verified for $ARCHIVE"
             else
-                if [ "${BCK_REQUIRE_CHECKSUM:-0}" = "1" ]; then
-                    fail "No .sha256 for $ARCHIVE and BCK_REQUIRE_CHECKSUM=1 (fail-closed)"
-                fi
-                warn "No .sha256 file for $ARCHIVE — skipping SHA verify (structural check already passed). Set BCK_REQUIRE_CHECKSUM=1 to fail closed."
+                fail "No .sha256 checksum asset for $ARCHIVE; refusing to install an unverified release."
             fi
             tar -xzf "$TMPDIR/$ARCHIVE" -C "$TMPDIR"
             SRC_DIR="$TMPDIR"
@@ -366,7 +362,7 @@ else
     BIN_DIR="$TMPDIR/bin"
 fi
 for b in "${BIN_NAMES[@]}"; do
-    [ -f "$BIN_DIR/$b" ] || warn "Binary not found: $b (will be skipped)"
+    [ -f "$BIN_DIR/$b" ] || fail "Required binary is missing from the release: $b"
 done
 
 # ------------------------------------------------------------- install ---------
@@ -382,10 +378,10 @@ mkdir -p "$BCK_HOME/bin"
 mkdir -p "$BCK_CONFIG_DIR"
 mkdir -p "$BCK_DATA_DIR"
 mkdir -p "$BCK_DATA_DIR/restore"
-install -m 0755 "$BIN_DIR"/bckd     "$BCK_HOME/bin/" 2>/dev/null || true
-install -m 0755 "$BIN_DIR"/bck-agent "$BCK_HOME/bin/" 2>/dev/null || true
-install -m 0755 "$BIN_DIR"/bck      "$BCK_HOME/bin/" 2>/dev/null || true
-install -m 0755 "$BIN_DIR"/bck-proxy "$BCK_HOME/bin/" 2>/dev/null || true
+install -m 0755 "$BIN_DIR/bckd" "$BCK_HOME/bin/bckd"
+install -m 0755 "$BIN_DIR/bck-agent" "$BCK_HOME/bin/bck-agent"
+install -m 0755 "$BIN_DIR/bck" "$BCK_HOME/bin/bck"
+install -m 0755 "$BIN_DIR/bck-proxy" "$BCK_HOME/bin/bck-proxy"
 
 # Web UI
 if [ -d "$SRC_DIR/web-ui" ]; then

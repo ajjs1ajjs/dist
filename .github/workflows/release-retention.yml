@@ -13,6 +13,12 @@ on:
     # Monthly, 1st day 03:17 UTC. Public repo — minutes are free.
     - cron: '17 3 1 * *'
   workflow_dispatch:
+    inputs:
+      confirm_prune:
+        description: 'Delete releases older than the newest three for each product'
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,6 +33,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Delete releases older than newest 3 per prefix
+        if: github.event_name == 'workflow_dispatch' && inputs.confirm_prune == true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           KEEP: '3'

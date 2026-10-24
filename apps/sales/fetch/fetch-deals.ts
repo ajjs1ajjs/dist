@@ -4,6 +4,7 @@ import pino from 'pino';
 import { RateLimiter } from './rate-limiter';
 import type { SteamGame, GamePassGame, DealsData, NotifiedItem } from './types';
 import { formatPrice, escapeHtml, escapeAttr } from './format';
+import { keepPreviousOnEmpty, sendBatchAndMark, snapshotUpdatedAt, writeJsonAtomic } from './safety';
 
 const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 const logger = pino({
@@ -496,13 +497,13 @@ async function fetchGamePassGames(): Promise<GamePassGame[]> {
   return games;
 }
 
-async function sendTelegramMessage(text: string) {
+async function sendTelegramMessage(text: string): Promise<boolean> {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
   if (!token || !chatId) {
-    logger.info('⚠️ Telegram credentials not found (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID). Skipping notification.');
-    return;
+    logger.error('Telegram credentials are missing; notification remains pending for a later run.');
+    return false;
   }
 
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
@@ -559,6 +560,7 @@ async function sendTelegramMessage(text: string) {
     throw err;
   }
   logger.info('✅ Telegram message sent successfully.');
+  return true;
 }
 
 async function run() {
@@ -670,6 +672,7 @@ async function run() {
   if (steamFetchSuccess && freshSteam.length === 0 && oldData.steam.length > 0) {
     logger.warn('⚠️ Steam fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
   }
+  const steam = keepPreviousOnEmpty(freshSteam, oldData.steam);
 
   // Fetch Game Pass for PC catalog. Збій Microsoft-каталогу не має валити ран
   // і не має стирати попередній каталог — лишаємо старі дані, якщо нові пусті.
@@ -686,6 +689,10 @@ async function run() {
   }
   const gamepass: GamePassGame[] =
     gamepassFetchSuccess && freshGamePass.length > 0 ? freshGamePass : oldData.gamepass ?? [];
+  const fullRefreshSucceeded = steamFetchSuccess
+    && (freshSteam.length > 0 || oldData.steam.length === 0)
+    && gamepassFetchSuccess
+    && (freshGamePass.length > 0 || (oldData.gamepass?.length ?? 0) === 0);
 
   // Detect changes
   const newSteamFreeGames: SteamGame[] = [];
@@ -830,28 +837,27 @@ async function run() {
     footer: string,
     buildItem: (item: T) => string,
     markSent: (index: number) => void,
-  ) {
+  ): Promise<boolean> {
     const batchSize = 10;
-    for (let i = 0; i < items.length; i += batchSize) {
-      const batch = items.slice(i, i + batchSize);
+    const delivered = await sendBatchAndMark(items, batchSize, async (batch) => {
       let text = header;
       for (const item of batch) {
         text += buildItem(item) + '\n\n';
       }
       text += footer;
       try {
-        await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+        return await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
       } catch (err) {
         const code = (err as NodeJS.ErrnoException)?.code ?? '';
         const status = Number(code.replace('HTTP_', ''));
         const retryable = code === '' || status === 429 || status >= 500;
         if (retryable) throw err;
         logger.error({ err: String(err) }, 'permanent telegram error, marking batch as sent');
+        return true;
       }
-      for (let j = 0; j < batch.length; j++) {
-        markSent(i + j);
-      }
-    }
+    }, markSent);
+    if (!delivered) logger.error('Telegram delivery skipped; unnotified items will be retried on the next run.');
+    return delivered;
   }
 
   if (newSteamDeals.length > 0) {
@@ -924,20 +930,18 @@ async function run() {
   // notifiedHistory вбудовуємо і в deals.json: сайт читає історію саме звідти
   // (окремий notified-history.json — merge-friendly джерело для scheduler-а).
   const newData: DealsData = {
-    lastUpdated: new Date().toISOString(),
-    steam: freshSteam,
+    lastUpdated: snapshotUpdatedAt(fullRefreshSucceeded, oldData.lastUpdated, new Date().toISOString()),
+    steam,
     gamepass,
     notifiedHistory
   };
 
   await fs.promises.mkdir(DEALS_DIR, { recursive: true });
-  await fs.promises.writeFile(DEALS_PATH, JSON.stringify(newData, null, 2), 'utf-8');
+  await writeJsonAtomic(DEALS_PATH, newData);
   logger.info(`✅ Saved new data to ${DEALS_PATH}`);
 
   // Save notified history to separate file (atomic write via temp file)
-  const historyTmpPath = `${HISTORY_PATH}.tmp`;
-  await fs.promises.writeFile(historyTmpPath, JSON.stringify(notifiedHistory, null, 2), 'utf-8');
-  await fs.promises.rename(historyTmpPath, HISTORY_PATH);
+  await writeJsonAtomic(HISTORY_PATH, notifiedHistory);
   logger.info(`✅ Saved notified history to ${HISTORY_PATH}`);
 }
 

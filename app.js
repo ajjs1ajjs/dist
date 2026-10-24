@@ -25,6 +25,53 @@
   const DICT = () => window.SITE_I18N?.[currentLang] || window.SITE_I18N?.uk || {};
   const t = (k) => DICT()[k] ?? window.SITE_I18N?.uk?.[k] ?? '';
 
+  // Translation strings may contain a small amount of trusted presentation
+  // markup. Parse them detached, then copy only a strict tag/attribute allowlist
+  // into the document so a bad string cannot add event handlers or active nodes.
+  function setTranslatedContent(el, value) {
+    const template = document.createElement('template');
+    template.innerHTML = value;
+    const fragment = document.createDocumentFragment();
+    const allowedTags = new Set(['A', 'B', 'BR', 'CODE', 'EM', 'I', 'STRONG']);
+
+    const copyNode = (node, parent) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        parent.append(document.createTextNode(node.nodeValue || ''));
+        return;
+      }
+      if (node.nodeType !== Node.ELEMENT_NODE) return;
+
+      const source = node;
+      if (!allowedTags.has(source.tagName)) {
+        source.childNodes.forEach(child => copyNode(child, parent));
+        return;
+      }
+
+      const clean = document.createElement(source.tagName.toLowerCase());
+      if (source.tagName === 'A') {
+        const rawHref = source.getAttribute('href');
+        if (rawHref) {
+          try {
+            const href = new URL(rawHref, location.href);
+            if (['https:', 'http:', 'mailto:'].includes(href.protocol)) {
+              clean.setAttribute('href', href.href);
+              if (href.protocol === 'http:' || href.protocol === 'https:') {
+                const opensNewTab = source.getAttribute('target') === '_blank';
+                if (opensNewTab) clean.setAttribute('target', '_blank');
+                clean.setAttribute('rel', 'noopener noreferrer');
+              }
+            }
+          } catch {}
+        }
+      }
+      source.childNodes.forEach(child => copyNode(child, clean));
+      parent.append(clean);
+    };
+
+    template.content.childNodes.forEach(node => copyNode(node, fragment));
+    el.replaceChildren(fragment);
+  }
+
   function applyLang(lang) {
     currentLang = lang === 'en' ? 'en' : 'uk';
     try { localStorage.setItem('site_lang', currentLang); } catch {}
@@ -50,7 +97,7 @@
     $$('[data-i18n]').forEach((el) => {
       const k = el.dataset.i18n;
       if (dict[k] !== undefined) {
-        el.innerHTML = dict[k].replace('{year}', String(new Date().getFullYear()));
+        setTranslatedContent(el, dict[k].replace('{year}', String(new Date().getFullYear())));
       }
     });
     $$('[data-i18n-attr]').forEach((el) => {
