@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T15:00:30.015Z",
+  "lastUpdated": "2026-10-24T16:00:33.321Z",
   "steam": [
     {
       "id": "1091500",
@@ -15,19 +15,6 @@
       "isPopular": true
     },
     {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -36,6 +23,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2138330",
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
+      "originalPrice": 699,
+      "discountPrice": 419,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2138330",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -364,15 +364,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.9986.13916126641198036.93e1b525-8641-4737-a69b-7287498c268a.938577e6-b327-4bc4-ba65-ecad80e27f5f",
       "url": "https://www.xbox.com/uk-UA/games/store/once-human/9N0QWXC09MPT",
       "description": "Once Human — це гра про виживання в дивних світах, дія якої розгортається в химерному постапокаліптичному світі. Боріться пліч-о-пліч із друзями за ресурси для виживання, будуйте свою домашню територі",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9MSVBF0KZFVW",
-      "title": "Blood Dungeon",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.5432.13820636594696612.89ecbd3c-b2c0-41f3-8114-c05de3a18b22.8ed39ec1-10f1-4c0d-b59e-343b5680a023",
-      "url": "https://www.xbox.com/uk-UA/games/store/blood-dungeon/9MSVBF0KZFVW",
-      "description": "Від творців Nidhogg — виживайте в динамічному 2D-платформері. Майстерно долайте підступні підземелля, тримайте монстрів на відстані та збирайте кров і підсилення. Переживіть вилазку, віднесіть здобуті",
       "isNew": true,
       "isPopular": false
     },
