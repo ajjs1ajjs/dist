@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T01:00:33.294Z",
+  "lastUpdated": "2026-10-24T02:00:31.051Z",
   "steam": [
     {
       "id": "1091500",
@@ -15,19 +15,6 @@
       "isPopular": true
     },
     {
-      "id": "1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
-      "originalPrice": 925,
-      "discountPrice": 92,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1449690",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2138330",
       "title": "Cyberpunk 2077: Ілюзія свободи",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
@@ -36,6 +23,19 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2138330",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1449690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -69,25 +69,12 @@
     {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1792728107",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1792806931",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -101,6 +88,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3259780",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
