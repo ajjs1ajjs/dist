@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T14:00:31.711Z",
+  "lastUpdated": "2026-10-25T15:00:31.000Z",
   "steam": [
     {
       "id": "1091500",
@@ -534,20 +534,6 @@
       "price": 129,
       "percent": 90,
       "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_1057090": {
-      "title": "Ori and the Will of the Wisps",
-      "price": 37,
-      "percent": 90,
-      "timestamp": "2026-09-25T14:19:54.351Z",
-      "type": "discount"
-    },
-    "steam_discount_1771300": {
-      "title": "Kingdom Come: Deliverance II",
-      "price": 639,
-      "percent": 60,
-      "timestamp": "2026-09-25T14:19:54.351Z",
       "type": "discount"
     },
     "steam_discount_292030": {
