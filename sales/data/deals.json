@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T00:00:40.075Z",
+  "lastUpdated": "2026-10-25T01:00:30.812Z",
   "steam": [
     {
       "id": "1091500",
@@ -409,15 +409,6 @@
       "isPopular": true
     },
     {
-      "id": "9P36DQX6W9CS",
-      "title": "Overwatch® PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61926.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.37d8b348-3f90-4136-84f7-318395b75e82",
-      "url": "https://www.xbox.com/uk-UA/games/store/overwatch-pc/9P36DQX6W9CS",
-      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9NKCCHCFTHV2",
       "title": "VALORANT PC",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20115.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.13d8e735-10da-4211-8403-8119d39f1b0a",
@@ -427,11 +418,11 @@
       "isPopular": true
     },
     {
-      "id": "9N0H62KZ3BXV",
-      "title": "Diablo® IV PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
-      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
-      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
+      "id": "9P36DQX6W9CS",
+      "title": "Overwatch® PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61926.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.37d8b348-3f90-4136-84f7-318395b75e82",
+      "url": "https://www.xbox.com/uk-UA/games/store/overwatch-pc/9P36DQX6W9CS",
+      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня",
       "isNew": false,
       "isPopular": true
     },
@@ -445,20 +436,20 @@
       "isPopular": true
     },
     {
+      "id": "9N0H62KZ3BXV",
+      "title": "Diablo® IV PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
+      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
+      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9PM709J61828",
       "title": "Farming Simulator 25 (PC)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
       "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
       "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NP6WL1XQDBW",
-      "title": "SnowRunner - Windows",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
-      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
-      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
       "isNew": false,
       "isPopular": true
     },
@@ -472,11 +463,29 @@
       "isPopular": true
     },
     {
+      "id": "9NP6WL1XQDBW",
+      "title": "SnowRunner - Windows",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
+      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
+      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9P2VGCTBMM52",
       "title": "Microsoft Flight Simulator 2024 - Standard Edition",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
       "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PBRN7JS4XPC",
+      "title": "Heroes of the Storm™",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
+      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
+      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
       "isNew": false,
       "isPopular": true
     },
@@ -490,20 +499,11 @@
       "isPopular": true
     },
     {
-      "id": "9NWB9PL1L2PQ",
-      "title": "Warcraft® III: Reforged",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
-      "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
-      "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9PBRN7JS4XPC",
-      "title": "Heroes of the Storm™",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
-      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
-      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
+      "id": "9PD0Z90216RJ",
+      "title": "Football Manager 26",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31556.14159410862978133.08a7ac44-5c17-4c0d-a8d6-c3e247e74fcb.585f6932-0069-484a-a733-76359843a3ba",
+      "url": "https://www.xbox.com/uk-UA/games/store/football-manager-26/9PD0Z90216RJ",
+      "description": "УЖЕ ВИЙШЛА — ГРАЙТЕ СЬОГОДНI Нова основа, з якою ваша футбольна доля буде у ваших руках! Створена на рушії Unity, FM26 — переосмислена спадщина, де ваша історія тренера еволюціонує. Переосмислений інт",
       "isNew": false,
       "isPopular": true
     }
