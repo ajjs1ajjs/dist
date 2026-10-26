@@ -2686,5 +2686,12 @@
     "percent": 50,
     "timestamp": "2026-10-26T19:00:28.666Z",
     "type": "discount"
+  },
+  "steam_discount_275850": {
+    "title": "No Man's Sky",
+    "price": 450,
+    "percent": 60,
+    "timestamp": "2026-10-26T22:00:29.924Z",
+    "type": "discount"
   }
 }
