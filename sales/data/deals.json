@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T10:00:34.080Z",
+  "lastUpdated": "2026-10-26T11:00:30.852Z",
   "steam": [
     {
       "id": "1091500",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2138330",
@@ -28,19 +28,6 @@
       "isPopular": false
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 674,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1449690",
       "title": "The Walking Dead: The Telltale Definitive Series",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
@@ -49,6 +36,19 @@
       "discountPercent": 90,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1449690",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 674,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -119,14 +119,14 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 178,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
