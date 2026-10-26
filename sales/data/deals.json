@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T16:00:33.293Z",
+  "lastUpdated": "2026-10-26T17:00:32.696Z",
   "steam": [
     {
       "id": "1091500",
@@ -93,6 +93,19 @@
       "isPopular": false
     },
     {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793032399",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1792637475",
@@ -101,19 +114,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1792806931",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -444,11 +444,11 @@
       "isPopular": true
     },
     {
-      "id": "9WZDNCRFHWD2",
-      "title": "Microsoft Solitaire Collection",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
-      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
-      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
       "isNew": false,
       "isPopular": true
     },
@@ -462,11 +462,11 @@
       "isPopular": true
     },
     {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "id": "9WZDNCRFHWD2",
+      "title": "Microsoft Solitaire Collection",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
+      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
       "isNew": false,
       "isPopular": true
     },
@@ -476,6 +476,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
       "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9P7RQ1QFFF8R",
+      "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
+      "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
       "isNew": false,
       "isPopular": true
     },
@@ -498,15 +507,6 @@
       "isPopular": true
     },
     {
-      "id": "9P7RQ1QFFF8R",
-      "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
-      "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9PBRN7JS4XPC",
       "title": "Heroes of the Storm™",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
@@ -516,11 +516,11 @@
       "isPopular": true
     },
     {
-      "id": "9NWB9PL1L2PQ",
-      "title": "Warcraft® III: Reforged",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
-      "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
-      "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
+      "id": "9NKX70BBCDRN",
+      "title": "Forza Horizon 5 Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
       "isPopular": true
     }
