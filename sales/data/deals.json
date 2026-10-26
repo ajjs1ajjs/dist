@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T04:00:35.756Z",
+  "lastUpdated": "2026-10-26T05:00:33.718Z",
   "steam": [
     {
       "id": "1091500",
@@ -54,14 +54,14 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "1943730",
+      "title": "Wicked Island",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943730/capsule_616x353.jpg?t=1782299299",
+      "originalPrice": 700,
+      "discountPrice": 420,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/1943730",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -3161,6 +3161,13 @@
       "percent": 0,
       "timestamp": "2026-10-24T01:00:30.834Z",
       "type": "gamepass"
+    },
+    "steam_discount_1943730": {
+      "title": "Wicked Island",
+      "price": 420,
+      "percent": 40,
+      "timestamp": "2026-10-26T05:00:31.390Z",
+      "type": "discount"
     }
   }
 }

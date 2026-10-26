@@ -2651,5 +2651,12 @@
     "percent": 0,
     "timestamp": "2026-10-24T01:00:30.834Z",
     "type": "gamepass"
+  },
+  "steam_discount_1943730": {
+    "title": "Wicked Island",
+    "price": 420,
+    "percent": 40,
+    "timestamp": "2026-10-26T05:00:31.390Z",
+    "type": "discount"
   }
 }
