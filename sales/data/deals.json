@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T12:00:36.661Z",
+  "lastUpdated": "2026-10-26T13:00:32.977Z",
   "steam": [
     {
       "id": "1091500",
@@ -54,6 +54,19 @@
       "isPopular": false
     },
     {
+      "id": "1737870",
+      "title": "REKA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/da0faf01173c186f2ddad319137efbcda65975fa/capsule_616x353_alt_assets_5.jpg?t=1793012900",
+      "originalPrice": 415,
+      "discountPrice": 269,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1737870",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2050650",
       "title": "Resident Evil 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
@@ -62,19 +75,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3024130",
-      "title": "PAO PAO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024130/927f492fbaa058a6f0fe25b733d99fdc2bc7db45/capsule_616x353.jpg?t=1793010796",
-      "originalPrice": 325,
-      "discountPrice": 195,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3024130",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -119,19 +119,6 @@
       "isPopular": true
     },
     {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
-      "originalPrice": 210,
-      "discountPrice": 178,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -145,14 +132,27 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 178,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3259780",
+      "title": "FINAL FANTASY RESONANCE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1792758611",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/3259780",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -3213,6 +3213,13 @@
       "price": 195,
       "percent": 40,
       "timestamp": "2026-10-26T12:00:33.928Z",
+      "type": "discount"
+    },
+    "steam_discount_1737870": {
+      "title": "REKA",
+      "price": 269,
+      "percent": 35,
+      "timestamp": "2026-10-26T13:00:30.454Z",
       "type": "discount"
     }
   }

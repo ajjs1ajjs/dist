@@ -2665,5 +2665,12 @@
     "percent": 40,
     "timestamp": "2026-10-26T12:00:33.928Z",
     "type": "discount"
+  },
+  "steam_discount_1737870": {
+    "title": "REKA",
+    "price": 269,
+    "percent": 35,
+    "timestamp": "2026-10-26T13:00:30.454Z",
+    "type": "discount"
   }
 }
