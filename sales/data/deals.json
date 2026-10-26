@@ -1,32 +1,6 @@
 {
-  "lastUpdated": "2026-10-26T17:00:32.696Z",
+  "lastUpdated": "2026-10-26T18:00:31.499Z",
   "steam": [
-    {
-      "id": "1091500",
-      "title": "Cyberpunk 2077",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/f5283a1d1a2a44b9b67a861cc2e047859557a872/capsule_616x353_alt_assets_9.jpg?t=1792682505",
-      "originalPrice": 1399,
-      "discountPrice": 419,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1091500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2138330",
-      "title": "Cyberpunk 2077: Ілюзія свободи",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg?t=1784713876",
-      "originalPrice": 699,
-      "discountPrice": 419,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
     {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
@@ -146,6 +120,15 @@
     }
   ],
   "gamepass": [
+    {
+      "id": "9NK039GWVTVC",
+      "title": "Scramble Knights Online (Game Preview)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.22960.13666925911831228.39a643d8-0904-4270-b0a3-7b063f9c1c1d.5dbcfb32-87b6-422b-8a83-23f3e1493abe",
+      "url": "https://www.xbox.com/uk-UA/games/store/scramble-knights-online-game-preview/9NK039GWVTVC",
+      "description": "This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you are comfortable with the current state of the unfinished game. Full details on t",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9P7S9F02293J",
       "title": "Dodo Duckie",
@@ -3199,6 +3182,13 @@
       "percent": 35,
       "timestamp": "2026-10-26T13:00:30.454Z",
       "type": "discount"
+    },
+    "gamepass_9NK039GWVTVC": {
+      "title": "Scramble Knights Online (Game Preview)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-26T18:00:29.496Z",
+      "type": "gamepass"
     }
   }
 }
