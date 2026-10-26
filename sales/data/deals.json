@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T15:00:33.269Z",
+  "lastUpdated": "2026-10-26T16:00:33.293Z",
   "steam": [
     {
       "id": "1091500",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1091500",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2138330",
@@ -359,15 +359,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.3140.13976576036437000.15d2217e-0f3f-430d-bd96-a7159bbf5985.c877d7da-9a69-41bd-82ce-37d9ccfab8a6",
       "url": "https://www.xbox.com/uk-UA/games/store/shelldiver/9N51NR4GX891",
       "description": "All aboard the submarine! Shelldiver is an incremental game about a turtle fishing jellyfish and selling them at their little shop. Help our senior protagonist upgrade their equipment, explore various",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9PPBNCXP0096",
-      "title": "Resonance: A Plague Tale Legacy",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.31449.14332070469741251.b219f2ed-9161-4e36-815d-0a90a76aae89.6174385d-b0b1-4c4f-beca-601d61c12e16",
-      "url": "https://www.xbox.com/uk-UA/games/store/resonance-a-plague-tale-legacy/9PPBNCXP0096",
-      "description": "Події розгортаються за 15 років до «Реквієму», і ви граєте за Софію — молоду, але безстрашну розбійницю, яка переховується від погоні й прагне розгадати таємниці свого минулого. Пориньте в захопливу і",
       "isNew": true,
       "isPopular": false
     },
