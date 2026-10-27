@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T04:00:31.585Z",
+  "lastUpdated": "2026-10-27T05:00:32.602Z",
   "steam": [
     {
       "id": "1326470",
@@ -41,14 +41,14 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -67,30 +67,17 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
+      "id": "2050650",
+      "title": "Resident Evil 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+      "originalPrice": 1200,
+      "discountPrice": 300,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
+      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793043062",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
     },
     {
       "id": "4115450",
@@ -101,6 +88,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793043062",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
