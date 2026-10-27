@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T15:00:36.973Z",
+  "lastUpdated": "2026-10-27T16:00:41.001Z",
   "steam": [
     {
       "id": "1326470",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "242760",
       "title": "The Forest",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
@@ -75,6 +62,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -146,6 +146,15 @@
     }
   ],
   "gamepass": [
+    {
+      "id": "9PNRLJNDPP4G",
+      "title": "The Séance of Blake Manor",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.44820.14338899831126037.225accb3-8e9c-4c00-a01b-619f2e44276d.145b68da-4a4e-456c-924d-58e2fe61c039",
+      "url": "https://www.xbox.com/uk-UA/games/store/the-seance-of-blake-manor/9PNRLJNDPP4G",
+      "description": "ЛАСКОВО ПРОСИМО ДО МАЄТКУ 28 жовтня 1897 року приватний детектив Діклан Ворд прибуває до маєтку Блейк, щоб відшукати зниклу пані. Там він застає Великий спіритичний сеанс, на який зібралася група міст",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9NK039GWVTVC",
       "title": "Scramble Knights Online (Game Preview)",
@@ -3229,6 +3238,13 @@
       "percent": 60,
       "timestamp": "2026-10-26T22:00:29.924Z",
       "type": "discount"
+    },
+    "gamepass_9PNRLJNDPP4G": {
+      "title": "The Séance of Blake Manor",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-27T16:00:38.514Z",
+      "type": "gamepass"
     }
   }
 }

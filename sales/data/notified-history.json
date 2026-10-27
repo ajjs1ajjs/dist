@@ -2693,5 +2693,12 @@
     "percent": 60,
     "timestamp": "2026-10-26T22:00:29.924Z",
     "type": "discount"
+  },
+  "gamepass_9PNRLJNDPP4G": {
+    "title": "The Séance of Blake Manor",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-10-27T16:00:38.514Z",
+    "type": "gamepass"
   }
 }
