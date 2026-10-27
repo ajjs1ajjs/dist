@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T01:00:35.536Z",
+  "lastUpdated": "2026-10-27T02:00:37.486Z",
   "steam": [
     {
       "id": "1326470",
@@ -28,19 +28,6 @@
       "isPopular": false
     },
     {
-      "id": "1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
-      "originalPrice": 925,
-      "discountPrice": 92,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1449690",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
@@ -62,6 +49,19 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1449690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
