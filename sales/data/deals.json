@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T10:00:31.615Z",
+  "lastUpdated": "2026-10-27T11:00:33.436Z",
   "steam": [
     {
       "id": "1326470",
@@ -67,14 +67,14 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
+      "id": "264710",
+      "title": "Subnautica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+      "originalPrice": 799,
+      "discountPrice": 199,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/264710",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
