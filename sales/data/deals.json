@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T13:01:13.037Z",
+  "lastUpdated": "2026-10-27T14:00:37.767Z",
   "steam": [
     {
       "id": "1326470",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3240220",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -62,6 +49,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
