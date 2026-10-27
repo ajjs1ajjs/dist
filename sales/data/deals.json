@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T16:00:41.001Z",
+  "lastUpdated": "2026-10-27T17:00:34.745Z",
   "steam": [
     {
       "id": "1326470",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "242760",
-      "title": "The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
-      "originalPrice": 279,
-      "discountPrice": 55,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/242760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -75,6 +62,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 55,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
