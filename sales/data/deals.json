@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T23:00:32.736Z",
+  "lastUpdated": "2026-10-27T00:00:36.663Z",
   "steam": [
     {
       "id": "1326470",
@@ -41,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "1737870",
-      "title": "REKA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/da0faf01173c186f2ddad319137efbcda65975fa/capsule_616x353_alt_assets_5.jpg?t=1793012900",
-      "originalPrice": 415,
-      "discountPrice": 269,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1737870",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
@@ -62,6 +49,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1737870",
+      "title": "REKA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/da0faf01173c186f2ddad319137efbcda65975fa/capsule_616x353_alt_assets_5.jpg?t=1793012900",
+      "originalPrice": 415,
+      "discountPrice": 269,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1737870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
