@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T03:00:31.892Z",
+  "lastUpdated": "2026-10-27T04:00:31.585Z",
   "steam": [
     {
       "id": "1326470",
@@ -23,19 +23,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -67,14 +54,27 @@
       "isPopular": false
     },
     {
-      "id": "1737870",
-      "title": "REKA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1737870/da0faf01173c186f2ddad319137efbcda65975fa/capsule_616x353_alt_assets_5.jpg?t=1793012900",
-      "originalPrice": 415,
-      "discountPrice": 269,
-      "discountPercent": 35,
+      "id": "1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1737870",
+      "url": "https://store.steampowered.com/app/1449690",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
