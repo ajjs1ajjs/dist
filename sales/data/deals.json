@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T20:00:33.363Z",
+  "lastUpdated": "2026-10-27T21:00:32.144Z",
   "steam": [
     {
       "id": "1326470",
@@ -67,19 +67,6 @@
       "isPopular": true
     },
     {
-      "id": "4688700",
-      "title": "Project Exhibitionist",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688700/460bd00d70e60032402c86f7d49e2f205810f848/capsule_616x353.jpg?t=1793120735",
-      "originalPrice": 730,
-      "discountPrice": 657,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4688700",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4922630",
       "title": "The Long Dark: Iron Road",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4922630/da3b361a25ac8923be3d88f64f2ee254f67b4610/capsule_616x353.jpg?t=1793123897",
@@ -101,6 +88,19 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4688700",
+      "title": "Project Exhibitionist",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688700/460bd00d70e60032402c86f7d49e2f205810f848/capsule_616x353.jpg?t=1793120735",
+      "originalPrice": 730,
+      "discountPrice": 657,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4688700",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
