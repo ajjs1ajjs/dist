@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T11:00:33.436Z",
+  "lastUpdated": "2026-10-27T12:00:36.060Z",
   "steam": [
     {
       "id": "1326470",
@@ -114,6 +114,19 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3259780",
+      "title": "FINAL FANTASY RESONANCE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1793031418",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3259780",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
