@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T18:00:39.382Z",
+  "lastUpdated": "2026-10-27T19:00:42.102Z",
   "steam": [
     {
       "id": "1326470",
@@ -67,17 +67,17 @@
       "isPopular": false
     },
     {
-      "id": "242760",
-      "title": "The Forest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
-      "originalPrice": 279,
-      "discountPrice": 55,
-      "discountPercent": 80,
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793126150",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/242760",
-      "isSpecial": true,
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4115450",
@@ -88,19 +88,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793043062",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -132,6 +119,19 @@
       "isPopular": true
     },
     {
+      "id": "4922630",
+      "title": "The Long Dark: Iron Road",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4922630/da3b361a25ac8923be3d88f64f2ee254f67b4610/capsule_616x353.jpg?t=1793123897",
+      "originalPrice": 399,
+      "discountPrice": 359,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4922630",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4165910",
       "title": "Steam Machine",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
@@ -140,19 +140,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3259780",
-      "title": "FINAL FANTASY RESONANCE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1793031418",
-      "originalPrice": 1399,
-      "discountPrice": 1399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3259780",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -459,7 +446,7 @@
     {
       "id": "9NKCCHCFTHV2",
       "title": "VALORANT PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20115.13663857844271189.42ac3116-ce9d-40e2-939f-ca94e72c04a8.13d8e735-10da-4211-8403-8119d39f1b0a",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.46961.13663857844271189.005b5800-25c5-439e-8a6e-fdb02b928900.9940c683-c952-4288-8a40-183dcd1c6b3f",
       "url": "https://www.xbox.com/uk-UA/games/store/valorant-pc/9NKCCHCFTHV2",
       "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork. DEFY THE LIM",
       "isNew": false,
