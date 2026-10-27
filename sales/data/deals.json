@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T08:00:32.545Z",
+  "lastUpdated": "2026-10-27T09:00:37.833Z",
   "steam": [
     {
       "id": "1326470",
@@ -54,14 +54,14 @@
       "isPopular": false
     },
     {
-      "id": "1449690",
-      "title": "The Walking Dead: The Telltale Definitive Series",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
-      "originalPrice": 925,
-      "discountPrice": 92,
-      "discountPercent": 90,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1449690",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "1449690",
+      "title": "The Walking Dead: The Telltale Definitive Series",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/a9ccc64b359746f3905e760a73dcff3e2b6ec052/capsule_616x353.jpg?t=1760651835",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/1449690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
