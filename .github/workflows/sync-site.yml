@@ -2,8 +2,8 @@
 # Чому тут, а не в SITE: SITE приватний, а білінг GitHub заморожено —
 # його воркфлоу не стартують. dist публічний, ранери безкоштовні.
 # Тригери: новий реліз (одразу), страховка cron, ручний запуск.
-# Береже public/index.html в SITE свіжим: версії data-latest-ver +
-# лінки data-latest-href/code. Push у main SITE автоматично
+# Береже root/detail HTML, JSON-LD і releases.json у SITE узгодженими.
+# Push у main SITE автоматично
 # збирає Cloudflare Workers Builds. Секрет: SITE_DISPATCH_TOKEN
 # (PAT з правом запису в ajjs1ajjs/SITE).
 
@@ -43,6 +43,12 @@ jobs:
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install SITE dependencies
+        working-directory: site
+        run: npm ci
 
       - name: Sync versions from dist releases
         working-directory: site
@@ -50,11 +56,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Validate synchronized release artifacts
+        working-directory: site
+        run: npm test
+
       - name: Check for changes
         id: diff
         working-directory: site
         run: |
-          if git diff --quiet -- public/index.html; then
+          if git diff --quiet -- public/index.html public/p public/releases.json; then
             {
               echo "changed=false"
             } >> "$GITHUB_OUTPUT"
@@ -66,28 +76,21 @@ jobs:
             echo "Знайдено свіжі версії для SITE."
           fi
 
-      - name: Validate code syntax
-        if: steps.diff.outputs.changed == 'true'
-        working-directory: site
-        run: |
-          node --check public/app.js
-
       - name: Commit and push fresh versions to SITE
         if: steps.diff.outputs.changed == 'true'
         working-directory: site
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name || github.event.inputs.tag }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          TAG="${{ github.event.release.tag_name }}"
-          if [ -z "$TAG" ]; then
-            TAG="${{ inputs.tag }}"
-          fi
+          TAG="${RELEASE_TAG:-}"
           if [ -n "$TAG" ] && [ "$TAG" != "manual-test" ]; then
             MSG="chore(site): sync versions from dist ($TAG)"
           else
             MSG="chore(site): sync versions from dist"
           fi
-          git add public/index.html
+          git add public/index.html public/p public/releases.json
           git commit -m "$MSG"
           git push origin HEAD:main
 
