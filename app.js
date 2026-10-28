@@ -287,22 +287,20 @@
     }
     if (e.key !== 'Tab') return;
     const focusable = [...modal.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')]
-      .filter((el) => !el.hidden && el.getAttribute('aria-hidden') !== 'true');
+      .filter((el) => !el.disabled && !el.closest('[hidden], [inert], [aria-hidden="true"]'));
     if (focusable.length === 0) {
       e.preventDefault();
       modal.focus();
       return;
     }
-    const first = focusable[0];
-    const last = focusable[focusable.length - 1];
-    if (e.shiftKey && (document.activeElement === first || !modal.contains(document.activeElement))) {
-      e.preventDefault();
-      last.focus();
-    } else if (!e.shiftKey && (document.activeElement === last || !modal.contains(document.activeElement))) {
-      e.preventDefault();
-      first.focus();
-    }
-  });
+    const current = focusable.indexOf(document.activeElement);
+    const delta = e.shiftKey ? -1 : 1;
+    const next = current < 0
+      ? (e.shiftKey ? focusable.length - 1 : 0)
+      : (current + delta + focusable.length) % focusable.length;
+    e.preventDefault();
+    focusable[next].focus();
+  }, true);
 
   /* ---------- Buy modal ---------- */
   const fmtNum = (n) => Number(n).toLocaleString('uk-UA').replace(/\u00A0/g, ' ');
