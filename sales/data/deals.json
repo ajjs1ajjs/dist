@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T17:00:31.713Z",
+  "lastUpdated": "2026-10-28T18:00:38.263Z",
   "steam": [
     {
       "id": "1326470",
@@ -23,19 +23,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
