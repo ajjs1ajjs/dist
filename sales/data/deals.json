@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T03:00:33.047Z",
+  "lastUpdated": "2026-10-28T04:00:32.058Z",
   "steam": [
     {
       "id": "1326470",
@@ -101,6 +101,32 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4688700",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3259780",
+      "title": "FINAL FANTASY RESONANCE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1793031418",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3259780",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4922630",
+      "title": "The Long Dark: Iron Road",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4922630/da3b361a25ac8923be3d88f64f2ee254f67b4610/capsule_616x353.jpg?t=1793123897",
+      "originalPrice": 399,
+      "discountPrice": 359,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4922630",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
