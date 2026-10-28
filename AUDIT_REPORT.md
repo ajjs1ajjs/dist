@@ -1,6 +1,6 @@
 # Технічний аудит `dist` — підсумок після виправлень
 
-**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Commit із keyboard fix:** `b768f25`. **Статус:** dependency fix, фокус модального діалогу і попередня версія звіту запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. BCK atomic release switch, SQLite rollback і відмова від непідтвердженого PostgreSQL upgrade перевірені у disposable Ubuntu 24.04 WSL із systemd.
+**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Commit із recovery fix:** `d40f397`; keyboard fix — `b768f25`. **Статус:** BCK installer recovery fix і audit report опубліковані; Distribution contract checks `40713363846` і Pages deployment `40713363550` завершилися success для `d40f397`. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. BCK atomic release switch, SQLite rollback і відмова від непідтвердженого PostgreSQL upgrade перевірені у disposable Ubuntu 24.04 WSL із systemd.
 
 ## 1. Висновок і оцінка
 
@@ -88,6 +88,8 @@ Product releases → hub/catalog sync
 | BCK TOML migration fixtures | 3/3 сценарії |
 | Production HTTP | GitHub Pages hub, Sales index і SW 200; усі 12 precache resources 200; hub metadata показує v0.1.6 |
 | GitHub Pages build | `success`, commit `5117f28f5bb4612cc14d52eb30a33acc99b1b19d`, run `40705498863` |
+| Distribution contract checks | `success`, commit `d40f397252778bdf4db57a1f392cd43aa21949f4`, run `40713363846` |
+| GitHub Pages deployment | `success`, commit `d40f397252778bdf4db57a1f392cd43aa21949f4`, run `40713363550` |
 | `git diff --check` | Pass до фінального коміту |
 
 ## 6. Релізи та remote state
@@ -99,7 +101,7 @@ Product releases → hub/catalog sync
 - SITE автоматично синхронізував версію в commit `ae920ad`; локально `npm run update:check` та 11 tests пройшли. Live домен віддає v0.1.6; статус Cloudflare control plane не читався.
 - Source installer commits: MyGit `65087e7`, Monitoring `a37759b`, Uptime Monitor `71c3184`.
 - Sales release version-bump source commit попередньої публікації: `6a894f0`; у цьому циклі version bump не створювався.
-- Фінальний commit і перевірений remote стан наведені у handoff цієї роботи.
+- BCK fail-closed installer recovery fix: `d40f397252778bdf4db57a1f392cd43aa21949f4`, `origin/main` збігається; contract checks і Pages успішні. Новий продуктний tag не створювався: зміна стосується інсталятора у статичному hub, а не versioned product artifact.
 
 ## 7. Сховища та data correctness
 
@@ -121,4 +123,4 @@ Hub залишається статичним. Sales JSON/Git достатні �
 
 ## 10. Scope check
 
-Зміни `dist`: modal keyboard focus у `app.js`, versioned release/SQLite recovery в `apps/bck/install.sh` та цей звіт; Sales source: dependency override + lockfile у `d29967d`. Sales PWA artifact і release tag не змінювались. Scheduler не створив повідомлень, Telegram нічого не надсилав. Після commit/push перевірити `git status --short`, remote commit, CI і Pages deployment.
+Зміни `dist`: modal keyboard focus у `app.js`, versioned release/SQLite recovery і fail-closed DB upgrade в `apps/bck/install.sh` та цей звіт; Sales source: dependency override + lockfile у `d29967d`. Sales PWA artifact і release tag не змінювались. Scheduler не створив повідомлень, Telegram нічого не надсилав. Source commit `d40f397` pushed; `origin/main` збігається; його contract checks і Pages deployment успішні. Перед report-only commit `git status --short` містив лише `AUDIT_REPORT.md`; цим commit додається тільки оновлений audit handoff.
