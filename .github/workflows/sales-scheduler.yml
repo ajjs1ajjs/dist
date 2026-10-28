@@ -97,7 +97,7 @@ jobs:
           checkpoint
 
           while true; do
-            claim_output="$(npm run fetch -- --claim-next)"
+            claim_output="$(npm --prefix apps/sales/fetch run fetch -- --claim-next)"
             echo "$claim_output"
             if [[ "$claim_output" == *NO_PENDING* ]]; then
               # claim-next may have changed an interrupted `sending` entry to
@@ -112,7 +112,7 @@ jobs:
 
             # Persist the sending claim before making the external request.
             checkpoint
-            npm run fetch -- --send-claimed
+            npm --prefix apps/sales/fetch run fetch -- --send-claimed
             # Persist delivered/blocked/uncertain state before the next message.
             checkpoint
           done
