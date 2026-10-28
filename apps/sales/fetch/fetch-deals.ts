@@ -266,7 +266,10 @@ export function processCategoryItems(
     // У top_sellers багато повноцінних ігор без знижки — прапорець isPopular
     // ставимо всім записам бакета, а isSpecial лише реальним знижкам.
     const isDiscounted = !isFree && pct >= CONFIG.minDiscountPercent;
-    const isSpecial = opts.specialBucket ? (isDiscounted || isFree) : isDiscounted;
+    // Free offers are surfaced through their own (free) section/post. They must
+    // not also be flagged as "specials": a free game in the specials bucket used
+    // to get isSpecial=true, which posted it twice (free + a bogus -100% deal).
+    const isSpecial = isDiscounted;
     const isPopular = opts.popularBucket;
 
     // Зі specials-бакета беремо лише знижки від порога/безкоштовне;
@@ -672,6 +675,79 @@ async function runOutboxCommand(args: string[]) {
   throw new Error(`Unknown fetcher command: ${command}`);
 }
 
+const HISTORY_REMOTE_URL = 'https://ajjs1ajjs.github.io/dist/sales/data/notified-history.json';
+
+type HistoryLogger = {
+  info: (msg: string) => void;
+  error: (obj: unknown, msg: string) => void;
+};
+
+/** Keep only well-formed history entries; drop legacy epic_* keys. */
+export function coerceHistory(parsed: unknown): Record<string, NotifiedItem> {
+  if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+  const out: Record<string, NotifiedItem> = {};
+  for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+    if (!v || typeof v !== 'object' || Array.isArray(v)) continue;
+    const item = v as Record<string, unknown>;
+    if (typeof item.timestamp !== 'string' || Number.isNaN(new Date(item.timestamp).getTime())) continue;
+    if (typeof item.type !== 'string' || typeof item.title !== 'string') continue;
+    // Старі epic-ключі чистимо: джерела більше нема, історію не тягнемо.
+    if (k.startsWith('epic_')) continue;
+    out[k] = item as unknown as NotifiedItem;
+  }
+  return out;
+}
+
+export interface HistorySource {
+  readLocal: () => string | undefined;
+  readRemote: () => Promise<unknown | undefined>;
+}
+
+/**
+ * Load the notification history without ever turning a corrupt file into an
+ * empty one. An unreadable local file is recovered from the published copy; if
+ * that also fails the run is aborted, because "history unreadable" must not be
+ * treated as "nothing was ever notified" — that would re-send the whole catalog.
+ */
+export async function loadNotifiedHistory(
+  source: HistorySource,
+  log: HistoryLogger,
+): Promise<Record<string, NotifiedItem>> {
+  const localRaw = source.readLocal();
+  if (localRaw !== undefined) {
+    try {
+      const history = coerceHistory(JSON.parse(localRaw));
+      log.info('Loaded notified history from local path.');
+      return history;
+    } catch (err) {
+      log.error(
+        { err: err instanceof Error ? err.message : String(err) },
+        'failed to parse local notified-history.json; attempting remote recovery',
+      );
+    }
+  }
+
+  let remote: unknown | undefined;
+  try {
+    remote = await source.readRemote();
+  } catch {
+    log.info('⚠️ Could not fetch remote notified history.');
+  }
+  if (remote !== undefined) {
+    log.info('✅ Loaded notified history from GitHub Pages.');
+    return coerceHistory(remote);
+  }
+
+  if (localRaw !== undefined) {
+    throw new Error(
+      'notified-history.json is corrupt and no remote copy is available; refusing to run to avoid mass re-notification',
+    );
+  }
+
+  log.info('⚠️ Could not fetch notified history from GitHub Pages, starting fresh.');
+  return {};
+}
+
 async function runPrepare() {
   logger.info('Starting deals fetcher script (Steam + Game Pass PC)...');
 
@@ -710,44 +786,21 @@ async function runPrepare() {
     }
   }
 
-  // Load notified history from separate file (append-only, merge-friendly).
-  // Coerced entry-by-entry like deals.json: a malformed value (null, array,
-  // bad timestamp) is dropped instead of crashing the run later.
-  let notifiedHistory: Record<string, NotifiedItem> = {};
-  const coerceHistory = (parsed: unknown): Record<string, NotifiedItem> => {
-    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
-    const out: Record<string, NotifiedItem> = {};
-    for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
-      if (!v || typeof v !== 'object' || Array.isArray(v)) continue;
-      const item = v as Record<string, unknown>;
-      if (typeof item.timestamp !== 'string' || Number.isNaN(new Date(item.timestamp).getTime())) continue;
-      if (typeof item.type !== 'string' || typeof item.title !== 'string') continue;
-      // Старі epic-ключі чистимо: джерела більше нема, історію не тягнемо.
-      if (k.startsWith('epic_')) continue;
-      out[k] = item as unknown as NotifiedItem;
-    }
-    return out;
-  };
-  if (fs.existsSync(HISTORY_PATH)) {
-    try {
-      notifiedHistory = coerceHistory(JSON.parse(fs.readFileSync(HISTORY_PATH, 'utf-8')));
-      logger.info('Loaded notified history from local path.');
-    } catch (err) {
-      logger.error({ err: err instanceof Error ? err.message : String(err) }, 'failed to parse notified-history.json');
-    }
-  } else {
-    try {
-      const githubPagesHistoryUrl = `https://ajjs1ajjs.github.io/dist/sales/data/notified-history.json`;
-      logger.info(`Trying to fetch notified history from GitHub Pages: ${githubPagesHistoryUrl}`);
-      const res = await fetch(githubPagesHistoryUrl);
-      if (res.ok) {
-        notifiedHistory = coerceHistory(await res.json());
-        logger.info('✅ Loaded notified history from GitHub Pages.');
-      }
-    } catch {
-      logger.info('⚠️ Could not fetch notified history from GitHub Pages, starting fresh.');
-    }
-  }
+  // Load notified history from the separate file (append-only, merge-friendly).
+  // A corrupt local file must NOT be read as "nothing was ever notified": that
+  // would reset every cooldown and re-send the whole catalog. Recover from the
+  // published copy, or stop the run when neither source is readable.
+  const notifiedHistory = await loadNotifiedHistory(
+    {
+      readLocal: () =>
+        fs.existsSync(HISTORY_PATH) ? fs.readFileSync(HISTORY_PATH, 'utf-8') : undefined,
+      readRemote: async () => {
+        const res = await fetch(HISTORY_REMOTE_URL);
+        return res.ok ? await res.json() : undefined;
+      },
+    },
+    logger,
+  );
 
   // Clean notified history: remove expired (30 days) and corrupted (NaN timestamp) entries
   const now = new Date();
@@ -816,7 +869,9 @@ async function runPrepare() {
 
     // TG: той самий порог, що й на сайті (від CONFIG.minDiscountPercent) —
     // правила сайту та каналу однакові; анти-спам нижче ріже обсяг.
-    if (game.isSpecial && game.discountPercent >= CONFIG.minDiscountPercent) {
+    // Free games are excluded here on purpose: they already go through the free
+    // branch above and must never be announced as a "-100%" discount too.
+    if (!game.isFree && game.isSpecial && game.discountPercent >= CONFIG.minDiscountPercent) {
       const historyKey = `steam_discount_${game.id}`;
       const historyEntry = notifiedHistory[historyKey];
 
