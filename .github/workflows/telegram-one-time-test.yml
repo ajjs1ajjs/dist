@@ -1,0 +1,46 @@
+name: Telegram one-time test
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Send exactly one authorized test message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.DIST_AUDIT_TEST_CHAT_ID }}
+          TELEGRAM_TEXT: ${{ secrets.DIST_AUDIT_TEST_TEXT }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.parse
+          import urllib.request
+
+          token = os.environ["TELEGRAM_BOT_TOKEN"]
+          payload = urllib.parse.urlencode({
+              "chat_id": os.environ["TELEGRAM_CHAT_ID"],
+              "text": os.environ["TELEGRAM_TEXT"],
+          }).encode()
+          request = urllib.request.Request(
+              f"https://api.telegram.org/bot{token}/sendMessage",
+              data=payload,
+              headers={"Content-Type": "application/x-www-form-urlencoded"},
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  result = json.load(response)
+          except Exception:
+              print("Telegram request failed; no retry was attempted.")
+              raise SystemExit(1)
+          if not result.get("ok"):
+              print("Telegram returned a non-success response; no retry was attempted.")
+              raise SystemExit(1)
+          print(f"Telegram accepted exactly one test message (message_id={result['result']['message_id']}).")
+          PY
