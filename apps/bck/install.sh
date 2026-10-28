@@ -26,6 +26,11 @@
 #   - Release archives must include a matching .sha256 asset; missing or
 #     mismatched checksums stop installation before any installed files change.
 #   - Cosign/minisign signatures are not yet verified by this installer.
+#
+# Database recovery:
+#   - Updates require a verified rollback snapshot. For external databases that
+#     cannot be snapshotted here, set BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1 only
+#     after creating and verifying an independent backup.
 
 set -euo pipefail
 
@@ -246,7 +251,16 @@ get_latest_release() {
 # --------------------------------------------------------------- download -----
 BIN_NAMES=(bckd bck-agent bck bck-proxy)
 TMPDIR="$(mktemp -d)"
-trap 'rm -rf "$TMPDIR"' EXIT
+BCK_STAGE_DIR=""
+cleanup_installer() {
+    local rc=$?
+    rm -rf -- "$TMPDIR"
+    if [ -n "$BCK_STAGE_DIR" ] && [ -d "$BCK_STAGE_DIR" ]; then
+        rm -rf -- "$BCK_STAGE_DIR"
+    fi
+    return "$rc"
+}
+trap cleanup_installer EXIT
 
 # Prebuilt archives are published for Ubuntu x86_64 only; other arches must
 # build from source, which requires access to the private source repository.
@@ -375,33 +389,120 @@ if [ "$(id -u)" -eq 0 ]; then
     fi
 fi
 
-mkdir -p "$BCK_HOME/bin"
+mkdir -p "$BCK_HOME/releases"
+chmod 0755 "$BCK_HOME/releases"
 mkdir -p "$BCK_CONFIG_DIR"
 mkdir -p "$BCK_DATA_DIR"
 mkdir -p "$BCK_DATA_DIR/restore"
-install -m 0755 "$BIN_DIR/bckd" "$BCK_HOME/bin/bckd"
-install -m 0755 "$BIN_DIR/bck-agent" "$BCK_HOME/bin/bck-agent"
-install -m 0755 "$BIN_DIR/bck" "$BCK_HOME/bin/bck"
-install -m 0755 "$BIN_DIR/bck-proxy" "$BCK_HOME/bin/bck-proxy"
+RELEASE_ID="${TAG:-source-$(date -u +%Y%m%dT%H%M%SZ)-$$}"
+[[ "$RELEASE_ID" =~ ^[A-Za-z0-9._-]+$ ]] || fail "Unsafe release identifier: $RELEASE_ID"
+RELEASE_DIR="$BCK_HOME/releases/$RELEASE_ID"
+BCK_STAGE_DIR="$(mktemp -d "$BCK_HOME/releases/.stage-${RELEASE_ID}.XXXXXX")"
+mkdir -p "$BCK_STAGE_DIR/bin"
 
-# Web UI
+# Prepare and verify every artifact away from the live path. A failed copy,
+# checksum, disk write, or permission operation must leave the current release
+# usable and internally consistent.
+for b in "${BIN_NAMES[@]}"; do
+    install -m 0755 "$BIN_DIR/$b" "$BCK_STAGE_DIR/bin/$b"
+    [ -s "$BCK_STAGE_DIR/bin/$b" ] && [ -x "$BCK_STAGE_DIR/bin/$b" ] \
+        || fail "Staged binary is missing or not executable: $b"
+done
 if [ -d "$SRC_DIR/web-ui" ]; then
-    mkdir -p "$BCK_HOME/web-ui"
-    cp -r "$SRC_DIR/web-ui/." "$BCK_HOME/web-ui/"
+    mkdir -p "$BCK_STAGE_DIR/web-ui"
+    cp -a "$SRC_DIR/web-ui/." "$BCK_STAGE_DIR/web-ui/"
 elif [ -d "$TMPDIR/web-ui" ]; then
-    mkdir -p "$BCK_HOME/web-ui"
-    cp -r "$TMPDIR/web-ui/." "$BCK_HOME/web-ui/"
+    mkdir -p "$BCK_STAGE_DIR/web-ui"
+    cp -a "$TMPDIR/web-ui/." "$BCK_STAGE_DIR/web-ui/"
+elif [ -d "$BCK_HOME/current/web-ui" ]; then
+    mkdir -p "$BCK_STAGE_DIR/web-ui"
+    cp -a "$BCK_HOME/current/web-ui/." "$BCK_STAGE_DIR/web-ui/"
+elif [ -d "$BCK_HOME/web-ui" ] && [ ! -L "$BCK_HOME/web-ui" ]; then
+    mkdir -p "$BCK_STAGE_DIR/web-ui"
+    cp -a "$BCK_HOME/web-ui/." "$BCK_STAGE_DIR/web-ui/"
 fi
+
+if [ -e "$RELEASE_DIR" ]; then
+    if ! diff -qr "$BCK_STAGE_DIR" "$RELEASE_DIR" >/dev/null 2>&1; then
+        fail "Release directory already exists with different contents: $RELEASE_DIR"
+    fi
+    rm -rf -- "$BCK_STAGE_DIR"
+    BCK_STAGE_DIR=""
+else
+    mv "$BCK_STAGE_DIR" "$RELEASE_DIR"
+    BCK_STAGE_DIR=""
+fi
+chmod 0755 "$RELEASE_DIR" "$RELEASE_DIR/bin"
+
+# Migrate a pre-versioned installation into an immutable legacy release before
+# replacing its compatibility paths. The daemon keeps using the same files
+# until the single `current` symlink is switched near service restart.
+if [ -e "$BCK_HOME/current" ] && [ ! -L "$BCK_HOME/current" ]; then
+    fail "Refusing to replace non-symlink current path: $BCK_HOME/current"
+fi
+if [ -L "$BCK_HOME/current" ]; then
+    CURRENT_RELATIVE="$(readlink "$BCK_HOME/current")"
+    if [[ "$CURRENT_RELATIVE" =~ ^releases/[A-Za-z0-9._-]+$ ]]; then
+        [ -d "$BCK_HOME/$CURRENT_RELATIVE" ] || fail "Current release target is missing: $CURRENT_RELATIVE"
+    else
+        fail "Current release points outside the managed releases directory: $CURRENT_RELATIVE"
+    fi
+    CURRENT_TARGET="$BCK_HOME/$CURRENT_RELATIVE"
+else
+    CURRENT_TARGET=""
+    if [ -d "$BCK_HOME/bin" ] || [ -d "$BCK_HOME/web-ui" ]; then
+        LEGACY_ID="legacy-$(date -u +%Y%m%dT%H%M%SZ)-$$"
+        LEGACY_STAGE="$(mktemp -d "$BCK_HOME/releases/.stage-${LEGACY_ID}.XXXXXX")"
+        BCK_STAGE_DIR="$LEGACY_STAGE"
+        if [ -d "$BCK_HOME/bin" ]; then
+            mkdir -p "$LEGACY_STAGE/bin"
+            cp -a "$BCK_HOME/bin/." "$LEGACY_STAGE/bin/"
+        fi
+        if [ -d "$BCK_HOME/web-ui" ]; then
+            mkdir -p "$LEGACY_STAGE/web-ui"
+            cp -a "$BCK_HOME/web-ui/." "$LEGACY_STAGE/web-ui/"
+        fi
+        mv "$LEGACY_STAGE" "$BCK_HOME/releases/$LEGACY_ID"
+        BCK_STAGE_DIR=""
+        chmod 0755 "$BCK_HOME/releases/$LEGACY_ID" "$BCK_HOME/releases/$LEGACY_ID/bin"
+        ln -s "releases/$LEGACY_ID" "$BCK_HOME/.current-legacy.$$"
+        mv -Tf "$BCK_HOME/.current-legacy.$$" "$BCK_HOME/current"
+        CURRENT_TARGET="$BCK_HOME/releases/$LEGACY_ID"
+    fi
+fi
+
+for compat in bin web-ui; do
+    compat_path="$BCK_HOME/$compat"
+    if [ -L "$compat_path" ]; then
+        [ "$(readlink "$compat_path")" = "current/$compat" ] \
+            || fail "Refusing to replace unexpected compatibility symlink: $compat_path"
+        continue
+    fi
+    if [ -e "$compat_path" ]; then
+        [ -d "$compat_path" ] || fail "Unexpected non-directory at $compat_path"
+        mv "$compat_path" "$BCK_HOME/.legacy-${compat}-$(date -u +%Y%m%dT%H%M%SZ)-$$"
+    fi
+    ln -s "current/$compat" "$BCK_HOME/.${compat}-link.$$"
+    mv -Tf "$BCK_HOME/.${compat}-link.$$" "$compat_path"
+done
 
 # Config (preserve existing on update)
 CONFIG="$BCK_CONFIG_DIR/config.toml"
+PREVIOUS_RELEASE_RELATIVE="${CURRENT_RELATIVE:-}"
+UPDATE_EXISTING=0
+if [ -n "$PREVIOUS_RELEASE_RELATIVE" ] || [ -d "$BCK_HOME/bin" ] || [ -d "$BCK_HOME/web-ui" ]; then
+    UPDATE_EXISTING=1
+fi
+ROLLBACK_ID="preupgrade-$(date -u +%Y%m%dT%H%M%SZ)-$$"
+ROLLBACK_DIR="$BCK_HOME/rollback/$ROLLBACK_ID"
+CONFIG_EXISTED=0
 if [ ! -f "$CONFIG" ]; then
     cat > "$CONFIG" <<EOF
 [server]
 host = "127.0.0.1"
 port = ${BCK_PORT}
 grpc_port = 9441
-web_ui_dir = "${BCK_HOME}/web-ui/dist"
+web_ui_dir = "${BCK_HOME}/current/web-ui/dist"
 
 [database]
 url = "sqlite://${BCK_DATA_DIR}/bck.db?mode=rwc"
@@ -425,6 +526,27 @@ EOF
     log "Created default config at $CONFIG"
 else
     log "Config exists — preserving it."
+    CONFIG_EXISTED=1
+    if [ "$UPDATE_EXISTING" = "1" ]; then
+        install -d -m 0700 "$ROLLBACK_DIR"
+        cp -p "$CONFIG" "$ROLLBACK_DIR/config.toml"
+    fi
+    # Move only the installer-managed default from the mutable compatibility
+    # path to the atomically switched release pointer. Custom UI paths remain
+    # untouched.
+    old_web_ui_line="web_ui_dir = \"${BCK_HOME}/web-ui/dist\""
+    new_web_ui_line="web_ui_dir = \"${BCK_HOME}/current/web-ui/dist\""
+    if grep -Fxq "$old_web_ui_line" "$CONFIG"; then
+        web_ui_config_tmp="$(mktemp "${CONFIG}.XXXXXX")"
+        if ! awk -v old="$old_web_ui_line" -v new="$new_web_ui_line" '$0 == old { $0 = new } { print }' \
+            "$CONFIG" > "$web_ui_config_tmp"; then
+            rm -f "$web_ui_config_tmp"
+            fail "Could not migrate web_ui_dir in $CONFIG"
+        fi
+        cp -p "$CONFIG" "${CONFIG}.pre-versioned-ui-$(date -u +%Y%m%dT%H%M%SZ)"
+        chmod --reference="$CONFIG" "$web_ui_config_tmp"
+        mv -f "$web_ui_config_tmp" "$CONFIG"
+    fi
     # Migrate configs predating 0.9.28. restore_root belongs to [storage]; a
     # blind append after [logging] silently creates logging.restore_root.
     restore_line="restore_root = \"${BCK_DATA_DIR}/restore\""
@@ -465,7 +587,7 @@ fi
 # Symlink binaries into PATH
 mkdir -p /usr/local/bin
 for b in "${BIN_NAMES[@]}"; do
-    [ -f "$BCK_HOME/bin/$b" ] && ln -sf "$BCK_HOME/bin/$b" "/usr/local/bin/$b"
+    [ -f "$RELEASE_DIR/bin/$b" ] && ln -sf "$BCK_HOME/bin/$b" "/usr/local/bin/$b"
 done
 
 # Ownership (ignore failures on non-root / weird mounts)
@@ -494,12 +616,12 @@ bck_lic_valid() {
 # result is confirmed by re-reading the license file.
 bck_lic_activate() {
     [ -n "${1:-}" ] || return 1
-    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$BCK_HOME/bin/bck" license activate --key "$1"
+    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$RELEASE_DIR/bin/bck" license activate --key "$1"
     bck_lic_valid
 }
 bck_lic_trial() {
     [ -n "${1:-}" ] || return 1
-    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$BCK_HOME/bin/bck" license trial --email "$1"
+    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$RELEASE_DIR/bin/bck" license trial --email "$1"
     bck_lic_valid
 }
 
@@ -578,7 +700,121 @@ if [ "$BCK_LICENSE_OK" != "1" ]; then
     warn "Активуйте пізніше: sudo bck license trial --email <email>  |  sudo bck license activate --key <key>"
 fi
 
+# A SQLite snapshot lets the installer restore the database if the new daemon
+# fails after running migrations. External databases are left for their own
+# backup/restore tooling; without a verified snapshot we keep the previous
+# release available but never point an old binary at a potentially migrated DB.
+DB_BACKUP_READY=0
+DB_BACKUP_KIND=""
+DB_PATH=""
+DB_EXISTED=0
+snapshot_sqlite_for_rollback() {
+    [ "$UPDATE_EXISTING" = "1" ] || return 0
+    if ! command -v python3 >/dev/null 2>&1; then
+        warn "python3 is unavailable; database rollback snapshot was not created."
+        return 0
+    fi
+    local db_info
+    db_info="$(python3 - "$CONFIG" <<'PY'
+import os, sys, tomllib
+from urllib.parse import unquote
+
+try:
+    with open(sys.argv[1], "rb") as stream:
+        url = tomllib.load(stream).get("database", {}).get("url", "")
+except Exception:
+    print("unknown")
+    raise SystemExit(0)
+
+if url.startswith("sqlite://"):
+    path = unquote(url[9:].split("?", 1)[0])
+    if path in ("", ":memory:"):
+        print("memory")
+    else:
+        if not os.path.isabs(path):
+            path = os.path.abspath(os.path.join("/", path))
+        print("sqlite\t" + path)
+elif url.startswith(("postgres://", "postgresql://")):
+    print("external")
+else:
+    print("unknown")
+PY
+)" || return 0
+    case "$db_info" in
+        memory)
+            DB_BACKUP_READY=1
+            DB_BACKUP_KIND="memory"
+            return 0
+            ;;
+        external)
+            warn "External database detected; automatic DB restore is disabled. The previous release will be retained."
+            return 0
+            ;;
+        unknown)
+            warn "Database URL could not be classified; automatic DB restore is disabled."
+            return 0
+            ;;
+        sqlite$'\t'*)
+            DB_PATH="${db_info#*$'\t'}"
+            ;;
+        *)
+            warn "Database URL could not be classified; automatic DB restore is disabled."
+            return 0
+            ;;
+    esac
+    case "$DB_PATH" in
+        /*) ;;
+        *) warn "SQLite path is not absolute; automatic DB restore is disabled."; return 0 ;;
+    esac
+    DB_BACKUP_KIND="sqlite"
+    DB_BACKUP_READY=1
+    install -d -m 0700 "$ROLLBACK_DIR/db"
+    local suffix source backup_name
+    for suffix in "" -wal -journal; do
+        source="${DB_PATH}${suffix}"
+        backup_name="main${suffix}"
+        if [ -f "$source" ]; then
+            DB_EXISTED=1
+            if ! cp -a "$source" "$ROLLBACK_DIR/db/$backup_name"; then
+                DB_BACKUP_READY=0
+                warn "Could not snapshot the SQLite database; automatic rollback is disabled."
+                return 0
+            fi
+            cmp -s "$source" "$ROLLBACK_DIR/db/$backup_name" || {
+                DB_BACKUP_READY=0
+                warn "SQLite snapshot verification failed; automatic rollback is disabled."
+                return 0
+            }
+        fi
+    done
+    log "SQLite rollback snapshot captured at $ROLLBACK_DIR/db"
+}
+
+restore_sqlite_snapshot() {
+    [ "$DB_BACKUP_KIND" = "sqlite" ] || [ "$DB_BACKUP_KIND" = "memory" ] || return 1
+    local suffix backup_name
+    for suffix in "" -wal -shm -journal; do
+        rm -f -- "${DB_PATH}${suffix}"
+    done
+    if [ "$DB_EXISTED" = "1" ]; then
+        for suffix in "" -wal -journal; do
+            backup_name="main${suffix}"
+            if [ -f "$ROLLBACK_DIR/db/$backup_name" ]; then
+                cp -a "$ROLLBACK_DIR/db/$backup_name" "${DB_PATH}${suffix}" || return 1
+            fi
+        done
+    fi
+    return 0
+}
+
 # ------------------------------------------------------------- service ---------
+activate_release() {
+    local link_tmp="$BCK_HOME/.current-new.$$"
+    ln -s "releases/$RELEASE_ID" "$link_tmp"
+    mv -Tf "$link_tmp" "$BCK_HOME/current"
+    CURRENT_TARGET="$RELEASE_DIR"
+}
+
 if command -v systemctl >/dev/null 2>&1; then
     cat > /etc/systemd/system/bckd.service <<EOF
 [Unit]
@@ -588,7 +824,7 @@ After=network.target
 [Service]
 Type=simple
 User=${BCK_USER}
-ExecStart=${BCK_HOME}/bin/bckd -c ${BCK_CONFIG_DIR}/config.toml
+ExecStart=${BCK_HOME}/current/bin/bckd -c ${BCK_CONFIG_DIR}/config.toml
 Restart=on-failure
 RestartSec=5
 NoNewPrivileges=yes
@@ -600,6 +836,30 @@ ReadWritePaths=${BCK_DATA_DIR} ${BCK_CONFIG_DIR} ${BCK_HOME}/.config
 [Install]
 WantedBy=multi-user.target
 EOF
+    # Stop an existing daemon before changing the single release pointer, so
+    # its child processes and static UI are never split across versions.
+    if systemctl is-active --quiet bckd 2>/dev/null; then
+        systemctl stop bckd 2>/dev/null || true
+        if systemctl is-active --quiet bckd 2>/dev/null; then
+            fail "Could not stop the existing bckd service before switching releases."
+        fi
+    fi
+    if [ "$UPDATE_EXISTING" = "1" ]; then
+        install -d -m 0700 "$ROLLBACK_DIR"
+        snapshot_sqlite_for_rollback
+        if [ "$DB_BACKUP_READY" != "1" ] && [ "${BCK_ALLOW_UNVERIFIED_DB_UPGRADE:-0}" != "1" ]; then
+            systemctl daemon-reload 2>/dev/null || true
+            systemctl restart bckd 2>/dev/null || true
+            if systemctl is-active --quiet bckd 2>/dev/null; then
+                fail "Upgrade stopped: no verified database rollback snapshot is available. Take and verify an independent backup, then explicitly set BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1 to proceed. The prior release remains active."
+            fi
+            fail "Upgrade stopped because no verified database rollback snapshot is available, and the prior bckd service did not restart. Start it manually before retrying."
+        fi
+        if [ "$DB_BACKUP_READY" != "1" ]; then
+            warn "Proceeding without automatic database rollback because BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1 was explicitly set; retain the independent verified backup."
+        fi
+    fi
+    activate_release
     systemctl daemon-reload 2>/dev/null || true
     systemctl enable bckd 2>/dev/null || true
     systemctl restart bckd 2>/dev/null || true
@@ -609,6 +869,30 @@ EOF
     else
         warn "systemd service 'bckd' is NOT running after restart. Recent log:"
         journalctl -u bckd -n 15 --no-pager 2>/dev/null || true
+        if [ -n "$PREVIOUS_RELEASE_RELATIVE" ] && [ "$DB_BACKUP_READY" = "1" ]; then
+            systemctl stop bckd 2>/dev/null || true
+            if restore_sqlite_snapshot; then
+                if [ "$CONFIG_EXISTED" = "1" ] && [ -f "$ROLLBACK_DIR/config.toml" ]; then
+                    cp -p "$ROLLBACK_DIR/config.toml" "$CONFIG"
+                    chown "$BCK_USER:$BCK_GROUP" "$CONFIG"
+                elif [ "$CONFIG_EXISTED" = "0" ]; then
+                    rm -f -- "$CONFIG"
+                fi
+                ln -s "$PREVIOUS_RELEASE_RELATIVE" "$BCK_HOME/.current-rollback.$$"
+                mv -Tf "$BCK_HOME/.current-rollback.$$" "$BCK_HOME/current"
+                systemctl daemon-reload 2>/dev/null || true
+                systemctl restart bckd 2>/dev/null || true
+                if systemctl is-active --quiet bckd 2>/dev/null; then
+                    log "New release failed; restored the prior release and pre-upgrade SQLite database."
+                else
+                    warn "Prior release and database were restored, but bckd still did not start."
+                fi
+            else
+                warn "Could not restore the pre-upgrade SQLite snapshot; manual recovery is required."
+            fi
+        elif [ -n "$PREVIOUS_RELEASE_RELATIVE" ]; then
+            warn "Previous release retained at $PREVIOUS_RELEASE_RELATIVE; database was not snapshotted, so no binary rollback was attempted."
+        fi
         warn "Common causes:"
         warn "  - Refusing to bind ... without TLS: set server.tls_cert/server.tls_key, or add"
         warn "    [Service] Environment=BCK_ALLOW_PLAINTEXT=1 via 'systemctl edit bckd' (LAN without TLS)."
@@ -636,6 +920,10 @@ EOF
         fi
     fi
 else
+    if [ "$UPDATE_EXISTING" = "1" ]; then
+        fail "Updates require systemd so the installer can stop and verify the daemon before switching releases. The current release remains active."
+    fi
+    activate_release
     warn "systemd not found — run the daemon manually:"
     warn "  ${BCK_HOME}/bin/bckd -c ${CONFIG}"
 fi

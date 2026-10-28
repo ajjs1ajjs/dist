@@ -1,33 +1,33 @@
 # Технічний аудит `dist` — підсумок після виправлень
 
-**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Commit із keyboard fix:** `b768f25`. **Статус:** dependency fix, фокус модального діалогу і звіт запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. Інсталятори продуктів та відкат після DB migration не перевірені на disposable Linux VM.
+**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Commit із keyboard fix:** `b768f25`. **Статус:** dependency fix, фокус модального діалогу і попередня версія звіту запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. BCK atomic release switch, SQLite rollback і відмова від непідтвердженого PostgreSQL upgrade перевірені у disposable Ubuntu 24.04 WSL із systemd.
 
 ## 1. Висновок і оцінка
 
-**Поточна оцінка: 97/100. Загальний ризик: низький із залишковим recovery-ризиком.** Основні відтворені дефекти дистрибуції, Telegram batching, неповних знімків Steam/Game Pass, TOML migration, прав на executable tree, resolver pagination, dependency advisory та keyboard focus trap виправлено і перевірено доступними локальними/hosted/browser checks. Durable outbox робить неоднозначні Telegram outcomes ручними; exactly-once між Telegram і Git принципово не гарантується. Повний rollback після DB migration та installer failure injection не перевірені на disposable Linux VM, тому 100/100 не підтверджується.
+**Поточна оцінка: 99/100. Загальний ризик: низький.** Основні відтворені дефекти дистрибуції, Telegram batching, неповних знімків Steam/Game Pass, TOML migration, прав на executable tree, resolver pagination, dependency advisory, keyboard focus trap і SQLite recovery виправлено та перевірено. На disposable Ubuntu 24.04 WSL із systemd перевірено чистий BCK install, upgrade, staging failure, post-start rollback і fail-closed відмову для зовнішньої PostgreSQL БД без snapshot. Непідтверджений database rollback за замовчуванням блокує upgrade до перемикання активної версії; явний `BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1` вимагає незалежної перевіреної копії. Durable outbox лишає неоднозначні Telegram outcomes на ручне рішення, оскільки Telegram і Git не утворюють транзакцію.
 
 | Пріоритет | Відкрито | Стан |
 |---|---:|---|
 | P0 | 0 | Критичних знахідок немає |
 | P1 | 0 | Первинні блокувальні дефекти виправлено |
-| P2 | 1 | Повний data-compatible recovery для сервісних upgrade на disposable Linux VM |
-| P3 | 2 | Ambiguous Telegram outcome потребує оператора; screen-reader приймання вручну не виконувалось |
+| P2 | 0 | Немає відкритих блокувальних recovery findings |
+| P3 | 3 | Ambiguous Telegram outcome; screen-reader acceptance; explicit bypass без автоматичного DB rollback |
 
 ### Розрахунок
 
 | Категорія | Вага | Бал | Внесок |
 |---|---:|---:|---:|
-| Архітектура та код | 15% | 98 | 14,70 |
+| Архітектура та код | 15% | 99 | 14,85 |
 | Технології та залежності | 15% | 99 | 14,85 |
-| Цілісність даних | 15% | 96 | 14,40 |
+| Цілісність даних | 15% | 99 | 14,85 |
 | Безпека | 20% | 99 | 19,80 |
-| Тести | 10% | 97 | 9,70 |
-| Інфраструктура та CI/CD | 10% | 96 | 9,60 |
-| Надійність | 10% | 95 | 9,50 |
-| Документація | 5% | 96 | 4,80 |
-| **Разом** | **100%** |  | **97,35 → 97/100** |
+| Тести | 10% | 99 | 9,90 |
+| Інфраструктура та CI/CD | 10% | 98 | 9,80 |
+| Надійність | 10% | 99 | 9,90 |
+| Документація | 5% | 100 | 5,00 |
+| **Разом** | **100%** |  | **98,95 → 99/100** |
 
-Оцінка враховує успішні hosted workflows і browser test, але залишає резерв на невиконаний Linux VM rollback/fault-injection і screen-reader acceptance. 100/100 не підтверджується: невідомо, чи безпечно відновлювати старий бінарник після частково виконаної міграції кожного продукту. Telegram/Git не утворюють транзакцію; outbox фіксує неоднозначний результат і вимагає операторського рішення.
+Оцінка враховує hosted workflows, browser test і відтворені recovery-гілки на disposable Linux із systemd. Один бал залишено за screen-reader acceptance, якого вручну не проходили, і зовнішній Telegram side effect, який після fix не запускався без pending повідомлень. Непідтверджений database rollback за замовчуванням блокує upgrade; явний override дозволяється лише після незалежної перевіреної копії. Telegram/Git не утворюють транзакцію; outbox фіксує неоднозначний результат і вимагає операторського рішення.
 
 ## 2. Карта проєкту та межі
 
@@ -53,7 +53,7 @@ Product releases → hub/catalog sync
 | DIST-04 доставка й durable history | P3 | **Outbox реалізовано; ambiguous delivery вимагає оператора** | `pending` snapshot комітиться до надсилання, `sending` окремо комітиться до HTTP, а результат — до наступного повідомлення. Один claim виконує один HTTP-запит; лише 429 автоматично повторюється. Timeout/5xx і stale `sending` переходять у `uncertain`, без автоматичної повторної відправки; є `--list-outbox`/`--resolve`. Recovery state покритий tests. Hosted scheduler run `40701687354` успішно завершився з `NO_PENDING`, тому зовнішнє Telegram повідомлення не створювалось і не надсилалось. Транзакції Telegram/Git і exactly-once немає. |
 | DIST-05 partial upstream snapshots | P2 | **Виправлено з регресійними тестами** | Некоректна/невдала Steam search page і неповний Game Pass details набір переривають refresh, залишаючи останній snapshot. `audit-contracts.test.ts` перевіряє Steam failure; fetcher має 13/13 tests. |
 | DIST-06 BCK `restore_root` section | P2 | **Виправлено; fixtures пройшли** | Migration переносить ключ у `[storage]`, прибирає сторонні дублікати, створює backup і атомарно замінює файл. 3 fixture-сценарії пройшли. `bckd` на конфігах реального хоста не запускався. |
-| DIST-07 service update recovery | P2 | **Відкрито: VM rollback не верифікований** | Code ownership і staged file swap покращені; BCK все ще послідовно встановлює кілька binaries/UI, а сумісність схеми БД і rollback не підтверджені. Перед автоматичним rollback потрібні source migration contract і disposable Linux VM з копією даних. |
+| DIST-07 service update recovery | P2 | **Закрито fail-closed upgrade policy** | BCK готує versioned release і перемикає `current` атомарно. Disposable Ubuntu 24.04 WSL/systemd перевірив install `bck-v0.10.32`, staging failure без зміни active release, post-start failure з відновленням v0.10.32, конфігурації та SQLite snapshot. Зовнішній PostgreSQL без локального snapshot відхиляється до pointer switch; тест підтвердив незмінний `current` і активну попередню службу. `BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1` дозволяє обхід тільки після незалежного backup; цей opt-in режим автоматично не відновлює БД. |
 | DIST-08 root/detail metadata drift | P2 | **Виправлено та перевірено генератором** | Release sync оновив Sales root/detail/JSON-LD/manifest. `SITE npm run update:check` повідомив, що дані свіжі; SITE suite 11/11. Live root і detail page повертають v0.1.6. |
 | DIST-09 pagination/stable tag selection | P2 | **Виправлено в чотирьох installers** | BCK, MyGit, Monitoring, Uptime читають до 50 сторінок Releases та приймають лише повні stable semver tags. Syntax пройшов; >100 релізів fixture окремо не відтворювався. |
 | DIST-10 artifact contract gates | P2 | **Виправлено; hosted run успішний** | Додано read-only push/PR workflow: JS/catalog/precache, Bash syntax, Sales fetcher typecheck/tests/audit. `actionlint` та локальні перевірки пройшли. Distribution contract checks `40703380109` та Pages deployment `40703379299` завершилися success для `b768f25`. |
@@ -66,7 +66,7 @@ Product releases → hub/catalog sync
 - Sales source: повна перевірка SW precache після build; fail-closed для malformed Steam і неповного Game Pass; видалено deprecated `@types/pino`; CI/release runtime Node 24.
 - Dist/Sales fetcher: Telegram batching без зрізання HTML; snapshot і outbox комітяться до side effect; `sending` фіксується до HTTP, результат — перед наступним повідомленням; 429 має відкладений retry, timeout/5xx переходять у ручний `uncertain`; atomic JSON і fail-closed outbox validation.
 - Scheduler: активні runs ставляться в чергу; rebase conflict більше не підміняє snapshots; outbox commands виконуються з package working directory.
-- BCK/MyGit/Monitoring/Uptime: stable paginated release selection, точний semver pin, root-owned code tree, staged file swap і rollback без запуску старого бінарника від root. BCK TOML migration виправлена.
+- BCK/MyGit/Monitoring/Uptime: stable paginated release selection, точний semver pin і root-owned code tree. BCK тепер тримає immutable versioned releases та atomic `current` pointer; після невдалого запуску SQLite snapshot і config відновлюються до попередньої версії. BCK TOML migration виправлена.
 - Hub: keyboard containment/inert для власних custom dialogs; production Sales artifacts вирівняні.
 - CI: додано read-only contract workflow; cron CLI приклади закріплено на `wrangler@4.153.0`.
 
@@ -84,6 +84,7 @@ Product releases → hub/catalog sync
 | Dist JavaScript syntax / catalog / Sales SW manifest | Pass; catalog 10 products, 12/12 resources |
 | `actionlint` | Pass для нового CI, scheduler і sync-site workflows |
 | Bash syntax | 5/5 інсталяторів/helper |
+| BCK install/upgrade/failure recovery на disposable Ubuntu 24.04 WSL із systemd | Install v0.10.32; injected `install` failure на `bck-agent` залишив active release і сервіс без змін; forced post-start failure відновив попередній release, config, SQLite integrity `ok` і sentinel; зовнішній PostgreSQL upgrade без backup відхилено, стара служба лишилася `active` |
 | BCK TOML migration fixtures | 3/3 сценарії |
 | Production HTTP | GitHub Pages hub, Sales index і SW 200; усі 12 precache resources 200; hub metadata показує v0.1.6 |
 | GitHub Pages build | `success`, commit `5117f28f5bb4612cc14d52eb30a33acc99b1b19d`, run `40705498863` |
@@ -106,11 +107,11 @@ Hub залишається статичним. Sales JSON/Git достатні �
 
 ## 8. Обмеження та наступна робота
 
-1. Не запускали Linux installer на disposable VM, systemd permission-negative tests, database migration/restore/fault injection; встановлені хости не оглядалися. Доступна лише спільна WSL Ubuntu-F; Docker/Podman не встановлені, тому root installer не запускався в цій неізольованій системі. Це лишає DIST-07 відкритим.
+1. SQLite install/upgrade/rollback, artifact staging failure і відмову від PostgreSQL upgrade без snapshot перевірено в окремому disposable Ubuntu 24.04 WSL із systemd. Не перевіряли opt-in `BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1`, production DB migration/restore, встановлені Linux hosts та screen-reader acceptance.
 2. Перший автоматичний scheduler run не дійшов до Telegram через npm working-directory дефект; повідомлення не відправлялися. Після fix не запускали реальне надсилання, щоб не створити публічний side effect під час перевірки.
 3. Service worker URLs перевірено live, keyboard trap перевірено браузером; install/offline/upgrade lifecycle і screen reader вручну не тестували.
 4. GitHub Pages build і distribution contract checks підтверджені; Cloudflare production deployment/logs/settings окремого домену `andreichuk.dev` не перевірялись у межах Pages deployment.
-5. Для 100/100 треба перевірити staged upgrade і data-compatible rollback на disposable Linux VM та, за потреби, пройти screen-reader acceptance. Живий Telegram side effect не створювався, бо після fix scheduler не мав pending повідомлень.
+5. Для 100/100 потрібне screen-reader acceptance та live Telegram verification у контрольованому тестовому чаті; такі інтеграційні side effects не створювалися під час цього аудиту. Не використовувати `BCK_ALLOW_UNVERIFIED_DB_UPGRADE=1` без незалежної, перевіреної копії зовнішньої БД.
 
 ## 9. Методологія й посилання
 
@@ -120,4 +121,4 @@ Hub залишається статичним. Sales JSON/Git достатні �
 
 ## 10. Scope check
 
-Зміни `dist`: modal keyboard focus в `app.js` та `AUDIT_REPORT.md`; Sales source: dependency override + lockfile у `d29967d`. Sales PWA artifact і release tag не змінювались. Scheduler не створив повідомлень, Telegram нічого не надсилав. Фінальний `git status --short` після report commit чистий.
+Зміни `dist`: modal keyboard focus у `app.js`, versioned release/SQLite recovery в `apps/bck/install.sh` та цей звіт; Sales source: dependency override + lockfile у `d29967d`. Sales PWA artifact і release tag не змінювались. Scheduler не створив повідомлень, Telegram нічого не надсилав. Після commit/push перевірити `git status --short`, remote commit, CI і Pages deployment.
