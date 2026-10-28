@@ -1,6 +1,6 @@
 # Технічний аудит `dist` — підсумок після виправлень
 
-**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Код commit:** `b768f25`; цей звіт — `5117f28`. **Статус:** dependency fix, фокус модального діалогу і звіт запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. Інсталятори продуктів та відкат після DB migration не перевірені на disposable Linux VM.
+**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Commit із keyboard fix:** `b768f25`. **Статус:** dependency fix, фокус модального діалогу і звіт запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. Інсталятори продуктів та відкат після DB migration не перевірені на disposable Linux VM.
 
 ## 1. Висновок і оцінка
 
