@@ -56,7 +56,7 @@ Product releases → hub/catalog sync
 | DIST-07 service update recovery | P2 | **Відкрито** | Code ownership і atomic binary swap покращені; BCK все ще послідовно встановлює кілька binaries/UI, а сумісність схеми БД і rollback не підтверджені. Перед автоматичним rollback потрібні source migration contract і disposable Linux VM з копією даних. |
 | DIST-08 root/detail metadata drift | P2 | **Виправлено та перевірено генератором** | Release sync оновив Sales root/detail/JSON-LD/manifest. `SITE npm run update:check` повідомив, що дані свіжі; SITE suite 11/11. Live root і detail page повертають v0.1.6. |
 | DIST-09 pagination/stable tag selection | P2 | **Виправлено в чотирьох installers** | BCK, MyGit, Monitoring, Uptime читають до 50 сторінок Releases та приймають лише повні stable semver tags. Syntax пройшов; >100 релізів fixture окремо не відтворювався. |
-| DIST-10 artifact contract gates | P2 | **Переважно виправлено** | Додано read-only push/PR workflow: JS/catalog/precache, Bash syntax, Sales fetcher typecheck/tests/audit. `actionlint` та еквівалентні локальні перевірки пройшли. Hosted run `Distribution contract checks` на `30192f8` завершився success; після cache-key commit буде перевірено наступний run. |
+| DIST-10 artifact contract gates | P2 | **Переважно виправлено** | Додано read-only push/PR workflow: JS/catalog/precache, Bash syntax, Sales fetcher typecheck/tests/audit. `actionlint` та еквівалентні локальні перевірки пройшли. Hosted run `Distribution contract checks` і Pages deployment на cache-key commit `62f71dd` завершилися success. |
 | DIST-11 pin-version instructions | P2 | **Виправлено** | README передає version/runner vars через `sudo env`; BCK нормалізує bare, `v` і `bck-v` формати з semver validation. |
 | DIST-12 runtime/dependency drift | P3 | **Частково виправлено** | Sales engine/CI переведені на Node 24, `@types/pino` вилучено, Wrangler приклад зафіксований. Source Release-Local пройшов локально на Node 26.7, а не на Node 24. `npm audit` у Sales source повідомив 4 low advisories у dev-only Workbox → `@rollup/plugin-node-resolve` → `deepmerge` ланцюжку; force fix пропонує несумісний downgrade, тому не застосовувався. Див. [GitHub Advisory GHSA-gcqx-w48m-w2h4](https://github.com/advisories/GHSA-gcqx-w48m-w2h4). Dist fetcher audit: 0 advisories. |
 | DIST-13 modal keyboard behavior | P3 | **Код виправлено; ручна перевірка відкрита** | `app.js` утримує Tab/Shift+Tab усередині діалогу, Escape закриває його, фон стає inert, попередній focus/inert state відновлюється. Browser/screen-reader acceptance вручну не проходив. |
@@ -86,13 +86,13 @@ Product releases → hub/catalog sync
 | Bash syntax | 5/5 інсталяторів/helper |
 | BCK TOML migration fixtures | 3/3 сценарії |
 | Production HTTP | GitHub Pages Sales index і SW 200; усі 12 precache resources 200; `andreichuk.dev` root і Sales detail 200, показують v0.1.6 |
-| GitHub Pages build | `built`, commit `30192f830b922d0728349ec7fd1053c0a007f69c` |
+| GitHub Pages build | `built`, commit `62f71dd3e266cd84410dbeb9ec8fff7eeb8df8d3` |
 | `git diff --check` | Pass до фінального коміту |
 
 ## 6. Релізи та remote state
 
 - Sales source fix: `07b8e94`; керований локальний release створив `sales-v0.1.6` і опублікував [GitHub Release](https://github.com/ajjs1ajjs/dist/releases/tag/sales-v0.1.6).
-- Sales artifact: `ee1542b`; hub version sync: `9043fc5`; GitHub Pages збирає кожен push; `30192f8` уже має успішний Pages build.
+- Sales artifact: `ee1542b`; hub version sync: `9043fc5`; GitHub Pages збирає кожен push; `62f71dd` має успішний Pages build.
 - SITE автоматично синхронізував версію в commit `ae920ad`; локально `npm run update:check` та 11 tests пройшли. Live домен віддає v0.1.6; статус Cloudflare control plane не читався.
 - Source installer commits: MyGit `65087e7`, Monitoring `a37759b`, Uptime Monitor `71c3184`.
 - Sales release version-bump source commit: `6a894f0`.
