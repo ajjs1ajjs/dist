@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T13:00:38.413Z",
+  "lastUpdated": "2026-10-28T13:51:56.952Z",
   "steam": [
     {
       "id": "1326470",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -54,6 +54,19 @@
       "isPopular": true
     },
     {
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793194696",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793144541",
@@ -80,6 +93,19 @@
       "isPopular": true
     },
     {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3259780",
       "title": "FINAL FANTASY RESONANCE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1793031418",
@@ -101,32 +127,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4688700",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5001840",
-      "title": "Crimson Desert Enhanced: Charting the Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1792637439",
-      "originalPrice": 874,
-      "discountPrice": 874,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5001840",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4922630",
-      "title": "The Long Dark: Iron Road",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4922630/da3b361a25ac8923be3d88f64f2ee254f67b4610/capsule_616x353.jpg?t=1793123897",
-      "originalPrice": 399,
-      "discountPrice": 359,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4922630",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
