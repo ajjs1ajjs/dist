@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T23:00:37.329Z",
+  "lastUpdated": "2026-10-28T00:00:29.533Z",
   "steam": [
     {
       "id": "1326470",
@@ -28,6 +28,19 @@
       "isPopular": false
     },
     {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/974dcc1be690e64e9c9bdd8cf559bd5b8d5ce738/capsule_616x353.jpg?t=1789479023",
@@ -41,22 +54,9 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793126150",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793144541",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
