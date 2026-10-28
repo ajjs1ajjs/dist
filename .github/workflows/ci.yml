@@ -26,6 +26,7 @@ jobs:
         run: |
           node --check app.js
           node --check translations.js
+          node scripts/validate-dialog-accessibility.mjs
           node --check scripts/sync-hub.mjs
           node scripts/sync-hub.mjs --check-catalog
           node scripts/validate-sales-worker.mjs

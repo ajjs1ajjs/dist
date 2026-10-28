@@ -9,6 +9,7 @@ window.SITE_I18N = {
     'meta.hub.desc': 'Публічний хаб інсталяторів і PWA: BCK, KubeLens, PyMon, RDM, MyGit, Uptime Monitor, NetScope та інші. SHA-256, Minisign, zero-telemetry.',
     'skip': 'Перейти до контенту',
     'modal.close': 'Закрити',
+    'modal.screenshot': 'Перегляд скриншота',
 
     /* --- nav --- */
     'nav.aria': 'Головна навігація',
@@ -290,6 +291,7 @@ window.SITE_I18N = {
     'meta.hub.desc': 'Public hub of installers and PWAs: BCK, KubeLens, PyMon, RDM, MyGit, Uptime Monitor, NetScope and more. SHA-256, Minisign, zero-telemetry.',
     'skip': 'Skip to content',
     'modal.close': 'Close',
+    'modal.screenshot': 'Screenshot preview',
 
     /* --- nav --- */
     'nav.aria': 'Main navigation',
