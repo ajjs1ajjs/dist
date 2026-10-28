@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T18:00:38.263Z",
+  "lastUpdated": "2026-10-28T19:00:37.244Z",
   "steam": [
     {
       "id": "1326470",
@@ -93,14 +93,14 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "5001840",
+      "title": "Crimson Desert Enhanced: Charting the Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1792637439",
+      "originalPrice": 874,
+      "discountPrice": 874,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/5001840",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -441,15 +441,6 @@
       "isPopular": true
     },
     {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9NDKFJ6XDX2M",
       "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
@@ -468,6 +459,15 @@
       "isPopular": true
     },
     {
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9NP6WL1XQDBW",
       "title": "SnowRunner - Windows",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
@@ -477,20 +477,20 @@
       "isPopular": true
     },
     {
-      "id": "9NKX70BBCDRN",
-      "title": "Forza Horizon 5 Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
-      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
-      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9P2VGCTBMM52",
       "title": "Microsoft Flight Simulator 2024 - Standard Edition",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
       "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NKX70BBCDRN",
+      "title": "Forza Horizon 5 Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
       "isPopular": true
     },
