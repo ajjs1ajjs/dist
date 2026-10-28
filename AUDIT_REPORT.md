@@ -1,6 +1,6 @@
 # Технічний аудит `dist` — підсумок після виправлень
 
-**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Базовий remote:** `main` синхронізовано до `b768f25`. **Статус:** dependency fix, фокус модального діалогу і звіт запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. Інсталятори продуктів та відкат після DB migration не перевірені на disposable Linux VM.
+**Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Код commit:** `b768f25`; цей звіт — `5117f28`. **Статус:** dependency fix, фокус модального діалогу і звіт запушені; Sales CI, distribution checks і Pages успішні. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. Інсталятори продуктів та відкат після DB migration не перевірені на disposable Linux VM.
 
 ## 1. Висновок і оцінка
 
@@ -86,7 +86,7 @@ Product releases → hub/catalog sync
 | Bash syntax | 5/5 інсталяторів/helper |
 | BCK TOML migration fixtures | 3/3 сценарії |
 | Production HTTP | GitHub Pages hub, Sales index і SW 200; усі 12 precache resources 200; hub metadata показує v0.1.6 |
-| GitHub Pages build | `success`, commit `b768f25ff2b751de90abcac39ac20ffff7b4ba7e` |
+| GitHub Pages build | `success`, commit `5117f28f5bb4612cc14d52eb30a33acc99b1b19d`, run `40705498863` |
 | `git diff --check` | Pass до фінального коміту |
 
 ## 6. Релізи та remote state
@@ -106,7 +106,7 @@ Hub залишається статичним. Sales JSON/Git достатні �
 
 ## 8. Обмеження та наступна робота
 
-1. Не запускали Linux installer на disposable VM, systemd permission-negative tests, database migration/restore/fault injection; встановлені хости не оглядалися. Це лишає DIST-07 відкритим.
+1. Не запускали Linux installer на disposable VM, systemd permission-negative tests, database migration/restore/fault injection; встановлені хости не оглядалися. Доступна лише спільна WSL Ubuntu-F; Docker/Podman не встановлені, тому root installer не запускався в цій неізольованій системі. Це лишає DIST-07 відкритим.
 2. Перший автоматичний scheduler run не дійшов до Telegram через npm working-directory дефект; повідомлення не відправлялися. Після fix не запускали реальне надсилання, щоб не створити публічний side effect під час перевірки.
 3. Service worker URLs перевірено live, keyboard trap перевірено браузером; install/offline/upgrade lifecycle і screen reader вручну не тестували.
 4. GitHub Pages build і distribution contract checks підтверджені; Cloudflare production deployment/logs/settings окремого домену `andreichuk.dev` не перевірялись у межах Pages deployment.
@@ -120,4 +120,4 @@ Hub залишається статичним. Sales JSON/Git достатні �
 
 ## 10. Scope check
 
-Зміни `dist`: modal keyboard focus в `app.js` та `AUDIT_REPORT.md`; Sales source: dependency override + lockfile у `d29967d`. Sales PWA artifact і release tag не змінювались. Scheduler не створив повідомлень, Telegram нічого не надсилав. Фінальний `git status --short` буде перевірено після report commit.
+Зміни `dist`: modal keyboard focus в `app.js` та `AUDIT_REPORT.md`; Sales source: dependency override + lockfile у `d29967d`. Sales PWA artifact і release tag не змінювались. Scheduler не створив повідомлень, Telegram нічого не надсилав. Фінальний `git status --short` після report commit чистий.
