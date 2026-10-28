@@ -9,7 +9,7 @@
   "scripts": {
     "fetch": "tsx fetch-deals.ts",
     "check": "tsc --noEmit",
-    "test": "node --import tsx --test safety.test.ts audit-contracts.test.ts"
+    "test": "node --import tsx --test safety.test.ts audit-contracts.test.ts outbox.test.ts"
   },
   "dependencies": {
     "pino": "10.3.1"

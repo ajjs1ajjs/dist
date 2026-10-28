@@ -6,6 +6,11 @@ import { RateLimiter } from './rate-limiter';
 import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries } from './collector-core';
 import { writeJsonAtomically } from './persistence';
 import { buildTelegramBatches } from './telegram';
+import {
+  claimNextMessage, classifyDeliveryFailure, emptyOutbox, enqueueMessage, normalizeOutbox, pendingReceiptKeys,
+  pruneDelivered, recordDeliveryOutcome,
+} from './outbox';
+import type { NotificationOutbox, OutboxReceipt } from './outbox';
 import type { SteamGame, GamePassGame, DealsData, NotifiedItem } from './types';
 import { formatPrice, escapeHtml, escapeAttr } from './format';
 
@@ -16,7 +21,7 @@ const logger = pino({
 });
 
 const CONFIG = {
-  dealsDir: process.env.DEALS_DIR ?? path.join(process.cwd(), 'public', 'data'),
+  dealsDir: process.env.DEALS_DIR ?? path.resolve(process.cwd(), '../../../sales/data'),
   freeGameCooldownMs: 14 * 24 * 60 * 60 * 1000,
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
@@ -55,6 +60,7 @@ const CONFIG = {
 const DEALS_DIR = CONFIG.dealsDir;
 const DEALS_PATH = path.join(DEALS_DIR, 'deals.json');
 const HISTORY_PATH = path.join(DEALS_DIR, 'notified-history.json');
+const OUTBOX_PATH = path.join(DEALS_DIR, 'notification-outbox.json');
 
 const FREE_GAME_COOLDOWN_MS = CONFIG.freeGameCooldownMs;
 const DISCOUNT_COOLDOWN_MS = CONFIG.discountCooldownMs;
@@ -521,10 +527,10 @@ async function sendTelegramMessage(text: string): Promise<boolean> {
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   const logSafeUrl = 'https://api.telegram.org/bot[REDACTED]/sendMessage';
 
-  // 3 короткі спроби на мережевий бліп (DNS/TLS/таймаут): одиничний збій
-  // мережі не має зривати ран до коміту даних. Сталі помилки вилітають —
-  // викликач вирішує (мережа/429/5xx — перервати ран; решта 4xx — пропустити).
-  const attempts = 3;
+  // Each outbox claim gets one HTTP request. If the response is lost, retrying
+  // inside this helper could duplicate a Telegram post before Git records an
+  // outcome; the caller marks that case uncertain for operator review.
+  const attempts = 1;
   let response: Response | undefined;
   let lastErr: unknown;
 
@@ -575,7 +581,98 @@ async function sendTelegramMessage(text: string): Promise<boolean> {
   return true;
 }
 
-async function run() {
+function readNotificationOutbox(): NotificationOutbox {
+  if (!fs.existsSync(OUTBOX_PATH)) return emptyOutbox();
+  return normalizeOutbox(JSON.parse(fs.readFileSync(OUTBOX_PATH, 'utf-8')));
+}
+
+async function persistDeliveredReceipts(receipts: OutboxReceipt[]) {
+  let history: Record<string, NotifiedItem> = {};
+  if (fs.existsSync(HISTORY_PATH)) {
+    const parsed: unknown = JSON.parse(fs.readFileSync(HISTORY_PATH, 'utf-8'));
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) throw new Error('Invalid notified history file');
+    history = parsed as Record<string, NotifiedItem>;
+  }
+  for (const receipt of receipts) history[receipt.key] = receipt.entry;
+  await writeJsonAtomically(HISTORY_PATH, history);
+
+  if (fs.existsSync(DEALS_PATH)) {
+    const deals = JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')) as DealsData;
+    if (!deals || typeof deals !== 'object' || !Array.isArray(deals.steam)) throw new Error('Invalid deals snapshot');
+    deals.notifiedHistory = history;
+    await writeJsonAtomically(DEALS_PATH, deals);
+  }
+}
+
+async function runOutboxCommand(args: string[]) {
+  const command = args[0];
+  const outbox = readNotificationOutbox();
+
+  if (command === '--claim-next') {
+    const message = claimNextMessage(outbox);
+    await writeJsonAtomically(OUTBOX_PATH, outbox);
+    if (message) console.log(`CLAIMED ${message.id}`);
+    else console.log('NO_PENDING');
+    return;
+  }
+
+  if (command === '--send-claimed') {
+    const message = outbox.messages.find(item => item.status === 'sending');
+    if (!message) { console.log('NO_CLAIM'); return; }
+
+    let outcome: Parameters<typeof recordDeliveryOutcome>[2];
+    let delivered = false;
+    try {
+      delivered = await sendTelegramMessage(message.text);
+      outcome = delivered
+        ? { kind: 'delivered' }
+        : { kind: 'blocked', error: 'Telegram credentials are missing.' };
+    } catch (err) {
+      const error = sanitizeLog(err instanceof Error ? err.message : String(err));
+      outcome = classifyDeliveryFailure((err as NodeJS.ErrnoException).code, error);
+    }
+
+    if (delivered) await persistDeliveredReceipts(message.receipts);
+    recordDeliveryOutcome(outbox, message.id, outcome);
+    await writeJsonAtomically(OUTBOX_PATH, outbox);
+    console.log(`${outcome.kind.toUpperCase()} ${message.id}`);
+    return;
+  }
+
+  if (command === '--resolve') {
+    const [, id, resolution] = args;
+    const message = outbox.messages.find(item => item.id === id);
+    if (!message || !['uncertain', 'blocked'].includes(message.status)) {
+      throw new Error(`Message is not awaiting operator resolution: ${id}`);
+    }
+    if (resolution === 'delivered') {
+      await persistDeliveredReceipts(message.receipts);
+      message.status = 'delivered';
+      delete message.lastError;
+    } else if (resolution === 'pending') {
+      message.status = 'pending';
+      delete message.claimedAt;
+      delete message.nextAttemptAt;
+      delete message.lastError;
+    } else {
+      throw new Error('Resolution must be delivered or pending');
+    }
+    await writeJsonAtomically(OUTBOX_PATH, outbox);
+    console.log(`RESOLVED ${id} ${resolution}`);
+    return;
+  }
+
+  if (command === '--list-outbox') {
+    for (const message of outbox.messages) {
+      console.log(`${message.id}\t${message.status}\t${message.receipts.map(receipt => receipt.key).join(',')}`);
+    }
+    return;
+  }
+
+  throw new Error(`Unknown fetcher command: ${command}`);
+}
+
+async function runPrepare() {
   logger.info('Starting deals fetcher script (Steam + Game Pass PC)...');
 
   // Load previous deals for comparison.
@@ -665,6 +762,10 @@ async function run() {
     if (Number.isNaN(notifiedTime) || notifiedTime < now.getTime() - maxAgeMs) {
       delete notifiedHistory[key];
     }
+  }
+
+  function markNotified(key: string, entry: NotifiedItem) {
+    notifiedHistory[key] = entry;
   }
 
   // Fetch fresh data (Steam-only)
@@ -807,10 +908,6 @@ async function run() {
     `${newGamePassGames.length} new Game Pass, ${newPopularGamePassGames.length} popular Game Pass (catalog ${gamepass.length}).`,
   );
 
-  function markNotified(key: string, entry: NotifiedItem) {
-    notifiedHistory[key] = entry;
-  }
-
   async function saveHistory() {
     await writeJsonAtomically(HISTORY_PATH, notifiedHistory);
   }
@@ -832,32 +929,29 @@ async function run() {
     return `🎮 ${gameTitle(title)}\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(originalPrice, currency)}</s> ➡️ <b>${formatPrice(discountPrice, currency)}</b>\n🔗 ${storeLink(linkLabel, url)}`;
   }
 
-  // Persist each confirmed batch before moving to the next one. Failed and
-  // skipped batches remain pending and are retried on the next scheduled run.
-  let telegramReady = true;
+  // Persist delivery intent before any Telegram request. The workflow pushes
+  // this outbox, then claims/sends one message per durable checkpoint.
+  const outbox = readNotificationOutbox();
+  const queuedKeys = pendingReceiptKeys(outbox);
   async function sendBatched<T>(
     header: string,
     items: T[],
     footer: string,
     buildItem: (item: T) => string,
-    markSent: (item: T) => void,
+    receiptFor: (item: T) => OutboxReceipt,
   ) {
-    if (!telegramReady) return;
-    const batches = buildTelegramBatches(items, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun);
+    const eligible = items.filter(item => {
+      const key = receiptFor(item).key;
+      return !notifiedHistory[key] && !queuedKeys.has(key);
+    });
+    if (eligible.length === 0) return;
+    const batches = buildTelegramBatches(eligible, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun);
     for (const batch of batches) {
-      try {
-        const delivered = await sendTelegramMessage(batch.text);
-        if (!delivered) {
-          telegramReady = false;
-          return;
-        }
-      } catch (err) {
-        telegramReady = false;
-        logger.error({ err: sanitizeLog(err instanceof Error ? err.message : String(err)) }, 'telegram batch failed; leaving it pending');
-        return;
-      }
-      for (const item of batch.items) markSent(item);
-      await saveHistory();
+      const receipts = batch.items.map(receiptFor);
+      const queued = enqueueMessage(outbox, batch.text, receipts, now);
+      if (!queued) continue;
+      for (const receipt of queued.receipts) queuedKeys.add(receipt.key);
+      logger.info({ messageId: queued.id, count: queued.receipts.length }, 'queued durable Telegram message');
     }
   }
 
@@ -867,9 +961,9 @@ async function run() {
       newSteamDeals,
       `🚀 Більше знижок дивіться на нашому сайті!`,
       (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Steam'),
-      (deal) => markNotified(`steam_discount_${deal.id}`, {
+      (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
         title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
-      }),
+      } }),
     );
   }
 
@@ -879,9 +973,9 @@ async function run() {
       newSteamFreeGames,
       `🚀 Інші пропозиції дивіться на нашому сайті!`,
       (game) => `🎮 ${gameTitle(game.title)}\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 ${storeLink('Забрати в Steam', game.url)}`,
-      (game) => markNotified(`steam_free_${game.id}`, {
+      (game) => ({ key: `steam_free_${game.id}`, entry: {
         title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
-      }),
+      } }),
     );
   }
 
@@ -900,9 +994,9 @@ async function run() {
         text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
         return text;
       },
-      (game) => markNotified(`gamepass_${game.id}`, {
+      (game) => ({ key: `gamepass_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
-      }),
+      } }),
     );
   }
 
@@ -921,9 +1015,9 @@ async function run() {
         text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
         return text;
       },
-      (game) => markNotified(`gamepass_popular_${game.id}`, {
+      (game) => ({ key: `gamepass_popular_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
-      }),
+      } }),
     );
   }
 
@@ -940,7 +1034,10 @@ async function run() {
   await writeJsonAtomically(DEALS_PATH, newData);
   logger.info(`✅ Saved new data to ${DEALS_PATH}`);
 
-  // Save notified history to separate file (atomic write via temp file)
+  pruneDelivered(outbox, now);
+  await writeJsonAtomically(OUTBOX_PATH, outbox);
+
+  // Persist the current delivered history snapshot alongside the catalog.
   await saveHistory();
   logger.info(`✅ Saved notified history to ${HISTORY_PATH}`);
 }
@@ -957,7 +1054,11 @@ if (isMain) {
     });
   }
 
-  run().catch(err => {
+  const command = process.argv[2] ?? '--prepare';
+  const task = command === '--prepare'
+    ? runPrepare()
+    : runOutboxCommand(process.argv.slice(2));
+  task.catch(err => {
     logger.error({ err: err instanceof Error ? { message: err.message, stack: err.stack } : String(err) }, 'critical error running fetcher');
     process.exit(1);
   });
