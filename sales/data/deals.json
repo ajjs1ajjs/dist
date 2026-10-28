@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T01:00:32.170Z",
+  "lastUpdated": "2026-10-28T02:00:32.932Z",
   "steam": [
     {
       "id": "1326470",
@@ -101,19 +101,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4688700",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4922630",
-      "title": "The Long Dark: Iron Road",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4922630/da3b361a25ac8923be3d88f64f2ee254f67b4610/capsule_616x353.jpg?t=1793123897",
-      "originalPrice": 399,
-      "discountPrice": 359,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4922630",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
