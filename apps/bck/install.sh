@@ -229,19 +229,18 @@ download() { # url -> local path
 # Not /releases/latest: that endpoint is global to the repository and every app
 # publishes here, so the newest release overall may belong to another app.
 get_latest_release() {
-    local api="https://api.github.com/repos/${REPO}/releases?per_page=100"
-    local tags
-    tags="$(curl -fsSL "$api" 2>/dev/null \
-        | grep -o '"tag_name": *"[^"]*"' \
-        | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' \
-        | grep "^${TAG_PREFIX}-v" || true)"
-    [ -n "$tags" ] || { echo ""; return 0; }
-    # Sort by semver (strip prefix) and take the highest.
-    printf '%s\n' "$tags" \
-        | sed "s/^${TAG_PREFIX}-v//" \
-        | sort -V \
-        | tail -n1 \
-        | sed "s/^/${TAG_PREFIX}-v/"
+    local page=1 count body tags candidate latest=''
+    while [ "$page" -le 50 ]; do
+        body="$(curl -fsSL "https://api.github.com/repos/${REPO}/releases?per_page=100&page=${page}")" || return 1
+        count="$(printf '%s' "$body" | grep -o '"tag_name"' | wc -l)"
+        tags="$(printf '%s' "$body" | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' | grep -E "^${TAG_PREFIX}-v[0-9]+\\.[0-9]+\\.[0-9]+$" || true)"
+        candidate="$(printf '%s\n' "$tags" | sort -V | tail -n1)"
+        if [ -n "$candidate" ]; then latest="$(printf '%s\n%s\n' "$latest" "$candidate" | sort -V | tail -n1)"; fi
+        [ "$count" -lt 100 ] && { printf '%s\n' "$latest"; return 0; }
+        page=$((page + 1))
+    done
+    echo "ERROR: release listing exceeded 50 pages; refusing incomplete selection." >&2
+    return 1
 }
 
 # --------------------------------------------------------------- download -----
@@ -265,8 +264,10 @@ if [ "$MODE" = "release" ]; then
     if [ -n "$BCK_VERSION" ]; then
         case "$BCK_VERSION" in
             "${TAG_PREFIX}-v"*) TAG="$BCK_VERSION" ;;
-            *) TAG="${TAG_PREFIX}-${BCK_VERSION}" ;;
+            v*) TAG="${TAG_PREFIX}-${BCK_VERSION}" ;;
+            *) TAG="${TAG_PREFIX}-v${BCK_VERSION}" ;;
         esac
+        [[ "$TAG" =~ ^${TAG_PREFIX}-v[0-9]+\.[0-9]+\.[0-9]+$ ]] || fail "Invalid stable release tag: $TAG"
     else
         TAG="$(get_latest_release)"
     fi
@@ -424,11 +425,40 @@ EOF
     log "Created default config at $CONFIG"
 else
     log "Config exists — preserving it."
-    # Migrate configs predating 0.9.28: ensure restore_root exists so file
-    # restores work and the daemon never depends on the working directory.
-    if ! grep -Eq '^\s*restore_root\s*=' "$CONFIG" 2>/dev/null; then
-        printf '\n# SEC-001: file-level restores are confined to this directory (added by installer).\nrestore_root = "%s/restore"\n' "$BCK_DATA_DIR" >> "$CONFIG"
-        log "Added restore_root to existing config at $CONFIG"
+    # Migrate configs predating 0.9.28. restore_root belongs to [storage]; a
+    # blind append after [logging] silently creates logging.restore_root.
+    restore_line="restore_root = \"${BCK_DATA_DIR}/restore\""
+    migrated_config="$(mktemp "${CONFIG}.XXXXXX")"
+    if ! awk -v restore_line="$restore_line" '
+        BEGIN { in_storage = 0; found_storage = 0; have_restore_root = 0 }
+        /^\[storage\][[:space:]]*$/ {
+            if (in_storage && !have_restore_root) { print restore_line; have_restore_root = 1 }
+            in_storage = 1; found_storage = 1; print; next
+        }
+        /^\[[^]]+\][[:space:]]*$/ {
+            if (in_storage && !have_restore_root) { print restore_line; have_restore_root = 1 }
+            in_storage = 0
+        }
+        /^[[:space:]]*restore_root[[:space:]]*=/ {
+            if (in_storage && !have_restore_root) { print; have_restore_root = 1 }
+            next
+        }
+        { print }
+        END {
+            if (!found_storage) { print ""; print "[storage]"; print restore_line }
+            else if (in_storage && !have_restore_root) print restore_line
+        }
+    ' "$CONFIG" > "$migrated_config"; then
+        rm -f "$migrated_config"
+        fail "Could not migrate restore_root in $CONFIG"
+    fi
+    if ! grep -Fxq "$restore_line" "$CONFIG" || ! cmp -s "$CONFIG" "$migrated_config"; then
+        cp -p "$CONFIG" "${CONFIG}.pre-restore-root-$(date -u +%Y%m%dT%H%M%SZ)"
+        chmod --reference="$CONFIG" "$migrated_config"
+        mv -f "$migrated_config" "$CONFIG"
+        log "Ensured restore_root is inside [storage] in $CONFIG"
+    else
+        rm -f "$migrated_config"
     fi
 fi
 
@@ -439,7 +469,11 @@ for b in "${BIN_NAMES[@]}"; do
 done
 
 # Ownership (ignore failures on non-root / weird mounts)
-chown -R "$BCK_USER:$BCK_GROUP" "$BCK_HOME" "$BCK_DATA_DIR" "$BCK_CONFIG_DIR" 2>/dev/null || true
+chown -R root:root "$BCK_HOME"
+chmod 0755 "$BCK_HOME"
+chown -R "$BCK_USER:$BCK_GROUP" "$BCK_DATA_DIR" "$BCK_CONFIG_DIR"
+install -d -o "$BCK_USER" -g "$BCK_GROUP" -m 0750 "$BCK_HOME/.config"
+install -d -o "$BCK_USER" -g "$BCK_GROUP" -m 0750 "$BCK_HOME/.config/bck"
 
 # --- License preflight --------------------------------------------------------
 # bckd starts without a license (it only warns), but CLI operations are blocked
@@ -561,7 +595,7 @@ NoNewPrivileges=yes
 ProtectSystem=strict
 ProtectHome=yes
 PrivateTmp=yes
-ReadWritePaths=${BCK_DATA_DIR} ${BCK_CONFIG_DIR} ${BCK_HOME}
+ReadWritePaths=${BCK_DATA_DIR} ${BCK_CONFIG_DIR} ${BCK_HOME}/.config
 
 [Install]
 WantedBy=multi-user.target

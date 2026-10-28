@@ -1,10 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 import pino from 'pino';
+import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
+import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries } from './collector-core';
+import { writeJsonAtomically } from './persistence';
+import { buildTelegramBatches } from './telegram';
 import type { SteamGame, GamePassGame, DealsData, NotifiedItem } from './types';
 import { formatPrice, escapeHtml, escapeAttr } from './format';
-import { keepPreviousOnEmpty, sendBatchAndMark, snapshotUpdatedAt, writeJsonAtomic } from './safety';
 
 const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 const logger = pino({
@@ -75,7 +78,7 @@ const steamLimiter = new RateLimiter(60);
 // Microsoft-каталог: ~5 запитів на ран (2 списки + батчі деталей).
 const gamepassLimiter = new RateLimiter(30);
 
-async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000, timeoutMs = 30000): Promise<Response> {
+export async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000, timeoutMs = 30000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
     let res: Response | undefined;
     const controller = new AbortController();
@@ -84,13 +87,22 @@ async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, d
 
     try {
       res = await fetch(url, fetchOptions);
+      if (res.ok) {
+        // Keep the request deadline active through body download. Returning the
+        // original Response after clearing the timer left .json() unbounded.
+        const body = await res.arrayBuffer();
+        res = new Response(body, { status: res.status, statusText: res.statusText, headers: res.headers });
+      } else {
+        await res.body?.cancel();
+      }
     } catch (err) {
-      clearTimeout(timeout);
+      res = undefined;
       logger.warn({ url: sanitizeLog(url), attempt: i + 1, retries, err: sanitizeLog(err instanceof Error ? err.message : String(err)) }, 'fetch error');
+    } finally {
+      clearTimeout(timeout);
     }
 
     if (res) {
-      clearTimeout(timeout);
       if (res.ok) return res;
       // 4xx — клієнтська помилка (404/400/403): повторювати безглуздо, перериваємо одразу.
       // 429 (Too Many Requests) — виняток: це тимчасове обмеження, повторюємо з backoff.
@@ -98,8 +110,6 @@ async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, d
         throw new Error(`Failed to fetch ${url}: non-retryable client error ${res.status}.`);
       }
       logger.warn({ url: sanitizeLog(url), status: res.status, attempt: i + 1, retries }, 'fetch failed');
-    } else {
-      clearTimeout(timeout);
     }
 
     if (i < retries - 1) {
@@ -221,7 +231,7 @@ function upsertGame(
   });
 }
 
-function processCategoryItems(
+export function processCategoryItems(
   gamesMap: Map<string, SteamGame>,
   items: SteamItem[],
   opts: { specialBucket: boolean; popularBucket: boolean },
@@ -240,8 +250,11 @@ function processCategoryItems(
     }
     if (!item.name) continue;
 
-    const originalPrice = finiteOr(Number(item.original_price ?? item.final_price ?? 0), 0) / 100;
-    const discountPrice = finiteOr(Number(item.final_price ?? 0), 0) / 100;
+    // A missing final_price is unknown data, not a free offer.
+    if (!Number.isFinite(item.final_price)) continue;
+    const originalPrice = finiteOr(Number(item.original_price ?? item.final_price), NaN) / 100;
+    const discountPrice = finiteOr(Number(item.final_price), NaN) / 100;
+    if (!Number.isFinite(originalPrice) || !Number.isFinite(discountPrice) || originalPrice < 0 || discountPrice < 0) continue;
     const pct = finiteOr(Number(item.discount_percent ?? 0), 0);
     const isFree = originalPrice > 0 && discountPrice === 0;
     // У top_sellers багато повноцінних ігор без знижки — прапорець isPopular
@@ -279,7 +292,7 @@ async function fetchSteamCategories(gamesMap: Map<string, SteamGame>): Promise<v
 }
 
 /** Парсинг однієї сторінки search API (topsellers + specials). */
-function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>): number {
+export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>): number {
   const anchorRe = /<a\b[^>]*data-ds-appid="(\d+)"[^>]*data-ds-itemkey="([^"]*)"[^>]*>([\s\S]*?)<\/a\s*>/g;
   let added = 0;
   let m: RegExpExecArray | null;
@@ -338,9 +351,8 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
       { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } },
     );
     const data = (await res.json()) as SteamSearchResponse;
-    if (!data.success || typeof data.results_html !== 'string') {
-      logger.warn({ page, start }, 'steam search page failed (no success/html)');
-      continue;
+    if (!isValidSteamSearchPage(data)) {
+      throw new Error(`Steam search page ${page} returned an incomplete response.`);
     }
     const added = parseSearchHtml(data.results_html, gamesMap);
     logger.info({ page, start, total: data.total_count ?? -1, added }, 'steam search page fetched');
@@ -470,9 +482,9 @@ async function fetchGamePassGames(): Promise<GamePassGame[]> {
 
   const ids = [...flags.keys()];
   const details = await fetchGamePassDetails(ids);
-  // Більшість батчів не віддали деталей — вважаємо ран невдалим, щоб не
-  // підмінити повний каталог обрізком.
-  if (ids.length > 0 && details.size < ids.length / 2) {
+  // A missing detail can mean a transient/partial catalogue response. Keep the
+  // previously published snapshot rather than advancing a partial one.
+  if (details.size < ids.length) {
     throw new Error(`gamepass details resolved only ${details.size}/${ids.length}`);
   }
 
@@ -502,7 +514,7 @@ async function sendTelegramMessage(text: string): Promise<boolean> {
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
   if (!token || !chatId) {
-    logger.error('Telegram credentials are missing; notification remains pending for a later run.');
+    logger.info('⚠️ Telegram credentials not found (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID). Skipping notification.');
     return false;
   }
 
@@ -663,16 +675,12 @@ async function run() {
     return [] as SteamGame[];
   });
 
-  // Guard against API/scraping failure:
-  // If fetch failed (not just empty) but we had games previously, abort to prevent data deletion.
-  if (!steamFetchSuccess && oldData.steam.length > 0) {
-    throw new Error('Steam games fetch failed, but previous data was not empty. Aborting to prevent data deletion.');
+  // Keep the last known-good catalog on failures and unconfirmed empty responses.
+  const steamSnapshot = chooseSteamSnapshot(freshSteam, oldData.steam, steamFetchSuccess);
+  if (steamSnapshot.usedPrevious) {
+    logger.warn({ fetchSucceeded: steamFetchSuccess, freshCount: freshSteam.length, keptCount: oldData.steam.length }, 'keeping previous Steam snapshot');
   }
-  // If fetch succeeded but returned empty, log warning but continue (could be legitimate no deals)
-  if (steamFetchSuccess && freshSteam.length === 0 && oldData.steam.length > 0) {
-    logger.warn('⚠️ Steam fetch succeeded but returned empty list. Previous data had games. Keeping old data.');
-  }
-  const steam = keepPreviousOnEmpty(freshSteam, oldData.steam);
+  const steam = steamSnapshot.games;
 
   // Fetch Game Pass for PC catalog. Збій Microsoft-каталогу не має валити ран
   // і не має стирати попередній каталог — лишаємо старі дані, якщо нові пусті.
@@ -689,10 +697,6 @@ async function run() {
   }
   const gamepass: GamePassGame[] =
     gamepassFetchSuccess && freshGamePass.length > 0 ? freshGamePass : oldData.gamepass ?? [];
-  const fullRefreshSucceeded = steamFetchSuccess
-    && (freshSteam.length > 0 || oldData.steam.length === 0)
-    && gamepassFetchSuccess
-    && (freshGamePass.length > 0 || (oldData.gamepass?.length ?? 0) === 0);
 
   // Detect changes
   const newSteamFreeGames: SteamGame[] = [];
@@ -753,18 +757,16 @@ async function run() {
   // Game Pass: новинки каталогу. Перший ран після деплою (жодного ключа
   // gamepass_ в історії) лише запам'ятовує поточний список — без заливки
   // каналу десятками постів; далі постимо тільки реально нові ігри.
-  const hasGamePassHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_'));
-  const newGamePassGames: GamePassGame[] = [];
-  for (const game of gamepass) {
-    const historyKey = `gamepass_${game.id}`;
-    if (notifiedHistory[historyKey]) continue;
-    if (!hasGamePassHistory) {
-      markNotified(historyKey, {
-        title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass',
-      });
-      continue;
+  const hasGamePassHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_') && !key.startsWith('gamepass_popular_'));
+  const newGamePassGames = planGamePassNewEntries(gamepass, notifiedHistory);
+  if (!hasGamePassHistory) {
+    for (const game of gamepass) {
+      if (game.isNew && !notifiedHistory[`gamepass_${game.id}`]) {
+        markNotified(`gamepass_${game.id}`, {
+          title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass',
+        });
+      }
     }
-    newGamePassGames.push(game);
   }
   if (newGamePassGames.length > CONFIG.tgMaxDealsPerRun) {
     logger.info(
@@ -809,6 +811,10 @@ async function run() {
     notifiedHistory[key] = entry;
   }
 
+  async function saveHistory() {
+    await writeJsonAtomically(HISTORY_PATH, notifiedHistory);
+  }
+
   // Shared Telegram-HTML builders to keep the notification blocks DRY.
   const gameTitle = (name: string) => `<b>${escapeHtml(name)}</b>`;
   const storeLink = (label: string, url: string) => `<a href="${escapeAttr(url)}">${label}</a>`;
@@ -826,38 +832,33 @@ async function run() {
     return `🎮 ${gameTitle(title)}\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(originalPrice, currency)}</s> ➡️ <b>${formatPrice(discountPrice, currency)}</b>\n🔗 ${storeLink(linkLabel, url)}`;
   }
 
-  // Helper: split array of items into batches and send each as Telegram message.
-  // Calls markSent(index) after each successful batch to prevent duplicate
-  // notifications on the next cron run if a later batch fails. Retryable
-  // failures (network/429/5xx) abort the run unmarked (retry next time);
-  // permanent 4xx are marked to avoid poisoning the queue forever.
+  // Persist each confirmed batch before moving to the next one. Failed and
+  // skipped batches remain pending and are retried on the next scheduled run.
+  let telegramReady = true;
   async function sendBatched<T>(
     header: string,
     items: T[],
     footer: string,
     buildItem: (item: T) => string,
-    markSent: (index: number) => void,
-  ): Promise<boolean> {
-    const batchSize = 10;
-    const delivered = await sendBatchAndMark(items, batchSize, async (batch) => {
-      let text = header;
-      for (const item of batch) {
-        text += buildItem(item) + '\n\n';
-      }
-      text += footer;
+    markSent: (item: T) => void,
+  ) {
+    if (!telegramReady) return;
+    const batches = buildTelegramBatches(items, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun);
+    for (const batch of batches) {
       try {
-        return await sendTelegramMessage(text.slice(0, TG_MESSAGE_LIMIT));
+        const delivered = await sendTelegramMessage(batch.text);
+        if (!delivered) {
+          telegramReady = false;
+          return;
+        }
       } catch (err) {
-        const code = (err as NodeJS.ErrnoException)?.code ?? '';
-        const status = Number(code.replace('HTTP_', ''));
-        const retryable = code === '' || status === 429 || status >= 500;
-        if (retryable) throw err;
-        logger.error({ err: String(err) }, 'permanent telegram error, marking batch as sent');
-        return true;
+        telegramReady = false;
+        logger.error({ err: sanitizeLog(err instanceof Error ? err.message : String(err)) }, 'telegram batch failed; leaving it pending');
+        return;
       }
-    }, markSent);
-    if (!delivered) logger.error('Telegram delivery skipped; unnotified items will be retried on the next run.');
-    return delivered;
+      for (const item of batch.items) markSent(item);
+      await saveHistory();
+    }
   }
 
   if (newSteamDeals.length > 0) {
@@ -866,8 +867,8 @@ async function run() {
       newSteamDeals,
       `🚀 Більше знижок дивіться на нашому сайті!`,
       (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Steam'),
-      (i) => markNotified(`steam_discount_${newSteamDeals[i].id}`, {
-        title: newSteamDeals[i].title, price: newSteamDeals[i].discountPrice, percent: newSteamDeals[i].discountPercent, timestamp: now.toISOString(), type: 'discount'
+      (deal) => markNotified(`steam_discount_${deal.id}`, {
+        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
       }),
     );
   }
@@ -878,8 +879,8 @@ async function run() {
       newSteamFreeGames,
       `🚀 Інші пропозиції дивіться на нашому сайті!`,
       (game) => `🎮 ${gameTitle(game.title)}\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 ${storeLink('Забрати в Steam', game.url)}`,
-      (i) => markNotified(`steam_free_${newSteamFreeGames[i].id}`, {
-        title: newSteamFreeGames[i].title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
+      (game) => markNotified(`steam_free_${game.id}`, {
+        title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
       }),
     );
   }
@@ -899,8 +900,8 @@ async function run() {
         text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
         return text;
       },
-      (i) => markNotified(`gamepass_${newGamePassGames[i].id}`, {
-        title: newGamePassGames[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
+      (game) => markNotified(`gamepass_${game.id}`, {
+        title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       }),
     );
   }
@@ -920,8 +921,8 @@ async function run() {
         text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
         return text;
       },
-      (i) => markNotified(`gamepass_popular_${newPopularGamePassGames[i].id}`, {
-        title: newPopularGamePassGames[i].title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
+      (game) => markNotified(`gamepass_popular_${game.id}`, {
+        title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       }),
     );
   }
@@ -930,32 +931,34 @@ async function run() {
   // notifiedHistory вбудовуємо і в deals.json: сайт читає історію саме звідти
   // (окремий notified-history.json — merge-friendly джерело для scheduler-а).
   const newData: DealsData = {
-    lastUpdated: snapshotUpdatedAt(fullRefreshSucceeded, oldData.lastUpdated, new Date().toISOString()),
+    lastUpdated: new Date().toISOString(),
     steam,
     gamepass,
     notifiedHistory
   };
 
-  await fs.promises.mkdir(DEALS_DIR, { recursive: true });
-  await writeJsonAtomic(DEALS_PATH, newData);
+  await writeJsonAtomically(DEALS_PATH, newData);
   logger.info(`✅ Saved new data to ${DEALS_PATH}`);
 
   // Save notified history to separate file (atomic write via temp file)
-  await writeJsonAtomic(HISTORY_PATH, notifiedHistory);
+  await saveHistory();
   logger.info(`✅ Saved notified history to ${HISTORY_PATH}`);
 }
 
-let shuttingDown = false;
-for (const sig of ['SIGTERM', 'SIGINT'] as const) {
-  process.on(sig, () => {
-    if (shuttingDown) return;
-    shuttingDown = true;
-    logger.warn({ sig }, 'received shutdown signal, exiting');
-    process.exit(143);
+const isMain = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+if (isMain) {
+  let shuttingDown = false;
+  for (const sig of ['SIGTERM', 'SIGINT'] as const) {
+    process.on(sig, () => {
+      if (shuttingDown) return;
+      shuttingDown = true;
+      logger.warn({ sig }, 'received shutdown signal, exiting');
+      process.exit(143);
+    });
+  }
+
+  run().catch(err => {
+    logger.error({ err: err instanceof Error ? { message: err.message, stack: err.stack } : String(err) }, 'critical error running fetcher');
+    process.exit(1);
   });
 }
-
-run().catch(err => {
-  logger.error({ err: err instanceof Error ? { message: err.message, stack: err.stack } : String(err) }, 'critical error running fetcher');
-  process.exit(1);
-});

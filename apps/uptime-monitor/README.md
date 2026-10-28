@@ -15,7 +15,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 Конкретна версія:
 
 ```bash
-UPTIME_MONITOR_VERSION=3.7.2 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.7.2 bash
 ```
 
 ## Підмережі однією командою (v3.8.20+)

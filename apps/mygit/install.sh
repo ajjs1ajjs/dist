@@ -15,6 +15,21 @@ MYGIT_VER="${MYGIT_VERSION:-latest}"
 # Релізи живуть у публічному dist (кодовий репозиторій приватний), тег mygit-v<version>.
 DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="mygit-v"
+
+get_latest_release_tag() {
+    local page=1 count body tags candidate latest=''
+    while [ "$page" -le 50 ]; do
+        body="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100&page=${page}")" || return 1
+        count="$(printf '%s' "$body" | grep -o '"tag_name"' | wc -l)"
+        tags="$(printf '%s' "$body" | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' | grep -E "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || true)"
+        candidate="$(printf '%s\n' "$tags" | sort -V | tail -n1)"
+        if [ -n "$candidate" ]; then latest="$(printf '%s\n%s\n' "$latest" "$candidate" | sort -V | tail -n1)"; fi
+        [ "$count" -lt 100 ] && { printf '%s\n' "$latest"; return 0; }
+        page=$((page + 1))
+    done
+    echo "ERROR: release listing exceeded 50 pages; refusing incomplete selection." >&2
+    return 1
+}
 # Port to bind. If it is already taken, the script picks the next free port
 # automatically (you can pin one with MYGIT_PORT).
 PORT="${MYGIT_PORT:-9555}"
@@ -96,9 +111,6 @@ echo "=============================================="
 echo ""
 
 OLD_VERSION=""
-if [ -x "$INSTALL_DIR/mygit" ]; then
-    OLD_VERSION="$($INSTALL_DIR/mygit --version 2>/dev/null || echo "?")"
-fi
 
 case "$(uname -m)" in
     x86_64|amd64) ARCH="amd64" ;;
@@ -110,9 +122,7 @@ BINARY_NAME="mygit-linux-${ARCH}"
 # Резолвимо тег: 'latest' -> найновіший mygit-v* у dist (репозиторій спільний,
 # тож /releases/latest не годиться); інакше нормалізуємо версію до тега dist.
 if [ "$MYGIT_VER" = "latest" ]; then
-    TAG="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100" \
-        | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' \
-        | grep "^${TAG_PREFIX}" | sort -V | tail -n1)"
+    TAG="$(get_latest_release_tag)"
     [ -n "$TAG" ] || { echo "ERROR: no ${TAG_PREFIX}* release found in ${DIST_REPO}"; exit 1; }
 else
     case "$MYGIT_VER" in
@@ -121,6 +131,7 @@ else
         *)              TAG="${TAG_PREFIX}${MYGIT_VER}" ;;
     esac
 fi
+printf '%s\n' "$TAG" | grep -Eq "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || { echo "ERROR: invalid stable release tag '$TAG'"; exit 1; }
 DOWNLOAD_URL="https://github.com/${DIST_REPO}/releases/download/${TAG}/${BINARY_NAME}"
 
 echo "[1/4] Downloading MyGit ${TAG} (${BINARY_NAME})..."
@@ -181,43 +192,55 @@ chmod +x "$TMP_BIN"
 echo "[2/4] Installing binary..."
 mkdir -p "$INSTALL_DIR" "$DATA_DIR" "$REPOS_DIR"
 if [ -d "$INSTALL_DIR/mygit" ]; then rm -rf "$INSTALL_DIR/mygit"; fi
-if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/mygit" ]; then
-    # Keep a rollback copy of the previous binary — but only when it is a
-    # DIFFERENT version from the one being installed. Copying a same-version
-    # binary (retry after a failed update) would overwrite the last known-good
-    # .old with the very version that does not start.
-    CUR_V="$("$INSTALL_DIR/mygit" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-    NEW_V="$("$TMP_BIN" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-    if [ -n "$CUR_V" ] && [ "$CUR_V" != "$NEW_V" ]; then
-        cp -f "$INSTALL_DIR/mygit" "$INSTALL_DIR/mygit.old" 2>/dev/null || true
-    fi
+if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/mygit" ] && ! cmp -s "$INSTALL_DIR/mygit" "$TMP_BIN"; then
+    # Preserve the old file without executing it as root. Older installs may
+    # have allowed the service account to replace this path.
+    install -m 0755 "$INSTALL_DIR/mygit" "$INSTALL_DIR/mygit.old"
 fi
-install -m 0755 "$TMP_BIN" "$INSTALL_DIR/mygit"
+install -m 0755 "$TMP_BIN" "$INSTALL_DIR/.mygit.new"
+mv -f "$INSTALL_DIR/.mygit.new" "$INSTALL_DIR/mygit"
 rm -f "$TMP_BIN"
 
 echo "[3/4] Configuring system user and service (port $PORT)..."
 if ! id mygit >/dev/null 2>&1; then
     useradd -r -s /bin/false -d "$INSTALL_DIR" mygit
 fi
-chown -R mygit:mygit "$INSTALL_DIR" "$DATA_DIR"
+chown -R root:root "$INSTALL_DIR"
+chmod 0755 "$INSTALL_DIR"
+install -d -o mygit -g mygit -m 0750 "$INSTALL_DIR/.config"
+chown -R mygit:mygit "$INSTALL_DIR/.config" "$DATA_DIR"
 
 # Required secrets. The server refuses to start (fail-closed) without
-# MYGIT_JWT_SECRET (>=32 chars) and MYGIT_INTERNAL_API_TOKEN. Generate them once
+# JWT, internal API, data encryption, and backup keys. Generate them once
 # and keep them across updates via an EnvironmentFile.
 mkdir -p "$ENV_DIR"
 if [ ! -s "$ENV_FILE" ]; then
     umask 077
     JWT_SECRET="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
     INTERNAL_TOKEN="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
+    DATA_KEY="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
+    BACKUP_KEY="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
     cat > "$ENV_FILE" <<ENVEOF
 MYGIT_JWT_SECRET=$JWT_SECRET
 MYGIT_INTERNAL_API_TOKEN=$INTERNAL_TOKEN
+MYGIT_DATA_ENCRYPTION_KEY=$DATA_KEY
+MYGIT_BACKUP_KEY=$BACKUP_KEY
 ENVEOF
     chmod 600 "$ENV_FILE"
     echo "Generated MYGIT_JWT_SECRET + MYGIT_INTERNAL_API_TOKEN -> $ENV_FILE (keep this file)"
 else
     echo "Keeping existing secrets from $ENV_FILE"
 fi
+
+# Add separate data/backup keys to older EnvironmentFiles. The server lazily
+# re-encrypts stored secrets from the legacy JWT-derived key on first startup.
+for KEY_NAME in MYGIT_DATA_ENCRYPTION_KEY MYGIT_BACKUP_KEY; do
+    if ! grep -q "^${KEY_NAME}=" "$ENV_FILE"; then
+        KEY_VALUE="$(head -c 48 /dev/urandom | base64 | tr -dc 'A-Za-z0-9' | head -c 48)"
+        printf '\n%s=%s\n' "$KEY_NAME" "$KEY_VALUE" >> "$ENV_FILE"
+    fi
+done
+chmod 600 "$ENV_FILE"
 
 cat > /etc/systemd/system/$SERVICE_NAME.service <<EOF
 [Unit]
@@ -234,6 +257,17 @@ EnvironmentFile=$ENV_FILE
 Environment=MYGIT_BASE_DIR=$DATA_DIR
 Environment=MYGIT_REPOS_ROOT=$REPOS_DIR
 Environment=MYGIT_DB_PATH=$DATA_DIR/mygit.db
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+CapabilityBoundingSet=
+ReadWritePaths=$DATA_DIR $REPOS_DIR $INSTALL_DIR/.config
 
 [Install]
 WantedBy=multi-user.target
@@ -344,18 +378,12 @@ if [ "$LICENSE_OK" != "1" ]; then
     echo ""
     echo "Ліцензію не активовано — нову версію не запускаю, щоб нічого не зламати."
     ROLLBACK_OK=0
-    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/mygit.old" ] \
-       && "$INSTALL_DIR/mygit.old" --version >/dev/null 2>&1; then
-        OLD_V="$("$INSTALL_DIR/mygit.old" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        NEWV="$("$INSTALL_DIR/mygit" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        # Rollback only makes sense to a DIFFERENT version than the new one.
-        if [ -n "$OLD_V" ] && [ "$OLD_V" != "$NEWV" ]; then ROLLBACK_OK=1; fi
-    fi
+    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/mygit.old" ]; then ROLLBACK_OK=1; fi
     if [ "$ROLLBACK_OK" = "1" ]; then
-        install -m 0755 "$INSTALL_DIR/mygit.old" "$INSTALL_DIR/mygit"
+        install -m 0755 "$INSTALL_DIR/mygit.old" "$INSTALL_DIR/.mygit.rollback"
+        mv -f "$INSTALL_DIR/.mygit.rollback" "$INSTALL_DIR/mygit"
         systemctl restart $SERVICE_NAME >/dev/null 2>&1 || true
-        RESTORED_V="$("$INSTALL_DIR/mygit" --version 2>/dev/null || echo '?')"
-        echo "Оновлення скасовано: відновлено попередню версію ($RESTORED_V)."
+        echo "Оновлення скасовано: відновлено попередній бінарник без запуску від root."
         if systemctl is-active --quiet $SERVICE_NAME; then
             echo "Сервіс працює, як і до оновлення."
         else

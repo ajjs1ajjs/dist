@@ -16,6 +16,21 @@ UM_VERSION="${UPTIME_MONITOR_VERSION:-latest}"
 # Релізи живуть у публічному dist (кодовий репозиторій приватний), тег uptime-v<version>.
 DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="uptime-v"
+
+get_latest_release_tag() {
+    local page=1 count body tags candidate latest=''
+    while [ "$page" -le 50 ]; do
+        body="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100&page=${page}")" || return 1
+        count="$(printf '%s' "$body" | grep -o '"tag_name"' | wc -l)"
+        tags="$(printf '%s' "$body" | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' | grep -E "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || true)"
+        candidate="$(printf '%s\n' "$tags" | sort -V | tail -n1)"
+        if [ -n "$candidate" ]; then latest="$(printf '%s\n%s\n' "$latest" "$candidate" | sort -V | tail -n1)"; fi
+        [ "$count" -lt 100 ] && { printf '%s\n' "$latest"; return 0; }
+        page=$((page + 1))
+    done
+    echo "ERROR: release listing exceeded 50 pages; refusing incomplete selection." >&2
+    return 1
+}
 CONFIG_FILE="$CONFIG_DIR/config.json"
 
 if [ "$(id -u)" -ne 0 ]; then
@@ -65,9 +80,6 @@ echo "=============================================="
 echo ""
 
 OLD_VERSION=""
-if [ -x "$INSTALL_DIR/uptime-monitor" ] && [ ! -d "$INSTALL_DIR/uptime-monitor" ]; then
-    OLD_VERSION="$("$INSTALL_DIR/uptime-monitor" --version 2>/dev/null || true)"
-fi
 
 # --- Architecture -----------------------------------------------------------
 case "$(uname -m)" in
@@ -84,9 +96,7 @@ BINARY_NAME="uptime-monitor-linux-${ARCH}"
 # shared with other products, so /releases/latest would be wrong); otherwise
 # normalise the requested version to a dist tag.
 if [ "$UM_VERSION" = "latest" ]; then
-    TAG="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100" \
-        | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' \
-        | grep "^${TAG_PREFIX}" | sort -V | tail -n1)"
+    TAG="$(get_latest_release_tag)"
     [ -n "$TAG" ] || { echo "ERROR: no ${TAG_PREFIX}* release found in ${DIST_REPO}"; exit 1; }
 else
     case "$UM_VERSION" in
@@ -95,6 +105,7 @@ else
         *)              TAG="${TAG_PREFIX}${UM_VERSION}" ;;
     esac
 fi
+printf '%s\n' "$TAG" | grep -Eq "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || { echo "ERROR: invalid stable release tag '$TAG'"; exit 1; }
 BASE_URL="https://github.com/${DIST_REPO}/releases/download/${TAG}"
 DOWNLOAD_URL="${BASE_URL}/${BINARY_NAME}"
 CHECKSUMS_URL="${BASE_URL}/checksums.txt"
@@ -172,18 +183,11 @@ NEW_VERSION="$("$TMP_BIN" --version 2>/dev/null || echo "?")"
 echo "[2/4] Installing binary..."
 mkdir -p "$INSTALL_DIR" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
 if [ -d "$INSTALL_DIR/uptime-monitor" ]; then rm -rf "$INSTALL_DIR/uptime-monitor"; fi
-if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/uptime-monitor" ]; then
-    # Keep a rollback copy of the previous binary — but only when it is a
-    # DIFFERENT version from the one being installed. Copying a same-version
-    # binary (retry after a failed update) would overwrite the last known-good
-    # .old with the very version that does not start.
-    CUR_V="$("$INSTALL_DIR/uptime-monitor" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-    NEW_V="$(printf '%s' "$NEW_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-    if [ -n "$CUR_V" ] && [ "$CUR_V" != "$NEW_V" ]; then
-        cp -f "$INSTALL_DIR/uptime-monitor" "$INSTALL_DIR/uptime-monitor.old" 2>/dev/null || true
-    fi
+if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/uptime-monitor" ] && ! cmp -s "$INSTALL_DIR/uptime-monitor" "$TMP_BIN"; then
+    install -m 0755 "$INSTALL_DIR/uptime-monitor" "$INSTALL_DIR/uptime-monitor.old"
 fi
-install -m 0755 "$TMP_BIN" "$INSTALL_DIR/uptime-monitor"
+install -m 0755 "$TMP_BIN" "$INSTALL_DIR/.uptime-monitor.new"
+mv -f "$INSTALL_DIR/.uptime-monitor.new" "$INSTALL_DIR/uptime-monitor"
 rm -f "$TMP_BIN"
 if ! "$INSTALL_DIR/uptime-monitor" --version >/dev/null 2>&1; then
     echo "ERROR: installed binary is not runnable. Restoring previous version..."
@@ -201,7 +205,9 @@ if [ ! -f "$CONFIG_FILE" ]; then
     "host": "0.0.0.0",
     "trusted_proxies": [],
     "allow_localhost": false,
-    "allow_private_networks": false
+    "allow_private_networks": false,
+    "allow_private_quality": true,
+    "allow_private_subnets": true
   },
   "data_dir": "/var/lib/uptime-monitor",
   "log_dir": "/var/log/uptime-monitor",
@@ -233,7 +239,10 @@ echo "[3/4] Configuring system user and service..."
 if ! id uptime >/dev/null 2>&1; then
     useradd -r -s /bin/false -d "$INSTALL_DIR" uptime
 fi
-chown -R uptime:uptime "$INSTALL_DIR" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
+chown -R root:root "$INSTALL_DIR"
+chmod 0755 "$INSTALL_DIR"
+install -d -o uptime -g uptime -m 0750 "$INSTALL_DIR/.config"
+chown -R uptime:uptime "$INSTALL_DIR/.config" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
 
 cat > /etc/systemd/system/$SERVICE_NAME.service <<EOF
 [Unit]
@@ -259,7 +268,8 @@ ProtectKernelTunables=yes
 ProtectKernelModules=yes
 ProtectControlGroups=yes
 RestrictSUIDSGID=yes
-CapabilityBoundingSet=
+CapabilityBoundingSet=CAP_NET_RAW
+AmbientCapabilities=CAP_NET_RAW
 ReadWritePaths=$DATA_DIR $LOG_DIR $CONFIG_DIR -$INSTALL_DIR/.config
 
 [Install]
@@ -370,18 +380,12 @@ if [ "$LICENSE_OK" != "1" ]; then
     echo ""
     echo "Ліцензію не активовано — нову версію не запускаю, щоб нічого не зламати."
     ROLLBACK_OK=0
-    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/uptime-monitor.old" ] \
-       && "$INSTALL_DIR/uptime-monitor.old" --version >/dev/null 2>&1; then
-        OLD_V="$("$INSTALL_DIR/uptime-monitor.old" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        NEWV="$(printf '%s' "$NEW_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        # Rollback only makes sense to a DIFFERENT version than the new one.
-        if [ -n "$OLD_V" ] && [ "$OLD_V" != "$NEWV" ]; then ROLLBACK_OK=1; fi
-    fi
+    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/uptime-monitor.old" ]; then ROLLBACK_OK=1; fi
     if [ "$ROLLBACK_OK" = "1" ]; then
-        install -m 0755 "$INSTALL_DIR/uptime-monitor.old" "$INSTALL_DIR/uptime-monitor"
+        install -m 0755 "$INSTALL_DIR/uptime-monitor.old" "$INSTALL_DIR/.uptime-monitor.rollback"
+        mv -f "$INSTALL_DIR/.uptime-monitor.rollback" "$INSTALL_DIR/uptime-monitor"
         systemctl restart $SERVICE_NAME >/dev/null 2>&1 || true
-        RESTORED_V="$("$INSTALL_DIR/uptime-monitor" --version 2>/dev/null || echo '?')"
-        echo "Оновлення скасовано: відновлено попередню версію ($RESTORED_V)."
+        echo "Оновлення скасовано: відновлено попередній бінарник без запуску від root."
         if systemctl is-active --quiet $SERVICE_NAME; then
             echo "Сервіс працює, як і до оновлення."
         else

@@ -16,7 +16,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/
 Конкретна версія:
 
 ```bash
-PYMON_VERSION=3.3.2 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo env PYMON_VERSION=3.3.2 bash
 ```
 
 ## Що робить скрипт

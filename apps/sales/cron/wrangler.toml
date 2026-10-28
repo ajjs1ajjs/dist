@@ -5,9 +5,9 @@
 # нових знижок, а не 24/добу. Розклад у самому воркфлоу — страховка.
 #
 # Секрет: GITHUB_TOKEN — PAT з правом тригерити Actions у dist (Actions: write).
-# Задати: gh auth token | npx wrangler secret put GITHUB_TOKEN  (або дашборд CF)
+# Задати: gh auth token | npx wrangler@4.153.0 secret put GITHUB_TOKEN  (або дашборд CF)
 #
-# Деплой з цієї теки: npx wrangler deploy   Логи: npx wrangler tail
+# Деплой з цієї теки: npx wrangler@4.153.0 deploy   Логи: npx wrangler@4.153.0 tail
 name = "sales-cron"
 main = "src/index.js"
 compatibility_date = "2026-10-10"

@@ -17,6 +17,21 @@ PYMON_VER="${PYMON_VERSION:-latest}"
 DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="monitoring-v"
 
+get_latest_release_tag() {
+    local page=1 count body tags candidate latest=''
+    while [ "$page" -le 50 ]; do
+        body="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100&page=${page}")" || return 1
+        count="$(printf '%s' "$body" | grep -o '"tag_name"' | wc -l)"
+        tags="$(printf '%s' "$body" | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' | grep -E "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || true)"
+        candidate="$(printf '%s\n' "$tags" | sort -V | tail -n1)"
+        if [ -n "$candidate" ]; then latest="$(printf '%s\n%s\n' "$latest" "$candidate" | sort -V | tail -n1)"; fi
+        [ "$count" -lt 100 ] && { printf '%s\n' "$latest"; return 0; }
+        page=$((page + 1))
+    done
+    echo "ERROR: release listing exceeded 50 pages; refusing incomplete selection." >&2
+    return 1
+}
+
 # --- Database backend -------------------------------------------------------
 # New installations default to PostgreSQL (auto-provisioned locally with a
 # generated password). Existing installations keep whatever their config.yml
@@ -247,9 +262,6 @@ echo "=============================================="
 echo ""
 
 OLD_VERSION=""
-if [ -x "$INSTALL_DIR/pymon" ] && [ ! -d "$INSTALL_DIR/pymon" ]; then
-    OLD_VERSION="$("$INSTALL_DIR/pymon" --version 2>/dev/null || true)"
-fi
 
 # --- Architecture detection -------------------------------------------------
 case "$(uname -m)" in
@@ -266,9 +278,7 @@ BINARY_NAME="pymon-linux-${ARCH}"
 # Резолвимо тег: для 'latest' — найновіший monitoring-v* у dist (репозиторій спільний,
 # тож /releases/latest не годиться); інакше нормалізуємо версію до тега dist.
 if [ "$PYMON_VER" = "latest" ]; then
-    TAG="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100" \
-        | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' \
-        | grep "^${TAG_PREFIX}" | sort -V | tail -n1)"
+    TAG="$(get_latest_release_tag)"
     [ -n "$TAG" ] || { echo "ERROR: no ${TAG_PREFIX}* release found in ${DIST_REPO}"; exit 1; }
 else
     case "$PYMON_VER" in
@@ -277,6 +287,7 @@ else
         *)              TAG="${TAG_PREFIX}${PYMON_VER}" ;;
     esac
 fi
+printf '%s\n' "$TAG" | grep -Eq "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || { echo "ERROR: invalid stable release tag '$TAG'"; exit 1; }
 
 BASE_URL="https://github.com/${DIST_REPO}/releases/download/${TAG}"
 DOWNLOAD_URL="${BASE_URL}/${BINARY_NAME}"
@@ -358,15 +369,12 @@ fi
 # a DIFFERENT version from the one being installed. Copying a same-version
 # binary (retry after a failed update) would overwrite the last known-good
 # .old with the very version that does not start.
-if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon" ]; then
-    CUR_V="$("$INSTALL_DIR/pymon" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-    NEW_V="$(printf '%s' "$NEW_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-    if [ -n "$CUR_V" ] && [ "$CUR_V" != "$NEW_V" ]; then
-        cp -f "$INSTALL_DIR/pymon" "$INSTALL_DIR/pymon.old" 2>/dev/null || true
-    fi
+if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon" ] && ! cmp -s "$INSTALL_DIR/pymon" "$TMP_BIN"; then
+    install -m 0755 "$INSTALL_DIR/pymon" "$INSTALL_DIR/pymon.old"
 fi
 
-install -m 0755 "$TMP_BIN" "$INSTALL_DIR/pymon"
+install -m 0755 "$TMP_BIN" "$INSTALL_DIR/.pymon.new"
+mv -f "$INSTALL_DIR/.pymon.new" "$INSTALL_DIR/pymon"
 rm -f "$TMP_BIN"
 
 if ! "$INSTALL_DIR/pymon" --version >/dev/null 2>&1; then
@@ -398,7 +406,10 @@ echo "[3/4] Configuring system user and service..."
 if ! id pymon >/dev/null 2>&1; then
     useradd -r -s /bin/false -d "$INSTALL_DIR" pymon
 fi
-chown -R pymon:pymon "$INSTALL_DIR" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
+chown -R root:root "$INSTALL_DIR"
+chmod 0755 "$INSTALL_DIR"
+install -d -o pymon -g pymon -m 0750 "$INSTALL_DIR/.config"
+chown -R pymon:pymon "$INSTALL_DIR/.config" "$CONFIG_DIR" "$DATA_DIR" "$LOG_DIR"
 
 DB_UNIT_ENV="Environment=DB_PATH=$DATA_DIR/pymon.db"
 DB_UNIT_AFTER=""
@@ -550,18 +561,12 @@ if [ "$LICENSE_OK" != "1" ]; then
     echo ""
     echo "Ліцензію не активовано — нову версію не запускаю, щоб нічого не зламати."
     ROLLBACK_OK=0
-    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon.old" ] \
-       && "$INSTALL_DIR/pymon.old" --version >/dev/null 2>&1; then
-        OLD_V="$("$INSTALL_DIR/pymon.old" --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        NEWV="$(printf '%s' "$NEW_VERSION" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1 || true)"
-        # Rollback only makes sense to a DIFFERENT version than the new one.
-        if [ -n "$OLD_V" ] && [ "$OLD_V" != "$NEWV" ]; then ROLLBACK_OK=1; fi
-    fi
+    if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon.old" ]; then ROLLBACK_OK=1; fi
     if [ "$ROLLBACK_OK" = "1" ]; then
-        install -m 0755 "$INSTALL_DIR/pymon.old" "$INSTALL_DIR/pymon"
+        install -m 0755 "$INSTALL_DIR/pymon.old" "$INSTALL_DIR/.pymon.rollback"
+        mv -f "$INSTALL_DIR/.pymon.rollback" "$INSTALL_DIR/pymon"
         systemctl restart $SERVICE_NAME >/dev/null 2>&1 || true
-        RESTORED_V="$("$INSTALL_DIR/pymon" --version 2>/dev/null || echo '?')"
-        echo "Оновлення скасовано: відновлено попередню версію ($RESTORED_V)."
+        echo "Оновлення скасовано: відновлено попередній бінарник без запуску від root."
         if systemctl is-active --quiet $SERVICE_NAME; then
             echo "Сервіс працює, як і до оновлення."
         else

@@ -17,7 +17,7 @@ Cloudflare Worker, який **щогодини** викликає `workflow_disp
 Задати (з цієї теки):
 
 ```sh
-gh auth token | npx wrangler secret put GITHUB_TOKEN
+gh auth token | npx wrangler@4.153.0 secret put GITHUB_TOKEN
 ```
 
 або Cloudflare Dashboard → Workers & Pages → `sales-cron` →
@@ -26,14 +26,14 @@ Settings → Variables and Secrets → Add (Secret).
 ## Деплой / логи
 
 ```sh
-npx wrangler deploy
-npx wrangler tail
+npx wrangler@4.153.0 deploy
+npx wrangler@4.153.0 tail
 ```
 
 Локальний тест scheduled-хендлера після деплою (бере справжній секрет CF):
 
 ```sh
-npx wrangler dev --remote --test-scheduled
+npx wrangler@4.153.0 dev --remote --test-scheduled
 # в іншому терміналі:
 curl "http://localhost:8787/__scheduled?cron=0+7+*+*+*"
 ```

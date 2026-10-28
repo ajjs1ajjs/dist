@@ -3,17 +3,19 @@
   "private": true,
   "type": "module",
   "description": "Game Sales Aggregator — deals fetcher (runs from the public dist repo)",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "fetch": "tsx fetch-deals.ts",
     "check": "tsc --noEmit",
-    "test": "node --import tsx --test safety.test.ts"
+    "test": "node --import tsx --test safety.test.ts audit-contracts.test.ts"
   },
   "dependencies": {
     "pino": "10.3.1"
   },
   "devDependencies": {
     "@types/node": "24.12.4",
-    "@types/pino": "7.0.5",
     "tsx": "4.23.15",
     "typescript": "6.0.3"
   }

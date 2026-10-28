@@ -24,7 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 ### Встановлення конкретної версії
 
 ```bash
-BCK_VERSION=0.10.10 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo env BCK_VERSION=0.10.10 bash
 ```
 
 ---

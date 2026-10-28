@@ -244,11 +244,23 @@
 
   /* ---------- Modal helpers ---------- */
   let lastFocus = null;
+  let backgroundInertState = [];
+  function setBackgroundInert(enabled) {
+    if (enabled) {
+      backgroundInertState = [...document.querySelectorAll('body > :not(.modal)')]
+        .map((el) => [el, el.inert]);
+      backgroundInertState.forEach(([el]) => { el.inert = true; });
+    } else {
+      backgroundInertState.forEach(([el, wasInert]) => { el.inert = wasInert; });
+      backgroundInertState = [];
+    }
+  }
   function openModal(id) {
     const m = document.getElementById(id);
     if (!m) return;
     lastFocus = document.activeElement;
     m.hidden = false;
+    setBackgroundInert(true);
     document.body.style.overflow = 'hidden';
     const closeBtn = m.querySelector('.modal-close');
     if (closeBtn) closeBtn.focus();
@@ -257,6 +269,7 @@
     if (!m) return;
     m.hidden = true;
     document.body.style.overflow = '';
+    setBackgroundInert(false);
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   document.addEventListener('click', (e) => {
@@ -265,7 +278,30 @@
     if (e.target.classList?.contains('modal')) closeModal(e.target);
   });
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') $$('.modal:not([hidden])').forEach(closeModal);
+    const modal = $('.modal:not([hidden])');
+    if (!modal) return;
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closeModal(modal);
+      return;
+    }
+    if (e.key !== 'Tab') return;
+    const focusable = [...modal.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+      .filter((el) => !el.hidden && el.getAttribute('aria-hidden') !== 'true');
+    if (focusable.length === 0) {
+      e.preventDefault();
+      modal.focus();
+      return;
+    }
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && (document.activeElement === first || !modal.contains(document.activeElement))) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && (document.activeElement === last || !modal.contains(document.activeElement))) {
+      e.preventDefault();
+      first.focus();
+    }
   });
 
   /* ---------- Buy modal ---------- */
