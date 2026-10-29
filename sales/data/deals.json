@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T13:00:33.812Z",
+  "lastUpdated": "2026-10-29T13:58:13.602Z",
   "steam": [
     {
       "id": "1326470",
@@ -127,6 +127,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3884860",
+      "title": "The Wolf Among Us Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/3d6c95b3df2f60c739875d70877d0729d9bcdcd5/capsule_616x353.jpg?t=1793281832",
+      "originalPrice": 530,
+      "discountPrice": 424,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3884860",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
