@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T00:00:35.995Z",
+  "lastUpdated": "2026-10-29T01:00:32.469Z",
   "steam": [
     {
       "id": "1326470",
@@ -133,6 +133,15 @@
     }
   ],
   "gamepass": [
+    {
+      "id": "9NRQVQ7ZRM7Z",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.64582.14378305291947412.bd502b16-8ce7-4985-8334-40c582006123.7dacdd77-ab81-44f4-9b29-57bd03674165",
+      "url": "https://www.xbox.com/uk-UA/games/store/final-fantasy-vii-remake-intergrade/9NRQVQ7ZRM7Z",
+      "description": "*Please note that FINAL FANTASY VII REMAKE INTERGRADE Digital Deluxe Edition contains certain items not available in this bundle. The award-winning FINAL FANTASY VII REMAKE INTERGRADE* retells the ori",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9PNRLJNDPP4G",
       "title": "The Séance of Blake Manor",
@@ -307,7 +316,7 @@
     {
       "id": "9PK8PHLCQDF6",
       "title": "Aniimo",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.6922.14271146495264987.c32913b7-6895-4338-ad19-54121ee5a1e9.f22c3b18-4a40-420c-a12f-73706aac4519",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.63067.14271146495264987.389490b9-697a-4878-87fc-ab69dd3499a6.ce095395-6c0c-46d2-951f-780ffb541719",
       "url": "https://www.xbox.com/uk-UA/games/store/aniimo/9PK8PHLCQDF6",
       "description": "Aniimo — це безплатна рольова гра наступного покоління з відкритим світом, де потрібно ловити створінь. На просторах великого материка Ідилл ви зустрінете безліч унікальних істот, яких кличуть Aniimo.",
       "isNew": true,

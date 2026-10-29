@@ -1,4 +1,24 @@
 {
   "schemaVersion": 1,
-  "messages": []
+  "messages": [
+    {
+      "id": "5b49f5e70fad196e93017199",
+      "createdAt": "2026-10-29T01:00:30.632Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>FINAL FANTASY VII REMAKE INTERGRADE</b>\n📝 *Please note that FINAL FANTASY VII REMAKE INTERGRADE Digital Deluxe Edition contains certain items not available in thi…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/final-fantasy-vii-remake-intergrade/9NRQVQ7ZRM7Z\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9NRQVQ7ZRM7Z",
+          "entry": {
+            "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-10-29T01:00:30.632Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    }
+  ]
 }
