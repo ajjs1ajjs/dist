@@ -60,6 +60,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-10-29T17:00:35.939Z"
+    },
+    {
+      "id": "c3e4ddbff611d6c2f1e027b4",
+      "createdAt": "2026-10-29T18:00:33.330Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Terrible Lizards</b>\n📝 ВАС ТУТ НЕ ПОВИННО БУТИ Щось явно не так у парку «Динозаври Далтона» — колись популярному придорожньому атракціоні на Шо…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/terrible-lizards/9PKFL1XJT73S\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9PKFL1XJT73S",
+          "entry": {
+            "title": "Terrible Lizards",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-10-29T18:00:33.330Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
