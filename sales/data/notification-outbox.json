@@ -80,6 +80,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-10-29T18:00:37.353Z"
+    },
+    {
+      "id": "280c061a263bfa0f70f5125c",
+      "createdAt": "2026-10-29T19:00:32.589Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Finals Week ✍🏻</b>\n🏷️ Знижка: <b>-38%</b>\n💰 Ціна: <s>190 грн</s> ➡️ <b>117 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4715160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_4715160",
+          "entry": {
+            "title": "Finals Week ✍🏻",
+            "price": 117,
+            "percent": 38,
+            "timestamp": "2026-10-29T19:00:32.589Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

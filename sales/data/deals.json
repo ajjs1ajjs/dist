@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T18:00:35.093Z",
+  "lastUpdated": "2026-10-29T19:00:34.871Z",
   "steam": [
     {
       "id": "1326470",
@@ -41,14 +41,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "4715160",
+      "title": "Finals Week ✍🏻",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715160/09f2a41ae9d74ca785d9e56782e6976c91af1934/capsule_616x353.jpg?t=1793289966",
+      "originalPrice": 190,
+      "discountPrice": 117,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/4715160",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -93,6 +93,19 @@
       "isPopular": true
     },
     {
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1793296899",
+      "originalPrice": 2299,
+      "discountPrice": 2069,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -101,32 +114,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5001840",
-      "title": "Crimson Desert Enhanced: Charting the Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1792637439",
-      "originalPrice": 874,
-      "discountPrice": 874,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5001840",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1798230",
-      "title": "ATMOSFAR",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/b919b775e819a487a2897f8b87bba55eea502b41/capsule_616x353.jpg?t=1793289165",
-      "originalPrice": 530,
-      "discountPrice": 477,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1798230",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -145,14 +132,27 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793220934",
-      "originalPrice": 299,
-      "discountPrice": 269,
+      "id": "1798230",
+      "title": "ATMOSFAR",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/b919b775e819a487a2897f8b87bba55eea502b41/capsule_616x353.jpg?t=1793289165",
+      "originalPrice": 530,
+      "discountPrice": 477,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
+      "url": "https://store.steampowered.com/app/1798230",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5001840",
+      "title": "Crimson Desert Enhanced: Charting the Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1792637439",
+      "originalPrice": 874,
+      "discountPrice": 874,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5001840",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -533,11 +533,11 @@
       "isPopular": true
     },
     {
-      "id": "9N0H62KZ3BXV",
-      "title": "Diablo® IV PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
-      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
-      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
+      "id": "9P7RQ1QFFF8R",
+      "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
+      "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
       "isNew": false,
       "isPopular": true
     },
@@ -551,11 +551,11 @@
       "isPopular": true
     },
     {
-      "id": "9P7RQ1QFFF8R",
-      "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
-      "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
+      "id": "9N0H62KZ3BXV",
+      "title": "Diablo® IV PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
+      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
+      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
       "isNew": false,
       "isPopular": true
     },
@@ -578,6 +578,15 @@
       "isPopular": true
     },
     {
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9P2VGCTBMM52",
       "title": "Microsoft Flight Simulator 2024 - Standard Edition",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
@@ -592,15 +601,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
       "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
       "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9PBRN7JS4XPC",
-      "title": "Heroes of the Storm™",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38378.14113515594390646.9e638c04-e7d6-468d-8441-ec0f6cc4f7b7.674600de-b6eb-4b18-8c64-ad133a32434e",
-      "url": "https://www.xbox.com/uk-UA/games/store/heroes-of-the-storm/9PBRN7JS4XPC",
-      "description": "JUMP INTO THE NEXUS Heroes of the Storm is a raucous MOBA starring your favorite Blizzard characters. Build and customize heroes from across every Blizzard universe to suit your play style. Team up wi",
       "isNew": false,
       "isPopular": true
     }
