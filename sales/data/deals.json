@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T14:00:34.836Z",
+  "lastUpdated": "2026-10-29T15:00:36.134Z",
   "steam": [
     {
       "id": "1326470",
@@ -93,6 +93,19 @@
       "isPopular": true
     },
     {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -119,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3884860",
       "title": "The Wolf Among Us Remastered",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/3d6c95b3df2f60c739875d70877d0729d9bcdcd5/capsule_616x353.jpg?t=1793281832",
@@ -143,22 +143,18 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
-    },
-    {
-      "id": "5362340",
-      "title": "Planet Coaster 2: Spooktacular Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362340/b39e749f7d943c815212fba4e401df5f5a6ac4af/capsule_616x353.jpg?t=1793272943",
-      "originalPrice": 405,
-      "discountPrice": 405,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5362340",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9MVNCSJ14754",
+      "title": "Mouthwashing",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52610.13855544626090177.00f10a03-a204-4b92-893c-87ea3db07631.909d4801-936d-4a0f-80a9-80aeea4fd60d",
+      "url": "https://www.xbox.com/uk-UA/games/store/mouthwashing/9MVNCSJ14754",
+      "description": "Mouthwashing — це хоррор від першої особи про екіпаж космічного вантажника, що зазнав аварії. Хто б міг подумати, що капітан Керлі здатний на таке? Мабуть, він вважав, що його команда має загинути раз",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9NRQVQ7ZRM7Z",
       "title": "FINAL FANTASY VII REMAKE INTERGRADE",

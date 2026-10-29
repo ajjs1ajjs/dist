@@ -20,6 +20,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-10-29T01:00:34.391Z"
+    },
+    {
+      "id": "917ce0fd0c5ffdefef6c7b32",
+      "createdAt": "2026-10-29T15:00:34.794Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Mouthwashing</b>\n📝 Mouthwashing — це хоррор від першої особи про екіпаж космічного вантажника, що зазнав аварії. Хто б міг подумати, що кап…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/mouthwashing/9MVNCSJ14754\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9MVNCSJ14754",
+          "entry": {
+            "title": "Mouthwashing",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-10-29T15:00:34.794Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
