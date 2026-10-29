@@ -2721,5 +2721,12 @@
     "percent": 0,
     "timestamp": "2026-10-29T18:00:33.330Z",
     "type": "gamepass"
+  },
+  "steam_discount_4715160": {
+    "title": "Finals Week ✍🏻",
+    "price": 117,
+    "percent": 38,
+    "timestamp": "2026-10-29T19:00:32.589Z",
+    "type": "discount"
   }
 }
