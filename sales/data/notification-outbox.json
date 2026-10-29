@@ -17,8 +17,9 @@
           }
         }
       ],
-      "status": "pending",
-      "attempts": 0
+      "status": "sending",
+      "attempts": 1,
+      "claimedAt": "2026-10-29T01:00:34.391Z"
     }
   ]
 }
