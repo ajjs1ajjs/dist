@@ -40,6 +40,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-10-29T15:00:37.989Z"
+    },
+    {
+      "id": "a315875f596af5f596938efd",
+      "createdAt": "2026-10-29T17:00:32.276Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Plants vs. Zombies™: Replanted - PC</b>\n📝 The classic Plants vs. Zombies returns in glorious HD! The original battle between Plants and Zombies is back - bigger, …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/plants-vs-zombies-replanted-pc/9NGP0DJVKSFL\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9NGP0DJVKSFL",
+          "entry": {
+            "title": "Plants vs. Zombies™: Replanted - PC",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-10-29T17:00:32.276Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

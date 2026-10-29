@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T16:00:34.512Z",
+  "lastUpdated": "2026-10-29T17:00:33.828Z",
   "steam": [
     {
       "id": "1326470",
@@ -67,32 +67,6 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793220934",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3884860",
-      "title": "The Wolf Among Us Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/3d6c95b3df2f60c739875d70877d0729d9bcdcd5/capsule_616x353.jpg?t=1793281832",
-      "originalPrice": 530,
-      "discountPrice": 424,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3884860",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -101,6 +75,19 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793220934",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -119,20 +106,42 @@
       "isPopular": true
     },
     {
-      "id": "4005870",
-      "title": "FreshWomen - Season 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4005870/d69287f07726f9db93d5a3b5712a878449d115ae/capsule_616x353.jpg?t=1793283355",
-      "originalPrice": 430,
-      "discountPrice": 387,
+      "id": "3884860",
+      "title": "The Wolf Among Us Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/3d6c95b3df2f60c739875d70877d0729d9bcdcd5/capsule_616x353.jpg?t=1793292108",
+      "originalPrice": 530,
+      "discountPrice": 424,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3884860",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1798230",
+      "title": "ATMOSFAR",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798230/b919b775e819a487a2897f8b87bba55eea502b41/capsule_616x353.jpg?t=1793289165",
+      "originalPrice": 530,
+      "discountPrice": 477,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4005870",
+      "url": "https://store.steampowered.com/app/1798230",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9NGP0DJVKSFL",
+      "title": "Plants vs. Zombies™: Replanted - PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.1758.13646186565134327.0201942e-1cbf-443f-a58a-5aa441c425e7.b4132c5f-7e18-44c6-8b13-be60cc51da64",
+      "url": "https://www.xbox.com/uk-UA/games/store/plants-vs-zombies-replanted-pc/9NGP0DJVKSFL",
+      "description": "The classic Plants vs. Zombies returns in glorious HD! The original battle between Plants and Zombies is back - bigger, brighter, and crazier than ever before! Experience the game that started it all,",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9MVNCSJ14754",
       "title": "Mouthwashing",
