@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T15:00:31.404Z",
+  "lastUpdated": "2026-10-30T16:00:33.489Z",
   "steam": [
     {
       "id": "1326470",
@@ -54,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1297900",
       "title": "Gothic 1 Remake",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
@@ -75,6 +62,19 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -184,14 +184,14 @@
       "isPopular": true
     },
     {
-      "id": "4336170",
-      "title": "Age of Empires IV: Raiders of the North",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4336170/43de8cbb86068930c7d947f2c348a2daf56965cb/capsule_616x353.jpg?t=1793294567",
-      "originalPrice": 799,
-      "discountPrice": 799,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4336170",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -644,20 +644,6 @@
       "price": 129,
       "percent": 90,
       "timestamp": "2026-10-01T21:15:14.462Z",
-      "type": "discount"
-    },
-    "steam_discount_1488490": {
-      "title": "Nivalis Nights",
-      "price": 531,
-      "percent": 10,
-      "timestamp": "2026-09-30T15:29:28.481Z",
-      "type": "discount"
-    },
-    "steam_discount_3438810": {
-      "title": "프린세스 메이커 : 예언의 아이들",
-      "price": 560,
-      "percent": 20,
-      "timestamp": "2026-09-30T15:29:28.481Z",
       "type": "discount"
     },
     "steam_discount_1706510": {
