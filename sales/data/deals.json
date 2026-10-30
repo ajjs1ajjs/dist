@@ -3314,6 +3314,13 @@
       "percent": 38,
       "timestamp": "2026-10-29T19:00:32.589Z",
       "type": "discount"
+    },
+    "gamepass_popular_9NMPDV49K4TX": {
+      "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-10-30T20:00:34.376Z",
+      "type": "gamepass"
     }
   }
 }
