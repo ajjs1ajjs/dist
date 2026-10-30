@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T03:00:30.103Z",
+  "lastUpdated": "2026-10-30T04:00:34.872Z",
   "steam": [
     {
       "id": "1326470",
@@ -28,14 +28,14 @@
       "isPopular": false
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
-      "originalPrice": 1505,
-      "discountPrice": 1128,
-      "discountPercent": 25,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -54,14 +54,27 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
+      "originalPrice": 1505,
+      "discountPrice": 1128,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
