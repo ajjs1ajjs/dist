@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T04:00:34.872Z",
+  "lastUpdated": "2026-10-30T05:00:29.711Z",
   "steam": [
     {
       "id": "1326470",
@@ -54,6 +54,19 @@
       "isPopular": false
     },
     {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1297900",
       "title": "Gothic 1 Remake",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
@@ -62,19 +75,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1297900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -121,7 +121,7 @@
     {
       "id": "5001840",
       "title": "Crimson Desert Enhanced: Charting the Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1793310929",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1793335501",
       "originalPrice": 874,
       "discountPrice": 874,
       "discountPercent": 0,
@@ -145,19 +145,6 @@
       "isPopular": true
     },
     {
-      "id": "4530370",
-      "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1793296899",
-      "originalPrice": 2299,
-      "discountPrice": 2069,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4348910",
       "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793220934",
@@ -166,6 +153,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1793296899",
+      "originalPrice": 2299,
+      "discountPrice": 2069,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530370",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
