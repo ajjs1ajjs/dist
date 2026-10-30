@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T22:00:31.802Z",
+  "lastUpdated": "2026-10-30T23:00:34.599Z",
   "steam": [
     {
       "id": "1326470",
@@ -10,6 +10,19 @@
       "discountPercent": 72,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1326470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -41,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "1297900",
-      "title": "Gothic 1 Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
-      "originalPrice": 1505,
-      "discountPrice": 1128,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1297900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "648800",
       "title": "Raft",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
@@ -67,14 +67,14 @@
       "isPopular": false
     },
     {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
+      "originalPrice": 1505,
+      "discountPrice": 1128,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
+      "url": "https://store.steampowered.com/app/1297900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -171,14 +171,14 @@
       "isPopular": true
     },
     {
-      "id": "1867240",
-      "title": "WARDOGS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/2176797caa54942cc122e5bdefe1807852749f56/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1791928607",
-      "originalPrice": 829,
-      "discountPrice": 829,
+      "id": "3259780",
+      "title": "FINAL FANTASY RESONANCE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1793031418",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1867240",
+      "url": "https://store.steampowered.com/app/3259780",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
