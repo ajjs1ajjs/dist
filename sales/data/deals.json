@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T23:00:33.254Z",
+  "lastUpdated": "2026-10-30T00:00:37.812Z",
   "steam": [
     {
       "id": "1326470",
@@ -36,19 +36,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -119,6 +106,19 @@
       "isPopular": true
     },
     {
+      "id": "5001840",
+      "title": "Crimson Desert Enhanced: Charting the Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5001840/7704e9123a2c42a7f2fb9d2d0091d9e6f5214ee3/capsule_616x353.jpg?t=1793310929",
+      "originalPrice": 874,
+      "discountPrice": 874,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5001840",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3884860",
       "title": "The Wolf Among Us Remastered",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/3d6c95b3df2f60c739875d70877d0729d9bcdcd5/capsule_616x353.jpg?t=1793292108",
@@ -127,19 +127,6 @@
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3884860",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4336170",
-      "title": "Age of Empires IV: Raiders of the North",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4336170/43de8cbb86068930c7d947f2c348a2daf56965cb/capsule_616x353.jpg?t=1793294567",
-      "originalPrice": 799,
-      "discountPrice": 799,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4336170",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
