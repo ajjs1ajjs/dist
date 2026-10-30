@@ -100,6 +100,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-10-29T19:00:36.853Z"
+    },
+    {
+      "id": "90520c73b1d4526209ed50d0",
+      "createdAt": "2026-10-30T20:00:34.376Z",
+      "text": "🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n🎮 <b>Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)</b>\n📝 Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challen…\n🔥 Зараз у топі популярних PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_popular_9NMPDV49K4TX",
+          "entry": {
+            "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-10-30T20:00:34.376Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
