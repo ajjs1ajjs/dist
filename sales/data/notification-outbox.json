@@ -171,6 +171,25 @@
       "attempts": 1,
       "claimedAt": "2026-10-31T22:00:32.573Z",
       "lastError": "Telegram send failed: This operation was aborted"
+    },
+    {
+      "id": "b4c836f8d38c06d3df8f9c4b",
+      "createdAt": "2026-10-31T23:00:33.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Outlast Trials</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>222 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1304930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_1304930",
+          "entry": {
+            "title": "The Outlast Trials",
+            "price": 222,
+            "percent": 70,
+            "timestamp": "2026-10-31T23:00:33.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
