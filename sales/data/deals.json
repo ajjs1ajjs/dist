@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T13:00:33.298Z",
+  "lastUpdated": "2026-10-31T13:23:38.162Z",
   "steam": [
     {
       "id": "1326470",
@@ -75,19 +75,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
