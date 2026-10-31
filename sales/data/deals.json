@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T15:00:32.265Z",
+  "lastUpdated": "2026-10-31T16:00:33.458Z",
   "steam": [
     {
       "id": "1326470",
@@ -12,7 +12,7 @@
       "url": "https://store.steampowered.com/app/1326470",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3240220",
@@ -54,19 +54,6 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3764200",
       "title": "Resident Evil Requiem",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
@@ -75,6 +62,32 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3764200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1297900",
+      "title": "Gothic 1 Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
+      "originalPrice": 1505,
+      "discountPrice": 1128,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1297900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -166,6 +179,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3259780",
+      "title": "FINAL FANTASY RESONANCE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6591a4998a16491b6a7f1d3ad2b948f3da15b52e/capsule_616x353.jpg?t=1793031418",
+      "originalPrice": 1399,
+      "discountPrice": 1399,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3259780",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
