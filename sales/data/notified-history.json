@@ -964,5 +964,12 @@
     "percent": 0,
     "timestamp": "2026-10-30T20:00:34.376Z",
     "type": "gamepass"
+  },
+  "steam_discount_1304930": {
+    "title": "The Outlast Trials",
+    "price": 222,
+    "percent": 70,
+    "timestamp": "2026-10-31T23:00:33.699Z",
+    "type": "discount"
   }
 }
