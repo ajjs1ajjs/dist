@@ -251,6 +251,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-01T14:06:05.416Z"
+    },
+    {
+      "id": "571cf18a85deb6fffaba34aa",
+      "createdAt": "2026-11-01T23:00:30.326Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Assassin&#39;s Creed Black Flag Resynced</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>1 349 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3751950\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_3751950",
+          "entry": {
+            "title": "Assassin's Creed Black Flag Resynced",
+            "price": 1349,
+            "percent": 25,
+            "timestamp": "2026-11-01T23:00:30.326Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
