@@ -231,6 +231,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-01T06:00:37.220Z"
+    },
+    {
+      "id": "267a56177308888ee05aeefd",
+      "createdAt": "2026-11-01T14:06:00.649Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>PEAK</b>\n🏷️ Знижка: <b>-38%</b>\n💰 Ціна: <s>159 грн</s> ➡️ <b>98 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3527290\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_3527290",
+          "entry": {
+            "title": "PEAK",
+            "price": 98,
+            "percent": 38,
+            "timestamp": "2026-11-01T14:06:00.649Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
