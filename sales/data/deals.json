@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:00:32.881Z",
+  "lastUpdated": "2026-11-01T19:00:33.420Z",
   "steam": [
     {
       "id": "1326470",
@@ -67,14 +67,14 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/capsule_616x353.jpg?t=1793202236",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "739630",
+      "title": "Phasmophobia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/ca34091f988664f15ce31b912c210715add2766b/capsule_616x353.jpg?t=1791632508",
+      "originalPrice": 389,
+      "discountPrice": 272,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
+      "url": "https://store.steampowered.com/app/739630",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -132,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1793296899",
@@ -153,6 +140,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
