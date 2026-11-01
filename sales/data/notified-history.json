@@ -880,5 +880,12 @@
     "percent": 70,
     "timestamp": "2026-10-31T23:00:33.699Z",
     "type": "discount"
+  },
+  "steam_discount_2050650": {
+    "title": "Resident Evil 4",
+    "price": 300,
+    "percent": 75,
+    "timestamp": "2026-11-01T04:00:30.468Z",
+    "type": "discount"
   }
 }
