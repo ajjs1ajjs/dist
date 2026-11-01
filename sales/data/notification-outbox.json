@@ -191,6 +191,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-10-31T23:00:37.610Z"
+    },
+    {
+      "id": "ca8840885b2fc4696ee0488c",
+      "createdAt": "2026-11-01T04:00:30.468Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Resident Evil 4</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 200 грн</s> ➡️ <b>300 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2050650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2050650",
+          "entry": {
+            "title": "Resident Evil 4",
+            "price": 300,
+            "percent": 75,
+            "timestamp": "2026-11-01T04:00:30.468Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
