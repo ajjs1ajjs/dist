@@ -901,5 +901,12 @@
     "percent": 38,
     "timestamp": "2026-11-01T14:06:00.649Z",
     "type": "discount"
+  },
+  "steam_discount_3751950": {
+    "title": "Assassin's Creed Black Flag Resynced",
+    "price": 1349,
+    "percent": 25,
+    "timestamp": "2026-11-01T23:00:30.326Z",
+    "type": "discount"
   }
 }
