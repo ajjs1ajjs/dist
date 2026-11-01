@@ -1524,6 +1524,13 @@
       "percent": 75,
       "timestamp": "2026-11-01T04:00:30.468Z",
       "type": "discount"
+    },
+    "steam_discount_381210": {
+      "title": "Dead by Daylight",
+      "price": 171,
+      "percent": 60,
+      "timestamp": "2026-11-01T06:00:29.240Z",
+      "type": "discount"
     }
   }
 }
