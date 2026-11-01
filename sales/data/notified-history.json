@@ -894,5 +894,12 @@
     "percent": 60,
     "timestamp": "2026-11-01T06:00:29.240Z",
     "type": "discount"
+  },
+  "steam_discount_3527290": {
+    "title": "PEAK",
+    "price": 98,
+    "percent": 38,
+    "timestamp": "2026-11-01T14:06:00.649Z",
+    "type": "discount"
   }
 }
