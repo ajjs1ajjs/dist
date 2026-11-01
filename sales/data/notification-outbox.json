@@ -211,6 +211,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-01T04:00:33.834Z"
+    },
+    {
+      "id": "02fe3a752a3fccd8109de35f",
+      "createdAt": "2026-11-01T06:00:29.240Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dead by Daylight</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>171 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/381210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_381210",
+          "entry": {
+            "title": "Dead by Daylight",
+            "price": 171,
+            "percent": 60,
+            "timestamp": "2026-11-01T06:00:29.240Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
