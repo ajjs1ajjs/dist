@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T10:00:42.978Z",
+  "lastUpdated": "2026-11-02T11:00:41.398Z",
   "steam": [
     {
       "id": "1326470",
@@ -41,6 +41,19 @@
       "isPopular": false
     },
     {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "648800",
       "title": "Raft",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
@@ -67,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
+      "id": "381210",
+      "title": "Dead by Daylight",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/capsule_616x353.jpg?t=1793202236",
+      "originalPrice": 429,
+      "discountPrice": 171,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
+      "url": "https://store.steampowered.com/app/381210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -88,19 +101,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2050650",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -179,6 +179,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1202520",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 210,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
