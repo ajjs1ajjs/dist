@@ -311,6 +311,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-02T18:00:33.662Z"
+    },
+    {
+      "id": "a602f26b70161cd362d431e3",
+      "createdAt": "2026-11-02T21:00:32.066Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>GRAVHOUNDS</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>470 грн</s> ➡️ <b>352 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2440760\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2440760",
+          "entry": {
+            "title": "GRAVHOUNDS",
+            "price": 352,
+            "percent": 25,
+            "timestamp": "2026-11-02T21:00:32.066Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
