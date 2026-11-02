@@ -915,5 +915,12 @@
     "percent": 45,
     "timestamp": "2026-11-02T13:00:42.484Z",
     "type": "discount"
+  },
+  "gamepass_9PBG4MTM3JJC": {
+    "title": "GRAVHOUNDS (Game Preview)",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-02T18:00:29.772Z",
+    "type": "gamepass"
   }
 }
