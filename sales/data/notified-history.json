@@ -929,5 +929,12 @@
     "percent": 25,
     "timestamp": "2026-11-02T21:00:32.066Z",
     "type": "discount"
+  },
+  "steam_discount_2060160": {
+    "title": "The Farmer Was Replaced",
+    "price": 157,
+    "percent": 30,
+    "timestamp": "2026-11-02T22:00:39.734Z",
+    "type": "discount"
   }
 }
