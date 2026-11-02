@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T12:00:32.475Z",
+  "lastUpdated": "2026-11-02T13:00:44.781Z",
   "steam": [
     {
       "id": "1326470",
@@ -25,19 +25,6 @@
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
-      "originalPrice": 1799,
-      "discountPrice": 1349,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": true,
-      "isFree": false,
       "isPopular": false
     },
     {
@@ -49,6 +36,19 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/648800",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
+      "originalPrice": 1799,
+      "discountPrice": 1349,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "381210",
-      "title": "Dead by Daylight",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/capsule_616x353.jpg?t=1793202236",
-      "originalPrice": 429,
-      "discountPrice": 171,
-      "discountPercent": 60,
+      "id": "251570",
+      "title": "7 Days to Die",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/251570/capsule_616x353.jpg?t=1793138252",
+      "originalPrice": 835,
+      "discountPrice": 459,
+      "discountPercent": 45,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/381210",
+      "url": "https://store.steampowered.com/app/251570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -158,19 +158,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -179,6 +166,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true

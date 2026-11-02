@@ -271,6 +271,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-01T23:00:33.773Z"
+    },
+    {
+      "id": "bb66e65226464b8bb69485fe",
+      "createdAt": "2026-11-02T13:00:42.484Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>7 Days to Die</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>835 грн</s> ➡️ <b>459 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/251570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_251570",
+          "entry": {
+            "title": "7 Days to Die",
+            "price": 459,
+            "percent": 45,
+            "timestamp": "2026-11-02T13:00:42.484Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
