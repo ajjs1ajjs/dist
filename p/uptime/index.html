@@ -4,22 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark">
-  <title>Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу · DIST</title>
-  <meta name="description" content="Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму зберігаються за будь-який період, а інциденти…">
+  <title>Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти · DIST</title>
+  <meta name="description" content="Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними інтервалами. Історія перевірок зберігається 30 днів за замовчуванням; інциденти й поточний стан видно в…">
   <meta name="theme-color" content="#0c0c0e">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta property="og:title" content="Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу">
-  <meta property="og:description" content="Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму…">
+  <meta property="og:title" content="Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти">
+  <meta property="og:description" content="Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними інтервалами. Історія перевірок зберігається 30 днів за…">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ajjs1ajjs.github.io/dist/p/uptime/">
   <meta property="og:image" content="https://ajjs1ajjs.github.io/dist/og/uptime.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу">
+  <meta property="og:image:alt" content="Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Uptime Monitor — Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу">
-  <meta name="twitter:description" content="Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами…">
+  <meta name="twitter:title" content="Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти">
+  <meta name="twitter:description" content="Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/uptime.png">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/uptime/">
   <meta property="og:locale" content="uk_UA">
@@ -28,12 +28,12 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Uptime Monitor",
-    "description": "Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму зберігаються за будь-який період, а інциденти видно в дашборді.",
+    "description": "Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними інтервалами. Історія перевірок зберігається 30 днів за замовчуванням; інциденти й поточний стан видно в дашборді.",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Linux",
     "url": "https://ajjs1ajjs.github.io/dist/p/uptime/",
     "image": "https://ajjs1ajjs.github.io/dist/og/uptime.png",
-    "softwareVersion": "3.8.22",
+    "softwareVersion": "3.10.25",
     "offers": {
       "@type": "Offer",
       "price": "500",
@@ -100,8 +100,8 @@
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
         <p class="badge-line">DIST ecosystem · Debian/Ubuntu · multiarch</p>
-        <h1>Uptime Monitor <span class="ver" data-latest-ver="uptime-v">v3.8.22</span></h1>
-        <p class="prod-sub" data-i18n="p.uptime.sub">Моніторинг доступності та SSL — алерти, SLA-звіти, публічна сторінка статусу</p>
+        <h1>Uptime Monitor <span class="ver" data-latest-ver="uptime-v">v3.10.25</span></h1>
+        <p class="prod-sub" data-i18n="p.uptime.sub">Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти</p>
         <div class="tags"><span>Go</span><span>SSL engine</span><span>SLA</span></div>
         <div class="prod-buy">
           <button class="buy" type="button" data-buy data-name="Uptime Monitor" data-month="500" data-year="5000">
@@ -110,8 +110,8 @@
           <span class="trial-note" data-i18n="prod.trial">3 дні безкоштовно</span>
         </div>
         <div class="card-actions">
-          <div class="cmd"><code>curl … /apps/uptime-monitor/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
-          <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
+          <div class="cmd"><code>curl -sSL …/apps/uptime-monitor/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+          <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.25" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
         </div>
       </div>
       <div class="prod-hero-shot">
@@ -131,16 +131,10 @@
       </div>
       <div class="gallery">
         <figure>
-          <button type="button" data-shot="../../shots/uptime/status.webp" data-shot-alt="Публічна сторінка статусу без входу" aria-label="Публічна сторінка статусу без входу">
-            <img src="../../shots/uptime/status.webp" alt="Публічна сторінка статусу без входу" loading="lazy" decoding="async">
-          </button>
-          <figcaption data-i18n="p.uptime.shots.1.cap">Публічна сторінка статусу без входу</figcaption>
-        </figure>
-        <figure>
           <button type="button" data-shot="../../shots/uptime/login.webp" data-shot-alt="Вхід адміністратора в дашборд" aria-label="Вхід адміністратора в дашборд">
             <img src="../../shots/uptime/login.webp" alt="Вхід адміністратора в дашборд" loading="lazy" decoding="async">
           </button>
-          <figcaption data-i18n="p.uptime.shots.2.cap">Вхід адміністратора в дашборд</figcaption>
+          <figcaption data-i18n="p.uptime.shots.1.cap">Вхід адміністратора в дашборд</figcaption>
         </figure>
       </div>
     </section>
@@ -152,8 +146,8 @@
       </div>
       <div class="prod-cols">
         <div class="prod-prose">
-          <p data-i18n="p.uptime.intro.0">Uptime Monitor — Go-сервер моніторингу, який слідкує за доступністю сайтів і сервісів та строком дії SSL-сертифікатів. Пʼять типів перевірок — HTTP/HTTPS, TCP-порт, Ping, DNS і SSL — з інтервалами від 5 секунд. Історія перевірок та відсоток аптайму зберігаються за будь-який період, а інциденти видно в дашборді.</p>
-          <p data-i18n="p.uptime.intro.1">Коли щось падає, спрацьовують 10+ каналів сповіщень: Telegram, Discord, Slack, MS Teams, email, SMS, webhook, Pushover, Gotify і ntfy. Публічна сторінка /status показує стан без автентифікації та встановлюється на телефон як PWA. Дві копії сервісу можуть працювати над спільною базою в режимі active-passive, а одна curl-команда і встановлює, і оновлює сервіс — конфіг, база, користувачі та паролі зберігаються.</p>
+          <p data-i18n="p.uptime.intro.0">Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними інтервалами. Історія перевірок зберігається 30 днів за замовчуванням; інциденти й поточний стан видно в дашборді.</p>
+          <p data-i18n="p.uptime.intro.1">Коли виникає збій, повідомлення надходять через Telegram, Discord, Slack, MS Teams, email, SMS, webhook, Pushover, Gotify або ntfy. Черга сповіщень зберігається в SQLite. Два процеси можуть працювати в режимі active-passive зі спільною базою на одному Linux-хості. Одна curl-команда встановлює або оновлює сервіс зі збереженням конфігурації, бази, користувачів і паролів.</p>
         </div>
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
@@ -181,7 +175,7 @@
         <div class="how-step">
           <span class="how-num mono">02</span>
           <h3 data-i18n="p.uptime.how.1.t">Додайте цілі перевірок</h3>
-          <p data-i18n="p.uptime.how.1.d">URL — для HTTP/HTTPS, хост із портом — для TCP, IP — для Ping, домен — для DNS, адреса — для SSL. Інтервал — від 5 секунд.</p>
+          <p data-i18n="p.uptime.how.1.d">Додайте URL, TCP-порт, IP або домен; для офісної мережі — subnet чи quality-монітор. HTTP-перевірки підтримують інтервал від 5 секунд; subnet і quality — від 60 секунд.</p>
         </div>
         <div class="how-step">
           <span class="how-num mono">03</span>
@@ -191,7 +185,7 @@
         <div class="how-step">
           <span class="how-num mono">04</span>
           <h3 data-i18n="p.uptime.how.3.t">Слідкуйте за статусом</h3>
-          <p data-i18n="p.uptime.how.3.d">Інциденти, uptime % і SLA-звіти — у дашборді; публічна сторінка /status доступна клієнтам без входу в систему.</p>
+          <p data-i18n="p.uptime.how.3.d">Автентифікований React-дашборд показує стан, інциденти та SLA. Звіти містять покриття спостереженнями й невідомий час; періоди без даних не видаються за підтверджений uptime.</p>
         </div>
       </div>
     </section>
@@ -202,12 +196,12 @@
         <h2 data-i18n="pd.title.feat">Що вміє</h2>
       </div>
       <ul class="feat-list">
-          <li data-i18n="p.uptime.feat.0">5 типів перевірок: HTTP/HTTPS, TCP-порт, Ping, DNS і SSL</li>
+          <li data-i18n="p.uptime.feat.0">HTTP/HTTPS, TCP, Ping, DNS, SSL, якість каналу та підмережі</li>
           <li data-i18n="p.uptime.feat.1">SSL-контроль із порогами 30/14/7/5/3/1 день до завершення</li>
           <li data-i18n="p.uptime.feat.2">10+ каналів сповіщень: від Telegram і Slack до SMS та webhook</li>
-          <li data-i18n="p.uptime.feat.3">Публічна сторінка /status без автентифікації, встановлюється як PWA</li>
-          <li data-i18n="p.uptime.feat.4">Історія перевірок та uptime % за будь-який період</li>
-          <li data-i18n="p.uptime.feat.5">SLA-звіти з експортом у JSON, CSV та HTML-PDF</li>
+          <li data-i18n="p.uptime.feat.3">React-дашборд зі станом, інцидентами й метриками scheduler</li>
+          <li data-i18n="p.uptime.feat.4">Історія за 30 днів за замовчуванням; довший строк налаштовується явно</li>
+          <li data-i18n="p.uptime.feat.5">SLA у JSON, CSV та HTML для друку/PDF із покриттям і невідомим часом</li>
           <li data-i18n="p.uptime.feat.6">Ролі admin/viewer, API-ключі, CSRF, rate-limit і SSRF-guard</li>
           <li data-i18n="p.uptime.feat.7">Maintenance windows, бекапи та відновлення бази</li>
       </ul>
@@ -221,7 +215,7 @@
       <div class="stack-grid">
         <div class="stack-card">
           <span class="stack-g" data-i18n="p.uptime.stack.0.g">Мова</span>
-          <div class="tags"><span>Go 1.26.6</span><span>net/http</span><span>golang.org/x/crypto</span></div>
+          <div class="tags"><span>Go 1.26.10</span><span>net/http</span><span>golang.org/x/crypto</span></div>
         </div>
         <div class="stack-card">
           <span class="stack-g" data-i18n="p.uptime.stack.1.g">Дані</span>
@@ -233,7 +227,7 @@
         </div>
         <div class="stack-card">
           <span class="stack-g" data-i18n="p.uptime.stack.3.g">Фронтенд</span>
-          <div class="tags"><span>Vanilla JS</span><span>Tailwind</span><span>PWA</span><span>WebSocket</span></div>
+          <div class="tags"><span>React 19</span><span>TypeScript</span><span>Tailwind</span><span>Vite</span><span>WebSocket</span></div>
         </div>
         <div class="stack-card">
           <span class="stack-g" data-i18n="p.uptime.stack.4.g">Поставка</span>
@@ -250,16 +244,16 @@
       <div class="prod-cols">
         <div>
           <div class="card-actions">
-            <div class="cmd"><code>curl … /apps/uptime-monitor/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+            <div class="cmd"><code>curl -sSL …/apps/uptime-monitor/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
           </div>
           <p class="prod-note" data-i18n="p.uptime.install.note">Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… або 3-денний Trial.</p>
           <p class="prod-links">
-            <a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="p.uptime.links.0">релізи ↗</a>
+            <a href="https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.25" target="_blank" rel="noopener" data-i18n="p.uptime.links.0">Реліз 3.10.25 ↗</a>
             <a href="https://github.com/ajjs1ajjs/dist/tree/main/apps/uptime-monitor" target="_blank" rel="noopener" data-i18n="p.uptime.links.1">інсталятор ↗</a>
           </p>
         </div>
         <ul class="reqs">
-          <li data-i18n="p.uptime.reqs.0">Ubuntu/Debian 24/25/26, amd64 або arm64</li>
+          <li data-i18n="p.uptime.reqs.0">Linux: Ubuntu 24/25/26 або Debian 11/12/13, amd64 чи arm64</li>
           <li data-i18n="p.uptime.reqs.1">systemd — інсталятор ставить юніт із hardening</li>
           <li data-i18n="p.uptime.reqs.2">Права root/sudo для встановлення</li>
           <li data-i18n="p.uptime.reqs.3">Вбудована SQLite (WAL) — зовнішня база не потрібна</li>
@@ -333,7 +327,7 @@
   <div class="toast" id="toast" role="status"></div>
 
 <script src="../../translations.js?v=20261013c" defer></script>
-  <script src="./i18n.js?v=20261022" defer></script>
+  <script src="./i18n.js?v=20261102a" defer></script>
   <script src="../../app.js?v=20261013c" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>

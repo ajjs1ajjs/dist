@@ -1,6 +1,8 @@
 # Uptime Monitor - інсталятор
 
-Моніторинг доступності та SSL (Go). **Сервер - Ubuntu/Debian 24/25/26** (amd64/arm64).
+Моніторинг доступності та SSL (Go). **Сервер — Linux: Ubuntu 24/25/26 або Debian 11/12/13** (amd64/arm64).
+
+Актуальний реліз: [Uptime Monitor 3.10.25](https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.25).
 
 ## Встановлення / оновлення (одна команда)
 
@@ -15,8 +17,16 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 Конкретна версія:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.7.2 bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.10.25 bash
 ```
+
+## Зберігання історії (3.10.25)
+
+Історія перевірок зберігається **30 днів за замовчуванням**, у тому числі для
+старих конфігурацій без параметра `history_retention_days`. За потреби строк
+задається явно в `/etc/uptime-monitor/config.json`; довший строк збільшує БД і
+повні бекапи. SLA-звіти показують покриття спостереженнями та невідомий час.
+Терміни зберігання сповіщень, бекапів і системного журналу налаштовуються окремо.
 
 ## Підмережі однією командою (v3.8.20+)
 
