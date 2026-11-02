@@ -1524,6 +1524,13 @@
       "percent": 0,
       "timestamp": "2026-11-02T18:00:29.772Z",
       "type": "gamepass"
+    },
+    "steam_discount_2440760": {
+      "title": "GRAVHOUNDS",
+      "price": 352,
+      "percent": 25,
+      "timestamp": "2026-11-02T21:00:32.066Z",
+      "type": "discount"
     }
   }
 }
