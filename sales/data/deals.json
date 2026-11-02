@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T16:52:07.535Z",
+  "lastUpdated": "2026-11-02T17:00:30.837Z",
   "steam": [
     {
       "id": "1326470",
@@ -15,19 +15,6 @@
       "isPopular": true
     },
     {
-      "id": "1304930",
-      "title": "The Outlast Trials",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
-      "originalPrice": 740,
-      "discountPrice": 222,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1304930",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
@@ -36,6 +23,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1304930",
+      "title": "The Outlast Trials",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b56ce1e172ba2166a1ef27eb6fd5cf8e2f60a928/capsule_616x353_alt_assets_4.jpg?t=1792554994",
+      "originalPrice": 740,
+      "discountPrice": 222,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1304930",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "2050650",
-      "title": "Resident Evil 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
-      "originalPrice": 1200,
-      "discountPrice": 300,
-      "discountPercent": 75,
+      "id": "242760",
+      "title": "The Forest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053",
+      "originalPrice": 279,
+      "discountPrice": 55,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2050650",
+      "url": "https://store.steampowered.com/app/242760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -447,15 +447,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.65365.14006772409173009.275a9108-bec7-47d8-b889-1be3519a0aa3.9718df8d-4baa-4b95-a9af-b84fd157a6d8",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-cold-war-windows/9N72SFQ24KW8",
       "description": "Includes: - Call of Duty®: Black Ops Cold War game - Legendary Captain Price Operator Skin* Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, drops fans into the depths of the Cold Wa",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9PPKR9N31BW6",
-      "title": "SpeedRunners 2: King of Speed",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.15531.14327242010981927.a5495c37-2e09-4b3f-82a1-e015a8eb734a.be00583f-85c9-4ed5-804d-9c2eef34992d",
-      "url": "https://www.xbox.com/uk-UA/games/store/speedrunners-2-king-of-speed/9PPKR9N31BW6",
-      "description": "НАСТУПНЕ ПОКОЛІННЯ SPEEDRUNNERS У цьому сиквелі ми хотіли ретельно відтворити унікальний \"стиль SpeedRunners\" у новій ері, зберігши глибину та плинність системи руху, а також її простоту. Окрім цього,",
       "isNew": true,
       "isPopular": false
     },
