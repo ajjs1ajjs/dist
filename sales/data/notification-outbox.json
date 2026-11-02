@@ -331,6 +331,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-02T21:00:36.818Z"
+    },
+    {
+      "id": "e5938ac6f644f65fec6ca6f2",
+      "createdAt": "2026-11-02T22:00:39.734Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Farmer Was Replaced</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>225 грн</s> ➡️ <b>157 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2060160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2060160",
+          "entry": {
+            "title": "The Farmer Was Replaced",
+            "price": 157,
+            "percent": 30,
+            "timestamp": "2026-11-02T22:00:39.734Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
