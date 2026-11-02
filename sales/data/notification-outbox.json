@@ -291,6 +291,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-02T13:00:47.534Z"
+    },
+    {
+      "id": "92e92eb8f53efa95b7d87c53",
+      "createdAt": "2026-11-02T18:00:29.772Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>GRAVHOUNDS (Game Preview)</b>\n📝 This game is a work in progress. It may or may not change over time or release as a final product. Purchase only if you …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/gravhounds-game-preview/9PBG4MTM3JJC\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9PBG4MTM3JJC",
+          "entry": {
+            "title": "GRAVHOUNDS (Game Preview)",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-02T18:00:29.772Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
