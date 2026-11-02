@@ -1510,6 +1510,13 @@
       "percent": 25,
       "timestamp": "2026-11-01T23:00:30.326Z",
       "type": "discount"
+    },
+    "steam_discount_251570": {
+      "title": "7 Days to Die",
+      "price": 459,
+      "percent": 45,
+      "timestamp": "2026-11-02T13:00:42.484Z",
+      "type": "discount"
     }
   }
 }
