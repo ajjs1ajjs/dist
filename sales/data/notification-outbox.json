@@ -351,6 +351,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-02T22:00:44.490Z"
+    },
+    {
+      "id": "d0538cea2faaa56d749c8a98",
+      "createdAt": "2026-11-03T14:53:08.344Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>PIT OF GOBLIN</b>\n📝 Мріяли коли-небудь опуститися на саме дно й жити таким огидним і жалюгідним життям, що навіть щури дивилися б на вас із …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/pit-of-goblin/9MW4MFG0192L\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9MW4MFG0192L",
+          "entry": {
+            "title": "PIT OF GOBLIN",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-03T14:53:08.344Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
