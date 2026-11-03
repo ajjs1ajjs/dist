@@ -255,6 +255,7 @@ Group=uptime
 ExecStart=$INSTALL_DIR/uptime-monitor server --config $CONFIG_FILE
 Restart=always
 RestartSec=5
+Environment=UPTIME_MONITOR_ALLOW_RESTART=1
 Environment=CONFIG_PATH=$CONFIG_FILE
 Environment=DATA_DIR=$DATA_DIR
 Environment=LOG_DIR=$LOG_DIR
@@ -268,8 +269,8 @@ ProtectKernelTunables=yes
 ProtectKernelModules=yes
 ProtectControlGroups=yes
 RestrictSUIDSGID=yes
-CapabilityBoundingSet=CAP_NET_RAW
-AmbientCapabilities=CAP_NET_RAW
+CapabilityBoundingSet=CAP_NET_RAW CAP_NET_BIND_SERVICE
+AmbientCapabilities=CAP_NET_RAW CAP_NET_BIND_SERVICE
 ReadWritePaths=$DATA_DIR $LOG_DIR $CONFIG_DIR -$INSTALL_DIR/.config
 
 [Install]
@@ -475,11 +476,29 @@ if [ -f "$CONFIG_FILE" ]; then
     [ -n "$CFG_PORT" ] && UM_PORT="$CFG_PORT"
 fi
 
+UM_NATIVE_HEALTHCHECK=0
+if "$INSTALL_DIR/uptime-monitor" --help 2>/dev/null | grep -q 'uptime-monitor healthcheck'; then
+    UM_NATIVE_HEALTHCHECK=1
+fi
+
+probe_configured_health() {
+    if [ "$UM_NATIVE_HEALTHCHECK" = "1" ]; then
+        "$INSTALL_DIR/uptime-monitor" healthcheck --config "$CONFIG_FILE"
+    else
+        # The shared installer also supports explicitly pinned older releases.
+        # Unknown commands in those binaries print usage with exit status 0.
+        curl -fsS --max-time 5 -o /dev/null "http://localhost:${UM_PORT}/health" || return 1
+        printf 'http://localhost:%s/\n' "$UM_PORT"
+    fi
+}
+
 echo -n "Waiting for the service to become healthy (port ${UM_PORT})..."
 HEALTHY=0
+DASHBOARD_URL="(see server.host / server.domain, server.port and server.tls in $CONFIG_FILE)"
 for i in $(seq 1 30); do
-    if curl -fsS "http://localhost:${UM_PORT}/health" >/dev/null 2>&1; then
+    if HEALTH_URL="$(probe_configured_health 2>/dev/null)"; then
         HEALTHY=1
+        DASHBOARD_URL="$HEALTH_URL"
         echo " OK"
         break
     fi
@@ -496,9 +515,9 @@ if [ "$HEALTHY" != "1" ]; then
     if systemctl is-active --quiet $SERVICE_NAME; then
         # Running, but the probe could not reach it. Most likely a non-default
         # bind host, or a port this installer could not read out of config.json.
-        echo "WARNING: $SERVICE_NAME is running, but http://localhost:${UM_PORT}/health did not answer."
+        echo "WARNING: $SERVICE_NAME is running, but its configured HTTP/HTTPS readiness probe did not answer."
         echo "If the service listens on another address or port, this is expected - check manually:"
-        echo "  curl -fsS http://<host>:<port>/health"
+        echo "  $INSTALL_DIR/uptime-monitor healthcheck --config $CONFIG_FILE"
         echo "  systemctl status $SERVICE_NAME --no-pager"
         echo ""
     else
@@ -544,7 +563,7 @@ else
     echo "  Database: $DATA_DIR/sites.db"
 fi
 echo ""
-echo "Dashboard: http://localhost:${UM_PORT}/"
+echo "Dashboard: $DASHBOARD_URL"
 echo "Ліцензія:   sudo uptime-monitor license status   (trial/activate — ті самі команди)"
 echo ""
 if [ "$ADMIN_SET" = "1" ]; then

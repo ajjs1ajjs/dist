@@ -2,7 +2,7 @@
 
 Моніторинг доступності та SSL (Go). **Сервер — Linux: Ubuntu 24/25/26 або Debian 11/12/13** (amd64/arm64).
 
-Актуальний реліз: [Uptime Monitor 3.10.25](https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.25).
+Актуальний реліз: [Uptime Monitor 3.10.31](https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.31).
 
 ## Встановлення / оновлення (одна команда)
 
@@ -17,8 +17,24 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 Конкретна версія:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.10.25 bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.10.31 bash
 ```
+
+## Власний домен та HTTPS (3.10.31+)
+
+За замовчуванням залишається HTTP за IP та портом. HTTPS — додаткова можливість
+із готовим PEM-сертифікатом і приватним ключем, без окремого reverse proxy.
+
+- **Через інтерфейс:** Налаштування → DNS та HTTPS. Вкажіть домен і порт,
+  виберіть сертифікат/ключ із комп’ютера або серверні шляхи, перевірте та збережіть.
+  Нова адреса застосовується після окремого підтвердження перезапуску.
+- **Через конфіг:** ті самі параметри доступні в `server` у
+  `/etc/uptime-monitor/config.json`. Інші наявні налаштування збережіть.
+
+Штатний інсталятор налаштовує дозвіл на порт 443 і перезапуск із панелі.
+DNS-запис, фаєрвол/NAT та поновлення сертифіката налаштовуються окремо.
+Загальна покрокова [довідка для початківців і спеціалістів](HTTPS.md) містить
+підказки, шляхи, команди, перевірки й повернення до HTTP.
 
 ## Зберігання історії (3.10.25)
 
@@ -85,4 +101,6 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 - [`install.sh`](install.sh) - інсталятор/апдейтер (Ubuntu/Debian).
 - [`subnet-seed.sh`](subnet-seed.sh) - одноразове (ідемпотентне) налаштування subnet-моніторів.
+- [`HTTPS.md`](HTTPS.md) — налаштування домену та HTTPS через інтерфейс або конфіг.
+- [`config.example.json`](config.example.json) — приклад конфігу; HTTPS вимкнений за замовчуванням.
 - Повний код - у приватному репозиторії `ajjs1ajjs/Uptime-Monitor`.
