@@ -371,6 +371,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-03T14:53:12.793Z"
+    },
+    {
+      "id": "90f41848d48eacda29fbd254",
+      "createdAt": "2026-11-03T19:00:55.749Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Football Manager 27</b>\n📝 Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб в…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/football-manager-27/9N4NKMXDZCX6\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9N4NKMXDZCX6",
+          "entry": {
+            "title": "Football Manager 27",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-03T19:00:55.749Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
