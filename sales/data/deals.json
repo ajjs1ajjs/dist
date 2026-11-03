@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-11-03T00:00:30.902Z",
+  "lastUpdated": "2026-11-03T01:00:37.824Z",
   "steam": [
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1849,
+      "discountPrice": 1109,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
     {
       "id": "3240220",
       "title": "Grand Theft Auto V Enhanced",
@@ -28,19 +41,6 @@
       "isPopular": false
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
-      "originalPrice": 1849,
-      "discountPrice": 1109,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2440760",
       "title": "GRAVHOUNDS",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440760/bb9df45845b1b9ac8adc150f4fd7a47dcb206bbf/capsule_616x353.jpg?t=1793646432",
@@ -54,14 +54,14 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
+      "id": "3764200",
+      "title": "Resident Evil Requiem",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
+      "url": "https://store.steampowered.com/app/3764200",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -80,14 +80,14 @@
       "isPopular": false
     },
     {
-      "id": "3764200",
-      "title": "Resident Evil Requiem",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/0731e32e73a1311c20a71199f4e4fd78ee9e9411/capsule_616x353.jpg?t=1779840172",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3764200",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -145,6 +145,19 @@
       "isPopular": true
     },
     {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -166,32 +179,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
