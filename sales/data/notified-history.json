@@ -936,5 +936,12 @@
     "percent": 30,
     "timestamp": "2026-11-02T22:00:39.734Z",
     "type": "discount"
+  },
+  "gamepass_9MW4MFG0192L": {
+    "title": "PIT OF GOBLIN",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-03T14:53:08.344Z",
+    "type": "gamepass"
   }
 }
