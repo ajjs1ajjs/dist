@@ -73,7 +73,7 @@ jobs:
         id: diff
         working-directory: site
         run: |
-          if git diff --quiet -- public/index.html public/p public/releases.json scripts/release-catalog.json; then
+          if git diff --quiet -- public/index.html public/p public/en public/releases.json scripts/release-catalog.json; then
             {
               echo "changed=false"
             } >> "$GITHUB_OUTPUT"
@@ -99,7 +99,7 @@ jobs:
           else
             MSG="chore(site): sync versions from dist"
           fi
-          git add public/index.html public/p public/releases.json scripts/release-catalog.json
+          git add public/index.html public/p public/en public/releases.json scripts/release-catalog.json
           git commit -m "$MSG"
           git push origin HEAD:main
 
