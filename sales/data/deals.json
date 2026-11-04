@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T17:00:34.503Z",
+  "lastUpdated": "2026-11-04T18:00:31.920Z",
   "steam": [
     {
       "id": "3240220",
@@ -41,14 +41,14 @@
       "isPopular": false
     },
     {
-      "id": "648800",
-      "title": "Raft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
-      "originalPrice": 430,
-      "discountPrice": 288,
-      "discountPercent": 33,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
+      "originalPrice": 1799,
+      "discountPrice": 1349,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/648800",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -67,19 +67,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -88,6 +75,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -132,19 +132,6 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793801444",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2320980",
       "title": "Loftia",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/9461189df97bd8eda3ca5fc80f1c59d767e6cd5b/capsule_616x353.jpg?t=1793732506",
@@ -153,6 +140,19 @@
       "discountPercent": 17,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2320980",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793801444",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -462,9 +462,9 @@
     },
     {
       "id": "9N9K5QP9G3GL",
-      "title": "VOID/BREAKER (Game Preview)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38308.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.dbc8e65f-4b43-49d9-bb8d-83278bebf454",
-      "url": "https://www.xbox.com/uk-UA/games/store/void-breaker-game-preview/9N9K5QP9G3GL",
+      "title": "VOID/BREAKER",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.35788.13536036111571877.6e9314d2-c36f-4ec9-ad65-425453b390bd.1881d5b2-6403-44a1-b8c0-a69741bf665a",
+      "url": "https://www.xbox.com/uk-UA/games/store/void-breaker/9N9K5QP9G3GL",
       "description": "Усезнаючий ворожий ШІ заманив вас у пастку нескінченного циклу. Ви в нього в полоні й змушені боротися та помирати знов і знов. Машини впевнені, що вам не втекти. Система створена, щоб утримувати вас ",
       "isNew": true,
       "isPopular": false
