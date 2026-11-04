@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-04T21:00:44.545Z",
+  "lastUpdated": "2026-11-04T22:00:32.186Z",
   "sourceUpdates": {
-    "steam": "2026-11-04T21:00:44.545Z",
-    "gamepass": "2026-11-04T21:00:44.545Z"
+    "steam": "2026-11-04T22:00:32.186Z",
+    "gamepass": "2026-11-04T22:00:32.186Z"
   },
   "steam": [
     {
@@ -45,19 +45,6 @@
       "isPopular": false
     },
     {
-      "id": "4634220",
-      "title": "FINAL FANTASY XIV: Evercold",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
-      "originalPrice": 1200,
-      "discountPrice": 1200,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4634220",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -66,6 +53,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4634220",
+      "title": "FINAL FANTASY XIV: Evercold",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
+      "originalPrice": 1200,
+      "discountPrice": 1200,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4634220",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
