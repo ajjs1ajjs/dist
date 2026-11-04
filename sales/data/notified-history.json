@@ -894,5 +894,12 @@
     "percent": 50,
     "timestamp": "2026-11-04T21:00:44.545Z",
     "type": "discount"
+  },
+  "steam_discount_2615540": {
+    "title": "VOID/BREAKER",
+    "price": 414,
+    "percent": 40,
+    "timestamp": "2026-11-04T23:00:31.190Z",
+    "type": "discount"
   }
 }
