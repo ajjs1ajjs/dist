@@ -1,11 +1,11 @@
 {
-  "version": "2.1.47",
-  "notes": "RDM Manager 2.1.47",
-  "pub_date": "2026-11-04T07:05:58.220Z",
+  "version": "2.1.48",
+  "notes": "RDM Manager 2.1.48",
+  "pub_date": "2026-11-04T20:49:43.713Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZDJOMWFmS1hmNUhuZDdXakVUWm1NZ1Zkbmk4WllzOU5mNllQTXJiN2xpb2ZvSVd2U0c3NVB2Rngrc0wyTHVISEUwTEJDcjlYNGo1bmxwTDZBUVVZUlZiNjFkc2VRcUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzc1OTU4CWZpbGU6UkRNIE1hbmFnZXJfMi4xLjQ3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjoyLjEuNDcKcWVKZEQwNnNLWkxpdzFXemJWRHBjQ0lvQW0yeTJ2Um5YRzQ5dmU3UG1MTnhOQ3pPdWgxMVY4VktrTWsrY2Y3dFFYUVBRQkxPYmtiSE9sV0hPbGk4RGc9PQo=",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.47/RDM.Manager_2.1.47_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZDJOMWFmS1hmNUsyZnJVS1JaaEMvdXpJZzRLTjE4aldyZ2xENlJCU1Z1NXV2S1QyQUFwZlRWYlMvQ0ovZ0RpWEFUTnUxM0RPTmV1aVJvSU91TmZnR3ZsUWxlMlVFd0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI1MzgzCWZpbGU6UkRNIE1hbmFnZXJfMi4xLjQ4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjoyLjEuNDgKU2VqNi9yK0dkbk1GNjlGam02UnBFS0RHWGJQUjBoZUozdFhSYjkxYkMwa2VzMTZBVi9BVWxmdTdVdWxOeTFZZTdnd2FjdHBmVGRmakVxbXg4S0tCREE9PQo=",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.48/RDM.Manager_2.1.48_x64-setup.exe"
     }
   }
 }
