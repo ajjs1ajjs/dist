@@ -1,10 +1,10 @@
 {
-    "version":  "2.4.6",
-    "notes":  "Security hardening: Team Server HTTPS gate before public routes; pinned-IP webhook delivery (anti-rebinding, no redirects); RFC 4511 LDAP filter; DPAPI-encrypted config secrets. Full pytest: 248 passed. Full Changelog: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.5...netscope-v2.4.6",
+    "version":  "2.4.7",
+    "notes":  "Modular split (backend Team API, frontend fragments), Authenticode-signed NetScope.exe, and Inno Setup installer. Full pytest: 249 passed. Full Changelog: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.6...netscope-v2.4.7",
     "pubkey":  "/glRZ7Haj1p+DzVlqrFkteJ8TglE4q7g6yjmPV+WhKQ=",
     "portable":  {
-                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.6/NetScope-v2.4.6-update.zip",
-                     "sha256":  "a12d5ee890f0a0f3a71ebd4d94962bb27389fad3911699d1d9395d9c148fe8a1",
-                     "signature":  "BkNcVh0n4kCllhEINoAW1DGQh62dPIjWfIEb93lGmbHNAhZJIfvB/bkgc7RolLkcjrTm6n0kvWRlS3KgnIa5Bg=="
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.7/NetScope-v2.4.7-update.zip",
+                     "sha256":  "e3d232ae5de80bc286b7c0a561989ebb7ea1ee2b88081f56720bcfb80dd84263",
+                     "signature":  "m78trI3pZny2pM1Jrf4ouxXPm0f/Qmi2w/CPZ40Mr1Gw4zBeoSUpq77Xlny0/+fUNPYXUS7zilOhUa/sB7DpBA=="
                  }
 }
