@@ -21,7 +21,7 @@ const logger = pino({
 });
 
 const CONFIG = {
-  dealsDir: path.join(process.cwd(), 'public', 'data'),
+  dealsDir: process.env.DEALS_DIR ?? path.resolve(process.cwd(), '../../../sales/data'),
   freeGameCooldownMs: 14 * 24 * 60 * 60 * 1000,
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
