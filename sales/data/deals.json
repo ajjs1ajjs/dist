@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T14:00:35.143Z",
+  "lastUpdated": "2026-11-04T15:00:35.991Z",
   "steam": [
     {
       "id": "3240220",
@@ -106,9 +106,22 @@
       "isPopular": true
     },
     {
+      "id": "3727090",
+      "title": "Horses of Hoofprint Bay",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/3181fc9fad8df2eca154f6c4f33903c58f868471/capsule_616x353.jpg?t=1793803005",
+      "originalPrice": 648,
+      "discountPrice": 550,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3727090",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4348910",
       "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793711740",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793801444",
       "originalPrice": 299,
       "discountPrice": 269,
       "discountPercent": 10,
@@ -127,6 +140,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3218230",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2320980",
+      "title": "Loftia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/9461189df97bd8eda3ca5fc80f1c59d767e6cd5b/capsule_616x353.jpg?t=1793732506",
+      "originalPrice": 599,
+      "discountPrice": 497,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2320980",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -151,7 +177,7 @@
       "title": "Football Manager 27",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6012.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.0b85ad89-d35d-4e98-834c-b6405dc97c5c",
       "url": "https://www.xbox.com/uk-UA/games/store/football-manager-27/9N4NKMXDZCX6",
-      "description": "Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб втілитися в життя. Пориньте у живий, динамічний всесвіт футболу, де кожне рішення",
+      "description": "Реліз FM27 відбудеться 10 листопада. Оформте попереднє замовлення вже зараз, щоб отримати знижку 10% і ранній доступ у межах попереднього огляду, що розпочнеться 3 листопада. Кожен уболівальник впевне",
       "isNew": true,
       "isPopular": false
     },
