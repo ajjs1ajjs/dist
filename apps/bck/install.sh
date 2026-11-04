@@ -297,6 +297,15 @@ if [ "$MODE" = "release" ]; then
             else
                 fail "No .sha256 checksum asset for $ARCHIVE; refusing to install an unverified release."
             fi
+            # Fail closed when the operator opts in during signed-release rollout.
+            if [ "${DIST_REQUIRE_SIGNATURE:-0}" = "1" ]; then
+                command -v cosign >/dev/null 2>&1 || fail "cosign is required for signature verification."
+                download "$URL.sigstore.json" "$TMPDIR/$ARCHIVE.sigstore.json" || fail "Sigstore signature bundle unavailable."
+                cosign verify-blob --bundle "$TMPDIR/$ARCHIVE.sigstore.json" \
+                    --certificate-identity "https://github.com/ajjs1ajjs/BCK/.github/workflows/release.yml@refs/heads/main" \
+                    --certificate-oidc-issuer https://token.actions.githubusercontent.com "$TMPDIR/$ARCHIVE" || fail "Sigstore signature verification failed."
+                log "Sigstore signature verified"
+            fi
             tar -xzf "$TMPDIR/$ARCHIVE" -C "$TMPDIR"
             SRC_DIR="$TMPDIR"
             log "Release binaries staged."

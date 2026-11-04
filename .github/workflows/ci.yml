@@ -38,7 +38,7 @@ jobs:
           for file in apps/bck/install.sh apps/mygit/install.sh apps/monitoring/install.sh apps/uptime-monitor/install.sh apps/uptime-monitor/subnet-seed.sh; do
             bash -n "$file"
           done
-      - name: Test BCK checksum failures
+      - name: Test BCK checksum and signature failures
         run: bash scripts/test-bck-checksum.sh
       - name: Test BCK rollback in a disposable Ubuntu container
         run: docker run --rm -v "$GITHUB_WORKSPACE:/repo:ro" ubuntu:24.04 bash /repo/scripts/test-bck-rollback-container.sh

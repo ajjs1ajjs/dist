@@ -186,6 +186,27 @@ else
     rm -f "$TMP_SUM"
 fi
 
+# Optional fail-closed Sigstore verification during the signed-release transition.
+# A trusted cosign binary must already be installed on the host.
+if [ "${DIST_REQUIRE_SIGNATURE:-0}" = "1" ]; then
+    command -v cosign >/dev/null 2>&1 || { echo "ERROR: cosign is required for signature verification." >&2; rm -f "$TMP_BIN"; exit 1; }
+    TMP_SIGNATURE="$(mktemp)"
+    if command -v curl >/dev/null 2>&1; then
+        curl -fsSL "${DOWNLOAD_URL}.sigstore.json" -o "$TMP_SIGNATURE" || { echo "ERROR: signature bundle unavailable." >&2; rm -f "$TMP_BIN" "$TMP_SIGNATURE"; exit 1; }
+    elif command -v wget >/dev/null 2>&1; then
+        wget -q "${DOWNLOAD_URL}.sigstore.json" -O "$TMP_SIGNATURE" || { echo "ERROR: signature bundle unavailable." >&2; rm -f "$TMP_BIN" "$TMP_SIGNATURE"; exit 1; }
+    else
+        echo "ERROR: curl or wget is required to download the signature." >&2; rm -f "$TMP_BIN" "$TMP_SIGNATURE"; exit 1
+    fi
+    if ! cosign verify-blob --bundle "$TMP_SIGNATURE" \
+        --certificate-identity "https://github.com/ajjs1ajjs/MyGit/.github/workflows/release.yml@refs/heads/main" \
+        --certificate-oidc-issuer https://token.actions.githubusercontent.com "$TMP_BIN"; then
+        echo "ERROR: Sigstore signature verification failed." >&2; rm -f "$TMP_BIN" "$TMP_SIGNATURE"; exit 1
+    fi
+    rm -f "$TMP_SIGNATURE"
+    echo "Sigstore signature verified."
+fi
+
 chmod +x "$TMP_BIN"
 "$TMP_BIN" --version >/dev/null 2>&1 || { echo "ERROR: not a valid binary"; rm -f "$TMP_BIN"; exit 1; }
 

@@ -21,13 +21,18 @@ while [ "$#" -gt 0 ]; do
 done
 case "$url" in
   *.tar.gz.sha256)
-    [ "$TEST_MODE" = mismatch ] || exit 22
-    printf '%064d  bck-linux-x86_64.tar.gz\n' 0 > "$dest";;
+    if [ "$TEST_MODE" = missing ]; then exit 22; fi
+    if [ "$TEST_MODE" = mismatch ]; then printf '%064d  bck-linux-x86_64.tar.gz\n' 0 > "$dest"; else sha256sum "$TEST_FIXTURE/archive.tar.gz" | sed 's/  .*$/  bck-linux-x86_64.tar.gz/' > "$dest"; fi;;
+  *.tar.gz.sigstore.json) [ "$TEST_MODE" != no_bundle ] || exit 22; printf 'mock bundle' > "$dest";;
   *.tar.gz) cp "$TEST_FIXTURE/archive.tar.gz" "$dest";;
   *) exit 22;;
 esac
 MOCK
-chmod +x "$fixture/bin/id" "$fixture/bin/curl"
+cat > "$fixture/bin/cosign" <<'MOCK'
+#!/usr/bin/env bash
+[ "$TEST_MODE" != bad_signature ]
+MOCK
+chmod +x "$fixture/bin/id" "$fixture/bin/curl" "$fixture/bin/cosign"
 for mode in missing mismatch; do
   set +e
   output=$(PATH="$fixture/bin:$PATH" TEST_FIXTURE="$fixture" TEST_MODE="$mode" BCK_VERSION=1.2.3 BCK_HOME="$fixture/home" BCK_DATA_DIR="$fixture/data" BCK_CONFIG_DIR="$fixture/config" bash "$root/apps/bck/install.sh" 2>&1)
@@ -41,4 +46,18 @@ for mode in missing mismatch; do
   esac
   [ -z "$(ls -A "$fixture/home")" ] || { echo 'Install directory changed before verification' >&2; exit 1; }
 done
-echo 'BCK checksum rejection tests passed.'
+for mode in no_bundle bad_signature valid_signature; do
+  set +e
+  output=$(PATH="$fixture/bin:$PATH" TEST_FIXTURE="$fixture" TEST_MODE="$mode" DIST_REQUIRE_SIGNATURE=1 BCK_VERSION=1.2.3 BCK_HOME="$fixture/home" BCK_DATA_DIR="$fixture/data" BCK_CONFIG_DIR="$fixture/config" bash "$root/apps/bck/install.sh" 2>&1)
+  status=$?
+  set -e
+  [ "$status" -ne 0 ] || { echo "$mode fixture unexpectedly installed" >&2; exit 1; }
+  case "$mode:$output" in
+    no_bundle:*'signature bundle unavailable'*) ;;
+    bad_signature:*'signature verification failed'*) ;;
+    valid_signature:*'Sigstore signature verified'*'Required binary is missing'*) ;;
+    *) printf 'Unexpected %s result:\n%s\n' "$mode" "$output" >&2; exit 1;;
+  esac
+  [ -z "$(ls -A "$fixture/home")" ] || { echo 'Install directory changed during signature test' >&2; exit 1; }
+done
+echo 'BCK checksum and signature rejection tests passed.'

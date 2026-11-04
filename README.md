@@ -43,6 +43,8 @@
 
 The `curl | sudo bash` commands below immediately execute a downloaded script as root. To inspect an installer first, download the relevant `apps/<product>/install.sh`, review it and compare it with a trusted copy before running `sudo bash ./install.sh`. Checksums shipped with release binaries detect corruption but do not independently authenticate their origin. Installer and artifact signatures with an independent trusted key are not yet configured.
 
+GitHub Actions release workflows for BCK, MyGit, PyMon and Uptime Monitor now create Sigstore bundles for their Linux artifacts. After a signed release has been published, an operator with a trusted Cosign installation can require verification by passing `DIST_REQUIRE_SIGNATURE=1` to the installer, for example `curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo env DIST_REQUIRE_SIGNATURE=1 bash`. The installer checks the certificate identity of the product's release workflow and rejects a missing or invalid bundle. This is an opt-in transition: existing releases and locally published releases may be unsigned, and default installations do not yet enforce signatures. Release signing does not authenticate the downloaded installer script itself.
+
 For Sales tests, use Node.js 24 or newer and run `npm ci`, `npm run check`, and `npm test` in `apps/sales/fetch`. Install dependencies separately in Windows and WSL/Linux: `node_modules` contains platform-specific binaries.
 
 <a id="products"></a>
