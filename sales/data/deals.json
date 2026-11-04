@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T23:00:36.875Z",
+  "lastUpdated": "2026-11-04T00:00:33.454Z",
   "steam": [
     {
       "id": "3768760",
@@ -80,19 +80,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793644361",
@@ -106,14 +93,14 @@
       "isPopular": true
     },
     {
-      "id": "3218230",
-      "title": "ArcheAge Chronicles",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/77ea7a1ab6e5049ca3b7e26ab690f2f37a2dc4ed/capsule_616x353.jpg?t=1793713129",
-      "originalPrice": 620,
-      "discountPrice": 620,
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3218230",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -127,19 +114,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2320980",
-      "title": "Loftia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/9461189df97bd8eda3ca5fc80f1c59d767e6cd5b/capsule_616x353.jpg?t=1793732506",
-      "originalPrice": 599,
-      "discountPrice": 497,
-      "discountPercent": 17,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2320980",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -444,6 +418,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.64311.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.eaef76d6-e392-41b4-a1a5-4ed9c5855ae2",
       "url": "https://www.xbox.com/uk-UA/games/store/tcg-card-shop-simulator/9P9GX5D8H9DW",
       "description": "TCG Card Shop Simulator is a trading card shop simulation where you sell card booster packs to earn money and build your card shop business. Manage Your Shop: Design your own TCG shop. Organize shelve",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9N9K5QP9G3GL",
+      "title": "VOID/BREAKER (Game Preview)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38308.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.dbc8e65f-4b43-49d9-bb8d-83278bebf454",
+      "url": "https://www.xbox.com/uk-UA/games/store/void-breaker-game-preview/9N9K5QP9G3GL",
+      "description": "Усезнаючий ворожий ШІ заманив вас у пастку нескінченного циклу. Ви в нього в полоні й змушені боротися та помирати знов і знов. Машини впевнені, що вам не втекти. Система створена, щоб утримувати вас ",
       "isNew": true,
       "isPopular": false
     },

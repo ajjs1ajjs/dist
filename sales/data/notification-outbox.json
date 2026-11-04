@@ -391,6 +391,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-03T19:01:21.731Z"
+    },
+    {
+      "id": "b61875d5167424b5fd0d250f",
+      "createdAt": "2026-11-04T00:00:31.112Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>VOID/BREAKER (Game Preview)</b>\n📝 Усезнаючий ворожий ШІ заманив вас у пастку нескінченного циклу. Ви в нього в полоні й змушені боротися та помирати знов …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/void-breaker-game-preview/9N9K5QP9G3GL\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9N9K5QP9G3GL",
+          "entry": {
+            "title": "VOID/BREAKER (Game Preview)",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-04T00:00:31.112Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
