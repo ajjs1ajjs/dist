@@ -38,6 +38,8 @@ jobs:
           for file in apps/bck/install.sh apps/mygit/install.sh apps/monitoring/install.sh apps/uptime-monitor/install.sh apps/uptime-monitor/subnet-seed.sh; do
             bash -n "$file"
           done
+      - name: Test BCK checksum failures
+        run: bash scripts/test-bck-checksum.sh
       - name: Test Sales fetcher
         working-directory: apps/sales/fetch
         run: |

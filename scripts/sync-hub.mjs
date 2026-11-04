@@ -77,7 +77,12 @@ export function selectLatest(releases) {
 }
 
 export function validateAsset(prefix, rel, asset) {
-  if (CONFIG[prefix]?.pattern && !asset?.browser_download_url) {
+  let safeUrl = false;
+  try {
+    const url = new URL(asset?.browser_download_url);
+    safeUrl = url.protocol === 'https:' && url.hostname === 'github.com' && url.pathname.startsWith(`/${REPO}/releases/download/${rel.tag_name}/`);
+  } catch {}
+  if (CONFIG[prefix]?.pattern && !safeUrl) {
     throw new Error(`Missing required asset for ${rel.tag_name}`);
   }
 }

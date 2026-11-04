@@ -21,6 +21,7 @@ test('selects only stable semver and compares numeric components', () => {
 
 test('incomplete releases fail before the HTML can be written', () => {
   assert.throws(() => validateAsset('bck-v', { tag_name: 'bck-v1.2.3' }, null), /Missing required asset/);
-  assert.doesNotThrow(() => validateAsset('bck-v', { tag_name: 'bck-v1.2.3' }, { browser_download_url: 'https://github.com/file' }));
+  assert.doesNotThrow(() => validateAsset('bck-v', { tag_name: 'bck-v1.2.3' }, { browser_download_url: 'https://github.com/ajjs1ajjs/dist/releases/download/bck-v1.2.3/bck.tar.gz' }));
+  assert.throws(() => validateAsset('bck-v', { tag_name: 'bck-v1.2.3' }, { browser_download_url: 'https://evil.example/file' }), /Missing required asset/);
   assert.doesNotThrow(() => validateAsset('sales-v', { tag_name: 'sales-v1.2.3' }, null));
 });

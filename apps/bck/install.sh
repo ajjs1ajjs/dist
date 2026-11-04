@@ -215,18 +215,18 @@ ensure_build_deps() {
 download() { # url -> local path
     local url="$1" out="$2"
     if command -v curl >/dev/null 2>&1; then
-        curl -fsSL --connect-timeout 20 --retry 3 "$url" -o "$out"
+        curl -fsSL --connect-timeout 20 --retry 3 "$url" -o "$out" || return 1
     elif command -v wget >/dev/null 2>&1; then
-        wget -q --timeout=20 --tries=3 "$url" -O "$out"
+        wget -q --timeout=20 --tries=3 "$url" -O "$out" || return 1
     else
         fail "Need curl or wget"
     fi
-    test -s "$out" || fail "download failed or empty: $url"
+    test -s "$out" || { warn "download failed or empty: $url"; return 1; }
     # Structural check: tar.gz must be listable, zip must be testable if applicable
     if [[ "$out" == *.tar.gz ]]; then
-        tar -tzf "$out" >/dev/null 2>&1 || fail "downloaded archive integrity check failed: $url"
+        tar -tzf "$out" >/dev/null 2>&1 || { warn "downloaded archive integrity check failed: $url"; return 1; }
     elif [[ "$out" == *.zip ]]; then
-        unzip -t "$out" >/dev/null 2>&1 || fail "downloaded zip integrity check failed: $url"
+        unzip -t "$out" >/dev/null 2>&1 || { warn "downloaded zip integrity check failed: $url"; return 1; }
     fi
 }
 
