@@ -1455,6 +1455,13 @@
       "percent": 0,
       "timestamp": "2026-11-04T00:00:31.112Z",
       "type": "gamepass"
+    },
+    "steam_discount_3375780": {
+      "title": "Trails in the Sky 1st Chapter",
+      "price": 562,
+      "percent": 50,
+      "timestamp": "2026-11-04T21:00:44.545Z",
+      "type": "discount"
     }
   }
 }
