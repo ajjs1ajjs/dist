@@ -3,7 +3,7 @@ import path from 'path';
 import pino from 'pino';
 import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
-import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries } from './collector-core';
+import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps } from './collector-core';
 import { writeJsonAtomically } from './persistence';
 import { buildTelegramBatches } from './telegram';
 import {
@@ -21,7 +21,7 @@ const logger = pino({
 });
 
 const CONFIG = {
-  dealsDir: process.env.DEALS_DIR ?? path.resolve(process.cwd(), '../../../sales/data'),
+  dealsDir: path.join(process.cwd(), 'public', 'data'),
   freeGameCooldownMs: 14 * 24 * 60 * 60 * 1000,
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
@@ -756,8 +756,18 @@ async function runPrepare() {
   // відсутнє чи пошкоджене поле не повинно класти ран.
   const coerceOldData = (parsed: unknown): DealsData => {
     const p = parsed && typeof parsed === 'object' ? (parsed as Record<string, unknown>) : {};
+    const rawUpdates = p.sourceUpdates && typeof p.sourceUpdates === 'object' && !Array.isArray(p.sourceUpdates)
+      ? (p.sourceUpdates as Record<string, unknown>)
+      : undefined;
+    const sourceUpdates = rawUpdates
+      ? {
+          steam: typeof rawUpdates.steam === 'string' ? rawUpdates.steam : undefined,
+          gamepass: typeof rawUpdates.gamepass === 'string' ? rawUpdates.gamepass : undefined,
+        }
+      : undefined;
     return {
       lastUpdated: typeof p.lastUpdated === 'string' ? p.lastUpdated : '',
+      sourceUpdates,
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
       gamepass: Array.isArray(p.gamepass) ? (p.gamepass as GamePassGame[]) : [],
       notifiedHistory: {},
@@ -835,6 +845,7 @@ async function runPrepare() {
     logger.warn({ fetchSucceeded: steamFetchSuccess, freshCount: freshSteam.length, keptCount: oldData.steam.length }, 'keeping previous Steam snapshot');
   }
   const steam = steamSnapshot.games;
+  const steamUpdated = !steamSnapshot.usedPrevious && freshSteam.length > 0;
 
   // Fetch Game Pass for PC catalog. Збій Microsoft-каталогу не має валити ран
   // і не має стирати попередній каталог — лишаємо старі дані, якщо нові пусті.
@@ -849,8 +860,10 @@ async function runPrepare() {
   if (gamepassFetchSuccess && freshGamePass.length === 0 && (oldData.gamepass?.length ?? 0) > 0) {
     logger.warn('⚠️ gamepass fetch succeeded but returned an empty list. Keeping previous catalog.');
   }
+  const gamepassUsedPrevious = !gamepassFetchSuccess || (freshGamePass.length === 0 && (oldData.gamepass?.length ?? 0) > 0);
   const gamepass: GamePassGame[] =
-    gamepassFetchSuccess && freshGamePass.length > 0 ? freshGamePass : oldData.gamepass ?? [];
+    gamepassUsedPrevious ? (oldData.gamepass ?? []) : freshGamePass;
+  const gamepassUpdated = !gamepassUsedPrevious && freshGamePass.length > 0;
 
   // Detect changes
   const newSteamFreeGames: SteamGame[] = [];
@@ -1079,11 +1092,19 @@ async function runPrepare() {
   // Save updated data (Steam + Game Pass for PC; поле epic видалено).
   // notifiedHistory вбудовуємо і в deals.json: сайт читає історію саме звідти
   // (окремий notified-history.json — merge-friendly джерело для scheduler-а).
+  const { lastUpdated, sourceUpdates } = resolveCatalogTimestamps({
+    nowIso: now.toISOString(),
+    oldData,
+    steamUpdated,
+    gamepassUpdated,
+  });
+
   const newData: DealsData = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated,
+    sourceUpdates,
     steam,
     gamepass,
-    notifiedHistory
+    notifiedHistory,
   };
 
   await writeJsonAtomically(DEALS_PATH, newData);

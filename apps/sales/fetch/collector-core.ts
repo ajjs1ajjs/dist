@@ -26,3 +26,47 @@ export function planGamePassPopularEntries(games: GamePassGame[], history: Recor
   if (!hasPopularBaseline) return [];
   return games.filter((game) => game.isPopular && !history[`gamepass_popular_${game.id}`]);
 }
+
+export interface CatalogUpdateTimestamps {
+  lastUpdated: string;
+  sourceUpdates: {
+    steam?: string;
+    gamepass?: string;
+  };
+}
+
+export function resolveCatalogTimestamps(params: {
+  nowIso: string;
+  oldData: {
+    lastUpdated?: string;
+    sourceUpdates?: { steam?: string; gamepass?: string };
+    steam?: unknown[];
+    gamepass?: unknown[];
+  };
+  steamUpdated: boolean;
+  gamepassUpdated: boolean;
+}): CatalogUpdateTimestamps {
+  const oldSteam =
+    params.oldData.sourceUpdates?.steam ||
+    (params.oldData.steam && params.oldData.steam.length > 0 ? params.oldData.lastUpdated : undefined);
+  const oldGamepass =
+    params.oldData.sourceUpdates?.gamepass ||
+    (params.oldData.gamepass && params.oldData.gamepass.length > 0 ? params.oldData.lastUpdated : undefined);
+
+  const steam = params.steamUpdated ? params.nowIso : oldSteam;
+  const gamepass = params.gamepassUpdated ? params.nowIso : oldGamepass;
+
+  // When both sources fail or keep previous catalogs, preserve old lastUpdated
+  let lastUpdated = params.oldData.lastUpdated || '';
+  if (params.steamUpdated || params.gamepassUpdated) {
+    lastUpdated = params.nowIso;
+  }
+
+  return {
+    lastUpdated,
+    sourceUpdates: {
+      ...(steam ? { steam } : {}),
+      ...(gamepass ? { gamepass } : {}),
+    },
+  };
+}

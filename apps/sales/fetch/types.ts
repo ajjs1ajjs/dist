@@ -35,8 +35,14 @@ export interface NotifiedItem {
   type: 'free' | 'discount' | 'popular' | 'gamepass' | 'xbox_new';
 }
 
+export interface SourceUpdates {
+  steam?: string;
+  gamepass?: string;
+}
+
 export interface DealsData {
   lastUpdated: string;
+  sourceUpdates?: SourceUpdates;
   steam: SteamGame[];
   /** Каталог Game Pass для ПК. Поле відсутнє у старих файлах — UI це терпить. */
   gamepass?: GamePassGame[];
