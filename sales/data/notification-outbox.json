@@ -431,6 +431,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-04T21:00:47.992Z"
+    },
+    {
+      "id": "58deb9e144e3a30365c6f702",
+      "createdAt": "2026-11-04T23:00:31.190Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>VOID/BREAKER</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>690 грн</s> ➡️ <b>414 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2615540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2615540",
+          "entry": {
+            "title": "VOID/BREAKER",
+            "price": 414,
+            "percent": 40,
+            "timestamp": "2026-11-04T23:00:31.190Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

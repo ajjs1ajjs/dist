@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-04T22:00:32.186Z",
+  "lastUpdated": "2026-11-04T23:00:31.190Z",
   "sourceUpdates": {
-    "steam": "2026-11-04T22:00:32.186Z",
-    "gamepass": "2026-11-04T22:00:32.186Z"
+    "steam": "2026-11-04T23:00:31.190Z",
+    "gamepass": "2026-11-04T23:00:31.190Z"
   },
   "steam": [
     {
@@ -14,6 +14,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3375780",
+      "title": "Trails in the Sky 1st Chapter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/a256c3cc1601eb983578ab77ae36c121091a3f4f/capsule_616x353.jpg?t=1791225209",
+      "originalPrice": 1125,
+      "discountPrice": 562,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3375780",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -32,14 +45,14 @@
       "isPopular": false
     },
     {
-      "id": "3375780",
-      "title": "Trails in the Sky 1st Chapter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/a256c3cc1601eb983578ab77ae36c121091a3f4f/capsule_616x353.jpg?t=1791225209",
-      "originalPrice": 1125,
-      "discountPrice": 562,
-      "discountPercent": 50,
+      "id": "2615540",
+      "title": "VOID/BREAKER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/ca1b70d390e376f6c47e573d6c6279d630ee1097/capsule_616x353_alt_assets_8.jpg?t=1793821113",
+      "originalPrice": 690,
+      "discountPrice": 414,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3375780",
+      "url": "https://store.steampowered.com/app/2615540",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -71,19 +84,6 @@
       "isPopular": true
     },
     {
-      "id": "4530370",
-      "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793811008",
-      "originalPrice": 2299,
-      "discountPrice": 2069,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793753407",
@@ -97,6 +97,19 @@
       "isPopular": true
     },
     {
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793811008",
+      "originalPrice": 2299,
+      "discountPrice": 2069,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
@@ -105,6 +118,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
