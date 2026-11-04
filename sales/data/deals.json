@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T00:00:33.454Z",
+  "lastUpdated": "2026-11-04T01:00:38.801Z",
   "steam": [
     {
       "id": "3768760",
@@ -82,7 +82,7 @@
     {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/66dfe342498a58fdbeaa2d18747c032ec83bd614/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1793644361",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793753407",
       "originalPrice": 2449,
       "discountPrice": 2449,
       "discountPercent": 0,
@@ -114,6 +114,32 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3218230",
+      "title": "ArcheAge Chronicles",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/77ea7a1ab6e5049ca3b7e26ab690f2f37a2dc4ed/capsule_616x353.jpg?t=1793752512",
+      "originalPrice": 620,
+      "discountPrice": 620,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3218230",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2320980",
+      "title": "Loftia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320980/9461189df97bd8eda3ca5fc80f1c59d767e6cd5b/capsule_616x353.jpg?t=1793732506",
+      "originalPrice": 599,
+      "discountPrice": 497,
+      "discountPercent": 17,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2320980",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
