@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T13:00:39.087Z",
+  "lastUpdated": "2026-11-04T14:00:35.143Z",
   "steam": [
     {
       "id": "3240220",
@@ -106,19 +106,6 @@
       "isPopular": true
     },
     {
-      "id": "3218230",
-      "title": "ArcheAge Chronicles",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/77ea7a1ab6e5049ca3b7e26ab690f2f37a2dc4ed/capsule_616x353.jpg?t=1793752512",
-      "originalPrice": 620,
-      "discountPrice": 620,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3218230",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4348910",
       "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793711740",
@@ -127,6 +114,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3218230",
+      "title": "ArcheAge Chronicles",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218230/77ea7a1ab6e5049ca3b7e26ab690f2f37a2dc4ed/capsule_616x353.jpg?t=1793752512",
+      "originalPrice": 620,
+      "discountPrice": 620,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3218230",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
