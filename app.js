@@ -395,19 +395,18 @@
   });
 
   /* ---------- Live GitHub releases sync ---------- */
-  const LATEST_CONFIG = {
-    'kubelens-v': { pattern: /setup\.exe$/i },
-    'netscope-v': { pattern: /portable\.zip$/i },
-    'rdm-v': { pattern: /setup\.exe$/i },
-    'diskcleaner-v': { pattern: /\.exe$/i },
-    'bck-v': { pattern: /linux.*\.tar\.gz$/i },
-    'uptime-v': { pattern: null },
-    'monitoring-v': { pattern: null },
-    'mygit-v': { pattern: null },
-    'gym-v': { pattern: null },
-    'sales-v': { pattern: null },
-  };
   async function syncLatestReleases() {
+    let LATEST_CONFIG;
+    try {
+      const catalogUrl = new URL('./apps/catalog.json', document.currentScript.src);
+      const response = await fetch(catalogUrl);
+      if (!response.ok) return;
+      const registry = await response.json();
+      if (!Array.isArray(registry.products)) return;
+      LATEST_CONFIG = Object.fromEntries(registry.products.map(({ prefix, assetPattern }) => {
+        return [prefix, { pattern: assetPattern ? new RegExp(assetPattern, 'i') : null }];
+      }));
+    } catch { return; }
     const CACHE_KEY = 'dist_releases_cache_v3';
     const CACHE_TTL = 10 * 60 * 1000;
     let releases = null;

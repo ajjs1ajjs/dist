@@ -39,6 +39,15 @@ jobs:
           token: ${{ secrets.SITE_DISPATCH_TOKEN }}
           path: site
 
+      - name: Checkout canonical distribution registry
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          path: dist
+          ref: main
+
+      - name: Sync distribution registry
+        run: cp dist/apps/catalog.json site/scripts/release-catalog.json
+
       - name: Setup Node.js
         uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
@@ -64,7 +73,7 @@ jobs:
         id: diff
         working-directory: site
         run: |
-          if git diff --quiet -- public/index.html public/p public/releases.json; then
+          if git diff --quiet -- public/index.html public/p public/releases.json scripts/release-catalog.json; then
             {
               echo "changed=false"
             } >> "$GITHUB_OUTPUT"
@@ -90,7 +99,7 @@ jobs:
           else
             MSG="chore(site): sync versions from dist"
           fi
-          git add public/index.html public/p public/releases.json
+          git add public/index.html public/p public/releases.json scripts/release-catalog.json
           git commit -m "$MSG"
           git push origin HEAD:main
 

@@ -18,18 +18,8 @@ const REPO = process.env.DIST_REPO || 'ajjs1ajjs/dist';
 // Патерни асета для A-посилань — 1:1 з LATEST_ASSET_PATTERNS в index.html.
 // Усі 12 префіксів (як у SITE sync-versions.mjs): спершу тут було лише 6, тож
 // fallback-версії bck/uptime/monitoring/mygit/gym/sales у HTML не оновлювались.
-const CONFIG = {
-  'kubelens-v': { pattern: /setup\.exe$/i },
-  'rdm-v': { pattern: /setup\.exe$/i },
-  'netscope-v': { pattern: /portable\.zip$/i },
-  'diskcleaner-v': { pattern: /\.exe$/i },
-  'bck-v': { pattern: /linux.*\.tar\.gz$/i },
-  'uptime-v': { pattern: null },
-  'monitoring-v': { pattern: null },
-  'mygit-v': { pattern: null },
-  'gym-v': { pattern: null },
-  'sales-v': { pattern: null },
-};
+const products = JSON.parse(readFileSync(CATALOG, 'utf8')).products;
+const CONFIG = Object.fromEntries(products.map(({ prefix, assetPattern }) => [prefix, { pattern: assetPattern ? new RegExp(assetPattern, 'i') : null }]));
 
 export async function fetchReleases(fetchImpl = fetch) {
   const headers = { 'User-Agent': 'dist-hub-sync', Accept: 'application/vnd.github+json' };

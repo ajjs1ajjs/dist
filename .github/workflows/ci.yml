@@ -28,7 +28,7 @@ jobs:
           node --check translations.js
           node scripts/validate-dialog-accessibility.mjs
           node --check scripts/sync-hub.mjs
-          node --test scripts/sync-hub.test.mjs
+          node --test scripts/sync-hub.test.mjs scripts/hub-browser.test.mjs
           node scripts/sync-hub.mjs --check-catalog
           node scripts/validate-sales-worker.mjs
         env:
@@ -40,6 +40,8 @@ jobs:
           done
       - name: Test BCK checksum failures
         run: bash scripts/test-bck-checksum.sh
+      - name: Test BCK rollback in a disposable Ubuntu container
+        run: docker run --rm -v "$GITHUB_WORKSPACE:/repo:ro" ubuntu:24.04 bash /repo/scripts/test-bck-rollback-container.sh
       - name: Test Sales fetcher
         working-directory: apps/sales/fetch
         run: |
