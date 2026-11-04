@@ -1,11 +1,11 @@
 {
-  "version": "0.3.39",
-  "notes": "KubeLens 0.3.39",
-  "pub_date": "2026-10-28T20:13:05.972Z",
+  "version": "0.3.40",
+  "notes": "KubeLens 0.3.40",
+  "pub_date": "2026-11-04T13:53:45.407Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZjRCV1ROdndRNmZsQzdoTlV1TS9LQ21KNDh2L1hDQ2VVcURodmFPVFZiK0I4Q1FzaGFmZzRudTBObzRXNThyMTl6bW9sMEdTYkJYL3VoU0plL2I2V0VETjluNHIxNGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjE4Mzg1CWZpbGU6S3ViZUxlbnNfMC4zLjM5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuMzkKcGtPa29QY000MnJ5YXE3dlora1k0OXFrQ3NlSGZiVFlWUkFuMC8zZG5OQ0s3TjZrcVZGY0lDWUsxK1hkZGV5Nm5waG5CTDRmSXF3TURCcTI5MkVFQlE9PQo=",
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.39/KubeLens_0.3.39_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUcjY0Q2s5NzFkN2lDUldxTjNtc3lBbFZtSkE4KzdpOVRZYnRCQnJoV2JBWUZGK1U2Z0s0Q2RZeWNkUDFPbGF2L2R4bFRURW5NcUdyd0JwUUdOanlMaTFOOVZncWJINEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODAwNDI1CWZpbGU6S3ViZUxlbnNfMC4zLjQwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjMuNDAKUFgxTmxaNC81TTRpMU5iaUovMW84dEN4Qk9lMFNrTVdXbzZNdEExUnBRajJNdW13dG5Hekt6NFRMZWx0eUVOTWlqS1I5NW8rT0dyVEY3YzVoQTF5QXc9PQo=",
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.40/KubeLens_0.3.40_x64-setup.exe"
     }
   }
 }
