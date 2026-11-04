@@ -25,7 +25,8 @@
 # Supply-chain:
 #   - Release archives must include a matching .sha256 asset; missing or
 #     mismatched checksums stop installation before any installed files change.
-#   - Cosign/minisign signatures are not yet verified by this installer.
+#   - Set DIST_REQUIRE_SIGNATURE=1 to require Sigstore verification with a
+#     separately installed, trusted Cosign binary. Legacy releases may lack a bundle.
 #
 # Database recovery:
 #   - Updates require a verified rollback snapshot. For external databases that
