@@ -2,7 +2,7 @@
 
 Моніторинг доступності та SSL (Go). **Сервер — Linux: Ubuntu 24/25/26 або Debian 11/12/13** (amd64/arm64).
 
-Актуальний реліз: [Uptime Monitor 3.10.31](https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.31).
+Актуальний реліз: [Uptime Monitor 3.10.32](https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.32).
 
 ## Встановлення / оновлення (одна команда)
 
@@ -17,7 +17,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 Конкретна версія:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.10.31 bash
+curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-monitor/install.sh | sudo env UPTIME_MONITOR_VERSION=3.10.32 bash
 ```
 
 ## Власний домен та HTTPS (3.10.31+)

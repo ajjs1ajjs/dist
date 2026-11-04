@@ -495,7 +495,7 @@ probe_configured_health() {
 echo -n "Waiting for the service to become healthy (port ${UM_PORT})..."
 HEALTHY=0
 DASHBOARD_URL="(see server.host / server.domain, server.port and server.tls in $CONFIG_FILE)"
-for i in $(seq 1 30); do
+for _ in $(seq 1 30); do
     if HEALTH_URL="$(probe_configured_health 2>/dev/null)"; then
         HEALTHY=1
         DASHBOARD_URL="$HEALTH_URL"
