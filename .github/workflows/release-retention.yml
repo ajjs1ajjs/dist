@@ -4,14 +4,12 @@ name: Release retention (keep last 3)
 # the 3 newest `prefix-vX.Y.Z` releases per product. Older ones go away
 # together with their tags (`--cleanup-tag`).
 #
+# Manually triggered only; no scheduled deletions.
 # NOTE: GitHub Releases on public repos are free/unlimited — this is hygiene,
 # not quota. Rollback is always possible to 2 previous versions, plus any
 # version can be rebuilt from source (`Release-Local.ps1 -Version X.Y.Z`).
 
 on:
-  schedule:
-    # Monthly, 1st day 03:17 UTC. Public repo — minutes are free.
-    - cron: '17 3 1 * *'
   workflow_dispatch:
     inputs:
       confirm_prune:
@@ -40,10 +38,11 @@ jobs:
           PREFIXES: 'sales gym bck kubelens rdm diskcleaner monitoring mygit uptime game netscope'
         run: |
           set -euo pipefail
+          # Fetch all pages once; an API failure must stop before any deletion.
+          tags=$(gh api --paginate "repos/$GITHUB_REPOSITORY/releases?per_page=100" --jq '.[].tag_name')
           for prefix in $PREFIXES; do
-            old=$(gh release list --limit 500 --json tagName --jq '.[].tagName' \
-              | grep -E "^${prefix}-v[0-9]+\.[0-9]+\.[0-9]+$" \
-              | sed "s/^${prefix}-v//" | sort -V -r | tail -n +$((KEEP+1)) || true)
+            old=$(printf '%s\n' "$tags" | { grep -E "^${prefix}-v[0-9]+\.[0-9]+\.[0-9]+$" || true; } \
+              | sed "s/^${prefix}-v//" | sort -V -r | tail -n +$((KEEP+1)))
             if [ -z "$old" ]; then
               echo "$prefix: nothing to prune"
               continue

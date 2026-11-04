@@ -31,16 +31,24 @@ const CONFIG = {
   'sales-v': { pattern: null },
 };
 
-async function fetchReleases() {
+export async function fetchReleases(fetchImpl = fetch) {
   const headers = { 'User-Agent': 'dist-hub-sync', Accept: 'application/vnd.github+json' };
   if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-  const res = await fetch(`https://api.github.com/repos/${REPO}/releases?per_page=100`, { headers });
-  if (!res.ok) throw new Error(`GitHub API ${res.status}`);
-  return (await res.json()).filter(r => !r.draft && !r.prerelease);
+  const releases = [];
+  for (let page = 1; page <= 50; page++) {
+    const res = await fetchImpl(`https://api.github.com/repos/${REPO}/releases?per_page=100&page=${page}`, { headers });
+    if (!res.ok) throw new Error(`GitHub API ${res.status} on page ${page}`);
+    const data = await res.json();
+    if (!Array.isArray(data)) throw new Error(`Invalid releases page ${page}`);
+    releases.push(...data.filter(r => !r.draft && !r.prerelease));
+    if (data.length < 100) return releases;
+  }
+  throw new Error('Release listing exceeded 50 pages; refusing incomplete selection');
 }
 
 function verParts(tag, prefix) {
-  return tag.slice(prefix.length).replace(/^v/i, '').split('.').map(n => parseInt(n, 10) || 0);
+  const version = tag.slice(prefix.length);
+  return /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/.test(version) ? version.split('.').map(Number) : null;
 }
 
 function cmpVer(a, b) {
@@ -49,6 +57,29 @@ function cmpVer(a, b) {
     if (d) return d;
   }
   return 0;
+}
+
+export function selectLatest(releases) {
+  const latest = {};
+  for (const rel of releases) {
+    if (!rel.tag_name) continue;
+    for (const prefix of Object.keys(CONFIG)) {
+      if (!rel.tag_name.startsWith(prefix)) continue;
+      const version = verParts(rel.tag_name, prefix);
+      if (!version) continue;
+      const cur = latest[prefix];
+      if (!cur || cmpVer(version, verParts(cur.tag_name, prefix)) > 0) {
+        latest[prefix] = rel;
+      }
+    }
+  }
+  return latest;
+}
+
+export function validateAsset(prefix, rel, asset) {
+  if (CONFIG[prefix]?.pattern && !asset?.browser_download_url) {
+    throw new Error(`Missing required asset for ${rel.tag_name}`);
+  }
 }
 
 const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -62,28 +93,19 @@ async function main() {
     console.error('FAIL:', err.message);
     process.exit(1);
   });
-  const latest = {};
-  for (const rel of releases) {
-    if (!rel.tag_name) continue;
-    for (const prefix of Object.keys(CONFIG)) {
-      if (!rel.tag_name.startsWith(prefix)) continue;
-      const cur = latest[prefix];
-      if (!cur || cmpVer(verParts(rel.tag_name, prefix), verParts(cur.tag_name, prefix)) > 0) {
-        latest[prefix] = rel;
-      }
-    }
-  }
+  const latest = selectLatest(releases);
 
   let html = readFileSync(INDEX, 'utf8');
   const changes = [];
   for (const [prefix, rel] of Object.entries(latest)) {
-    const ver = 'v' + rel.tag_name.slice(prefix.length).replace(/^v/i, '');
+    const pattern = CONFIG[prefix].pattern;
+    const asset = pattern ? rel.assets?.find(a => pattern.test(a.name)) : null;
+    validateAsset(prefix, rel, asset);
+    const ver = 'v' + rel.tag_name.slice(prefix.length);
     const verRe = new RegExp(`(data-latest-ver="${escRe(prefix)}">)[^<]*<`, 'g');
     const before = html;
     html = html.replace(verRe, `$1${ver}<`);
     if (html !== before) changes.push(`${prefix} ver -> ${ver}`);
-    const pattern = CONFIG[prefix].pattern;
-    const asset = pattern ? rel.assets?.find(a => pattern.test(a.name)) : null;
     if (asset?.browser_download_url) {
       const url = asset.browser_download_url;
       const hrefRe1 = new RegExp(`(data-latest-href="${escRe(prefix)}"[^>]*?href=")[^"]*(")`, 'g');
@@ -145,4 +167,6 @@ function checkCatalog() {
   console.log(`Каталог в синхроні: ${catalog.length} продуктів (${checks.map(c => c[0]).join('/')}/retention).`);
 }
 
-main();
+if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
+  main().catch(err => { console.error('FAIL:', err.message); process.exitCode = 1; });
+}

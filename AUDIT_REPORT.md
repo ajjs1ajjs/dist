@@ -1,3 +1,5 @@
+> This is a historical assessment of the 2026-10-28 checkout. Its 99/100 score is subjective and does not cover subsequent changes or prove production security.
+
 # Технічний аудит `dist` — підсумок після виправлень
 
 **Дата:** 28.10.2026, Europe/Kyiv. **Репозиторій:** `E:\Code\dist` (публічний distribution hub). **Commit із recovery fix:** `d40f397`; keyboard fix — `b768f25`. **Статус:** BCK installer recovery fix і audit report опубліковані; Distribution contract checks `40713363846` і Pages deployment `40713363550` завершилися success для `d40f397`. Production browser test на GitHub Pages підтвердив keyboard trap. Sales static artifact лишається `sales-v0.1.6`, бо локальна збірка ідентична опублікованій. BCK atomic release switch, SQLite rollback і відмова від непідтвердженого PostgreSQL upgrade перевірені у disposable Ubuntu 24.04 WSL із systemd.

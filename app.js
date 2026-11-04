@@ -408,7 +408,7 @@
     'sales-v': { pattern: null },
   };
   async function syncLatestReleases() {
-    const CACHE_KEY = 'dist_releases_cache_v2';
+    const CACHE_KEY = 'dist_releases_cache_v3';
     const CACHE_TTL = 10 * 60 * 1000;
     let releases = null;
     try {
@@ -420,12 +420,19 @@
     } catch {}
     if (!releases) {
       try {
-        const res = await fetch('https://api.github.com/repos/ajjs1ajjs/dist/releases?per_page=100');
-        if (res.ok) {
+        const pages = [];
+        let complete = false;
+        for (let page = 1; page <= 50; page++) {
+          const res = await fetch(`https://api.github.com/repos/ajjs1ajjs/dist/releases?per_page=100&page=${page}`);
+          if (!res.ok) throw new Error('Release request failed');
           const data = await res.json();
-          releases = data.filter((r) => !r.draft && !r.prerelease);
-          try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: releases })); } catch {}
+          if (!Array.isArray(data)) throw new Error('Invalid release response');
+          pages.push(...data.filter((r) => !r.draft && !r.prerelease));
+          if (data.length < 100) { complete = true; break; }
         }
+        if (!complete) throw new Error('Incomplete release listing');
+        releases = pages;
+        try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: releases })); } catch {}
       } catch {}
     }
     if (!releases || !releases.length) return;
@@ -435,11 +442,17 @@
     const cmp = (a, b) => { for (let i = 0; i < Math.max(a.length, b.length); i++) { const d = (a[i] || 0) - (b[i] || 0); if (d) return d; } return 0; };
     for (const rel of releases) {
       for (const prefix of Object.keys(LATEST_CONFIG)) {
-        if (!rel.tag_name?.startsWith(prefix)) continue;
+        if (!rel.tag_name?.startsWith(prefix) || !/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/.test(rel.tag_name.slice(prefix.length))) continue;
         const cur = latest[prefix];
         const ver = (t2) => nums(t2.tag_name.slice(prefix.length).replace(/^v/i, ''));
         if (!cur || cmp(ver(rel), ver(cur)) > 0) latest[prefix] = rel;
       }
+    }
+
+    // Preserve static version and link together when a release is incomplete.
+    for (const [prefix, rel] of Object.entries(latest)) {
+      const pattern = LATEST_CONFIG[prefix].pattern;
+      if (pattern && !rel.assets?.some((a) => pattern.test(a.name) && /^https:\/\/github\.com\/ajjs1ajjs\/dist\/releases\/download\//.test(a.browser_download_url || ''))) delete latest[prefix];
     }
 
     $$('[data-latest-ver]').forEach((el) => {
@@ -451,7 +464,7 @@
       const rel = latest[prefix];
       const cfg = LATEST_CONFIG[prefix];
       if (!rel || !cfg?.pattern || !rel.assets) return;
-      const asset = rel.assets.find((a) => cfg.pattern.test(a.name));
+      const asset = rel.assets.find((a) => cfg.pattern.test(a.name) && /^https:\/\/github\.com\/ajjs1ajjs\/dist\/releases\/download\//.test(a.browser_download_url || ''));
       // S5: підставляємо тільки лінки на наші релізи dist
       if (asset?.browser_download_url && /^https:\/\/(github\.com\/ajjs1ajjs\/dist\/releases\/download\/|objects\.githubusercontent\.com\/)/.test(asset.browser_download_url)) {
         el.href = asset.browser_download_url;
@@ -462,7 +475,7 @@
       const rel = latest[prefix];
       const cfg = LATEST_CONFIG[prefix];
       if (!rel || !cfg?.pattern || !rel.assets) return;
-      const asset = rel.assets.find((a) => cfg.pattern.test(a.name));
+      const asset = rel.assets.find((a) => cfg.pattern.test(a.name) && /^https:\/\/github\.com\/ajjs1ajjs\/dist\/releases\/download\//.test(a.browser_download_url || ''));
       if (asset?.name) el.textContent = asset.name;
     });
   }

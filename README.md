@@ -39,6 +39,12 @@
 
 ---
 
+### Installer verification and local tests
+
+The `curl | sudo bash` commands below immediately execute a downloaded script as root. To inspect an installer first, download the relevant `apps/<product>/install.sh`, review it and compare it with a trusted copy before running `sudo bash ./install.sh`. Checksums shipped with release binaries detect corruption but do not independently authenticate their origin. Installer and artifact signatures with an independent trusted key are not yet configured.
+
+For Sales tests, use Node.js 24 or newer and run `npm ci`, `npm run check`, and `npm test` in `apps/sales/fetch`. Install dependencies separately in Windows and WSL/Linux: `node_modules` contains platform-specific binaries.
+
 <a id="products"></a>
 
 ## 📦 Продукти
