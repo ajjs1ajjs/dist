@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T08:00:29.579Z",
+  "lastUpdated": "2026-11-05T09:00:31.532Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T08:00:29.579Z",
-    "gamepass": "2026-11-05T08:00:29.579Z"
+    "steam": "2026-11-05T09:00:31.532Z",
+    "gamepass": "2026-11-05T09:00:31.532Z"
   },
   "steam": [
     {
@@ -14,19 +14,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
-      "originalPrice": 1849,
-      "discountPrice": 1109,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -45,6 +32,19 @@
       "isPopular": false
     },
     {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1849,
+      "discountPrice": 1109,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2615540",
       "title": "VOID/BREAKER",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/ca1b70d390e376f6c47e573d6c6279d630ee1097/capsule_616x353_alt_assets_8.jpg?t=1793821113",
@@ -58,19 +58,6 @@
       "isPopular": false
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -79,6 +66,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -149,14 +149,14 @@
       "isPopular": true
     },
     {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
-      "originalPrice": 210,
-      "discountPrice": 210,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
