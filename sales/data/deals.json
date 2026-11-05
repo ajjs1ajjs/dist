@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T14:00:34.610Z",
+  "lastUpdated": "2026-11-05T15:00:35.956Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T14:00:34.610Z",
-    "gamepass": "2026-11-05T14:00:34.610Z"
+    "steam": "2026-11-05T15:00:35.956Z",
+    "gamepass": "2026-11-05T15:00:35.956Z"
   },
   "steam": [
     {
@@ -16,7 +16,7 @@
       "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "648800",
@@ -110,6 +110,19 @@
       "isPopular": true
     },
     {
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793890375",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4634220",
       "title": "FINAL FANTASY XIV: Evercold",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
@@ -118,19 +131,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4634220",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793801444",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
