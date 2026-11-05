@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T22:00:32.070Z",
+  "lastUpdated": "2026-11-05T23:00:32.941Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T22:00:32.070Z",
-    "gamepass": "2026-11-05T22:00:32.070Z"
+    "steam": "2026-11-05T23:00:32.941Z",
+    "gamepass": "2026-11-05T23:00:32.941Z"
   },
   "steam": [
     {
@@ -21,12 +21,25 @@
     {
       "id": "2448570",
       "title": "Road Rash™: Видання до 30-річчя",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/5f09646c8f952501b5247b884c68c70f006ad371/capsule_616x353.jpg?t=1793901294",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/5f09646c8f952501b5247b884c68c70f006ad371/capsule_616x353.jpg?t=1793919166",
       "originalPrice": 349,
       "discountPrice": 174,
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2448570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "12210",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
+      "originalPrice": 429,
+      "discountPrice": 128,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/12210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -105,19 +118,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4634220",
-      "title": "FINAL FANTASY XIV: Evercold",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
-      "originalPrice": 1200,
-      "discountPrice": 1200,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4634220",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true

@@ -531,6 +531,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-05T22:00:36.003Z"
+    },
+    {
+      "id": "d5359d31e9eb7e3767155ccc",
+      "createdAt": "2026-11-05T23:00:32.941Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grand Theft Auto IV: The Complete Edition</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>128 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/12210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_12210",
+          "entry": {
+            "title": "Grand Theft Auto IV: The Complete Edition",
+            "price": 128,
+            "percent": 70,
+            "timestamp": "2026-11-05T23:00:32.941Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
