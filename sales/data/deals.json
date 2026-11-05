@@ -1498,6 +1498,13 @@
       "percent": 40,
       "timestamp": "2026-11-05T12:00:31.343Z",
       "type": "discount"
+    },
+    "gamepass_9P743P6195Q5": {
+      "title": "Escape Academy 2: Back 2 School",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-11-05T19:00:31.029Z",
+      "type": "gamepass"
     }
   }
 }
