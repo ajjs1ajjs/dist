@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-04T23:00:31.190Z",
+  "lastUpdated": "2026-11-05T00:00:34.365Z",
   "sourceUpdates": {
-    "steam": "2026-11-04T23:00:31.190Z",
-    "gamepass": "2026-11-04T23:00:31.190Z"
+    "steam": "2026-11-05T00:00:34.365Z",
+    "gamepass": "2026-11-05T00:00:34.365Z"
   },
   "steam": [
     {
@@ -19,19 +19,6 @@
       "isPopular": false
     },
     {
-      "id": "3375780",
-      "title": "Trails in the Sky 1st Chapter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/a256c3cc1601eb983578ab77ae36c121091a3f4f/capsule_616x353.jpg?t=1791225209",
-      "originalPrice": 1125,
-      "discountPrice": 562,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3375780",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
@@ -40,6 +27,19 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3375780",
+      "title": "Trails in the Sky 1st Chapter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/a256c3cc1601eb983578ab77ae36c121091a3f4f/capsule_616x353.jpg?t=1791225209",
+      "originalPrice": 1125,
+      "discountPrice": 562,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3375780",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -71,6 +71,19 @@
       "isPopular": true
     },
     {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793833638",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4634220",
       "title": "FINAL FANTASY XIV: Evercold",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
@@ -79,19 +92,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4634220",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793753407",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
