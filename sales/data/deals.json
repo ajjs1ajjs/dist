@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T20:00:32.868Z",
+  "lastUpdated": "2026-11-05T21:00:29.784Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T20:00:32.868Z",
-    "gamepass": "2026-11-05T20:00:32.868Z"
+    "steam": "2026-11-05T21:00:29.784Z",
+    "gamepass": "2026-11-05T21:00:29.784Z"
   },
   "steam": [
     {
@@ -19,19 +19,6 @@
       "isPopular": false
     },
     {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "252490",
       "title": "Rust",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
@@ -40,6 +27,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -484,15 +484,6 @@
       "isPopular": true
     },
     {
-      "id": "9PB301R051CQ",
-      "title": "League of Legends",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
-      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
-      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9N8KMNW6942X",
       "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.58660.14316447222402733.7ce700b1-c1f1-4c72-a33b-ea4a18861dcb.784fadc8-05a3-4d01-b772-2ca2c4d6e955",
@@ -507,6 +498,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.49174.13739535057760905.ee63b998-143e-4256-bd0e-3e78d667ab11.963f63f6-39e4-49ae-9285-4bb326510e56",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-warzone/9NNFG8BQRCXL",
       "description": "Call of Duty®: Warzone™ will no longer be playable on Xbox One at the end of Season 06 of Black Ops 7. Welcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling m",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PB301R051CQ",
+      "title": "League of Legends",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
+      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
+      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
       "isNew": false,
       "isPopular": true
     },
@@ -538,15 +538,6 @@
       "isPopular": true
     },
     {
-      "id": "9WZDNCRFHWD2",
-      "title": "Microsoft Solitaire Collection",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
-      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
-      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9NDKFJ6XDX2M",
       "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
@@ -565,20 +556,11 @@
       "isPopular": true
     },
     {
-      "id": "9N0H62KZ3BXV",
-      "title": "Diablo® IV PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
-      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
-      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "id": "9WZDNCRFHWD2",
+      "title": "Microsoft Solitaire Collection",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
+      "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
       "isNew": false,
       "isPopular": true
     },
@@ -592,11 +574,20 @@
       "isPopular": true
     },
     {
-      "id": "9P2VGCTBMM52",
-      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
-      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
-      "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N0H62KZ3BXV",
+      "title": "Diablo® IV PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
+      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
+      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
       "isNew": false,
       "isPopular": true
     },
@@ -606,6 +597,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
       "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
       "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9P2VGCTBMM52",
+      "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
+      "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
       "isNew": false,
       "isPopular": true
     }
