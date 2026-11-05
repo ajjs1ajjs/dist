@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T19:00:31.029Z",
+  "lastUpdated": "2026-11-05T20:00:32.868Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T19:00:31.029Z",
-    "gamepass": "2026-11-05T19:00:31.029Z"
+    "steam": "2026-11-05T20:00:32.868Z",
+    "gamepass": "2026-11-05T20:00:32.868Z"
   },
   "steam": [
     {
@@ -131,19 +131,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3204330",
-      "title": "Графство Фортуни",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204330/7bd08605c1c4def613980bd03c7f15b19f47c989/capsule_616x353_alt_assets_3_ukrainian.jpg?t=1793894371",
-      "originalPrice": 399,
-      "discountPrice": 359,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3204330",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
