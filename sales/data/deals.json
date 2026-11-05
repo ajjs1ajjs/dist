@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T02:00:29.288Z",
+  "lastUpdated": "2026-11-05T03:00:28.635Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T02:00:29.288Z",
-    "gamepass": "2026-11-05T02:00:29.288Z"
+    "steam": "2026-11-05T03:00:28.635Z",
+    "gamepass": "2026-11-05T03:00:28.635Z"
   },
   "steam": [
     {
@@ -45,19 +45,6 @@
       "isPopular": false
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793833638",
@@ -66,6 +53,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -123,19 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
-      "originalPrice": 210,
-      "discountPrice": 210,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4348910",
       "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793801444",
@@ -144,6 +131,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 210,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
