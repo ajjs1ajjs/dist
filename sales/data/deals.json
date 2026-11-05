@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T18:00:34.244Z",
+  "lastUpdated": "2026-11-05T19:00:31.029Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T18:00:34.244Z",
-    "gamepass": "2026-11-05T18:00:34.244Z"
+    "steam": "2026-11-05T19:00:31.029Z",
+    "gamepass": "2026-11-05T19:00:31.029Z"
   },
   "steam": [
     {
@@ -27,6 +27,19 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -58,19 +71,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793811008",
@@ -84,14 +84,14 @@
       "isPopular": true
     },
     {
-      "id": "4634220",
-      "title": "FINAL FANTASY XIV: Evercold",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
-      "originalPrice": 1200,
-      "discountPrice": 1200,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4634220",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -110,27 +110,14 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793890375",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 1349,
+      "id": "4634220",
+      "title": "FINAL FANTASY XIV: Evercold",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
+      "originalPrice": 1200,
+      "discountPrice": 1200,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
+      "url": "https://store.steampowered.com/app/4634220",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -147,9 +134,44 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
+    },
+    {
+      "id": "3204330",
+      "title": "Графство Фортуни",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204330/7bd08605c1c4def613980bd03c7f15b19f47c989/capsule_616x353_alt_assets_3_ukrainian.jpg?t=1793894371",
+      "originalPrice": 399,
+      "discountPrice": 359,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3204330",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9P743P6195Q5",
+      "title": "Escape Academy 2: Back 2 School",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.32631.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.2e5926a3-35be-4a51-8be8-9ef169001222",
+      "url": "https://www.xbox.com/uk-UA/games/store/escape-academy-2-back-2-school/9P743P6195Q5",
+      "description": "Class is (back) in session with Escape Academy 2: Back 2 School! Explore an all-new campus, escape life-threatening puzzle rooms, and unravel a conspiracy as old as the school itself — all before the ",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9N8RKWJT32L4",
       "title": "Firefighting Simulator: Ignite",

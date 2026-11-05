@@ -491,6 +491,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-05T12:00:37.785Z"
+    },
+    {
+      "id": "b5796bdb3485a01fd640da21",
+      "createdAt": "2026-11-05T19:00:31.029Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Escape Academy 2: Back 2 School</b>\n📝 Class is (back) in session with Escape Academy 2: Back 2 School! Explore an all-new campus, escape life-threatening puzz…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/escape-academy-2-back-2-school/9P743P6195Q5\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9P743P6195Q5",
+          "entry": {
+            "title": "Escape Academy 2: Back 2 School",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-05T19:00:31.029Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
