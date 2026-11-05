@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T13:00:31.289Z",
+  "lastUpdated": "2026-11-05T14:00:34.610Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T13:00:31.289Z",
-    "gamepass": "2026-11-05T13:00:31.289Z"
+    "steam": "2026-11-05T14:00:34.610Z",
+    "gamepass": "2026-11-05T14:00:34.610Z"
   },
   "steam": [
     {
@@ -19,19 +19,6 @@
       "isPopular": true
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
-      "originalPrice": 1849,
-      "discountPrice": 1109,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "648800",
       "title": "Raft",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
@@ -40,6 +27,19 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/648800",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "originalPrice": 1849,
+      "discountPrice": 1109,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -136,14 +136,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -614,48 +614,6 @@
       "price": 55,
       "percent": 80,
       "timestamp": "2026-10-27T13:00:30.724Z",
-      "type": "discount"
-    },
-    "steam_discount_107410": {
-      "title": "Arma 3",
-      "price": 187,
-      "percent": 75,
-      "timestamp": "2026-10-06T14:00:06.485Z",
-      "type": "discount"
-    },
-    "steam_discount_530611": {
-      "title": "End of Zoe",
-      "price": 122,
-      "percent": 75,
-      "timestamp": "2026-10-06T14:00:06.485Z",
-      "type": "discount"
-    },
-    "steam_discount_477160": {
-      "title": "Human Fall Flat",
-      "price": 83,
-      "percent": 70,
-      "timestamp": "2026-10-06T14:00:06.485Z",
-      "type": "discount"
-    },
-    "steam_discount_553640": {
-      "title": "ICEY",
-      "price": 62,
-      "percent": 65,
-      "timestamp": "2026-10-06T14:00:06.485Z",
-      "type": "discount"
-    },
-    "steam_discount_513710": {
-      "title": "SCUM",
-      "price": 460,
-      "percent": 60,
-      "timestamp": "2026-10-06T14:00:06.485Z",
-      "type": "discount"
-    },
-    "steam_discount_1129580": {
-      "title": "Medieval Dynasty",
-      "price": 345,
-      "percent": 50,
-      "timestamp": "2026-10-06T14:00:06.485Z",
       "type": "discount"
     },
     "steam_discount_3240220": {
