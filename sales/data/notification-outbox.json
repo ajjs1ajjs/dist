@@ -511,6 +511,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-05T19:00:34.809Z"
+    },
+    {
+      "id": "82adbdb12b35d32ef1a1ed35",
+      "createdAt": "2026-11-05T22:00:32.070Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Road Rash™: Видання до 30-річчя</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>349 грн</s> ➡️ <b>174 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2448570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2448570",
+          "entry": {
+            "title": "Road Rash™: Видання до 30-річчя",
+            "price": 174,
+            "percent": 50,
+            "timestamp": "2026-11-05T22:00:32.070Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
