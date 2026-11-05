@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T07:00:41.096Z",
+  "lastUpdated": "2026-11-05T08:00:29.579Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T07:00:41.096Z",
-    "gamepass": "2026-11-05T07:00:41.096Z"
+    "steam": "2026-11-05T08:00:29.579Z",
+    "gamepass": "2026-11-05T08:00:29.579Z"
   },
   "steam": [
     {
@@ -32,19 +32,6 @@
       "isPopular": false
     },
     {
-      "id": "2615540",
-      "title": "VOID/BREAKER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/ca1b70d390e376f6c47e573d6c6279d630ee1097/capsule_616x353_alt_assets_8.jpg?t=1793821113",
-      "originalPrice": 690,
-      "discountPrice": 414,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2615540",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "648800",
       "title": "Raft",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
@@ -53,6 +40,19 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/648800",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2615540",
+      "title": "VOID/BREAKER",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/ca1b70d390e376f6c47e573d6c6279d630ee1097/capsule_616x353_alt_assets_8.jpg?t=1793821113",
+      "originalPrice": 690,
+      "discountPrice": 414,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2615540",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -71,19 +71,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793833638",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
@@ -97,14 +84,14 @@
       "isPopular": true
     },
     {
-      "id": "4634220",
-      "title": "FINAL FANTASY XIV: Evercold",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
-      "originalPrice": 1200,
-      "discountPrice": 1200,
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/bda2c357d3c05f49e9e8ed55542e7400ad407da0/capsule_616x353.jpg?t=1793833638",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4634220",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -118,6 +105,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4634220",
+      "title": "FINAL FANTASY XIV: Evercold",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
+      "originalPrice": 1200,
+      "discountPrice": 1200,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4634220",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
