@@ -1495,6 +1495,13 @@
       "percent": 50,
       "timestamp": "2026-11-05T22:00:32.070Z",
       "type": "discount"
+    },
+    "steam_discount_12210": {
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "price": 128,
+      "percent": 70,
+      "timestamp": "2026-11-05T23:00:32.941Z",
+      "type": "discount"
     }
   }
 }
