@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T11:00:30.519Z",
+  "lastUpdated": "2026-11-05T12:00:31.343Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T11:00:30.519Z",
-    "gamepass": "2026-11-05T11:00:30.519Z"
+    "steam": "2026-11-05T12:00:31.343Z",
+    "gamepass": "2026-11-05T12:00:31.343Z"
   },
   "steam": [
     {
@@ -32,6 +32,19 @@
       "isPopular": false
     },
     {
+      "id": "2784180",
+      "title": "Seleka-san who Exposes unnoticed with Naked Coat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784180/a0afcd14c1aca3d7adf1f5381582276077294510/capsule_616x353.jpg?t=1793869208",
+      "originalPrice": 325,
+      "discountPrice": 195,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2784180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "648800",
       "title": "Raft",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/capsule_616x353.jpg?t=1727184011",
@@ -45,17 +58,17 @@
       "isPopular": false
     },
     {
-      "id": "2615540",
-      "title": "VOID/BREAKER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/ca1b70d390e376f6c47e573d6c6279d630ee1097/capsule_616x353_alt_assets_8.jpg?t=1793821113",
-      "originalPrice": 690,
-      "discountPrice": 414,
-      "discountPercent": 40,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2615540",
-      "isSpecial": true,
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4165890",
@@ -66,19 +79,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -131,19 +131,6 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4348910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true

@@ -471,6 +471,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-05T01:00:35.286Z"
+    },
+    {
+      "id": "feecb9f2ef02bc29bea7aa6b",
+      "createdAt": "2026-11-05T12:00:31.343Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Seleka-san who Exposes unnoticed with Naked Coat</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>195 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2784180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2784180",
+          "entry": {
+            "title": "Seleka-san who Exposes unnoticed with Naked Coat",
+            "price": 195,
+            "percent": 40,
+            "timestamp": "2026-11-05T12:00:31.343Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
