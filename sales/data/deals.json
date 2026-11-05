@@ -1491,6 +1491,13 @@
       "percent": 40,
       "timestamp": "2026-11-04T23:00:31.190Z",
       "type": "discount"
+    },
+    "gamepass_9N8RKWJT32L4": {
+      "title": "Firefighting Simulator: Ignite",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-11-05T01:00:31.300Z",
+      "type": "gamepass"
     }
   }
 }
