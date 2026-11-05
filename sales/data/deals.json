@@ -1488,6 +1488,13 @@
       "percent": 0,
       "timestamp": "2026-11-05T19:00:31.029Z",
       "type": "gamepass"
+    },
+    "steam_discount_2448570": {
+      "title": "Road Rash™: Видання до 30-річчя",
+      "price": 174,
+      "percent": 50,
+      "timestamp": "2026-11-05T22:00:32.070Z",
+      "type": "discount"
     }
   }
 }
