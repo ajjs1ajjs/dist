@@ -451,6 +451,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-04T23:00:34.555Z"
+    },
+    {
+      "id": "93bc9fe62d3f67641a79fa42",
+      "createdAt": "2026-11-05T01:00:31.300Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Firefighting Simulator: Ignite</b>\n📝 РАЗОМ ПРОТИ ВОГНЮ. Сміливо долайте непередбачувані загрози, гасіть нищівний вогонь разом із командою й рятуйте життя в F…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/firefighting-simulator-ignite/9N8RKWJT32L4\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9N8RKWJT32L4",
+          "entry": {
+            "title": "Firefighting Simulator: Ignite",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-05T01:00:31.300Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

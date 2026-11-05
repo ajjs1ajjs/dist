@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-05T00:00:34.365Z",
+  "lastUpdated": "2026-11-05T01:00:31.300Z",
   "sourceUpdates": {
-    "steam": "2026-11-05T00:00:34.365Z",
-    "gamepass": "2026-11-05T00:00:34.365Z"
+    "steam": "2026-11-05T01:00:31.300Z",
+    "gamepass": "2026-11-05T01:00:31.300Z"
   },
   "steam": [
     {
@@ -27,19 +27,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3375780",
-      "title": "Trails in the Sky 1st Chapter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/a256c3cc1601eb983578ab77ae36c121091a3f4f/capsule_616x353.jpg?t=1791225209",
-      "originalPrice": 1125,
-      "discountPrice": 562,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3375780",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -97,19 +84,6 @@
       "isPopular": true
     },
     {
-      "id": "4530370",
-      "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793811008",
-      "originalPrice": 2299,
-      "discountPrice": 2069,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
@@ -118,6 +92,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793811008",
+      "originalPrice": 2299,
+      "discountPrice": 2069,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530370",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -136,20 +123,29 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 210,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     }
   ],
   "gamepass": [
+    {
+      "id": "9N8RKWJT32L4",
+      "title": "Firefighting Simulator: Ignite",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.30093.14039390486448903.600abc2c-9f2a-489a-8d46-0eefc0946576.5daffa7b-9822-43a9-87dd-a8e6ee21249b",
+      "url": "https://www.xbox.com/uk-UA/games/store/firefighting-simulator-ignite/9N8RKWJT32L4",
+      "description": "РАЗОМ ПРОТИ ВОГНЮ. Сміливо долайте непередбачувані загрози, гасіть нищівний вогонь разом із командою й рятуйте життя в Firefighting Simulator: Ignite. Відчуйте себе справжнім американським пожежником ",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9N4NKMXDZCX6",
       "title": "Football Manager 27",
