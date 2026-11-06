@@ -1515,6 +1515,13 @@
       "percent": 70,
       "timestamp": "2026-11-05T23:00:32.941Z",
       "type": "discount"
+    },
+    "steam_discount_1211600": {
+      "title": "ZED ZONE",
+      "price": 159,
+      "percent": 40,
+      "timestamp": "2026-11-06T11:00:35.196Z",
+      "type": "discount"
     }
   }
 }
