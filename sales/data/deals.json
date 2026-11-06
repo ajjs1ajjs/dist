@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-11-06T15:00:35.339Z",
+  "lastUpdated": "2026-11-06T16:00:32.995Z",
   "sourceUpdates": {
-    "steam": "2026-11-06T15:00:35.339Z",
-    "gamepass": "2026-11-06T15:00:35.339Z"
+    "steam": "2026-11-06T16:00:32.995Z",
+    "gamepass": "2026-11-06T16:00:32.995Z"
   },
   "steam": [
     {
       "id": "3768760",
       "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c8fd64a71c14b826d9b47073c1f89b7497b09ef5/capsule_616x353_alt_assets_4.jpg?t=1791886607",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1793979129",
       "originalPrice": 1849,
       "discountPrice": 1109,
       "discountPercent": 40,
@@ -32,6 +32,19 @@
       "isPopular": false
     },
     {
+      "id": "2448570",
+      "title": "Road Rash™: Видання до 30-річчя",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/5f09646c8f952501b5247b884c68c70f006ad371/capsule_616x353.jpg?t=1793980066",
+      "originalPrice": 349,
+      "discountPrice": 174,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2448570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "1211600",
       "title": "ZED ZONE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1793949713",
@@ -40,19 +53,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1211600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2448570",
-      "title": "Road Rash™: Видання до 30-річчя",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/5f09646c8f952501b5247b884c68c70f006ad371/capsule_616x353.jpg?t=1793919166",
-      "originalPrice": 349,
-      "discountPrice": 174,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2448570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -144,6 +144,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
