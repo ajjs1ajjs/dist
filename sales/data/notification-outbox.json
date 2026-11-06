@@ -551,6 +551,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-05T23:00:36.747Z"
+    },
+    {
+      "id": "9ade16cba3f98dbe5c0e179f",
+      "createdAt": "2026-11-06T11:00:35.196Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>ZED ZONE</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>265 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1211600\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_1211600",
+          "entry": {
+            "title": "ZED ZONE",
+            "price": 159,
+            "percent": 40,
+            "timestamp": "2026-11-06T11:00:35.196Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
