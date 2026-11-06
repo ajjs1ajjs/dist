@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T00:00:30.368Z",
+  "lastUpdated": "2026-11-06T01:00:33.942Z",
   "sourceUpdates": {
-    "steam": "2026-11-06T00:00:30.368Z",
-    "gamepass": "2026-11-06T00:00:30.368Z"
+    "steam": "2026-11-06T01:00:33.942Z",
+    "gamepass": "2026-11-06T01:00:33.942Z"
   },
   "steam": [
     {
@@ -47,7 +47,7 @@
     {
       "id": "4165890",
       "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1789408623",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
@@ -484,6 +484,24 @@
       "isPopular": true
     },
     {
+      "id": "9NKCCHCFTHV2",
+      "title": "VALORANT PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.46961.13663857844271189.005b5800-25c5-439e-8a6e-fdb02b928900.9940c683-c952-4288-8a40-183dcd1c6b3f",
+      "url": "https://www.xbox.com/uk-UA/games/store/valorant-pc/9NKCCHCFTHV2",
+      "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork. DEFY THE LIM",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9PB301R051CQ",
+      "title": "League of Legends",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
+      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
+      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9N8KMNW6942X",
       "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.58660.14316447222402733.7ce700b1-c1f1-4c72-a33b-ea4a18861dcb.784fadc8-05a3-4d01-b772-2ca2c4d6e955",
@@ -502,20 +520,11 @@
       "isPopular": true
     },
     {
-      "id": "9PB301R051CQ",
-      "title": "League of Legends",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
-      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
-      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NKCCHCFTHV2",
-      "title": "VALORANT PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.46961.13663857844271189.005b5800-25c5-439e-8a6e-fdb02b928900.9940c683-c952-4288-8a40-183dcd1c6b3f",
-      "url": "https://www.xbox.com/uk-UA/games/store/valorant-pc/9NKCCHCFTHV2",
-      "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork. DEFY THE LIM",
+      "id": "9P36DQX6W9CS",
+      "title": "Overwatch® PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61926.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.37d8b348-3f90-4136-84f7-318395b75e82",
+      "url": "https://www.xbox.com/uk-UA/games/store/overwatch-pc/9P36DQX6W9CS",
+      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня",
       "isNew": false,
       "isPopular": true
     },
@@ -525,15 +534,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
       "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9P36DQX6W9CS",
-      "title": "Overwatch® PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.61926.14548245473193065.3d2dbc10-d879-4882-a2bb-cf42a6790f66.37d8b348-3f90-4136-84f7-318395b75e82",
-      "url": "https://www.xbox.com/uk-UA/games/store/overwatch-pc/9P36DQX6W9CS",
-      "description": "Overwatch — це безкоштовна командна гра в жанрі «геройська стрілянка», що постійно розвивається й наповнюється подіями. Її сюжет розгортається в оптимістичному майбутньому, де кожен матч — це справжня",
       "isNew": false,
       "isPopular": true
     },
@@ -552,6 +552,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
       "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NP6WL1XQDBW",
+      "title": "SnowRunner - Windows",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
+      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
+      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
       "isNew": false,
       "isPopular": true
     },
@@ -583,11 +592,11 @@
       "isPopular": true
     },
     {
-      "id": "9NP6WL1XQDBW",
-      "title": "SnowRunner - Windows",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
-      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
-      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
+      "id": "9NKX70BBCDRN",
+      "title": "Forza Horizon 5 Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
       "isPopular": true
     },
@@ -597,15 +606,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
       "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NKX70BBCDRN",
-      "title": "Forza Horizon 5 Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
-      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
-      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
       "isPopular": true
     },
