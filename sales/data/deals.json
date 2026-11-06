@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T01:00:33.942Z",
+  "lastUpdated": "2026-11-06T02:00:31.485Z",
   "sourceUpdates": {
-    "steam": "2026-11-06T01:00:33.942Z",
-    "gamepass": "2026-11-06T01:00:33.942Z"
+    "steam": "2026-11-06T02:00:31.485Z",
+    "gamepass": "2026-11-06T02:00:31.485Z"
   },
   "steam": [
     {
@@ -110,19 +110,6 @@
       "isPopular": true
     },
     {
-      "id": "2411200",
-      "title": "Underkeep",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2411200/b678b25c12b8be4eefca5d57688843cdde4f9417/capsule_616x353.jpg?t=1793898448",
-      "originalPrice": 487,
-      "discountPrice": 413,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2411200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -136,14 +123,27 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "2411200",
+      "title": "Underkeep",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2411200/b678b25c12b8be4eefca5d57688843cdde4f9417/capsule_616x353.jpg?t=1793898448",
+      "originalPrice": 487,
+      "discountPrice": 413,
+      "discountPercent": 15,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/2411200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793890375",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
