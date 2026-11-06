@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T04:00:27.820Z",
+  "lastUpdated": "2026-11-06T05:00:29.647Z",
   "sourceUpdates": {
-    "steam": "2026-11-06T04:00:27.820Z",
-    "gamepass": "2026-11-06T04:00:27.820Z"
+    "steam": "2026-11-06T05:00:29.647Z",
+    "gamepass": "2026-11-06T05:00:29.647Z"
   },
   "steam": [
     {
@@ -131,6 +131,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4634220",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435640",
+      "title": "Uninitialized",
+      "imageUrl": "",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435640",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
