@@ -1,0 +1,11 @@
+{
+    "version":  "0.5.1",
+    "notes":  "Vilno VPN 0.5.1",
+    "pub_date":  "2026-11-06T09:18:25.7996438Z",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUR3JwbzVzcDQwK0VMWC9CL1liN3ZVU1c1WmNmaUlpdEhkSWMyWnBuUnJobE9BWGEvYmdYbmdiREt5QmcxelgwUGN2eHFiWHoxTDB4cXNhNEJKVmVYSEgwMFltUE5qcmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTU2Njc4CWZpbGU6Vmlsbm8gVlBOXzAuNS4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMQpBVzlGRTFpMUc0MnNpQmNOdmFTOEZUMWMrK1ArYVJhbTIzSXhrY1JIU3E4OHFvQ0lSVzZVK0F3L3lHaFlIOUQ2b2d0eVg3YXo2NUpMcnhrYXZ2QzdDQT09Cg==",
+                                             "url":  "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.1/Vilno.VPN_0.5.1_x64-setup.exe"
+                                         }
+                  }
+}
