@@ -1,10 +1,10 @@
 {
-    "version":  "2.4.8",
-    "notes":  "Rebuild of 2.4.7 with Authenticode signing for both NetScope.exe and setup.exe. Inno Setup installer included. Full pytest: 249 passed. Full Changelog: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.7...netscope-v2.4.8",
-    "pubkey":  "/glRZ7Haj1p+DzVlqrFkteJ8TglE4q7g6yjmPV+WhKQ=",
-    "portable":  {
-                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.8/NetScope-v2.4.8-update.zip",
-                     "sha256":  "ea3db993b6301996ee9b9d24e14a0ced2887536e42e3122fb284bf267c7bb749",
-                     "signature":  "ms0t26psUGSzOJ1KNwlF5t5k3grHPy0TTGRHvP6MI1VsCnmTgaZcPaxFFbS8AjZiQqQapsP5wcbjefO1cIsRAQ=="
-                 }
+  "version": "2.4.9",
+  "notes": "NetScope 2.4.9. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.8...netscope-v2.4.9",
+  "pubkey": "/glRZ7Haj1p+DzVlqrFkteJ8TglE4q7g6yjmPV+WhKQ=",
+  "portable": {
+    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.9/NetScope-v2.4.9-update.zip",
+    "sha256": "fd1a85e4e0df8ad27ce38386ee5b98e2a9ebe1c0010d2d4decec6f80d1db54a4",
+    "signature": "1HpJgA79hJlQBNn2oZZHO4aJDWeMotmvbdaYGJYxoDLCmGItRly2VezoWK3TZR0nm0IGlfR2ZrjSzvWI15wdBA=="
+  }
 }
