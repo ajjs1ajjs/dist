@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T20:00:30.332Z",
+  "lastUpdated": "2026-11-06T21:00:31.522Z",
   "sourceUpdates": {
-    "steam": "2026-11-06T20:00:30.332Z",
-    "gamepass": "2026-11-06T20:00:30.332Z"
+    "steam": "2026-11-06T21:00:31.522Z",
+    "gamepass": "2026-11-06T21:00:31.522Z"
   },
   "steam": [
     {
@@ -40,19 +40,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2448570",
-      "title": "Road Rash™: Видання до 30-річчя",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/5f09646c8f952501b5247b884c68c70f006ad371/capsule_616x353.jpg?t=1793986604",
-      "originalPrice": 349,
-      "discountPrice": 174,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2448570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
