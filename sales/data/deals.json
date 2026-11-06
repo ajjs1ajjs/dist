@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-06T06:00:34.113Z",
+  "lastUpdated": "2026-11-06T07:00:32.205Z",
   "sourceUpdates": {
-    "steam": "2026-11-06T06:00:34.113Z",
-    "gamepass": "2026-11-06T06:00:34.113Z"
+    "steam": "2026-11-06T07:00:32.205Z",
+    "gamepass": "2026-11-06T07:00:32.205Z"
   },
   "steam": [
     {
@@ -58,6 +58,19 @@
       "isPopular": true
     },
     {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
@@ -71,14 +84,14 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
+      "id": "4435640",
+      "title": "Uninitialized",
+      "imageUrl": "",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
+      "url": "https://store.steampowered.com/app/4435640",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -110,19 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "4435640",
-      "title": "Uninitialized",
-      "imageUrl": "",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435640",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -136,14 +136,14 @@
       "isPopular": true
     },
     {
-      "id": "4634220",
-      "title": "FINAL FANTASY XIV: Evercold",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634220/5672220d821cd5a4d43f3eae5c2493fd9d906cb4/capsule_616x353.jpg?t=1793814462",
-      "originalPrice": 1200,
-      "discountPrice": 1200,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4634220",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -513,9 +513,9 @@
     {
       "id": "9NNFG8BQRCXL",
       "title": "Call of Duty®: Warzone™",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.49174.13739535057760905.ee63b998-143e-4256-bd0e-3e78d667ab11.963f63f6-39e4-49ae-9285-4bb326510e56",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.20813.13739535057760905.64d1d264-ebf5-48f6-a5d3-2ac9c96b636b.fc5db7bc-2c84-4d72-9351-9f1e0985a53d",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-warzone/9NNFG8BQRCXL",
-      "description": "Call of Duty®: Warzone™ will no longer be playable on Xbox One at the end of Season 06 of Black Ops 7. Welcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling m",
+      "description": "Welcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling modes & new gameplay features including Battle Royale and Resurgence. Battle on Hajin in Call of Duty®: ",
       "isNew": false,
       "isPopular": true
     },
