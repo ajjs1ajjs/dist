@@ -45,17 +45,17 @@ curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/instal
 ## Ліцензія
 
 `bckd` стартує без ліцензії (лише попередження в журналі), але CLI-операції без неї
-заблоковані. Інсталятор пропонує активувати ліцензію одразу — ввести ключ (`AK-…`) або
-отримати 3-денний Trial (email); пропуск не заважає інсталяції (bckd працюватиме).
+заблоковані. Інсталятор пропонує активувати ліцензію одразу — ввести ключ (`AK-…`). Paid-ключ
+надходить після підтвердженої покупки; Work/Admin/Test видаються вручну. Пропуск не
+заважає інсталяції (bckd працюватиме).
 
 Неінтерактивно:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo BCK_TRIAL_EMAIL=you@example.com bash
 curl -fsSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/bck/install.sh | sudo BCK_LICENSE_KEY=AK-XXXX-XXXX-XXXX bash
 ```
 
-Керування: `sudo bck license status`, `sudo bck license trial --email you@example.com`,
+Керування: `sudo bck license status`, `sudo bck license activate --key AK-XXXX-XXXX-XXXX`,
 `sudo bck license activate --key AK-XXXX-XXXX-XXXX`.
 
 ---

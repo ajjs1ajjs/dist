@@ -300,12 +300,11 @@ systemctl enable $SERVICE_NAME
 # --- License preflight --------------------------------------------------------
 # The server verifies the license on every start and exits without one (fail
 # closed), so on an unlicensed host the update would end with a crash-looping
-# unit and the operator hunting for commands. Offer the key / 3-day trial right
+# unit and the operator hunting for commands. Offer the key right
 # here — `curl | sudo bash` keeps the script itself on stdin, so every prompt
 # reads from /dev/tty. Skipping never leaves a dead service: an update is rolled
 # back to the previous binary (which keeps running), a fresh install stays
-# stopped with exact steps. Unattended runs: MYGIT_LICENSE_KEY=<key> or
-# MYGIT_TRIAL_EMAIL=<email>.
+# stopped with exact steps. Unattended runs: MYGIT_LICENSE_KEY=<key>.
 LICENSE_FILE="$INSTALL_DIR/.config/mygit/license.json"
 lic_cli() { sudo -u mygit env HOME="$INSTALL_DIR" "$INSTALL_DIR/mygit" "$@"; }
 lic_valid() {
@@ -318,7 +317,6 @@ lic_valid() {
     [ "$epoch" -gt "$now" ]
 }
 license_activate_key() { [ -n "$1" ] && lic_cli license activate "$1"; }
-license_start_trial()  { [ -n "$1" ] && lic_cli license trial "$1"; }
 
 # The binary's own hints say `mygit license ...` — make that work: symlink onto
 # PATH and point root's config dir at the service user's (root runs with
@@ -345,9 +343,6 @@ if lic_valid; then
 elif [ -n "$MYGIT_LICENSE_KEY" ]; then
     echo "[i] Активація ліцензії з MYGIT_LICENSE_KEY..."
     if license_activate_key "$MYGIT_LICENSE_KEY"; then LICENSE_OK=1; fi
-elif [ -n "$MYGIT_TRIAL_EMAIL" ]; then
-    echo "[i] Активація 3-денного Trial для $MYGIT_TRIAL_EMAIL..."
-    if license_start_trial "$MYGIT_TRIAL_EMAIL"; then LICENSE_OK=1; fi
 elif { true </dev/tty; } 2>/dev/null; then
     echo ""
     echo "======================================================="
@@ -359,9 +354,8 @@ elif { true </dev/tty; } 2>/dev/null; then
     while [ "$LICENSE_OK" != "1" ]; do
         echo ""
         echo "  1) Ввести ліцензійний ключ (AK-…)"
-        echo "  2) Отримати безкоштовний 3-денний Trial (потрібен email)"
-        echo "  3) Пропустити"
-        printf '  Ваш вибір [1/2/3]: '
+        echo "  2) Пропустити"
+        printf '  Ваш вибір [1/2]: '
         LIC_CHOICE=""
         read -r LIC_CHOICE </dev/tty || LIC_CHOICE=""
         case "$LIC_CHOICE" in
@@ -375,21 +369,11 @@ elif { true </dev/tty; } 2>/dev/null; then
                     echo "  [x] Активувати не вдалося — перевірте ключ і мережу та спробуйте ще раз."
                 fi
                 ;;
-            2)
-                printf '  Email для Trial: '
-                LIC_EMAIL=""
-                read -r LIC_EMAIL </dev/tty || LIC_EMAIL=""
-                if license_start_trial "$LIC_EMAIL"; then
-                    LICENSE_OK=1
-                else
-                    echo "  [x] Trial не активовано — перевірте email і мережу та спробуйте ще раз."
-                fi
-                ;;
-            3|"")
+            2|"")
                 break
                 ;;
             *)
-                echo "  Введіть 1, 2 або 3."
+                echo "  Введіть 1 або 2."
                 ;;
         esac
     done
@@ -429,10 +413,9 @@ if [ "$LICENSE_OK" != "1" ]; then
     fi
     echo ""
     echo "Активуйте ліцензію та повторіть встановлення:"
-    echo "  sudo mygit license trial <email>          # 3-денний Trial"
     echo "  sudo mygit license activate <key>         # придбаний ключ"
     echo "  sudo systemctl enable --now $SERVICE_NAME          # якщо автозапуск вимкнено"
-    echo "Або просто запустіть інсталятор ще раз — він запитає ключ/email сам:"
+    echo "Або просто запустіть інсталятор ще раз — він запитає ключ сам:"
     echo "  curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/mygit/install.sh | sudo bash"
     echo ""
     echo "Не звітую про успіх: сервіс не працює на новій версії."
@@ -458,7 +441,7 @@ for i in $(seq 1 15); do
         if journalctl -u "$SERVICE_NAME" -n 30 --no-pager 2>/dev/null | grep -q 'ЛІЦЕНЗІЯ'; then
             echo "--- ліцензія ---"
             echo "Схоже, сервіс не піднявся через ліцензію (див. [ЛІЦЕНЗІЯ] вище). Активуйте та повторіть:"
-            echo "  sudo mygit license trial <email>    # або: sudo mygit license activate <key>"
+            echo "  sudo mygit license activate <key>"
             echo "  sudo systemctl restart $SERVICE_NAME"
         fi
         if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/mygit.old" ]; then
@@ -502,7 +485,7 @@ else
 fi
 echo ""
 echo "Dashboard: http://localhost:$PORT/"
-echo "Ліцензія:   sudo mygit license status   (trial/activate — ті самі команди)"
+echo "Ліцензія:   sudo mygit license status   (activate)"
 echo "Зареєструйте ПЕРШИЙ обліковий запис — він стане власником (superuser)."
 echo ""
 if [ -f "$INSTALL_DIR/mygit.old" ]; then echo "Previous binary kept at: $INSTALL_DIR/mygit.old"; fi

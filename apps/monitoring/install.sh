@@ -483,12 +483,11 @@ systemctl enable $SERVICE_NAME
 # --- License preflight --------------------------------------------------------
 # The server verifies the license on every start and exits without one (fail
 # closed), so on an unlicensed host the update would end with a crash-looping
-# unit and the operator hunting for commands. Offer the key / 3-day trial right
+# unit and the operator hunting for commands. Offer the key right
 # here — `curl | sudo bash` keeps the script itself on stdin, so every prompt
 # reads from /dev/tty. Skipping never leaves a dead service: an update is rolled
 # back to the previous binary (which keeps running), a fresh install stays
-# stopped with exact steps. Unattended runs: PYMON_LICENSE_KEY=<key> or
-# PYMON_TRIAL_EMAIL=<email>.
+# stopped with exact steps. Unattended runs: PYMON_LICENSE_KEY=<key>.
 LICENSE_FILE="$INSTALL_DIR/.config/pymon/license.json"
 lic_cli() { sudo -u pymon env HOME="$INSTALL_DIR" "$INSTALL_DIR/pymon" "$@"; }
 lic_valid() {
@@ -501,7 +500,6 @@ lic_valid() {
     [ "$epoch" -gt "$now" ]
 }
 license_activate_key() { [ -n "$1" ] && lic_cli license activate "$1"; }
-license_start_trial()  { [ -n "$1" ] && lic_cli license trial "$1"; }
 
 # The binary's own hints say `pymon license ...` — make that work: symlink onto
 # PATH and point root's config dir at the service user's (root runs with
@@ -528,9 +526,6 @@ if lic_valid; then
 elif [ -n "$PYMON_LICENSE_KEY" ]; then
     echo "[i] Активація ліцензії з PYMON_LICENSE_KEY..."
     if license_activate_key "$PYMON_LICENSE_KEY"; then LICENSE_OK=1; fi
-elif [ -n "$PYMON_TRIAL_EMAIL" ]; then
-    echo "[i] Активація 3-денного Trial для $PYMON_TRIAL_EMAIL..."
-    if license_start_trial "$PYMON_TRIAL_EMAIL"; then LICENSE_OK=1; fi
 elif { true </dev/tty; } 2>/dev/null; then
     echo ""
     echo "======================================================="
@@ -542,9 +537,8 @@ elif { true </dev/tty; } 2>/dev/null; then
     while [ "$LICENSE_OK" != "1" ]; do
         echo ""
         echo "  1) Ввести ліцензійний ключ (AK-…)"
-        echo "  2) Отримати безкоштовний 3-денний Trial (потрібен email)"
-        echo "  3) Пропустити"
-        printf '  Ваш вибір [1/2/3]: '
+        echo "  2) Пропустити"
+        printf '  Ваш вибір [1/2]: '
         LIC_CHOICE=""
         read -r LIC_CHOICE </dev/tty || LIC_CHOICE=""
         case "$LIC_CHOICE" in
@@ -558,21 +552,11 @@ elif { true </dev/tty; } 2>/dev/null; then
                     echo "  [x] Активувати не вдалося — перевірте ключ і мережу та спробуйте ще раз."
                 fi
                 ;;
-            2)
-                printf '  Email для Trial: '
-                LIC_EMAIL=""
-                read -r LIC_EMAIL </dev/tty || LIC_EMAIL=""
-                if license_start_trial "$LIC_EMAIL"; then
-                    LICENSE_OK=1
-                else
-                    echo "  [x] Trial не активовано — перевірте email і мережу та спробуйте ще раз."
-                fi
-                ;;
-            3|"")
+            2|"")
                 break
                 ;;
             *)
-                echo "  Введіть 1, 2 або 3."
+                echo "  Введіть 1 або 2."
                 ;;
         esac
     done
@@ -612,10 +596,9 @@ if [ "$LICENSE_OK" != "1" ]; then
     fi
     echo ""
     echo "Активуйте ліцензію та повторіть встановлення:"
-    echo "  sudo pymon license trial <email>          # 3-денний Trial"
     echo "  sudo pymon license activate <key>         # придбаний ключ"
     echo "  sudo systemctl enable --now $SERVICE_NAME          # якщо автозапуск вимкнено"
-    echo "Або просто запустіть інсталятор ще раз — він запитає ключ/email сам:"
+    echo "Або просто запустіть інсталятор ще раз — він запитає ключ сам:"
     echo "  curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo bash"
     echo ""
     echo "Не звітую про успіх: сервіс не працює на новій версії."
@@ -666,7 +649,7 @@ for i in $(seq 1 15); do
         if journalctl -u $SERVICE_NAME -n 30 --no-pager 2>/dev/null | grep -q 'ЛІЦЕНЗІЯ'; then
             echo "--- ліцензія ---"
             echo "Схоже, сервіс не піднявся через ліцензію (див. [ЛІЦЕНЗІЯ] вище). Активуйте та повторіть:"
-            echo "  sudo pymon license trial <email>    # або: sudo pymon license activate <key>"
+            echo "  sudo pymon license activate <key>"
             echo "  sudo systemctl restart $SERVICE_NAME"
         fi
         if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/pymon.old" ]; then
@@ -703,7 +686,7 @@ else
 fi
 echo ""
 echo "Dashboard: http://localhost:10000/"
-echo "Ліцензія:   sudo pymon license status   (trial/activate — ті самі команди)"
+echo "Ліцензія:   sudo pymon license status   (activate)"
 echo ""
 if [ "$ADMIN_SET" = "1" ]; then
     echo "===================================="

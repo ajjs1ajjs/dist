@@ -816,9 +816,9 @@ fi
 
 # --- License preflight --------------------------------------------------------
 # bckd starts without a license (it only warns), but CLI operations are blocked
-# and the console shows "no license". Offer the key / 3-day trial right here —
-# `curl | sudo bash` keeps the script itself on stdin, so prompts read from
-# /dev/tty. Unattended runs: BCK_LICENSE_KEY=<key> or BCK_TRIAL_EMAIL=<email>.
+# and the console shows "no license". Offer the key right here — `curl | sudo bash`
+# keeps the script itself on stdin, so prompts read from /dev/tty.
+# Unattended runs: BCK_LICENSE_KEY=<key>.
 BCK_LICENSE_FILE="$BCK_HOME/.config/bck/license.json"
 bck_lic_valid() {
     [ -s "$BCK_LICENSE_FILE" ] || return 1
@@ -834,12 +834,6 @@ bck_lic_valid() {
 bck_lic_activate() {
     [ -n "${1:-}" ] || return 1
     sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$RELEASE_DIR/bin/bck" license activate --key "$1" >/dev/null 2>&1
-    [ ! -f "$BCK_LICENSE_FILE" ] || chmod 0600 "$BCK_LICENSE_FILE"
-    bck_lic_valid
-}
-bck_lic_trial() {
-    [ -n "${1:-}" ] || return 1
-    sudo -u "$BCK_USER" env HOME="$BCK_HOME" "$RELEASE_DIR/bin/bck" license trial --email "$1" >/dev/null 2>&1
     [ ! -f "$BCK_LICENSE_FILE" ] || chmod 0600 "$BCK_LICENSE_FILE"
     bck_lic_valid
 }
@@ -868,9 +862,6 @@ if bck_lic_valid; then
 elif [ -n "${BCK_LICENSE_KEY:-}" ]; then
     log "Активація ліцензії з BCK_LICENSE_KEY..."
     if bck_lic_activate "$BCK_LICENSE_KEY"; then BCK_LICENSE_OK=1; fi
-elif [ -n "${BCK_TRIAL_EMAIL:-}" ]; then
-    log "Активація 3-денного Trial для $BCK_TRIAL_EMAIL..."
-    if bck_lic_trial "$BCK_TRIAL_EMAIL"; then BCK_LICENSE_OK=1; fi
 elif [ "$BCK_INTERACTIVE" = 1 ] && { true </dev/tty; } 2>/dev/null; then
     echo ""
     echo "======================================================="
@@ -881,9 +872,8 @@ elif [ "$BCK_INTERACTIVE" = 1 ] && { true </dev/tty; } 2>/dev/null; then
     while [ "$BCK_LICENSE_OK" != "1" ]; do
         echo ""
         echo "  1) Ввести ліцензійний ключ (AK-…)"
-        echo "  2) Отримати безкоштовний 3-денний Trial (потрібен email)"
-        echo "  3) Пропустити"
-        printf '  Ваш вибір [1/2/3]: '
+        echo "  2) Пропустити"
+        printf '  Ваш вибір [1/2]: '
         LIC_CHOICE=""
         read -r LIC_CHOICE </dev/tty || LIC_CHOICE=""
         case "$LIC_CHOICE" in
@@ -898,28 +888,18 @@ elif [ "$BCK_INTERACTIVE" = 1 ] && { true </dev/tty; } 2>/dev/null; then
                     echo "  [x] Активувати не вдалося — перевірте ключ і мережу та спробуйте ще раз."
                 fi
                 ;;
-            2)
-                printf '  Email для Trial: '
-                LIC_EMAIL=""
-                read -r LIC_EMAIL </dev/tty || LIC_EMAIL=""
-                if bck_lic_trial "$LIC_EMAIL"; then
-                    BCK_LICENSE_OK=1
-                else
-                    echo "  [x] Trial не активовано — перевірте email і мережу та спробуйте ще раз."
-                fi
-                ;;
-            3|"")
+            2|"")
                 break
                 ;;
             *)
-                echo "  Введіть 1, 2 або 3."
+                echo "  Введіть 1 або 2."
                 ;;
         esac
     done
 fi
 if [ "$BCK_LICENSE_OK" != "1" ]; then
     warn "Ліцензію не активовано — bckd працюватиме, але CLI-операції заблоковані."
-    warn "Активуйте пізніше: sudo bck license trial --email <email>  |  sudo bck license activate --key <key>"
+    warn "Активуйте пізніше: sudo bck license activate --key <key>"
 fi
 
 # Validate the candidate configuration and certificate as the service account

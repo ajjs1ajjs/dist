@@ -30,18 +30,18 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/
 ## Ліцензія
 
 Сервіс fail-closed перевіряє ліцензію при кожному старті: без неї він не запускається.
-Інсталятор пропонує активувати її одразу — ключ (`AK-…`) або 3-денний Trial (email).
+Інсталятор пропонує активувати її одразу — ключ (`AK-…`). Paid-ключ надходить після
+підтвердженої покупки; Work/Admin/Test видаються вручну.
 Пропустити безпечно: оновлення відкочується на попередню версію (сервіс далі працює),
 свіже встановлення лишається зупиненим — без циклу перезапусків.
 
 Неінтерактивно:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo PYMON_TRIAL_EMAIL=you@example.com bash
 curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/monitoring/install.sh | sudo PYMON_LICENSE_KEY=AK-XXXX-XXXX-XXXX bash
 ```
 
-Керування: `sudo pymon license status` (або `activate` / `trial`).
+Керування: `sudo pymon license status` (або `activate`).
 
 ## Файли
 
