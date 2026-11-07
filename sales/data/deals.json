@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T21:00:30.212Z",
+  "lastUpdated": "2026-11-07T22:00:29.857Z",
   "sourceUpdates": {
-    "steam": "2026-11-07T21:00:30.212Z",
-    "gamepass": "2026-11-07T21:00:30.212Z"
+    "steam": "2026-11-07T22:00:29.857Z",
+    "gamepass": "2026-11-07T22:00:29.857Z"
   },
   "steam": [
     {
@@ -40,19 +40,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -151,7 +138,7 @@
     {
       "id": "2406770",
       "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/3b629529870a04b47055d715214e4e3ae7c32fdd/capsule_616x353_alt_assets_0_ukrainian.jpg?t=1794072891",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b99234f611e6bbffd55e9ede50b8696041ceb026/capsule_616x353_alt_assets_2.jpg?t=1794087164",
       "originalPrice": 700,
       "discountPrice": 700,
       "discountPercent": 0,
@@ -162,14 +149,14 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793942460",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
