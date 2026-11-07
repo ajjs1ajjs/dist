@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T12:00:29.144Z",
+  "lastUpdated": "2026-11-07T13:00:30.318Z",
   "sourceUpdates": {
-    "steam": "2026-11-07T12:00:29.144Z",
-    "gamepass": "2026-11-07T12:00:29.144Z"
+    "steam": "2026-11-07T13:00:30.318Z",
+    "gamepass": "2026-11-07T13:00:30.318Z"
   },
   "steam": [
     {
@@ -16,7 +16,7 @@
       "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "3241660",
@@ -58,14 +58,14 @@
       "isPopular": false
     },
     {
-      "id": "2448570",
-      "title": "Road Rash™: Видання до 30-річчя",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/5f09646c8f952501b5247b884c68c70f006ad371/capsule_616x353.jpg?t=1793986604",
-      "originalPrice": 349,
-      "discountPrice": 174,
-      "discountPercent": 50,
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2448570",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -162,14 +162,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1791014741",
+      "originalPrice": 700,
+      "discountPrice": 700,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
