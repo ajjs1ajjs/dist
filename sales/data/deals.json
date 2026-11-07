@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T15:00:34.105Z",
+  "lastUpdated": "2026-11-07T16:00:34.180Z",
   "sourceUpdates": {
-    "steam": "2026-11-07T15:00:34.105Z",
-    "gamepass": "2026-11-07T15:00:34.105Z"
+    "steam": "2026-11-07T16:00:34.180Z",
+    "gamepass": "2026-11-07T16:00:34.180Z"
   },
   "steam": [
     {
@@ -53,19 +53,6 @@
       "discountPercent": 38,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3527290",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -474,15 +461,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.54610.14360936962313275.d2dd0342-a5b1-4e46-bd2a-9de7360ee291.b384634a-f7e7-430e-a4dd-7357c19fb512",
       "url": "https://www.xbox.com/uk-UA/games/store/virtua-fighter-5-r-e-v-o-world-stage/9NSM674QVLBS",
       "description": "Легендарна серія 3D-файтингу виходить на новий рівень. Зустрічайте Virtua Fighter 5 R.E.V.O. World Stage на Xbox Series X|S. Virtua Fighter 5 R.E.V.O. World Stage представляє вдосконалений ігролад Vir",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9N72SFQ24KW8",
-      "title": "Call of Duty®: Black Ops Cold War (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65365.14006772409173009.275a9108-bec7-47d8-b889-1be3519a0aa3.9718df8d-4baa-4b95-a9af-b84fd157a6d8",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-cold-war-windows/9N72SFQ24KW8",
-      "description": "Includes: - Call of Duty®: Black Ops Cold War game - Legendary Captain Price Operator Skin* Black Ops Cold War, the direct sequel to Call of Duty®: Black Ops, drops fans into the depths of the Cold Wa",
       "isNew": true,
       "isPopular": false
     },
