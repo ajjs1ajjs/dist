@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T00:00:33.091Z",
+  "lastUpdated": "2026-11-07T01:00:29.233Z",
   "sourceUpdates": {
-    "steam": "2026-11-07T00:00:33.091Z",
-    "gamepass": "2026-11-07T00:00:33.091Z"
+    "steam": "2026-11-07T01:00:29.233Z",
+    "gamepass": "2026-11-07T01:00:29.233Z"
   },
   "steam": [
     {
@@ -123,32 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
-      "originalPrice": 210,
-      "discountPrice": 210,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5160800",
-      "title": "Find The Needle",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5160800/f95c570231567ae56cca6f9d4a1e9d6e3d300c10/capsule_616x353.jpg?t=1793980111",
-      "originalPrice": 360,
-      "discountPrice": 306,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5160800",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -157,6 +131,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 210,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
