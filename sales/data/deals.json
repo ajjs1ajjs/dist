@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T20:00:29.583Z",
+  "lastUpdated": "2026-11-07T21:00:30.212Z",
   "sourceUpdates": {
-    "steam": "2026-11-07T20:00:29.583Z",
-    "gamepass": "2026-11-07T20:00:29.583Z"
+    "steam": "2026-11-07T21:00:30.212Z",
+    "gamepass": "2026-11-07T21:00:30.212Z"
   },
   "steam": [
     {
@@ -45,19 +45,6 @@
       "isPopular": false
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
-      "originalPrice": 1799,
-      "discountPrice": 1349,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
@@ -66,6 +53,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -123,19 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "4435640",
-      "title": "Uninitialized",
-      "imageUrl": "",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435640",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -149,14 +136,14 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "id": "4435640",
+      "title": "Uninitialized",
+      "imageUrl": "",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/4435640",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -170,6 +157,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
