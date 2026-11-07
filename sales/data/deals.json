@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-07T16:00:34.180Z",
+  "lastUpdated": "2026-11-07T17:00:33.438Z",
   "sourceUpdates": {
-    "steam": "2026-11-07T16:00:34.180Z",
-    "gamepass": "2026-11-07T16:00:34.180Z"
+    "steam": "2026-11-07T17:00:33.438Z",
+    "gamepass": "2026-11-07T17:00:33.438Z"
   },
   "steam": [
     {
@@ -32,14 +32,14 @@
       "isPopular": false
     },
     {
-      "id": "1211600",
-      "title": "ZED ZONE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794035207",
-      "originalPrice": 265,
-      "discountPrice": 159,
-      "discountPercent": 40,
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1211600",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -381,7 +381,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/minecraft-dungeons-ii/9PM3J18QM4Q3",
       "description": "Над Верхнім світом нависла нова загроза… Minecraft Dungeons II вже вийшла. На вас чекає ще більше дій, більше здобичі й більше пригод. Пройдіть крізь Розлом і вирушайте туди, де ще не бував жоден геро",
       "isNew": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "9N944N1WP67T",
@@ -591,20 +591,20 @@
       "isPopular": true
     },
     {
-      "id": "9NMPDV49K4TX",
-      "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.11078.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.5790735b-d336-4c4b-bf76-da3e882cb0ec",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX",
-      "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes. For more information, please visit ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9N0H62KZ3BXV",
       "title": "Diablo® IV PC",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
       "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
       "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NMPDV49K4TX",
+      "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.11078.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.5790735b-d336-4c4b-bf76-da3e882cb0ec",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX",
+      "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes. For more information, please visit ",
       "isNew": false,
       "isPopular": true
     },
@@ -623,15 +623,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
       "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9N4W31HSMVVD",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
-      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
-      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
       "isNew": false,
       "isPopular": true
     }
