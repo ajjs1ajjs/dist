@@ -35,7 +35,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           KEEP: '3'
-          PREFIXES: 'sales gym bck kubelens rdm diskcleaner monitoring mygit uptime game netscope'
+          PREFIXES: 'sales gym bck kubelens rdm diskcleaner monitoring mygit uptime game netscope vilno'
         run: |
           set -euo pipefail
           # Fetch all pages once; an API failure must stop before any deletion.

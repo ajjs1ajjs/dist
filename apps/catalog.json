@@ -60,6 +60,12 @@
       "name": "Uptime-Monitor",
       "assetPattern": null,
       "slug": "uptime"
+    },
+    {
+      "prefix": "vilno-v",
+      "name": "Vilno VPN",
+      "assetPattern": "setup\\.exe$",
+      "slug": "vilno"
     }
   ]
 }

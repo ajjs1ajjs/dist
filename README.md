@@ -30,10 +30,11 @@
 <a href="#sales"><img src="https://img.shields.io/badge/Game_Sales-PWA-C084FC?style=for-the-badge&logo=steam&logoColor=white" alt="Game Sales"></a>
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=vilno"><img src="https://img.shields.io/badge/Vilno_VPN-Windows-16755F?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
 <a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
 <a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
-<sub><b>12 позицій каталогу</b> &nbsp;·&nbsp; 10 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA</sub>
+<sub><b>13 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA</sub>
 
 </div>
 
@@ -382,9 +383,30 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 ---
 
+<a id="vilno-vpn"></a>
+
+### 🛡️ Vilno VPN
+
+<a href="https://github.com/ajjs1ajjs/dist/releases?q=vilno"><img src="https://img.shields.io/badge/Vilno_VPN--16755F?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
+
+**Windows 10 / 11 · x64** — VPN-клієнт на OpenVPN Community та каталозі публічних серверів VPN Gate.
+
+<a href="https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.1/Vilno.VPN_0.5.1_x64-setup.exe">
+⬇️ <b>Завантажити NSIS-інсталятор</b>
+</a>
+
+- Один найкращий сервер на країну з TCP-перевіркою доступності.
+- Перепідключення після обриву та резервні сервери.
+- Ліцензійна активація ключем; ключ зберігається в Windows Credential Manager.
+- Оновлення з перевіркою підпису через `apps/vilno-vpn/latest.json`.
+
+[⬇️ Усі релізи Vilno VPN](https://github.com/ajjs1ajjs/dist/releases?q=vilno) &nbsp;·&nbsp; [📄 Сторінка продукту](https://andreichuk.dev/p/vilno/)
+
+---
+
 ## 👨‍💻 Автор
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 12 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 13 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)
