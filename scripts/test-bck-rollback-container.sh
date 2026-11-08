@@ -27,6 +27,7 @@ version=${url#*/bck-v}; version=${version%%/*}
 case "$url" in
   *.tar.gz.sha256) (cd "$TEST_FIXTURE/artifacts"; sha256sum "$version.tar.gz" | sed 's/  .*$/  bck-linux-x86_64.tar.gz/') > "$dest";;
   *.tar.gz) cp "$TEST_FIXTURE/artifacts/$version.tar.gz" "$dest";;
+  http*) exit 0;;
   *) exit 22;;
 esac
 MOCK
