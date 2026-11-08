@@ -5,7 +5,8 @@ set -euo pipefail
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq
 apt-get install -y -qq --no-install-recommends python3 ca-certificates >/dev/null
-fixture=$(mktemp -d /root/bck-test.XXXXXX)
+fixture=/opt/bck-test.$$
+install -d -m 0700 "$fixture"
 export TEST_FIXTURE="$fixture" BCK_HOME="$fixture/home" BCK_DATA_DIR="$fixture/data" BCK_CONFIG_DIR="$fixture/config" BCK_USER=root BCK_GROUP=root
 mkdir -p "$fixture/bin" "$fixture/data" "$fixture/artifacts" /etc/systemd/system
 printf 'fixture\n' > "$fixture/data/bootstrap_admin.txt"
