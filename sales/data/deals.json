@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-08T14:07:14.240Z",
+  "lastUpdated": "2026-11-08T15:00:31.553Z",
   "sourceUpdates": {
-    "steam": "2026-11-08T14:07:14.240Z",
-    "gamepass": "2026-11-08T14:07:14.240Z"
+    "steam": "2026-11-08T15:00:31.553Z",
+    "gamepass": "2026-11-08T15:00:31.553Z"
   },
   "steam": [
     {
@@ -149,19 +149,6 @@
       "isPopular": true
     },
     {
-      "id": "4435640",
-      "title": "Uninitialized",
-      "imageUrl": "",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435640",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b99234f611e6bbffd55e9ede50b8696041ceb026/capsule_616x353_alt_assets_2.jpg?t=1794111990",
@@ -170,6 +157,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435640",
+      "title": "Uninitialized",
+      "imageUrl": "",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435640",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
