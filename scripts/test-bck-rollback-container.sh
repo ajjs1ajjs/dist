@@ -12,6 +12,7 @@ printf 'fixture\n' > "$fixture/data/bootstrap_admin.txt"
 for version in 1.2.3 1.2.4; do
   mkdir -p "$fixture/build/bin"
   for name in bckd bck-agent bck bck-proxy; do printf '#!/bin/sh\nexit 0\n' > "$fixture/build/bin/$name"; done
+  printf '#!/bin/sh\n[ "$1" = "--detect-ip" ] && echo 127.0.0.1\nexit 0\n' > "$fixture/build/bin/bck-network-tls"
   printf '%s\n' "$version" > "$fixture/build/version"
   tar -czf "$fixture/artifacts/$version.tar.gz" -C "$fixture/build" .
   rm -rf "$fixture/build"
