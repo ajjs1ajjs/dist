@@ -35,7 +35,7 @@ Object.assign(window.SITE_I18N, {
     "p.slovakia.shots.1.cap": "Структура уроку: фото, словничок з IPA, граматика і діалог",
     "p.slovakia.shots.2.cap": "Інтерактивна аудіодошка: клік по динаміку відтворює звук",
     "p.slovakia.links.0": "Завантажити PDF (259 МБ) ↗",
-    "p.slovakia.links.1": "GitHub репозиторій ↗",
+    "p.slovakia.links.1": "GitHub реліз ↗",
     "p.slovakia.links.2": "Всі релізи ↗",
     "p.slovakia.install.note": "Встановлення не потрібне: завантажте PDF-файл і відкрийте його в безкоштовному Adobe Acrobat Reader."
   }),
@@ -73,7 +73,7 @@ Object.assign(window.SITE_I18N, {
     "p.slovakia.shots.1.cap": "Lesson structure: photo, vocabulary with IPA, grammar, and dialogue",
     "p.slovakia.shots.2.cap": "Interactive audio board: clicking speaker plays native voice",
     "p.slovakia.links.0": "Download PDF (259 MB) ↗",
-    "p.slovakia.links.1": "GitHub repository ↗",
+    "p.slovakia.links.1": "GitHub release ↗",
     "p.slovakia.links.2": "All releases ↗",
     "p.slovakia.install.note": "No installation required: download the PDF and open it in free Adobe Acrobat Reader."
   })
