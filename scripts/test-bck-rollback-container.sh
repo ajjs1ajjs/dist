@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run only inside the disposable Ubuntu test container, never on a host.
-set -euo pipefail
+set -euxo pipefail
 [ -f /.dockerenv ] || { echo 'This test must run in a disposable container' >&2; exit 1; }
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq
