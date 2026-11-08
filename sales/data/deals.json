@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-08T04:00:30.432Z",
+  "lastUpdated": "2026-11-08T05:00:30.635Z",
   "sourceUpdates": {
-    "steam": "2026-11-08T04:00:30.432Z",
-    "gamepass": "2026-11-08T04:00:30.432Z"
+    "steam": "2026-11-08T05:00:30.635Z",
+    "gamepass": "2026-11-08T05:00:30.635Z"
   },
   "steam": [
     {
@@ -53,6 +53,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "1211600",
+      "title": "ZED ZONE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794035207",
+      "originalPrice": 265,
+      "discountPrice": 159,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1211600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
