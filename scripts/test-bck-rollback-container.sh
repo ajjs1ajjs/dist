@@ -57,6 +57,11 @@ import sqlite3, sys
 c = sqlite3.connect(sys.argv[1]); c.execute('create table sentinel(value text)'); c.execute("insert into sentinel values ('original')"); c.commit(); c.close()
 PY
 cp "$BCK_CONFIG_DIR/config.toml" "$fixture/original-config"
+mkdir -p "$BCK_DATA_DIR/backups"
+python3 - "$BCK_DATA_DIR/backups/index.db" <<'PY'
+import sqlite3, sys
+c = sqlite3.connect(sys.argv[1]); c.execute('create table if not exists blocks(id integer primary key)'); c.commit(); c.close()
+PY
 if BCK_VERSION=1.2.4 TEST_FAIL_VERSION=1.2.4 bash /repo/apps/bck/install.sh > "$fixture/upgrade.log" 2>&1; then
   echo 'Failed upgrade unexpectedly succeeded' >&2; exit 1
 fi
