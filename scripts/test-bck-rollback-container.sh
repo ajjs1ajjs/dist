@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run only inside the disposable Ubuntu test container, never on a host.
-set -euxo pipefail
+set -euo pipefail
 [ -f /.dockerenv ] || { echo 'This test must run in a disposable container' >&2; exit 1; }
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq
@@ -72,5 +72,5 @@ python3 - "$BCK_DATA_DIR/bck.db" <<'PY'
 import sqlite3, sys
 c = sqlite3.connect(sys.argv[1]); assert c.execute('pragma integrity_check').fetchone()[0] == 'ok'; assert c.execute('select value from sentinel').fetchone()[0] == 'original'
 PY
-grep -q 'restored the prior release' "$fixture/upgrade.log" || { echo '--- upgrade log ---'; cat "$fixture/upgrade.log"; exit 1; }
+grep -q 'restored the prior release' "$fixture/upgrade.log"
 echo 'BCK installer rollback test passed (simulated service failures).'
