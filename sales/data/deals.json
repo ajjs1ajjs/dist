@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-08T17:00:30.431Z",
+  "lastUpdated": "2026-11-08T18:00:33.183Z",
   "sourceUpdates": {
-    "steam": "2026-11-08T17:00:30.431Z",
-    "gamepass": "2026-11-08T17:00:30.431Z"
+    "steam": "2026-11-08T18:00:33.183Z",
+    "gamepass": "2026-11-08T18:00:33.183Z"
   },
   "steam": [
     {
@@ -14,19 +14,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3241660",
-      "title": "R.E.P.O.",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
-      "originalPrice": 194,
-      "discountPrice": 126,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3241660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -45,6 +32,19 @@
       "isPopular": false
     },
     {
+      "id": "3241660",
+      "title": "R.E.P.O.",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/cfdf923008ab562b6cef6cec0e008e6965a98565/capsule_616x353_alt_assets_3.jpg?t=1793278962",
+      "originalPrice": 194,
+      "discountPrice": 126,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3241660",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "275850",
       "title": "No Man's Sky",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
@@ -53,6 +53,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
+      "originalPrice": 1799,
+      "discountPrice": 1349,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -110,19 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793942460",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -149,14 +149,40 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1793942460",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435640",
+      "title": "Uninitialized",
+      "imageUrl": "",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/4435640",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1789424191",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -368,7 +394,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/minecraft-dungeons-ii/9PM3J18QM4Q3",
       "description": "Над Верхнім світом нависла нова загроза… Minecraft Dungeons II вже вийшла. На вас чекає ще більше дій, більше здобичі й більше пригод. Пройдіть крізь Розлом і вирушайте туди, де ще не бував жоден геро",
       "isNew": true,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "9N944N1WP67T",
@@ -560,15 +586,6 @@
       "isPopular": true
     },
     {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9NP6WL1XQDBW",
       "title": "SnowRunner - Windows",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
@@ -578,20 +595,20 @@
       "isPopular": true
     },
     {
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9N0H62KZ3BXV",
       "title": "Diablo® IV PC",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
       "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
       "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NMPDV49K4TX",
-      "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.11078.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.5790735b-d336-4c4b-bf76-da3e882cb0ec",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX",
-      "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes. For more information, please visit ",
       "isNew": false,
       "isPopular": true
     },
@@ -610,6 +627,24 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
       "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9NMPDV49K4TX",
+      "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.11078.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.5790735b-d336-4c4b-bf76-da3e882cb0ec",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX",
+      "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes. For more information, please visit ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
       "isNew": false,
       "isPopular": true
     }
