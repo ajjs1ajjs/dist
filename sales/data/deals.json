@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-08T11:00:33.360Z",
+  "lastUpdated": "2026-11-08T12:00:33.027Z",
   "sourceUpdates": {
-    "steam": "2026-11-08T11:00:33.360Z",
-    "gamepass": "2026-11-08T11:00:33.360Z"
+    "steam": "2026-11-08T12:00:33.027Z",
+    "gamepass": "2026-11-08T12:00:33.027Z"
   },
   "steam": [
     {
@@ -53,19 +53,6 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
