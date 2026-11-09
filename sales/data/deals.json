@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T20:00:40.660Z",
+  "lastUpdated": "2026-11-09T21:00:33.190Z",
   "sourceUpdates": {
-    "steam": "2026-11-09T20:00:40.660Z",
-    "gamepass": "2026-11-09T20:00:40.660Z"
+    "steam": "2026-11-09T21:00:33.190Z",
+    "gamepass": "2026-11-09T21:00:33.190Z"
   },
   "steam": [
     {
@@ -84,32 +84,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3629430",
-      "title": "DREADMOOR",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/132411f9af108c43fd75c8b3c9fd730ebdb62c89/capsule_616x353.jpg?t=1794233002",
-      "originalPrice": 430,
-      "discountPrice": 387,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3629430",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -131,6 +105,32 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4576490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3629430",
+      "title": "DREADMOOR",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/132411f9af108c43fd75c8b3c9fd730ebdb62c89/capsule_616x353.jpg?t=1794233002",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3629430",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
