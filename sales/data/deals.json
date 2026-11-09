@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-08T23:00:31.869Z",
+  "lastUpdated": "2026-11-09T00:00:29.726Z",
   "sourceUpdates": {
-    "steam": "2026-11-08T23:00:31.869Z",
-    "gamepass": "2026-11-08T23:00:31.869Z"
+    "steam": "2026-11-09T00:00:29.726Z",
+    "gamepass": "2026-11-09T00:00:29.726Z"
   },
   "steam": [
     {
@@ -53,6 +53,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -123,19 +136,6 @@
       "isPopular": true
     },
     {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
-      "originalPrice": 210,
-      "discountPrice": 210,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -144,6 +144,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
+      "originalPrice": 210,
+      "discountPrice": 210,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -439,15 +452,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.18331.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.4b8d8879-9625-4c06-9ccf-a9f8f83ca818",
       "url": "https://www.xbox.com/uk-UA/games/store/the-royal-writ/9N034X5G08B7",
       "description": "In The Royal Writ, you don't just play cards - you command them on the battlefield. Place your loyal subjects strategically as they advance toward the enemy, dealing damage. But beware: any card that ",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9NSM674QVLBS",
-      "title": "Virtua Fighter 5 R.E.V.O. World Stage",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.54610.14360936962313275.d2dd0342-a5b1-4e46-bd2a-9de7360ee291.b384634a-f7e7-430e-a4dd-7357c19fb512",
-      "url": "https://www.xbox.com/uk-UA/games/store/virtua-fighter-5-r-e-v-o-world-stage/9NSM674QVLBS",
-      "description": "Легендарна серія 3D-файтингу виходить на новий рівень. Зустрічайте Virtua Fighter 5 R.E.V.O. World Stage на Xbox Series X|S. Virtua Fighter 5 R.E.V.O. World Stage представляє вдосконалений ігролад Vir",
       "isNew": true,
       "isPopular": false
     },
