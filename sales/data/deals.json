@@ -1,36 +1,10 @@
 {
-  "lastUpdated": "2026-11-09T19:00:30.606Z",
+  "lastUpdated": "2026-11-09T20:00:40.660Z",
   "sourceUpdates": {
-    "steam": "2026-11-09T19:00:30.606Z",
-    "gamepass": "2026-11-09T19:00:30.606Z"
+    "steam": "2026-11-09T20:00:40.660Z",
+    "gamepass": "2026-11-09T20:00:40.660Z"
   },
   "steam": [
-    {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
-      "originalPrice": 1799,
-      "discountPrice": 1349,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "12210",
-      "title": "Grand Theft Auto IV: The Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
-      "originalPrice": 429,
-      "discountPrice": 128,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/12210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
     {
       "id": "2584270",
       "title": "Mortal Shell II",
@@ -40,6 +14,19 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
+      "originalPrice": 1799,
+      "discountPrice": 1349,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -123,19 +110,6 @@
       "isPopular": true
     },
     {
-      "id": "4576490",
-      "title": "Casualties: Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/3937df74a9bd05c67b9c4463f2f519ac3cf402cd/capsule_616x353.jpg?t=1794232782",
-      "originalPrice": 499,
-      "discountPrice": 424,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4576490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5335510",
       "title": "Moon Sweepers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
@@ -144,6 +118,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5335510",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4576490",
+      "title": "Casualties: Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/3937df74a9bd05c67b9c4463f2f519ac3cf402cd/capsule_616x353.jpg?t=1794232782",
+      "originalPrice": 499,
+      "discountPrice": 424,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4576490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
