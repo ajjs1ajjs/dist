@@ -1,23 +1,10 @@
 {
-  "lastUpdated": "2026-11-09T10:00:30.543Z",
+  "lastUpdated": "2026-11-09T11:00:29.156Z",
   "sourceUpdates": {
-    "steam": "2026-11-09T10:00:30.543Z",
-    "gamepass": "2026-11-09T10:00:30.543Z"
+    "steam": "2026-11-09T11:00:29.156Z",
+    "gamepass": "2026-11-09T11:00:29.156Z"
   },
   "steam": [
-    {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1793979129",
-      "originalPrice": 1849,
-      "discountPrice": 1109,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
     {
       "id": "252490",
       "title": "Rust",
@@ -27,6 +14,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/252490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1793979129",
+      "originalPrice": 1849,
+      "discountPrice": 1109,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -45,19 +45,6 @@
       "isPopular": false
     },
     {
-      "id": "275850",
-      "title": "No Man's Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
-      "originalPrice": 1125,
-      "discountPrice": 450,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "1211600",
       "title": "ZED ZONE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794210733",
@@ -71,17 +58,17 @@
       "isPopular": false
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "275850",
+      "title": "No Man's Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
+      "originalPrice": 1125,
+      "discountPrice": 450,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
+      "url": "https://store.steampowered.com/app/275850",
+      "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "4115450",
@@ -92,6 +79,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -136,19 +136,6 @@
       "isPopular": true
     },
     {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
-      "originalPrice": 259,
-      "discountPrice": 259,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1202520",
       "title": "Fallout 1st",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
@@ -157,6 +144,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1202520",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+      "originalPrice": 259,
+      "discountPrice": 259,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
