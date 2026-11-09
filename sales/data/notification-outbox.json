@@ -571,6 +571,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-06T11:00:39.489Z"
+    },
+    {
+      "id": "9e2ce1a91f319134ef89bb9f",
+      "createdAt": "2026-11-09T19:00:30.606Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mortal Shell II</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 449 грн</s> ➡️ <b>1 086 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2584270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2584270",
+          "entry": {
+            "title": "Mortal Shell II",
+            "price": 1086,
+            "percent": 25,
+            "timestamp": "2026-11-09T19:00:30.606Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
