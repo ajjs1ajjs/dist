@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T07:00:31.657Z",
+  "lastUpdated": "2026-11-09T08:00:29.190Z",
   "sourceUpdates": {
-    "steam": "2026-11-09T07:00:31.657Z",
-    "gamepass": "2026-11-09T07:00:31.657Z"
+    "steam": "2026-11-09T08:00:29.190Z",
+    "gamepass": "2026-11-09T08:00:29.190Z"
   },
   "steam": [
     {
@@ -60,25 +60,12 @@
     {
       "id": "1211600",
       "title": "ZED ZONE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794035207",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794210733",
       "originalPrice": 265,
       "discountPrice": 159,
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1211600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -97,19 +84,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
@@ -118,6 +92,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
