@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T02:00:30.966Z",
+  "lastUpdated": "2026-11-09T03:00:30.343Z",
   "sourceUpdates": {
-    "steam": "2026-11-09T02:00:30.966Z",
-    "gamepass": "2026-11-09T02:00:30.966Z"
+    "steam": "2026-11-09T03:00:30.343Z",
+    "gamepass": "2026-11-09T03:00:30.343Z"
   },
   "steam": [
     {
@@ -157,6 +157,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1794162078",
+      "originalPrice": 299,
+      "discountPrice": 269,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
