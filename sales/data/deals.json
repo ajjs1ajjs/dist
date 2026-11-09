@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-09T08:00:29.190Z",
+  "lastUpdated": "2026-11-09T09:00:31.638Z",
   "sourceUpdates": {
-    "steam": "2026-11-09T08:00:29.190Z",
-    "gamepass": "2026-11-09T08:00:29.190Z"
+    "steam": "2026-11-09T09:00:31.638Z",
+    "gamepass": "2026-11-09T09:00:31.638Z"
   },
   "steam": [
     {
@@ -14,6 +14,19 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "252490",
+      "title": "Rust",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
+      "originalPrice": 779,
+      "discountPrice": 389,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -40,19 +53,6 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/275850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "252490",
-      "title": "Rust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/c05e66e166b0fc5fc2a06711d7bfa1b4cb2f45f6/capsule_616x353.jpg?t=1781536981",
-      "originalPrice": 779,
-      "discountPrice": 389,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/252490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -123,53 +123,40 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1794162078",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1793118321",
+      "originalPrice": 129,
+      "discountPrice": 129,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2406770",
-      "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b99234f611e6bbffd55e9ede50b8696041ceb026/capsule_616x353_alt_assets_2.jpg?t=1794111990",
-      "originalPrice": 700,
-      "discountPrice": 700,
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+      "originalPrice": 259,
+      "discountPrice": 259,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2406770",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1792950881",
-      "originalPrice": 210,
-      "discountPrice": 210,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
