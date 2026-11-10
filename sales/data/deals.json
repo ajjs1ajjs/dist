@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T01:00:29.395Z",
+  "lastUpdated": "2026-11-10T02:00:29.286Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T01:00:29.395Z",
-    "gamepass": "2026-11-10T01:00:29.395Z"
+    "steam": "2026-11-10T02:00:29.286Z",
+    "gamepass": "2026-11-10T02:00:29.286Z"
   },
   "steam": [
     {
@@ -16,6 +16,19 @@
       "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": true,
       "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isFree": false,
       "isPopular": false
     },
     {
@@ -27,19 +40,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -71,6 +71,19 @@
       "isPopular": true
     },
     {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793982134",
@@ -84,14 +97,14 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
+      "originalPrice": 700,
+      "discountPrice": 700,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
+      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -118,19 +131,6 @@
       "discountPercent": 15,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4576490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2406770",
-      "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
-      "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
