@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T21:00:33.380Z",
+  "lastUpdated": "2026-11-10T22:00:33.052Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T21:00:33.380Z",
-    "gamepass": "2026-11-10T21:00:33.380Z"
+    "steam": "2026-11-10T22:00:33.052Z",
+    "gamepass": "2026-11-10T22:00:33.052Z"
   },
   "steam": [
     {
@@ -19,19 +19,6 @@
       "isPopular": false
     },
     {
-      "id": "4618570",
-      "title": "Booster Pack Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
-      "originalPrice": 240,
-      "discountPrice": 168,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4618570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1793285269",
@@ -40,6 +27,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "4618570",
+      "title": "Booster Pack Heroes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
+      "originalPrice": 240,
+      "discountPrice": 168,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4618570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
