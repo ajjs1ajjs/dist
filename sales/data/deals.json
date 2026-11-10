@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T00:00:32.014Z",
+  "lastUpdated": "2026-11-10T01:00:29.395Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T00:00:32.014Z",
-    "gamepass": "2026-11-10T00:00:32.014Z"
+    "steam": "2026-11-10T01:00:29.395Z",
+    "gamepass": "2026-11-10T01:00:29.395Z"
   },
   "steam": [
     {
@@ -45,19 +45,6 @@
       "isPopular": false
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
@@ -66,6 +53,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -97,19 +97,6 @@
       "isPopular": true
     },
     {
-      "id": "4576490",
-      "title": "Casualties: Unknown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/3937df74a9bd05c67b9c4463f2f519ac3cf402cd/capsule_616x353.jpg?t=1794232782",
-      "originalPrice": 499,
-      "discountPrice": 424,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4576490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -118,6 +105,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4576490",
+      "title": "Casualties: Unknown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4576490/3937df74a9bd05c67b9c4463f2f519ac3cf402cd/capsule_616x353.jpg?t=1794232782",
+      "originalPrice": 499,
+      "discountPrice": 424,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4576490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
