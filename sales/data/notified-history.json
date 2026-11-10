@@ -915,5 +915,12 @@
     "percent": 0,
     "timestamp": "2026-11-10T11:00:32.047Z",
     "type": "gamepass"
+  },
+  "steam_discount_4618570": {
+    "title": "Booster Pack Heroes",
+    "price": 168,
+    "percent": 30,
+    "timestamp": "2026-11-10T17:00:29.815Z",
+    "type": "discount"
   }
 }
