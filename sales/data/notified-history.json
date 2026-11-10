@@ -915,5 +915,19 @@
     "percent": 35,
     "timestamp": "2026-11-10T04:00:31.670Z",
     "type": "discount"
+  },
+  "gamepass_9MZZWGTF7V65": {
+    "title": "Warhammer Survivors",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-10T11:00:32.047Z",
+    "type": "gamepass"
+  },
+  "gamepass_9NRBW3FJSJWT": {
+    "title": "TANUKI: Pon's Summer",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-10T11:00:32.047Z",
+    "type": "gamepass"
   }
 }
