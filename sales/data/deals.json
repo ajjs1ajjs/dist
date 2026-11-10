@@ -1502,6 +1502,13 @@
       "percent": 25,
       "timestamp": "2026-11-09T19:00:30.606Z",
       "type": "discount"
+    },
+    "steam_discount_5175310": {
+      "title": "Worst Class Ever",
+      "price": 110,
+      "percent": 35,
+      "timestamp": "2026-11-10T04:00:31.670Z",
+      "type": "discount"
     }
   }
 }
