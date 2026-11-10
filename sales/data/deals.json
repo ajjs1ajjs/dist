@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T14:00:31.952Z",
+  "lastUpdated": "2026-11-10T15:00:31.723Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T14:00:31.952Z",
-    "gamepass": "2026-11-10T14:00:31.952Z"
+    "steam": "2026-11-10T15:00:31.723Z",
+    "gamepass": "2026-11-10T15:00:31.723Z"
   },
   "steam": [
     {
@@ -71,6 +71,19 @@
       "isPopular": true
     },
     {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
@@ -84,14 +97,14 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
+      "id": "3499790",
+      "title": "Ashes of the Singularity II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1794319758",
+      "originalPrice": 920,
+      "discountPrice": 736,
+      "discountPercent": 20,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
+      "url": "https://store.steampowered.com/app/3499790",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -110,27 +123,14 @@
       "isPopular": true
     },
     {
-      "id": "2638080",
-      "title": "Annihilated",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638080/c672bc2162263e8ca91904a4634e61ae13352561/capsule_616x353.jpg?t=1794308502",
-      "originalPrice": 370,
-      "discountPrice": 333,
-      "discountPercent": 10,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2638080",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3669620",
-      "title": "Warhammer Survivors",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1794319205",
-      "originalPrice": 195,
-      "discountPrice": 175,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3669620",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -625,20 +625,6 @@
       "percent": 0,
       "timestamp": "2026-10-11T14:57:39.618Z",
       "type": "gamepass"
-    },
-    "steam_discount_4656000": {
-      "title": "BOMBANANA!",
-      "price": 117,
-      "percent": 40,
-      "timestamp": "2026-10-11T14:57:39.618Z",
-      "type": "discount"
-    },
-    "steam_discount_3883570": {
-      "title": "Invokyr",
-      "price": 221,
-      "percent": 25,
-      "timestamp": "2026-10-11T14:57:39.618Z",
-      "type": "discount"
     },
     "gamepass_popular_9PM3J18QM4Q3": {
       "title": "Minecraft Dungeons II",

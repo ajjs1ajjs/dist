@@ -27,20 +27,6 @@
     "timestamp": "2026-10-11T14:57:39.618Z",
     "type": "gamepass"
   },
-  "steam_discount_4656000": {
-    "title": "BOMBANANA!",
-    "price": 117,
-    "percent": 40,
-    "timestamp": "2026-10-11T14:57:39.618Z",
-    "type": "discount"
-  },
-  "steam_discount_3883570": {
-    "title": "Invokyr",
-    "price": 221,
-    "percent": 25,
-    "timestamp": "2026-10-11T14:57:39.618Z",
-    "type": "discount"
-  },
   "gamepass_popular_9PM3J18QM4Q3": {
     "title": "Minecraft Dungeons II",
     "price": 0,
