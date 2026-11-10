@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T12:00:34.603Z",
+  "lastUpdated": "2026-11-10T13:00:31.174Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T12:00:34.603Z",
-    "gamepass": "2026-11-10T12:00:34.603Z"
+    "steam": "2026-11-10T13:00:31.174Z",
+    "gamepass": "2026-11-10T13:00:31.174Z"
   },
   "steam": [
     {
@@ -32,14 +32,14 @@
       "isPopular": false
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
-      "originalPrice": 1799,
-      "discountPrice": 1349,
-      "discountPercent": 25,
+      "id": "1211600",
+      "title": "ZED ZONE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794210733",
+      "originalPrice": 265,
+      "discountPrice": 159,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
+      "url": "https://store.steampowered.com/app/1211600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
