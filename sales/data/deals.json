@@ -1,23 +1,10 @@
 {
-  "lastUpdated": "2026-11-10T17:00:29.815Z",
+  "lastUpdated": "2026-11-10T18:00:32.353Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T17:00:29.815Z",
-    "gamepass": "2026-11-10T17:00:29.815Z"
+    "steam": "2026-11-10T18:00:32.353Z",
+    "gamepass": "2026-11-10T18:00:32.353Z"
   },
   "steam": [
-    {
-      "id": "5175310",
-      "title": "Worst Class Ever",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
-      "originalPrice": 170,
-      "discountPrice": 110,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5175310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
     {
       "id": "2584270",
       "title": "Mortal Shell II",
@@ -45,6 +32,19 @@
       "isPopular": false
     },
     {
+      "id": "5175310",
+      "title": "Worst Class Ever",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
+      "originalPrice": 170,
+      "discountPrice": 110,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5175310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794329519",
@@ -53,6 +53,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794331495",
+      "originalPrice": 240,
+      "discountPrice": 240,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -71,19 +84,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
@@ -97,19 +97,6 @@
       "isPopular": true
     },
     {
-      "id": "3499790",
-      "title": "Ashes of the Singularity II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1794325056",
-      "originalPrice": 920,
-      "discountPrice": 736,
-      "discountPercent": 20,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3499790",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530440",
       "title": "Football Manager 27 In-game Editor",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530440/2b836b8219fe21596bb023fb91ac79e207ec926f/capsule_616x353.jpg?t=1794326668",
@@ -118,6 +105,32 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530440",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3499790",
+      "title": "Ashes of the Singularity II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1794332328",
+      "originalPrice": 920,
+      "discountPrice": 736,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3499790",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
