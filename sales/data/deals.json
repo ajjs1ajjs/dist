@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T18:00:32.353Z",
+  "lastUpdated": "2026-11-10T19:00:30.702Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T18:00:32.353Z",
-    "gamepass": "2026-11-10T18:00:32.353Z"
+    "steam": "2026-11-10T19:00:30.702Z",
+    "gamepass": "2026-11-10T19:00:30.702Z"
   },
   "steam": [
     {
@@ -32,32 +32,6 @@
       "isPopular": false
     },
     {
-      "id": "5175310",
-      "title": "Worst Class Ever",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
-      "originalPrice": 170,
-      "discountPrice": 110,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5175310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4530370",
-      "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794329519",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3796990",
       "title": "Euro Truck Simulator 2 - Iceland",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794331495",
@@ -66,6 +40,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3796990",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794333658",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530370",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -84,19 +71,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530440",
       "title": "Football Manager 27 In-game Editor",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530440/2b836b8219fe21596bb023fb91ac79e207ec926f/capsule_616x353.jpg?t=1794326668",
@@ -105,6 +79,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530440",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1793941334",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -123,14 +110,14 @@
       "isPopular": true
     },
     {
-      "id": "3499790",
-      "title": "Ashes of the Singularity II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1794332328",
-      "originalPrice": 920,
-      "discountPrice": 736,
-      "discountPercent": 20,
+      "id": "2523740",
+      "title": "DreamWorks Shrek 2 Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/8b0d10da8636c2f44d5ccfdcb127fa5390213bb0/capsule_616x353.jpg?t=1794330089",
+      "originalPrice": 720,
+      "discountPrice": 648,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3499790",
+      "url": "https://store.steampowered.com/app/2523740",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -502,6 +489,15 @@
       "isPopular": true
     },
     {
+      "id": "9PB301R051CQ",
+      "title": "League of Legends",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
+      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
+      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
       "id": "9N8KMNW6942X",
       "title": "Call of Duty®: Black Ops 7 - Cross-Gen Bundle",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.58660.14316447222402733.7ce700b1-c1f1-4c72-a33b-ea4a18861dcb.784fadc8-05a3-4d01-b772-2ca2c4d6e955",
@@ -516,15 +512,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.20813.13739535057760905.64d1d264-ebf5-48f6-a5d3-2ac9c96b636b.fc5db7bc-2c84-4d72-9351-9f1e0985a53d",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-warzone/9NNFG8BQRCXL",
       "description": "Welcome to Call of Duty®: Warzone™, the massive free-to-play combat arena. Experience thrilling modes & new gameplay features including Battle Royale and Resurgence. Battle on Hajin in Call of Duty®: ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9PB301R051CQ",
-      "title": "League of Legends",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.43307.14127010465288187.f9de4a96-0ee4-4da3-bf66-d4132b38c599.95d8df9f-f7b0-4991-9448-5d486eb7961d",
-      "url": "https://www.xbox.com/uk-UA/games/store/league-of-legends/9PB301R051CQ",
-      "description": "Showcase your skills in the ultimate 5v5 battle arena that combines team strategy with solo mastery. Pick your role, perfect your build, and fight your way across the map to destroy the enemy Nexus. A",
       "isNew": false,
       "isPopular": true
     },
@@ -565,15 +552,6 @@
       "isPopular": true
     },
     {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9WZDNCRFHWD2",
       "title": "Microsoft Solitaire Collection",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
@@ -583,11 +561,11 @@
       "isPopular": true
     },
     {
-      "id": "9N0H62KZ3BXV",
-      "title": "Diablo® IV PC",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
-      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
-      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
       "isNew": false,
       "isPopular": true
     },
@@ -597,6 +575,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.11078.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.5790735b-d336-4c4b-bf76-da3e882cb0ec",
       "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX",
       "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes. For more information, please visit ",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N0H62KZ3BXV",
+      "title": "Diablo® IV PC",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.26296.13791399313063391.ee2580f0-6742-4993-affa-44a6d3f6e3e6.84c4b8aa-e82f-4829-8bba-3f02adf674b2",
+      "url": "https://www.xbox.com/uk-UA/games/store/diablo-iv-pc/9N0H62KZ3BXV",
+      "description": "Diablo® IV is the next-gen action RPG experience with endless evil to slaughter, countless abilities to master, nightmarish Dungeons, and legendary loot. Embark on the campaign solo or with friends, m",
       "isNew": false,
       "isPopular": true
     },
