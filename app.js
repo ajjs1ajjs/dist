@@ -24,53 +24,9 @@
   let currentLang = 'uk';
   const DICT = () => window.SITE_I18N?.[currentLang] || window.SITE_I18N?.uk || {};
   const t = (k) => DICT()[k] ?? window.SITE_I18N?.uk?.[k] ?? '';
-
-  // Translation strings may contain a small amount of trusted presentation
-  // markup. Parse them detached, then copy only a strict tag/attribute allowlist
-  // into the document so a bad string cannot add event handlers or active nodes.
-  function setTranslatedContent(el, value) {
-    const template = document.createElement('template');
-    template.innerHTML = value;
-    const fragment = document.createDocumentFragment();
-    const allowedTags = new Set(['A', 'B', 'BR', 'CODE', 'EM', 'I', 'STRONG']);
-
-    const copyNode = (node, parent) => {
-      if (node.nodeType === Node.TEXT_NODE) {
-        parent.append(document.createTextNode(node.nodeValue || ''));
-        return;
-      }
-      if (node.nodeType !== Node.ELEMENT_NODE) return;
-
-      const source = node;
-      if (!allowedTags.has(source.tagName)) {
-        source.childNodes.forEach(child => copyNode(child, parent));
-        return;
-      }
-
-      const clean = document.createElement(source.tagName.toLowerCase());
-      if (source.tagName === 'A') {
-        const rawHref = source.getAttribute('href');
-        if (rawHref) {
-          try {
-            const href = new URL(rawHref, location.href);
-            if (['https:', 'http:', 'mailto:'].includes(href.protocol)) {
-              clean.setAttribute('href', href.href);
-              if (href.protocol === 'http:' || href.protocol === 'https:') {
-                const opensNewTab = source.getAttribute('target') === '_blank';
-                if (opensNewTab) clean.setAttribute('target', '_blank');
-                clean.setAttribute('rel', 'noopener noreferrer');
-              }
-            }
-          } catch {}
-        }
-      }
-      source.childNodes.forEach(child => copyNode(child, clean));
-      parent.append(clean);
-    };
-
-    template.content.childNodes.forEach(node => copyNode(node, fragment));
-    el.replaceChildren(fragment);
-  }
+  const interpolate = (value, el) => String(value)
+    .replace(/\{year\}/g, String(new Date().getFullYear()))
+    .replace(/\{name\}/g, el?.dataset?.i18nName || '');
 
   function applyLang(lang) {
     currentLang = lang === 'en' ? 'en' : 'uk';
@@ -88,38 +44,44 @@
     const ogD = $('meta[property="og:description"]');
     if (ogD && dict[descKey]) ogD.setAttribute('content', dict[descKey]);
 
-    $$('.lang button').forEach((b) => {
+    $$('.lang [data-lang]').forEach((b) => {
       const on = b.dataset.lang === currentLang;
       b.classList.toggle('active', on);
-      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      if (b.tagName === 'A') b.setAttribute('aria-current', on ? 'page' : 'false');
+      else b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
 
     $$('[data-i18n]').forEach((el) => {
       const k = el.dataset.i18n;
       if (dict[k] !== undefined) {
-        setTranslatedContent(el, dict[k].replace('{year}', String(new Date().getFullYear())));
+        el.innerHTML = interpolate(dict[k], el);
       }
     });
     $$('[data-i18n-attr]').forEach((el) => {
       el.dataset.i18nAttr.split('|').forEach((spec) => {
         const [attr, k] = spec.split(':');
-        if (dict[k] !== undefined) el.setAttribute(attr, dict[k]);
+        if (dict[k] !== undefined) el.setAttribute(attr, interpolate(dict[k], el));
       });
     });
     $$('[data-i18n-placeholder]').forEach((el) => {
       const k = el.dataset.i18nPlaceholder;
-      if (dict[k] !== undefined) el.setAttribute('placeholder', dict[k]);
+      if (dict[k] !== undefined) el.setAttribute('placeholder', interpolate(dict[k], el));
     });
     updateResultCount();
+    updateFilterCountLabels();
 
     const buyModal = $('#buyModal');
-    if (buyModal && !buyModal.hidden) {
-      $('#buyMonth').textContent = fmtPrice(buyModal.dataset.month);
-      $('#buyYear').textContent = fmtPrice(buyModal.dataset.year);
+    if (buyModal?.open) {
+      $('#buyMonth').textContent = `${fmtPrice(buyModal.dataset.month)} / ${t('buy.moSuffix')}`;
+      $('#buyYear').textContent = `${fmtPrice(buyModal.dataset.year)} / ${t('buy.yrSuffix')}`;
     }
   }
 
   function initLang() {
+    if (/^\/en(?:\/|$)/.test(location.pathname)) {
+      applyLang('en');
+      return;
+    }
     let pref = null;
     try {
       const urlLang = new URLSearchParams(location.search).get('lang');
@@ -129,20 +91,35 @@
   }
 
   document.addEventListener('click', (e) => {
-    const b = e.target.closest('.lang button');
-    if (b && b.dataset.lang) applyLang(b.dataset.lang);
+    const b = e.target.closest('.lang [data-lang]');
+    if (!b) return;
+    if (b.tagName === 'A') {
+      try { localStorage.setItem('site_lang', b.dataset.lang); } catch {}
+      return;
+    }
+    if (b.dataset.lang) applyLang(b.dataset.lang);
   });
 
   /* ---------- Mobile menu ---------- */
   const burger = $('#burger');
   const mobileMenu = $('#mobileMenu');
   if (burger && mobileMenu) {
-    burger.addEventListener('click', () => {
-      const open = mobileMenu.classList.toggle('open');
+    const setMenuOpen = (open) => {
+      mobileMenu.classList.toggle('open', open);
       burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) mobileMenu.querySelector('a')?.focus();
+    };
+    burger.addEventListener('click', () => {
+      setMenuOpen(!mobileMenu.classList.contains('open'));
     });
     mobileMenu.addEventListener('click', (e) => {
-      if (e.target.closest('a')) mobileMenu.classList.remove('open');
+      if (e.target.closest('a')) setMenuOpen(false);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+        setMenuOpen(false);
+        burger.focus();
+      }
     });
   }
 
@@ -197,7 +174,14 @@
   });
 
   /* ---------- Filters + search ---------- */
-  const cards = $$('#productGrid .card');
+  const productGrid = $('#productGrid');
+  const cards = [...(productGrid?.querySelectorAll('.card') || [])];
+  const priority = (card) => {
+    const paid = card.querySelector('[data-buy]');
+    if (paid) return 1000 + Number(paid.dataset.month || 0);
+    return card.querySelector('a[href="./p/games/"]') ? 1 : 0;
+  };
+  cards.sort((a, b) => priority(b) - priority(a)).forEach((card) => productGrid.append(card));
   const chips = $$('.chip[data-filter]');
   const searchInput = $('#searchInput');
   const searchClear = $('#searchClear');
@@ -219,14 +203,26 @@
       if (show) visible++;
     });
     if (emptyMsg) emptyMsg.hidden = visible > 0;
+    const emptyActions = $('#emptyActions');
+    if (emptyActions) emptyActions.hidden = visible > 0;
     if (searchClear) searchClear.hidden = !q;
     updateResultCount(visible);
+    updateFilterCountLabels();
   }
   function updateResultCount(visible) {
     const el = $('#resultCount');
     if (!el) return;
     const n = visible ?? cards.filter((c) => !c.classList.contains('is-hidden')).length;
     el.textContent = t('prod.count').replace('{n}', String(n)).replace('{total}', String(cards.length));
+  }
+  function updateFilterCountLabels() {
+    $$('[data-filter-count]').forEach((chip) => {
+      const filter = chip.dataset.filterCount;
+      const count = filter === 'all'
+        ? cards.length
+        : cards.filter((card) => (card.dataset.cat || '').split(/\s+/).includes(filter)).length;
+      chip.textContent = t(chip.dataset.i18n).replace('{n}', String(count));
+    });
   }
   chips.forEach((chip) => chip.addEventListener('click', () => {
     chips.forEach((c) => { c.classList.toggle('active', c === chip); c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'); });
@@ -244,63 +240,29 @@
 
   /* ---------- Modal helpers ---------- */
   let lastFocus = null;
-  let backgroundInertState = [];
-  function setBackgroundInert(enabled) {
-    if (enabled) {
-      backgroundInertState = [...document.querySelectorAll('body > :not(.modal)')]
-        .map((el) => [el, el.inert]);
-      backgroundInertState.forEach(([el]) => { el.inert = true; });
-    } else {
-      backgroundInertState.forEach(([el, wasInert]) => { el.inert = wasInert; });
-      backgroundInertState = [];
-    }
-  }
   function openModal(id) {
     const m = document.getElementById(id);
-    if (!m) return;
+    if (!(m instanceof HTMLDialogElement) || m.open) return;
     lastFocus = document.activeElement;
-    m.hidden = false;
-    setBackgroundInert(true);
     document.body.style.overflow = 'hidden';
+    m.showModal();
     const closeBtn = m.querySelector('.modal-close');
     if (closeBtn) closeBtn.focus();
   }
   function closeModal(m) {
-    if (!m) return;
-    m.hidden = true;
-    document.body.style.overflow = '';
-    setBackgroundInert(false);
-    if (lastFocus && lastFocus.focus) lastFocus.focus();
+    if (m instanceof HTMLDialogElement && m.open) m.close();
   }
   document.addEventListener('click', (e) => {
     const close = e.target.closest('[data-close-modal]');
     if (close) { closeModal(close.closest('.modal')); return; }
-    if (e.target.classList?.contains('modal')) closeModal(e.target);
+    if (e.target instanceof HTMLDialogElement && e.target.classList.contains('modal')) closeModal(e.target);
   });
-  document.addEventListener('keydown', (e) => {
-    const modal = $('.modal:not([hidden])');
-    if (!modal) return;
-    if (e.key === 'Escape') {
-      e.preventDefault();
-      closeModal(modal);
-      return;
-    }
-    if (e.key !== 'Tab') return;
-    const focusable = [...modal.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')]
-      .filter((el) => !el.disabled && !el.closest('[hidden], [inert], [aria-hidden="true"]'));
-    if (focusable.length === 0) {
-      e.preventDefault();
-      modal.focus();
-      return;
-    }
-    const current = focusable.indexOf(document.activeElement);
-    const delta = e.shiftKey ? -1 : 1;
-    const next = current < 0
-      ? (e.shiftKey ? focusable.length - 1 : 0)
-      : (current + delta + focusable.length) % focusable.length;
-    e.preventDefault();
-    focusable[next].focus();
-  }, true);
+  $$('.modal').forEach((modal) => {
+    modal.addEventListener('close', () => {
+      document.body.style.overflow = '';
+      if (lastFocus?.isConnected && typeof lastFocus.focus === 'function') lastFocus.focus();
+    });
+  });
 
   /* ---------- Buy modal ---------- */
   const fmtNum = (n) => Number(n).toLocaleString('uk-UA').replace(/\u00A0/g, ' ');
@@ -318,8 +280,8 @@
     modal.dataset.month = month;
     modal.dataset.year = year;
     $('#buyName').textContent = name;
-    $('#buyMonth').textContent = fmtPrice(month) + ' / ' + t('buy.moSuffix');
-    $('#buyYear').textContent = fmtPrice(year) + ' / ' + t('buy.yrSuffix');
+    $('#buyMonth').textContent = `${fmtPrice(month)} / ${t('buy.moSuffix')}`;
+    $('#buyYear').textContent = `${fmtPrice(year)} / ${t('buy.yrSuffix')}`;
     // Клік на суму → банка Monobank із підставленою сумою (?amount=)
     const monthLink = $('#buyMonthLink');
     const yearLink = $('#buyYearLink');
@@ -348,19 +310,38 @@
   });
 
   /* ---------- Lead form (SITE only) ---------- */
-  $('#leadForm')?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const f = e.target;
+  function leadPayload() {
+    const f = $('#leadForm');
+    if (!f?.lfName || !f?.lfContact || !f?.lfMsg) return null;
     const name = f.lfName.value.trim();
     const contact = f.lfContact.value.trim();
     const msg = f.lfMsg.value.trim();
     const isEn = currentLang === 'en';
-    const subject = encodeURIComponent((isEn ? 'Inquiry from the website — ' : 'Заявка з сайту — ') + name);
-    const body = encodeURIComponent(isEn
+    const subject = (isEn ? 'Inquiry from the website — ' : 'Заявка з сайту — ') + name;
+    const body = isEn
       ? `Name: ${name}\nContact: ${contact}\n\nProject:\n${msg}`
-      : `Ім'я: ${name}\nКуди відповісти: ${contact}\n\nЗадача:\n${msg}`);
+      : `Ім'я: ${name}\nКуди відповісти: ${contact}\n\nЗадача:\n${msg}`;
+    return { subject, body };
+  }
+
+  $('#leadForm')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const payload = leadPayload();
+    if (!payload) return;
     toast(t('toast.openMail'));
-    location.href = `mailto:yaroslav.andreichuk@gmail.com?subject=${subject}&body=${body}`;
+    location.href = `mailto:yaroslav.andreichuk@gmail.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(payload.body)}`;
+  });
+
+  $('#copyLead')?.addEventListener('click', async () => {
+    const payload = leadPayload();
+    if (!payload) return;
+    const text = `${payload.subject}\n\n${payload.body}`;
+    try {
+      await navigator.clipboard.writeText(text);
+      toast(t('toast.leadCopied'));
+    } catch {
+      toast(text);
+    }
   });
 
   /* ---------- Share (SITE only) ---------- */
@@ -374,8 +355,8 @@
     if (currentLang === 'en') u.searchParams.set('lang', 'en');
     const url = u.toString();
     const text = currentLang === 'en'
-      ? 'Yaroslav — SRE / DevOps / Software Developer · 11 products, cases'
-      : 'Ярослав — SRE / DevOps / Software Developer · 11 продуктів, кейси';
+      ? 'Yaroslav — SRE / DevOps / Software Developer · 13 products, cases'
+      : 'Ярослав — SRE / DevOps / Software Developer · 13 продуктів, кейси';
     if (kind === 'copy') {
       try { await navigator.clipboard.writeText(url); toast(t('toast.linkCopied')); } catch { toast(url); }
       return;
@@ -394,88 +375,67 @@
     if (links[kind]) open(links[kind], '_blank', 'noopener,width=640,height=540');
   });
 
-  /* ---------- Live GitHub releases sync ---------- */
+  /* ---------- Same-origin release manifest ---------- */
+  function compareVersions(a, b) {
+    const parse = (value) => {
+      if (typeof value !== 'string' || !/^v?\d+(?:\.\d+)*$/i.test(value)) return null;
+      return value.replace(/^v/i, '').split('.').map(Number);
+    };
+    const left = parse(a);
+    const right = parse(b);
+    if (!left || !right) return null;
+    for (let i = 0; i < Math.max(left.length, right.length); i++) {
+      const diff = (left[i] || 0) - (right[i] || 0);
+      if (diff) return Math.sign(diff);
+    }
+    return 0;
+  }
+
   async function syncLatestReleases() {
-    let LATEST_CONFIG;
+    const CACHE_KEY = 'dist_latest_manifest_v1';
+    let latest = null;
     try {
-      const catalogUrl = new URL('./apps/catalog.json', document.currentScript.src);
-      const response = await fetch(catalogUrl);
-      if (!response.ok) return;
-      const registry = await response.json();
-      if (!Array.isArray(registry.products)) return;
-      LATEST_CONFIG = Object.fromEntries(registry.products.map(({ prefix, assetPattern }) => {
-        return [prefix, { pattern: assetPattern ? new RegExp(assetPattern, 'i') : null }];
-      }));
-    } catch { return; }
-    const CACHE_KEY = 'dist_releases_cache_v3';
-    const CACHE_TTL = 10 * 60 * 1000;
-    let releases = null;
-    try {
-      const cached = sessionStorage.getItem(CACHE_KEY);
-      if (cached) {
-        const parsed = JSON.parse(cached);
-        if (Date.now() - parsed.ts < CACHE_TTL) releases = parsed.data;
-      }
+      const cached = JSON.parse(sessionStorage.getItem(CACHE_KEY) || 'null');
+      if (cached?.schemaVersion === 1 && Date.now() - cached.ts < 10 * 60 * 1000 && cached.latest && typeof cached.latest === 'object') latest = cached.latest;
     } catch {}
-    if (!releases) {
+    if (!latest) {
       try {
-        const pages = [];
-        let complete = false;
-        for (let page = 1; page <= 50; page++) {
-          const res = await fetch(`https://api.github.com/repos/ajjs1ajjs/dist/releases?per_page=100&page=${page}`);
-          if (!res.ok) throw new Error('Release request failed');
+        const res = await fetch('/releases.json', { headers: { Accept: 'application/json' } });
+        if (res.ok) {
           const data = await res.json();
-          if (!Array.isArray(data)) throw new Error('Invalid release response');
-          pages.push(...data.filter((r) => !r.draft && !r.prerelease));
-          if (data.length < 100) { complete = true; break; }
+          if (data.schemaVersion === 1 && data.latest && typeof data.latest === 'object') {
+            latest = data.latest;
+            try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ schemaVersion: 1, ts: Date.now(), latest })); } catch {}
+          }
         }
-        if (!complete) throw new Error('Incomplete release listing');
-        releases = pages;
-        try { sessionStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data: releases })); } catch {}
       } catch {}
     }
-    if (!releases || !releases.length) return;
-
-    const latest = {};
-    const nums = (s) => s.split('.').map((n) => parseInt(n, 10) || 0);
-    const cmp = (a, b) => { for (let i = 0; i < Math.max(a.length, b.length); i++) { const d = (a[i] || 0) - (b[i] || 0); if (d) return d; } return 0; };
-    for (const rel of releases) {
-      for (const prefix of Object.keys(LATEST_CONFIG)) {
-        if (!rel.tag_name?.startsWith(prefix) || !/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/.test(rel.tag_name.slice(prefix.length))) continue;
-        const cur = latest[prefix];
-        const ver = (t2) => nums(t2.tag_name.slice(prefix.length).replace(/^v/i, ''));
-        if (!cur || cmp(ver(rel), ver(cur)) > 0) latest[prefix] = rel;
-      }
-    }
-
-    // Preserve static version and link together when a release is incomplete.
-    for (const [prefix, rel] of Object.entries(latest)) {
-      const pattern = LATEST_CONFIG[prefix].pattern;
-      if (pattern && !rel.assets?.some((a) => pattern.test(a.name) && /^https:\/\/github\.com\/ajjs1ajjs\/dist\/releases\/download\//.test(a.browser_download_url || ''))) delete latest[prefix];
-    }
-
+    if (!latest) return;
+    const accepted = new Map();
     $$('[data-latest-ver]').forEach((el) => {
-      const rel = latest[el.dataset.latestVer];
-      if (rel) el.textContent = 'v' + rel.tag_name.slice(el.dataset.latestVer.length).replace(/^v/i, '');
+      const prefix = el.dataset.latestVer;
+      const item = latest[prefix];
+      if (!item?.version) return;
+      const comparison = compareVersions(item.version, el.textContent.trim());
+      if (comparison === null || comparison < 0 || accepted.get(prefix) === false) {
+        accepted.set(prefix, false);
+        return;
+      }
+      accepted.set(prefix, true);
+    });
+    $$('[data-latest-ver]').forEach((el) => {
+      const item = latest[el.dataset.latestVer];
+      if (accepted.get(el.dataset.latestVer) && item?.version) el.textContent = item.version;
     });
     $$('[data-latest-href]').forEach((el) => {
-      const prefix = el.dataset.latestHref;
-      const rel = latest[prefix];
-      const cfg = LATEST_CONFIG[prefix];
-      if (!rel || !cfg?.pattern || !rel.assets) return;
-      const asset = rel.assets.find((a) => cfg.pattern.test(a.name) && /^https:\/\/github\.com\/ajjs1ajjs\/dist\/releases\/download\//.test(a.browser_download_url || ''));
-      // S5: підставляємо тільки лінки на наші релізи dist
-      if (asset?.browser_download_url && /^https:\/\/(github\.com\/ajjs1ajjs\/dist\/releases\/download\/|objects\.githubusercontent\.com\/)/.test(asset.browser_download_url)) {
-        el.href = asset.browser_download_url;
-      }
+      if (accepted.get(el.dataset.latestHref) === false) return;
+      const item = latest[el.dataset.latestHref];
+      if (item?.downloadUrl && /^https:\/\/(?:github\.com\/ajjs1ajjs\/dist\/releases\/download\/|objects\.githubusercontent\.com\/)/.test(item.downloadUrl)) el.href = item.downloadUrl;
     });
     $$('[data-latest-code]').forEach((el) => {
-      const prefix = el.dataset.latestCode;
-      const rel = latest[prefix];
-      const cfg = LATEST_CONFIG[prefix];
-      if (!rel || !cfg?.pattern || !rel.assets) return;
-      const asset = rel.assets.find((a) => cfg.pattern.test(a.name) && /^https:\/\/github\.com\/ajjs1ajjs\/dist\/releases\/download\//.test(a.browser_download_url || ''));
-      if (asset?.name) el.textContent = asset.name;
+      if (accepted.get(el.dataset.latestCode) === false) return;
+      const item = latest[el.dataset.latestCode];
+      if (item?.name) el.textContent = item.name;
     });
   }
 

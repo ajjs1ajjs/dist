@@ -33,12 +33,12 @@ Object.assign(window.SITE_I18N, {
     "p.uptime.reqs.2": "Права root/sudo для встановлення",
     "p.uptime.reqs.3": "Вбудована SQLite (WAL) — зовнішня база не потрібна",
     "p.uptime.reqs.4": "Для active-passive пари — спільна база на одному хості (не NFS/CIFS)",
-    "p.uptime.reqs.5": "Активна ліцензія — ключ AK-… або 3-денний Trial за email",
+    "p.uptime.reqs.5": "Активна ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну)",
     "p.uptime.shots.0.cap": "Дашборд зі станом перевірок",
     "p.uptime.shots.1.cap": "Вхід адміністратора в дашборд",
-    "p.uptime.links.0": "Реліз 3.10.32 ↗",
+    "p.uptime.links.0": "Реліз 3.10.35 ↗",
     "p.uptime.links.1": "інсталятор ↗",
-    "p.uptime.install.note": "Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… або 3-денний Trial."
+    "p.uptime.install.note": "Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну)."
   }),
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-uptime.title": "Uptime Monitor — Uptime, subnet and SSL monitoring — alerts and SLA reports",
@@ -72,11 +72,11 @@ Object.assign(window.SITE_I18N, {
     "p.uptime.reqs.2": "Root/sudo to install",
     "p.uptime.reqs.3": "Embedded SQLite (WAL) — no external database required",
     "p.uptime.reqs.4": "For an active-passive pair: a shared database on one host (not NFS/CIFS)",
-    "p.uptime.reqs.5": "An active license — an AK-… key or a 3-day trial with your email",
+    "p.uptime.reqs.5": "An active license — an AK-… key (Paid after payment or Work/Admin/Test issued manually)",
     "p.uptime.shots.0.cap": "Dashboard with live check status",
     "p.uptime.shots.1.cap": "Dashboard admin sign-in screen",
-    "p.uptime.links.0": "Release 3.10.32 ↗",
+    "p.uptime.links.0": "Release 3.10.35 ↗",
     "p.uptime.links.1": "installer ↗",
-    "p.uptime.install.note": "The same command installs and updates; data is preserved. License — an AK-… key or a 3-day trial."
+    "p.uptime.install.note": "The same command installs and updates; data is preserved. License — an AK-… key (Paid after payment or Work/Admin/Test issued manually)."
   })
 });

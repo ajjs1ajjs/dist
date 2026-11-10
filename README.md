@@ -31,7 +31,7 @@
 <a href="#uptime-monitor"><img src="https://img.shields.io/badge/Uptime_Monitor-Ubuntu-14B8A6?style=for-the-badge&logo=linux&logoColor=white" alt="Uptime Monitor"></a>
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=vilno"><img src="https://img.shields.io/badge/Vilno_VPN-Windows-16755F?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
-<a href="https://ajjs1ajjs.itch.io"><img src="https://img.shields.io/badge/3D_Games-WebGL-8B5CF6?style=for-the-badge&logo=unity&logoColor=white" alt="3D Game Collection"></a>
+<a href="https://ajjs1ajjs.itch.io/gravityshift"><img src="https://img.shields.io/badge/GravityShift-WebGL-8B5CF6?style=for-the-badge&logo=itchdotio&logoColor=white" alt="GravityShift"></a>
 <a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
 <sub><b>13 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA</sub>
@@ -108,9 +108,9 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 <br>
 <sub>Web · WebGL / Three.js</sub>
 <br><br>
-5 браузерних 3D-ігор — GravityShift, Drift, Terraformers, Echoes, Verdant
+GravityShift — браузерний 3D endless runner зі зміною гравітації
 <br><br>
-<a href="https://ajjs1ajjs.itch.io/">▶️ <b>Грати на itch.io</b></a>
+<a href="https://ajjs1ajjs.itch.io/gravityshift">▶️ <b>Грати на itch.io</b></a>
 <br><br>
 </td>
 </tr>
