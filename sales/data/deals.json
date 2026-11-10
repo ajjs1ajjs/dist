@@ -1539,6 +1539,20 @@
       "percent": 30,
       "timestamp": "2026-11-10T17:00:29.815Z",
       "type": "discount"
+    },
+    "gamepass_9N5DDTDLTWCL": {
+      "title": "Football Manager 27 Console",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-11-10T17:00:29.815Z",
+      "type": "gamepass"
+    },
+    "gamepass_9WZDNCRFHV60": {
+      "title": "Microsoft Sudoku",
+      "price": 0,
+      "percent": 0,
+      "timestamp": "2026-11-10T17:00:29.815Z",
+      "type": "gamepass"
     }
   }
 }
