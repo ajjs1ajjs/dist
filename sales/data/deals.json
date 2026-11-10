@@ -1,23 +1,10 @@
 {
-  "lastUpdated": "2026-11-10T07:00:31.964Z",
+  "lastUpdated": "2026-11-10T08:00:29.166Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T07:00:31.964Z",
-    "gamepass": "2026-11-10T07:00:31.964Z"
+    "steam": "2026-11-10T08:00:29.166Z",
+    "gamepass": "2026-11-10T08:00:29.166Z"
   },
   "steam": [
-    {
-      "id": "5175310",
-      "title": "Worst Class Ever",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794279489",
-      "originalPrice": 170,
-      "discountPrice": 110,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5175310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
     {
       "id": "2584270",
       "title": "Mortal Shell II",
@@ -32,6 +19,19 @@
       "isPopular": true
     },
     {
+      "id": "5175310",
+      "title": "Worst Class Ever",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794279489",
+      "originalPrice": 170,
+      "discountPrice": 110,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5175310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3751950",
       "title": "Assassin's Creed Black Flag Resynced",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
@@ -40,19 +40,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3751950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -97,19 +84,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793982134",
@@ -118,6 +92,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -136,14 +123,14 @@
       "isPopular": true
     },
     {
-      "id": "2406770",
-      "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
-      "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
+      "id": "3629430",
+      "title": "DREADMOOR",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/132411f9af108c43fd75c8b3c9fd730ebdb62c89/capsule_616x353.jpg?t=1794233002",
+      "originalPrice": 430,
+      "discountPrice": 387,
+      "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2406770",
+      "url": "https://store.steampowered.com/app/3629430",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
