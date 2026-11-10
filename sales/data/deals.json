@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-11-10T10:00:30.503Z",
+  "lastUpdated": "2026-11-10T11:00:32.047Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T10:00:30.503Z",
-    "gamepass": "2026-11-10T10:00:30.503Z"
+    "steam": "2026-11-10T11:00:32.047Z",
+    "gamepass": "2026-11-10T11:00:32.047Z"
   },
   "steam": [
     {
       "id": "5175310",
       "title": "Worst Class Ever",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794304026",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
       "originalPrice": 170,
       "discountPrice": 110,
       "discountPercent": 35,
@@ -29,7 +29,7 @@
       "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "3751950",
@@ -123,14 +123,14 @@
       "isPopular": true
     },
     {
-      "id": "3629430",
-      "title": "DREADMOOR",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/132411f9af108c43fd75c8b3c9fd730ebdb62c89/capsule_616x353.jpg?t=1794233002",
-      "originalPrice": 430,
-      "discountPrice": 387,
+      "id": "3669620",
+      "title": "Warhammer Survivors",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1794304261",
+      "originalPrice": 195,
+      "discountPrice": 175,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3629430",
+      "url": "https://store.steampowered.com/app/3669620",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -150,6 +150,24 @@
     }
   ],
   "gamepass": [
+    {
+      "id": "9MZZWGTF7V65",
+      "title": "Warhammer Survivors",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24118.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.42e56de2-baa7-4e7b-b91f-b2803b377056",
+      "url": "https://www.xbox.com/uk-UA/games/store/warhammer-survivors/9MZZWGTF7V65",
+      "description": "Warhammer Survivors — динамічна роглайт-гра на виживання, де ви в ролі легендарних персонажів Warhammer протистоятимете нескінченним ордам ворогів із різних фракцій. Пориньте у піксельні всесвіти Warh",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NRBW3FJSJWT",
+      "title": "TANUKI: Pon's Summer",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.27416.14390224744653316.b8cfc87d-5763-4e3b-9506-f6dc3b4f7735.8b41019f-a717-4f11-8b79-ae5de920d42d",
+      "url": "https://www.xbox.com/uk-UA/games/store/tanuki-pon-s-summer/9NRBW3FJSJWT",
+      "description": "Протягом одного спекотного літа… Доставляйте пакунки Застрибуйте на свій BMX і розвозьте листи й посилки дивакуватим мешканцям вигаданого японського острова в грі TANUKI. Пакунки відрізняються за розм",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9P743P6195Q5",
       "title": "Escape Academy 2: Back 2 School",

@@ -611,6 +611,35 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-10T04:00:35.218Z"
+    },
+    {
+      "id": "edfa4c0f684702a7f0da45d8",
+      "createdAt": "2026-11-10T11:00:32.047Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Warhammer Survivors</b>\n📝 Warhammer Survivors — динамічна роглайт-гра на виживання, де ви в ролі легендарних персонажів Warhammer протистоятимете …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/warhammer-survivors/9MZZWGTF7V65\">Microsoft Store</a>\n\n🎮 <b>TANUKI: Pon&#39;s Summer</b>\n📝 Протягом одного спекотного літа… Доставляйте пакунки Застрибуйте на свій BMX і розвозьте листи й посилки дивакуватим меш…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/tanuki-pon-s-summer/9NRBW3FJSJWT\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9MZZWGTF7V65",
+          "entry": {
+            "title": "Warhammer Survivors",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-10T11:00:32.047Z",
+            "type": "gamepass"
+          }
+        },
+        {
+          "key": "gamepass_9NRBW3FJSJWT",
+          "entry": {
+            "title": "TANUKI: Pon's Summer",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-10T11:00:32.047Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
