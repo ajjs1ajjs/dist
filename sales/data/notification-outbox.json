@@ -691,6 +691,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-10T17:00:39.419Z"
+    },
+    {
+      "id": "06550349820883b309095474",
+      "createdAt": "2026-11-10T21:00:33.380Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Euro Truck Simulator 2</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>400 грн</s> ➡️ <b>100 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/227300\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_227300",
+          "entry": {
+            "title": "Euro Truck Simulator 2",
+            "price": 100,
+            "percent": 75,
+            "timestamp": "2026-11-10T21:00:33.380Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
