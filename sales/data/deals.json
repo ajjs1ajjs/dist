@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T13:00:31.174Z",
+  "lastUpdated": "2026-11-10T14:00:31.952Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T13:00:31.174Z",
-    "gamepass": "2026-11-10T13:00:31.174Z"
+    "steam": "2026-11-10T14:00:31.952Z",
+    "gamepass": "2026-11-10T14:00:31.952Z"
   },
   "steam": [
     {
@@ -97,14 +97,14 @@
       "isPopular": true
     },
     {
-      "id": "3669620",
-      "title": "Warhammer Survivors",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1794304261",
-      "originalPrice": 195,
-      "discountPrice": 175,
+      "id": "4348910",
+      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1794162078",
+      "originalPrice": 299,
+      "discountPrice": 269,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3669620",
+      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -123,14 +123,14 @@
       "isPopular": true
     },
     {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1794162078",
-      "originalPrice": 299,
-      "discountPrice": 269,
+      "id": "3669620",
+      "title": "Warhammer Survivors",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1794319205",
+      "originalPrice": 195,
+      "discountPrice": 175,
       "discountPercent": 10,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
+      "url": "https://store.steampowered.com/app/3669620",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
