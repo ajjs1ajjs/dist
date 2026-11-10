@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T15:27:10.736Z",
+  "lastUpdated": "2026-11-10T16:00:41.915Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T15:27:10.736Z",
-    "gamepass": "2026-11-10T15:27:10.736Z"
+    "steam": "2026-11-10T16:00:41.915Z",
+    "gamepass": "2026-11-10T16:00:41.915Z"
   },
   "steam": [
     {
@@ -32,14 +32,14 @@
       "isPopular": false
     },
     {
-      "id": "1211600",
-      "title": "ZED ZONE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1794210733",
-      "originalPrice": 265,
-      "discountPrice": 159,
-      "discountPercent": 40,
+      "id": "3751950",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
+      "originalPrice": 1799,
+      "discountPrice": 1349,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1211600",
+      "url": "https://store.steampowered.com/app/3751950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -47,10 +47,10 @@
     {
       "id": "4530370",
       "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/dbddb621648ea947a5cc8d38f17088b571ca2fe7/capsule_616x353_alt_assets_0.jpg?t=1793982134",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1793982134",
       "originalPrice": 2299,
-      "discountPrice": 2069,
-      "discountPercent": 10,
+      "discountPrice": 2299,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
       "isSpecial": false,
@@ -99,25 +99,12 @@
     {
       "id": "3499790",
       "title": "Ashes of the Singularity II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1794319758",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1794325056",
       "originalPrice": 920,
       "discountPrice": 736,
       "discountPercent": 20,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3499790",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4348910",
-      "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1794162078",
-      "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4348910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
