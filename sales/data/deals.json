@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T16:00:41.915Z",
+  "lastUpdated": "2026-11-10T17:00:29.815Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T16:00:41.915Z",
-    "gamepass": "2026-11-10T16:00:41.915Z"
+    "steam": "2026-11-10T17:00:29.815Z",
+    "gamepass": "2026-11-10T17:00:29.815Z"
   },
   "steam": [
     {
@@ -16,7 +16,7 @@
       "url": "https://store.steampowered.com/app/5175310",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "2584270",
@@ -32,14 +32,14 @@
       "isPopular": false
     },
     {
-      "id": "3751950",
-      "title": "Assassin's Creed Black Flag Resynced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/bfbcf4d7e59161d5f95f2802898a7a3aaaf61ae2/capsule_616x353_alt_assets_0.jpg?t=1793391152",
-      "originalPrice": 1799,
-      "discountPrice": 1349,
-      "discountPercent": 25,
+      "id": "4618570",
+      "title": "Booster Pack Heroes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
+      "originalPrice": 240,
+      "discountPrice": 168,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3751950",
+      "url": "https://store.steampowered.com/app/4618570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -47,7 +47,7 @@
     {
       "id": "4530370",
       "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1793982134",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794329519",
       "originalPrice": 2299,
       "discountPrice": 2299,
       "discountPercent": 0,
@@ -110,6 +110,19 @@
       "isPopular": true
     },
     {
+      "id": "4530440",
+      "title": "Football Manager 27 In-game Editor",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530440/2b836b8219fe21596bb023fb91ac79e207ec926f/capsule_616x353.jpg?t=1794326668",
+      "originalPrice": 349,
+      "discountPrice": 349,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530440",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -124,6 +137,24 @@
     }
   ],
   "gamepass": [
+    {
+      "id": "9N5DDTDLTWCL",
+      "title": "Football Manager 27 Console",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14640.14035709193149319.c0b48782-5397-43ae-95b7-be2ecd468b49.f038dc70-1957-44da-b9d1-2e1c0297aad5",
+      "url": "https://www.xbox.com/uk-UA/games/store/football-manager-27-console/9N5DDTDLTWCL",
+      "description": "Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб втілитися в життя. Оберіть команду. Визначте свій стиль. Помічайте те, що можуть ",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9WZDNCRFHV60",
+      "title": "Microsoft Sudoku",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.13501.9007199266248115.9cbeff43-bb4e-48be-abec-06ddec39f69e.c39d5670-2879-4097-a569-bddff46d2389",
+      "url": "https://www.xbox.com/uk-UA/games/store/microsoft-sudoku/9WZDNCRFHV60",
+      "description": "Microsoft Sudoku is bringing the classic game you love to a whole new light! The #1 logic puzzle game has turned up the brilliance with fresh colors, exciting new features, new levels of difficulty, d",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9MZZWGTF7V65",
       "title": "Warhammer Survivors",

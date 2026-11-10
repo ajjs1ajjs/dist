@@ -641,6 +641,54 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-10T11:00:35.366Z"
+    },
+    {
+      "id": "7a1068b162a88786c69e7468",
+      "createdAt": "2026-11-10T17:00:29.815Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Booster Pack Heroes</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4618570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_4618570",
+          "entry": {
+            "title": "Booster Pack Heroes",
+            "price": 168,
+            "percent": 30,
+            "timestamp": "2026-11-10T17:00:29.815Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6d04ce5d796a2765117e9b4b",
+      "createdAt": "2026-11-10T17:00:29.815Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Football Manager 27 Console</b>\n📝 Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб в…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/football-manager-27-console/9N5DDTDLTWCL\">Microsoft Store</a>\n\n🎮 <b>Microsoft Sudoku</b>\n📝 Microsoft Sudoku is bringing the classic game you love to a whole new light! The #1 logic puzzle game has turned up the …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/microsoft-sudoku/9WZDNCRFHV60\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9N5DDTDLTWCL",
+          "entry": {
+            "title": "Football Manager 27 Console",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-10T17:00:29.815Z",
+            "type": "gamepass"
+          }
+        },
+        {
+          "key": "gamepass_9WZDNCRFHV60",
+          "entry": {
+            "title": "Microsoft Sudoku",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-10T17:00:29.815Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
