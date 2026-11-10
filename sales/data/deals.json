@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-10T15:00:31.723Z",
+  "lastUpdated": "2026-11-10T15:27:10.736Z",
   "sourceUpdates": {
-    "steam": "2026-11-10T15:00:31.723Z",
-    "gamepass": "2026-11-10T15:00:31.723Z"
+    "steam": "2026-11-10T15:27:10.736Z",
+    "gamepass": "2026-11-10T15:27:10.736Z"
   },
   "steam": [
     {
@@ -58,19 +58,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
@@ -79,6 +66,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -178,7 +178,7 @@
       "title": "Football Manager 27",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.6012.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.0b85ad89-d35d-4e98-834c-b6405dc97c5c",
       "url": "https://www.xbox.com/uk-UA/games/store/football-manager-27/9N4NKMXDZCX6",
-      "description": "Реліз FM27 відбудеться 10 листопада. Оформте попереднє замовлення вже зараз, щоб отримати знижку 10% і ранній доступ у межах попереднього огляду, що розпочнеться 3 листопада. Кожен уболівальник впевне",
+      "description": "Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб втілитися в життя. Пориньте у живий, динамічний всесвіт футболу, де кожне рішення",
       "isNew": true,
       "isPopular": false
     },
