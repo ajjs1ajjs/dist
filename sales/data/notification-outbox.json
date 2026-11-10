@@ -591,6 +591,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-09T19:00:35.454Z"
+    },
+    {
+      "id": "58a1bcbceec7171f33b59787",
+      "createdAt": "2026-11-10T04:00:31.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Worst Class Ever</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>110 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5175310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_5175310",
+          "entry": {
+            "title": "Worst Class Ever",
+            "price": 110,
+            "percent": 35,
+            "timestamp": "2026-11-10T04:00:31.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
