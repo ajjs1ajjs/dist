@@ -1559,6 +1559,13 @@
       "percent": 0,
       "timestamp": "2026-11-10T17:00:29.815Z",
       "type": "gamepass"
+    },
+    "steam_discount_227300": {
+      "title": "Euro Truck Simulator 2",
+      "price": 100,
+      "percent": 75,
+      "timestamp": "2026-11-10T21:00:33.380Z",
+      "type": "discount"
     }
   }
 }
