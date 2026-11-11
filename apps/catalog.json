@@ -56,6 +56,12 @@
       "slug": "sales"
     },
     {
+      "prefix": "slovakia-v",
+      "name": "Slovenčina 0→B2",
+      "assetPattern": "\\.pdf$",
+      "slug": "slovakia"
+    },
+    {
       "prefix": "uptime-v",
       "name": "Uptime-Monitor",
       "assetPattern": null,
