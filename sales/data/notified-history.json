@@ -957,5 +957,12 @@
     "percent": 35,
     "timestamp": "2026-11-11T20:02:53.734Z",
     "type": "discount"
+  },
+  "steam_discount_489830": {
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "price": 129,
+    "percent": 80,
+    "timestamp": "2026-11-11T21:00:35.504Z",
+    "type": "discount"
   }
 }
