@@ -936,5 +936,12 @@
     "percent": 75,
     "timestamp": "2026-11-10T21:00:33.380Z",
     "type": "discount"
+  },
+  "steam_discount_266410": {
+    "title": "iRacing",
+    "price": 103,
+    "percent": 60,
+    "timestamp": "2026-11-11T09:00:30.457Z",
+    "type": "discount"
   }
 }
