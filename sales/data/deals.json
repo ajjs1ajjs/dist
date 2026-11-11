@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-11T22:00:40.110Z",
+  "lastUpdated": "2026-11-11T23:00:29.969Z",
   "sourceUpdates": {
-    "steam": "2026-11-11T22:00:40.110Z",
-    "gamepass": "2026-11-11T22:00:40.110Z"
+    "steam": "2026-11-11T23:00:29.969Z",
+    "gamepass": "2026-11-11T23:00:29.969Z"
   },
   "steam": [
     {
@@ -16,7 +16,7 @@
       "url": "https://store.steampowered.com/app/489830",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2536520",
@@ -45,6 +45,19 @@
       "isPopular": false
     },
     {
+      "id": "4618570",
+      "title": "Booster Pack Heroes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
+      "originalPrice": 240,
+      "discountPrice": 168,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4618570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1793285269",
@@ -58,14 +71,14 @@
       "isPopular": false
     },
     {
-      "id": "4618570",
-      "title": "Booster Pack Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
-      "originalPrice": 240,
-      "discountPrice": 168,
-      "discountPercent": 30,
+      "id": "12210",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
+      "originalPrice": 429,
+      "discountPrice": 128,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4618570",
+      "url": "https://store.steampowered.com/app/12210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -110,19 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "3796990",
-      "title": "Euro Truck Simulator 2 - Iceland",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794407358",
-      "originalPrice": 240,
-      "discountPrice": 240,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3796990",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -131,19 +131,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2406770",
-      "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
-      "originalPrice": 700,
-      "discountPrice": 700,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -162,14 +149,27 @@
       "isPopular": true
     },
     {
-      "id": "5335510",
-      "title": "Moon Sweepers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1794330734",
-      "originalPrice": 210,
-      "discountPrice": 210,
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
+      "originalPrice": 700,
+      "discountPrice": 700,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5335510",
+      "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794407358",
+      "originalPrice": 240,
+      "discountPrice": 240,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
