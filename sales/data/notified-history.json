@@ -943,5 +943,12 @@
     "percent": 0,
     "timestamp": "2026-11-11T14:56:59.858Z",
     "type": "gamepass"
+  },
+  "gamepass_9P1S707BPW6W": {
+    "title": "Hope in the City",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-11T19:00:29.466Z",
+    "type": "gamepass"
   }
 }
