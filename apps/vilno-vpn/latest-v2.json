@@ -1,0 +1,11 @@
+{
+  "notes": "Vilno VPN 0.5.2. Vilno 0.5.1 and earlier require one manual installation because the updater key changed. This channel is for 0.5.2 and later.",
+  "pub_date": "2026-11-11T13:10:32Z",
+  "version": "0.5.2",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.2/Vilno.VPN_0.5.2_x64-setup.exe",
+      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZVZWxSNVJIUTFOVXRDTURCaVpXbzNlR2t3WVZKSlpVaHpSV281Y1hKdmFXMVVRMVp5TUhWalZGUkllR1o1Y0hWVU1XOVVSeTkxY1daSlowTmFRalE0TWxKblYyUTJUSFIyTkVsc1JtNWhhbkpJV1ZFMldYVTFZa054YWs5NVFVRnpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnprME5EQXlORGd3Q1dacGJHVTZWbWxzYm04Z1ZsQk9YekF1TlM0eVgzZzJOQzF6WlhSMWNDNWxlR1VKZG1WeWMybHZiam93TGpVdU1ncG5jMFZQU21weGQzRnBOMHMyUnpWcUwzUjZiVEIyYW04dmJXdzNkRGg1WWpSSmFuSjFWRGh5WlZGWU1YZFBTQ3RCVmpKdWNHWm1Talk1WlhKSlJrRnVOMHh5ZGpSQ1owaGhNR05aVDFOc1IzZGpjbGxDUVQwOUNnPT0="
+    }
+  }
+}
