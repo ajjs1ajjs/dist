@@ -38,7 +38,7 @@ Object.assign(window.SITE_I18N, {
     "p.vilno.shots.2.cap": "Налаштування ліцензії та оновлень",
     "p.vilno.links.0": "релізи ↗",
     "p.vilno.links.1": "канал оновлень ↗",
-    "p.vilno.install.note": "Завантажте NSIS-інсталятор із релізів vilno-v*, підтвердьте UAC та активуйте ліцензійний ключ у налаштуваннях."
+    "p.vilno.install.note": "Перехід з 0.5.1 і старіших потребує одного ручного встановлення через ротацію ключа updater. Завантажте Vilno.VPN_0.5.2_x64-setup.exe з офіційного релізу й встановіть поверх наявної версії; не видаляйте її заздалегідь. Звірте SHA-256 у нотатках релізу."
   }),
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-vilno.title": "Vilno VPN — Windows VPN client powered by OpenVPN and VPN Gate",
@@ -77,6 +77,6 @@ Object.assign(window.SITE_I18N, {
     "p.vilno.shots.2.cap": "License and update settings",
     "p.vilno.links.0": "releases ↗",
     "p.vilno.links.1": "update channel ↗",
-    "p.vilno.install.note": "Download the NSIS installer from the vilno-v* releases, confirm UAC and activate the license key in Settings."
+    "p.vilno.install.note": "Moving from 0.5.1 or older requires one manual installation because the updater key changed. Download Vilno.VPN_0.5.2_x64-setup.exe from the official release and install over the existing version; do not uninstall first. Check its SHA-256 in the release notes."
   })
 });
