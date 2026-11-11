@@ -751,6 +751,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-11T14:57:03.819Z"
+    },
+    {
+      "id": "12407b168296a39fbd5a1a66",
+      "createdAt": "2026-11-11T19:00:29.466Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Hope in the City</b>\n📝 Your sketches may be the only clues you have. Play as 17-year-old Hope Song in this narrative mystery set in Shenyang, C…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/hope-in-the-city/9P1S707BPW6W\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9P1S707BPW6W",
+          "entry": {
+            "title": "Hope in the City",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-11T19:00:29.466Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
