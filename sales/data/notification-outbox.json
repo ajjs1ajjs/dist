@@ -771,6 +771,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-11T19:00:32.948Z"
+    },
+    {
+      "id": "559459eec3db5b5075c5de9d",
+      "createdAt": "2026-11-11T20:02:53.734Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Diablo II: Resurrected - Infernal Edition</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2536520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2536520",
+          "entry": {
+            "title": "Diablo II: Resurrected - Infernal Edition",
+            "price": 1104,
+            "percent": 35,
+            "timestamp": "2026-11-11T20:02:53.734Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
