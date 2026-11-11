@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-11T16:00:34.341Z",
+  "lastUpdated": "2026-11-11T17:00:55.060Z",
   "sourceUpdates": {
-    "steam": "2026-11-11T16:00:34.341Z",
-    "gamepass": "2026-11-11T16:00:34.341Z"
+    "steam": "2026-11-11T17:00:55.060Z",
+    "gamepass": "2026-11-11T17:00:55.060Z"
   },
   "steam": [
     {
@@ -16,19 +16,6 @@
       "url": "https://store.steampowered.com/app/5175310",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
-      "originalPrice": 1449,
-      "discountPrice": 1086,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": true,
-      "isFree": false,
       "isPopular": false
     },
     {
@@ -40,6 +27,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
+      "originalPrice": 1449,
+      "discountPrice": 1086,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -66,19 +66,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -123,6 +110,19 @@
       "isPopular": true
     },
     {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -140,10 +140,23 @@
       "title": "Probably Stolen - Cyberpunk Shopkeeper Sim",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348910/dc11c819aee22e98fe66d0a1172be4c1ebd40f45/capsule_616x353_alt_assets_3.jpg?t=1794162078",
       "originalPrice": 299,
-      "discountPrice": 269,
-      "discountPercent": 10,
+      "discountPrice": 299,
+      "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4348910",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
+      "originalPrice": 700,
+      "discountPrice": 700,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -1155,13 +1168,6 @@
       "percent": 0,
       "timestamp": "2026-10-12T16:33:04.750Z",
       "type": "gamepass"
-    },
-    "steam_discount_1621690": {
-      "title": "Core Keeper",
-      "price": 249,
-      "percent": 40,
-      "timestamp": "2026-10-12T17:00:21.663Z",
-      "type": "discount"
     },
     "gamepass_9PPF72ZH6RP8": {
       "title": "Deep Dish Dungeon",
