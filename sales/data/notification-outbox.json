@@ -791,6 +791,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-11T20:02:57.210Z"
+    },
+    {
+      "id": "fb165a86e9f91bf2268a5f3a",
+      "createdAt": "2026-11-11T21:00:35.504Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls V: Skyrim Special Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>129 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/489830\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_489830",
+          "entry": {
+            "title": "The Elder Scrolls V: Skyrim Special Edition",
+            "price": 129,
+            "percent": 80,
+            "timestamp": "2026-11-11T21:00:35.504Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
