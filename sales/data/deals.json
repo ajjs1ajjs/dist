@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-11T21:00:35.504Z",
+  "lastUpdated": "2026-11-11T22:00:40.110Z",
   "sourceUpdates": {
-    "steam": "2026-11-11T21:00:35.504Z",
-    "gamepass": "2026-11-11T21:00:35.504Z"
+    "steam": "2026-11-11T22:00:40.110Z",
+    "gamepass": "2026-11-11T22:00:40.110Z"
   },
   "steam": [
     {
@@ -29,7 +29,7 @@
       "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2584270",
