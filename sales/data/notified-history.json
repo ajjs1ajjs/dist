@@ -943,5 +943,12 @@
     "percent": 60,
     "timestamp": "2026-11-11T09:00:30.457Z",
     "type": "discount"
+  },
+  "gamepass_9NWWL1CBWFCG": {
+    "title": "Thronefall",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-11T14:56:59.858Z",
+    "type": "gamepass"
   }
 }
