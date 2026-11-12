@@ -851,6 +851,35 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-12T19:00:34.226Z"
+    },
+    {
+      "id": "adf33929f74d1f5577eee3d1",
+      "createdAt": "2026-11-12T20:00:33.863Z",
+      "text": "🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n🎮 <b>Football Manager 27</b>\n📝 Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб в…\n🔥 Зараз у топі популярних PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/football-manager-27/9N4NKMXDZCX6\">Microsoft Store</a>\n\n🎮 <b>Call of Duty®: Black Ops 6 - Standard Edition (Windows)</b>\n📝 Forced to go rogue. Hunted from within. This is Call of Duty®: Black Ops 6. Developed by Treyarch and Raven, Black Ops 6…\n🔥 Зараз у топі популярних PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-6-standard-edition-windows/9MZ1RZTJTZKB\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_popular_9N4NKMXDZCX6",
+          "entry": {
+            "title": "Football Manager 27",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-12T20:00:33.863Z",
+            "type": "gamepass"
+          }
+        },
+        {
+          "key": "gamepass_popular_9MZ1RZTJTZKB",
+          "entry": {
+            "title": "Call of Duty®: Black Ops 6 - Standard Edition (Windows)",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-12T20:00:33.863Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

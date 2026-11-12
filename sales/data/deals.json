@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T19:00:30.958Z",
+  "lastUpdated": "2026-11-12T20:00:33.863Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T19:00:30.958Z",
-    "gamepass": "2026-11-12T19:00:30.958Z"
+    "steam": "2026-11-12T20:00:33.863Z",
+    "gamepass": "2026-11-12T20:00:33.863Z"
   },
   "priceHistory": {
     "12210": [
@@ -100,6 +100,13 @@
       {
         "date": "2026-11-12",
         "price": 2449,
+        "currency": "UAH"
+      }
+    ],
+    "4493130": [
+      {
+        "date": "2026-11-12",
+        "price": 423,
         "currency": "UAH"
       }
     ],
@@ -213,19 +220,6 @@
       "isPopular": false
     },
     {
-      "id": "12210",
-      "title": "Grand Theft Auto IV: The Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
-      "originalPrice": 429,
-      "discountPrice": 128,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/12210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3809270",
       "title": "Euro Truck Simulator 2 - Coaches",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794502649",
@@ -291,19 +285,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
@@ -317,14 +298,27 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4493130",
+      "title": "Ski-E-O! Ski Resort Tycoon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/1e717c1bc63f1ad5713cf999396918e2b78f2439/capsule_616x353.jpg?t=1794506830",
+      "originalPrice": 470,
+      "discountPrice": 423,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4493130",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -410,7 +404,7 @@
       "url": "https://www.xbox.com/uk-UA/games/store/football-manager-27/9N4NKMXDZCX6",
       "description": "Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб втілитися в життя. Пориньте у живий, динамічний всесвіт футболу, де кожне рішення",
       "isNew": true,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "9MW4MFG0192L",
@@ -746,20 +740,20 @@
       "isPopular": true
     },
     {
-      "id": "9P7RQ1QFFF8R",
-      "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
-      "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9WZDNCRFHWD2",
       "title": "Microsoft Solitaire Collection",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.38773.9007199266246761.b535414e-52ea-483a-af68-de38ef6ba67a.af30b913-522a-4c46-a969-0b119479bc74",
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-solitaire-collection/9WZDNCRFHWD2",
       "description": "Святкуймо 30 років РОЗВАГ. Долучайтеся до мільйонів геймерів по всьому світу в одній із найпопулярніших ігор УСІХ ЧАСІВ! Відкрийте для себе КРАЩІ пасьянси Solitaire в одній програмі: Klondike Solitair",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9P7RQ1QFFF8R",
+      "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-ii-standard-edition-windows/9P7RQ1QFFF8R",
+      "description": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141. From small-scale, high-stakes infiltration tac",
       "isNew": false,
       "isPopular": true
     },
@@ -800,11 +794,11 @@
       "isPopular": true
     },
     {
-      "id": "9NMPDV49K4TX",
-      "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.11078.13754207406549189.cd8c44dd-5d70-4cac-9ae7-2f630b4a1996.5790735b-d336-4c4b-bf76-da3e882cb0ec",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-digital-standard-edition-windows/9NMPDV49K4TX",
-      "description": "Experience a visceral Campaign or assemble your team in the ultimate online playground with multiple Special Ops challenges and a mix of Multiplayer maps and modes. For more information, please visit ",
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
       "isNew": false,
       "isPopular": true
     },
@@ -818,20 +812,11 @@
       "isPopular": true
     },
     {
-      "id": "9N4W31HSMVVD",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
-      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
-      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9NKX70BBCDRN",
-      "title": "Forza Horizon 5 Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
-      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
-      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+      "id": "9MZ1RZTJTZKB",
+      "title": "Call of Duty®: Black Ops 6 - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50883.14346543607136639.d932bf87-6edc-4da6-bbd5-c944ad33bc0d.ebbe5251-ed68-4e47-a6f4-515a704463bd",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-6-standard-edition-windows/9MZ1RZTJTZKB",
+      "description": "Forced to go rogue. Hunted from within. This is Call of Duty®: Black Ops 6. Developed by Treyarch and Raven, Black Ops 6 is a spy action thriller set in the early 90s, a period of transition and uphea",
       "isNew": false,
       "isPopular": true
     }
