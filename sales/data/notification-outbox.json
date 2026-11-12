@@ -881,6 +881,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-12T20:00:38.150Z"
+    },
+    {
+      "id": "a4e8af8aa908c1a73280a927",
+      "createdAt": "2026-11-12T21:00:32.710Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>9 Kings</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2784470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_2784470",
+          "entry": {
+            "title": "9 Kings",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-12T21:00:32.710Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

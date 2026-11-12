@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T20:00:33.863Z",
+  "lastUpdated": "2026-11-12T21:00:32.710Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T20:00:33.863Z",
-    "gamepass": "2026-11-12T20:00:33.863Z"
+    "steam": "2026-11-12T21:00:32.710Z",
+    "gamepass": "2026-11-12T21:00:32.710Z"
   },
   "priceHistory": {
     "12210": [
@@ -61,6 +61,13 @@
         "currency": "UAH"
       }
     ],
+    "2784470": [
+      {
+        "date": "2026-11-12",
+        "price": 149,
+        "currency": "UAH"
+      }
+    ],
     "3527290": [
       {
         "date": "2026-11-12",
@@ -90,6 +97,13 @@
       }
     ],
     "4165890": [
+      {
+        "date": "2026-11-12",
+        "price": 0,
+        "currency": "UAH"
+      }
+    ],
+    "4165910": [
       {
         "date": "2026-11-12",
         "price": 0,
@@ -155,19 +169,6 @@
   },
   "steam": [
     {
-      "id": "5378110",
-      "title": "One More Lawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/b3d2dc5d8f9eb7a9ee5e647121239e504ff0c37a/capsule_616x353.jpg?t=1794501120",
-      "originalPrice": 170,
-      "discountPrice": 119,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5378110",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "489830",
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
@@ -181,14 +182,14 @@
       "isPopular": false
     },
     {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1104,
-      "discountPercent": 35,
+      "id": "5378110",
+      "title": "One More Lawn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/b3d2dc5d8f9eb7a9ee5e647121239e504ff0c37a/capsule_616x353.jpg?t=1794516748",
+      "originalPrice": 170,
+      "discountPrice": 119,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
+      "url": "https://store.steampowered.com/app/5378110",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -207,6 +208,19 @@
       "isPopular": false
     },
     {
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1104,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "2584270",
       "title": "Mortal Shell II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
@@ -215,6 +229,19 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2784470",
+      "title": "9 Kings",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/54427b2703db1ec9ea121d6e267eaac6b7855f10/capsule_616x353.jpg?t=1794515874",
+      "originalPrice": 299,
+      "discountPrice": 149,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2784470",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -298,6 +325,19 @@
       "isPopular": true
     },
     {
+      "id": "4493130",
+      "title": "Ski-E-O! Ski Resort Tycoon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/1e717c1bc63f1ad5713cf999396918e2b78f2439/capsule_616x353.jpg?t=1794506830",
+      "originalPrice": 470,
+      "discountPrice": 423,
+      "discountPercent": 10,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4493130",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
@@ -311,14 +351,14 @@
       "isPopular": true
     },
     {
-      "id": "4493130",
-      "title": "Ski-E-O! Ski Resort Tycoon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/1e717c1bc63f1ad5713cf999396918e2b78f2439/capsule_616x353.jpg?t=1794506830",
-      "originalPrice": 470,
-      "discountPrice": 423,
-      "discountPercent": 10,
+      "id": "4165910",
+      "title": "Steam Machine",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1794365408",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4493130",
+      "url": "https://store.steampowered.com/app/4165910",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
