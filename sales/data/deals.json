@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T15:03:03.428Z",
+  "lastUpdated": "2026-11-12T15:49:36.992Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T15:03:03.428Z",
-    "gamepass": "2026-11-12T15:03:03.428Z"
+    "steam": "2026-11-12T15:49:36.992Z",
+    "gamepass": "2026-11-12T15:49:36.992Z"
   },
   "priceHistory": {
     "227300": [
@@ -230,19 +230,6 @@
       "isPopular": true
     },
     {
-      "id": "4530370",
-      "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
@@ -256,14 +243,27 @@
       "isPopular": true
     },
     {
-      "id": "3796990",
-      "title": "Euro Truck Simulator 2 - Iceland",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
-      "originalPrice": 240,
-      "discountPrice": 240,
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3796990",
+      "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4809970",
+      "title": "WARDOGS - Movember Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809970/baa18a933da36b92ff60ed90618a1e6fad90cbb7/capsule_616x353.jpg?t=1794488409",
+      "originalPrice": 80,
+      "discountPrice": 80,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4809970",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -282,14 +282,14 @@
       "isPopular": true
     },
     {
-      "id": "4809970",
-      "title": "WARDOGS - Movember Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809970/baa18a933da36b92ff60ed90618a1e6fad90cbb7/capsule_616x353.jpg?t=1794488409",
-      "originalPrice": 80,
-      "discountPrice": 80,
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
+      "originalPrice": 240,
+      "discountPrice": 240,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4809970",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
