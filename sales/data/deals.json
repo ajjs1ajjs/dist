@@ -1,8 +1,101 @@
 {
-  "lastUpdated": "2026-11-12T13:00:34.234Z",
+  "lastUpdated": "2026-11-12T14:00:36.415Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T13:00:34.234Z",
-    "gamepass": "2026-11-12T13:00:34.234Z"
+    "steam": "2026-11-12T14:00:36.415Z",
+    "gamepass": "2026-11-12T14:00:36.415Z"
+  },
+  "priceHistory": {
+    "227300": [
+      {
+        "date": "2026-11-12",
+        "price": 100,
+        "currency": "UAH"
+      }
+    ],
+    "489830": [
+      {
+        "date": "2026-11-12",
+        "price": 129,
+        "currency": "UAH"
+      }
+    ],
+    "2406770": [
+      {
+        "date": "2026-11-12",
+        "price": 700,
+        "currency": "UAH"
+      }
+    ],
+    "2536520": [
+      {
+        "date": "2026-11-12",
+        "price": 1104,
+        "currency": "UAH"
+      }
+    ],
+    "2584270": [
+      {
+        "date": "2026-11-12",
+        "price": 1086,
+        "currency": "UAH"
+      }
+    ],
+    "3796990": [
+      {
+        "date": "2026-11-12",
+        "price": 240,
+        "currency": "UAH"
+      }
+    ],
+    "4115450": [
+      {
+        "date": "2026-11-12",
+        "price": 2249,
+        "currency": "UAH"
+      }
+    ],
+    "4165890": [
+      {
+        "date": "2026-11-12",
+        "price": 0,
+        "currency": "UAH"
+      }
+    ],
+    "4435490": [
+      {
+        "date": "2026-11-12",
+        "price": 2449,
+        "currency": "UAH"
+      }
+    ],
+    "4530370": [
+      {
+        "date": "2026-11-12",
+        "price": 2299,
+        "currency": "UAH"
+      }
+    ],
+    "4618570": [
+      {
+        "date": "2026-11-12",
+        "price": 168,
+        "currency": "UAH"
+      }
+    ],
+    "4734100": [
+      {
+        "date": "2026-11-12",
+        "price": 599,
+        "currency": "UAH"
+      }
+    ],
+    "5175310": [
+      {
+        "date": "2026-11-12",
+        "price": 110,
+        "currency": "UAH"
+      }
+    ]
   },
   "steam": [
     {
@@ -97,19 +190,6 @@
       "isPopular": true
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794339680",
-      "originalPrice": 2449,
-      "discountPrice": 2449,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
@@ -118,6 +198,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794339680",
+      "originalPrice": 2449,
+      "discountPrice": 2449,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -1639,98 +1732,5 @@
       "timestamp": "2026-11-11T21:00:35.504Z",
       "type": "discount"
     }
-  },
-  "priceHistory": {
-    "227300": [
-      {
-        "date": "2026-11-12",
-        "price": 100,
-        "currency": "UAH"
-      }
-    ],
-    "489830": [
-      {
-        "date": "2026-11-12",
-        "price": 129,
-        "currency": "UAH"
-      }
-    ],
-    "2406770": [
-      {
-        "date": "2026-11-12",
-        "price": 700,
-        "currency": "UAH"
-      }
-    ],
-    "2536520": [
-      {
-        "date": "2026-11-12",
-        "price": 1104,
-        "currency": "UAH"
-      }
-    ],
-    "2584270": [
-      {
-        "date": "2026-11-12",
-        "price": 1086,
-        "currency": "UAH"
-      }
-    ],
-    "3796990": [
-      {
-        "date": "2026-11-12",
-        "price": 240,
-        "currency": "UAH"
-      }
-    ],
-    "4115450": [
-      {
-        "date": "2026-11-12",
-        "price": 2249,
-        "currency": "UAH"
-      }
-    ],
-    "4165890": [
-      {
-        "date": "2026-11-12",
-        "price": 0,
-        "currency": "UAH"
-      }
-    ],
-    "4435490": [
-      {
-        "date": "2026-11-12",
-        "price": 2449,
-        "currency": "UAH"
-      }
-    ],
-    "4530370": [
-      {
-        "date": "2026-11-12",
-        "price": 2299,
-        "currency": "UAH"
-      }
-    ],
-    "4618570": [
-      {
-        "date": "2026-11-12",
-        "price": 168,
-        "currency": "UAH"
-      }
-    ],
-    "4734100": [
-      {
-        "date": "2026-11-12",
-        "price": 599,
-        "currency": "UAH"
-      }
-    ],
-    "5175310": [
-      {
-        "date": "2026-11-12",
-        "price": 110,
-        "currency": "UAH"
-      }
-    ]
   }
 }
