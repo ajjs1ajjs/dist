@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T17:00:33.963Z",
+  "lastUpdated": "2026-11-12T18:00:37.363Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T17:00:33.963Z",
-    "gamepass": "2026-11-12T17:00:33.963Z"
+    "steam": "2026-11-12T18:00:37.363Z",
+    "gamepass": "2026-11-12T18:00:37.363Z"
   },
   "priceHistory": {
     "12210": [
@@ -68,6 +68,13 @@
         "currency": "UAH"
       }
     ],
+    "3809270": [
+      {
+        "date": "2026-11-12",
+        "price": 299,
+        "currency": "UAH"
+      }
+    ],
     "4115450": [
       {
         "date": "2026-11-12",
@@ -127,14 +134,14 @@
   },
   "steam": [
     {
-      "id": "5175310",
-      "title": "Worst Class Ever",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
-      "originalPrice": 170,
-      "discountPrice": 110,
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1104,
       "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5175310",
+      "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -148,19 +155,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/489830",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1104,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -181,12 +175,25 @@
     {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502161",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
       "originalPrice": 400,
       "discountPrice": 100,
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "5175310",
+      "title": "Worst Class Ever",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
+      "originalPrice": 170,
+      "discountPrice": 110,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5175310",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -205,14 +212,27 @@
       "isPopular": false
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "3809270",
+      "title": "Euro Truck Simulator 2 - Coaches",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794502649",
+      "originalPrice": 299,
+      "discountPrice": 299,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
+      "url": "https://store.steampowered.com/app/3809270",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
+      "originalPrice": 240,
+      "discountPrice": 240,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -226,6 +246,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -265,32 +298,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3796990",
-      "title": "Euro Truck Simulator 2 - Iceland",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
-      "originalPrice": 240,
-      "discountPrice": 240,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3796990",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4809970",
-      "title": "WARDOGS - Movember Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809970/baa18a933da36b92ff60ed90618a1e6fad90cbb7/capsule_616x353.jpg?t=1794488409",
-      "originalPrice": 80,
-      "discountPrice": 80,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4809970",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -649,6 +656,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.35788.13536036111571877.6e9314d2-c36f-4ec9-ad65-425453b390bd.1881d5b2-6403-44a1-b8c0-a69741bf665a",
       "url": "https://www.xbox.com/uk-UA/games/store/void-breaker/9N9K5QP9G3GL",
       "description": "Усезнаючий ворожий ШІ заманив вас у пастку нескінченного циклу. Ви в нього в полоні й змушені боротися та помирати знов і знов. Машини впевнені, що вам не втекти. Система створена, щоб утримувати вас ",
+      "isNew": true,
+      "isPopular": false
+    },
+    {
+      "id": "9NNM7PKZN3JF",
+      "title": "9 Kings",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.56687.13735777332261166.ccc1adb2-25e3-4d4c-82ac-c5a7a8061a9f.33ba377a-4547-426f-8437-725f9a5b5ee2",
+      "url": "https://www.xbox.com/uk-UA/games/store/9-kings/9NNM7PKZN3JF",
+      "description": "Побудуйте найсильніше місто серед усіх королівств завдяки безлічі комбінацій будівель, підрозділів, заклять і розташувань. Скористайтеся хаотичними комбо й потужними підсиленнями, щоб випробувати можл",
       "isNew": true,
       "isPopular": false
     },

@@ -811,6 +811,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-11T21:00:39.492Z"
+    },
+    {
+      "id": "7863b6cb95b6ca5b95fc1ffc",
+      "createdAt": "2026-11-12T18:00:37.363Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>9 Kings</b>\n📝 Побудуйте найсильніше місто серед усіх королівств завдяки безлічі комбінацій будівель, підрозділів, заклять і розташуван…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/9-kings/9NNM7PKZN3JF\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "gamepass_9NNM7PKZN3JF",
+          "entry": {
+            "title": "9 Kings",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-12T18:00:37.363Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
