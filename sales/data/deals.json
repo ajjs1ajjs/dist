@@ -1,23 +1,10 @@
 {
-  "lastUpdated": "2026-11-12T09:00:31.861Z",
+  "lastUpdated": "2026-11-12T10:00:28.510Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T09:00:31.861Z",
-    "gamepass": "2026-11-12T09:00:31.861Z"
+    "steam": "2026-11-12T10:00:28.510Z",
+    "gamepass": "2026-11-12T10:00:28.510Z"
   },
   "steam": [
-    {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
-      "originalPrice": 259,
-      "discountPrice": 103,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
     {
       "id": "5175310",
       "title": "Worst Class Ever",
@@ -27,6 +14,19 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5175310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+      "originalPrice": 259,
+      "discountPrice": 103,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/266410",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -123,19 +123,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794391162",
@@ -149,27 +136,27 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
       "originalPrice": 0,
       "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2406770",
-      "title": "Bodycam",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
-      "originalPrice": 700,
-      "discountPrice": 700,
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
+      "originalPrice": 240,
+      "discountPrice": 240,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2406770",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -188,27 +175,27 @@
       "isPopular": true
     },
     {
-      "id": "3796990",
-      "title": "Euro Truck Simulator 2 - Iceland",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794407358",
-      "originalPrice": 240,
-      "discountPrice": 240,
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
+      "originalPrice": 700,
+      "discountPrice": 700,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3796990",
+      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
