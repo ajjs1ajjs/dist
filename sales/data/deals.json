@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T12:00:33.479Z",
+  "lastUpdated": "2026-11-12T13:00:34.234Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T12:00:33.479Z",
-    "gamepass": "2026-11-12T12:00:33.479Z"
+    "steam": "2026-11-12T13:00:34.234Z",
+    "gamepass": "2026-11-12T13:00:34.234Z"
   },
   "steam": [
     {
@@ -162,14 +162,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "4734100",
+      "title": "WARNO - Tropic Storm",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4734100/f07d1171d4f756e374d7a9a48cf4a99bbea8d403/capsule_616x353.jpg?t=1794481441",
+      "originalPrice": 599,
+      "discountPrice": 599,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/4734100",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
