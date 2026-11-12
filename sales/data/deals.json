@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T00:00:32.572Z",
+  "lastUpdated": "2026-11-12T01:00:32.536Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T00:00:32.572Z",
-    "gamepass": "2026-11-12T00:00:32.572Z"
+    "steam": "2026-11-12T01:00:32.536Z",
+    "gamepass": "2026-11-12T01:00:32.536Z"
   },
   "steam": [
     {
@@ -53,6 +53,19 @@
       "discountPercent": 30,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4618570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
