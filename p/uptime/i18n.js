@@ -36,7 +36,7 @@ Object.assign(window.SITE_I18N, {
     "p.uptime.reqs.5": "Активна ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну)",
     "p.uptime.shots.0.cap": "Дашборд зі станом перевірок",
     "p.uptime.shots.1.cap": "Вхід адміністратора в дашборд",
-    "p.uptime.links.0": "Реліз 3.10.36 ↗",
+    "p.uptime.links.0": "Реліз 3.10.39 ↗",
     "p.uptime.links.1": "інсталятор ↗",
     "p.uptime.install.note": "Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну)."
   }),
@@ -75,7 +75,7 @@ Object.assign(window.SITE_I18N, {
     "p.uptime.reqs.5": "An active license — an AK-… key (Paid after payment or Work/Admin/Test issued manually)",
     "p.uptime.shots.0.cap": "Dashboard with live check status",
     "p.uptime.shots.1.cap": "Dashboard admin sign-in screen",
-    "p.uptime.links.0": "Release 3.10.36 ↗",
+    "p.uptime.links.0": "Release 3.10.39 ↗",
     "p.uptime.links.1": "installer ↗",
     "p.uptime.install.note": "The same command installs and updates; data is preserved. License — an AK-… key (Paid after payment or Work/Admin/Test issued manually)."
   })

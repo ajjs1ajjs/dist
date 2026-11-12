@@ -304,10 +304,11 @@ systemctl enable $SERVICE_NAME
 # --- License preflight --------------------------------------------------------
 # The service verifies the license on every start and exits without one, so on
 # an unlicensed host the update ends with a crash-looping unit and the operator
-# hunting for commands. Offer the key right here — `curl | sudo
-# bash` keeps the script itself on stdin, so every prompt reads from /dev/tty.
+# hunting for commands. Offer license-key activation here — `curl | sudo bash`
+# keeps the script itself on stdin, so every prompt reads from /dev/tty.
 # Skipping never leaves a dead service: an update is rolled back to the previous
 # binary (which keeps running), a fresh install stays stopped with exact steps.
+# Unattended runs: UPTIME_MONITOR_LICENSE_KEY=<key>.
 LICENSE_FILE="$INSTALL_DIR/.config/uptime-monitor/license.json"
 lic_cli() { sudo -u uptime env HOME="$INSTALL_DIR" "$INSTALL_DIR/uptime-monitor" "$@"; }
 lic_valid() {
@@ -568,7 +569,7 @@ else
 fi
 echo ""
 echo "Dashboard: $DASHBOARD_URL"
-echo "Ліцензія:   sudo uptime-monitor license status   (activate)"
+echo "Ліцензія:   sudo uptime-monitor license status   (активація: license activate <key>)"
 echo ""
 if [ "$ADMIN_SET" = "1" ]; then
     echo "===================================="
