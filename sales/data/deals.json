@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T10:00:28.510Z",
+  "lastUpdated": "2026-11-12T11:00:33.860Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T10:00:28.510Z",
-    "gamepass": "2026-11-12T10:00:28.510Z"
+    "steam": "2026-11-12T11:00:33.860Z",
+    "gamepass": "2026-11-12T11:00:33.860Z"
   },
   "steam": [
     {
@@ -84,17 +84,17 @@
       "isPopular": false
     },
     {
-      "id": "4618570",
-      "title": "Booster Pack Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
-      "originalPrice": 240,
-      "discountPrice": 168,
-      "discountPercent": 30,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4618570",
-      "isSpecial": true,
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "4435490",
@@ -105,19 +105,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -162,19 +149,6 @@
       "isPopular": true
     },
     {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1793118321",
-      "originalPrice": 129,
-      "discountPrice": 129,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
@@ -183,6 +157,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1793118321",
+      "originalPrice": 129,
+      "discountPrice": 129,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
