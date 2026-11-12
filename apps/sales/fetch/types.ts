@@ -40,9 +40,16 @@ export interface SourceUpdates {
   gamepass?: string;
 }
 
+export interface PriceObservation {
+  date: string;
+  price: number;
+  currency: string;
+}
+
 export interface DealsData {
   lastUpdated: string;
   sourceUpdates?: SourceUpdates;
+  priceHistory?: Record<string, PriceObservation[]>;
   steam: SteamGame[];
   /** Каталог Game Pass для ПК. Поле відсутнє у старих файлах — UI це терпить. */
   gamepass?: GamePassGame[];

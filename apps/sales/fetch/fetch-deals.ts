@@ -3,7 +3,7 @@ import path from 'path';
 import pino from 'pino';
 import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
-import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps } from './collector-core';
+import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps, updatePriceHistory } from './collector-core';
 import { writeJsonAtomically } from './persistence';
 import { buildTelegramBatches } from './telegram';
 import {
@@ -755,7 +755,11 @@ async function runPrepare() {
   // Поле `epic` зі старих файлів ігнорується (перехід на Steam-only):
   // відсутнє чи пошкоджене поле не повинно класти ран.
   const coerceOldData = (parsed: unknown): DealsData => {
-    const p = parsed && typeof parsed === 'object' ? (parsed as Record<string, unknown>) : {};
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) throw new Error('Invalid previous catalog');
+    const p = parsed as Record<string, unknown>;
+    if (p.priceHistory !== undefined && (!p.priceHistory || typeof p.priceHistory !== 'object' || Array.isArray(p.priceHistory))) {
+      throw new Error('Invalid price history; refusing to overwrite the previous catalog');
+    }
     const rawUpdates = p.sourceUpdates && typeof p.sourceUpdates === 'object' && !Array.isArray(p.sourceUpdates)
       ? (p.sourceUpdates as Record<string, unknown>)
       : undefined;
@@ -768,6 +772,7 @@ async function runPrepare() {
     return {
       lastUpdated: typeof p.lastUpdated === 'string' ? p.lastUpdated : '',
       sourceUpdates,
+      priceHistory: p.priceHistory as DealsData['priceHistory'],
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
       gamepass: Array.isArray(p.gamepass) ? (p.gamepass as GamePassGame[]) : [],
       notifiedHistory: {},
@@ -781,6 +786,7 @@ async function runPrepare() {
       logger.info('Loaded previous deals from local path.');
     } catch (err) {
       logger.error({ err: err instanceof Error ? err.message : String(err) }, 'failed to parse old local deals.json');
+      throw new Error('Previous local catalog is unreadable; refusing to overwrite it', { cause: err });
     }
   } else {
     try {
@@ -1102,6 +1108,7 @@ async function runPrepare() {
   const newData: DealsData = {
     lastUpdated,
     sourceUpdates,
+    priceHistory: updatePriceHistory(oldData.priceHistory, freshSteam, now, steamUpdated),
     steam,
     gamepass,
     notifiedHistory,
