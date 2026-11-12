@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T21:00:32.710Z",
+  "lastUpdated": "2026-11-12T22:00:30.899Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T21:00:32.710Z",
-    "gamepass": "2026-11-12T21:00:32.710Z"
+    "steam": "2026-11-12T22:00:30.899Z",
+    "gamepass": "2026-11-12T22:00:30.899Z"
   },
   "priceHistory": {
     "12210": [
@@ -195,19 +195,6 @@
       "isPopular": false
     },
     {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2536520",
       "title": "Diablo II: Resurrected - Infernal Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
@@ -216,6 +203,32 @@
       "discountPercent": 35,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2784470",
+      "title": "9 Kings",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/54427b2703db1ec9ea121d6e267eaac6b7855f10/capsule_616x353.jpg?t=1794518469",
+      "originalPrice": 299,
+      "discountPrice": 149,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2784470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/227300",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -234,19 +247,6 @@
       "isPopular": false
     },
     {
-      "id": "2784470",
-      "title": "9 Kings",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/54427b2703db1ec9ea121d6e267eaac6b7855f10/capsule_616x353.jpg?t=1794515874",
-      "originalPrice": 299,
-      "discountPrice": 149,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2784470",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "3809270",
       "title": "Euro Truck Simulator 2 - Coaches",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794502649",
@@ -260,19 +260,6 @@
       "isPopular": true
     },
     {
-      "id": "3796990",
-      "title": "Euro Truck Simulator 2 - Iceland",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
-      "originalPrice": 240,
-      "discountPrice": 240,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3796990",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794339680",
@@ -281,6 +268,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
+      "originalPrice": 240,
+      "discountPrice": 240,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -320,19 +320,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2406770",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4493130",
-      "title": "Ski-E-O! Ski Resort Tycoon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4493130/1e717c1bc63f1ad5713cf999396918e2b78f2439/capsule_616x353.jpg?t=1794506830",
-      "originalPrice": 470,
-      "discountPrice": 423,
-      "discountPercent": 10,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4493130",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
