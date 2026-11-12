@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T14:00:36.415Z",
+  "lastUpdated": "2026-11-12T15:03:03.428Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T14:00:36.415Z",
-    "gamepass": "2026-11-12T14:00:36.415Z"
+    "steam": "2026-11-12T15:03:03.428Z",
+    "gamepass": "2026-11-12T15:03:03.428Z"
   },
   "priceHistory": {
     "227300": [
@@ -37,6 +37,13 @@
       {
         "date": "2026-11-12",
         "price": 1086,
+        "currency": "UAH"
+      }
+    ],
+    "3527290": [
+      {
+        "date": "2026-11-12",
+        "price": 98,
         "currency": "UAH"
       }
     ],
@@ -89,6 +96,13 @@
         "currency": "UAH"
       }
     ],
+    "4809970": [
+      {
+        "date": "2026-11-12",
+        "price": 80,
+        "currency": "UAH"
+      }
+    ],
     "5175310": [
       {
         "date": "2026-11-12",
@@ -138,19 +152,6 @@
       "isPopular": false
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
-      "originalPrice": 1449,
-      "discountPrice": 1086,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794483558",
@@ -159,6 +160,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
+      "originalPrice": 1449,
+      "discountPrice": 1086,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -177,6 +191,19 @@
       "isPopular": false
     },
     {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "4115450",
       "title": "Phantom Blade Zero",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
@@ -190,19 +217,6 @@
       "isPopular": true
     },
     {
-      "id": "4530370",
-      "title": "Football Manager 27",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
-      "originalPrice": 2299,
-      "discountPrice": 2299,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794339680",
@@ -211,6 +225,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4530370",
+      "title": "Football Manager 27",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
+      "originalPrice": 2299,
+      "discountPrice": 2299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4530370",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -255,14 +282,14 @@
       "isPopular": true
     },
     {
-      "id": "4734100",
-      "title": "WARNO - Tropic Storm",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4734100/f07d1171d4f756e374d7a9a48cf4a99bbea8d403/capsule_616x353.jpg?t=1794481441",
-      "originalPrice": 599,
-      "discountPrice": 599,
+      "id": "4809970",
+      "title": "WARDOGS - Movember Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809970/baa18a933da36b92ff60ed90618a1e6fad90cbb7/capsule_616x353.jpg?t=1794488409",
+      "originalPrice": 80,
+      "discountPrice": 80,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4734100",
+      "url": "https://store.steampowered.com/app/4809970",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
