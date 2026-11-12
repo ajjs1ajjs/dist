@@ -1,10 +1,17 @@
 {
-  "lastUpdated": "2026-11-12T16:00:32.122Z",
+  "lastUpdated": "2026-11-12T17:00:33.963Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T16:00:32.122Z",
-    "gamepass": "2026-11-12T16:00:32.122Z"
+    "steam": "2026-11-12T17:00:33.963Z",
+    "gamepass": "2026-11-12T17:00:33.963Z"
   },
   "priceHistory": {
+    "12210": [
+      {
+        "date": "2026-11-12",
+        "price": 128,
+        "currency": "UAH"
+      }
+    ],
     "227300": [
       {
         "date": "2026-11-12",
@@ -16,6 +23,13 @@
       {
         "date": "2026-11-12",
         "price": 129,
+        "currency": "UAH"
+      }
+    ],
+    "1867240": [
+      {
+        "date": "2026-11-12",
+        "price": 829,
         "currency": "UAH"
       }
     ],
@@ -123,7 +137,7 @@
       "url": "https://store.steampowered.com/app/5175310",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
+      "isPopular": false
     },
     {
       "id": "489830",
@@ -152,19 +166,6 @@
       "isPopular": false
     },
     {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794483558",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "2584270",
       "title": "Mortal Shell II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
@@ -178,40 +179,40 @@
       "isPopular": false
     },
     {
-      "id": "4618570",
-      "title": "Booster Pack Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
-      "originalPrice": 240,
-      "discountPrice": 168,
-      "discountPercent": 30,
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502161",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4618570",
+      "url": "https://store.steampowered.com/app/227300",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "12210",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
+      "originalPrice": 429,
+      "discountPrice": 128,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/12210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -230,19 +231,6 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
@@ -256,14 +244,14 @@
       "isPopular": true
     },
     {
-      "id": "4809970",
-      "title": "WARDOGS - Movember Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809970/baa18a933da36b92ff60ed90618a1e6fad90cbb7/capsule_616x353.jpg?t=1794488409",
-      "originalPrice": 80,
-      "discountPrice": 80,
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4809970",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -290,6 +278,32 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3796990",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4809970",
+      "title": "WARDOGS - Movember Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4809970/baa18a933da36b92ff60ed90618a1e6fad90cbb7/capsule_616x353.jpg?t=1794488409",
+      "originalPrice": 80,
+      "discountPrice": 80,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4809970",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1867240",
+      "title": "WARDOGS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1867240/4c93930b0172dfbacff42f43ef41d30101510156/capsule_616x353_alt_assets_1_ukrainian.jpg?t=1794488577",
+      "originalPrice": 829,
+      "discountPrice": 829,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1867240",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
