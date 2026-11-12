@@ -964,5 +964,12 @@
     "percent": 80,
     "timestamp": "2026-11-11T21:00:35.504Z",
     "type": "discount"
+  },
+  "gamepass_9NNM7PKZN3JF": {
+    "title": "9 Kings",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-12T18:00:37.363Z",
+    "type": "gamepass"
   }
 }
