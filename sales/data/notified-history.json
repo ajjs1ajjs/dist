@@ -978,5 +978,19 @@
     "percent": 30,
     "timestamp": "2026-11-12T19:00:30.958Z",
     "type": "discount"
+  },
+  "gamepass_popular_9N4NKMXDZCX6": {
+    "title": "Football Manager 27",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-12T20:00:33.863Z",
+    "type": "gamepass"
+  },
+  "gamepass_popular_9MZ1RZTJTZKB": {
+    "title": "Call of Duty®: Black Ops 6 - Standard Edition (Windows)",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-12T20:00:33.863Z",
+    "type": "gamepass"
   }
 }
