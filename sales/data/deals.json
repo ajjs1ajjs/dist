@@ -1,10 +1,23 @@
 {
-  "lastUpdated": "2026-11-12T08:00:31.503Z",
+  "lastUpdated": "2026-11-12T09:00:31.861Z",
   "sourceUpdates": {
-    "steam": "2026-11-12T08:00:31.503Z",
-    "gamepass": "2026-11-12T08:00:31.503Z"
+    "steam": "2026-11-12T09:00:31.861Z",
+    "gamepass": "2026-11-12T09:00:31.861Z"
   },
   "steam": [
+    {
+      "id": "266410",
+      "title": "iRacing",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
+      "originalPrice": 259,
+      "discountPrice": 103,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/266410",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
     {
       "id": "5175310",
       "title": "Worst Class Ever",
@@ -58,19 +71,6 @@
       "isPopular": false
     },
     {
-      "id": "4618570",
-      "title": "Booster Pack Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
-      "originalPrice": 240,
-      "discountPrice": 168,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4618570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1793285269",
@@ -84,14 +84,14 @@
       "isPopular": false
     },
     {
-      "id": "3527290",
-      "title": "PEAK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
-      "originalPrice": 159,
-      "discountPrice": 98,
-      "discountPercent": 38,
+      "id": "4618570",
+      "title": "Booster Pack Heroes",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg?t=1794316433",
+      "originalPrice": 240,
+      "discountPrice": 168,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3527290",
+      "url": "https://store.steampowered.com/app/4618570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -149,6 +149,19 @@
       "isPopular": true
     },
     {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
@@ -162,14 +175,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1793118321",
+      "originalPrice": 129,
+      "discountPrice": 129,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -188,14 +201,14 @@
       "isPopular": true
     },
     {
-      "id": "4165910",
-      "title": "Steam Machine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165910/63912f6b25ab1403d7eed3eb49484c71a8520501/capsule_616x353.jpg?t=1794365408",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "1202520",
+      "title": "Fallout 1st",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
+      "originalPrice": 399,
+      "discountPrice": 399,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165910",
+      "url": "https://store.steampowered.com/app/1202520",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
