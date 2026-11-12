@@ -831,6 +831,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-12T18:00:41.476Z"
+    },
+    {
+      "id": "3a74c0331b1a6a5e91a27bb1",
+      "createdAt": "2026-11-12T19:00:30.958Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>One More Lawn</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5378110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_5378110",
+          "entry": {
+            "title": "One More Lawn",
+            "price": 119,
+            "percent": 30,
+            "timestamp": "2026-11-12T19:00:30.958Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
