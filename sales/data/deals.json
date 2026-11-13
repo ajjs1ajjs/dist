@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T13:00:32.661Z",
+  "lastUpdated": "2026-11-13T14:00:34.229Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T13:00:32.661Z",
-    "gamepass": "2026-11-13T13:00:32.661Z"
+    "steam": "2026-11-13T14:00:34.229Z",
+    "gamepass": "2026-11-13T14:00:34.229Z"
   },
   "priceHistory": {
     "12210": [
@@ -348,7 +348,7 @@
     {
       "id": "3809270",
       "title": "Euro Truck Simulator 2 - Coaches",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794502649",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794576017",
       "originalPrice": 299,
       "discountPrice": 299,
       "discountPercent": 0,
@@ -367,6 +367,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -393,19 +406,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
