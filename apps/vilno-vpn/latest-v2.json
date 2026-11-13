@@ -1,11 +1,11 @@
 {
-  "notes": "Vilno VPN 0.5.2. Vilno 0.5.1 and earlier require one manual installation because the updater key changed. This channel is for 0.5.2 and later.",
-  "pub_date": "2026-11-11T13:10:32Z",
-  "version": "0.5.2",
-  "platforms": {
-    "windows-x86_64": {
-      "url": "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.2/Vilno.VPN_0.5.2_x64-setup.exe",
-      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZVZWxSNVJIUTFOVXRDTURCaVpXbzNlR2t3WVZKSlpVaHpSV281Y1hKdmFXMVVRMVp5TUhWalZGUkllR1o1Y0hWVU1XOVVSeTkxY1daSlowTmFRalE0TWxKblYyUTJUSFIyTkVsc1JtNWhhbkpJV1ZFMldYVTFZa054YWs5NVFVRnpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnprME5EQXlORGd3Q1dacGJHVTZWbWxzYm04Z1ZsQk9YekF1TlM0eVgzZzJOQzF6WlhSMWNDNWxlR1VKZG1WeWMybHZiam93TGpVdU1ncG5jMFZQU21weGQzRnBOMHMyUnpWcUwzUjZiVEIyYW04dmJXdzNkRGg1WWpSSmFuSjFWRGh5WlZGWU1YZFBTQ3RCVmpKdWNHWm1Talk1WlhKSlJrRnVOMHh5ZGpSQ1owaGhNR05aVDFOc1IzZGpjbGxDUVQwOUNnPT0="
-    }
-  }
+    "notes":  "Vilno VPN 0.5.3: розширена підтримка .ovpn профілів VPNGate, очищення всіх 14 WFP-фільтрів та reconnect Kill Switch, покращена офлайн-стійкість ліцензії, трей «Відключитися», жива телеметрія RX/TX, фільтр TCP/UDP та модульний UI.",
+    "pub_date":  "2026-11-13T19:21:06Z",
+    "version":  "0.5.3",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "url":  "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.3/Vilno.VPN_0.5.3_x64-setup.exe",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUelR5RHQ1NUtCMHpRS1M4UEMwTDJ1ZHNrbjR3bUg2dnIvMlI4R1RTMVFuSEEzMGxmNUE2VENra0ZkZDQ0ODdRV1E5bzk2ZFpIazBsSzNTVHBxSG9kVXgvam5ZKzF6dmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTk3NTk0CWZpbGU6Vmlsbm8gVlBOXzAuNS4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMwpIZElMRS9hVW12VUJhM0Q0dGdDZEczQmQ4MWJVSlMxZyt3UmdiVExENUZ3aHhiOXdvU09ZMVhCTEVaaTBGZ29jR3VaWUJZY2YrdU14L3EzdmhuRHlEZz09Cg=="
+                                         }
+                  }
 }
