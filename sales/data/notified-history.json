@@ -999,5 +999,12 @@
     "percent": 50,
     "timestamp": "2026-11-12T21:00:32.710Z",
     "type": "discount"
+  },
+  "steam_discount_394360": {
+    "title": "Hearts of Iron IV",
+    "price": 404,
+    "percent": 70,
+    "timestamp": "2026-11-13T15:00:30.613Z",
+    "type": "discount"
   }
 }
