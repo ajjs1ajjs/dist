@@ -1,9 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T15:05:19.074Z",
+  "generatedAt": "2026-11-13T15:12:31.190Z",
   "latest": {
     "uptime-v": {
       "version": "v3.10.40"
+    },
+    "sales-v": {
+      "version": "v0.1.12"
     },
     "rdm-v": {
       "version": "v2.1.51",
@@ -24,9 +27,6 @@
       "version": "v0.10.44",
       "name": "bck-linux-x86_64.tar.gz",
       "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/bck-v0.10.44/bck-linux-x86_64.tar.gz"
-    },
-    "sales-v": {
-      "version": "v0.1.11"
     },
     "vilno-v": {
       "version": "v0.5.2",
