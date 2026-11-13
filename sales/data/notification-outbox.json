@@ -901,6 +901,25 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-12T21:00:36.447Z"
+    },
+    {
+      "id": "98eb0b5496ce652f221fc3a4",
+      "createdAt": "2026-11-13T15:00:30.613Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hearts of Iron IV</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>404 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/394360\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_394360",
+          "entry": {
+            "title": "Hearts of Iron IV",
+            "price": 404,
+            "percent": 70,
+            "timestamp": "2026-11-13T15:00:30.613Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
