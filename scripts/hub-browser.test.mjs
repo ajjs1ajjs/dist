@@ -40,9 +40,10 @@ test('detail pages load the release manifest and update only accepted releases',
 
 test('buy modal opens via HTMLDialogElement and filter counts populate without {n}', () => {
   const listeners = [];
+  const noop = () => {};
   const chips = [
-    { dataset: { filter: 'all', filterCount: 'all', i18n: 'prod.filterAll' }, textContent: '', classList: { toggle() {} }, setAttribute() {} },
-    { dataset: { filter: 'linux', filterCount: 'linux', i18n: 'prod.filterLinux' }, textContent: '', classList: { toggle() {} }, setAttribute() {} },
+    { dataset: { filter: 'all', filterCount: 'all', i18n: 'prod.filterAll' }, textContent: '', classList: { toggle() {} }, setAttribute() {}, addEventListener: noop, click: noop },
+    { dataset: { filter: 'linux', filterCount: 'linux', i18n: 'prod.filterLinux' }, textContent: '', classList: { toggle() {} }, setAttribute() {}, addEventListener: noop, click: noop },
   ];
   const cards = [
     { dataset: { cat: 'linux' }, textContent: 'BCK', querySelector: () => null, classList: { toggle() {}, contains: () => false } },
@@ -66,7 +67,6 @@ test('buy modal opens via HTMLDialogElement and filter counts populate without {
     resultCount: { textContent: '' },
     productGrid: { querySelectorAll: () => cards, append() {} },
   };
-  const noop = () => {};
   const document = {
     currentScript: { src: 'https://example.test/dist/app.js?v=1' },
     querySelector: (selector) => nodes[selector.slice(1)] || null,
@@ -83,6 +83,7 @@ test('buy modal opens via HTMLDialogElement and filter counts populate without {
   };
   const ctx = {
     URL,
+    URLSearchParams,
     document,
     window: {
       SITE_I18N: {
