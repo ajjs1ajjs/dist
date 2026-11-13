@@ -1,10 +1,10 @@
 {
-  "version": "2.4.9",
-  "notes": "NetScope 2.4.9. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.8...netscope-v2.4.9",
-  "pubkey": "/glRZ7Haj1p+DzVlqrFkteJ8TglE4q7g6yjmPV+WhKQ=",
-  "portable": {
-    "url": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.9/NetScope-v2.4.9-update.zip",
-    "sha256": "fd1a85e4e0df8ad27ce38386ee5b98e2a9ebe1c0010d2d4decec6f80d1db54a4",
-    "signature": "1HpJgA79hJlQBNn2oZZHO4aJDWeMotmvbdaYGJYxoDLCmGItRly2VezoWK3TZR0nm0IGlfR2ZrjSzvWI15wdBA=="
-  }
+    "version":  "2.4.10",
+    "notes":  "NetScope 2.4.10. **Full Changelog**: https://github.com/ajjs1ajjs/dist/compare/netscope-v2.4.9...netscope-v2.4.10",
+    "pubkey":  "/glRZ7Haj1p+DzVlqrFkteJ8TglE4q7g6yjmPV+WhKQ=",
+    "portable":  {
+                     "url":  "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.10/NetScope-v2.4.10-update.zip",
+                     "sha256":  "8af2eb33e0017b5ff9214495cb115ecc874bdc563d71a10124586d1142f70fbc",
+                     "signature":  "diAUplxUE/4YHQmm2o+/TQCS8ztN1s3WrRiZXe9NlY5GufH5AXvbEX8U4tTmQcaNGDrhwr+IIk+A+KEJ+hsMBA=="
+                 }
 }
