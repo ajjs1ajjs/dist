@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T20:00:32.689Z",
+  "lastUpdated": "2026-11-13T21:00:37.172Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T20:00:32.689Z",
-    "gamepass": "2026-11-13T20:00:32.689Z"
+    "steam": "2026-11-13T21:00:37.172Z",
+    "gamepass": "2026-11-13T21:00:37.172Z"
   },
   "priceHistory": {
     "12210": [
@@ -314,19 +314,6 @@
       "isPopular": false
     },
     {
-      "id": "227300",
-      "title": "Euro Truck Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
-      "originalPrice": 400,
-      "discountPrice": 100,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227300",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "489830",
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
@@ -340,9 +327,22 @@
       "isPopular": false
     },
     {
+      "id": "227300",
+      "title": "Euro Truck Simulator 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
+      "originalPrice": 400,
+      "discountPrice": 100,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "5378110",
       "title": "One More Lawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/b3d2dc5d8f9eb7a9ee5e647121239e504ff0c37a/capsule_616x353.jpg?t=1794516748",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/b3d2dc5d8f9eb7a9ee5e647121239e504ff0c37a/capsule_616x353.jpg?t=1794601771",
       "originalPrice": 170,
       "discountPrice": 119,
       "discountPercent": 30,
@@ -1526,13 +1526,6 @@
       "percent": 0,
       "timestamp": "2026-10-14T17:00:36.572Z",
       "type": "gamepass"
-    },
-    "steam_discount_2183900": {
-      "title": "Warhammer 40,000: Space Marine 2",
-      "price": 389,
-      "percent": 75,
-      "timestamp": "2026-10-14T20:00:36.314Z",
-      "type": "discount"
     },
     "gamepass_9NQVHHW88XW9": {
       "title": "Bluey's Happy Snaps",
