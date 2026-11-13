@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T01:00:33.441Z",
+  "lastUpdated": "2026-11-13T02:00:30.622Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T01:00:33.441Z",
-    "gamepass": "2026-11-13T01:00:33.441Z"
+    "steam": "2026-11-13T02:00:30.622Z",
+    "gamepass": "2026-11-13T02:00:30.622Z"
   },
   "priceHistory": {
     "12210": [
@@ -366,6 +366,19 @@
       "isPopular": true
     },
     {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1675200",
       "title": "Steam Deck",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
@@ -400,19 +413,6 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3796990",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
