@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T02:00:30.622Z",
+  "lastUpdated": "2026-11-13T03:00:28.657Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T02:00:30.622Z",
-    "gamepass": "2026-11-13T02:00:30.622Z"
+    "steam": "2026-11-13T03:00:28.657Z",
+    "gamepass": "2026-11-13T03:00:28.657Z"
   },
   "priceHistory": {
     "12210": [
@@ -111,6 +111,11 @@
     "3527290": [
       {
         "date": "2026-11-12",
+        "price": 98,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-13",
         "price": 98,
         "currency": "UAH"
       }
@@ -232,6 +237,11 @@
         "date": "2026-11-12",
         "price": 110,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-13",
+        "price": 110,
+        "currency": "UAH"
       }
     ],
     "5378110": [
@@ -309,6 +319,32 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2584270",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "5175310",
+      "title": "Worst Class Ever",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794305415",
+      "originalPrice": 170,
+      "discountPrice": 110,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5175310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "3527290",
+      "title": "PEAK",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/c6791f0f1b7b29f6304e283ac7a2cabc27c7eb0d/capsule_616x353.jpg?t=1792684718",
+      "originalPrice": 159,
+      "discountPrice": 98,
+      "discountPercent": 38,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3527290",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
