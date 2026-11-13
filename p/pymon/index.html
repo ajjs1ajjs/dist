@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="PyMon NOC — Моніторинг інфраструктури та NOC-дашборд — легка платформа для Ubuntu">
   <meta name="twitter:description" content="PyMon NOC — легка платформа моніторингу інфраструктури для Ubuntu з панеллю у стилі Grafana. Сервери збираються через node_exporter (CPU, RAM, диски, мережа), а сервіси — зовнішніми перевірками HTTP…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/pymon.png">
+  <meta name="twitter:image:alt" content="PyMon NOC — Моніторинг інфраструктури та NOC-дашборд — легка платформа для Ubuntu">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/pymon/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "PyMon NOC",
+        "item": "https://ajjs1ajjs.github.io/dist/p/pymon/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-pymon">
@@ -100,7 +121,7 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Ubuntu · amd64/arm64</p>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Ubuntu · amd64/arm64</p>
         <h1>PyMon NOC <span class="ver" data-latest-ver="monitoring-v">v3.6.4</span></h1>
         <p class="prod-sub" data-i18n="p.pymon.sub">Моніторинг інфраструктури та NOC-дашборд — легка платформа для Ubuntu</p>
         <div class="tags"><span>Go</span><span>ARM64 + AMD64</span><span>NOC Live</span></div>
@@ -119,7 +140,7 @@
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.pymon.shots.0.cap">Огляд моніторингу</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/pymon/overview.webp" data-shot-alt="Огляд моніторингу" aria-label="Огляд моніторингу">
-            <img src="../../shots/pymon/overview.webp" alt="Огляд моніторингу" width="1200" decoding="async">
+            <img src="../../shots/pymon/overview.webp" alt="Огляд моніторингу" width="1200" height="750" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -133,19 +154,19 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/pymon/nodes.webp" data-shot-alt="Вузли інфраструктури" aria-label="Вузли інфраструктури">
-            <img src="../../shots/pymon/nodes.webp" alt="Вузли інфраструктури" loading="lazy" decoding="async">
+            <img src="../../shots/pymon/nodes.webp" alt="Вузли інфраструктури" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.pymon.shots.1.cap">Вузли інфраструктури</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/pymon/services.webp" data-shot-alt="Сервіси та перевірки" aria-label="Сервіси та перевірки">
-            <img src="../../shots/pymon/services.webp" alt="Сервіси та перевірки" loading="lazy" decoding="async">
+            <img src="../../shots/pymon/services.webp" alt="Сервіси та перевірки" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.pymon.shots.2.cap">Сервіси та перевірки</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/pymon/alerts.webp" data-shot-alt="Сповіщення та алерти" aria-label="Сповіщення та алерти">
-            <img src="../../shots/pymon/alerts.webp" alt="Сповіщення та алерти" loading="lazy" decoding="async">
+            <img src="../../shots/pymon/alerts.webp" alt="Сповіщення та алерти" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.pymon.shots.3.cap">Сповіщення та алерти</figcaption>
         </figure>
@@ -165,7 +186,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Ubuntu · amd64/arm64</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Ubuntu · amd64/arm64</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · ключ після оплати</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -292,7 +313,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -338,9 +359,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=7f4d5a1f8d" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=88012770f1" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

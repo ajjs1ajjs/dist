@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-bck.title": "BCK — Enterprise Backup & Disaster Recovery — альтернатива Veeam",
     "meta.p-bck.desc": "BCK Enterprise — система резервного копіювання та аварійного відновлення для сучасної інфраструктури, написана повністю на Rust. Один стек закриває весь шлях даних: потоковий сканер, чанкінг XXH3, дедуплікація SHA-256, стиснення LZ4/Zstd і шифрування AES-256-GCM або ChaCha20-Poly1305 — з керуванням…",
+    "p.cat": "Ubuntu 24–26 · x86_64",
+    "p.badgeLine": "DIST ecosystem · Ubuntu 24–26 · x86_64",
     "p.bck.sub": "Enterprise Backup & Disaster Recovery — альтернатива Veeam",
     "p.bck.intro.0": "BCK Enterprise — система резервного копіювання та аварійного відновлення для сучасної інфраструктури, написана повністю на Rust. Один стек закриває весь шлях даних: потоковий сканер, чанкінг XXH3, дедуплікація SHA-256, стиснення LZ4/Zstd і шифрування AES-256-GCM або ChaCha20-Poly1305 — з керуванням через веб-консоль, CLI та REST/gRPC API.",
     "p.bck.intro.1": "Під капотом — демон bckd із планувальником, агент на захищених машинах, проксі для читання блоків із датасторів і веб-інтерфейс на 13 сторінок. Є бекап VMware і Hyper-V з CBT/RCT та миттєвим відновленням, SOBR, Tape LTFS, M365, CDP, DR-фейловер, SSO, аудит і multi-tenancy — усі фази завершені, 235 тестів проходять.",
@@ -43,6 +45,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-bck.title": "BCK — Enterprise Backup & Disaster Recovery — a Veeam alternative",
     "meta.p-bck.desc": "BCK Enterprise is a backup and disaster recovery system for modern infrastructure, written entirely in Rust. One stack covers the whole data path — streaming scanner, XXH3 chunking, SHA-256 deduplication, LZ4/Zstd compression and AES-256-GCM or ChaCha20-Poly1305 encryption — managed from a web…",
+    "p.cat": "Ubuntu 24–26 · x86_64",
+    "p.badgeLine": "DIST ecosystem · Ubuntu 24–26 · x86_64",
     "p.bck.sub": "Enterprise Backup & Disaster Recovery — a Veeam alternative",
     "p.bck.intro.0": "BCK Enterprise is a backup and disaster recovery system for modern infrastructure, written entirely in Rust. One stack covers the whole data path — streaming scanner, XXH3 chunking, SHA-256 deduplication, LZ4/Zstd compression and AES-256-GCM or ChaCha20-Poly1305 encryption — managed from a web console, CLI and REST/gRPC APIs.",
     "p.bck.intro.1": "Under the hood: the bckd daemon with its scheduler, an agent for protected machines, a proxy that mounts datastores and serves raw block reads, and a 13-page web UI. VMware and Hyper-V backup with CBT/RCT and instant recovery, SOBR, Tape LTFS, M365, CDP, DR failover, SSO, audit and multi-tenancy are in place — all phases complete, 235 tests passing.",

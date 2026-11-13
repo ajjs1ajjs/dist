@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="KubeLens — Kubernetes desktop IDE: ворклоади, логи, метрики, Helm і топологія в одному легкому застосунку">
   <meta name="twitter:description" content="KubeLens — настільний Kubernetes IDE для розробників і платформних інженерів, яким потрібен чіткий локальний робочий процес без важкої браузерної панелі керування. Застосунок побудований на Tauri 2…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/kubelens.png">
+  <meta name="twitter:image:alt" content="KubeLens — Kubernetes desktop IDE: ворклоади, логи, метрики, Helm і топологія в одному легкому застосунку">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/kubelens/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "KubeLens",
+        "item": "https://ajjs1ajjs.github.io/dist/p/kubelens/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-kubelens">
@@ -100,7 +121,7 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Windows 10/11 · x64</p>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Windows 10/11 · x64</p>
         <h1>KubeLens <span class="ver" data-latest-ver="kubelens-v">v0.3.41</span></h1>
         <p class="prod-sub" data-i18n="p.kubelens.sub">Kubernetes desktop IDE: ворклоади, логи, метрики, Helm і топологія в одному легкому застосунку</p>
         <div class="tags"><span>Tauri 2</span><span>Rust</span><span>React</span><span>Minisign</span></div>
@@ -119,7 +140,7 @@
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.kubelens.shots.0.cap">Воркспейс: кластери й активне підключення</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/kubelens/workspace.webp" data-shot-alt="Воркспейс: кластери й активне підключення" aria-label="Воркспейс: кластери й активне підключення">
-            <img src="../../shots/kubelens/workspace.webp" alt="Воркспейс: кластери й активне підключення" width="1200" decoding="async">
+            <img src="../../shots/kubelens/workspace.webp" alt="Воркспейс: кластери й активне підключення" width="1200" height="750" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -133,19 +154,19 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/kubelens/workloads.webp" data-shot-alt="Поди й ворклоади в реальному часі" aria-label="Поди й ворклоади в реальному часі">
-            <img src="../../shots/kubelens/workloads.webp" alt="Поди й ворклоади в реальному часі" loading="lazy" decoding="async">
+            <img src="../../shots/kubelens/workloads.webp" alt="Поди й ворклоади в реальному часі" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.kubelens.shots.1.cap">Поди й ворклоади в реальному часі</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/kubelens/logs.webp" data-shot-alt="Стрім логів пода з пошуком" aria-label="Стрім логів пода з пошуком">
-            <img src="../../shots/kubelens/logs.webp" alt="Стрім логів пода з пошуком" loading="lazy" decoding="async">
+            <img src="../../shots/kubelens/logs.webp" alt="Стрім логів пода з пошуком" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.kubelens.shots.2.cap">Стрім логів пода з пошуком</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/kubelens/settings.webp" data-shot-alt="Налаштування застосунку та kubeconfig" aria-label="Налаштування застосунку та kubeconfig">
-            <img src="../../shots/kubelens/settings.webp" alt="Налаштування застосунку та kubeconfig" loading="lazy" decoding="async">
+            <img src="../../shots/kubelens/settings.webp" alt="Налаштування застосунку та kubeconfig" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.kubelens.shots.3.cap">Налаштування застосунку та kubeconfig</figcaption>
         </figure>
@@ -165,7 +186,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Windows 10/11 · x64</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Windows 10/11 · x64</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · ключ після оплати</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.auto">Автооновлення · підпис</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -288,7 +309,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -334,9 +355,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=65750a46ec" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=1d4389e531" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

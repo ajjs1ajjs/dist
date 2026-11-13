@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="BCK — Enterprise Backup &amp; Disaster Recovery — альтернатива Veeam">
   <meta name="twitter:description" content="BCK Enterprise — система резервного копіювання та аварійного відновлення для сучасної інфраструктури, написана повністю на Rust. Один стек закриває весь шлях даних: потоковий сканер, чанкінг XXH3…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/bck.png">
+  <meta name="twitter:image:alt" content="BCK — Enterprise Backup &amp; Disaster Recovery — альтернатива Veeam">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/bck/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -34,7 +35,7 @@
     "operatingSystem": "Linux",
     "url": "https://ajjs1ajjs.github.io/dist/p/bck/",
     "image": "https://ajjs1ajjs.github.io/dist/og/bck.png",
-    "softwareVersion": "0.10.43",
+    "softwareVersion": "0.10.44",
     "offers": {
       "@type": "Offer",
       "price": "2500",
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "BCK",
+        "item": "https://ajjs1ajjs.github.io/dist/p/bck/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-bck">
@@ -100,8 +121,8 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Ubuntu 24–26 · x86_64</p>
-        <h1>BCK <span class="ver" data-latest-ver="bck-v">v0.10.43</span></h1>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Ubuntu 24–26 · x86_64</p>
+        <h1>BCK <span class="ver" data-latest-ver="bck-v">v0.10.44</span></h1>
         <p class="prod-sub" data-i18n="p.bck.sub">Enterprise Backup &amp; Disaster Recovery — альтернатива Veeam</p>
         <div class="tags"><span>Rust</span><span>systemd</span><span>Web Console</span><span>SHA-256</span></div>
         <div class="prod-buy">
@@ -119,7 +140,7 @@
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.bck.shots.0.cap">Дашборд стану бекапів</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/bck/dashboard.webp" data-shot-alt="Дашборд стану бекапів" aria-label="Дашборд стану бекапів">
-            <img src="../../shots/bck/dashboard.webp" alt="Дашборд стану бекапів" width="1200" decoding="async">
+            <img src="../../shots/bck/dashboard.webp" alt="Дашборд стану бекапів" width="1200" height="771" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -133,19 +154,19 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/bck/repositories.webp" data-shot-alt="Репозиторії та сховища" aria-label="Репозиторії та сховища">
-            <img src="../../shots/bck/repositories.webp" alt="Репозиторії та сховища" loading="lazy" decoding="async">
+            <img src="../../shots/bck/repositories.webp" alt="Репозиторії та сховища" width="1200" height="771" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.bck.shots.1.cap">Репозиторії та сховища</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/bck/jobs.webp" data-shot-alt="Завдання резервного копіювання" aria-label="Завдання резервного копіювання">
-            <img src="../../shots/bck/jobs.webp" alt="Завдання резервного копіювання" loading="lazy" decoding="async">
+            <img src="../../shots/bck/jobs.webp" alt="Завдання резервного копіювання" width="1200" height="771" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.bck.shots.2.cap">Завдання резервного копіювання</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/bck/snapshots.webp" data-shot-alt="Знімки для відновлення" aria-label="Знімки для відновлення">
-            <img src="../../shots/bck/snapshots.webp" alt="Знімки для відновлення" loading="lazy" decoding="async">
+            <img src="../../shots/bck/snapshots.webp" alt="Знімки для відновлення" width="1200" height="771" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.bck.shots.3.cap">Знімки для відновлення</figcaption>
         </figure>
@@ -165,7 +186,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Ubuntu 24–26 · x86_64</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Ubuntu 24–26 · x86_64</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · ключ після оплати</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -288,7 +309,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -334,9 +355,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=5cdb6f2cf3" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=35c5b78779" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

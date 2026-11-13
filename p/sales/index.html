@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="Game Sales Radar — Радар знижок Steam і PC Game Pass з миттєвими сповіщеннями в Telegram">
   <meta name="twitter:description" content="Game Sales Radar — персональний радар знижок і безкоштовних ігор. Він автоматично збирає актуальні пропозиції Steam: роздачі, гарячі знижки від 25% і топи продажів, а також каталог PC Game Pass …">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/sales.png">
+  <meta name="twitter:image:alt" content="Game Sales Radar — Радар знижок Steam і PC Game Pass з миттєвими сповіщеннями в Telegram">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/sales/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -34,7 +35,7 @@
     "operatingSystem": "Web",
     "url": "https://ajjs1ajjs.github.io/dist/p/sales/",
     "image": "https://ajjs1ajjs.github.io/dist/og/sales.png",
-    "softwareVersion": "0.1.10",
+    "softwareVersion": "0.1.11",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Game Sales Radar",
+        "item": "https://ajjs1ajjs.github.io/dist/p/sales/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-sales">
@@ -100,8 +121,8 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Web · PWA · Telegram</p>
-        <h1>Game Sales Radar <span class="ver" data-latest-ver="sales-v">v0.1.10</span></h1>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Web · PWA · Telegram</p>
+        <h1>Game Sales Radar <span class="ver" data-latest-ver="sales-v">v0.1.11</span></h1>
         <p class="prod-sub" data-i18n="p.sales.sub">Радар знижок Steam і PC Game Pass з миттєвими сповіщеннями в Telegram</p>
         <div class="tags"><span>SPA</span><span>Steam API</span><span>Telegram Bot</span><span>Cron</span></div>
         <div class="prod-buy">
@@ -118,7 +139,7 @@
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.sales.shots.0.cap">Стрічка гарячих знижок Steam</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/sales/main.webp" data-shot-alt="Стрічка гарячих знижок Steam" aria-label="Стрічка гарячих знижок Steam">
-            <img src="../../shots/sales/main.webp" alt="Стрічка гарячих знижок Steam" width="1200" decoding="async">
+            <img src="../../shots/sales/main.webp" alt="Стрічка гарячих знижок Steam" width="1200" height="814" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -132,19 +153,19 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/sales/gamepass.webp" data-shot-alt="Нові добавлення в Game Pass для ПК" aria-label="Нові добавлення в Game Pass для ПК">
-            <img src="../../shots/sales/gamepass.webp" alt="Нові добавлення в Game Pass для ПК" loading="lazy" decoding="async">
+            <img src="../../shots/sales/gamepass.webp" alt="Нові добавлення в Game Pass для ПК" width="1200" height="833" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.sales.shots.1.cap">Нові добавлення в Game Pass для ПК</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/sales/wishlist.webp" data-shot-alt="Обране: стеження за цінами" aria-label="Обране: стеження за цінами">
-            <img src="../../shots/sales/wishlist.webp" alt="Обране: стеження за цінами" loading="lazy" decoding="async">
+            <img src="../../shots/sales/wishlist.webp" alt="Обране: стеження за цінами" width="1200" height="833" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.sales.shots.2.cap">Обране: стеження за цінами</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/sales/history.webp" data-shot-alt="Історія сповіщень за 30 днів" aria-label="Історія сповіщень за 30 днів">
-            <img src="../../shots/sales/history.webp" alt="Історія сповіщень за 30 днів" loading="lazy" decoding="async">
+            <img src="../../shots/sales/history.webp" alt="Історія сповіщень за 30 днів" width="1200" height="814" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.sales.shots.3.cap">Історія сповіщень за 30 днів</figcaption>
         </figure>
@@ -164,7 +185,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Web · PWA · Telegram</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Web · PWA · Telegram</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.free">Безкоштовно</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -292,7 +313,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -338,9 +359,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=e3eb3f1064" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=e420b29058" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

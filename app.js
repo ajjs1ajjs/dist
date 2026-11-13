@@ -24,6 +24,11 @@
   let currentLang = 'uk';
   const DICT = () => window.SITE_I18N?.[currentLang] || window.SITE_I18N?.uk || {};
   const t = (k) => DICT()[k] ?? window.SITE_I18N?.uk?.[k] ?? '';
+  const HTML_I18N_KEYS = new Set([
+    'case.ppu.list', 'case.unis.list',
+    'faq.a1', 'faq.a4', 'faq.a5', 'faq.a6',
+    'contact.note',
+  ]);
   const interpolate = (value, el) => String(value)
     .replace(/\{year\}/g, String(new Date().getFullYear()))
     .replace(/\{name\}/g, el?.dataset?.i18nName || '');
@@ -36,7 +41,11 @@
     const page = document.body?.dataset.page || 'site';
     const titleKey = 'meta.' + page + '.title';
     const descKey = 'meta.' + page + '.desc';
-    if (dict[titleKey]) document.title = dict[titleKey];
+    if (dict[titleKey]) {
+      document.title = page.startsWith('p-') && !String(dict[titleKey]).endsWith('· DIST')
+        ? `${dict[titleKey]} · DIST`
+        : dict[titleKey];
+    }
     const desc = $('meta[name="description"]');
     if (desc && dict[descKey]) desc.setAttribute('content', dict[descKey]);
     const ogT = $('meta[property="og:title"]');
@@ -54,7 +63,9 @@
     $$('[data-i18n]').forEach((el) => {
       const k = el.dataset.i18n;
       if (dict[k] !== undefined) {
-        el.innerHTML = interpolate(dict[k], el);
+        const val = interpolate(dict[k], el);
+        if (HTML_I18N_KEYS.has(k)) el.innerHTML = val;
+        else el.textContent = val;
       }
     });
     $$('[data-i18n-attr]').forEach((el) => {
@@ -114,6 +125,11 @@
     });
     mobileMenu.addEventListener('click', (e) => {
       if (e.target.closest('a')) setMenuOpen(false);
+    });
+    document.addEventListener('click', (e) => {
+      if (mobileMenu.classList.contains('open') && !e.target.closest('#mobileMenu') && !e.target.closest('#burger')) {
+        setMenuOpen(false);
+      }
     });
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
@@ -179,7 +195,7 @@
   const priority = (card) => {
     const paid = card.querySelector('[data-buy]');
     if (paid) return 1000 + Number(paid.dataset.month || 0);
-    return card.querySelector('a[href="./p/games/"]') ? 1 : 0;
+    return card.querySelector('a[href$="/p/games/"]') ? 1 : 0;
   };
   cards.sort((a, b) => priority(b) - priority(a)).forEach((card) => productGrid.append(card));
   const chips = $$('.chip[data-filter]');
@@ -224,18 +240,48 @@
       chip.textContent = t(chip.dataset.i18n).replace('{n}', String(count));
     });
   }
+  function syncFilterUrl() {
+    if (typeof history?.replaceState !== 'function' || !chips.length) return;
+    try {
+      const params = new URLSearchParams(location.search);
+      if (activeFilter && activeFilter !== 'all') params.set('cat', activeFilter);
+      else params.delete('cat');
+      const q = (searchInput?.value || '').trim();
+      if (q) params.set('q', q);
+      else params.delete('q');
+      const qs = params.toString();
+      const next = (location.pathname || '/') + (qs ? `?${qs}` : '') + (location.hash || '');
+      history.replaceState(null, '', next);
+    } catch {}
+  }
+  function initFilterState() {
+    if (!chips.length) return;
+    try {
+      const params = new URLSearchParams(location.search);
+      const cat = params.get('cat');
+      const match = cat && chips.find((c) => c.dataset.filter === cat);
+      if (match) {
+        chips.forEach((c) => { c.classList.toggle('active', c === match); c.setAttribute('aria-pressed', c === match ? 'true' : 'false'); });
+        activeFilter = cat;
+      }
+      const q = params.get('q');
+      if (q && searchInput) searchInput.value = q;
+    } catch {}
+  }
   chips.forEach((chip) => chip.addEventListener('click', () => {
     chips.forEach((c) => { c.classList.toggle('active', c === chip); c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'); });
     activeFilter = chip.dataset.filter;
     applyFilters();
+    syncFilterUrl();
   }));
-  searchInput?.addEventListener('input', applyFilters);
-  searchClear?.addEventListener('click', () => { searchInput.value = ''; applyFilters(); searchInput.focus(); });
+  searchInput?.addEventListener('input', () => { applyFilters(); syncFilterUrl(); });
+  searchClear?.addEventListener('click', () => { searchInput.value = ''; applyFilters(); syncFilterUrl(); searchInput.focus(); });
   $('#resetFilter')?.addEventListener('click', () => {
     const first = chips[0];
     if (first) first.click();
     if (searchInput) searchInput.value = '';
     applyFilters();
+    syncFilterUrl();
   });
 
   /* ---------- Modal helpers ---------- */
@@ -299,14 +345,59 @@
   });
 
   /* ---------- Lightbox ---------- */
-  document.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-shot]');
-    if (!b) return;
+  let currentShotIdx = -1;
+  function ensureShotNav(modalCard, total) {
+    if (!modalCard || typeof document.createElement !== 'function') return;
+    let prev = modalCard.querySelector('.shot-nav--prev');
+    let next = modalCard.querySelector('.shot-nav--next');
+    if (total > 1 && !prev) {
+      prev = document.createElement('button');
+      prev.type = 'button';
+      prev.className = 'shot-nav shot-nav--prev';
+      prev.setAttribute('aria-label', currentLang === 'en' ? 'Previous screenshot' : 'Попередній знімок');
+      prev.textContent = '‹';
+      next = document.createElement('button');
+      next.type = 'button';
+      next.className = 'shot-nav shot-nav--next';
+      next.setAttribute('aria-label', currentLang === 'en' ? 'Next screenshot' : 'Наступний знімок');
+      next.textContent = '›';
+      modalCard.append(prev, next);
+    }
+    if (prev && next) {
+      prev.hidden = total <= 1;
+      next.hidden = total <= 1;
+    }
+  }
+  function openShotAt(idx) {
+    const shots = $$('[data-shot]');
     const img = $('#shotImg');
-    if (!img) return;
+    if (!img || !shots.length) return;
+    currentShotIdx = ((idx % shots.length) + shots.length) % shots.length;
+    const b = shots[currentShotIdx];
     img.src = b.dataset.shot;
     img.alt = b.dataset.shotAlt || '';
+    const modal = $('#shotModal');
+    ensureShotNav(modal?.querySelector('.modal-card'), shots.length);
+  }
+  document.addEventListener('click', (e) => {
+    const nav = e.target.closest('.shot-nav');
+    if (nav) {
+      openShotAt(currentShotIdx + (nav.classList.contains('shot-nav--next') ? 1 : -1));
+      return;
+    }
+    const b = e.target.closest('[data-shot]');
+    if (!b) return;
+    const shots = $$('[data-shot]');
+    openShotAt(Math.max(0, shots.indexOf(b)));
     openModal('shotModal');
+  });
+  document.addEventListener('keydown', (e) => {
+    const modal = $('#shotModal');
+    if (!modal?.open) return;
+    const shots = $$('[data-shot]');
+    if (shots.length <= 1) return;
+    if (e.key === 'ArrowRight') { e.preventDefault(); openShotAt(currentShotIdx + 1); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); openShotAt(currentShotIdx - 1); }
   });
 
   /* ---------- Lead form (SITE only) ---------- */
@@ -443,6 +534,7 @@
   const yearEl = $('#year');
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
   initLang();
+  initFilterState();
   applyFilters();
   syncLatestReleases();
 })();

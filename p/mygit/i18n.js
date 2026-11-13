@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-mygit.title": "MyGit — Self-hosted Git-платформа — альтернатива GitLab і Gitea на Go",
     "meta.p-mygit.desc": "MyGit — self-hosted Git-платформа для команд, які хочуть тримати код і CI на власному залізі. Git smart HTTP працює через стандартний протокол: clone, push і pull з логіном, паролем або Personal Access Token. Репозиторії — це звичайні bare-репо на диску, тож доступ і бекапи лишаються прозорими. У…",
+    "p.cat": "Debian/Ubuntu · multiarch",
+    "p.badgeLine": "DIST ecosystem · Debian/Ubuntu · multiarch",
     "p.mygit.sub": "Self-hosted Git-платформа — альтернатива GitLab і Gitea на Go",
     "p.mygit.intro.0": "MyGit — self-hosted Git-платформа для команд, які хочуть тримати код і CI на власному залізі. Git smart HTTP працює через стандартний протокол: clone, push і pull з логіном, паролем або Personal Access Token. Репозиторії — це звичайні bare-репо на диску, тож доступ і бекапи лишаються прозорими.",
     "p.mygit.intro.1": "У комплекті — перегляд коду з blame, Issues, Merge Requests, webhooks, SSH-ключі та рольова модель прав (owner → guest). Фронтенд на Vue 3 вбудовано в один статичний бінарник, тож сервер працює на Ubuntu amd64 і arm64 без залежностей. Пайплайни виконуються на ваших раннерах — Linux, macOS або Windows.",
@@ -44,6 +46,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-mygit.title": "MyGit — Self-hosted Git platform — a GitLab and Gitea alternative in Go",
     "meta.p-mygit.desc": "MyGit is a self-hosted Git platform for teams that want their code and CI on their own hardware. Git smart HTTP speaks the standard protocol: clone, push and pull with a login and password or a Personal Access Token. Repositories are plain bare repos on disk, so access and backups stay transparent.…",
+    "p.cat": "Debian/Ubuntu · multiarch",
+    "p.badgeLine": "DIST ecosystem · Debian/Ubuntu · multiarch",
     "p.mygit.sub": "Self-hosted Git platform — a GitLab and Gitea alternative in Go",
     "p.mygit.intro.0": "MyGit is a self-hosted Git platform for teams that want their code and CI on their own hardware. Git smart HTTP speaks the standard protocol: clone, push and pull with a login and password or a Personal Access Token. Repositories are plain bare repos on disk, so access and backups stay transparent.",
     "p.mygit.intro.1": "The platform ships with code browsing and blame, Issues, Merge Requests, webhooks, SSH keys and a role-based permission model (owner down to guest). The Vue 3 frontend is embedded in a single static binary, so the server runs on Ubuntu amd64 and arm64 with no dependencies. Pipelines run on your own runners — Linux, macOS or Windows.",

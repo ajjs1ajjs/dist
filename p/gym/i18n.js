@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-gym.title": "Gym Tracker — Офлайн-first трекер тренувань і прогресу тіла (PWA)",
     "meta.p-gym.desc": "Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються локально в браузері та нікуди не надсилаються, а застосунок працює офлайн і встановлюється на телефон…",
+    "p.cat": "Web · PWA · офлайн",
+    "p.badgeLine": "DIST ecosystem · Web · PWA · офлайн",
     "p.gym.sub": "Офлайн-first трекер тренувань і прогресу тіла (PWA)",
     "p.gym.intro.0": "Gym Tracker — приватний PWA-застосунок для тренувань у залі: ваги, підходи, таймер відпочинку та заміри тіла. 19 вправ зібрані в 4 блоки — сила, інтенсивний фінішер, кор і кардіо. Дані зберігаються локально в браузері та нікуди не надсилаються, а застосунок працює офлайн і встановлюється на телефон як звичайний.",
     "p.gym.intro.1": "Прогрес видно наочно: графік ваги зі спарклайном, історія вимірювань зі змінами та історія тренувань по днях із відсотком виконання. Таймер відпочинку нагадує вібрацією та сповіщенням, підтримує +15 секунд і Wake Lock, тож екран не гасне між підходами. Усі дані можна експортувати в JSON і відновити з бекапу.",
@@ -43,6 +45,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-gym.title": "Gym Tracker — Offline-first workout and body progress tracker (PWA)",
     "meta.p-gym.desc": "Gym Tracker is a private PWA for gym workouts: weights, sets, a rest timer and body measurements. Its 19 exercises are grouped into four blocks — strength, an intense finisher, core and cardio. Everything is stored locally in the browser and never sent anywhere, while the app works offline and…",
+    "p.cat": "Web · PWA · offline",
+    "p.badgeLine": "DIST ecosystem · Web · PWA · offline",
     "p.gym.sub": "Offline-first workout and body progress tracker (PWA)",
     "p.gym.intro.0": "Gym Tracker is a private PWA for gym workouts: weights, sets, a rest timer and body measurements. Its 19 exercises are grouped into four blocks — strength, an intense finisher, core and cardio. Everything is stored locally in the browser and never sent anywhere, while the app works offline and installs on a phone like a native one.",
     "p.gym.intro.1": "Progress stays visible: a weight chart with a sparkline, a measurement history with deltas and a day-by-day workout history with a completion percentage. The rest timer reminds you with vibration and a notification, supports +15 seconds and Wake Lock, so the screen stays on between sets. All data can be exported to JSON and restored from a backup.",

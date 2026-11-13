@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-diskcleaner.title": "DiskCleaner — Портативний очищувач диска C: — один .exe без встановлення",
     "meta.p-diskcleaner.desc": "DiskCleaner — портативна програма для чистки диска C: на Windows. Один .exe без встановлення: темне вікно, галочки з розмірами, кнопка очистки з підтвердженням і шукач великих папок. Прибирає тимчасові файли, кеші Windows, браузерів і NVIDIA, логи, дев-кеші та кошик. Пункти з позначкою «потрібен…",
+    "p.cat": "Windows · Portable",
+    "p.badgeLine": "DIST ecosystem · Windows · Portable",
     "p.diskcleaner.sub": "Портативний очищувач диска C: — один .exe без встановлення",
     "p.diskcleaner.intro.0": "DiskCleaner — портативна програма для чистки диска C: на Windows. Один .exe без встановлення: темне вікно, галочки з розмірами, кнопка очистки з підтвердженням і шукач великих папок. Прибирає тимчасові файли, кеші Windows, браузерів і NVIDIA, логи, дев-кеші та кошик.",
     "p.diskcleaner.intro.1": "Пункти з позначкою «потрібен адмін» мають кнопку перезапуску з правами адміністратора. Агресивні варіанти — Windows.old, Prefetch, Go module cache — вимкнені за замовчуванням, а заблоковані системою файли просто пропускаються й рахуються окремо. Застосунок оновлюється сам: звіряє SHA-256 і приймає лише збірки з валідним Authenticode-підписом за піном відбитка.",
@@ -42,6 +44,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-diskcleaner.title": "DiskCleaner — Portable C: drive cleaner — a single .exe with no installation",
     "meta.p-diskcleaner.desc": "DiskCleaner is a portable cleaner for the C: drive on Windows. One .exe, no installation: a dark window with checkboxes and sizes, a delete button with confirmation and a large-folder finder. It clears temporary files, caches from Windows, browsers and NVIDIA, logs, dev caches and the recycle bin.…",
+    "p.cat": "Windows · Portable",
+    "p.badgeLine": "DIST ecosystem · Windows · Portable",
     "p.diskcleaner.sub": "Portable C: drive cleaner — a single .exe with no installation",
     "p.diskcleaner.intro.0": "DiskCleaner is a portable cleaner for the C: drive on Windows. One .exe, no installation: a dark window with checkboxes and sizes, a delete button with confirmation and a large-folder finder. It clears temporary files, caches from Windows, browsers and NVIDIA, logs, dev caches and the recycle bin.",
     "p.diskcleaner.intro.1": "Items marked as requiring admin have a restart-as-admin button in the window. Aggressive targets such as Windows.old, Prefetch and the Go module cache stay off by default, and files locked by the system are skipped and counted separately. The app updates itself: it checks SHA-256 and accepts only builds with a valid Authenticode signature pinned by thumbprint.",

@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="MyGit — Self-hosted Git-платформа — альтернатива GitLab і Gitea на Go">
   <meta name="twitter:description" content="MyGit — self-hosted Git-платформа для команд, які хочуть тримати код і CI на власному залізі. Git smart HTTP працює через стандартний протокол: clone, push і pull з логіном, паролем або Personal…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/mygit.png">
+  <meta name="twitter:image:alt" content="MyGit — Self-hosted Git-платформа — альтернатива GitLab і Gitea на Go">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/mygit/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "MyGit",
+        "item": "https://ajjs1ajjs.github.io/dist/p/mygit/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-mygit">
@@ -100,7 +121,7 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Debian/Ubuntu · multiarch</p>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Debian/Ubuntu · multiarch</p>
         <h1>MyGit <span class="ver" data-latest-ver="mygit-v">v3.7.22</span></h1>
         <p class="prod-sub" data-i18n="p.mygit.sub">Self-hosted Git-платформа — альтернатива GitLab і Gitea на Go</p>
         <div class="tags"><span>Go</span><span>:9555</span><span>Zero-Config</span><span>SQLite</span></div>
@@ -119,7 +140,7 @@
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.mygit.shots.0.cap">Головна зі списком проєктів</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/mygit/home.webp" data-shot-alt="Головна зі списком проєктів" aria-label="Головна зі списком проєктів">
-            <img src="../../shots/mygit/home.webp" alt="Головна зі списком проєктів" width="1200" decoding="async">
+            <img src="../../shots/mygit/home.webp" alt="Головна зі списком проєктів" width="1200" height="750" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -133,19 +154,19 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/mygit/repo.webp" data-shot-alt="Сторінка репозиторію з кодом" aria-label="Сторінка репозиторію з кодом">
-            <img src="../../shots/mygit/repo.webp" alt="Сторінка репозиторію з кодом" loading="lazy" decoding="async">
+            <img src="../../shots/mygit/repo.webp" alt="Сторінка репозиторію з кодом" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.mygit.shots.1.cap">Сторінка репозиторію з кодом</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/mygit/commits.webp" data-shot-alt="Історія комітів і гілки" aria-label="Історія комітів і гілки">
-            <img src="../../shots/mygit/commits.webp" alt="Історія комітів і гілки" loading="lazy" decoding="async">
+            <img src="../../shots/mygit/commits.webp" alt="Історія комітів і гілки" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.mygit.shots.2.cap">Історія комітів і гілки</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/mygit/merge_requests.webp" data-shot-alt="Merge requests і рев'ю змін" aria-label="Merge requests і рев'ю змін">
-            <img src="../../shots/mygit/merge_requests.webp" alt="Merge requests і рев'ю змін" loading="lazy" decoding="async">
+            <img src="../../shots/mygit/merge_requests.webp" alt="Merge requests і рев'ю змін" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.mygit.shots.3.cap">Merge requests і рев'ю змін</figcaption>
         </figure>
@@ -165,7 +186,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Debian/Ubuntu · multiarch</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Debian/Ubuntu · multiarch</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · ключ після оплати</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -289,7 +310,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -335,9 +356,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=da85dee104" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=646a6bc1af" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

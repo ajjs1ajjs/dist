@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-uptime.title": "Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти",
     "meta.p-uptime.desc": "Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними інтервалами. Історія перевірок зберігається 30 днів за замовчуванням; інциденти й поточний стан видно в…",
+    "p.cat": "Debian/Ubuntu · multiarch",
+    "p.badgeLine": "DIST ecosystem · Debian/Ubuntu · multiarch",
     "p.uptime.sub": "Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти",
     "p.uptime.intro.0": "Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними інтервалами. Історія перевірок зберігається 30 днів за замовчуванням; інциденти й поточний стан видно в дашборді.",
     "p.uptime.intro.1": "Коли виникає збій, повідомлення надходять через Telegram, Discord, Slack, MS Teams, email, SMS, webhook, Pushover, Gotify або ntfy. Черга сповіщень зберігається в SQLite. Два процеси можуть працювати в режимі active-passive зі спільною базою на одному Linux-хості. Одна curl-команда встановлює або оновлює сервіс зі збереженням конфігурації, бази, користувачів і паролів.",
@@ -36,13 +38,15 @@ Object.assign(window.SITE_I18N, {
     "p.uptime.reqs.5": "Активна ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну)",
     "p.uptime.shots.0.cap": "Дашборд зі станом перевірок",
     "p.uptime.shots.1.cap": "Вхід адміністратора в дашборд",
-    "p.uptime.links.0": "Реліз 3.10.39 ↗",
+    "p.uptime.links.0": "Релізи на GitHub ↗",
     "p.uptime.links.1": "інсталятор ↗",
     "p.uptime.install.note": "Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну)."
   }),
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-uptime.title": "Uptime Monitor — Uptime, subnet and SSL monitoring — alerts and SLA reports",
     "meta.p-uptime.desc": "Uptime Monitor is a Go server that monitors sites, services, subnets and SSL certificate expiry. HTTP/HTTPS, TCP, Ping, DNS, SSL, link-quality and subnet checks run at their own intervals. Raw check history is retained for 30 days by default; the dashboard shows current state and incidents.…",
+    "p.cat": "Debian/Ubuntu · multiarch",
+    "p.badgeLine": "DIST ecosystem · Debian/Ubuntu · multiarch",
     "p.uptime.sub": "Uptime, subnet and SSL monitoring — alerts and SLA reports",
     "p.uptime.intro.0": "Uptime Monitor is a Go server that monitors sites, services, subnets and SSL certificate expiry. HTTP/HTTPS, TCP, Ping, DNS, SSL, link-quality and subnet checks run at their own intervals. Raw check history is retained for 30 days by default; the dashboard shows current state and incidents.",
     "p.uptime.intro.1": "Failures trigger notifications through Telegram, Discord, Slack, MS Teams, email, SMS, webhooks, Pushover, Gotify or ntfy. The notification queue is durable in SQLite. Two processes can run in active-passive mode with a shared database on one Linux host. One curl command installs or updates the service while preserving configuration, database, users and passwords.",
@@ -75,7 +79,7 @@ Object.assign(window.SITE_I18N, {
     "p.uptime.reqs.5": "An active license — an AK-… key (Paid after payment or Work/Admin/Test issued manually)",
     "p.uptime.shots.0.cap": "Dashboard with live check status",
     "p.uptime.shots.1.cap": "Dashboard admin sign-in screen",
-    "p.uptime.links.0": "Release 3.10.39 ↗",
+    "p.uptime.links.0": "GitHub releases ↗",
     "p.uptime.links.1": "installer ↗",
     "p.uptime.install.note": "The same command installs and updates; data is preserved. License — an AK-… key (Paid after payment or Work/Admin/Test issued manually)."
   })

@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-rdm.title": "RDM Manager — Remote Connection Manager для SRE та DevOps — SSH, RDP і SFTP з шифрованим сейфом облікових даних",
     "meta.p-rdm.desc": "RDM Manager — легкий менеджер віддалених підключень для SRE та DevOps, побудований на Tauri v2, Rust, React і SQLite. Він тримає SSH-сервери, вбудовані RDP-сесії та SFTP в одному вікні з вкладками, а логіни, паролі й ключі — у зашифрованому сейфі. У базі даних немає жодного пароля у відкритому…",
+    "p.cat": "Windows 10/11 · x64",
+    "p.badgeLine": "DIST ecosystem · Windows 10/11 · x64",
     "p.rdm.sub": "Remote Connection Manager для SRE та DevOps — SSH, RDP і SFTP з шифрованим сейфом облікових даних",
     "p.rdm.intro.0": "RDM Manager — легкий менеджер віддалених підключень для SRE та DevOps, побудований на Tauri v2, Rust, React і SQLite. Він тримає SSH-сервери, вбудовані RDP-сесії та SFTP в одному вікні з вкладками, а логіни, паролі й ключі — у зашифрованому сейфі. У базі даних немає жодного пароля у відкритому вигляді.",
     "p.rdm.intro.1": "SSH-термінал працює на xterm.js через системний PTY на Rust, RDP-сесії вбудовуються у вкладки через нативний mstsc із Win32 reparenting, а SFTP дає файл-менеджер поверх SSH. Для міграції є імпорт із Devolutions RDM, для перенесення між машинами — експорт бази під окремим паролем. Оновлення застосунок ставить сам.",
@@ -44,6 +46,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-rdm.title": "RDM Manager — Remote connection manager for SRE and DevOps — SSH, RDP and SFTP with an encrypted credential vault",
     "meta.p-rdm.desc": "RDM Manager is a lightweight remote connection manager for SRE and DevOps engineers, built on Tauri v2, Rust, React and SQLite. It keeps SSH servers, embedded RDP sessions and SFTP in one tabbed window, with logins, passwords and keys in an encrypted vault. The database stores no password in clear…",
+    "p.cat": "Windows 10/11 · x64",
+    "p.badgeLine": "DIST ecosystem · Windows 10/11 · x64",
     "p.rdm.sub": "Remote connection manager for SRE and DevOps — SSH, RDP and SFTP with an encrypted credential vault",
     "p.rdm.intro.0": "RDM Manager is a lightweight remote connection manager for SRE and DevOps engineers, built on Tauri v2, Rust, React and SQLite. It keeps SSH servers, embedded RDP sessions and SFTP in one tabbed window, with logins, passwords and keys in an encrypted vault. The database stores no password in clear text.",
     "p.rdm.intro.1": "The SSH terminal runs on xterm.js over a system PTY written in Rust; RDP sessions embed into app tabs through the native mstsc client with Win32 reparenting, and SFTP offers a file manager over SSH. Migration from Devolutions RDM is a CSV import, while backup export with its own password moves data between machines. Updates install in place.",

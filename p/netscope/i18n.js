@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-netscope.title": "NetScope Enterprise — Карта топології корпоративної мережі — офлайн, без встановлення",
     "meta.p-netscope.desc": "NetScope Enterprise — портативний десктоп-застосунок для Windows, який картографує корпоративну інфраструктуру: кілька доменів Active Directory, VPN-тунелі, сайти, підмережі, контролери домену та сервери. Уся програма — нативний автономний exe: Chromium WebEngine, Vis-Network, Tailwind та іконки…",
+    "p.cat": "Windows · Offline",
+    "p.badgeLine": "DIST ecosystem · Windows · Offline",
     "p.netscope.sub": "Карта топології корпоративної мережі — офлайн, без встановлення",
     "p.netscope.intro.0": "NetScope Enterprise — портативний десктоп-застосунок для Windows, який картографує корпоративну інфраструктуру: кілька доменів Active Directory, VPN-тунелі, сайти, підмережі, контролери домену та сервери. Уся програма — нативний автономний exe: Chromium WebEngine, Vis-Network, Tailwind та іконки запаковані всередину, тож інтернет не потрібен, а папку можна носити на флешці.",
     "p.netscope.intro.1": "Сканування стартує з одного поля. Введіть домен — і на карті зʼявляться ліси й трасти, AD Sites, підмережі, контролери домену з FSMO-ролями та сервери з ОС і OU. Введіть IP — отримаєте зворотний DNS, перевірку enterprise-портів і traceroute. Введіть CIDR — побачите топологію підмережі з ролями пристроїв після багатопотокового ping sweep.",
@@ -42,6 +44,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-netscope.title": "NetScope Enterprise — Corporate network topology mapping — offline, no installation",
     "meta.p-netscope.desc": "NetScope Enterprise is a portable Windows desktop app that maps corporate infrastructure: multiple Active Directory domains, VPN tunnels, sites, subnets, domain controllers and servers. The whole app is a native standalone executable — Chromium WebEngine, Vis-Network, Tailwind and icons are bundled…",
+    "p.cat": "Windows · Offline",
+    "p.badgeLine": "DIST ecosystem · Windows · Offline",
     "p.netscope.sub": "Corporate network topology mapping — offline, no installation",
     "p.netscope.intro.0": "NetScope Enterprise is a portable Windows desktop app that maps corporate infrastructure: multiple Active Directory domains, VPN tunnels, sites, subnets, domain controllers and servers. The whole app is a native standalone executable — Chromium WebEngine, Vis-Network, Tailwind and icons are bundled inside, so it needs no internet and the folder can live on a USB stick.",
     "p.netscope.intro.1": "A scan starts from a single input field. Type a domain and the map fills with forests and trusts, AD Sites, subnets, domain controllers with FSMO roles, and servers with OS and OU data. Type an IP and you get reverse DNS, a check of enterprise ports and a traceroute. Type a CIDR range and NetScope builds the subnet topology with device roles after a multithreaded ping sweep.",

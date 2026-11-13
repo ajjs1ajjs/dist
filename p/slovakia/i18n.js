@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-slovakia.title": "Slovenčina 0→B2 — Словацька з нуля до вільного спілкування (B2)",
     "meta.p-slovakia.desc": "Повний комплексний самовчитель та підручник словацької мови від абсолютного нуля до рівня B2 (CEFR), спеціально розроблений для україномовних учнів. Курс містить 111 повноцінних лекцій на 467 сторінках, охоплюючи ~3000 найуживаніших слів для побутового, робочого та офіційного спілкування. Головна…",
+    "p.cat": "Курс · Інтерактивний PDF",
+    "p.badgeLine": "DIST ecosystem · Курс · Інтерактивний PDF",
     "p.slovakia.sub": "Словацька з нуля до вільного спілкування (B2)",
     "p.slovakia.intro.0": "Повний комплексний самовчитель та підручник словацької мови від абсолютного нуля до рівня B2 (CEFR), спеціально розроблений для україномовних учнів. Курс містить 111 повноцінних лекцій на 467 сторінках, охоплюючи ~3000 найуживаніших слів для побутового, робочого та офіційного спілкування.",
     "p.slovakia.intro.1": "Головна інновація — пряма інтеграція 1463 аудіозаписів (PCM 22050 Гц) всередину PDF-файлу. Щоб почути правильну вимову, достатньо відкрити файл у безкоштовному Adobe Acrobat Reader та натиснути на динамік біля будь-якої фрази — звук програється офлайн без сторонніх плеєрів, інтернету чи QR-кодів. Курс повністю відкритий: вихідний код, тексти лекцій і аудіоскрипти лежать у публічному репозиторії на GitHub під ліцензією MIT, усі 111 фото — під перевіреними вільними ліцензіями (CC BY, CC BY-SA, CC0, Public Domain).",
@@ -37,13 +39,15 @@ Object.assign(window.SITE_I18N, {
     "p.slovakia.shots.1.cap": "Структура уроку: фото, словничок з IPA, граматика і діалог",
     "p.slovakia.shots.2.cap": "Інтерактивна аудіодошка: клік по динаміку відтворює звук",
     "p.slovakia.links.0": "Завантажити PDF (259 МБ) ↗",
-    "p.slovakia.links.1": "GitHub реліз ↗",
+    "p.slovakia.links.1": "Релізи на GitHub ↗",
     "p.slovakia.links.2": "Вихідний код (GitHub) ↗",
     "p.slovakia.install.note": "Встановлення не потрібне: завантажте PDF-файл і відкрийте його в безкоштовному Adobe Acrobat Reader."
   }),
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-slovakia.title": "Slovenčina 0→B2 — Slovak language from zero to B2 fluency",
     "meta.p-slovakia.desc": "A complete self-study textbook and course of Slovak from absolute zero to CEFR level B2, tailored for Ukrainian speakers. The course features 111 comprehensive lessons across 467 pages, covering approximately 3,000 high-frequency words for everyday life, work, and official procedures. Its key…",
+    "p.cat": "Course · Interactive PDF",
+    "p.badgeLine": "DIST ecosystem · Course · Interactive PDF",
     "p.slovakia.sub": "Slovak language from zero to B2 fluency",
     "p.slovakia.intro.0": "A complete self-study textbook and course of Slovak from absolute zero to CEFR level B2, tailored for Ukrainian speakers. The course features 111 comprehensive lessons across 467 pages, covering approximately 3,000 high-frequency words for everyday life, work, and official procedures.",
     "p.slovakia.intro.1": "Its key technical feature is direct embedding of 1,463 audio recordings (PCM 22050 Hz) right inside the PDF file. To hear native pronunciation, simply open the file in free Adobe Acrobat Reader and click any speaker icon next to a phrase — audio plays instantly offline with no external players, internet connection, or QR codes required. The course is fully open: source code, lesson texts and audio scripts live in a public GitHub repository under the MIT licence, and all 111 photos carry verified free licences (CC BY, CC BY-SA, CC0, Public Domain).",
@@ -77,7 +81,7 @@ Object.assign(window.SITE_I18N, {
     "p.slovakia.shots.1.cap": "Lesson structure: photo, vocabulary with IPA, grammar, and dialogue",
     "p.slovakia.shots.2.cap": "Interactive audio board: clicking speaker plays native voice",
     "p.slovakia.links.0": "Download PDF (259 MB) ↗",
-    "p.slovakia.links.1": "GitHub release ↗",
+    "p.slovakia.links.1": "GitHub releases ↗",
     "p.slovakia.links.2": "Source code (GitHub) ↗",
     "p.slovakia.install.note": "No installation required: download the PDF and open it in free Adobe Acrobat Reader."
   })

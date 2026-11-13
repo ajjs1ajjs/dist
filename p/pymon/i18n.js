@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-pymon.title": "PyMon NOC — Моніторинг інфраструктури та NOC-дашборд — легка платформа для Ubuntu",
     "meta.p-pymon.desc": "PyMon NOC — легка платформа моніторингу інфраструктури для Ubuntu з панеллю у стилі Grafana. Сервери збираються через node_exporter (CPU, RAM, диски, мережа), а сервіси — зовнішніми перевірками HTTP, TCP, Ping і SSL. Метрики надходять у реальному часі через WebSocket, історія лежить у SQLite, а…",
+    "p.cat": "Ubuntu · amd64/arm64",
+    "p.badgeLine": "DIST ecosystem · Ubuntu · amd64/arm64",
     "p.pymon.sub": "Моніторинг інфраструктури та NOC-дашборд — легка платформа для Ubuntu",
     "p.pymon.intro.0": "PyMon NOC — легка платформа моніторингу інфраструктури для Ubuntu з панеллю у стилі Grafana. Сервери збираються через node_exporter (CPU, RAM, диски, мережа), а сервіси — зовнішніми перевірками HTTP, TCP, Ping і SSL. Метрики надходять у реальному часі через WebSocket, історія лежить у SQLite, а сповіщення йдуть у Telegram, Discord, MS Teams, Slack і на email.",
     "p.pymon.intro.1": "Правила алертингу на CPU, RAM і диск мають дебаунсинг за тривалістю, є режим обслуговування та 24-годинні звіти про здоров'я. Міграція з Prometheus — імпорт prometheus.yml просто в інтерфейсі. Усе — один Go-бінарник із вбудованим фронтендом, SQLite і systemd; є навіть Docker.",
@@ -44,6 +46,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-pymon.title": "PyMon NOC — Infrastructure monitoring and NOC dashboard — a lightweight platform for Ubuntu",
     "meta.p-pymon.desc": "PyMon NOC is a lightweight infrastructure monitoring platform for Ubuntu with a Grafana-style dashboard. Servers are scraped through node_exporter (CPU, RAM, disks, network) and services are checked externally over HTTP, TCP, Ping and SSL. Metrics stream in real time over WebSocket, history lives…",
+    "p.cat": "Ubuntu · amd64/arm64",
+    "p.badgeLine": "DIST ecosystem · Ubuntu · amd64/arm64",
     "p.pymon.sub": "Infrastructure monitoring and NOC dashboard — a lightweight platform for Ubuntu",
     "p.pymon.intro.0": "PyMon NOC is a lightweight infrastructure monitoring platform for Ubuntu with a Grafana-style dashboard. Servers are scraped through node_exporter (CPU, RAM, disks, network) and services are checked externally over HTTP, TCP, Ping and SSL. Metrics stream in real time over WebSocket, history lives in SQLite, and alerts go to Telegram, Discord, MS Teams, Slack and email.",
     "p.pymon.intro.1": "Alerting rules for CPU, RAM and disk debounce by duration, and there is a maintenance mode plus 24-hour health reports. Migrating from Prometheus means importing your prometheus.yml right in the UI. Everything ships as one Go binary with an embedded frontend, SQLite and systemd — Docker is supported too.",

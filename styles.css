@@ -538,9 +538,19 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .modal-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .modal-note { margin-top: 16px; color: var(--dim); font-size: 12.5px; }
 
-.modal--shot .modal-card { width: min(100%, 1120px); max-width: 1120px; background: transparent; border: 0; padding: 0; box-shadow: none; }
+.modal--shot .modal-card { width: min(100%, 1120px); max-width: 1120px; background: transparent; border: 0; padding: 0; box-shadow: none; position: relative; }
 .modal--shot img { border-radius: 14px; border: 1px solid var(--line-strong); }
 .modal--shot .modal-close { position: fixed; top: 16px; right: 20px; background: rgba(18, 18, 21, .82); border: 1px solid var(--line-strong); }
+.shot-nav {
+  position: fixed; top: 50%; transform: translateY(-50%); z-index: 2;
+  width: 44px; height: 44px; border-radius: 12px; font-size: 24px; line-height: 1;
+  background: rgba(18, 18, 21, .82); border: 1px solid var(--line-strong); color: var(--text);
+  display: grid; place-items: center; transition: border-color .15s, color .15s;
+}
+.shot-nav[hidden] { display: none; }
+.shot-nav:hover { border-color: var(--accent); color: var(--accent); }
+.shot-nav--prev { left: 16px; }
+.shot-nav--next { right: 16px; }
 
 /* ---------- Toast ---------- */
 .toast {
@@ -583,6 +593,9 @@ table.matrix { border-collapse: collapse; width: 100%; min-width: 760px; font-si
 /* ---------- Responsive ---------- */
 @media (max-width: 560px) {
   .brand em { display: none; }
+}
+@media (min-width: 1081px) {
+  .mobile-menu, .mobile-menu.open { display: none; }
 }
 @media (max-width: 1080px) {
   .nav-links { display: none; }

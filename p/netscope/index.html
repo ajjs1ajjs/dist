@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="NetScope Enterprise — Карта топології корпоративної мережі — офлайн, без встановлення">
   <meta name="twitter:description" content="NetScope Enterprise — портативний десктоп-застосунок для Windows, який картографує корпоративну інфраструктуру: кілька доменів Active Directory, VPN-тунелі, сайти, підмережі, контролери домену та…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/netscope.png">
+  <meta name="twitter:image:alt" content="NetScope Enterprise — Карта топології корпоративної мережі — офлайн, без встановлення">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/netscope/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "NetScope Enterprise",
+        "item": "https://ajjs1ajjs.github.io/dist/p/netscope/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-netscope">
@@ -100,7 +121,7 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Windows · Offline</p>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Windows · Offline</p>
         <h1>NetScope Enterprise <span class="ver" data-latest-ver="netscope-v">v2.4.9</span></h1>
         <p class="prod-sub" data-i18n="p.netscope.sub">Карта топології корпоративної мережі — офлайн, без встановлення</p>
         <div class="tags"><span>AD/LDAP</span><span>IP-сканер</span><span>Ed25519</span><span>CSV/PNG</span></div>
@@ -119,7 +140,7 @@
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.netscope.shots.0.cap">Карта топології: домен, сайти, підмережі, сервери</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/netscope/topology.webp" data-shot-alt="Карта топології: домен, сайти, підмережі, сервери" aria-label="Карта топології: домен, сайти, підмережі, сервери">
-            <img src="../../shots/netscope/topology.webp" alt="Карта топології: домен, сайти, підмережі, сервери" width="1200" decoding="async">
+            <img src="../../shots/netscope/topology.webp" alt="Карта топології: домен, сайти, підмережі, сервери" width="1200" height="750" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -133,13 +154,13 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/netscope/history.webp" data-shot-alt="«Що змінилося» між сканами (diff)" aria-label="«Що змінилося» між сканами (diff)">
-            <img src="../../shots/netscope/history.webp" alt="«Що змінилося» між сканами (diff)" loading="lazy" decoding="async">
+            <img src="../../shots/netscope/history.webp" alt="«Що змінилося» між сканами (diff)" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.netscope.shots.1.cap">«Що змінилося» між сканами (diff)</figcaption>
         </figure>
         <figure>
           <button type="button" data-shot="../../shots/netscope/report.webp" data-shot-alt="Звіт для керівництва: PDF, Excel, HTML" aria-label="Звіт для керівництва: PDF, Excel, HTML">
-            <img src="../../shots/netscope/report.webp" alt="Звіт для керівництва: PDF, Excel, HTML" loading="lazy" decoding="async">
+            <img src="../../shots/netscope/report.webp" alt="Звіт для керівництва: PDF, Excel, HTML" width="1200" height="750" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.netscope.shots.2.cap">Звіт для керівництва: PDF, Excel, HTML</figcaption>
         </figure>
@@ -159,7 +180,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Windows · Offline</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Windows · Offline</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · ключ після оплати</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.auto">Автооновлення · підпис</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -282,7 +303,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -328,9 +349,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=e71f39e0a8" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=bb6b326cc3" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

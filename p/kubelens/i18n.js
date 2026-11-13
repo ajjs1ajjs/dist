@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-kubelens.title": "KubeLens — Kubernetes desktop IDE: ворклоади, логи, метрики, Helm і топологія в одному легкому застосунку",
     "meta.p-kubelens.desc": "KubeLens — настільний Kubernetes IDE для розробників і платформних інженерів, яким потрібен чіткий локальний робочий процес без важкої браузерної панелі керування. Застосунок побудований на Tauri 2, читає ресурси кластера через Kubernetes watch API й оновлює дані в реальному часі. Без акаунта й…",
+    "p.cat": "Windows 10/11 · x64",
+    "p.badgeLine": "DIST ecosystem · Windows 10/11 · x64",
     "p.kubelens.sub": "Kubernetes desktop IDE: ворклоади, логи, метрики, Helm і топологія в одному легкому застосунку",
     "p.kubelens.intro.0": "KubeLens — настільний Kubernetes IDE для розробників і платформних інженерів, яким потрібен чіткий локальний робочий процес без важкої браузерної панелі керування. Застосунок побудований на Tauri 2, читає ресурси кластера через Kubernetes watch API й оновлює дані в реальному часі. Без акаунта й телеметрії — лише ваш kubeconfig.",
     "p.kubelens.intro.1": "Застосунок веде кілька kubeconfig одночасно: записи можна перейменовувати й швидко перемикатися між кластерами. Звідси ж доступні стрім логів із вибором контейнера, інтерактивний shell, port-forward на localhost, метрики CPU та пам'яті, релізи Helm зі значеннями й маніфестами, топологія залежностей і редагування YAML із валідацією. Інтерфейс — англійською та українською; оновлення ставляться всередині застосунку лише з валідним minisign-підписом.",
@@ -43,6 +45,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-kubelens.title": "KubeLens — Kubernetes desktop IDE: workloads, logs, metrics, Helm and topology in one lightweight app",
     "meta.p-kubelens.desc": "KubeLens is a desktop Kubernetes IDE for developers and platform engineers who want a clear local workflow instead of a heavy browser-based control plane. Built on Tauri 2, it reads cluster resources through the Kubernetes watch API and keeps the view up to date in real time. No account, no…",
+    "p.cat": "Windows 10/11 · x64",
+    "p.badgeLine": "DIST ecosystem · Windows 10/11 · x64",
     "p.kubelens.sub": "Kubernetes desktop IDE: workloads, logs, metrics, Helm and topology in one lightweight app",
     "p.kubelens.intro.0": "KubeLens is a desktop Kubernetes IDE for developers and platform engineers who want a clear local workflow instead of a heavy browser-based control plane. Built on Tauri 2, it reads cluster resources through the Kubernetes watch API and keeps the view up to date in real time. No account, no telemetry — just your kubeconfig.",
     "p.kubelens.intro.1": "It manages several kubeconfigs at once: entries can be renamed and clusters switched in a couple of clicks. The same window gives you streaming pod logs with container selection, an interactive shell, port forwarding to localhost, CPU and memory metrics, Helm releases with values and manifests, dependency topology and YAML editing with validation. The UI ships in English and Ukrainian, and in-app updates install only with a valid minisign signature.",

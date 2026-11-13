@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-sales.title": "Game Sales Radar — Радар знижок Steam і PC Game Pass з миттєвими сповіщеннями в Telegram",
     "meta.p-sales.desc": "Game Sales Radar — персональний радар знижок і безкоштовних ігор. Він автоматично збирає актуальні пропозиції Steam: роздачі, гарячі знижки від 25% і топи продажів, а також каталог PC Game Pass — нові добавлення та найпопулярніші ігри. Усе це публікується на сайті й у Telegram-каналі, тож…",
+    "p.cat": "Web · PWA · Telegram",
+    "p.badgeLine": "DIST ecosystem · Web · PWA · Telegram",
     "p.sales.sub": "Радар знижок Steam і PC Game Pass з миттєвими сповіщеннями в Telegram",
     "p.sales.intro.0": "Game Sales Radar — персональний радар знижок і безкоштовних ігор. Він автоматично збирає актуальні пропозиції Steam: роздачі, гарячі знижки від 25% і топи продажів, а також каталог PC Game Pass — нові добавлення та найпопулярніші ігри. Усе це публікується на сайті й у Telegram-каналі, тож пропозиції не треба шукати вручну.",
     "p.sales.intro.1": "Сайт — статична PWA: встановлюється на телефон чи ПК, працює офлайн завдяки Service Worker, має темну та світлу теми й двомовний інтерфейс. Дані про знижки оновлює шедулер щогодини в публічному репозиторії артефактів, тому свіжі пропозиції з'являються без перезбірки застосунку, а історія сповіщень показує, що саме знайшлося за останні 30 днів.",
@@ -45,6 +47,8 @@ Object.assign(window.SITE_I18N, {
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-sales.title": "Game Sales Radar — Steam and PC Game Pass deals radar with instant Telegram alerts",
     "meta.p-sales.desc": "Game Sales Radar is a personal radar for discounts and free games. It automatically collects current Steam offers — giveaways, hot deals from 25% off and top sellers — plus the PC Game Pass catalog with newly added and most popular titles. Everything is published to the website and a Telegram…",
+    "p.cat": "Web · PWA · Telegram",
+    "p.badgeLine": "DIST ecosystem · Web · PWA · Telegram",
     "p.sales.sub": "Steam and PC Game Pass deals radar with instant Telegram alerts",
     "p.sales.intro.0": "Game Sales Radar is a personal radar for discounts and free games. It automatically collects current Steam offers — giveaways, hot deals from 25% off and top sellers — plus the PC Game Pass catalog with newly added and most popular titles. Everything is published to the website and a Telegram channel, so you never have to hunt for offers yourself.",
     "p.sales.intro.1": "The site is a static PWA: it installs on your phone or desktop, works offline through a Service Worker, and ships with dark and light themes and a bilingual interface. A scheduler refreshes the deal data every hour in the public artifacts repository, so fresh offers appear without rebuilding the app, while the notification history shows what was found over the last 30 days.",

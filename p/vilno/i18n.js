@@ -4,6 +4,8 @@ Object.assign(window.SITE_I18N, {
   uk: Object.assign(window.SITE_I18N.uk || {}, {
     "meta.p-vilno.title": "Vilno VPN — VPN-клієнт для Windows на OpenVPN і VPN Gate",
     "meta.p-vilno.desc": "Vilno VPN — настільний VPN-клієнт для Windows: завантажує каталог публічних серверів VPN Gate, перевіряє профілі та керує OpenVPN Community через Windows Interactive Service. Для підключення потрібна активна ліцензія: ключ вводиться в налаштуваннях і зберігається в Windows Credential Manager.…",
+    "p.cat": "Windows 10/11 · x64",
+    "p.badgeLine": "DIST ecosystem · Windows 10/11 · x64",
     "p.vilno.sub": "VPN-клієнт для Windows на OpenVPN і VPN Gate",
     "p.vilno.intro.0": "Vilno VPN — настільний VPN-клієнт для Windows: завантажує каталог публічних серверів VPN Gate, перевіряє профілі та керує OpenVPN Community через Windows Interactive Service. Для підключення потрібна активна ліцензія: ключ вводиться в налаштуваннях і зберігається в Windows Credential Manager.",
     "p.vilno.intro.1": "Застосунок показує один найкращий сервер на країну, перевіряючи TCP-доступність кандидатів, і вміє автоматично перемикатися на наступні сервери, якщо вибраний не відповів. Після обриву з'єднання автоматичне перепідключення виконує до трьох циклів. Kill Switch і блокування DNS поза VPN — експериментальні опції, вимкнені за замовчуванням.",
@@ -38,11 +40,13 @@ Object.assign(window.SITE_I18N, {
     "p.vilno.shots.2.cap": "Налаштування ліцензії та оновлень",
     "p.vilno.links.0": "релізи ↗",
     "p.vilno.links.1": "канал оновлень ↗",
-    "p.vilno.install.note": "Перехід з 0.5.1 і старіших потребує одного ручного встановлення через ротацію ключа updater. Завантажте Vilno.VPN_0.5.2_x64-setup.exe з офіційного релізу й встановіть поверх наявної версії; не видаляйте її заздалегідь. Звірте SHA-256 у нотатках релізу."
+    "p.vilno.install.note": "Windows 10/11 x64 — скачай Vilno.VPN_*_x64-setup.exe з релізу. Вбудований автоапдейтер з криптографічним підписом (minisign) сам підтягує свіжі версії."
   }),
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-vilno.title": "Vilno VPN — Windows VPN client powered by OpenVPN and VPN Gate",
     "meta.p-vilno.desc": "Vilno VPN is a Windows desktop VPN client: it downloads the public VPN Gate server catalog, validates profiles and controls OpenVPN Community through the Windows Interactive Service. An active license is required to connect: the key is entered in Settings and stored in Windows Credential Manager.…",
+    "p.cat": "Windows 10/11 · x64",
+    "p.badgeLine": "DIST ecosystem · Windows 10/11 · x64",
     "p.vilno.sub": "Windows VPN client powered by OpenVPN and VPN Gate",
     "p.vilno.intro.0": "Vilno VPN is a Windows desktop VPN client: it downloads the public VPN Gate server catalog, validates profiles and controls OpenVPN Community through the Windows Interactive Service. An active license is required to connect: the key is entered in Settings and stored in Windows Credential Manager.",
     "p.vilno.intro.1": "The app shows one best server per country, probing TCP reachability of candidates, and can automatically move to the next available server if the selected one does not respond. After a dropped connection, automatic reconnect runs up to three cycles. Kill Switch and blocking DNS outside the VPN are experimental options, disabled by default.",
@@ -77,6 +81,6 @@ Object.assign(window.SITE_I18N, {
     "p.vilno.shots.2.cap": "License and update settings",
     "p.vilno.links.0": "releases ↗",
     "p.vilno.links.1": "update channel ↗",
-    "p.vilno.install.note": "Moving from 0.5.1 or older requires one manual installation because the updater key changed. Download Vilno.VPN_0.5.2_x64-setup.exe from the official release and install over the existing version; do not uninstall first. Check its SHA-256 in the release notes."
+    "p.vilno.install.note": "Windows 10/11 x64 — grab Vilno.VPN_*_x64-setup.exe from the release. Built-in minisign-verified auto-updater pulls new releases automatically."
   })
 });

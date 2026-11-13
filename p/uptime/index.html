@@ -21,6 +21,7 @@
   <meta name="twitter:title" content="Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти">
   <meta name="twitter:description" content="Uptime Monitor — Go-сервер моніторингу сайтів, сервісів, підмереж і строків дії SSL-сертифікатів. Перевірки HTTP/HTTPS, TCP, Ping, DNS, SSL, якості каналу та підмереж працюють за власними…">
   <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/uptime.png">
+  <meta name="twitter:image:alt" content="Uptime Monitor — Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти">
   <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/uptime/">
   <meta property="og:locale" content="uk_UA">
   <script type="application/ld+json">
@@ -34,7 +35,7 @@
     "operatingSystem": "Linux",
     "url": "https://ajjs1ajjs.github.io/dist/p/uptime/",
     "image": "https://ajjs1ajjs.github.io/dist/og/uptime.png",
-    "softwareVersion": "3.10.39",
+    "softwareVersion": "3.10.40",
     "offers": {
       "@type": "Offer",
       "price": "500",
@@ -48,10 +49,30 @@
     }
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Uptime Monitor",
+        "item": "https://ajjs1ajjs.github.io/dist/p/uptime/"
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css?v=50bd971307">
+  <link rel="stylesheet" href="../../styles.css?v=384e350b13">
   <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 </head>
 <body data-page="p-uptime">
@@ -100,8 +121,8 @@
 
     <section class="wrap prod-hero">
       <div class="prod-hero-copy">
-        <p class="badge-line">DIST ecosystem · Debian/Ubuntu · multiarch</p>
-        <h1>Uptime Monitor <span class="ver" data-latest-ver="uptime-v">v3.10.39</span></h1>
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Debian/Ubuntu · multiarch</p>
+        <h1>Uptime Monitor <span class="ver" data-latest-ver="uptime-v">v3.10.40</span></h1>
         <p class="prod-sub" data-i18n="p.uptime.sub">Моніторинг доступності, підмереж і SSL — алерти та SLA-звіти</p>
         <div class="tags"><span>Go</span><span>SSL engine</span><span>SLA</span></div>
         <div class="prod-buy">
@@ -112,14 +133,14 @@
         </div>
         <div class="card-actions">
           <div class="cmd"><code>curl -sSL …/apps/uptime-monitor/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
-          <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.39" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
+          <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
         </div>
       </div>
       <div class="prod-hero-shot">
         <div class="frame">
           <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.uptime.shots.0.cap">Дашборд зі станом перевірок</em></span>
           <button class="prod-shot-btn" type="button" data-shot="../../shots/uptime/dashboard.webp" data-shot-alt="Дашборд зі станом перевірок" aria-label="Дашборд зі станом перевірок">
-            <img src="../../shots/uptime/dashboard.webp" alt="Дашборд зі станом перевірок" width="1200" decoding="async">
+            <img src="../../shots/uptime/dashboard.webp" alt="Дашборд зі станом перевірок" width="1200" height="771" loading="eager" fetchpriority="high" decoding="async">
           </button>
         </div>
       </div>
@@ -133,7 +154,7 @@
       <div class="gallery">
         <figure>
           <button type="button" data-shot="../../shots/uptime/login.webp" data-shot-alt="Вхід адміністратора в дашборд" aria-label="Вхід адміністратора в дашборд">
-            <img src="../../shots/uptime/login.webp" alt="Вхід адміністратора в дашборд" loading="lazy" decoding="async">
+            <img src="../../shots/uptime/login.webp" alt="Вхід адміністратора в дашборд" width="1200" height="771" loading="lazy" decoding="async">
           </button>
           <figcaption data-i18n="p.uptime.shots.1.cap">Вхід адміністратора в дашборд</figcaption>
         </figure>
@@ -153,7 +174,7 @@
         <aside class="prod-facts">
           <h3 data-i18n="pd.facts.title">Коротко</h3>
           <ul class="facts">
-            <li><b data-i18n="pd.facts.platform">Платформа</b><span>Debian/Ubuntu · multiarch</span></li>
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Debian/Ubuntu · multiarch</span></li>
             <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.paid">Підписка · ключ після оплати</span></li>
             <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
             <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
@@ -249,7 +270,7 @@
           </div>
           <p class="prod-note" data-i18n="p.uptime.install.note">Одна команда і встановлює, і оновлює; дані зберігаються. Ліцензія — ключ AK-… (Paid після оплати або Work/Admin/Test вручну).</p>
           <p class="prod-links">
-            <a href="https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.39" target="_blank" rel="noopener" data-i18n="p.uptime.links.0">Реліз 3.10.39 ↗</a>
+            <a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="p.uptime.links.0">Релізи на GitHub ↗</a>
             <a href="https://github.com/ajjs1ajjs/dist/tree/main/apps/uptime-monitor" target="_blank" rel="noopener" data-i18n="p.uptime.links.1">інсталятор ↗</a>
           </p>
         </div>
@@ -281,7 +302,7 @@
 <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
@@ -327,9 +348,9 @@
 
   <div class="toast" id="toast" role="status"></div>
 
-<script src="../../translations.js?v=50bd971307" defer></script>
-  <script src="./i18n.js?v=b47b8dcc0e" defer></script>
-  <script src="../../app.js?v=50bd971307" defer></script>
+<script src="../../translations.js?v=384e350b13" defer></script>
+  <script src="./i18n.js?v=2f5bff3f1d" defer></script>
+  <script src="../../app.js?v=384e350b13" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->
