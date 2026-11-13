@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T11:00:32.567Z",
+  "lastUpdated": "2026-11-13T12:00:32.614Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T11:00:32.567Z",
-    "gamepass": "2026-11-13T11:00:32.567Z"
+    "steam": "2026-11-13T12:00:32.614Z",
+    "gamepass": "2026-11-13T12:00:32.614Z"
   },
   "priceHistory": {
     "12210": [
@@ -172,6 +172,13 @@
         "currency": "UAH"
       }
     ],
+    "3816120": [
+      {
+        "date": "2026-11-13",
+        "price": 320,
+        "currency": "UAH"
+      }
+    ],
     "4115450": [
       {
         "date": "2026-11-12",
@@ -287,19 +294,6 @@
   },
   "steam": [
     {
-      "id": "266410",
-      "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_616x353.jpg?t=1793718419",
-      "originalPrice": 259,
-      "discountPrice": 103,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/266410",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "5175310",
       "title": "Worst Class Ever",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/d2f46451db520eb1beb060aa6681f6e5e3fd14a1/capsule_616x353.jpg?t=1794560465",
@@ -310,7 +304,7 @@
       "url": "https://store.steampowered.com/app/5175310",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": false
+      "isPopular": true
     },
     {
       "id": "2536520",
@@ -347,6 +341,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/227300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "5378110",
+      "title": "One More Lawn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/b3d2dc5d8f9eb7a9ee5e647121239e504ff0c37a/capsule_616x353.jpg?t=1794516748",
+      "originalPrice": 170,
+      "discountPrice": 119,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5378110",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -417,19 +424,6 @@
       "isPopular": true
     },
     {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg?t=1793118321",
-      "originalPrice": 129,
-      "discountPrice": 129,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
@@ -443,19 +437,6 @@
       "isPopular": true
     },
     {
-      "id": "1202520",
-      "title": "Fallout 1st",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202520/capsule_616x353.jpg?t=1718719668",
-      "originalPrice": 399,
-      "discountPrice": 399,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1202520",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4165890",
       "title": "Steam Frame",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
@@ -464,6 +445,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4165890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3816120",
+      "title": "重生2我独自逆袭 Re2 I Rise Alone",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816120/7e575c020144f49bd6448c4af4ba3cf1f79983fb/capsule_616x353.jpg?t=1794556864",
+      "originalPrice": 400,
+      "discountPrice": 320,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3816120",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
