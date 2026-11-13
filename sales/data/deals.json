@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T10:00:32.014Z",
+  "lastUpdated": "2026-11-13T11:00:32.567Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T10:00:32.014Z",
-    "gamepass": "2026-11-13T10:00:32.014Z"
+    "steam": "2026-11-13T11:00:32.567Z",
+    "gamepass": "2026-11-13T11:00:32.567Z"
   },
   "priceHistory": {
     "12210": [
@@ -339,19 +339,6 @@
       "isPopular": false
     },
     {
-      "id": "5378110",
-      "title": "One More Lawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/b3d2dc5d8f9eb7a9ee5e647121239e504ff0c37a/capsule_616x353.jpg?t=1794516748",
-      "originalPrice": 170,
-      "discountPrice": 119,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5378110",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
@@ -417,14 +404,14 @@
       "isPopular": true
     },
     {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "3796990",
+      "title": "Euro Truck Simulator 2 - Iceland",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
+      "originalPrice": 240,
+      "discountPrice": 240,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
+      "url": "https://store.steampowered.com/app/3796990",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -443,14 +430,14 @@
       "isPopular": true
     },
     {
-      "id": "3796990",
-      "title": "Euro Truck Simulator 2 - Iceland",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3796990/db08b89da19ac2ef7e3c6781b494e331b63a11e5/capsule_616x353.jpg?t=1794476409",
-      "originalPrice": 240,
-      "discountPrice": 240,
+      "id": "2406770",
+      "title": "Bodycam",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/ac4a1da41b76d1949da9d68d0f372c47ba854959/capsule_616x353.jpg?t=1794250615",
+      "originalPrice": 700,
+      "discountPrice": 700,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3796990",
+      "url": "https://store.steampowered.com/app/2406770",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -464,6 +451,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1202520",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
