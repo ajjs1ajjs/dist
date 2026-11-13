@@ -318,9 +318,20 @@ release_asset() { # URL and destination; explicit local archive is useful for of
 # Not /releases/latest: that endpoint is global to the repository and every app
 # publishes here, so the newest release overall may belong to another app.
 get_latest_release() {
-    local page=1 count body tags candidate latest=''
+    local page=1 count body tags candidate latest='' manifest_ver=''
+    local -a curl_auth=()
+    if [ -n "${GITHUB_TOKEN:-}" ]; then
+        curl_auth=(-H "Authorization: Bearer ${GITHUB_TOKEN}")
+    fi
     while [ "$page" -le 50 ]; do
-        body="$(curl -fsSL "https://api.github.com/repos/${REPO}/releases?per_page=100&page=${page}")" || return 1
+        if ! body="$(curl -fsSL "${curl_auth[@]}" "https://api.github.com/repos/${REPO}/releases?per_page=100&page=${page}" 2>/dev/null)"; then
+            manifest_ver="$(curl -fsSL "https://ajjs1ajjs.github.io/dist/releases.json" 2>/dev/null | tr -d '\r\n' | grep -oE "\"${TAG_PREFIX}-v\"[[:space:]]*:[[:space:]]*\\{[^}]*\"version\"[[:space:]]*:[[:space:]]*\"v?[0-9]+\\.[0-9]+\\.[0-9]+\"" | head -n1 | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' || true)"
+            if [ -n "$manifest_ver" ]; then
+                printf '%s\n' "${TAG_PREFIX}-v${manifest_ver}"
+                return 0
+            fi
+            return 1
+        fi
         count="$(printf '%s' "$body" | grep -o '"tag_name"' | wc -l)"
         tags="$(printf '%s' "$body" | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' | grep -E "^${TAG_PREFIX}-v[0-9]+\\.[0-9]+\\.[0-9]+$" || true)"
         candidate="$(printf '%s\n' "$tags" | sort -V | tail -n1)"

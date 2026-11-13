@@ -18,9 +18,20 @@ DIST_REPO="ajjs1ajjs/dist"
 TAG_PREFIX="uptime-v"
 
 get_latest_release_tag() {
-    local page=1 count body tags candidate latest=''
+    local page=1 count body tags candidate latest='' manifest_ver=''
+    local -a curl_auth=()
+    if [ -n "${GITHUB_TOKEN:-}" ]; then
+        curl_auth=(-H "Authorization: Bearer ${GITHUB_TOKEN}")
+    fi
     while [ "$page" -le 50 ]; do
-        body="$(curl -fsSL "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100&page=${page}")" || return 1
+        if ! body="$(curl -fsSL "${curl_auth[@]}" "https://api.github.com/repos/${DIST_REPO}/releases?per_page=100&page=${page}" 2>/dev/null)"; then
+            manifest_ver="$(curl -fsSL "https://ajjs1ajjs.github.io/dist/releases.json" 2>/dev/null | tr -d '\r\n' | grep -oE "\"${TAG_PREFIX}\"[[:space:]]*:[[:space:]]*\\{[^}]*\"version\"[[:space:]]*:[[:space:]]*\"v?[0-9]+\\.[0-9]+\\.[0-9]+\"" | head -n1 | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' || true)"
+            if [ -n "$manifest_ver" ]; then
+                printf '%s\n' "${TAG_PREFIX}${manifest_ver}"
+                return 0
+            fi
+            return 1
+        fi
         count="$(printf '%s' "$body" | grep -o '"tag_name"' | wc -l)"
         tags="$(printf '%s' "$body" | grep -o '"tag_name": *"[^"]*"' | sed 's/.*"tag_name": *"\([^"]*\)".*/\1/' | grep -E "^${TAG_PREFIX}[0-9]+\\.[0-9]+\\.[0-9]+$" || true)"
         candidate="$(printf '%s\n' "$tags" | sort -V | tail -n1)"
@@ -427,6 +438,11 @@ if [ "$LICENSE_OK" != "1" ]; then
 fi
 
 systemctl stop $SERVICE_NAME 2>/dev/null || true
+
+if [ "$IS_UPDATE" = "1" ] && [ -f "$DATA_DIR/sites.db" ]; then
+    cp -pf "$DATA_DIR/sites.db" "$DATA_DIR/sites.db.pre-upgrade"
+fi
+
 # --- Admin password (fresh install only, unless UPTIME_MONITOR_ADMIN_PASSWORD) --
 # The binary itself never writes admin_password.txt (the password is shown on
 # stdout once); remove leftovers created by older versions.
@@ -541,13 +557,22 @@ if [ "$HEALTHY" != "1" ]; then
             echo ""
         fi
         if [ "$IS_UPDATE" = "1" ] && [ -f "$INSTALL_DIR/uptime-monitor.old" ]; then
-            echo "The previous binary is still in place, so this is reversible:"
+            echo "--- автоматичний відкат ---"
+            systemctl stop $SERVICE_NAME >/dev/null 2>&1 || true
+            install -m 0755 "$INSTALL_DIR/uptime-monitor.old" "$INSTALL_DIR/.uptime-monitor.rollback"
+            mv -f "$INSTALL_DIR/.uptime-monitor.rollback" "$INSTALL_DIR/uptime-monitor"
+            if [ -f "$DATA_DIR/sites.db.pre-upgrade" ]; then
+                cp -pf "$DATA_DIR/sites.db.pre-upgrade" "$DATA_DIR/sites.db"
+                rm -f "$DATA_DIR/sites.db-wal" "$DATA_DIR/sites.db-shm"
+                chown uptime:uptime "$DATA_DIR/sites.db" 2>/dev/null || true
+            fi
+            systemctl restart $SERVICE_NAME >/dev/null 2>&1 || true
+            if systemctl is-active --quiet $SERVICE_NAME; then
+                echo "Попередню версію відновлено й сервіс знову працює."
+            else
+                echo "УВАГА: відкат виконано, але сервіс не піднявся — перевірте: systemctl status $SERVICE_NAME"
+            fi
             echo ""
-            echo "  sudo systemctl stop $SERVICE_NAME"
-            echo "  sudo mv $INSTALL_DIR/uptime-monitor.old $INSTALL_DIR/uptime-monitor"
-            echo "  sudo systemctl start $SERVICE_NAME"
-            echo ""
-            echo "Config, database and users were not modified by this installer."
         fi
         echo "Refusing to report a successful update."
         exit 1

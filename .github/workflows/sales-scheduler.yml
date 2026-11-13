@@ -120,3 +120,31 @@ jobs:
           DEALS_DIR: ${{ github.workspace }}/sales/data
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Report uncertain or blocked outbox items
+        if: always()
+        run: |
+          node - <<'EOF'
+          const fs = require('node:fs');
+          const outboxPath = 'sales/data/notification-outbox.json';
+          if (!fs.existsSync(outboxPath)) process.exit(0);
+          const outbox = JSON.parse(fs.readFileSync(outboxPath, 'utf8'));
+          const stuck = (outbox.messages || []).filter((m) => m.status === 'uncertain' || m.status === 'blocked');
+          if (stuck.length === 0) process.exit(0);
+          console.log(`::warning::${stuck.length} notification outbox message(s) in uncertain/blocked state require operator review.`);
+          const lines = [
+            '### Notification outbox entries awaiting resolution',
+            '',
+            '| ID | Status | Last error | Receipts |',
+            '| --- | --- | --- | --- |',
+            ...stuck.map((m) => `| \`${m.id}\` | \`${m.status}\` | ${String(m.lastError || '—').replace(/\|/g, '\\|')} | ${(m.receipts || []).length} |`),
+            '',
+            'Recovery commands (with `DEALS_DIR=sales/data`):',
+            '- Inspect queue: `npm --prefix apps/sales/fetch run fetch -- --list-outbox`',
+            '- Confirm sent to Telegram: `npm --prefix apps/sales/fetch run fetch -- --resolve <id> delivered`',
+            '- Retry delivery: `npm --prefix apps/sales/fetch run fetch -- --resolve <id> pending`',
+          ];
+          if (process.env.GITHUB_STEP_SUMMARY) {
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n') + '\n');
+          }
+          EOF

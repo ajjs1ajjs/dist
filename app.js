@@ -483,6 +483,9 @@
   }
 
   async function syncLatestReleases() {
+    const manifestUrl = document.currentScript?.src
+      ? new URL('./releases.json', document.currentScript.src).href
+      : '/releases.json';
     const CACHE_KEY = 'dist_latest_manifest_v1';
     let latest = null;
     try {
@@ -491,7 +494,7 @@
     } catch {}
     if (!latest) {
       try {
-        const res = await fetch('/releases.json', { headers: { Accept: 'application/json' } });
+        const res = await fetch(manifestUrl, { headers: { Accept: 'application/json' } });
         if (res.ok) {
           const data = await res.json();
           if (data.schemaVersion === 1 && data.latest && typeof data.latest === 'object') {

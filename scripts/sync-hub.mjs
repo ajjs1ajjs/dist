@@ -5,21 +5,20 @@
 // Ті самі newest-tag правила що в SITE scripts/sync-versions.mjs.
 // Запускається з .github/workflows/sync-site.yml (job sync-hub) на кожен
 // реліз + cron: версії на обох вітринах оновлюються автоматично.
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const INDEX = join(ROOT, 'index.html');
+const MANIFEST = join(ROOT, 'releases.json');
 const CATALOG = join(ROOT, 'apps', 'catalog.json');
 const SITE_INDEX = join(process.env.SITE_DIR || join(ROOT, '..', 'SITE'), 'public', 'index.html');
 const REPO = process.env.DIST_REPO || 'ajjs1ajjs/dist';
 
-// Патерни асета для A-посилань — 1:1 з LATEST_ASSET_PATTERNS в index.html.
-// Усі 12 префіксів (як у SITE sync-versions.mjs): спершу тут було лише 6, тож
-// fallback-версії bck/uptime/monitoring/mygit/gym/sales у HTML не оновлювались.
+// Патерни асета для A-посилань — 1:1 з SITE release-catalog.json.
 const products = JSON.parse(readFileSync(CATALOG, 'utf8')).products;
-const CONFIG = Object.fromEntries(products.map(({ prefix, assetPattern }) => [prefix, { pattern: assetPattern ? new RegExp(assetPattern, 'i') : null }]));
+const CONFIG = Object.fromEntries(products.map(({ prefix, assetPattern, slug }) => [prefix, { pattern: assetPattern ? new RegExp(assetPattern, 'i') : null, slug }]));
 
 export async function fetchReleases(fetchImpl = fetch) {
   const headers = { 'User-Agent': 'dist-hub-sync', Accept: 'application/vnd.github+json' };
@@ -78,6 +77,21 @@ export function validateAsset(prefix, rel, asset) {
 }
 
 const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const canonicalJson = (value) => JSON.stringify(value, (_key, item) => (
+  item && typeof item === 'object' && !Array.isArray(item)
+    ? Object.fromEntries(Object.entries(item).sort(([a], [b]) => a.localeCompare(b)))
+    : item
+));
+
+function targetFiles() {
+  const list = [INDEX];
+  for (const { slug } of products) {
+    if (!slug) continue;
+    const pagePath = join(ROOT, 'p', slug, 'index.html');
+    if (existsSync(pagePath)) list.push(pagePath);
+  }
+  return list;
+}
 
 async function main() {
   const args = process.argv.slice(2);
@@ -90,31 +104,74 @@ async function main() {
   });
   const latest = selectLatest(releases);
 
-  let html = readFileSync(INDEX, 'utf8');
-  const changes = [];
+  const selectedAssets = {};
   for (const [prefix, rel] of Object.entries(latest)) {
     const pattern = CONFIG[prefix].pattern;
     const asset = pattern ? rel.assets?.find(a => pattern.test(a.name)) : null;
     validateAsset(prefix, rel, asset);
-    const ver = 'v' + rel.tag_name.slice(prefix.length);
-    const verRe = new RegExp(`(data-latest-ver="${escRe(prefix)}">)[^<]*<`, 'g');
-    const before = html;
-    html = html.replace(verRe, `$1${ver}<`);
-    if (html !== before) changes.push(`${prefix} ver -> ${ver}`);
-    if (asset?.browser_download_url) {
-      const url = asset.browser_download_url;
-      const hrefRe1 = new RegExp(`(data-latest-href="${escRe(prefix)}"[^>]*?href=")[^"]*(")`, 'g');
-      const hrefRe2 = new RegExp(`(href=")[^"]*("[^>]*?data-latest-href="${escRe(prefix)}")`, 'g');
-      const h0 = html;
-      html = html.replace(hrefRe1, `$1${url}$2`).replace(hrefRe2, `$1${url}$2`);
-      if (html !== h0) changes.push(`${prefix} href -> ${asset.name}`);
-
-      const codeRe = new RegExp(`(data-latest-code="${escRe(prefix)}">)[^<]*<`, 'g');
-      const c0 = html;
-      html = html.replace(codeRe, `$1${asset.name}<`);
-      if (html !== c0) changes.push(`${prefix} file -> ${asset.name}`);
-    }
+    selectedAssets[prefix] = asset;
   }
+
+  const changes = [];
+  const pendingWrites = [];
+  for (const file of targetFiles()) {
+    let html = readFileSync(file, 'utf8');
+    const original = html;
+    const label = file === INDEX ? 'index.html' : file.slice(ROOT.length + 1);
+    for (const [prefix, rel] of Object.entries(latest)) {
+      const cfg = CONFIG[prefix];
+      const asset = selectedAssets[prefix];
+      const rawVer = rel.tag_name.slice(prefix.length).replace(/^v/i, '');
+      const ver = 'v' + rawVer;
+      const verRe = new RegExp(`(data-latest-ver="${escRe(prefix)}">)[^<]*<`, 'g');
+      const before = html;
+      html = html.replace(verRe, `$1${ver}<`);
+      if (html !== before) changes.push(`${label}: ${prefix} ver -> ${ver}`);
+      if (asset?.browser_download_url) {
+        const url = asset.browser_download_url;
+        const hrefRe1 = new RegExp(`(data-latest-href="${escRe(prefix)}"[^>]*?href=")[^"]*(")`, 'g');
+        const hrefRe2 = new RegExp(`(href=")[^"]*("[^>]*?data-latest-href="${escRe(prefix)}")`, 'g');
+        const h0 = html;
+        html = html.replace(hrefRe1, `$1${url}$2`).replace(hrefRe2, `$1${url}$2`);
+        if (html !== h0) changes.push(`${label}: ${prefix} href -> ${asset.name}`);
+
+        const codeRe = new RegExp(`(data-latest-code="${escRe(prefix)}">)[^<]*<`, 'g');
+        const c0 = html;
+        html = html.replace(codeRe, `$1${asset.name}<`);
+        if (html !== c0) changes.push(`${label}: ${prefix} file -> ${asset.name}`);
+      }
+      if (cfg.slug && (file.includes(`/p/${cfg.slug}/`) || file.includes(`\\p\\${cfg.slug}\\`))) {
+        const svRe = /("softwareVersion":\s*")[^"]*(")/;
+        const s0 = html;
+        html = html.replace(svRe, `$1${rawVer}$2`);
+        if (html !== s0) changes.push(`${label}: ${prefix} softwareVersion -> ${rawVer}`);
+      }
+    }
+    if (html !== original) pendingWrites.push({ file, contents: html });
+  }
+
+  const latestManifest = {};
+  for (const [prefix, rel] of Object.entries(latest)) {
+    const asset = selectedAssets[prefix];
+    const version = 'v' + rel.tag_name.slice(prefix.length).replace(/^v/i, '');
+    latestManifest[prefix] = {
+      version,
+      ...(asset?.name ? { name: String(asset.name).replace(/[<>]/g, '') } : {}),
+      ...(asset?.browser_download_url ? { downloadUrl: asset.browser_download_url } : {}),
+    };
+  }
+  let currentManifest = null;
+  try { currentManifest = JSON.parse(readFileSync(MANIFEST, 'utf8')); } catch {}
+  const manifestMatches = currentManifest?.schemaVersion === 1
+    && canonicalJson(currentManifest.latest) === canonicalJson(latestManifest);
+  if (!manifestMatches) {
+    changes.push('releases.json: manifest updated');
+    pendingWrites.push({
+      file: MANIFEST,
+      contents: JSON.stringify({ schemaVersion: 1, generatedAt: new Date().toISOString(), latest: latestManifest }, null, 2) + '\n',
+    });
+  }
+
   if (!changes.length) {
     console.log('Хаб уже свіжий — змін нема.');
     return;
@@ -122,12 +179,12 @@ async function main() {
   console.log('Знайдені оновлення:');
   for (const c of changes) console.log('  • ' + c);
   if (checkOnly) {
-    console.log('(dry-run --check: файл не змінено)');
+    console.log('(dry-run --check: файли не змінено)');
     process.exitCode = 2;
     return;
   }
-  writeFileSync(INDEX, html);
-  console.log(`\nOK: index.html оновлено (${changes.length} замін).`);
+  for (const { file, contents } of pendingWrites) writeFileSync(file, contents, 'utf8');
+  console.log(`\nOK: оновлено ${pendingWrites.length} файл(ів), ${changes.length} замін.`);
 }
 
 function checkCatalog() {

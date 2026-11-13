@@ -10,6 +10,7 @@ window.SITE_I18N = {
     'skip': 'Перейти до контенту',
     'modal.close': 'Закрити',
     'modal.preview': 'Перегляд знімка',
+    'modal.screenshot': 'Перегляд знімка',
     'book.download': 'Завантажити PDF · 259 МБ ↗',
     'pd.cta.book.title': 'Безкоштовний курс словацької у PDF',
     'pd.cta.book.desc': 'Завантажте курс і відкрийте його в Adobe Acrobat Reader, щоб відтворювати вбудовані аудіозаписи офлайн.',
@@ -258,6 +259,7 @@ window.SITE_I18N = {
     'hub.mat.update.diskcleaner': 'Auto · SHA-256',
     'hub.mat.update.netscope': 'In-App · Ed25519',
     'hub.mat.update.vilno': 'In-App · Minisign',
+    'hub.mat.update.slovakia': 'GitHub Releases',
 
     /* --- footer --- */
     'footer.tagline': 'Ярослав · SRE / DevOps / Software Developer',
@@ -315,6 +317,7 @@ window.SITE_I18N = {
     'skip': 'Skip to content',
     'modal.close': 'Close',
     'modal.preview': 'Screenshot preview',
+    'modal.screenshot': 'Screenshot preview',
     'book.download': 'Download PDF · 259 MB ↗',
     'pd.cta.book.title': 'Free Slovak course in PDF',
     'pd.cta.book.desc': 'Download the course and open it in Adobe Acrobat Reader to play its embedded audio offline.',
@@ -563,6 +566,7 @@ window.SITE_I18N = {
     'hub.mat.update.diskcleaner': 'Auto · SHA-256',
     'hub.mat.update.netscope': 'In-app · Ed25519',
     'hub.mat.update.vilno': 'In-app · Minisign',
+    'hub.mat.update.slovakia': 'GitHub Releases',
 
     /* --- footer --- */
     'footer.tagline': 'Yaroslav · SRE / DevOps / Software Developer',

@@ -41,7 +41,7 @@
           <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
           <button type="button" data-lang="en" aria-pressed="false">EN</button>
         </div>
-        <button class="burger" id="burger" aria-label="Меню" data-i18n-attr="aria-label:nav.menuAria" aria-expanded="false"><span></span><span></span><span></span></button>
+        <button class="burger" id="burger" aria-label="Меню" data-i18n-attr="aria-label:nav.menuAria" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
     <div class="mobile-menu" id="mobileMenu">
@@ -102,15 +102,15 @@
         </div>
 
         <div class="toolbar">
-          <div class="chips" role="group" aria-label="Фільтр продуктів">
-            <button class="chip active" type="button" data-filter="all" aria-pressed="true" data-i18n="prod.filterAll">Всі · 13</button>
-            <button class="chip" type="button" data-filter="linux" aria-pressed="false" data-i18n="prod.filterLinux">🐧 Linux · 4</button>
-            <button class="chip" type="button" data-filter="windows" aria-pressed="false" data-i18n="prod.filterWindows">🪟 Windows · 5</button>
-            <button class="chip" type="button" data-filter="web" aria-pressed="false" data-i18n="prod.filterWeb">🌐 Web / PDF · 4</button>
-            <button class="chip" type="button" data-filter="monitoring" aria-pressed="false" data-i18n="prod.filterMonitoring">📡 Моніторинг · 4</button>
+          <div class="chips" role="group" aria-label="Фільтр продуктів" data-i18n-attr="aria-label:prod.filterAria">
+            <button class="chip active" type="button" data-filter="all" data-filter-count="all" aria-pressed="true" data-i18n="prod.filterAll">Всі · 13</button>
+            <button class="chip" type="button" data-filter="linux" data-filter-count="linux" aria-pressed="false" data-i18n="prod.filterLinux">🐧 Linux · 4</button>
+            <button class="chip" type="button" data-filter="windows" data-filter-count="windows" aria-pressed="false" data-i18n="prod.filterWindows">🪟 Windows · 5</button>
+            <button class="chip" type="button" data-filter="web" data-filter-count="web" aria-pressed="false" data-i18n="prod.filterWeb">🌐 Web / PDF · 4</button>
+            <button class="chip" type="button" data-filter="monitoring" data-filter-count="monitoring" aria-pressed="false" data-i18n="prod.filterMonitoring">📡 Моніторинг · 4</button>
           </div>
           <div class="search">
-            <input type="search" id="searchInput" placeholder="Пошук: backup, k8s, PWA…" data-i18n-placeholder="prod.searchPh" autocomplete="off" aria-label="Пошук продуктів">
+            <input type="search" id="searchInput" placeholder="Пошук: backup, k8s, PWA…" data-i18n-placeholder="prod.searchPh" autocomplete="off" aria-label="Пошук продуктів" data-i18n-attr="aria-label:prod.searchAria">
             <button class="search-clear" id="searchClear" type="button" hidden aria-label="Очистити пошук" data-i18n-attr="aria-label:prod.searchClear">✕</button>
           </div>
         </div>
@@ -120,7 +120,7 @@
 
           <!-- BCK -->
           <article class="card" data-cat="linux" data-search="bck backup бекап резервне копіювання disaster recovery veeam rust systemd linux ubuntu">
-            <a class="card-shot card-shot--open" href="./p/bck/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/bck/" aria-label="Детальніше: BCK" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="BCK">
               <img src="./shots/bck.webp" alt="BCK — дашборд веб-консолі" width="1200" height="771" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -136,16 +136,16 @@
               </button>
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
-                <div class="cmd"><code>curl … /apps/bck/install.sh | sudo bash</code><button type="button" data-copy="curl -fsSL https://ajjs1ajjs.github.io/dist/apps/bck/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+                <div class="cmd"><code>curl -fsSL …/apps/bck/install.sh | sudo bash</code><button type="button" data-copy="curl -fsSL https://ajjs1ajjs.github.io/dist/apps/bck/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=bck" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">13.5 MB · tar.gz</span></div>
               </div>
-              <a class="details-link" href="./p/bck/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/bck/" aria-label="Детальніше: BCK" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="BCK" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- PyMon -->
           <article class="card" data-cat="linux monitoring" data-search="pymon monitoring моніторинг noc dashboard node_exporter sla telegram go графіки">
-            <a class="card-shot card-shot--open" href="./p/pymon/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/pymon/" aria-label="Детальніше: PyMon NOC" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="PyMon NOC">
               <img src="./shots/pymon.webp" alt="PyMon NOC — дашборд моніторингу" width="1200" height="750" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -161,16 +161,16 @@
               </button>
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
-                <div class="cmd"><code>curl … /apps/monitoring/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/monitoring/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+                <div class="cmd"><code>curl -sSL …/apps/monitoring/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/monitoring/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=monitoring" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
               </div>
-              <a class="details-link" href="./p/pymon/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/pymon/" aria-label="Детальніше: PyMon NOC" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="PyMon NOC" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- MyGit -->
           <article class="card" data-cat="linux" data-search="mygit git gitea gitlab self-hosted репозиторії go light linux">
-            <a class="card-shot card-shot--open" href="./p/mygit/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/mygit/" aria-label="Детальніше: MyGit" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="MyGit">
               <img src="./shots/mygit.webp" alt="MyGit — сторінка репозиторію" width="1200" height="750" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -186,16 +186,16 @@
               </button>
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
-                <div class="cmd"><code>curl … /apps/mygit/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/mygit/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+                <div class="cmd"><code>curl -sSL …/apps/mygit/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/mygit/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=mygit" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
               </div>
-              <a class="details-link" href="./p/mygit/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/mygit/" aria-label="Детальніше: MyGit" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="MyGit" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Uptime -->
           <article class="card" data-cat="linux monitoring" data-search="uptime monitor health sentinel ssl sla алерти telegram перевірки http tcp go">
-            <a class="card-shot card-shot--open" href="./p/uptime/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/uptime/" aria-label="Детальніше: Uptime Monitor" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Uptime Monitor">
               <img src="./shots/uptime.webp" alt="Uptime Monitor — дашборд" width="1200" height="771" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -211,16 +211,16 @@
               </button>
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
-                <div class="cmd"><code>curl … /apps/uptime-monitor/install.sh | bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
-                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases/tag/uptime-v3.10.39" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
+                <div class="cmd"><code>curl -sSL …/apps/uptime-monitor/install.sh | sudo bash</code><button type="button" data-copy="curl -sSL https://ajjs1ajjs.github.io/dist/apps/uptime-monitor/install.sh | sudo bash" data-i18n="prod.copy">копіювати</button></div>
+                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=uptime" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">multiarch · systemd</span></div>
               </div>
-              <a class="details-link" href="./p/uptime/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/uptime/" aria-label="Детальніше: Uptime Monitor" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Uptime Monitor" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- NetScope -->
           <article class="card" data-cat="windows monitoring" data-search="netscope мережа топологія ad ldap сканування підмереж офлайн inventory windows">
-            <a class="card-shot card-shot--open" href="./p/netscope/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/netscope/" aria-label="Детальніше: NetScope Enterprise" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="NetScope Enterprise">
               <img src="./shots/netscope.webp" alt="NetScope — карта топології мережі" width="1400" height="887" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -239,13 +239,13 @@
                 <div class="cmd"><code data-latest-code="netscope-v">NetScope-v2.4.9-portable.zip</code><a class="copybtn" data-latest-href="netscope-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.9/NetScope-v2.4.9-portable.zip">завантажити</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">portable zip · auto</span></div>
               </div>
-              <a class="details-link" href="./p/netscope/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/netscope/" aria-label="Детальніше: NetScope Enterprise" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="NetScope Enterprise" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- KubeLens -->
           <article class="card" data-cat="windows" data-search="kubelens kubernetes k8s ide tauri rust react lens десктоп кластер helm windows">
-            <a class="card-shot card-shot--open" href="./p/kubelens/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/kubelens/" aria-label="Детальніше: KubeLens" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="KubeLens">
               <img src="./shots/kubelens.webp" alt="KubeLens — воркспейс із кластерами" width="1200" height="777" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -262,15 +262,15 @@
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
                 <div class="cmd"><code data-latest-code="kubelens-v">KubeLens_0.3.41_x64-setup.exe</code><a class="copybtn" data-latest-href="kubelens-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/kubelens-v0.3.41/KubeLens_0.3.41_x64-setup.exe">завантажити</a></div>
-                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">NSIS · підпис</span></div>
+                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=kubelens" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono" data-i18n="prod.nsisSigned">NSIS · підпис</span></div>
               </div>
-              <a class="details-link" href="./p/kubelens/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/kubelens/" aria-label="Детальніше: KubeLens" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="KubeLens" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- RDM -->
           <article class="card" data-cat="windows" data-search="rdm remote connection manager ssh rdp тунелі vault паролі tauri rust sqlite windows">
-            <a class="card-shot card-shot--open" href="./p/rdm/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/rdm/" aria-label="Детальніше: RDM Manager" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="RDM Manager">
               <img src="./shots/rdm.webp" alt="RDM Manager — каталог з'єднань" width="1400" height="749" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -287,15 +287,15 @@
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
                 <div class="cmd"><code data-latest-code="rdm-v">RDM.Manager_2.1.50_x64-setup.exe</code><a class="copybtn" data-latest-href="rdm-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.50/RDM.Manager_2.1.50_x64-setup.exe">завантажити</a></div>
-                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">NSIS · переносний</span></div>
+                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=rdm" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono" data-i18n="prod.nsisPortable">NSIS · переносний</span></div>
               </div>
-              <a class="details-link" href="./p/rdm/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/rdm/" aria-label="Детальніше: RDM Manager" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="RDM Manager" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- DiskCleaner -->
           <article class="card" data-cat="windows" data-search="diskcleaner чистка диска temp кеші portable windows safe звільнити місце">
-            <a class="card-shot card-shot--open" href="./p/diskcleaner/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/diskcleaner/" aria-label="Детальніше: DiskCleaner" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="DiskCleaner">
               <img src="./shots/diskcleaner.webp" alt="DiskCleaner — категорії для очищення" width="896" height="779" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -314,18 +314,18 @@
                 <div class="cmd"><code data-latest-code="diskcleaner-v">DiskCleaner.exe</code><a class="copybtn" data-latest-href="diskcleaner-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/diskcleaner-v1.6.5/DiskCleaner.exe">завантажити</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=diskcleaner" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">single exe · auto</span></div>
               </div>
-              <a class="details-link" href="./p/diskcleaner/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/diskcleaner/" aria-label="Детальніше: DiskCleaner" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="DiskCleaner" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Vilno VPN -->
           <article class="card" data-cat="windows" data-search="vilno vpn openvpn vpn gate windows tauri rust клієнт сервери тунель ліцензія">
-            <a class="card-shot card-shot--open" href="https://andreichuk.dev/p/vilno/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/vilno/" aria-label="Детальніше: Vilno VPN" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Vilno VPN">
               <img src="./shots/vilno.webp" alt="Vilno VPN — головний екран із підключенням" width="1200" height="750" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
               <div class="card-head">
-                <h3><a href="https://andreichuk.dev/p/vilno/">Vilno VPN</a> <span class="ver" data-latest-ver="vilno-v">v0.5.2</span></h3>
+                <h3><a href="./p/vilno/">Vilno VPN</a> <span class="ver" data-latest-ver="vilno-v">v0.5.2</span></h3>
                 <span class="cat">Windows 10/11 · x64</span>
               </div>
               <p class="card-sub" data-i18n="p.vilno.sub">VPN-клієнт на OpenVPN і VPN Gate</p>
@@ -337,9 +337,9 @@
               <span class="license-note" data-i18n="prod.license">За ключем</span>
               <div class="card-actions">
                 <div class="cmd"><code data-latest-code="vilno-v">Vilno.VPN_0.5.2_x64-setup.exe</code><a class="copybtn" data-latest-href="vilno-v" data-i18n="prod.download" href="https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.2/Vilno.VPN_0.5.2_x64-setup.exe">завантажити</a></div>
-                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=vilno" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">NSIS · автооновлення</span></div>
+                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=vilno" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono" data-i18n="prod.nsisAuto">NSIS · автооновлення</span></div>
               </div>
-              <a class="details-link" href="https://andreichuk.dev/p/vilno/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/vilno/" aria-label="Детальніше: Vilno VPN" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Vilno VPN" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
@@ -369,13 +369,13 @@
 
           <!-- Gym -->
           <article class="card" data-cat="web" data-search="gym tracker тренування pwa svelte офлайн workout фітнес">
-            <a class="card-shot card-shot--open" href="./p/gym/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/gym/" aria-label="Детальніше: Gym Tracker" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Gym Tracker">
               <img src="./shots/gym.webp" alt="Gym Tracker — програма тренування" width="1200" height="760" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
               <div class="card-head">
                 <h3><a href="./p/gym/">Gym Tracker</a> <span class="ver" data-latest-ver="gym-v">v3.6.3</span></h3>
-                <span class="cat">Web · PWA · офлайн</span>
+                <span class="cat" data-i18n="p.gym.cat">Web · PWA · офлайн</span>
               </div>
               <p class="card-sub" data-i18n="p.gym.sub">Офлайн-трекер тренувань (PWA)</p>
               <p class="card-desc" data-i18n="p.gym.desc">Svelte 5, усе в localStorage, Service Worker. Працює офлайн і встановлюється в один тап. Безкоштовно.</p>
@@ -387,13 +387,13 @@
                 <div class="cmd"><code>dist/gym/ · install as PWA</code><a class="copybtn" href="https://ajjs1ajjs.github.io/dist/gym/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
                 <div class="links"><a href="https://github.com/ajjs1ajjs/Gym" target="_blank" rel="noopener">GitHub ↗</a><span class="mono">installs offline</span></div>
               </div>
-              <a class="details-link" href="./p/gym/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/gym/" aria-label="Детальніше: Gym Tracker" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Gym Tracker" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
           <!-- Sales -->
           <article class="card" data-cat="web monitoring" data-search="sales steam знижки deals роздачі telegram pwa cron агрегатор">
-            <a class="card-shot card-shot--open" href="./p/sales/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/sales/" aria-label="Детальніше: Game Sales Radar" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Game Sales Radar">
               <img src="./shots/sales.webp" alt="Game Sales Radar — стрічка знижок Steam" width="1200" height="760" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
@@ -409,34 +409,33 @@
               </a>
               <div class="card-actions">
                 <div class="cmd"><code>t.me/salesgamesua · sync daily</code><a class="copybtn" href="https://ajjs1ajjs.github.io/dist/sales/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
-                <div class="links"><a href="https://t.me/salesgamesua" target="_blank" rel="noopener">@salesgamesua ↗</a><span class="mono">Steam · щодня</span></div>
+                <div class="links"><a href="https://t.me/salesgamesua" target="_blank" rel="noopener">@salesgamesua ↗</a><span class="mono" data-i18n="prod.steamDaily">Steam · щодня</span></div>
               </div>
-              <a class="details-link" href="./p/sales/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/sales/" aria-label="Детальніше: Game Sales Radar" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Game Sales Radar" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
-          <!-- DiskCleaner -->
           <!-- Slovakia -->
           <article class="card" data-cat="web" data-search="slovakia словацька мова slovak курс pdf аудіо a0 a1 a2 b1 b2 підручник самовчитель">
-            <a class="card-shot card-shot--open" href="./p/slovakia/" aria-label="Детальніше" data-i18n-attr="aria-label:prod.details">
+            <a class="card-shot card-shot--open" href="./p/slovakia/" aria-label="Детальніше: Slovenčina 0→B2" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Slovenčina 0→B2">
               <img src="./shots/slovakia.webp" alt="Slovenčina 0→B2 — інтерактивний курс словацької мови" width="1200" height="760" loading="lazy" decoding="async">
             </a>
             <div class="card-body">
               <div class="card-head">
                 <h3><a href="./p/slovakia/">Slovenčina 0→B2</a> <span class="ver" data-latest-ver="slovakia-v">v1.2.1</span></h3>
-                <span class="cat">Курс · Інтерактивний PDF</span>
+                <span class="cat" data-i18n="p.slovakia.cat">Курс · Інтерактивний PDF</span>
               </div>
               <p class="card-sub" data-i18n="p.slovakia.sub">Словацька з нуля до вільного спілкування (B2)</p>
               <p class="card-desc" data-i18n="p.slovakia.desc">111 лекцій, 467 сторінок, 1463 вбудовані аудіозаписи (PCM 22050 Гц). Працює офлайн в Adobe Reader. Безкоштовно.</p>
-              <div class="tags"><span>PDF</span><span>Аудіо 22 kHz</span><span>111 лекцій</span><span>A0–B2</span></div>
-              <a class="buy buy--free" href="https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf" target="_blank" rel="noopener">
-                <b data-i18n="prod.free">Безкоштовно</b><span data-i18n="prod.download">Скачати (259 МБ) ↗</span>
+              <div class="tags"><span>PDF</span><span data-i18n="p.slovakia.tag1">Аудіо 22 kHz</span><span data-i18n="p.slovakia.tag2">111 лекцій</span><span>A0–B2</span></div>
+              <a class="buy buy--free" data-latest-href="slovakia-v" href="https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf" target="_blank" rel="noopener">
+                <b data-i18n="prod.free">Безкоштовно</b><span data-i18n="book.downloadShort">Скачати (259 МБ) ↗</span>
               </a>
               <div class="card-actions">
-                <div class="cmd"><code>Slovak-0-B2-full.pdf · 259 MB</code><a class="copybtn" href="https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf" target="_blank" rel="noopener" data-i18n="prod.download">Скачати ↗</a></div>
-                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases/tag/slovakia-v1.2.1" target="_blank" rel="noopener">GitHub реліз ↗</a><span class="mono">Adobe Reader sound</span></div>
+                <div class="cmd"><code><span data-latest-code="slovakia-v">Slovak-0-B2-full.pdf</span> · 259 MB</code><a class="copybtn" data-latest-href="slovakia-v" href="https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf" target="_blank" rel="noopener" data-i18n="prod.download">завантажити</a></div>
+                <div class="links"><a href="https://github.com/ajjs1ajjs/dist/releases?q=slovakia" target="_blank" rel="noopener" data-i18n="prod.releases">релізи ↗</a><span class="mono">Adobe Reader sound</span></div>
               </div>
-              <a class="details-link" href="./p/slovakia/" data-i18n="prod.details">Детальніше</a>
+              <a class="details-link" href="./p/slovakia/" aria-label="Детальніше: Slovenčina 0→B2" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="Slovenčina 0→B2" data-i18n="prod.details">Детальніше</a>
             </div>
           </article>
 
@@ -579,6 +578,14 @@
                 <td class="m-price">250 ₴/міс</td>
                 <td><a data-latest-href="vilno-v" href="https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.2/Vilno.VPN_0.5.2_x64-setup.exe" data-i18n="hub.mat.dl">завантажити</a></td>
               </tr>
+              <tr>
+                <td>Slovenčina 0→B2</td>
+                <td data-i18n="p.slovakia.cat">Курс · Інтерактивний PDF</td>
+                <td>PDF · 259 MB</td>
+                <td data-i18n="hub.mat.update.slovakia">GitHub Releases</td>
+                <td class="m-free" data-i18n="hub.mat.free">Безкоштовно</td>
+                <td><a data-latest-href="slovakia-v" href="https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf" data-i18n="hub.mat.dl">завантажити</a></td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -589,7 +596,7 @@
   <footer class="footer">
     <div class="wrap footer-in">
       <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
-      <nav aria-label="Футер">
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
         <a href="https://andreichuk.dev/" target="_blank" rel="noopener" data-i18n="nav.author">andreichuk.dev</a>
         <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
         <a href="https://t.me/+380979454941" target="_blank" rel="noopener">Telegram</a>
@@ -601,7 +608,7 @@
   <button class="totop" id="toTop" type="button" aria-label="Догори" data-i18n-attr="aria-label:footer.toTop">↑</button>
 
   <!-- BUY MODAL -->
-  <div class="modal" id="buyModal" hidden role="dialog" aria-modal="true" aria-labelledby="buyTitle" tabindex="-1">
+  <dialog class="modal" id="buyModal" aria-labelledby="buyTitle">
     <div class="modal-card">
       <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
       <h3 id="buyTitle"><span data-i18n="buy.title">Ліцензія</span> · <span id="buyName">—</span></h3>
@@ -616,24 +623,23 @@
       </div>
       <div class="buy-steps">
         <div class="buy-step"><b data-i18n="buy.step1.t">1 · Встановіть програму</b><p data-i18n="buy.step1.d">Завантажте й встановіть програму. Ліцензія не потрібна для встановлення.</p></div>
-        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму вище — банка Monobank відкриється з уже підставленою сумою. У коментарі вкажіть email і назву програми.</p></div>
-        <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Ключ активується автоматично (зазвичай до 5 хвилин). Питання — напишіть на email.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму — відкриється банка Monobank. У коментарі вкажіть email і назву програми, наприклад: user@example.com Vilno VPN.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Після підтвердження платежу ключ надійде на email автоматично (зазвичай до 5 хвилин). Введіть його в програмі.</p></div>
       </div>
       <div class="modal-actions">
         <a class="btn" id="buyEmail" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="buy.email">Написати на email</a>
       </div>
       <p class="modal-note" data-i18n="buy.note">Для команд — безкоштовні корпоративні ліцензії, напишіть на email.</p>
     </div>
-  </div>
+  </dialog>
 
   <!-- SCREENSHOT MODAL -->
-  <div class="modal modal--shot" id="shotModal" hidden role="dialog" aria-modal="true" aria-label="Перегляд скриншота" data-i18n-attr="aria-label:modal.screenshot" tabindex="-1">
+  <dialog class="modal modal--shot" id="shotModal" aria-label="Перегляд знімка" data-i18n-attr="aria-label:modal.preview">
     <div class="modal-card">
       <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
       <img id="shotImg" alt="">
     </div>
-  </div>
-
+  </dialog>
   <div class="toast" id="toast" role="status"></div>
 
   <script src="./translations.js?v=384e350b13" defer></script>

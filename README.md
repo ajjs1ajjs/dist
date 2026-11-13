@@ -89,6 +89,17 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 <a href="#diskcleaner">⬇️ <b>Завантажити</b></a>
 <br><br>
 </td>
+<td align="center" width="50%">
+<br>
+<a href="#vilno-vpn"><img src="https://img.shields.io/badge/Vilno%20VPN-v0.5.2-16A34A?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
+<br>
+<sub>Windows 10 / 11 · x64 (NSIS)</sub>
+<br><br>
+Локальний WireGuard VPN-клієнт із вибором серверів та ротацією ключів
+<br><br>
+<a href="#vilno-vpn">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
 </tr>
 <tr>
 <td align="center" width="50%">
@@ -183,6 +194,19 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 Моніторинг доступності та SSL, сповіщення, SLA-звіти
 <br><br>
 <a href="#uptime-monitor">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="#slovakia"><img src="https://img.shields.io/badge/Sloven%C4%8Dina_0%E2%86%92B2-v1.2.1-0D9488?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Slovenčina 0→B2"></a>
+<br>
+<sub>PDF · Самопідготовка A1 → B2</sub>
+<br><br>
+Курс словацької мови: граматика, фонетичні вправи та словникові модулі
+<br><br>
+<a href="#slovakia">⬇️ <b>Завантажити</b></a>
 <br><br>
 </td>
 </tr>
@@ -401,7 +425,17 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 - Оновлення з перевіркою підпису через `apps/vilno-vpn/latest-v2.json`.
 - `0.5.1` і старіші потребують одноразового ручного встановлення через ротацію ключа updater; встановлюйте `0.5.2` поверх, не видаляючи попередню версію.
 
-[⬇️ Усі релізи Vilno VPN](https://github.com/ajjs1ajjs/dist/releases?q=vilno) &nbsp;·&nbsp; [📄 Сторінка продукту](https://andreichuk.dev/p/vilno/)
+[⬇️ Усі релізи Vilno VPN](https://github.com/ajjs1ajjs/dist/releases?q=vilno) &nbsp;·&nbsp; [📄 Сторінка продукту](https://ajjs1ajjs.github.io/dist/p/vilno/)
+
+---
+
+<a id="slovakia"></a>
+### 📖 Slovenčina 0→B2
+
+> Структурований самовчитель словацької мови (A1 → B2) у форматі PDF з граматикою, фонетикою та лексичними блоками.
+
+- [⬇️ Завантажити `Slovak-0-B2-full.pdf` (`v1.2.1`)](https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf)
+- [📄 Сторінка продукту](https://ajjs1ajjs.github.io/dist/p/slovakia/) &nbsp;·&nbsp; [📦 Усі релізи](https://github.com/ajjs1ajjs/dist/releases?q=slovakia)
 
 ---
 

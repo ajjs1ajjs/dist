@@ -137,7 +137,7 @@ jobs:
 
       - name: Commit and push hub versions
         run: |
-          if git diff --quiet -- index.html apps/catalog.json; then
+          if git diff --quiet -- index.html p releases.json apps/catalog.json; then
             echo "Хаб уже свіжий — змін нема."
             exit 0
           fi
@@ -145,7 +145,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           TAG="${{ github.event.release.tag_name }}"
           if [ -n "$TAG" ]; then MSG="chore(hub): sync versions ($TAG)"; else MSG="chore(hub): sync versions"; fi
-          git add index.html apps/catalog.json
+          git add index.html p releases.json apps/catalog.json
           git commit -m "$MSG"
           git pull --rebase origin main
           git push origin HEAD:main
