@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-14T10:00:35.039Z",
+  "lastUpdated": "2026-11-14T11:00:39.206Z",
   "sourceUpdates": {
-    "steam": "2026-11-14T10:00:35.039Z",
-    "gamepass": "2026-11-14T10:00:35.039Z"
+    "steam": "2026-11-14T11:00:39.206Z",
+    "gamepass": "2026-11-14T11:00:39.206Z"
   },
   "priceHistory": {
     "12210": [
@@ -406,6 +406,19 @@
       "isPopular": true
     },
     {
+      "id": "2536520",
+      "title": "Diablo II: Resurrected - Infernal Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
+      "originalPrice": 1699,
+      "discountPrice": 1104,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2536520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
       "id": "227300",
       "title": "Euro Truck Simulator 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1794502925",
@@ -427,19 +440,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/489830",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2536520",
-      "title": "Diablo II: Resurrected - Infernal Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
-      "originalPrice": 1699,
-      "discountPrice": 1104,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2536520",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -471,19 +471,6 @@
       "isPopular": true
     },
     {
-      "id": "4115450",
-      "title": "Phantom Blade Zero",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
-      "originalPrice": 2249,
-      "discountPrice": 2249,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4115450",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3809270",
       "title": "Euro Truck Simulator 2 - Coaches",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794576017",
@@ -492,6 +479,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3809270",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4115450",
+      "title": "Phantom Blade Zero",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+      "originalPrice": 2249,
+      "discountPrice": 2249,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4115450",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
