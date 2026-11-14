@@ -1770,6 +1770,115 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T19:00:34.785Z"
+    },
+    {
+      "id": "1da4c35a0564a2737ceb10e2",
+      "createdAt": "2026-11-14T20:00:37.908Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tavern Master</b>\n🏷️ Знижка: <b>-87%</b>\n💰 Ціна: <s>229 грн</s> ➡️ <b>29 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1525700\">Детальніше в Steam</a>\n\n🎮 <b>Magicka 2</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>369 грн</s> ➡️ <b>73 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/238370\">Детальніше в Steam</a>\n\n🎮 <b>Sifu</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>569 грн</s> ➡️ <b>142 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2138710\">Детальніше в Steam</a>\n\n🎮 <b>Borderlands 2: Commander Lilith &amp; the Fight for Sanctuary</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>98 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/872280\">Детальніше в Steam</a>\n\n🎮 <b>DREDGE</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>449 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1562430\">Детальніше в Steam</a>\n\n🎮 <b>Tales from the Borderlands</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>324 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/330830\">Детальніше в Steam</a>\n\n🎮 <b>Expansion - Hearts of Iron IV: No Step Back</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1348661\">Детальніше в Steam</a>\n\n🎮 <b>Expansion - Hearts of Iron IV: By Blood Alone</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1880650\">Детальніше в Steam</a>\n\n🎮 <b>Expansion - Hearts of Iron IV: Arms Against Tyranny</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2183930\">Детальніше в Steam</a>\n\n🎮 <b>Expansion - Hearts of Iron IV: La Résistance</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1158100\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_1525700",
+          "entry": {
+            "title": "Tavern Master",
+            "price": 29,
+            "percent": 87,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_238370",
+          "entry": {
+            "title": "Magicka 2",
+            "price": 73,
+            "percent": 80,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2138710",
+          "entry": {
+            "title": "Sifu",
+            "price": 142,
+            "percent": 75,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_872280",
+          "entry": {
+            "title": "Borderlands 2: Commander Lilith & the Fight for Sanctuary",
+            "price": 98,
+            "percent": 67,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1562430",
+          "entry": {
+            "title": "DREDGE",
+            "price": 449,
+            "percent": 50,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_330830",
+          "entry": {
+            "title": "Tales from the Borderlands",
+            "price": 324,
+            "percent": 50,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1348661",
+          "entry": {
+            "title": "Expansion - Hearts of Iron IV: No Step Back",
+            "price": 269,
+            "percent": 50,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1880650",
+          "entry": {
+            "title": "Expansion - Hearts of Iron IV: By Blood Alone",
+            "price": 269,
+            "percent": 50,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2183930",
+          "entry": {
+            "title": "Expansion - Hearts of Iron IV: Arms Against Tyranny",
+            "price": 269,
+            "percent": 50,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1158100",
+          "entry": {
+            "title": "Expansion - Hearts of Iron IV: La Résistance",
+            "price": 269,
+            "percent": 50,
+            "timestamp": "2026-11-14T20:00:37.908Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

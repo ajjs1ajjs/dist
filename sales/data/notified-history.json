@@ -1,11 +1,4 @@
 {
-  "steam_discount_3768760": {
-    "title": "007 First Light",
-    "price": 959,
-    "percent": 40,
-    "timestamp": "2026-10-15T19:00:39.388Z",
-    "type": "discount"
-  },
   "steam_discount_242760": {
     "title": "The Forest",
     "price": 55,
@@ -558,13 +551,6 @@
     "percent": 0,
     "timestamp": "2026-10-15T18:00:40.128Z",
     "type": "gamepass"
-  },
-  "steam_discount_3569420": {
-    "title": "Chained Beasts",
-    "price": 279,
-    "percent": 35,
-    "timestamp": "2026-10-15T20:00:36.985Z",
-    "type": "discount"
   },
   "gamepass_9N4ZMKC3GX4M": {
     "title": "Beyond These Stars",
