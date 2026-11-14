@@ -6608,6 +6608,13 @@
       "percent": 45,
       "timestamp": "2026-11-14T23:00:32.153Z",
       "type": "discount"
+    },
+    "steam_discount_3274580": {
+      "title": "Anno 117: Pax Romana",
+      "price": 1031,
+      "percent": 40,
+      "timestamp": "2026-11-14T23:00:32.153Z",
+      "type": "discount"
     }
   }
 }
