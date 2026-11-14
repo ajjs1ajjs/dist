@@ -6385,6 +6385,76 @@
       "percent": 50,
       "timestamp": "2026-11-14T20:00:37.908Z",
       "type": "discount"
+    },
+    "steam_discount_469600": {
+      "title": "Legion TD 2 - Multiplayer Tower Defense",
+      "price": 99,
+      "percent": 80,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_1863430": {
+      "title": "Dragonkin: The Banished",
+      "price": 257,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_3226450": {
+      "title": "iRacing Arcade",
+      "price": 257,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_2605790": {
+      "title": "Deep Rock Galactic: Rogue Core",
+      "price": 254,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_1043810": {
+      "title": "Tactical Breach Wizards",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_1910150": {
+      "title": "Walk of Life",
+      "price": 199,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_352720": {
+      "title": "The Universim",
+      "price": 189,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_2004210": {
+      "title": "Euro Truck Simulator 2 - West Balkans",
+      "price": 185,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_304212": {
+      "title": "Euro Truck Simulator 2 - Scandinavia",
+      "price": 185,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
+    },
+    "steam_discount_1209460": {
+      "title": "Euro Truck Simulator 2 - Iberia",
+      "price": 185,
+      "percent": 50,
+      "timestamp": "2026-11-14T21:00:30.093Z",
+      "type": "discount"
     }
   }
 }
