@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-14T11:00:39.206Z",
+  "lastUpdated": "2026-11-14T12:00:46.432Z",
   "sourceUpdates": {
-    "steam": "2026-11-14T11:00:39.206Z",
-    "gamepass": "2026-11-14T11:00:39.206Z"
+    "steam": "2026-11-14T12:00:46.432Z",
+    "gamepass": "2026-11-14T12:00:46.432Z"
   },
   "priceHistory": {
     "12210": [
@@ -440,6 +440,19 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/489830",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
+    {
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
+      "originalPrice": 1449,
+      "discountPrice": 1086,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
