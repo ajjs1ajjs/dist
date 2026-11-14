@@ -6176,6 +6176,76 @@
       "percent": 60,
       "timestamp": "2026-11-14T18:00:31.830Z",
       "type": "discount"
+    },
+    "steam_discount_582660": {
+      "title": "Black Desert",
+      "price": 14,
+      "percent": 91,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_985890": {
+      "title": "Streets of Rage 4",
+      "price": 128,
+      "percent": 75,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_1178830": {
+      "title": "Bright Memory: Infinite",
+      "price": 111,
+      "percent": 60,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_2830030": {
+      "title": "MOTORSLICE",
+      "price": 332,
+      "percent": 57,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_3717070": {
+      "title": "WWE 2K26",
+      "price": 1304,
+      "percent": 55,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_2385530": {
+      "title": "PGA TOUR 2K25",
+      "price": 1169,
+      "percent": 55,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_3748520": {
+      "title": "SPRAWL zero",
+      "price": 424,
+      "percent": 53,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_388470": {
+      "title": "Euro Truck Simulator 2 - Cabin Accessories",
+      "price": 47,
+      "percent": 51,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_1285190": {
+      "title": "Borderlands 4",
+      "price": 1499,
+      "percent": 50,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
+    },
+    "steam_discount_3123410": {
+      "title": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
+      "price": 1137,
+      "percent": 50,
+      "timestamp": "2026-11-14T19:00:30.795Z",
+      "type": "discount"
     }
   }
 }
