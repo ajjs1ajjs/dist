@@ -1,7 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T19:01:46.312Z",
+  "generatedAt": "2026-11-14T13:03:11.164Z",
   "latest": {
+    "vilno-v": {
+      "version": "v0.5.3",
+      "name": "Vilno.VPN_0.5.3_x64-setup.exe",
+      "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.3/Vilno.VPN_0.5.3_x64-setup.exe"
+    },
     "uptime-v": {
       "version": "v3.10.40"
     },
@@ -12,6 +17,11 @@
       "version": "v2.1.51",
       "name": "RDM.Manager_2.1.51_x64-setup.exe",
       "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/rdm-v2.1.51/RDM.Manager_2.1.51_x64-setup.exe"
+    },
+    "netscope-v": {
+      "version": "v2.4.10",
+      "name": "NetScope-v2.4.10-portable.zip",
+      "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.10/NetScope-v2.4.10-portable.zip"
     },
     "mygit-v": {
       "version": "v3.7.23"
@@ -37,20 +47,10 @@
       "name": "bck-linux-x86_64.tar.gz",
       "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/bck-v0.10.44/bck-linux-x86_64.tar.gz"
     },
-    "vilno-v": {
-      "version": "v0.5.2",
-      "name": "Vilno.VPN_0.5.2_x64-setup.exe",
-      "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.2/Vilno.VPN_0.5.2_x64-setup.exe"
-    },
     "slovakia-v": {
       "version": "v1.2.1",
       "name": "Slovak-0-B2-full.pdf",
       "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/slovakia-v1.2.1/Slovak-0-B2-full.pdf"
-    },
-    "netscope-v": {
-      "version": "v2.4.9",
-      "name": "NetScope-v2.4.9-portable.zip",
-      "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/netscope-v2.4.9/NetScope-v2.4.9-portable.zip"
     }
   }
 }
