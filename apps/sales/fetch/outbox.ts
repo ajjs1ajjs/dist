@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import type { NotifiedItem } from './types';
+import { normalizeTelegramPhotoUrl } from './telegram';
 
 export type OutboxStatus = 'pending' | 'sending' | 'delivered' | 'blocked' | 'uncertain';
 
@@ -12,6 +13,7 @@ export interface OutboxMessage {
   id: string;
   createdAt: string;
   text: string;
+  photoUrl?: string;
   receipts: OutboxReceipt[];
   status: OutboxStatus;
   attempts: number;
@@ -42,7 +44,11 @@ export function normalizeOutbox(value: unknown): NotificationOutbox {
       return typeof entry.title === 'string' && Number.isFinite(entry.price) && Number.isFinite(entry.percent) &&
         typeof entry.timestamp === 'string' && !Number.isNaN(Date.parse(entry.timestamp)) && typeof entry.type === 'string';
     });
+    const validPhotoUrl = item.photoUrl === undefined ||
+      (typeof item.photoUrl === 'string' && /^https?:\/\/\S+$/i.test(item.photoUrl) &&
+        normalizeTelegramPhotoUrl(item.photoUrl) !== undefined);
     const valid = typeof item.id === 'string' && typeof item.text === 'string' &&
+      validPhotoUrl &&
       validReceipts && typeof item.createdAt === 'string' && !Number.isNaN(Date.parse(item.createdAt)) &&
       ['pending', 'sending', 'delivered', 'blocked', 'uncertain'].includes(String(item.status)) &&
       Number.isInteger(item.attempts) && (item.attempts as number) >= 0 &&
@@ -64,12 +70,15 @@ export function enqueueMessage(
   text: string,
   receipts: OutboxReceipt[],
   now = new Date(),
+  photoUrl?: string,
 ): OutboxMessage | undefined {
   const alreadyQueued = pendingReceiptKeys(outbox);
   const freshReceipts = receipts.filter(receipt => !alreadyQueued.has(receipt.key));
   if (freshReceipts.length === 0) return undefined;
+  const normalizedPhotoUrl = normalizeTelegramPhotoUrl(photoUrl);
+  const photoSegment = normalizedPhotoUrl ? `\0${normalizedPhotoUrl}` : '';
   const id = createHash('sha256')
-    .update(`${text}\0${freshReceipts.map(receipt => receipt.key).join('\0')}`)
+    .update(`${text}${photoSegment}\0${freshReceipts.map(receipt => receipt.key).join('\0')}`)
     .digest('hex').slice(0, 24);
   const existing = outbox.messages.find(message => message.id === id);
   if (existing) return existing;
@@ -77,6 +86,7 @@ export function enqueueMessage(
     id,
     createdAt: now.toISOString(),
     text,
+    ...(normalizedPhotoUrl ? { photoUrl: normalizedPhotoUrl } : {}),
     receipts: freshReceipts,
     status: 'pending',
     attempts: 0,

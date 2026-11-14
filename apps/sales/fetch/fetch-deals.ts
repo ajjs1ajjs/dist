@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
 import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps, selectSteamNotifications, updatePriceHistory } from './collector-core';
 import { writeJsonAtomically } from './persistence';
-import { buildTelegramBatches } from './telegram';
+import { buildTelegramBatches, normalizeTelegramPhotoUrl } from './telegram';
 import {
   claimNextMessage, classifyDeliveryFailure, emptyOutbox, enqueueMessage, normalizeOutbox, pendingReceiptKeys,
   pruneDelivered, recordDeliveryOutcome,
@@ -155,6 +155,27 @@ interface SteamSearchResponse {
   results_html?: string;
 }
 
+interface StoreBrowseAssets {
+  asset_url_format?: string;
+  main_capsule?: string;
+  header?: string;
+}
+
+interface StoreBrowseItem {
+  appid?: number;
+  assets?: StoreBrowseAssets;
+}
+
+interface StoreBrowseItemsResponse {
+  response?: {
+    store_items?: StoreBrowseItem[];
+  };
+}
+
+function isLowResSteamCapsule(imageUrl: string): boolean {
+  return /\/capsule_(?:sm_120|184x69|231x87)(?:[_a-z]*)\./i.test(imageUrl);
+}
+
 // Minimal typings for catalog.gamepass.com / displaycatalog responses.
 interface GamePassCatalogEntry {
   id?: string;
@@ -216,8 +237,10 @@ function upsertGame(
       existing.discountPercent = discountPercent;
       existing.originalPrice = originalPrice;
       existing.discountPrice = discountPrice;
-      if (imageUrl) existing.imageUrl = imageUrl;
-    } else if (!existing.imageUrl && imageUrl) {
+      if (imageUrl && (!existing.imageUrl || isLowResSteamCapsule(existing.imageUrl) || !isLowResSteamCapsule(imageUrl))) {
+        existing.imageUrl = imageUrl;
+      }
+    } else if (imageUrl && (!existing.imageUrl || (isLowResSteamCapsule(existing.imageUrl) && !isLowResSteamCapsule(imageUrl)))) {
       existing.imageUrl = imageUrl;
     }
     return;
@@ -391,12 +414,72 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
   }
 }
 
+function resolveStoreBrowseAssetUrl(assets?: StoreBrowseAssets): string | undefined {
+  const filename = assets?.main_capsule || assets?.header;
+  if (!filename) return undefined;
+  const format = assets?.asset_url_format;
+  const relative = format && format.includes('${FILENAME}')
+    ? format.replace('${FILENAME}', filename)
+    : filename;
+  const rawUrl = /^https?:\/\//i.test(relative)
+    ? relative
+    : `https://shared.akamai.steamstatic.com/store_item_assets/${relative.replace(/^\/+/, '')}`;
+  try {
+    const parsed = new URL(rawUrl);
+    return `${parsed.origin}${parsed.pathname}`;
+  } catch {
+    return undefined;
+  }
+}
+
+async function enrichSteamImages(gamesMap: Map<string, SteamGame>): Promise<void> {
+  const appIds: number[] = [];
+  for (const [id, game] of gamesMap) {
+    if (game.imageUrl && !isLowResSteamCapsule(game.imageUrl)) continue;
+    if (!/^\d+$/.test(id)) continue;
+    const appid = Number(id);
+    if (Number.isSafeInteger(appid) && appid > 0) appIds.push(appid);
+  }
+  if (appIds.length === 0) return;
+
+  const batchSize = 100;
+  let upgraded = 0;
+  for (let i = 0; i < appIds.length; i += batchSize) {
+    const batch = appIds.slice(i, i + batchSize);
+    try {
+      await steamLimiter.take();
+      const inputJson = JSON.stringify({
+        ids: batch.map(appid => ({ appid })),
+        context: { language: 'ukrainian', country_code: 'UA' },
+        data_request: { include_assets: true },
+      });
+      const url = `https://api.steampowered.com/IStoreBrowseService/GetItems/v1/?input_json=${encodeURIComponent(inputJson)}`;
+      const res = await fetchWithRetry(url, { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } });
+      const data = (await res.json()) as StoreBrowseItemsResponse;
+      for (const item of data.response?.store_items ?? []) {
+        if (!item.appid) continue;
+        const game = gamesMap.get(String(item.appid));
+        if (!game) continue;
+        const resolved = resolveStoreBrowseAssetUrl(item.assets);
+        if (resolved && (!game.imageUrl || !isLowResSteamCapsule(resolved))) {
+          game.imageUrl = resolved;
+          upgraded++;
+        }
+      }
+    } catch (err) {
+      logger.warn({ count: batch.length, err: sanitizeLog(err) }, 'steam image enrichment batch failed');
+    }
+  }
+  logger.info({ candidates: appIds.length, upgraded }, 'steam images enriched');
+}
+
 async function fetchSteamGames(): Promise<SteamGame[]> {
   logger.info('Fetching Steam: categories + topsellers search...');
   const gamesMap = new Map<string, SteamGame>();
 
   await fetchSteamCategories(gamesMap);
   await fetchSteamSearchDeals(gamesMap);
+  await enrichSteamImages(gamesMap);
 
   return Array.from(gamesMap.values());
 }
@@ -539,7 +622,38 @@ async function fetchGamePassGames(): Promise<GamePassGame[]> {
   return games;
 }
 
-async function sendTelegramMessage(text: string): Promise<boolean> {
+async function postTelegramEndpoint(
+  token: string,
+  endpoint: 'sendMessage' | 'sendPhoto',
+  payload: Record<string, unknown>,
+): Promise<{ response: Response; logSafeUrl: string }> {
+  const url = `https://api.telegram.org/bot${token}/${endpoint}`;
+  const logSafeUrl = `https://api.telegram.org/bot[REDACTED]/${endpoint}`;
+
+  // Each outbox claim gets one HTTP request per endpoint attempt. If the response
+  // is lost, retrying inside this helper could duplicate a Telegram post before
+  // Git records an outcome; the caller marks that case uncertain for operator review.
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), CONFIG.tgTimeoutMs);
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: controller.signal,
+    });
+    return { response, logSafeUrl };
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    const sanitized = message.split(token).join('[REDACTED]');
+    logger.warn({ url: logSafeUrl, attempt: 1, attempts: 1, err: sanitized }, 'telegram api network error');
+    throw new Error(`Telegram send failed: ${sanitized}`, { cause: err });
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function sendTelegramMessage(text: string, photoUrl?: string): Promise<boolean> {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
@@ -548,49 +662,29 @@ async function sendTelegramMessage(text: string): Promise<boolean> {
     return false;
   }
 
-  const url = `https://api.telegram.org/bot${token}/sendMessage`;
-  const logSafeUrl = 'https://api.telegram.org/bot[REDACTED]/sendMessage';
+  const normalizedPhotoUrl = normalizeTelegramPhotoUrl(photoUrl);
+  const textPayload = {
+    chat_id: chatId,
+    text,
+    parse_mode: 'HTML',
+    disable_web_page_preview: false,
+  };
 
-  // Each outbox claim gets one HTTP request. If the response is lost, retrying
-  // inside this helper could duplicate a Telegram post before Git records an
-  // outcome; the caller marks that case uncertain for operator review.
-  const attempts = 1;
-  let response: Response | undefined;
-  let lastErr: unknown;
+  let result = normalizedPhotoUrl
+    ? await postTelegramEndpoint(token, 'sendPhoto', {
+        chat_id: chatId,
+        photo: normalizedPhotoUrl,
+        caption: text,
+        parse_mode: 'HTML',
+      })
+    : await postTelegramEndpoint(token, 'sendMessage', textPayload);
 
-  for (let attempt = 1; attempt <= attempts; attempt++) {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), CONFIG.tgTimeoutMs);
-    try {
-      response = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          chat_id: chatId,
-          text: text,
-          parse_mode: 'HTML',
-          disable_web_page_preview: false
-        }),
-        signal: controller.signal
-      });
-      break;
-    } catch (err) {
-      lastErr = err;
-      const message = err instanceof Error ? err.message : String(err);
-      const sanitized = message.split(token).join('[REDACTED]');
-      logger.warn({ url: logSafeUrl, attempt, attempts, err: sanitized }, 'telegram api network error');
-      if (attempt < attempts) await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
-    } finally {
-      clearTimeout(timeout);
-    }
+  if (normalizedPhotoUrl && result.response.status === 400) {
+    logger.warn({ url: result.logSafeUrl, status: result.response.status }, 'telegram sendPhoto returned 400, falling back to sendMessage');
+    result = await postTelegramEndpoint(token, 'sendMessage', textPayload);
   }
 
-  if (!response) {
-    const message = lastErr instanceof Error ? lastErr.message : String(lastErr);
-    const sanitized = message.split(token).join('[REDACTED]');
-    throw new Error(`Telegram send failed: ${sanitized}`, { cause: lastErr });
-  }
-
+  const { response, logSafeUrl } = result;
   if (!response.ok) {
     // M1: тихий пропуск гірший за падіння рану — невідправлене маркувалось
     // sent і чекало кулдауну 30 днів. Кидаємо зі статусом: викликач вирішує
@@ -647,7 +741,7 @@ async function runOutboxCommand(args: string[]) {
     let outcome: Parameters<typeof recordDeliveryOutcome>[2];
     let delivered = false;
     try {
-      delivered = await sendTelegramMessage(message.text);
+      delivered = await sendTelegramMessage(message.text, message.photoUrl);
       outcome = delivered
         ? { kind: 'delivered' }
         : { kind: 'blocked', error: 'Telegram credentials are missing.' };
@@ -993,13 +1087,14 @@ async function runPrepare() {
     footer: string,
     buildItem: (item: T) => string,
     receiptFor: (item: T) => OutboxReceipt,
+    getPhotoUrl?: (item: T) => string | undefined,
   ) {
     const eligible = items.filter(item => !queuedKeys.has(receiptFor(item).key));
     if (eligible.length === 0) return;
-    const batches = buildTelegramBatches(eligible, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun);
+    const batches = buildTelegramBatches(eligible, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun, getPhotoUrl);
     for (const batch of batches) {
       const receipts = batch.items.map(receiptFor);
-      const queued = enqueueMessage(outbox, batch.text, receipts, now);
+      const queued = enqueueMessage(outbox, batch.text, receipts, now, batch.photoUrl);
       if (!queued) continue;
       for (const receipt of queued.receipts) queuedKeys.add(receipt.key);
       logger.info({ messageId: queued.id, count: queued.receipts.length }, 'queued durable Telegram message');
@@ -1015,6 +1110,7 @@ async function runPrepare() {
       (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
         title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
       } }),
+      (deal) => deal.imageUrl,
     );
   }
 
@@ -1027,6 +1123,7 @@ async function runPrepare() {
       (game) => ({ key: `steam_free_${game.id}`, entry: {
         title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
       } }),
+      (game) => game.imageUrl,
     );
   }
 
@@ -1048,6 +1145,7 @@ async function runPrepare() {
       (game) => ({ key: `gamepass_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       } }),
+      (game) => game.imageUrl,
     );
   }
 
@@ -1069,6 +1167,7 @@ async function runPrepare() {
       (game) => ({ key: `gamepass_popular_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       } }),
+      (game) => game.imageUrl,
     );
   }
 

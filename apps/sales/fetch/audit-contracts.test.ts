@@ -62,6 +62,43 @@ test('Telegram batches preserve complete items and stay within count and length 
   assert.throws(() => buildTelegramBatches(['too-long'], '', '', () => 'x'.repeat(10), 9), /exceeds/);
 });
 
+test('Telegram photo batches emit single-item cards, skip invalid URLs into text batches, and cap captions at 1000 chars', () => {
+  const items = [
+    { id: 'no-img', imageUrl: '' },
+    { id: 'proto-rel', imageUrl: '//cdn.example.com/a.jpg' },
+    { id: 'good-1', imageUrl: 'https://cdn.example.com/1.jpg' },
+    { id: 'good-2', imageUrl: 'http://cdn.example.com/2.jpg' },
+    { id: 'bad-proto', imageUrl: 'ftp://cdn.example.com/3.jpg' },
+  ];
+  const batches = buildTelegramBatches(
+    items,
+    'H\n',
+    'F',
+    (item) => item.id,
+    3800,
+    10,
+    (item) => item.imageUrl,
+  );
+  assert.equal(batches.length, 4);
+  assert.deepEqual(batches[0], { items: [items[0], items[1]], text: 'H\nno-img\n\nproto-rel\n\nF' });
+  assert.equal('photoUrl' in batches[0], false);
+  assert.deepEqual(batches[1], { items: [items[2]], text: 'H\ngood-1\n\nF', photoUrl: 'https://cdn.example.com/1.jpg' });
+  assert.deepEqual(batches[2], { items: [items[3]], text: 'H\ngood-2\n\nF', photoUrl: 'http://cdn.example.com/2.jpg' });
+  assert.deepEqual(batches[3], { items: [items[4]], text: 'H\nbad-proto\n\nF' });
+  assert.throws(
+    () => buildTelegramBatches(
+      [{ id: 'x', imageUrl: 'https://cdn.example.com/x.jpg' }],
+      '',
+      '',
+      () => 'a'.repeat(999),
+      3800,
+      10,
+      (item) => item.imageUrl,
+    ),
+    /exceeds/,
+  );
+});
+
 test('atomic JSON persistence leaves one complete snapshot and no temporary files', async () => {
   const directory = await mkdtemp(path.join(os.tmpdir(), 'dist-sales-fetch-'));
   try {
