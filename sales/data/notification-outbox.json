@@ -2100,6 +2100,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T22:00:40.981Z"
+    },
+    {
+      "id": "d0e59b2b69fc09224a4c0b67",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>American Truck Simulator - Washington</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1015160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1015160/99d56b63a31d9cf70f1441cc8ecbd53cc375a509/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1015160",
+          "entry": {
+            "title": "American Truck Simulator - Washington",
+            "price": 120,
+            "percent": 50,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c38a88defe01c4bcca1c3574",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Brotato</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>124 грн</s> ➡️ <b>62 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1942280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/09947fd735e89f74581eeed42167403f68235208/capsule_231x87_alt_assets_4.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1942280",
+          "entry": {
+            "title": "Brotato",
+            "price": 62,
+            "percent": 50,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "83a46082f1529791b74d532a",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dead by Daylight - Chucky Chapter</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>115 грн</s> ➡️ <b>57 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2656010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2656010/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2656010",
+          "entry": {
+            "title": "Dead by Daylight - Chucky Chapter",
+            "price": 57,
+            "percent": 50,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "30ae3254fc2359b8a96de2a4",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Euro Truck Simulator 2 - Special Transport</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>100 грн</s> ➡️ <b>50 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/558245\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/558245/18a6135640be93edb03dd107834b5264a05cfd92/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_558245",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Special Transport",
+            "price": 50,
+            "percent": 50,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "39d0d4338ecc06ec2f1733e2",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Euro Truck Simulator 2 - High Power Cargo Pack</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>100 грн</s> ➡️ <b>50 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/304214\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304214/d73eba25ddfaf88d880210ff55d094c6f230da95/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_304214",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - High Power Cargo Pack",
+            "price": 50,
+            "percent": 50,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "45e63d6054cd96cfd7065110",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Nioh 3</b>\n🏷️ Знижка: <b>-46%</b>\n💰 Ціна: <s>3 575 грн</s> ➡️ <b>1 930 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3681010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681010/0084f83d831210e7f0095c20806c7c172783f6e6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3681010",
+          "entry": {
+            "title": "Nioh 3",
+            "price": 1930,
+            "percent": 46,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3db45b2b7d675fe357982f84",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>SimRail - The Railway Simulator</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>720 грн</s> ➡️ <b>396 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1422130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422130/34588c5291454e11716142f3c7df0e4c41b51654/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1422130",
+          "entry": {
+            "title": "SimRail - The Railway Simulator",
+            "price": 396,
+            "percent": 45,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "1f9090876a533cd3f6413f06",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>ENDER MAGNOLIA: Bloom in the Mist</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>283 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2725260\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725260/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2725260",
+          "entry": {
+            "title": "ENDER MAGNOLIA: Bloom in the Mist",
+            "price": 283,
+            "percent": 45,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "049a218fdc6267e55ed03f3c",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Anno 117: Pax Romana</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 719 грн</s> ➡️ <b>1 031 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3274580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/3896bb807d65b170ab81757a77a0cffcf6238c7a/capsule_231x87_alt_assets_5.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3274580",
+          "entry": {
+            "title": "Anno 117: Pax Romana",
+            "price": 1031,
+            "percent": 40,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a1016c9f86560ea5a522c184",
+      "createdAt": "2026-11-14T23:00:32.153Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Pioneers of Pagonia</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>420 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2155180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2155180/df6164be7fe3df19fadceee439af5ccdeda16b4a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2155180",
+          "entry": {
+            "title": "Pioneers of Pagonia",
+            "price": 420,
+            "percent": 40,
+            "timestamp": "2026-11-14T23:00:32.153Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
