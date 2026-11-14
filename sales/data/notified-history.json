@@ -1356,5 +1356,75 @@
     "percent": 67,
     "timestamp": "2026-11-14T16:00:41.745Z",
     "type": "discount"
+  },
+  "steam_discount_1266840": {
+    "title": "The Last Stand: Aftermath",
+    "price": 144,
+    "percent": 72,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_1684350": {
+    "title": "The Thaumaturge",
+    "price": 210,
+    "percent": 70,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_1373960": {
+    "title": "INDIKA",
+    "price": 154,
+    "percent": 70,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_1611600": {
+    "title": "WARNO",
+    "price": 407,
+    "percent": 66,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_728880": {
+    "title": "Overcooked! 2",
+    "price": 142,
+    "percent": 66,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_1054490": {
+    "title": "Wingspan (Крила)",
+    "price": 139,
+    "percent": 65,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_746850": {
+    "title": "Cloudpunk",
+    "price": 122,
+    "percent": 65,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_4159240": {
+    "title": "Euro Truck Simulator 2 - Forest Machinery",
+    "price": 90,
+    "percent": 65,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_2904040": {
+    "title": "Cheap Car Repair",
+    "price": 258,
+    "percent": 64,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
+  },
+  "steam_discount_1448440": {
+    "title": "Wo Long: Fallen Dynasty",
+    "price": 780,
+    "percent": 60,
+    "timestamp": "2026-11-14T17:00:36.122Z",
+    "type": "discount"
   }
 }
