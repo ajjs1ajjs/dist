@@ -5648,6 +5648,13 @@
       "percent": 90,
       "timestamp": "2026-11-14T13:04:00.541Z",
       "type": "discount"
+    },
+    "steam_free_4107840": {
+      "title": "Active Matter - Upgrade to Deluxe Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "free"
     }
   }
 }
