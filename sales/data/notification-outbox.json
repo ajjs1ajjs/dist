@@ -1440,6 +1440,115 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T16:00:45.565Z"
+    },
+    {
+      "id": "4954acef3a1ecdfa7ecf8d3b",
+      "createdAt": "2026-11-14T17:00:36.122Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Last Stand: Aftermath</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>144 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1266840\">Детальніше в Steam</a>\n\n🎮 <b>The Thaumaturge</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>210 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1684350\">Детальніше в Steam</a>\n\n🎮 <b>INDIKA</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>154 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1373960\">Детальніше в Steam</a>\n\n🎮 <b>WARNO</b>\n🏷️ Знижка: <b>-66%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>407 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1611600\">Детальніше в Steam</a>\n\n🎮 <b>Overcooked! 2</b>\n🏷️ Знижка: <b>-66%</b>\n💰 Ціна: <s>419 грн</s> ➡️ <b>142 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/728880\">Детальніше в Steam</a>\n\n🎮 <b>Wingspan (Крила)</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>139 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1054490\">Детальніше в Steam</a>\n\n🎮 <b>Cloudpunk</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>349 грн</s> ➡️ <b>122 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/746850\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Forest Machinery</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>200 грн</s> ➡️ <b>90 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4159240\">Детальніше в Steam</a>\n\n🎮 <b>Cheap Car Repair</b>\n🏷️ Знижка: <b>-64%</b>\n💰 Ціна: <s>694 грн</s> ➡️ <b>258 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2904040\">Детальніше в Steam</a>\n\n🎮 <b>Wo Long: Fallen Dynasty</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 950 грн</s> ➡️ <b>780 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1448440\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_1266840",
+          "entry": {
+            "title": "The Last Stand: Aftermath",
+            "price": 144,
+            "percent": 72,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1684350",
+          "entry": {
+            "title": "The Thaumaturge",
+            "price": 210,
+            "percent": 70,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1373960",
+          "entry": {
+            "title": "INDIKA",
+            "price": 154,
+            "percent": 70,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1611600",
+          "entry": {
+            "title": "WARNO",
+            "price": 407,
+            "percent": 66,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_728880",
+          "entry": {
+            "title": "Overcooked! 2",
+            "price": 142,
+            "percent": 66,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1054490",
+          "entry": {
+            "title": "Wingspan (Крила)",
+            "price": 139,
+            "percent": 65,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_746850",
+          "entry": {
+            "title": "Cloudpunk",
+            "price": 122,
+            "percent": 65,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_4159240",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Forest Machinery",
+            "price": 90,
+            "percent": 65,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2904040",
+          "entry": {
+            "title": "Cheap Car Repair",
+            "price": 258,
+            "percent": 64,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1448440",
+          "entry": {
+            "title": "Wo Long: Fallen Dynasty",
+            "price": 780,
+            "percent": 60,
+            "timestamp": "2026-11-14T17:00:36.122Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
