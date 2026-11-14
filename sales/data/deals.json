@@ -5823,6 +5823,76 @@
       "percent": 80,
       "timestamp": "2026-11-14T14:00:45.825Z",
       "type": "discount"
+    },
+    "steam_discount_555950": {
+      "title": "Danganronpa Another Episode: Ultra Despair Girls",
+      "price": 75,
+      "percent": 80,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_246620": {
+      "title": "Plague Inc: Evolved",
+      "price": 65,
+      "percent": 80,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_228200": {
+      "title": "Company of Heroes",
+      "price": 57,
+      "percent": 80,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_1153410": {
+      "title": "JDM: Japanese Drift Master",
+      "price": 245,
+      "percent": 79,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_1164940": {
+      "title": "Trepang2",
+      "price": 189,
+      "percent": 75,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_431240": {
+      "title": "Golf With Your Friends",
+      "price": 186,
+      "percent": 75,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_2492040": {
+      "title": "FATAL FURY: City of the Wolves",
+      "price": 162,
+      "percent": 75,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_632300": {
+      "title": "Hobo: Tough Life",
+      "price": 150,
+      "percent": 75,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_2996040": {
+      "title": "Teenage Mutant Ninja Turtles: Splintered Fate",
+      "price": 144,
+      "percent": 75,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
+    },
+    "steam_discount_599140": {
+      "title": "Graveyard Keeper",
+      "price": 103,
+      "percent": 75,
+      "timestamp": "2026-11-14T15:00:31.873Z",
+      "type": "discount"
     }
   }
 }
