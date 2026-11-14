@@ -1797,5 +1797,12 @@
     "percent": 46,
     "timestamp": "2026-11-14T23:00:32.153Z",
     "type": "discount"
+  },
+  "steam_discount_1422130": {
+    "title": "SimRail - The Railway Simulator",
+    "price": 396,
+    "percent": 45,
+    "timestamp": "2026-11-14T23:00:32.153Z",
+    "type": "discount"
   }
 }
