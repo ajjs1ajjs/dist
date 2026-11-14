@@ -1685,5 +1685,75 @@
     "percent": 50,
     "timestamp": "2026-11-14T21:00:30.093Z",
     "type": "discount"
+  },
+  "steam_discount_729040": {
+    "title": "Borderlands Game of the Year Enhanced",
+    "price": 44,
+    "percent": 90,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_2903950": {
+    "title": "Master Detective Archives: RAIN CODE Plus",
+    "price": 349,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_1056760": {
+    "title": "Euro Truck Simulator 2 - Road to the Black Sea",
+    "price": 185,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_925580": {
+    "title": "Euro Truck Simulator 2 - Beyond the Baltic Sea",
+    "price": 185,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_531130": {
+    "title": "Euro Truck Simulator 2 - Vive la France !",
+    "price": 185,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_558244": {
+    "title": "Euro Truck Simulator 2 - Italia",
+    "price": 185,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_1465750": {
+    "title": "American Truck Simulator - Texas",
+    "price": 185,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_2062430": {
+    "title": "BALL x PIT",
+    "price": 162,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_2239150": {
+    "title": "Thronefall",
+    "price": 142,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
+  },
+  "steam_discount_227310": {
+    "title": "Euro Truck Simulator 2 - Going East!",
+    "price": 100,
+    "percent": 50,
+    "timestamp": "2026-11-14T22:00:36.670Z",
+    "type": "discount"
   }
 }
