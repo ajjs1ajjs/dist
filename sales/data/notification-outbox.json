@@ -1880,6 +1880,115 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T20:00:41.308Z"
+    },
+    {
+      "id": "f651a9b63e8318d76e06a2dc",
+      "createdAt": "2026-11-14T21:00:30.093Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Legion TD 2 - Multiplayer Tower Defense</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>495 грн</s> ➡️ <b>99 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/469600\">Детальніше в Steam</a>\n\n🎮 <b>Dragonkin: The Banished</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>257 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1863430\">Детальніше в Steam</a>\n\n🎮 <b>iRacing Arcade</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>257 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3226450\">Детальніше в Steam</a>\n\n🎮 <b>Deep Rock Galactic: Rogue Core</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>509 грн</s> ➡️ <b>254 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2605790\">Детальніше в Steam</a>\n\n🎮 <b>Tactical Breach Wizards</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1043810\">Детальніше в Steam</a>\n\n🎮 <b>Walk of Life</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1910150\">Детальніше в Steam</a>\n\n🎮 <b>The Universim</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>379 грн</s> ➡️ <b>189 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/352720\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - West Balkans</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2004210\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Scandinavia</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/304212\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Iberia</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1209460\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_469600",
+          "entry": {
+            "title": "Legion TD 2 - Multiplayer Tower Defense",
+            "price": 99,
+            "percent": 80,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1863430",
+          "entry": {
+            "title": "Dragonkin: The Banished",
+            "price": 257,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_3226450",
+          "entry": {
+            "title": "iRacing Arcade",
+            "price": 257,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2605790",
+          "entry": {
+            "title": "Deep Rock Galactic: Rogue Core",
+            "price": 254,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1043810",
+          "entry": {
+            "title": "Tactical Breach Wizards",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1910150",
+          "entry": {
+            "title": "Walk of Life",
+            "price": 199,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_352720",
+          "entry": {
+            "title": "The Universim",
+            "price": 189,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2004210",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - West Balkans",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_304212",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Scandinavia",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1209460",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Iberia",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T21:00:30.093Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
