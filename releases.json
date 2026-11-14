@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T13:03:11.164Z",
+  "generatedAt": "2026-11-14T13:23:50.675Z",
   "latest": {
+    "uptime-v": {
+      "version": "v3.10.41"
+    },
     "vilno-v": {
       "version": "v0.5.3",
       "name": "Vilno.VPN_0.5.3_x64-setup.exe",
       "downloadUrl": "https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.3/Vilno.VPN_0.5.3_x64-setup.exe"
-    },
-    "uptime-v": {
-      "version": "v3.10.40"
     },
     "sales-v": {
       "version": "v0.1.12"
