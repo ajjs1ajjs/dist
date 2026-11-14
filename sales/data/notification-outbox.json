@@ -870,6 +870,134 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-13T15:00:34.568Z"
+    },
+    {
+      "id": "89f791929b97daa04a546931",
+      "createdAt": "2026-11-14T13:04:00.541Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Thief Simulator</b>\n🏷️ Знижка: <b>-91%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>37 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/704850\">Детальніше в Steam</a>\n\n🎮 <b>SOS OPS!</b>\n🏷️ Знижка: <b>-91%</b>\n💰 Ціна: <s>149 грн</s> ➡️ <b>14 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2475460\">Детальніше в Steam</a>\n\n🎮 <b>Borderlands 3</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>84 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/397540\">Детальніше в Steam</a>\n\n🎮 <b>Sniper Elite 4</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>69 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/312660\">Детальніше в Steam</a>\n\n🎮 <b>Frostpunk</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>60 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/323190\">Детальніше в Steam</a>\n\n🎮 <b>Sniper Elite 5</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>579 грн</s> ➡️ <b>57 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1029690\">Детальніше в Steam</a>\n\n🎮 <b>Borderlands: The Pre-Sequel</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>529 грн</s> ➡️ <b>52 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/261640\">Детальніше в Steam</a>\n\n🎮 <b>WRC 8 FIA World Rally Championship</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>42 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1004750\">Детальніше в Steam</a>\n\n🎮 <b>This War of Mine</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>41 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/282070\">Детальніше в Steam</a>\n\n🎮 <b>Borderlands 2</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>38 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/49520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_704850",
+          "entry": {
+            "title": "Thief Simulator",
+            "price": 37,
+            "percent": 91,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2475460",
+          "entry": {
+            "title": "SOS OPS!",
+            "price": 14,
+            "percent": 91,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_397540",
+          "entry": {
+            "title": "Borderlands 3",
+            "price": 84,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_312660",
+          "entry": {
+            "title": "Sniper Elite 4",
+            "price": 69,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_323190",
+          "entry": {
+            "title": "Frostpunk",
+            "price": 60,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1029690",
+          "entry": {
+            "title": "Sniper Elite 5",
+            "price": 57,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_261640",
+          "entry": {
+            "title": "Borderlands: The Pre-Sequel",
+            "price": 52,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1004750",
+          "entry": {
+            "title": "WRC 8 FIA World Rally Championship",
+            "price": 42,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_282070",
+          "entry": {
+            "title": "This War of Mine",
+            "price": 41,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_49520",
+          "entry": {
+            "title": "Borderlands 2",
+            "price": 38,
+            "percent": 90,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "93dc548a9354b27fe3e17d3f",
+      "createdAt": "2026-11-14T13:04:00.541Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>Active Matter - Upgrade to Deluxe Edition</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/4107840\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_free_4107840",
+          "entry": {
+            "title": "Active Matter - Upgrade to Deluxe Edition",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-14T13:04:00.541Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
