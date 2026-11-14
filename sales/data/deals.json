@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-13T23:00:40.617Z",
+  "lastUpdated": "2026-11-14T00:00:40.771Z",
   "sourceUpdates": {
-    "steam": "2026-11-13T23:00:40.617Z",
-    "gamepass": "2026-11-13T23:00:40.617Z"
+    "steam": "2026-11-14T00:00:40.771Z",
+    "gamepass": "2026-11-14T00:00:40.771Z"
   },
   "priceHistory": {
     "12210": [
@@ -20,6 +20,11 @@
       },
       {
         "date": "2026-11-13",
+        "price": 100,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
         "price": 100,
         "currency": "UAH"
       }
@@ -48,6 +53,11 @@
         "date": "2026-11-13",
         "price": 129,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 129,
+        "currency": "UAH"
       }
     ],
     "1202520": [
@@ -74,6 +84,11 @@
         "date": "2026-11-13",
         "price": 0,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 0,
+        "currency": "UAH"
       }
     ],
     "1867240": [
@@ -98,6 +113,11 @@
         "date": "2026-11-13",
         "price": 560,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 560,
+        "currency": "UAH"
       }
     ],
     "2536520": [
@@ -110,6 +130,11 @@
         "date": "2026-11-13",
         "price": 1104,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1104,
+        "currency": "UAH"
       }
     ],
     "2584270": [
@@ -120,6 +145,11 @@
       },
       {
         "date": "2026-11-13",
+        "price": 1086,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
         "price": 1086,
         "currency": "UAH"
       }
@@ -165,6 +195,11 @@
         "date": "2026-11-13",
         "price": 240,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 240,
+        "currency": "UAH"
       }
     ],
     "3809270": [
@@ -175,6 +210,11 @@
       },
       {
         "date": "2026-11-13",
+        "price": 299,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
         "price": 299,
         "currency": "UAH"
       }
@@ -196,6 +236,11 @@
         "date": "2026-11-13",
         "price": 2249,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 2249,
+        "currency": "UAH"
       }
     ],
     "4165890": [
@@ -206,6 +251,11 @@
       },
       {
         "date": "2026-11-13",
+        "price": 0,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
         "price": 0,
         "currency": "UAH"
       }
@@ -232,6 +282,11 @@
         "date": "2026-11-13",
         "price": 2449,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 2449,
+        "currency": "UAH"
       }
     ],
     "4493130": [
@@ -249,6 +304,11 @@
       },
       {
         "date": "2026-11-13",
+        "price": 2299,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
         "price": 2299,
         "currency": "UAH"
       }
@@ -286,6 +346,13 @@
         "currency": "UAH"
       }
     ],
+    "5335510": [
+      {
+        "date": "2026-11-14",
+        "price": 210,
+        "currency": "UAH"
+      }
+    ],
     "5378110": [
       {
         "date": "2026-11-12",
@@ -296,10 +363,28 @@
         "date": "2026-11-13",
         "price": 119,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-14",
+        "price": 119,
+        "currency": "UAH"
       }
     ]
   },
   "steam": [
+    {
+      "id": "489830",
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
+      "originalPrice": 649,
+      "discountPrice": 129,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/489830",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false
+    },
     {
       "id": "2536520",
       "title": "Diablo II: Resurrected - Infernal Edition",
@@ -327,14 +412,14 @@
       "isPopular": false
     },
     {
-      "id": "489830",
-      "title": "The Elder Scrolls V: Skyrim Special Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
-      "originalPrice": 649,
-      "discountPrice": 129,
-      "discountPercent": 80,
+      "id": "2584270",
+      "title": "Mortal Shell II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
+      "originalPrice": 1449,
+      "discountPrice": 1086,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/489830",
+      "url": "https://store.steampowered.com/app/2584270",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false
@@ -353,45 +438,6 @@
       "isPopular": false
     },
     {
-      "id": "2584270",
-      "title": "Mortal Shell II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/5b6a6b59c4f857165987b15fc116e5b3a06427dc/capsule_616x353.jpg?t=1794241756",
-      "originalPrice": 1449,
-      "discountPrice": 1086,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2584270",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "2784470",
-      "title": "9 Kings",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/54427b2703db1ec9ea121d6e267eaac6b7855f10/capsule_616x353.jpg?t=1794598226",
-      "originalPrice": 299,
-      "discountPrice": 149,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2784470",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false
-    },
-    {
-      "id": "4165890",
-      "title": "Steam Frame",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4165890",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2406770",
       "title": "Bodycam",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/b99234f611e6bbffd55e9ede50b8696041ceb026/capsule_616x353_alt_assets_4.jpg?t=1794590337",
@@ -405,14 +451,14 @@
       "isPopular": true
     },
     {
-      "id": "3809270",
-      "title": "Euro Truck Simulator 2 - Coaches",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794576017",
-      "originalPrice": 299,
-      "discountPrice": 299,
+      "id": "4165890",
+      "title": "Steam Frame",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4165890/6bd6853f3271dd0c2ed557d7cc9c04506711462f/capsule_616x353.jpg?t=1793923703",
+      "originalPrice": 0,
+      "discountPrice": 0,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3809270",
+      "url": "https://store.steampowered.com/app/4165890",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -431,6 +477,19 @@
       "isPopular": true
     },
     {
+      "id": "3809270",
+      "title": "Euro Truck Simulator 2 - Coaches",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809270/8a82641a57bdd6ee899c0b939f3e28d325ace749/capsule_616x353.jpg?t=1794576017",
+      "originalPrice": 299,
+      "discountPrice": 299,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3809270",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "4530370",
       "title": "Football Manager 27",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/d4f7eff50df972fcf8e3a5e366377af405cb1853/capsule_616x353.jpg?t=1794483499",
@@ -439,6 +498,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4530370",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -457,14 +529,14 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
+      "id": "5335510",
+      "title": "Moon Sweepers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/9c11c35d11b6804fdf1c49429cf87f9d14b49041/capsule_616x353.jpg?t=1794614292",
+      "originalPrice": 210,
+      "discountPrice": 210,
       "discountPercent": 0,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
+      "url": "https://store.steampowered.com/app/5335510",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -805,15 +877,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.53893.14598963835318421.d3340a04-fc78-4b06-9abb-2849494504b3.79722929-7bde-4f54-83cf-ea35aec60bef",
       "url": "https://www.xbox.com/uk-UA/games/store/runescape-dragonwilds/9P402RWR63H4",
       "description": "On RuneScape's forgotten continent of Ashenfall, dragons have awoken. Gather, build, skill and craft in this co-operative survival adventure. Only by mastering survival and uncovering ancient secrets ",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9P9GX5D8H9DW",
-      "title": "TCG Card Shop Simulator",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.64311.14143053245725704.14ebe58d-2f1e-46da-9224-f0da06983250.eaef76d6-e392-41b4-a1a5-4ed9c5855ae2",
-      "url": "https://www.xbox.com/uk-UA/games/store/tcg-card-shop-simulator/9P9GX5D8H9DW",
-      "description": "TCG Card Shop Simulator is a trading card shop simulation where you sell card booster packs to earn money and build your card shop business. Manage Your Shop: Design your own TCG shop. Organize shelve",
       "isNew": true,
       "isPopular": false
     },
