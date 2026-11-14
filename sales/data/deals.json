@@ -6552,6 +6552,13 @@
       "percent": 50,
       "timestamp": "2026-11-14T22:00:36.670Z",
       "type": "discount"
+    },
+    "steam_discount_1015160": {
+      "title": "American Truck Simulator - Washington",
+      "price": 120,
+      "percent": 50,
+      "timestamp": "2026-11-14T23:00:32.153Z",
+      "type": "discount"
     }
   }
 }
