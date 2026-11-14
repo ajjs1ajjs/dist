@@ -5739,6 +5739,76 @@
       "percent": 80,
       "timestamp": "2026-11-14T13:58:21.189Z",
       "type": "discount"
+    },
+    "steam_discount_460930": {
+      "title": "Tom Clancy's Ghost Recon® Wildlands",
+      "price": 300,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_1286680": {
+      "title": "Tiny Tina's Wonderlands",
+      "price": 249,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_2175540": {
+      "title": "DRAGON QUEST MONSTERS: The Dark Prince",
+      "price": 219,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_392160": {
+      "title": "X4: Foundations",
+      "price": 185,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_1128920": {
+      "title": "EVERSPACE™ 2",
+      "price": 185,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_1066780": {
+      "title": "Transport Fever 2",
+      "price": 148,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_939960": {
+      "title": "Far Cry® New Dawn",
+      "price": 137,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_24010": {
+      "title": "Train Simulator Classic",
+      "price": 120,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_567640": {
+      "title": "Danganronpa V3: Killing Harmony",
+      "price": 95,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
+    },
+    "steam_discount_298110": {
+      "title": "Far Cry® 4",
+      "price": 91,
+      "percent": 80,
+      "timestamp": "2026-11-14T14:00:45.825Z",
+      "type": "discount"
     }
   }
 }
