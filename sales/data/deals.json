@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-14T13:58:21.189Z",
+  "lastUpdated": "2026-11-14T14:00:45.825Z",
   "sourceUpdates": {
-    "steam": "2026-11-14T13:58:21.189Z",
-    "gamepass": "2026-11-14T13:58:21.189Z"
+    "steam": "2026-11-14T14:00:45.825Z",
+    "gamepass": "2026-11-14T14:00:45.825Z"
   },
   "priceHistory": {
     "8930": [
@@ -1813,7 +1813,7 @@
     {
       "id": "394360",
       "title": "Hearts of Iron IV",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/394360/08a0a8f6c28071017611aa39b835c193a27f2518/capsule_231x87.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -1826,7 +1826,7 @@
     {
       "id": "270880",
       "title": "American Truck Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/8809b200b3ebdd7fbcdbfdbe6c8f91b2c0ce93df/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/8809b200b3ebdd7fbcdbfdbe6c8f91b2c0ce93df/capsule_231x87.jpg",
       "originalPrice": 400,
       "discountPrice": 100,
       "discountPercent": 75,
@@ -1839,7 +1839,7 @@
     {
       "id": "949230",
       "title": "Cities: Skylines II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/48653b77260f9f4dabdb691bff5f395b66a85d50/capsule_231x87_alt_assets_9_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/48653b77260f9f4dabdb691bff5f395b66a85d50/capsule_231x87_alt_assets_9_ukrainian.jpg",
       "originalPrice": 1349,
       "discountPrice": 944,
       "discountPercent": 30,
@@ -1852,7 +1852,7 @@
     {
       "id": "2062430",
       "title": "BALL x PIT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg",
       "originalPrice": 325,
       "discountPrice": 162,
       "discountPercent": 50,
@@ -1865,7 +1865,7 @@
     {
       "id": "3274580",
       "title": "Anno 117: Pax Romana",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/3896bb807d65b170ab81757a77a0cffcf6238c7a/capsule_231x87_alt_assets_5.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3274580/3896bb807d65b170ab81757a77a0cffcf6238c7a/capsule_231x87_alt_assets_5.jpg",
       "originalPrice": 1719,
       "discountPrice": 1031,
       "discountPercent": 40,
@@ -1878,7 +1878,7 @@
     {
       "id": "4618570",
       "title": "Booster Pack Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/8b62c08999084ce62388de82e646e4f681d47333/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4618570/8b62c08999084ce62388de82e646e4f681d47333/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 168,
       "discountPercent": 30,
@@ -1891,7 +1891,7 @@
     {
       "id": "5378110",
       "title": "One More Lawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d9faa3fae2cf26c1940e255b539d9a8b9c2be9a/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5378110/6d9faa3fae2cf26c1940e255b539d9a8b9c2be9a/capsule_231x87.jpg",
       "originalPrice": 170,
       "discountPrice": 119,
       "discountPercent": 30,
@@ -1904,7 +1904,7 @@
     {
       "id": "1677280",
       "title": "Company of Heroes 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677280/84cd49a18db360bb74b353e6b9f39a6699700a8d/capsule_231x87_alt_assets_9.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1677280/84cd49a18db360bb74b353e6b9f39a6699700a8d/capsule_231x87_alt_assets_9.jpg",
       "originalPrice": 1099,
       "discountPrice": 362,
       "discountPercent": 67,
@@ -1917,7 +1917,7 @@
     {
       "id": "1285190",
       "title": "Borderlands 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/7f4b1a9cbe01d19fdcbf10ef5dce492098ef0ba8/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1285190/7f4b1a9cbe01d19fdcbf10ef5dce492098ef0ba8/capsule_231x87.jpg",
       "originalPrice": 2999,
       "discountPrice": 1499,
       "discountPercent": 50,
@@ -1930,7 +1930,7 @@
     {
       "id": "1669000",
       "title": "Age of Wonders 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669000/e0f5e3bc99bba2058393168231edd0981e8863a6/capsule_231x87_alt_assets_14.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669000/e0f5e3bc99bba2058393168231edd0981e8863a6/capsule_231x87_alt_assets_14.jpg",
       "originalPrice": 1349,
       "discountPrice": 539,
       "discountPercent": 60,
@@ -1943,7 +1943,7 @@
     {
       "id": "1547000",
       "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547000/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1547000/capsule_231x87.jpg",
       "originalPrice": 1499,
       "discountPrice": 494,
       "discountPercent": 67,
@@ -1956,7 +1956,7 @@
     {
       "id": "1611600",
       "title": "WARNO",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1611600/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1611600/capsule_231x87.jpg",
       "originalPrice": 1199,
       "discountPrice": 407,
       "discountPercent": 66,
@@ -1969,7 +1969,7 @@
     {
       "id": "2784470",
       "title": "9 Kings",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/b3cc7214eddcec1ca30a4d2cbe251b0418b74d49/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2784470/b3cc7214eddcec1ca30a4d2cbe251b0418b74d49/capsule_231x87.jpg",
       "originalPrice": 299,
       "discountPrice": 149,
       "discountPercent": 50,
@@ -1982,7 +1982,7 @@
     {
       "id": "2605790",
       "title": "Deep Rock Galactic: Rogue Core",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/92beda8b7b4ecaadd48f1a8890f57a8a2371b5a4/capsule_231x87_alt_assets_2.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2605790/92beda8b7b4ecaadd48f1a8890f57a8a2371b5a4/capsule_231x87_alt_assets_2.jpg",
       "originalPrice": 509,
       "discountPrice": 254,
       "discountPercent": 50,
@@ -1995,7 +1995,7 @@
     {
       "id": "12210",
       "title": "Grand Theft Auto IV: The Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/12210/capsule_231x87.jpg",
       "originalPrice": 429,
       "discountPrice": 128,
       "discountPercent": 70,
@@ -2008,7 +2008,7 @@
     {
       "id": "1211600",
       "title": "ZED ZONE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211600/efa28f2c599298ab7049bb994e6ef7ead9109076/capsule_231x87_alt_assets_2.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1211600/efa28f2c599298ab7049bb994e6ef7ead9109076/capsule_231x87_alt_assets_2.jpg",
       "originalPrice": 265,
       "discountPrice": 159,
       "discountPercent": 40,
@@ -2021,7 +2021,7 @@
     {
       "id": "1942280",
       "title": "Brotato",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/09947fd735e89f74581eeed42167403f68235208/capsule_231x87_alt_assets_4.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1942280/09947fd735e89f74581eeed42167403f68235208/capsule_231x87_alt_assets_4.jpg",
       "originalPrice": 124,
       "discountPrice": 62,
       "discountPercent": 50,
@@ -2034,7 +2034,7 @@
     {
       "id": "1676840",
       "title": "For The King II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/1106ea7989ec0e50b29766814802b5455f18ac34/capsule_231x87_alt_assets_13_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1676840/1106ea7989ec0e50b29766814802b5455f18ac34/capsule_231x87_alt_assets_13_ukrainian.jpg",
       "originalPrice": 599,
       "discountPrice": 179,
       "discountPercent": 70,
@@ -2047,7 +2047,7 @@
     {
       "id": "1029690",
       "title": "Sniper Elite 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029690/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1029690/capsule_231x87.jpg",
       "originalPrice": 579,
       "discountPrice": 57,
       "discountPercent": 90,
@@ -2060,7 +2060,7 @@
     {
       "id": "266410",
       "title": "iRacing",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/266410/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/266410/capsule_231x87.jpg",
       "originalPrice": 259,
       "discountPrice": 103,
       "discountPercent": 60,
@@ -2073,7 +2073,7 @@
     {
       "id": "1592280",
       "title": "Selaco",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1592280/9edf82f5a3f7f51e04e6f46e51b84b03bdd00ea8/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592280/9edf82f5a3f7f51e04e6f46e51b84b03bdd00ea8/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 515,
       "discountPrice": 345,
       "discountPercent": 33,
@@ -2086,7 +2086,7 @@
     {
       "id": "2169200",
       "title": "Sniper Elite: Resistance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/7fa2c363905869ad0d53fbdab682cfc04b4e36fc/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2169200/7fa2c363905869ad0d53fbdab682cfc04b4e36fc/capsule_231x87.jpg",
       "originalPrice": 925,
       "discountPrice": 370,
       "discountPercent": 60,
@@ -2099,7 +2099,7 @@
     {
       "id": "728880",
       "title": "Overcooked! 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/729e5b5ce6a2c529d104a37baec5bfe555c609e1/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/728880/729e5b5ce6a2c529d104a37baec5bfe555c609e1/capsule_231x87.jpg",
       "originalPrice": 419,
       "discountPrice": 142,
       "discountPercent": 66,
@@ -2112,7 +2112,7 @@
     {
       "id": "1601580",
       "title": "Frostpunk 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/2c5b053c630a9cb57fa71e6eb018c2a0b008c05b/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1601580/2c5b053c630a9cb57fa71e6eb018c2a0b008c05b/capsule_231x87.jpg",
       "originalPrice": 835,
       "discountPrice": 375,
       "discountPercent": 55,
@@ -2125,7 +2125,7 @@
     {
       "id": "397540",
       "title": "Borderlands 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/397540/capsule_231x87.jpg",
       "originalPrice": 849,
       "discountPrice": 84,
       "discountPercent": 90,
@@ -2138,7 +2138,7 @@
     {
       "id": "2239150",
       "title": "Thronefall",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/c4936cd6f9d3e4c4742ca5b9b83f958a4158ce5d/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2239150/c4936cd6f9d3e4c4742ca5b9b83f958a4158ce5d/capsule_231x87.jpg",
       "originalPrice": 285,
       "discountPrice": 142,
       "discountPercent": 50,
@@ -2151,7 +2151,7 @@
     {
       "id": "3375780",
       "title": "Trails in the Sky 1st Chapter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/74827d6ceab6ef1722b86eb1bfb49b879cb3c12d/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3375780/74827d6ceab6ef1722b86eb1bfb49b879cb3c12d/capsule_231x87.jpg",
       "originalPrice": 1125,
       "discountPrice": 562,
       "discountPercent": 50,
@@ -2164,7 +2164,7 @@
     {
       "id": "2492040",
       "title": "FATAL FURY: City of the Wolves",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2492040/20294bf22d4729a65a0f872ccf399db5ff73071e/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2492040/20294bf22d4729a65a0f872ccf399db5ff73071e/capsule_231x87.jpg",
       "originalPrice": 649,
       "discountPrice": 162,
       "discountPercent": 75,
@@ -2177,7 +2177,7 @@
     {
       "id": "2698940",
       "title": "The Crew Motorfest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/b10d861da7e81ea1ad0af0283e047c5d08ec86d7/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2698940/b10d861da7e81ea1ad0af0283e047c5d08ec86d7/capsule_231x87.jpg",
       "originalPrice": 1799,
       "discountPrice": 360,
       "discountPercent": 80,
@@ -2190,7 +2190,7 @@
     {
       "id": "2604420",
       "title": "Euro Truck Simulator 2 - Greece",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2604420/eba5418babe6645a1c9907e2f35db7fcbda81018/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2604420/eba5418babe6645a1c9907e2f35db7fcbda81018/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 168,
       "discountPercent": 30,
@@ -2203,7 +2203,7 @@
     {
       "id": "2004210",
       "title": "Euro Truck Simulator 2 - West Balkans",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004210/d59131acad8d2ebc13dc58833d5ec3bd9d086bce/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2004210/d59131acad8d2ebc13dc58833d5ec3bd9d086bce/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2216,7 +2216,7 @@
     {
       "id": "2670630",
       "title": "Supermarket Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/af5b359eff1a63720c22eb691a190501b5568571/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2670630/af5b359eff1a63720c22eb691a190501b5568571/capsule_231x87.jpg",
       "originalPrice": 429,
       "discountPrice": 257,
       "discountPercent": 40,
@@ -2229,7 +2229,7 @@
     {
       "id": "460930",
       "title": "Tom Clancy's Ghost Recon® Wildlands",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/068505b164cb0af9bd49aa0627c1dae4831d149b/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/460930/068505b164cb0af9bd49aa0627c1dae4831d149b/capsule_231x87.jpg",
       "originalPrice": 1499,
       "discountPrice": 300,
       "discountPercent": 80,
@@ -2242,7 +2242,7 @@
     {
       "id": "1324780",
       "title": "Easy Red 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1324780/2da4a16d4e489b91dee3caaf61c8862eb6a89e75/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1324780/2da4a16d4e489b91dee3caaf61c8862eb6a89e75/capsule_231x87.jpg",
       "originalPrice": 210,
       "discountPrice": 136,
       "discountPercent": 35,
@@ -2255,7 +2255,7 @@
     {
       "id": "2950790",
       "title": "IRON NEST: Heavy Turret Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950790/bf03649fac670faa45fa4fad684c43a3aeda04b3/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2950790/922472560f653fd897313ab7a10dd86b018d373f/capsule_231x87.jpg",
       "originalPrice": 299,
       "discountPrice": 224,
       "discountPercent": 25,
@@ -2268,7 +2268,7 @@
     {
       "id": "1158160",
       "title": "Coral Island",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/153ddc8eb755eaa1b94b592b5316a972acb715e5/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158160/153ddc8eb755eaa1b94b592b5316a972acb715e5/capsule_231x87.jpg",
       "originalPrice": 600,
       "discountPrice": 360,
       "discountPercent": 40,
@@ -2281,7 +2281,7 @@
     {
       "id": "1153410",
       "title": "JDM: Japanese Drift Master",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/56debfc4d970aa295cffc65d5dc0c25df60f76bb/capsule_231x87_alt_assets_8.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1153410/56debfc4d970aa295cffc65d5dc0c25df60f76bb/capsule_231x87_alt_assets_8.jpg",
       "originalPrice": 1115,
       "discountPrice": 245,
       "discountPercent": 79,
@@ -2294,7 +2294,7 @@
     {
       "id": "5458210",
       "title": "How They Built the Pyramids",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/d87968791c19cecd61653497c1b8a4027a94b4f2/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5458210/d87968791c19cecd61653497c1b8a4027a94b4f2/capsule_231x87.jpg",
       "originalPrice": 150,
       "discountPrice": 105,
       "discountPercent": 30,
@@ -2307,7 +2307,7 @@
     {
       "id": "392160",
       "title": "X4: Foundations",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/392160/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392160/capsule_231x87.jpg",
       "originalPrice": 925,
       "discountPrice": 185,
       "discountPercent": 80,
@@ -2320,7 +2320,7 @@
     {
       "id": "304212",
       "title": "Euro Truck Simulator 2 - Scandinavia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304212/8dbf43748df40216f33d72cb209474f2c1fb4f77/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304212/8dbf43748df40216f33d72cb209474f2c1fb4f77/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2333,7 +2333,7 @@
     {
       "id": "1190000",
       "title": "Car Mechanic Simulator 2021",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1190000/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1190000/capsule_231x87.jpg",
       "originalPrice": 515,
       "discountPrice": 56,
       "discountPercent": 89,
@@ -2346,7 +2346,7 @@
     {
       "id": "2060160",
       "title": "The Farmer Was Replaced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/5a396fcccfc3d81219edaa5c6eaacfa8abb233fd/capsule_231x87_alt_assets_2.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2060160/5a396fcccfc3d81219edaa5c6eaacfa8abb233fd/capsule_231x87_alt_assets_2.jpg",
       "originalPrice": 225,
       "discountPrice": 157,
       "discountPercent": 30,
@@ -2359,7 +2359,7 @@
     {
       "id": "2384580",
       "title": "DYNASTY WARRIORS: ORIGINS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384580/1b59148462997497dd63c7915637a4396cff4838/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2384580/1b59148462997497dd63c7915637a4396cff4838/capsule_231x87.jpg",
       "originalPrice": 2275,
       "discountPrice": 1592,
       "discountPercent": 30,
@@ -2372,7 +2372,7 @@
     {
       "id": "307960",
       "title": "IL-2 Sturmovik: Battle of Stalingrad",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307960/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/307960/capsule_231x87.jpg",
       "originalPrice": 925,
       "discountPrice": 138,
       "discountPercent": 85,
@@ -2385,7 +2385,7 @@
     {
       "id": "1272320",
       "title": "Diplomacy is Not an Option",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272320/ea8735574b79840bad3b512605469c6f8c23c3e7/capsule_231x87_alt_assets_10_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1272320/ea8735574b79840bad3b512605469c6f8c23c3e7/capsule_231x87_alt_assets_10_ukrainian.jpg",
       "originalPrice": 600,
       "discountPrice": 240,
       "discountPercent": 60,
@@ -2398,7 +2398,7 @@
     {
       "id": "1209460",
       "title": "Euro Truck Simulator 2 - Iberia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209460/5e00d4484bc5baec6a6978925424bcc0a1a75f0b/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1209460/5e00d4484bc5baec6a6978925424bcc0a1a75f0b/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2411,7 +2411,7 @@
     {
       "id": "1863430",
       "title": "Dragonkin: The Banished",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1863430/ded146292544e6411dbb61e248c472c7d0233eed/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1863430/ded146292544e6411dbb61e248c472c7d0233eed/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 515,
       "discountPrice": 257,
       "discountPercent": 50,
@@ -2424,7 +2424,7 @@
     {
       "id": "5343400",
       "title": "Car Flipper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5343400/d52033a0b0e27ea19ef32d9dc568bdc04aaf923f/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5343400/d52033a0b0e27ea19ef32d9dc568bdc04aaf923f/capsule_231x87.jpg",
       "originalPrice": 470,
       "discountPrice": 352,
       "discountPercent": 25,
@@ -2437,7 +2437,7 @@
     {
       "id": "2660460",
       "title": "Aviassembly",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/6e273dc3321179c1b910ca9140dce31de2fee8b9/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2660460/6e273dc3321179c1b910ca9140dce31de2fee8b9/capsule_231x87.jpg",
       "originalPrice": 225,
       "discountPrice": 157,
       "discountPercent": 30,
@@ -2450,7 +2450,7 @@
     {
       "id": "323190",
       "title": "Frostpunk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/45bfdc7f6b60b2acab44cc96c488f938219c42fd/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/323190/45bfdc7f6b60b2acab44cc96c488f938219c42fd/capsule_231x87.jpg",
       "originalPrice": 600,
       "discountPrice": 60,
       "discountPercent": 90,
@@ -2463,7 +2463,7 @@
     {
       "id": "49520",
       "title": "Borderlands 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/49520/capsule_231x87.jpg",
       "originalPrice": 389,
       "discountPrice": 38,
       "discountPercent": 90,
@@ -2476,7 +2476,7 @@
     {
       "id": "1056760",
       "title": "Euro Truck Simulator 2 - Road to the Black Sea",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1056760/92cf4f939a7aed8466c2ba12b6f6b1ea1de77686/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1056760/92cf4f939a7aed8466c2ba12b6f6b1ea1de77686/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2489,7 +2489,7 @@
     {
       "id": "298110",
       "title": "Far Cry® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/69d90231217655f7ec20b9592fa761b66fe1df65/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/298110/69d90231217655f7ec20b9592fa761b66fe1df65/capsule_231x87.jpg",
       "originalPrice": 459,
       "discountPrice": 91,
       "discountPercent": 80,
@@ -2502,7 +2502,7 @@
     {
       "id": "1601570",
       "title": "The Alters",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601570/5934a27732c4867d605121201078eae8bd46ef4e/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1601570/5934a27732c4867d605121201078eae8bd46ef4e/capsule_231x87.jpg",
       "originalPrice": 700,
       "discountPrice": 315,
       "discountPercent": 55,
@@ -2515,7 +2515,7 @@
     {
       "id": "2475460",
       "title": "SOS OPS!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/34e2e0bf44a3ccf362a4f05b7f85d607cc845b30/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2475460/34e2e0bf44a3ccf362a4f05b7f85d607cc845b30/capsule_231x87.jpg",
       "originalPrice": 149,
       "discountPrice": 14,
       "discountPercent": 91,
@@ -2528,7 +2528,7 @@
     {
       "id": "5053820",
       "title": "Mimic Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/4adb5e68ffcb7785768a355dada919756e74c31c/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5053820/4adb5e68ffcb7785768a355dada919756e74c31c/capsule_231x87.jpg",
       "originalPrice": 170,
       "discountPrice": 119,
       "discountPercent": 30,
@@ -2541,7 +2541,7 @@
     {
       "id": "925580",
       "title": "Euro Truck Simulator 2 - Beyond the Baltic Sea",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/925580/23e282f1e39b069d69e32d75707492ef228f0b5f/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/925580/23e282f1e39b069d69e32d75707492ef228f0b5f/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2554,7 +2554,7 @@
     {
       "id": "231430",
       "title": "Company of Heroes 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/231430/capsule_231x87.jpg",
       "originalPrice": 389,
       "discountPrice": 97,
       "discountPercent": 75,
@@ -2567,7 +2567,7 @@
     {
       "id": "312660",
       "title": "Sniper Elite 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312660/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/312660/capsule_231x87.jpg",
       "originalPrice": 699,
       "discountPrice": 69,
       "discountPercent": 90,
@@ -2580,7 +2580,7 @@
     {
       "id": "3454650",
       "title": "BitCraft Online",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454650/867792a2d12d58fc9d4f713f1a876f829da418bf/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3454650/867792a2d12d58fc9d4f713f1a876f829da418bf/capsule_231x87.jpg",
       "originalPrice": 340,
       "discountPrice": 255,
       "discountPercent": 25,
@@ -2593,7 +2593,7 @@
     {
       "id": "531130",
       "title": "Euro Truck Simulator 2 - Vive la France !",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/531130/8e97a9ee4b07206ac409c5d32a11a03beec4e3cd/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/531130/8e97a9ee4b07206ac409c5d32a11a03beec4e3cd/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2606,7 +2606,7 @@
     {
       "id": "558244",
       "title": "Euro Truck Simulator 2 - Italia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/558244/d4a7adaddad346fa2d03c853f2d13d4536923f59/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/558244/d4a7adaddad346fa2d03c853f2d13d4536923f59/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -2619,7 +2619,7 @@
     {
       "id": "5475960",
       "title": "Incremental Traffic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5475960/6b12b11d73f60482ffaca89b6020dccac15be2e5/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5475960/6b12b11d73f60482ffaca89b6020dccac15be2e5/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 168,
       "discountPercent": 30,
@@ -2632,7 +2632,7 @@
     {
       "id": "597170",
       "title": "Clone Drone in the Danger Zone",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/597170/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 69,
       "discountPercent": 75,
@@ -2645,7 +2645,7 @@
     {
       "id": "3152780",
       "title": "Expansion - Hearts of Iron IV: Götterdämmerung",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3152780/ac6e3c7ce87f8954cc551bee9f476f8be984621c/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3152780/ac6e3c7ce87f8954cc551bee9f476f8be984621c/capsule_231x87.jpg",
       "originalPrice": 669,
       "discountPrice": 468,
       "discountPercent": 30,
@@ -2658,7 +2658,7 @@
     {
       "id": "2615540",
       "title": "VOID/BREAKER",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/9db7019d29703cd0852e4a81271909270f1e8369/capsule_231x87_alt_assets_8.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2615540/9db7019d29703cd0852e4a81271909270f1e8369/capsule_231x87_alt_assets_8.jpg",
       "originalPrice": 690,
       "discountPrice": 414,
       "discountPercent": 40,
@@ -2671,7 +2671,7 @@
     {
       "id": "773370",
       "title": "Exo One",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773370/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/773370/capsule_231x87.jpg",
       "originalPrice": 360,
       "discountPrice": 54,
       "discountPercent": 85,
@@ -2684,7 +2684,7 @@
     {
       "id": "413420",
       "title": "Danganronpa 2: Goodbye Despair",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413420/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 111,
       "discountPercent": 60,
@@ -2697,7 +2697,7 @@
     {
       "id": "24010",
       "title": "Train Simulator Classic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24010/8f8ee9925d0a635d72961567338768ab41aa0896/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/24010/8f8ee9925d0a635d72961567338768ab41aa0896/capsule_231x87.jpg",
       "originalPrice": 600,
       "discountPrice": 120,
       "discountPercent": 80,
@@ -2710,7 +2710,7 @@
     {
       "id": "1043810",
       "title": "Tactical Breach Wizards",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1043810/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 207,
       "discountPercent": 50,
@@ -2723,7 +2723,7 @@
     {
       "id": "567640",
       "title": "Danganronpa V3: Killing Harmony",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/567640/capsule_231x87.jpg",
       "originalPrice": 479,
       "discountPrice": 95,
       "discountPercent": 80,
@@ -2736,7 +2736,7 @@
     {
       "id": "3681010",
       "title": "Nioh 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681010/19b0758706fefb5c06a6183365fd62dafe2bf914/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3681010/19b0758706fefb5c06a6183365fd62dafe2bf914/capsule_231x87.jpg",
       "originalPrice": 3575,
       "discountPrice": 1930,
       "discountPercent": 46,
@@ -2749,7 +2749,7 @@
     {
       "id": "2753970",
       "title": "MARVEL Cosmic Invasion",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/80dddb5e9ce0ff4919a2ba57b59aee09f194f917/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2753970/80dddb5e9ce0ff4919a2ba57b59aee09f194f917/capsule_231x87.jpg",
       "originalPrice": 673,
       "discountPrice": 504,
       "discountPercent": 25,
@@ -2762,7 +2762,7 @@
     {
       "id": "1904480",
       "title": "Absolum",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/8d12dc39e315778caba4da711250e7618b6c9cf3/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1904480/8d12dc39e315778caba4da711250e7618b6c9cf3/capsule_231x87.jpg",
       "originalPrice": 515,
       "discountPrice": 309,
       "discountPercent": 40,
@@ -2775,7 +2775,7 @@
     {
       "id": "4832970",
       "title": "What the Buck?!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/dfb319b463c8d168d5b3abf7ffabe35707ab138b/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4832970/dfb319b463c8d168d5b3abf7ffabe35707ab138b/capsule_231x87.jpg",
       "originalPrice": 170,
       "discountPrice": 119,
       "discountPercent": 30,
@@ -2788,7 +2788,7 @@
     {
       "id": "1594940",
       "title": "Little Witch in the Woods",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/96bbc589ea4dedae38567caf69275ea9913794f3/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1594940/96bbc589ea4dedae38567caf69275ea9913794f3/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 290,
       "discountPercent": 30,
@@ -2801,7 +2801,7 @@
     {
       "id": "227310",
       "title": "Euro Truck Simulator 2 - Going East!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227310/53540274540f99bf9edebe01f98be2f3e10b1434/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227310/53540274540f99bf9edebe01f98be2f3e10b1434/capsule_231x87.jpg",
       "originalPrice": 200,
       "discountPrice": 100,
       "discountPercent": 50,
@@ -2814,7 +2814,7 @@
     {
       "id": "3326230",
       "title": "Hozy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/b78178280e22c5ed7391d18fc4b070319b849e0d/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3326230/b78178280e22c5ed7391d18fc4b070319b849e0d/capsule_231x87.jpg",
       "originalPrice": 299,
       "discountPrice": 209,
       "discountPercent": 30,
@@ -2827,7 +2827,7 @@
     {
       "id": "2656010",
       "title": "Dead by Daylight - Chucky Chapter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2656010/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2656010/capsule_231x87.jpg",
       "originalPrice": 115,
       "discountPrice": 57,
       "discountPercent": 50,
@@ -2840,7 +2840,7 @@
     {
       "id": "3717070",
       "title": "WWE 2K26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717070/b80c0a5dcfc2e8400a0bf58692f2a4bb779b82a7/capsule_231x87_alt_assets_2.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3717070/b80c0a5dcfc2e8400a0bf58692f2a4bb779b82a7/capsule_231x87_alt_assets_2.jpg",
       "originalPrice": 2899,
       "discountPrice": 1304,
       "discountPercent": 55,
@@ -2853,7 +2853,7 @@
     {
       "id": "1128920",
       "title": "EVERSPACE™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1128920/3130251c2e8dfcbbd08f76f45cf29162b4951e66/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1128920/3130251c2e8dfcbbd08f76f45cf29162b4951e66/capsule_231x87.jpg",
       "originalPrice": 925,
       "discountPrice": 185,
       "discountPercent": 80,
@@ -2866,7 +2866,7 @@
     {
       "id": "2448570",
       "title": "Road Rash™: Видання до 30-річчя",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/ba16eeb1746726f003fe0a756a96875354b75664/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2448570/ba16eeb1746726f003fe0a756a96875354b75664/capsule_231x87.jpg",
       "originalPrice": 349,
       "discountPrice": 174,
       "discountPercent": 50,
@@ -2879,7 +2879,7 @@
     {
       "id": "4209920",
       "title": "不问凡尘",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209920/616dfc4fada9951639c407a8c1dd6ce15053ea71/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4209920/616dfc4fada9951639c407a8c1dd6ce15053ea71/capsule_231x87.jpg",
       "originalPrice": 295,
       "discountPrice": 197,
       "discountPercent": 33,
@@ -2892,7 +2892,7 @@
     {
       "id": "228200",
       "title": "Company of Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228200/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/228200/capsule_231x87.jpg",
       "originalPrice": 289,
       "discountPrice": 57,
       "discountPercent": 80,
@@ -2905,7 +2905,7 @@
     {
       "id": "632300",
       "title": "Hobo: Tough Life",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632300/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632300/capsule_231x87.jpg",
       "originalPrice": 600,
       "discountPrice": 150,
       "discountPercent": 75,
@@ -2918,7 +2918,7 @@
     {
       "id": "246620",
       "title": "Plague Inc: Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/6360836e806dacf895d368663da4bb7c626bb661/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/246620/6360836e806dacf895d368663da4bb7c626bb661/capsule_231x87.jpg",
       "originalPrice": 325,
       "discountPrice": 65,
       "discountPercent": 80,
@@ -2931,7 +2931,7 @@
     {
       "id": "8930",
       "title": "Sid Meier's Civilization® V",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8930/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8930/capsule_231x87.jpg",
       "originalPrice": 389,
       "discountPrice": 97,
       "discountPercent": 75,
@@ -2944,7 +2944,7 @@
     {
       "id": "3469800",
       "title": "Company of Heroes 3: Fire & Steel",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469800/6ca3fc993c681e6a106d6948ac4d15d7741666bf/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3469800/6ca3fc993c681e6a106d6948ac4d15d7741666bf/capsule_231x87.jpg",
       "originalPrice": 499,
       "discountPrice": 349,
       "discountPercent": 30,
@@ -2957,7 +2957,7 @@
     {
       "id": "1348661",
       "title": "Expansion - Hearts of Iron IV: No Step Back",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1348661/9f147f69960651868a5e788b1bcf8788a685ddb1/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1348661/9f147f69960651868a5e788b1bcf8788a685ddb1/capsule_231x87.jpg",
       "originalPrice": 539,
       "discountPrice": 269,
       "discountPercent": 50,
@@ -2970,7 +2970,7 @@
     {
       "id": "1562430",
       "title": "DREDGE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/d6c28e6402e85395421ac06ac86cdb0e28b48e27/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1562430/d6c28e6402e85395421ac06ac86cdb0e28b48e27/capsule_231x87.jpg",
       "originalPrice": 899,
       "discountPrice": 449,
       "discountPercent": 50,
@@ -2983,7 +2983,7 @@
     {
       "id": "2440760",
       "title": "GRAVHOUNDS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440760/45bf181cc256585288c15fcdc16b82959677f8b2/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2440760/45bf181cc256585288c15fcdc16b82959677f8b2/capsule_231x87.jpg",
       "originalPrice": 470,
       "discountPrice": 352,
       "discountPercent": 25,
@@ -2996,7 +2996,7 @@
     {
       "id": "1210320",
       "title": "Potion Craft: Alchemist Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1210320/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1210320/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 166,
       "discountPercent": 60,
@@ -3009,7 +3009,7 @@
     {
       "id": "3948120",
       "title": "Scritchy Scratchy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg",
       "originalPrice": 105,
       "discountPrice": 68,
       "discountPercent": 35,
@@ -3022,7 +3022,7 @@
     {
       "id": "704850",
       "title": "Thief Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704850/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/704850/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 37,
       "discountPercent": 91,
@@ -3035,7 +3035,7 @@
     {
       "id": "261640",
       "title": "Borderlands: The Pre-Sequel",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261640/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/261640/capsule_231x87.jpg",
       "originalPrice": 529,
       "discountPrice": 52,
       "discountPercent": 90,
@@ -3048,7 +3048,7 @@
     {
       "id": "2569760",
       "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 899,
       "discountPrice": 584,
       "discountPercent": 35,
@@ -3061,7 +3061,7 @@
     {
       "id": "1396474",
       "title": "Borderlands 3: Season Pass 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1396474/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1396474/capsule_231x87.jpg",
       "originalPrice": 549,
       "discountPrice": 329,
       "discountPercent": 40,
@@ -3074,7 +3074,7 @@
     {
       "id": "1066780",
       "title": "Transport Fever 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066780/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1066780/capsule_231x87.jpg",
       "originalPrice": 740,
       "discountPrice": 148,
       "discountPercent": 80,
@@ -3087,7 +3087,7 @@
     {
       "id": "2183930",
       "title": "Expansion - Hearts of Iron IV: Arms Against Tyranny",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183930/5271fe1b5e3a6fee4315db161df9e2ad2f2f7eda/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2183930/5271fe1b5e3a6fee4315db161df9e2ad2f2f7eda/capsule_231x87.jpg",
       "originalPrice": 539,
       "discountPrice": 269,
       "discountPercent": 50,
@@ -3100,7 +3100,7 @@
     {
       "id": "2644470",
       "title": "PICO PARK 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2644470/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2644470/capsule_231x87.jpg",
       "originalPrice": 199,
       "discountPrice": 139,
       "discountPercent": 30,
@@ -3113,7 +3113,7 @@
     {
       "id": "1880650",
       "title": "Expansion - Hearts of Iron IV: By Blood Alone",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1880650/cf9400fd596e028f3de248b5255dcebad435614a/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1880650/cf9400fd596e028f3de248b5255dcebad435614a/capsule_231x87.jpg",
       "originalPrice": 539,
       "discountPrice": 269,
       "discountPercent": 50,
@@ -3126,7 +3126,7 @@
     {
       "id": "4883590",
       "title": "iRacing® Studios NASCAR 26",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4883590/4ae8a0d97d6f411d09f80b11af56d98fd4408d71/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4883590/4ae8a0d97d6f411d09f80b11af56d98fd4408d71/capsule_231x87.jpg",
       "originalPrice": 1150,
       "discountPrice": 862,
       "discountPercent": 25,
@@ -3139,7 +3139,7 @@
     {
       "id": "2427743",
       "title": "Cities: Skylines II - Bridges & Ports",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427743/53c4776113f01d6821a75d3bd7d1a030a50380a8/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2427743/53c4776113f01d6821a75d3bd7d1a030a50380a8/capsule_231x87.jpg",
       "originalPrice": 539,
       "discountPrice": 377,
       "discountPercent": 30,
@@ -3152,7 +3152,7 @@
     {
       "id": "247970",
       "title": "Korea. IL-2 Series",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247970/c45ce398ae7e29d9ac94a22586ad224085f84733/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/247970/c45ce398ae7e29d9ac94a22586ad224085f84733/capsule_231x87.jpg",
       "originalPrice": 2290,
       "discountPrice": 1717,
       "discountPercent": 25,
@@ -3165,7 +3165,7 @@
     {
       "id": "555950",
       "title": "Danganronpa Another Episode: Ultra Despair Girls",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555950/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/555950/capsule_231x87.jpg",
       "originalPrice": 379,
       "discountPrice": 75,
       "discountPercent": 80,
@@ -3178,7 +3178,7 @@
     {
       "id": "1332720",
       "title": "Thief Simulator 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332720/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1332720/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 78,
       "discountPercent": 81,
@@ -3191,7 +3191,7 @@
     {
       "id": "413410",
       "title": "Danganronpa: Trigger Happy Havoc",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413410/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413410/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 27,
       "discountPercent": 90,
@@ -3204,7 +3204,7 @@
     {
       "id": "4557380",
       "title": "Batomon Showdown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4557380/b40dccb71e0f4917c751b4ee7c44eecfde1316be/capsule_231x87.jpg",
       "originalPrice": 335,
       "discountPrice": 217,
       "discountPercent": 35,
@@ -3217,7 +3217,7 @@
     {
       "id": "599140",
       "title": "Graveyard Keeper",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599140/cd8cb8097f236a6cfcaa2a08381f31775693fac1/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/599140/cd8cb8097f236a6cfcaa2a08381f31775693fac1/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 103,
       "discountPercent": 75,
@@ -3230,7 +3230,7 @@
     {
       "id": "5373210",
       "title": "Arteria",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373210/023e8c461aca4b801798116d44832640fd9af60d/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5373210/023e8c461aca4b801798116d44832640fd9af60d/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 168,
       "discountPercent": 30,
@@ -3243,7 +3243,7 @@
     {
       "id": "203140",
       "title": "Hitman: Absolution™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/203140/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 27,
       "discountPercent": 90,
@@ -3256,7 +3256,7 @@
     {
       "id": "1286680",
       "title": "Tiny Tina's Wonderlands",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286680/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1286680/capsule_231x87.jpg",
       "originalPrice": 1249,
       "discountPrice": 249,
       "discountPercent": 80,
@@ -3269,7 +3269,7 @@
     {
       "id": "3123410",
       "title": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3123410/bc08fd1a9447294411cf397d927bcf591e0857c1/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3123410/bc08fd1a9447294411cf397d927bcf591e0857c1/capsule_231x87.jpg",
       "originalPrice": 2275,
       "discountPrice": 1137,
       "discountPercent": 50,
@@ -3282,7 +3282,7 @@
     {
       "id": "3499520",
       "title": "Piano Glow",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/42c72437328d52a24a25d44e3da15952fcf64ea2/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3499520/42c72437328d52a24a25d44e3da15952fcf64ea2/capsule_231x87.jpg",
       "originalPrice": 515,
       "discountPrice": 360,
       "discountPercent": 30,
@@ -3295,7 +3295,7 @@
     {
       "id": "3745310",
       "title": "DEADLINE DELIVERY",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/9c50e2f0eb74416b234ac20f760f5f1b56625b40/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3745310/9c50e2f0eb74416b234ac20f760f5f1b56625b40/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 325,
       "discountPrice": 195,
       "discountPercent": 40,
@@ -3308,7 +3308,7 @@
     {
       "id": "1718570",
       "title": "ASTLIBRA Revision",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718570/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1718570/capsule_231x87.jpg",
       "originalPrice": 329,
       "discountPrice": 230,
       "discountPercent": 30,
@@ -3321,7 +3321,7 @@
     {
       "id": "282070",
       "title": "This War of Mine",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282070/2d8bb6908a236a5b129a2445dcc1cab37d0f7a47/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/282070/2d8bb6908a236a5b129a2445dcc1cab37d0f7a47/capsule_231x87.jpg",
       "originalPrice": 415,
       "discountPrice": 41,
       "discountPercent": 90,
@@ -3334,7 +3334,7 @@
     {
       "id": "1233062",
       "title": "Borderlands 3: Season Pass",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1233062/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1233062/capsule_231x87.jpg",
       "originalPrice": 799,
       "discountPrice": 239,
       "discountPercent": 70,
@@ -3347,7 +3347,7 @@
     {
       "id": "3731020",
       "title": "Five Hearts Under One Roof season 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3731020/53bb07641cc5b8849f718dd2d7d80b3a143aa5c9/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3731020/53bb07641cc5b8849f718dd2d7d80b3a143aa5c9/capsule_231x87.jpg",
       "originalPrice": 474,
       "discountPrice": 355,
       "discountPercent": 25,
@@ -3360,7 +3360,7 @@
     {
       "id": "2996040",
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2996040/bc782ac4600ea4722e233925a8dadde61dddd017/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2996040/bc782ac4600ea4722e233925a8dadde61dddd017/capsule_231x87.jpg",
       "originalPrice": 579,
       "discountPrice": 144,
       "discountPercent": 75,
@@ -3373,7 +3373,7 @@
     {
       "id": "1004750",
       "title": "WRC 8 FIA World Rally Championship",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004750/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1004750/capsule_231x87.jpg",
       "originalPrice": 429,
       "discountPrice": 42,
       "discountPercent": 90,
@@ -3386,7 +3386,7 @@
     {
       "id": "1366800",
       "title": "Crosshair X",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366800/a316b8a709e0ca866266b6152d016146ae3fdc47/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1366800/a316b8a709e0ca866266b6152d016146ae3fdc47/capsule_231x87.jpg",
       "originalPrice": 230,
       "discountPrice": 161,
       "discountPercent": 30,
@@ -3399,7 +3399,7 @@
     {
       "id": "1178830",
       "title": "Bright Memory: Infinite",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1178830/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1178830/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 111,
       "discountPercent": 60,
@@ -3412,7 +3412,7 @@
     {
       "id": "4390080",
       "title": "Bottled by Bears",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4390080/d86851642ae9912206765138b072277fcbf11280/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4390080/d86851642ae9912206765138b072277fcbf11280/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 180,
       "discountPercent": 25,
@@ -3425,7 +3425,7 @@
     {
       "id": "1465750",
       "title": "American Truck Simulator - Texas",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465750/5511a27b690f3b60244d8b8173abb35980323a52/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1465750/5511a27b690f3b60244d8b8173abb35980323a52/capsule_231x87.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
@@ -3438,7 +3438,7 @@
     {
       "id": "558245",
       "title": "Euro Truck Simulator 2 - Special Transport",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/558245/3722dcf7209e717a4e686524e11174d9add36502/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/558245/3722dcf7209e717a4e686524e11174d9add36502/capsule_231x87.jpg",
       "originalPrice": 100,
       "discountPrice": 50,
       "discountPercent": 50,
@@ -3451,7 +3451,7 @@
     {
       "id": "1374680",
       "title": "Hazard Levels",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374680/2b49d35c1878620e0962e07388038d52abb76bc9/capsule_231x87_alt_assets_0.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1374680/2b49d35c1878620e0962e07388038d52abb76bc9/capsule_231x87_alt_assets_0.jpg",
       "originalPrice": 225,
       "discountPrice": 168,
       "discountPercent": 25,
@@ -3464,7 +3464,7 @@
     {
       "id": "1910150",
       "title": "Walk of Life",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1910150/2ff3241ddeca0c894e4bc08d5b6b29502e7d5395/capsule_231x87_alt_assets_4.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1910150/2ff3241ddeca0c894e4bc08d5b6b29502e7d5395/capsule_231x87_alt_assets_4.jpg",
       "originalPrice": 399,
       "discountPrice": 199,
       "discountPercent": 50,
@@ -3477,7 +3477,7 @@
     {
       "id": "3904850",
       "title": "Approximately Up",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3904850/85486616ba65b3483fb27f09bbcaa80bede89d97/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3904850/85486616ba65b3483fb27f09bbcaa80bede89d97/capsule_231x87.jpg",
       "originalPrice": 530,
       "discountPrice": 397,
       "discountPercent": 25,
@@ -3490,7 +3490,7 @@
     {
       "id": "5212940",
       "title": "Bunker Tidy Up",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5212940/4efb6048aedc451f18bbd10a4507abab80562db0/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5212940/4efb6048aedc451f18bbd10a4507abab80562db0/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 130,
       "discountPrice": 97,
       "discountPercent": 25,
@@ -3503,7 +3503,7 @@
     {
       "id": "2385530",
       "title": "PGA TOUR 2K25",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2385530/0da4393a00dc8bbf857cd725fb45814be20546a7/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2385530/0da4393a00dc8bbf857cd725fb45814be20546a7/capsule_231x87.jpg",
       "originalPrice": 2599,
       "discountPrice": 1169,
       "discountPercent": 55,
@@ -3516,7 +3516,7 @@
     {
       "id": "4107840",
       "title": "Active Matter - Upgrade to Deluxe Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107840/b725573f920fff7f0b2b0c95c5c21c8d2f43e887/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4107840/b725573f920fff7f0b2b0c95c5c21c8d2f43e887/capsule_231x87.jpg",
       "originalPrice": 2957,
       "discountPrice": 0,
       "discountPercent": 100,
@@ -3529,7 +3529,7 @@
     {
       "id": "1361510",
       "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361510/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361510/capsule_231x87.jpg",
       "originalPrice": 515,
       "discountPrice": 206,
       "discountPercent": 60,
@@ -3542,7 +3542,7 @@
     {
       "id": "431240",
       "title": "Golf With Your Friends",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431240/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/431240/capsule_231x87.jpg",
       "originalPrice": 744,
       "discountPrice": 186,
       "discountPercent": 75,
@@ -3555,7 +3555,7 @@
     {
       "id": "1369630",
       "title": "ENDER LILIES: Quietus of the Knights",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1369630/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1369630/capsule_231x87.jpg",
       "originalPrice": 335,
       "discountPrice": 134,
       "discountPercent": 60,
@@ -3568,7 +3568,7 @@
     {
       "id": "1158100",
       "title": "Expansion - Hearts of Iron IV: La Résistance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158100/f905f0319f316458d0d442ef77fa24e722b6e711/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158100/f905f0319f316458d0d442ef77fa24e722b6e711/capsule_231x87.jpg",
       "originalPrice": 539,
       "discountPrice": 269,
       "discountPercent": 50,
@@ -3581,7 +3581,7 @@
     {
       "id": "527230",
       "title": "For The King",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527230/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 27,
       "discountPercent": 90,
@@ -3594,7 +3594,7 @@
     {
       "id": "4521700",
       "title": "The Miner Was Replaced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4521700/21c170e986e71a997b8fd52237b47e7f1c959005/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4521700/21c170e986e71a997b8fd52237b47e7f1c959005/capsule_231x87.jpg",
       "originalPrice": 210,
       "discountPrice": 147,
       "discountPercent": 30,
@@ -3607,7 +3607,7 @@
     {
       "id": "490110",
       "title": "The Precinct",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/490110/140ffa4d5e7102bcb17fade670a447888680dd7e/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/490110/140ffa4d5e7102bcb17fade670a447888680dd7e/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 600,
       "discountPrice": 402,
       "discountPercent": 33,
@@ -3618,22 +3618,9 @@
       "isPopular": true
     },
     {
-      "id": "352720",
-      "title": "The Universim",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/352720/6aeed411328b716143397c67b9316c8cbfa13278/capsule_231x87.jpg",
-      "originalPrice": 379,
-      "discountPrice": 189,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/352720",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2730870",
       "title": "American Truck Simulator - Missouri",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2730870/ebd40e3f001b5d7cf8ee799bf0bc0db83a33f535/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2730870/ebd40e3f001b5d7cf8ee799bf0bc0db83a33f535/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 168,
       "discountPercent": 30,
@@ -3644,9 +3631,22 @@
       "isPopular": true
     },
     {
+      "id": "352720",
+      "title": "The Universim",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/352720/6aeed411328b716143397c67b9316c8cbfa13278/capsule_231x87.jpg",
+      "originalPrice": 379,
+      "discountPrice": 189,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/352720",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1509960",
       "title": "PICO PARK",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1509960/capsule_231x87.jpg",
       "originalPrice": 99,
       "discountPrice": 69,
       "discountPercent": 30,
@@ -3659,7 +3659,7 @@
     {
       "id": "2175540",
       "title": "DRAGON QUEST MONSTERS: The Dark Prince",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2175540/capsule_231x87.jpg",
       "originalPrice": 1099,
       "discountPrice": 219,
       "discountPercent": 80,
@@ -3672,7 +3672,7 @@
     {
       "id": "1422130",
       "title": "SimRail - The Railway Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422130/d24d0b55439049ebd6dd2ce72773ff8c508702d6/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1422130/d24d0b55439049ebd6dd2ce72773ff8c508702d6/capsule_231x87.jpg",
       "originalPrice": 999,
       "discountPrice": 396,
       "discountPercent": 62,
@@ -3685,7 +3685,7 @@
     {
       "id": "2178480",
       "title": "不思議のダンジョン　風来のシレン６　とぐろ島探検録",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178480/22067263881b5df245fbf434f48869dd12daa36d/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2178480/22067263881b5df245fbf434f48869dd12daa36d/capsule_231x87.jpg",
       "originalPrice": 740,
       "discountPrice": 333,
       "discountPercent": 55,
@@ -3698,7 +3698,7 @@
     {
       "id": "494840",
       "title": "UBOAT",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/494840/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/494840/capsule_231x87.jpg",
       "originalPrice": 600,
       "discountPrice": 168,
       "discountPercent": 72,
@@ -3711,7 +3711,7 @@
     {
       "id": "4740930",
       "title": "Legend of Defenders",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/c039f0eefcde5abda7dd71d5cf6f18422d0b2d5a/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4740930/c039f0eefcde5abda7dd71d5cf6f18422d0b2d5a/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 540,
       "discountPrice": 231,
       "discountPercent": 60,
@@ -3724,7 +3724,7 @@
     {
       "id": "2350790",
       "title": "Moonlighter 2: The Endless Vault",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/cec652d6a85f26a1db23bd26c5f5e8b2c69c4f6a/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2350790/cec652d6a85f26a1db23bd26c5f5e8b2c69c4f6a/capsule_231x87.jpg",
       "originalPrice": 600,
       "discountPrice": 390,
       "discountPercent": 35,
@@ -3737,7 +3737,7 @@
     {
       "id": "1448440",
       "title": "Wo Long: Fallen Dynasty",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/6ede9cdaae075ff79ba6194d1475be7a2b9aa4a0/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1448440/6ede9cdaae075ff79ba6194d1475be7a2b9aa4a0/capsule_231x87.jpg",
       "originalPrice": 1950,
       "discountPrice": 780,
       "discountPercent": 60,
@@ -3750,7 +3750,7 @@
     {
       "id": "2718320",
       "title": "Green Again",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2718320/b4d8c7fac39cce8ac341838e7329cda622cf9180/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2718320/b4d8c7fac39cce8ac341838e7329cda622cf9180/capsule_231x87.jpg",
       "originalPrice": 380,
       "discountPrice": 285,
       "discountPercent": 25,
@@ -3761,9 +3761,22 @@
       "isPopular": true
     },
     {
+      "id": "304214",
+      "title": "Euro Truck Simulator 2 - High Power Cargo Pack",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304214/f44b915e5e3afcdf002f1955e0232adb1a400d13/capsule_231x87.jpg",
+      "originalPrice": 100,
+      "discountPrice": 50,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/304214",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1465470",
       "title": "The Crust",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465470/4b8add3459634888908aabbacfb88035645503b7/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1465470/4b8add3459634888908aabbacfb88035645503b7/capsule_231x87.jpg",
       "originalPrice": 599,
       "discountPrice": 359,
       "discountPercent": 40,
@@ -3776,7 +3789,7 @@
     {
       "id": "1164940",
       "title": "Trepang2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1164940/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1164940/capsule_231x87.jpg",
       "originalPrice": 758,
       "discountPrice": 189,
       "discountPercent": 75,
@@ -3789,7 +3802,7 @@
     {
       "id": "2725260",
       "title": "ENDER MAGNOLIA: Bloom in the Mist",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2725260/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2725260/capsule_231x87.jpg",
       "originalPrice": 515,
       "discountPrice": 283,
       "discountPercent": 45,
@@ -3802,7 +3815,7 @@
     {
       "id": "746850",
       "title": "Cloudpunk",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/746850/capsule_231x87.jpg",
       "originalPrice": 349,
       "discountPrice": 122,
       "discountPercent": 65,
@@ -3815,7 +3828,7 @@
     {
       "id": "4159240",
       "title": "Euro Truck Simulator 2 - Forest Machinery",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4159240/2f148d4282c5b775319ec36e04e643b8925bcc9b/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4159240/2f148d4282c5b775319ec36e04e643b8925bcc9b/capsule_231x87.jpg",
       "originalPrice": 200,
       "discountPrice": 90,
       "discountPercent": 65,
@@ -3826,22 +3839,9 @@
       "isPopular": true
     },
     {
-      "id": "330830",
-      "title": "Tales from the Borderlands",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/330830/capsule_231x87.jpg",
-      "originalPrice": 649,
-      "discountPrice": 324,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/330830",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1894430",
       "title": "Plan B: Terraform",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1894430/c1a1e64caefaacbd5a7c3fb83a0b1e9d5cd35bc6/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1894430/c1a1e64caefaacbd5a7c3fb83a0b1e9d5cd35bc6/capsule_231x87.jpg",
       "originalPrice": 340,
       "discountPrice": 255,
       "discountPercent": 25,
@@ -3854,7 +3854,7 @@
     {
       "id": "1308700",
       "title": "Wizardry: The Five Ordeals",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_231x87.jpg",
       "originalPrice": 740,
       "discountPrice": 333,
       "discountPercent": 55,
@@ -3867,7 +3867,7 @@
     {
       "id": "2904040",
       "title": "Cheap Car Repair",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904040/9304517f41be9f792616594aa964d08c9c07455b/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2904040/9304517f41be9f792616594aa964d08c9c07455b/capsule_231x87.jpg",
       "originalPrice": 694,
       "discountPrice": 258,
       "discountPercent": 64,
@@ -3880,7 +3880,7 @@
     {
       "id": "3025440",
       "title": "American Truck Simulator - Iowa",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3025440/172cbac1b04969a67247693f2a210612acf30139/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3025440/172cbac1b04969a67247693f2a210612acf30139/capsule_231x87.jpg",
       "originalPrice": 240,
       "discountPrice": 168,
       "discountPercent": 30,
@@ -3891,14 +3891,14 @@
       "isPopular": true
     },
     {
-      "id": "304214",
-      "title": "Euro Truck Simulator 2 - High Power Cargo Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304214/f44b915e5e3afcdf002f1955e0232adb1a400d13/capsule_231x87.jpg",
-      "originalPrice": 100,
-      "discountPrice": 50,
+      "id": "330830",
+      "title": "Tales from the Borderlands",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/330830/capsule_231x87.jpg",
+      "originalPrice": 649,
+      "discountPrice": 324,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/304214",
+      "url": "https://store.steampowered.com/app/330830",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -3906,7 +3906,7 @@
     {
       "id": "3152790",
       "title": "Country Pack - Hearts of Iron IV: Graveyard of Empires",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3152790/feb0fa3b96207c4d59f56de35483eebc5b5ca709/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3152790/feb0fa3b96207c4d59f56de35483eebc5b5ca709/capsule_231x87.jpg",
       "originalPrice": 409,
       "discountPrice": 286,
       "discountPercent": 30,
@@ -3919,7 +3919,7 @@
     {
       "id": "1054490",
       "title": "Wingspan (Крила)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1054490/a988689119e8da2a20d5ff528bd38bd5b39cecdd/capsule_231x87_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1054490/a988689119e8da2a20d5ff528bd38bd5b39cecdd/capsule_231x87_ukrainian.jpg",
       "originalPrice": 399,
       "discountPrice": 139,
       "discountPercent": 65,
@@ -3932,7 +3932,7 @@
     {
       "id": "939960",
       "title": "Far Cry® New Dawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/939960/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/939960/capsule_231x87.jpg",
       "originalPrice": 689,
       "discountPrice": 137,
       "discountPercent": 80,
@@ -3945,7 +3945,7 @@
     {
       "id": "2155180",
       "title": "Pioneers of Pagonia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2155180/20624e3dec0d965321702417c6000845600037ca/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2155180/20624e3dec0d965321702417c6000845600037ca/capsule_231x87.jpg",
       "originalPrice": 700,
       "discountPrice": 420,
       "discountPercent": 40,
@@ -3958,7 +3958,7 @@
     {
       "id": "4613340",
       "title": "Bannerlings",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613340/c01882ed0d34f19e9d2baedabce44485865aecae/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4613340/c01882ed0d34f19e9d2baedabce44485865aecae/capsule_231x87.jpg",
       "originalPrice": 130,
       "discountPrice": 97,
       "discountPercent": 25,
@@ -3969,9 +3969,22 @@
       "isPopular": true
     },
     {
+      "id": "388470",
+      "title": "Euro Truck Simulator 2 - Cabin Accessories",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/388470/395edfba5e26b469cc5e15e527b08d270c5798bc/capsule_231x87.jpg",
+      "originalPrice": 95,
+      "discountPrice": 47,
+      "discountPercent": 51,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/388470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2903950",
       "title": "Master Detective Archives: RAIN CODE Plus",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2903950/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2903950/capsule_231x87.jpg",
       "originalPrice": 699,
       "discountPrice": 349,
       "discountPercent": 50,
@@ -3984,7 +3997,7 @@
     {
       "id": "3850230",
       "title": "99天生存指南",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850230/70a99ea37127c7a92945513816aa1658f61dbdb1/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3850230/70a99ea37127c7a92945513816aa1658f61dbdb1/capsule_231x87.jpg",
       "originalPrice": 275,
       "discountPrice": 203,
       "discountPercent": 26,
@@ -3997,7 +4010,7 @@
     {
       "id": "5130120",
       "title": "Evenicle - Next Fragment Medica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130120/a3fb2026b4b796cbff1e06dc9fd81d97d9fd6ffe/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5130120/a3fb2026b4b796cbff1e06dc9fd81d97d9fd6ffe/capsule_231x87.jpg",
       "originalPrice": 529,
       "discountPrice": 343,
       "discountPercent": 35,
@@ -4010,7 +4023,7 @@
     {
       "id": "2658450",
       "title": "LOLLIPOP CHAINSAW RePOP",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2658450/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2658450/capsule_231x87.jpg",
       "originalPrice": 1349,
       "discountPrice": 809,
       "discountPercent": 40,
@@ -4023,7 +4036,7 @@
     {
       "id": "621830",
       "title": "WRC 7 FIA World Rally Championship",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/621830/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/621830/capsule_231x87.jpg",
       "originalPrice": 279,
       "discountPrice": 27,
       "discountPercent": 90,
@@ -4034,22 +4047,9 @@
       "isPopular": true
     },
     {
-      "id": "388470",
-      "title": "Euro Truck Simulator 2 - Cabin Accessories",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/388470/395edfba5e26b469cc5e15e527b08d270c5798bc/capsule_231x87.jpg",
-      "originalPrice": 95,
-      "discountPrice": 47,
-      "discountPercent": 51,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/388470",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "531131",
       "title": "Euro Truck Simulator 2 - Heavy Cargo Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/531131/b0289d62a21deeb7869cb8d1e4fc6452450a78b6/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/531131/b0289d62a21deeb7869cb8d1e4fc6452450a78b6/capsule_231x87.jpg",
       "originalPrice": 100,
       "discountPrice": 50,
       "discountPercent": 50,
@@ -4062,7 +4062,7 @@
     {
       "id": "1266840",
       "title": "The Last Stand: Aftermath",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266840/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1266840/capsule_231x87.jpg",
       "originalPrice": 515,
       "discountPrice": 144,
       "discountPercent": 72,
@@ -4075,7 +4075,7 @@
     {
       "id": "1924170",
       "title": "TT Isle Of Man: Ride on the Edge 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1924170/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1924170/capsule_231x87.jpg",
       "originalPrice": 1170,
       "discountPrice": 58,
       "discountPercent": 95,
@@ -4088,7 +4088,7 @@
     {
       "id": "4038930",
       "title": "DYNASTY WARRIORS: ORIGINS Visions of Four Heroes",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038930/ae63b185ea941cbc5080512cf2b58551fc606466/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4038930/ae63b185ea941cbc5080512cf2b58551fc606466/capsule_231x87.jpg",
       "originalPrice": 1138,
       "discountPrice": 853,
       "discountPercent": 25,
@@ -4101,7 +4101,7 @@
     {
       "id": "4707700",
       "title": "Gold Mining Simulator - Definitive Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/5b04dfde053cc17e84bb8e913f055671b658ddd8/capsule_231x87.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4707700/5b04dfde053cc17e84bb8e913f055671b658ddd8/capsule_231x87.jpg",
       "originalPrice": 1200,
       "discountPrice": 589,
       "discountPercent": 54,

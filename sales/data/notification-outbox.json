@@ -1110,6 +1110,115 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T13:58:24.686Z"
+    },
+    {
+      "id": "421160a9496c7bae516506ef",
+      "createdAt": "2026-11-14T14:00:45.825Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tom Clancy&#39;s Ghost Recon® Wildlands</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>300 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/460930\">Детальніше в Steam</a>\n\n🎮 <b>Tiny Tina&#39;s Wonderlands</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 249 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1286680\">Детальніше в Steam</a>\n\n🎮 <b>DRAGON QUEST MONSTERS: The Dark Prince</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 099 грн</s> ➡️ <b>219 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2175540\">Детальніше в Steam</a>\n\n🎮 <b>X4: Foundations</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>925 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/392160\">Детальніше в Steam</a>\n\n🎮 <b>EVERSPACE™ 2</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>925 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1128920\">Детальніше в Steam</a>\n\n🎮 <b>Transport Fever 2</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>148 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1066780\">Детальніше в Steam</a>\n\n🎮 <b>Far Cry® New Dawn</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>689 грн</s> ➡️ <b>137 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/939960\">Детальніше в Steam</a>\n\n🎮 <b>Train Simulator Classic</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/24010\">Детальніше в Steam</a>\n\n🎮 <b>Danganronpa V3: Killing Harmony</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>479 грн</s> ➡️ <b>95 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/567640\">Детальніше в Steam</a>\n\n🎮 <b>Far Cry® 4</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>459 грн</s> ➡️ <b>91 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/298110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_460930",
+          "entry": {
+            "title": "Tom Clancy's Ghost Recon® Wildlands",
+            "price": 300,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1286680",
+          "entry": {
+            "title": "Tiny Tina's Wonderlands",
+            "price": 249,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2175540",
+          "entry": {
+            "title": "DRAGON QUEST MONSTERS: The Dark Prince",
+            "price": 219,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_392160",
+          "entry": {
+            "title": "X4: Foundations",
+            "price": 185,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1128920",
+          "entry": {
+            "title": "EVERSPACE™ 2",
+            "price": 185,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1066780",
+          "entry": {
+            "title": "Transport Fever 2",
+            "price": 148,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_939960",
+          "entry": {
+            "title": "Far Cry® New Dawn",
+            "price": 137,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_24010",
+          "entry": {
+            "title": "Train Simulator Classic",
+            "price": 120,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_567640",
+          "entry": {
+            "title": "Danganronpa V3: Killing Harmony",
+            "price": 95,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_298110",
+          "entry": {
+            "title": "Far Cry® 4",
+            "price": 91,
+            "percent": 80,
+            "timestamp": "2026-11-14T14:00:45.825Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
