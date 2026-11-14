@@ -6026,6 +6026,76 @@
       "percent": 60,
       "timestamp": "2026-11-14T17:00:36.122Z",
       "type": "discount"
+    },
+    "steam_discount_238090": {
+      "title": "Sniper Elite 3",
+      "price": 78,
+      "percent": 87,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_5241370": {
+      "title": "SOS OPS! - OVERBOOKED",
+      "price": 26,
+      "percent": 80,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_1669000": {
+      "title": "Age of Wonders 4",
+      "price": 539,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_2169200": {
+      "title": "Sniper Elite: Resistance",
+      "price": 370,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_1272320": {
+      "title": "Diplomacy is Not an Option",
+      "price": 240,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_1361510": {
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "price": 206,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_4740930": {
+      "title": "Legend of Defenders",
+      "price": 231,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_1210320": {
+      "title": "Potion Craft: Alchemist Simulator",
+      "price": 166,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_1369630": {
+      "title": "ENDER LILIES: Quietus of the Knights",
+      "price": 134,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
+    },
+    "steam_discount_413420": {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "price": 111,
+      "percent": 60,
+      "timestamp": "2026-11-14T18:00:31.830Z",
+      "type": "discount"
     }
   }
 }
