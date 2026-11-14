@@ -1550,6 +1550,115 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T17:00:40.429Z"
+    },
+    {
+      "id": "c3875fd98f37d059c6851c6f",
+      "createdAt": "2026-11-14T18:00:31.830Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sniper Elite 3</b>\n🏷️ Знижка: <b>-87%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>78 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/238090\">Детальніше в Steam</a>\n\n🎮 <b>SOS OPS! - OVERBOOKED</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>130 грн</s> ➡️ <b>26 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5241370\">Детальніше в Steam</a>\n\n🎮 <b>Age of Wonders 4</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>539 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1669000\">Детальніше в Steam</a>\n\n🎮 <b>Sniper Elite: Resistance</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>925 грн</s> ➡️ <b>370 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2169200\">Детальніше в Steam</a>\n\n🎮 <b>Diplomacy is Not an Option</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>240 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1272320\">Детальніше в Steam</a>\n\n🎮 <b>Teenage Mutant Ninja Turtles: Shredder&#39;s Revenge</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>206 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1361510\">Детальніше в Steam</a>\n\n🎮 <b>Legend of Defenders</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>540 грн</s> ➡️ <b>231 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4740930\">Детальніше в Steam</a>\n\n🎮 <b>Potion Craft: Alchemist Simulator</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>166 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1210320\">Детальніше в Steam</a>\n\n🎮 <b>ENDER LILIES: Quietus of the Knights</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>335 грн</s> ➡️ <b>134 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1369630\">Детальніше в Steam</a>\n\n🎮 <b>Danganronpa 2: Goodbye Despair</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>111 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/413420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_238090",
+          "entry": {
+            "title": "Sniper Elite 3",
+            "price": 78,
+            "percent": 87,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_5241370",
+          "entry": {
+            "title": "SOS OPS! - OVERBOOKED",
+            "price": 26,
+            "percent": 80,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1669000",
+          "entry": {
+            "title": "Age of Wonders 4",
+            "price": 539,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2169200",
+          "entry": {
+            "title": "Sniper Elite: Resistance",
+            "price": 370,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1272320",
+          "entry": {
+            "title": "Diplomacy is Not an Option",
+            "price": 240,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1361510",
+          "entry": {
+            "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+            "price": 206,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_4740930",
+          "entry": {
+            "title": "Legend of Defenders",
+            "price": 231,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1210320",
+          "entry": {
+            "title": "Potion Craft: Alchemist Simulator",
+            "price": 166,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1369630",
+          "entry": {
+            "title": "ENDER LILIES: Quietus of the Knights",
+            "price": 134,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_413420",
+          "entry": {
+            "title": "Danganronpa 2: Goodbye Despair",
+            "price": 111,
+            "percent": 60,
+            "timestamp": "2026-11-14T18:00:31.830Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
