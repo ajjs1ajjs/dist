@@ -5669,6 +5669,76 @@
       "percent": 100,
       "timestamp": "2026-11-14T13:04:00.541Z",
       "type": "free"
+    },
+    "steam_discount_1924170": {
+      "title": "TT Isle Of Man: Ride on the Edge 3",
+      "price": 58,
+      "percent": 95,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_413410": {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "price": 27,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_203140": {
+      "title": "Hitman: Absolution™",
+      "price": 27,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_527230": {
+      "title": "For The King",
+      "price": 27,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_621830": {
+      "title": "WRC 7 FIA World Rally Championship",
+      "price": 27,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_1190000": {
+      "title": "Car Mechanic Simulator 2021",
+      "price": 56,
+      "percent": 89,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_307960": {
+      "title": "IL-2 Sturmovik: Battle of Stalingrad",
+      "price": 138,
+      "percent": 85,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_773370": {
+      "title": "Exo One",
+      "price": 54,
+      "percent": 85,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_1332720": {
+      "title": "Thief Simulator 2",
+      "price": 78,
+      "percent": 81,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
+    },
+    "steam_discount_2698940": {
+      "title": "The Crew Motorfest",
+      "price": 360,
+      "percent": 80,
+      "timestamp": "2026-11-14T13:58:21.189Z",
+      "type": "discount"
     }
   }
 }
