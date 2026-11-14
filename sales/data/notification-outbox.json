@@ -122,57 +122,6 @@
       "claimedAt": "2026-10-30T20:00:38.476Z"
     },
     {
-      "id": "fb0f348a7aab58b286b2efbe",
-      "createdAt": "2026-10-31T22:00:29.294Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sons Of The Forest</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1326470\">Детальніше в Steam</a>\n\n🎮 <b>R.E.P.O.</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>194 грн</s> ➡️ <b>126 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3241660\">Детальніше в Steam</a>\n\n🎮 <b>Raft</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>430 грн</s> ➡️ <b>288 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/648800\">Детальніше в Steam</a>\n\n🎮 <b>Phasmophobia</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>272 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/739630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_1326470",
-          "entry": {
-            "title": "Sons Of The Forest",
-            "price": 168,
-            "percent": 72,
-            "timestamp": "2026-10-31T22:00:29.294Z",
-            "type": "discount"
-          }
-        },
-        {
-          "key": "steam_discount_3241660",
-          "entry": {
-            "title": "R.E.P.O.",
-            "price": 126,
-            "percent": 35,
-            "timestamp": "2026-10-31T22:00:29.294Z",
-            "type": "discount"
-          }
-        },
-        {
-          "key": "steam_discount_648800",
-          "entry": {
-            "title": "Raft",
-            "price": 288,
-            "percent": 33,
-            "timestamp": "2026-10-31T22:00:29.294Z",
-            "type": "discount"
-          }
-        },
-        {
-          "key": "steam_discount_739630",
-          "entry": {
-            "title": "Phasmophobia",
-            "price": 272,
-            "percent": 30,
-            "timestamp": "2026-10-31T22:00:29.294Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "uncertain",
-      "attempts": 1,
-      "claimedAt": "2026-10-31T22:00:32.573Z",
-      "lastError": "Telegram send failed: This operation was aborted"
-    },
-    {
       "id": "b4c836f8d38c06d3df8f9c4b",
       "createdAt": "2026-10-31T23:00:33.699Z",
       "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Outlast Trials</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>222 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1304930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",

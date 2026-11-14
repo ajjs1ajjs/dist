@@ -1,4 +1,68 @@
-import type { GamePassGame, SteamGame, PriceObservation } from './types';
+import type { GamePassGame, NotifiedItem, PriceObservation, SteamGame } from './types';
+
+export interface SteamNotificationOptions {
+  minDiscountPercent: number;
+  freeCooldownMs: number;
+  discountCooldownMs: number;
+  maxDealsPerRun: number;
+}
+
+/**
+ * Select Steam free offers and hot discounts eligible for Telegram notification.
+ * Excludes items already queued in the outbox before applying the per-run cap so
+ * pending messages do not consume slots, while allowing 14-day freebie repeats
+ * and >=5% price drops even when a prior 30-day history entry still exists.
+ */
+export function selectSteamNotifications(
+  games: SteamGame[],
+  notifiedHistory: Record<string, NotifiedItem>,
+  queuedKeys: ReadonlySet<string>,
+  now: Date,
+  opts: SteamNotificationOptions,
+): { freeGames: SteamGame[]; deals: SteamGame[] } {
+  const nowMs = now.getTime();
+  const freeGames: SteamGame[] = [];
+  const deals: SteamGame[] = [];
+
+  for (const game of games) {
+    if (game.isFree) {
+      const key = `steam_free_${game.id}`;
+      if (!queuedKeys.has(key)) {
+        const entry = notifiedHistory[key];
+        const lastMs = entry ? Date.parse(entry.timestamp) : NaN;
+        if (!entry || Number.isNaN(lastMs) || nowMs - lastMs > opts.freeCooldownMs) {
+          freeGames.push(game);
+        }
+      }
+    }
+
+    // Free games are announced exclusively via the free branch above.
+    if (!game.isFree && game.isSpecial && game.discountPercent >= opts.minDiscountPercent) {
+      const key = `steam_discount_${game.id}`;
+      if (queuedKeys.has(key)) continue;
+      const entry = notifiedHistory[key];
+      if (!entry) {
+        deals.push(game);
+        continue;
+      }
+      const lastMs = Date.parse(entry.timestamp);
+      const priceDropped = game.discountPrice < entry.price * 0.95;
+      const cooldownExpired = Number.isNaN(lastMs) || nowMs - lastMs > opts.discountCooldownMs;
+      if (priceDropped || cooldownExpired) {
+        deals.push(game);
+      }
+    }
+  }
+
+  deals.sort(
+    (a, b) => b.discountPercent - a.discountPercent || (b.originalPrice - b.discountPrice) - (a.originalPrice - a.discountPrice),
+  );
+
+  return {
+    freeGames,
+    deals: deals.slice(0, opts.maxDealsPerRun),
+  };
+}
 
 /** Daily observations of prices actually seen in the sampled Steam catalog. */
 export function updatePriceHistory(raw: unknown, games: SteamGame[], now: Date, steamUpdated: boolean): Record<string, PriceObservation[]> {

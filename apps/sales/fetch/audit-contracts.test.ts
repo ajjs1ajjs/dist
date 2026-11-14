@@ -4,7 +4,8 @@ import { spawnSync } from 'node:child_process';
 import os from 'node:os';
 import path from 'node:path';
 import test from 'node:test';
-import { chooseSteamSnapshot, isValidSteamSearchPage, updatePriceHistory } from './collector-core';
+import { chooseSteamSnapshot, isValidSteamSearchPage, selectSteamNotifications, updatePriceHistory } from './collector-core';
+import { parseSearchHtml } from './fetch-deals';
 import { writeJsonAtomically } from './persistence';
 import { buildTelegramBatches } from './telegram';
 import type { SteamGame } from './types';
@@ -72,4 +73,39 @@ test('atomic JSON persistence leaves one complete snapshot and no temporary file
   } finally {
     await rm(directory, { recursive: true, force: true });
   }
+});
+
+test('parseSearchHtml handles Steam discount_pct attributes and selectSteamNotifications allows price drops while skipping queued keys', () => {
+  const html = `
+    <a href="https://store.steampowered.com/app/777/" data-ds-appid="777" data-ds-itemkey="App_777">
+      <div class="col search_capsule"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/777/capsule_sm_120.jpg?t=1"></div>
+      <span class="title" dir="auto">Attribute Game</span>
+      <div class="discount_block search_discount_block" data-price-final="10000" data-bundlediscount="0" data-discount="75">
+        <div class="discount_pct" aria-hidden="true" data-tooltip-text="Тимчасова знижка, що зменшує звичайну ціну.">-75%</div>
+        <div class="discount_prices" aria-hidden="true">
+          <div class="discount_original_price" aria-hidden="true">400,00₴</div>
+          <div class="discount_final_price">100,00₴</div>
+        </div>
+      </div>
+    </a>`;
+  const games = new Map<string, SteamGame>();
+  assert.equal(parseSearchHtml(html, games), 1);
+  const parsed = games.get('777');
+  assert.ok(parsed);
+  assert.equal(parsed.discountPercent, 75);
+  assert.equal(parsed.originalPrice, 400);
+  assert.equal(parsed.discountPrice, 100);
+
+  const now = new Date('2026-11-14T12:00:00.000Z');
+  const history = {
+    steam_discount_777: { title: 'Attribute Game', price: 200, percent: 50, timestamp: '2026-11-10T12:00:00.000Z', type: 'discount' as const },
+  };
+  const queuedGame: SteamGame = { ...parsed, id: '888', title: 'Queued Game', discountPercent: 90 };
+  const selection = selectSteamNotifications([parsed, queuedGame], history, new Set(['steam_discount_888']), now, {
+    minDiscountPercent: 25,
+    freeCooldownMs: 14 * 24 * 60 * 60 * 1000,
+    discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
+    maxDealsPerRun: 1,
+  });
+  assert.deepEqual(selection.deals.map((g) => g.id), ['777']);
 });

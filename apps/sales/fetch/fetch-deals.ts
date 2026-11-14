@@ -3,7 +3,7 @@ import path from 'path';
 import pino from 'pino';
 import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
-import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps, updatePriceHistory } from './collector-core';
+import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps, selectSteamNotifications, updatePriceHistory } from './collector-core';
 import { writeJsonAtomically } from './persistence';
 import { buildTelegramBatches } from './telegram';
 import {
@@ -300,6 +300,13 @@ async function fetchSteamCategories(gamesMap: Map<string, SteamGame>): Promise<v
   );
 }
 
+function parseSteamPriceText(raw: string): number | null {
+  const cleaned = raw.replace(/[\s\u00a0]/g, '').replace(',', '.').replace(/[^0-9.]/g, '');
+  if (!cleaned || cleaned === '.') return null;
+  const n = Number(cleaned);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+}
+
 /** Парсинг однієї сторінки search API (topsellers + specials). */
 export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>): number {
   const anchorRe = /<a\b[^>]*data-ds-appid="(\d+)"[^>]*data-ds-itemkey="([^"]*)"[^>]*>([\s\S]*?)<\/a\s*>/g;
@@ -312,9 +319,12 @@ export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>):
     if (!itemKey.startsWith('App_')) continue;
     const body = m[3];
 
-    const titleM = body.match(/<span class="title">(.*?)<\/span>/s);
-    const imgM = body.match(/<img\s+src="([^"]+)"/);
-    const pctM = body.match(/<div class="discount_pct">\s*-(\d+)%\s*<\/div>/);
+    const titleM = body.match(/<span class="title"[^>]*>(.*?)<\/span>/s);
+    const imgM = body.match(/<img\b[^>]*\bsrc="([^"]+)"/);
+    const pctM =
+      body.match(/<div class="discount_pct"[^>]*>\s*-(\d+)%\s*<\/div>/) ??
+      body.match(/\bdata-discount="(\d+)"/);
+    const origM = body.match(/<div class="discount_original_price"[^>]*>([^<]+)<\/div>/);
     const finalM = body.match(/data-price-final="(\d+)"/);
     if (!titleM || !pctM || !finalM) continue;
 
@@ -322,10 +332,13 @@ export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>):
     const finalCents = finiteOr(Number(finalM[1]), NaN);
     if (!Number.isFinite(finalCents)) continue;
     const discountPrice = finalCents / 100;
+    const parsedOriginal = origM ? parseSteamPriceText(decodeEntities(origM[1])) : null;
     const originalPrice =
-      discountPercent > 0 && discountPercent < 100
-        ? Math.round((discountPrice / (1 - discountPercent / 100)) * 100) / 100
-        : discountPrice;
+      parsedOriginal !== null && parsedOriginal >= discountPrice
+        ? parsedOriginal
+        : discountPercent > 0 && discountPercent < 100
+          ? Math.round((discountPrice / (1 - discountPercent / 100)) * 100) / 100
+          : discountPrice;
     const isFree = discountPercent >= 100 || (originalPrice > 0 && discountPrice === 0);
     const isSpecial = !isFree && discountPercent >= CONFIG.minDiscountPercent;
 
@@ -364,6 +377,14 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
       throw new Error(`Steam search page ${page} returned an incomplete response.`);
     }
     const added = parseSearchHtml(data.results_html, gamesMap);
+    if (
+      page === 0 &&
+      added === 0 &&
+      /data-ds-itemkey="App_\d+"/.test(data.results_html) &&
+      /discount_pct|data-discount=/.test(data.results_html)
+    ) {
+      throw new Error('Steam search page 0 contained discounted app rows but 0 were parsed.');
+    }
     logger.info({ page, start, total: data.total_count ?? -1, added }, 'steam search page fetched');
     // Остання неповна сторінка — далі гортати нема чого.
     if (data.results_html.length < 1000) break;
@@ -792,7 +813,7 @@ async function runPrepare() {
     try {
       const githubPagesUrl = `https://ajjs1ajjs.github.io/dist/sales/data/deals.json`;
       logger.info(`Trying to fetch previous deals from GitHub Pages: ${githubPagesUrl}`);
-      const res = await fetch(githubPagesUrl);
+      const res = await fetch(githubPagesUrl, { signal: AbortSignal.timeout(CONFIG.fetchTimeoutMs) });
       if (res.ok) {
         oldData = coerceOldData(await res.json());
         logger.info('✅ Loaded previous deals from GitHub Pages.');
@@ -811,7 +832,7 @@ async function runPrepare() {
       readLocal: () =>
         fs.existsSync(HISTORY_PATH) ? fs.readFileSync(HISTORY_PATH, 'utf-8') : undefined,
       readRemote: async () => {
-        const res = await fetch(HISTORY_REMOTE_URL);
+        const res = await fetch(HISTORY_REMOTE_URL, { signal: AbortSignal.timeout(CONFIG.fetchTimeoutMs) });
         return res.ok ? await res.json() : undefined;
       },
     },
@@ -871,63 +892,23 @@ async function runPrepare() {
     gamepassUsedPrevious ? (oldData.gamepass ?? []) : freshGamePass;
   const gamepassUpdated = !gamepassUsedPrevious && freshGamePass.length > 0;
 
-  // Detect changes
-  const newSteamFreeGames: SteamGame[] = [];
-  let newSteamDeals: SteamGame[] = [];
+  // Read outbox early so already-queued items do not consume the per-run cap.
+  const outbox = readNotificationOutbox();
+  const queuedKeys = pendingReceiptKeys(outbox);
 
-  // Steam: Find new items
-  for (const game of freshSteam) {
-    if (game.isFree) {
-      const historyKey = `steam_free_${game.id}`;
-      const historyEntry = notifiedHistory[historyKey];
-      const cooldownExpired = !historyEntry || now.getTime() - new Date(historyEntry.timestamp).getTime() > FREE_GAME_COOLDOWN_MS;
-      if (cooldownExpired) {
-        newSteamFreeGames.push(game);
-      }
-    }
-
-    // TG: той самий порог, що й на сайті (від CONFIG.minDiscountPercent) —
-    // правила сайту та каналу однакові; анти-спам нижче ріже обсяг.
-    // Free games are excluded here on purpose: they already go through the free
-    // branch above and must never be announced as a "-100%" discount too.
-    if (!game.isFree && game.isSpecial && game.discountPercent >= CONFIG.minDiscountPercent) {
-      const historyKey = `steam_discount_${game.id}`;
-      const historyEntry = notifiedHistory[historyKey];
-
-      let shouldNotify = false;
-      if (!historyEntry) {
-        shouldNotify = true;
-      } else {
-        const lastNotified = new Date(historyEntry.timestamp).getTime();
-        // Повторно постимо лише за значущого здешевлення (≥5% дешевше за
-        // останню запощену ціну) або після 30-денного кулдауну. Порівняння
-        // "будь-яка копійка нижче" спамило канал на округленнях/флуктуаціях Steam.
-        const priceDropped = game.discountPrice < historyEntry.price * 0.95;
-        const cooldownExpired = now.getTime() - lastNotified > DISCOUNT_COOLDOWN_MS;
-        if (priceDropped || cooldownExpired) {
-          shouldNotify = true;
-        }
-      }
-
-      if (shouldNotify) {
-        newSteamDeals.push(game);
-      }
-    }
-
-  }
-
-  // Кап проти заливки каналу (розпродажі Steam рухають сотні цін за раз):
-  // беремо топ за відсотком, решта мовчки лишається на сайті.
-  newSteamDeals.sort(
-    (a, b) => b.discountPercent - a.discountPercent || (b.originalPrice - b.discountPrice) - (a.originalPrice - a.discountPrice),
+  // Detect changes (Steam freebies + hot deals)
+  const { freeGames: newSteamFreeGames, deals: newSteamDeals } = selectSteamNotifications(
+    freshSteam,
+    notifiedHistory,
+    queuedKeys,
+    now,
+    {
+      minDiscountPercent: CONFIG.minDiscountPercent,
+      freeCooldownMs: FREE_GAME_COOLDOWN_MS,
+      discountCooldownMs: DISCOUNT_COOLDOWN_MS,
+      maxDealsPerRun: CONFIG.tgMaxDealsPerRun,
+    },
   );
-  if (newSteamDeals.length > CONFIG.tgMaxDealsPerRun) {
-    logger.info(
-      { total: newSteamDeals.length, capped: CONFIG.tgMaxDealsPerRun },
-      'capping telegram deals to top by discount percent',
-    );
-    newSteamDeals = newSteamDeals.slice(0, CONFIG.tgMaxDealsPerRun);
-  }
 
   // Game Pass: новинки каталогу. Перший ран після деплою (жодного ключа
   // gamepass_ в історії) лише запам'ятовує поточний список — без заливки
@@ -1005,8 +986,7 @@ async function runPrepare() {
 
   // Persist delivery intent before any Telegram request. The workflow pushes
   // this outbox, then claims/sends one message per durable checkpoint.
-  const outbox = readNotificationOutbox();
-  const queuedKeys = pendingReceiptKeys(outbox);
+  // Eligibility against notifiedHistory/cooldowns/price-drops is already decided above.
   async function sendBatched<T>(
     header: string,
     items: T[],
@@ -1014,10 +994,7 @@ async function runPrepare() {
     buildItem: (item: T) => string,
     receiptFor: (item: T) => OutboxReceipt,
   ) {
-    const eligible = items.filter(item => {
-      const key = receiptFor(item).key;
-      return !notifiedHistory[key] && !queuedKeys.has(key);
-    });
+    const eligible = items.filter(item => !queuedKeys.has(receiptFor(item).key));
     if (eligible.length === 0) return;
     const batches = buildTelegramBatches(eligible, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun);
     for (const batch of batches) {
