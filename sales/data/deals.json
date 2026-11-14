@@ -5578,6 +5578,76 @@
       "percent": 70,
       "timestamp": "2026-11-13T15:00:30.613Z",
       "type": "discount"
+    },
+    "steam_discount_704850": {
+      "title": "Thief Simulator",
+      "price": 37,
+      "percent": 91,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_2475460": {
+      "title": "SOS OPS!",
+      "price": 14,
+      "percent": 91,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_397540": {
+      "title": "Borderlands 3",
+      "price": 84,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_312660": {
+      "title": "Sniper Elite 4",
+      "price": 69,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_323190": {
+      "title": "Frostpunk",
+      "price": 60,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_1029690": {
+      "title": "Sniper Elite 5",
+      "price": 57,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_261640": {
+      "title": "Borderlands: The Pre-Sequel",
+      "price": 52,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_1004750": {
+      "title": "WRC 8 FIA World Rally Championship",
+      "price": 42,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_282070": {
+      "title": "This War of Mine",
+      "price": 41,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
+    },
+    "steam_discount_49520": {
+      "title": "Borderlands 2",
+      "price": 38,
+      "percent": 90,
+      "timestamp": "2026-11-14T13:04:00.541Z",
+      "type": "discount"
     }
   }
 }
