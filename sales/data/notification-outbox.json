@@ -1990,6 +1990,115 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T21:00:33.833Z"
+    },
+    {
+      "id": "70915e5260da4f178938b21e",
+      "createdAt": "2026-11-14T22:00:36.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Borderlands Game of the Year Enhanced</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>449 грн</s> ➡️ <b>44 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/729040\">Детальніше в Steam</a>\n\n🎮 <b>Master Detective Archives: RAIN CODE Plus</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>349 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2903950\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Road to the Black Sea</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1056760\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Beyond the Baltic Sea</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/925580\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Vive la France !</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/531130\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Italia</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/558244\">Детальніше в Steam</a>\n\n🎮 <b>American Truck Simulator - Texas</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>185 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1465750\">Детальніше в Steam</a>\n\n🎮 <b>BALL x PIT</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>162 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2062430\">Детальніше в Steam</a>\n\n🎮 <b>Thronefall</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>285 грн</s> ➡️ <b>142 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2239150\">Детальніше в Steam</a>\n\n🎮 <b>Euro Truck Simulator 2 - Going East!</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>200 грн</s> ➡️ <b>100 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/227310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "receipts": [
+        {
+          "key": "steam_discount_729040",
+          "entry": {
+            "title": "Borderlands Game of the Year Enhanced",
+            "price": 44,
+            "percent": 90,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2903950",
+          "entry": {
+            "title": "Master Detective Archives: RAIN CODE Plus",
+            "price": 349,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1056760",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Road to the Black Sea",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_925580",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Beyond the Baltic Sea",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_531130",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Vive la France !",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_558244",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Italia",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_1465750",
+          "entry": {
+            "title": "American Truck Simulator - Texas",
+            "price": 185,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2062430",
+          "entry": {
+            "title": "BALL x PIT",
+            "price": 162,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2239150",
+          "entry": {
+            "title": "Thronefall",
+            "price": 142,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_227310",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Going East!",
+            "price": 100,
+            "percent": 50,
+            "timestamp": "2026-11-14T22:00:36.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
