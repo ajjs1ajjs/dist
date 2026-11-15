@@ -3864,6 +3864,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T09:00:32.902Z"
+    },
+    {
+      "id": "d3a1f518f470740cc163ed8d",
+      "createdAt": "2026-11-15T10:00:33.783Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Euro Truck Simulator 2 - Heavy Cargo Pack</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>100 грн</s> ➡️ <b>50 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/531131\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/531131/1a62b3e5a51e0111b9eafd2eb3632d1442d8d574/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_531131",
+          "entry": {
+            "title": "Euro Truck Simulator 2 - Heavy Cargo Pack",
+            "price": 50,
+            "percent": 50,
+            "timestamp": "2026-11-15T10:00:33.783Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
