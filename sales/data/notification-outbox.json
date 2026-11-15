@@ -4116,6 +4116,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T19:00:47.490Z"
+    },
+    {
+      "id": "2a8abbd7d1ef7aab75b08f0d",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Machinarium</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>349 грн</s> ➡️ <b>52 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/40700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_40700",
+          "entry": {
+            "title": "Machinarium",
+            "price": 52,
+            "percent": 85,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "da695dad45ec7df78ee5b216",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Last Hero of Nostalgaia</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>65 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1766100\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1766100/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1766100",
+          "entry": {
+            "title": "The Last Hero of Nostalgaia",
+            "price": 65,
+            "percent": 80,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "97d40383a7c9f90f637750dd",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Goat Simulator</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>55 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/265930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/265930/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_265930",
+          "entry": {
+            "title": "Goat Simulator",
+            "price": 55,
+            "percent": 80,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dc02ec07435f37dd76393d78",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Golf It!</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>159 грн</s> ➡️ <b>39 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/571740\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/571740/c1e5fe1c353a408a037489132069d28c0c356c4f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_571740",
+          "entry": {
+            "title": "Golf It!",
+            "price": 39,
+            "percent": 75,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3e344f74378751e31ad5a802",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ship Graveyard Simulator 2</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>1 074 грн</s> ➡️ <b>329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2201940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2201940/0df8a0644fe10d12676717f50838a54c6a4a3465/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2201940",
+          "entry": {
+            "title": "Ship Graveyard Simulator 2",
+            "price": 329,
+            "percent": 72,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7a8a6ad4f9819a40c87ea378",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Astral Ascent</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>206 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1280930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1280930/f939bea0e21cbe5d539eb8c474202190b7ea252b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1280930",
+          "entry": {
+            "title": "Astral Ascent",
+            "price": 206,
+            "percent": 60,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bd567888004267a97c5bb240",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The First Berserker: Khazan</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 649 грн</s> ➡️ <b>989 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2680010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2680010",
+          "entry": {
+            "title": "The First Berserker: Khazan",
+            "price": 989,
+            "percent": 40,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4f167db66d254eb2832dcdf0",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>My Little Puppy</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>309 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2102040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2102040/19cc65cdebd0bbff1ae62d3908d0d2a5a04e243a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2102040",
+          "entry": {
+            "title": "My Little Puppy",
+            "price": 309,
+            "percent": 40,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3f46adda956f8d844c812269",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dinkum</b>\n🏷️ Знижка: <b>-37%</b>\n💰 Ціна: <s>521 грн</s> ➡️ <b>332 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1062520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062520/b688cbb08fd5e0310ed39012d630330fc5739be2/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1062520",
+          "entry": {
+            "title": "Dinkum",
+            "price": 332,
+            "percent": 37,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cf2521235edd331b11383ec2",
+      "createdAt": "2026-11-15T20:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Is This Seat Taken?</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>199 грн</s> ➡️ <b>139 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3035120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035120/087817ff9843568fcb3b6e6cc23ef4bc419be908/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3035120",
+          "entry": {
+            "title": "Is This Seat Taken?",
+            "price": 139,
+            "percent": 30,
+            "timestamp": "2026-11-15T20:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
