@@ -7986,6 +7986,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T04:00:28.950Z",
       "type": "discount"
+    },
+    "steam_discount_4521700": {
+      "title": "The Miner Was Replaced",
+      "price": 147,
+      "percent": 30,
+      "timestamp": "2026-11-15T04:00:28.950Z",
+      "type": "discount"
     }
   }
 }
