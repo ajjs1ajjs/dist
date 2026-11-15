@@ -2231,5 +2231,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_3904850": {
+    "title": "Approximately Up",
+    "price": 397,
+    "percent": 25,
+    "timestamp": "2026-11-15T05:00:27.587Z",
+    "type": "discount"
   }
 }
