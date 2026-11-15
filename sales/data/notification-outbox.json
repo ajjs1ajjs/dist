@@ -3969,6 +3969,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T14:33:38.639Z"
+    },
+    {
+      "id": "a3f90ab85910aee4c1e396ea",
+      "createdAt": "2026-11-15T15:00:31.807Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gold Mining Simulator</b>\n🏷️ Знижка: <b>-86%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>58 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/451340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/451340/cf1abc9b1b9cb6995fb410d21713f4eb9113d095/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_451340",
+          "entry": {
+            "title": "Gold Mining Simulator",
+            "price": 58,
+            "percent": 86,
+            "timestamp": "2026-11-15T15:00:31.807Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
