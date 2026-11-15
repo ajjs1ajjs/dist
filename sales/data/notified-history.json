@@ -2238,5 +2238,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_3731020": {
+    "title": "Five Hearts Under One Roof season 2",
+    "price": 355,
+    "percent": 25,
+    "timestamp": "2026-11-15T05:00:27.587Z",
+    "type": "discount"
   }
 }
