@@ -3150,6 +3150,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T03:01:14.957Z"
+    },
+    {
+      "id": "0ab88c9ed1318bd7b3455496",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>WARRIORS: Abyss</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>813 грн</s> ➡️ <b>268 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3178350\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3178350/565821eebefc6a2f4d0d9c8674b5ba8c7d194ed3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3178350",
+          "entry": {
+            "title": "WARRIORS: Abyss",
+            "price": 268,
+            "percent": 67,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "09bb1fc6139934a97d12090e",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crosshair X</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>230 грн</s> ➡️ <b>161 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1366800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366800/71d2ac94bdc6f5895bd261006d8f8ebf7bf42b9e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1366800",
+          "entry": {
+            "title": "Crosshair X",
+            "price": 161,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "38862e0b9203d1292913a8ae",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Aviassembly</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>225 грн</s> ➡️ <b>157 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2660460\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/4865df2f4aa2ec5d0cfb9a410dfdda5313e5e257/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2660460",
+          "entry": {
+            "title": "Aviassembly",
+            "price": 157,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "66f3f1f4bceeac479f67fecf",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>CloverPit</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>225 грн</s> ➡️ <b>157 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3314790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/e6955b668c667da7b5019f481707f69b4fb814b5/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3314790",
+          "entry": {
+            "title": "CloverPit",
+            "price": 157,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f5deec0ecaa33e6d03a8778d",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Miner Was Replaced</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>210 грн</s> ➡️ <b>147 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4521700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4521700/1b1a60bf7c9279925318792999e8e360d8f7cc04/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4521700",
+          "entry": {
+            "title": "The Miner Was Replaced",
+            "price": 147,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "777b40a04f7a1f93df477b0d",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>PICO PARK 2</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>199 грн</s> ➡️ <b>139 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2644470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2644470/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2644470",
+          "entry": {
+            "title": "PICO PARK 2",
+            "price": 139,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9109f7eedec6743dd199e02c",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mimic Party</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5053820\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/b4377159ba73da6ed927c8b5503bec61ff5ab3ac/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5053820",
+          "entry": {
+            "title": "Mimic Party",
+            "price": 119,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e2ae99063dc939e105c261b5",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>What the Buck?!</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4832970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/0868c5e5ca7550c478d148e3a14f1b8181d3b006/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4832970",
+          "entry": {
+            "title": "What the Buck?!",
+            "price": 119,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bc1b9024de9d41909eaf9863",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>How They Built the Pyramids</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>150 грн</s> ➡️ <b>105 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5458210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/d782705d33de4d6e5bda9db42eac3853e5d1c9c1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5458210",
+          "entry": {
+            "title": "How They Built the Pyramids",
+            "price": 105,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3683fba6ed97c5eb5ce03c84",
+      "createdAt": "2026-11-15T04:00:28.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Wallpaper Animator</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>130 грн</s> ➡️ <b>91 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4484970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4484970/32d43ca07ab44a150bd83b212665596c6ac27d3e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4484970",
+          "entry": {
+            "title": "Wallpaper Animator",
+            "price": 91,
+            "percent": 30,
+            "timestamp": "2026-11-15T04:00:28.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
