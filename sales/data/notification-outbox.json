@@ -2730,6 +2730,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T01:01:20.372Z"
+    },
+    {
+      "id": "25853d4b3a8295a4ce851863",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>TerraTech</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>82 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/285920\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285920/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_285920",
+          "entry": {
+            "title": "TerraTech",
+            "price": 82,
+            "percent": 75,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "18d977e9b3fe200478028076",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>American Truck Simulator - Idaho</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1209470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209470/4bf5c499c44b091e9f818b556692c778c3de641e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1209470",
+          "entry": {
+            "title": "American Truck Simulator - Idaho",
+            "price": 120,
+            "percent": 50,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "799a9de1ebd8c4856c834381",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Scritchy Scratchy</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>105 грн</s> ➡️ <b>68 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3948120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3948120",
+          "entry": {
+            "title": "Scritchy Scratchy",
+            "price": 68,
+            "percent": 35,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ec026da2f4ef99f75dbeccdd",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Precinct</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>402 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/490110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/490110/140ffa4d5e7102bcb17fade670a447888680dd7e/capsule_231x87_alt_assets_7.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_490110",
+          "entry": {
+            "title": "The Precinct",
+            "price": 402,
+            "percent": 33,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f27d4e34826af9d9810d5be0",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Selaco</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>345 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1592280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592280/9edf82f5a3f7f51e04e6f46e51b84b03bdd00ea8/capsule_231x87_alt_assets_7.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1592280",
+          "entry": {
+            "title": "Selaco",
+            "price": 345,
+            "percent": 33,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "67fa4ea0b4dd7fe9e7397be8",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>不问凡尘</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>295 грн</s> ➡️ <b>197 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4209920\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209920/db31d8665665d6ca1b412db240890dcf4641ff67/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4209920",
+          "entry": {
+            "title": "不问凡尘",
+            "price": 197,
+            "percent": 33,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cc22f9bf25d05f61adc3d48a",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DYNASTY WARRIORS: ORIGINS</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>2 275 грн</s> ➡️ <b>1 592 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2384580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384580/1d617ff6c5f1e910f8c799453bd65662dcd4b885/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2384580",
+          "entry": {
+            "title": "DYNASTY WARRIORS: ORIGINS",
+            "price": 1592,
+            "percent": 30,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "40368e24db8ca9fdf117f9e9",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Cities: Skylines II</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>944 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/949230\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/48653b77260f9f4dabdb691bff5f395b66a85d50/capsule_231x87_alt_assets_9_ukrainian.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_949230",
+          "entry": {
+            "title": "Cities: Skylines II",
+            "price": 944,
+            "percent": 30,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a044dbde3236bf759d2a74e2",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Expansion - Hearts of Iron IV: Götterdämmerung</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>669 грн</s> ➡️ <b>468 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3152780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3152780/dfeb91198a4d5eaf271638e593a50431e4d63541/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3152780",
+          "entry": {
+            "title": "Expansion - Hearts of Iron IV: Götterdämmerung",
+            "price": 468,
+            "percent": 30,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5a2db25d51666746ba2fd56f",
+      "createdAt": "2026-11-15T02:00:28.847Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Cities: Skylines II - Bridges &amp; Ports</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>377 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2427743\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427743/1b52fa594e7d3808df8fd5ba3846b17c70a33f69/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2427743",
+          "entry": {
+            "title": "Cities: Skylines II - Bridges & Ports",
+            "price": 377,
+            "percent": 30,
+            "timestamp": "2026-11-15T02:00:28.847Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
