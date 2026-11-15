@@ -2420,5 +2420,12 @@
     "percent": 90,
     "timestamp": "2026-11-15T19:00:37.110Z",
     "type": "discount"
+  },
+  "steam_discount_218560": {
+    "title": "Borderlands 2 Season Pass",
+    "price": 38,
+    "percent": 90,
+    "timestamp": "2026-11-15T19:00:37.110Z",
+    "type": "discount"
   }
 }
