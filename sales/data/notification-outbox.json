@@ -3948,6 +3948,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T14:00:32.020Z"
+    },
+    {
+      "id": "23d818476f9fad6d9ae78d18",
+      "createdAt": "2026-11-15T14:33:34.092Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Witness</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>479 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/210970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/210970/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_210970",
+          "entry": {
+            "title": "The Witness",
+            "price": 119,
+            "percent": 75,
+            "timestamp": "2026-11-15T14:33:34.092Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
