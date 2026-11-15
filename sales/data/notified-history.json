@@ -1895,5 +1895,12 @@
     "percent": 40,
     "timestamp": "2026-11-15T00:00:30.110Z",
     "type": "discount"
+  },
+  "steam_discount_2178480": {
+    "title": "不思議のダンジョン　風来のシレン６　とぐろ島探検録",
+    "price": 333,
+    "percent": 55,
+    "timestamp": "2026-11-15T01:00:32.252Z",
+    "type": "discount"
   }
 }
