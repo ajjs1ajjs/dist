@@ -2210,5 +2210,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_4038930": {
+    "title": "DYNASTY WARRIORS: ORIGINS Visions of Four Heroes",
+    "price": 853,
+    "percent": 25,
+    "timestamp": "2026-11-15T05:00:27.587Z",
+    "type": "discount"
   }
 }
