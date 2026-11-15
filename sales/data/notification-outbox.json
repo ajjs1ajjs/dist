@@ -3885,6 +3885,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T10:00:38.357Z"
+    },
+    {
+      "id": "1688241c63dc574846cbb89e",
+      "createdAt": "2026-11-15T11:00:31.942Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Survival: Fountain of Youth</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>560 грн</s> ➡️ <b>196 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1967630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967630/1c5eed36522d92a2f75b2e1891d8c171e6debaf7/capsule_231x87_alt_assets_9.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1967630",
+          "entry": {
+            "title": "Survival: Fountain of Youth",
+            "price": 196,
+            "percent": 65,
+            "timestamp": "2026-11-15T11:00:31.942Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
