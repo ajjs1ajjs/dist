@@ -8458,6 +8458,13 @@
       "percent": 75,
       "timestamp": "2026-11-15T17:00:31.190Z",
       "type": "discount"
+    },
+    "steam_discount_319090": {
+      "title": "Borderlands: The Pre-Sequel Season Pass",
+      "price": 38,
+      "percent": 90,
+      "timestamp": "2026-11-15T19:00:37.110Z",
+      "type": "discount"
     }
   }
 }
