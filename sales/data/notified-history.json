@@ -2357,5 +2357,12 @@
     "percent": 65,
     "timestamp": "2026-11-15T11:00:31.942Z",
     "type": "discount"
+  },
+  "steam_discount_3181500": {
+    "title": "Age of Wonders 4: Giant Kings",
+    "price": 501,
+    "percent": 25,
+    "timestamp": "2026-11-15T12:00:39.633Z",
+    "type": "discount"
   }
 }
