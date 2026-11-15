@@ -1888,5 +1888,12 @@
     "percent": 40,
     "timestamp": "2026-11-15T00:00:30.110Z",
     "type": "discount"
+  },
+  "steam_discount_2670630": {
+    "title": "Supermarket Simulator",
+    "price": 257,
+    "percent": 40,
+    "timestamp": "2026-11-15T00:00:30.110Z",
+    "type": "discount"
   }
 }
