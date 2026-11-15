@@ -2294,5 +2294,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T06:00:35.043Z",
     "type": "discount"
+  },
+  "steam_discount_3542380": {
+    "title": "Rune Dice",
+    "price": 243,
+    "percent": 25,
+    "timestamp": "2026-11-15T06:00:35.043Z",
+    "type": "discount"
   }
 }
