@@ -7878,6 +7878,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T03:00:29.784Z",
       "type": "discount"
+    },
+    "steam_discount_3469800": {
+      "title": "Company of Heroes 3: Fire & Steel",
+      "price": 349,
+      "percent": 30,
+      "timestamp": "2026-11-15T03:00:29.784Z",
+      "type": "discount"
     }
   }
 }
