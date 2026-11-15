@@ -2119,5 +2119,12 @@
     "percent": 30,
     "timestamp": "2026-11-15T04:00:28.950Z",
     "type": "discount"
+  },
+  "steam_discount_2660460": {
+    "title": "Aviassembly",
+    "price": 157,
+    "percent": 30,
+    "timestamp": "2026-11-15T04:00:28.950Z",
+    "type": "discount"
   }
 }
