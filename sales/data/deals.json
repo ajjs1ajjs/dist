@@ -7716,6 +7716,13 @@
       "percent": 50,
       "timestamp": "2026-11-15T01:00:32.252Z",
       "type": "discount"
+    },
+    "steam_discount_2209650": {
+      "title": "American Truck Simulator - Oklahoma",
+      "price": 120,
+      "percent": 50,
+      "timestamp": "2026-11-15T01:00:32.252Z",
+      "type": "discount"
     }
   }
 }
