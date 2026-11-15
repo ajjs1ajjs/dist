@@ -2203,5 +2203,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_4883590": {
+    "title": "iRacing® Studios NASCAR 26",
+    "price": 862,
+    "percent": 25,
+    "timestamp": "2026-11-15T05:00:27.587Z",
+    "type": "discount"
   }
 }
