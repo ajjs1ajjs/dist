@@ -3822,6 +3822,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T07:00:38.690Z"
+    },
+    {
+      "id": "854e2fe86610dac20c84d028",
+      "createdAt": "2026-11-15T08:00:37.094Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>WitchSpring R</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>350 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1958220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1958220/beda23236bfce91abdf04e01b3d955a35b27559e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1958220",
+          "entry": {
+            "title": "WitchSpring R",
+            "price": 350,
+            "percent": 50,
+            "timestamp": "2026-11-15T08:00:37.094Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
