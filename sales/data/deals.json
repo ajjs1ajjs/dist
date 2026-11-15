@@ -8223,6 +8223,13 @@
       "percent": 50,
       "timestamp": "2026-11-15T10:00:33.783Z",
       "type": "discount"
+    },
+    "steam_discount_1967630": {
+      "title": "Survival: Fountain of Youth",
+      "price": 196,
+      "percent": 65,
+      "timestamp": "2026-11-15T11:00:31.942Z",
+      "type": "discount"
     }
   }
 }
