@@ -1832,5 +1832,12 @@
     "percent": 72,
     "timestamp": "2026-11-15T00:00:30.110Z",
     "type": "discount"
+  },
+  "steam_discount_550320": {
+    "title": "art of rally",
+    "price": 265,
+    "percent": 50,
+    "timestamp": "2026-11-15T00:00:30.110Z",
+    "type": "discount"
   }
 }
