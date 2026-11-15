@@ -2476,5 +2476,12 @@
     "percent": 40,
     "timestamp": "2026-11-15T20:00:29.674Z",
     "type": "discount"
+  },
+  "steam_discount_1062520": {
+    "title": "Dinkum",
+    "price": 332,
+    "percent": 37,
+    "timestamp": "2026-11-15T20:00:29.674Z",
+    "type": "discount"
   }
 }
