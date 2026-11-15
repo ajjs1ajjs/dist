@@ -4369,6 +4369,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T21:00:39.082Z"
+    },
+    {
+      "id": "ea3644ea434e1bea1dc06701",
+      "createdAt": "2026-11-15T22:00:38.387Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>Active Matter - Upgrade to Advanced Edition</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/4107830\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4107830/4e3087624f5bbcc7fad67c0a57d5f44060c5ff44/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_free_4107830",
+          "entry": {
+            "title": "Active Matter - Upgrade to Advanced Edition",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-15T22:00:38.387Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
