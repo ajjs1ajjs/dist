@@ -7737,6 +7737,13 @@
       "percent": 36,
       "timestamp": "2026-11-15T01:00:32.252Z",
       "type": "discount"
+    },
+    "steam_discount_2569760": {
+      "title": "The Mound: Omen of Cthulhu",
+      "price": 584,
+      "percent": 35,
+      "timestamp": "2026-11-15T01:00:32.252Z",
+      "type": "discount"
     }
   }
 }
