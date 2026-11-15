@@ -7993,6 +7993,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T04:00:28.950Z",
       "type": "discount"
+    },
+    "steam_discount_2644470": {
+      "title": "PICO PARK 2",
+      "price": 139,
+      "percent": 30,
+      "timestamp": "2026-11-15T04:00:28.950Z",
+      "type": "discount"
     }
   }
 }
