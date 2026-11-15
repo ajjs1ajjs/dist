@@ -2378,5 +2378,12 @@
     "percent": 75,
     "timestamp": "2026-11-15T14:33:34.092Z",
     "type": "discount"
+  },
+  "steam_discount_451340": {
+    "title": "Gold Mining Simulator",
+    "price": 58,
+    "percent": 86,
+    "timestamp": "2026-11-15T15:00:31.807Z",
+    "type": "discount"
   }
 }
