@@ -2252,5 +2252,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T06:00:35.043Z",
     "type": "discount"
+  },
+  "steam_discount_5343400": {
+    "title": "Car Flipper",
+    "price": 352,
+    "percent": 25,
+    "timestamp": "2026-11-15T06:00:35.043Z",
+    "type": "discount"
   }
 }
