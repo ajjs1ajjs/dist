@@ -1923,5 +1923,12 @@
     "percent": 50,
     "timestamp": "2026-11-15T01:00:32.252Z",
     "type": "discount"
+  },
+  "steam_discount_3745310": {
+    "title": "DEADLINE DELIVERY",
+    "price": 195,
+    "percent": 40,
+    "timestamp": "2026-11-15T01:00:32.252Z",
+    "type": "discount"
   }
 }
