@@ -8318,6 +8318,13 @@
       "percent": 35,
       "timestamp": "2026-11-15T14:00:28.722Z",
       "type": "discount"
+    },
+    "steam_discount_210970": {
+      "title": "The Witness",
+      "price": 119,
+      "percent": 75,
+      "timestamp": "2026-11-15T14:33:34.092Z",
+      "type": "discount"
     }
   }
 }
