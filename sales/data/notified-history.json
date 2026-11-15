@@ -2448,5 +2448,12 @@
     "percent": 80,
     "timestamp": "2026-11-15T20:00:29.674Z",
     "type": "discount"
+  },
+  "steam_discount_571740": {
+    "title": "Golf It!",
+    "price": 39,
+    "percent": 75,
+    "timestamp": "2026-11-15T20:00:29.674Z",
+    "type": "discount"
   }
 }
