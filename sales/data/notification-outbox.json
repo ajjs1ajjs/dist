@@ -2310,6 +2310,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-14T23:01:13.115Z"
+    },
+    {
+      "id": "dab3222a8a2fb8525fe591e7",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tavern Master: Pirates Retreat</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>124 грн</s> ➡️ <b>35 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3261130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3261130/cfe66a8173a2a864543b5a426ff0576bc99ed1f9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3261130",
+          "entry": {
+            "title": "Tavern Master: Pirates Retreat",
+            "price": 35,
+            "percent": 72,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fdce84140dac1ceb2898fd67",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>art of rally</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>530 грн</s> ➡️ <b>265 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/550320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550320/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_550320",
+          "entry": {
+            "title": "art of rally",
+            "price": 265,
+            "percent": 50,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a4a66ad3420a3b3f9bceb748",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>American Truck Simulator - Arkansas</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2585150\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2585150/49b9419001119ffa761cf7f4697aaa236ca99c52/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2585150",
+          "entry": {
+            "title": "American Truck Simulator - Arkansas",
+            "price": 120,
+            "percent": 50,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ec0f357fb156a6ee2516039c",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Coral Island</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>360 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1158160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/510f5cd946c40e220b27a6c537c026ab70eb0a25/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1158160",
+          "entry": {
+            "title": "Coral Island",
+            "price": 360,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dd41e2ae10979f6e40ce79b7",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>shapez 2 - Factory</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>360 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2162800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2162800/df8f2fec6fcbba5f1e014f17c95172d885c35e23/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2162800",
+          "entry": {
+            "title": "shapez 2 - Factory",
+            "price": 360,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "93eb2fe3420f4d7cfc9ae1a6",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Crust</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>359 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1465470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465470/befb6898e5f2b839ffaed422ed7702a1104c1c80/capsule_616x353_alt_assets_19.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1465470",
+          "entry": {
+            "title": "The Crust",
+            "price": 359,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "179a15c3235fac4ef1d6f915",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Borderlands 3: Season Pass 2</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>549 грн</s> ➡️ <b>329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1396474\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1396474/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1396474",
+          "entry": {
+            "title": "Borderlands 3: Season Pass 2",
+            "price": 329,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2f7cf2836bd899610f69f4ef",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Absolum</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>309 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1904480\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/33ade00552879948450968586802d222b31e7af5/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1904480",
+          "entry": {
+            "title": "Absolum",
+            "price": 309,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "28a8fcf7c30fb0e2b4903d5d",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Phonopolis</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>449 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1206070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206070/fe4af527c3cc8a484d023ed4d81b72a287ca6caf/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1206070",
+          "entry": {
+            "title": "Phonopolis",
+            "price": 269,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "af05f851d44d559ca0832319",
+      "createdAt": "2026-11-15T00:00:30.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Supermarket Simulator</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>257 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2670630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/88bc3b48af8c5136e59e7d63cfbc37d14fad64f7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2670630",
+          "entry": {
+            "title": "Supermarket Simulator",
+            "price": 257,
+            "percent": 40,
+            "timestamp": "2026-11-15T00:00:30.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
