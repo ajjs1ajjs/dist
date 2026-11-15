@@ -4074,6 +4074,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T17:00:35.565Z"
+    },
+    {
+      "id": "c4ee5e883f2a58cd28196255",
+      "createdAt": "2026-11-15T19:00:37.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Borderlands: The Pre-Sequel Season Pass</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>38 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/319090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/319090/header.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_319090",
+          "entry": {
+            "title": "Borderlands: The Pre-Sequel Season Pass",
+            "price": 38,
+            "percent": 90,
+            "timestamp": "2026-11-15T19:00:37.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8ab26584a69d763de9cfc02d",
+      "createdAt": "2026-11-15T19:00:37.110Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Borderlands 2 Season Pass</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>38 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/218560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218560/header.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_218560",
+          "entry": {
+            "title": "Borderlands 2 Season Pass",
+            "price": 38,
+            "percent": 90,
+            "timestamp": "2026-11-15T19:00:37.110Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
