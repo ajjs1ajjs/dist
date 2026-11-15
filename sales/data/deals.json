@@ -8021,6 +8021,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T04:00:28.950Z",
       "type": "discount"
+    },
+    "steam_discount_4484970": {
+      "title": "Wallpaper Animator",
+      "price": 91,
+      "percent": 30,
+      "timestamp": "2026-11-15T04:00:28.950Z",
+      "type": "discount"
     }
   }
 }
