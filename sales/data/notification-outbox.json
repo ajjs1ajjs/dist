@@ -3990,6 +3990,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T15:00:37.088Z"
+    },
+    {
+      "id": "63021d338292cee6da4064c6",
+      "createdAt": "2026-11-15T16:00:34.232Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>ICEY</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>179 грн</s> ➡️ <b>62 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/553640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553640/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_553640",
+          "entry": {
+            "title": "ICEY",
+            "price": 62,
+            "percent": 65,
+            "timestamp": "2026-11-15T16:00:34.232Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "13496d767b330c436d9e5ce7",
+      "createdAt": "2026-11-15T16:00:34.232Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Five Hearts Under One Roof</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3021100\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021100/90553a0ae698152162dd9ed33838bbb4c00bad81/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3021100",
+          "entry": {
+            "title": "Five Hearts Under One Roof",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-15T16:00:34.232Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e9583a66be156f59b9540ba8",
+      "createdAt": "2026-11-15T16:00:34.232Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Plains of Pain</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2218970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218970/ca5ec7f3619e72e273fdfeba9ba02f4a6bc3d94e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2218970",
+          "entry": {
+            "title": "Plains of Pain",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-15T16:00:34.232Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
