@@ -3843,6 +3843,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T08:00:41.049Z"
+    },
+    {
+      "id": "d391fd73dbce3838ef26057d",
+      "createdAt": "2026-11-15T09:00:29.482Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Age of Wonders 4: Archon Prophecy</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>669 грн</s> ➡️ <b>501 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3181540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3181540/fed9b9bcb641a735f59e4ff2285e85a0810ef991/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3181540",
+          "entry": {
+            "title": "Age of Wonders 4: Archon Prophecy",
+            "price": 501,
+            "percent": 25,
+            "timestamp": "2026-11-15T09:00:29.482Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
