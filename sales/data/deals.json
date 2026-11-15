@@ -8193,6 +8193,13 @@
       "percent": 80,
       "timestamp": "2026-11-15T07:00:29.707Z",
       "type": "discount"
+    },
+    "steam_discount_3365050": {
+      "title": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
+      "price": 975,
+      "percent": 25,
+      "timestamp": "2026-11-15T07:00:29.707Z",
+      "type": "discount"
     }
   }
 }
