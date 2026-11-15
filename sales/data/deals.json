@@ -7751,6 +7751,13 @@
       "percent": 35,
       "timestamp": "2026-11-15T01:00:32.252Z",
       "type": "discount"
+    },
+    "steam_discount_4557380": {
+      "title": "Batomon Showdown",
+      "price": 217,
+      "percent": 35,
+      "timestamp": "2026-11-15T01:00:32.252Z",
+      "type": "discount"
     }
   }
 }
