@@ -8427,6 +8427,13 @@
       "percent": 50,
       "timestamp": "2026-11-15T16:00:34.232Z",
       "type": "discount"
+    },
+    "steam_discount_1611910": {
+      "title": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+      "price": 132,
+      "percent": 75,
+      "timestamp": "2026-11-15T17:00:31.190Z",
+      "type": "discount"
     }
   }
 }
