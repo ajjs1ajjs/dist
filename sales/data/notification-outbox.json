@@ -2520,6 +2520,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T00:01:10.057Z"
+    },
+    {
+      "id": "adeddc6fe66e63f61428f15a",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>不思議のダンジョン　風来のシレン６　とぐろ島探検録</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>333 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2178480\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178480/f56bf738de4cb10b4b6a5b88dfa2f661d6f2bfca/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2178480",
+          "entry": {
+            "title": "不思議のダンジョン　風来のシレン６　とぐろ島探検録",
+            "price": 333,
+            "percent": 55,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4675883d5f159636b91e4010",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Wizardry: The Five Ordeals</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>333 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1308700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1308700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1308700",
+          "entry": {
+            "title": "Wizardry: The Five Ordeals",
+            "price": 333,
+            "percent": 55,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ee03fb186098b3d884312881",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>American Truck Simulator - Oregon</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/800370\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800370/0c25502819234e6751140e00f84f99ab56c44af8/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_800370",
+          "entry": {
+            "title": "American Truck Simulator - Oregon",
+            "price": 120,
+            "percent": 50,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "366dcccb1ac9867083bb88f4",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>American Truck Simulator - Oklahoma</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2209650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209650/e010a24cf8c31bc15faf4750a1ff6a3e79e1ff5c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2209650",
+          "entry": {
+            "title": "American Truck Simulator - Oklahoma",
+            "price": 120,
+            "percent": 50,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6b47a8b3a720fc7948673f91",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DEADLINE DELIVERY</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>195 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3745310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/9c50e2f0eb74416b234ac20f760f5f1b56625b40/capsule_231x87_alt_assets_1.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3745310",
+          "entry": {
+            "title": "DEADLINE DELIVERY",
+            "price": 195,
+            "percent": 40,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e26c6aa72f4d9bb1c2018e10",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Arctic Awakening</b>\n🏷️ Знижка: <b>-36%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1275550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1275550/5f20b67dfb6a5e40c29240d8d9eff525331d6f21/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1275550",
+          "entry": {
+            "title": "Arctic Awakening",
+            "price": 329,
+            "percent": 36,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7ad673047ae37f5307d7d3a3",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Mound: Omen of Cthulhu</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>584 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2569760\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2569760",
+          "entry": {
+            "title": "The Mound: Omen of Cthulhu",
+            "price": 584,
+            "percent": 35,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "189364ec8b46a29e4a10e875",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Evenicle - Next Fragment Medica</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>529 грн</s> ➡️ <b>343 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5130120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130120/f259d14a1195477da689c71056765fb4ffe5daec/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5130120",
+          "entry": {
+            "title": "Evenicle - Next Fragment Medica",
+            "price": 343,
+            "percent": 35,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4d565b0cb4defac2c77a0285",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Batomon Showdown</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>335 грн</s> ➡️ <b>217 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4557380\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/0de7c71eb0168ca729cf210a502290d76a895969/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4557380",
+          "entry": {
+            "title": "Batomon Showdown",
+            "price": 217,
+            "percent": 35,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "728851ad65edcb9f8f4499dd",
+      "createdAt": "2026-11-15T01:00:32.252Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Easy Red 2</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>210 грн</s> ➡️ <b>136 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1324780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1324780/d5b4ffd28d46750691592a8920d92a8e75d9c7a8/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1324780",
+          "entry": {
+            "title": "Easy Red 2",
+            "price": 136,
+            "percent": 35,
+            "timestamp": "2026-11-15T01:00:32.252Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
