@@ -3570,6 +3570,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T05:01:10.484Z"
+    },
+    {
+      "id": "ad79ba2adbfd3aabc142aec0",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gold Mining Simulator - Definitive Edition</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>785 грн</s> ➡️ <b>589 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4707700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707700/9d5e77e9bad05f944091dcb0028e5fea51631f95/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4707700",
+          "entry": {
+            "title": "Gold Mining Simulator - Definitive Edition",
+            "price": 589,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "add7c985afb612ab83793e0b",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Car Flipper</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>470 грн</s> ➡️ <b>352 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5343400\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5343400/1e545aec4ffa01059c1c0c5dad0dea6d53eb6b68/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5343400",
+          "entry": {
+            "title": "Car Flipper",
+            "price": 352,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ac5b4596491c2719dcc86b4f",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Car Service Together</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>311 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3501070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3501070/aa4f6caf295f82a92ca1ed16f5f0f6327dd6f391/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3501070",
+          "entry": {
+            "title": "Car Service Together",
+            "price": 311,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "89b7b13bb59f9691c15e629d",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>BitCraft Online</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>340 грн</s> ➡️ <b>255 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3454650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454650/fa7c3e687a3bcbf1447c98620e4c3d89e0c5fa50/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3454650",
+          "entry": {
+            "title": "BitCraft Online",
+            "price": 255,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "69a6efe9b1c4e47807bc49df",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Plan B: Terraform</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>340 грн</s> ➡️ <b>255 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1894430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1894430/5bdc0a107b674342ca04cb26ce80459203934382/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1894430",
+          "entry": {
+            "title": "Plan B: Terraform",
+            "price": 255,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a4bf060f0f21c2d6b76c33c2",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dirty Business</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>335 грн</s> ➡️ <b>251 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4324480\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/4a95a41b3cb6e9faa3c8c6aefec4205ba256eaa5/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4324480",
+          "entry": {
+            "title": "Dirty Business",
+            "price": 251,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6bc48bc4bced96e69c2c9190",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Scriptorium: Master of Manuscripts</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>335 грн</s> ➡️ <b>251 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3119540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3119540/3ca2c47fbdca7b6301b78995e90cd20f2c771c01/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3119540",
+          "entry": {
+            "title": "Scriptorium: Master of Manuscripts",
+            "price": 251,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8f213f2799249537153a1e48",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Rune Dice</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>243 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3542380\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3542380/2fe65a6d0a29db8bf3eb6b3d8ae7934850ca9e20/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3542380",
+          "entry": {
+            "title": "Rune Dice",
+            "price": 243,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "72d7a26a2f79703f4a9fad09",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Bottled by Bears</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>180 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4390080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4390080/8260e77dc50e955543bb5cfed1391e30985ecd61/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4390080",
+          "entry": {
+            "title": "Bottled by Bears",
+            "price": 180,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "63d2b3627f2c5b581d0e9b66",
+      "createdAt": "2026-11-15T06:00:35.043Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Bunker Tidy Up</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>130 грн</s> ➡️ <b>97 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5212940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5212940/4efb6048aedc451f18bbd10a4507abab80562db0/capsule_231x87_alt_assets_1.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5212940",
+          "entry": {
+            "title": "Bunker Tidy Up",
+            "price": 97,
+            "percent": 25,
+            "timestamp": "2026-11-15T06:00:35.043Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
