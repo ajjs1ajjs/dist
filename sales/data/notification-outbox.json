@@ -3360,6 +3360,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T04:01:10.814Z"
+    },
+    {
+      "id": "48aaa5f87a917c48fa2efcbd",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Atelier Ryza: Ever Darkness &amp; the Secret Hideout DX</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 300 грн</s> ➡️ <b>780 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3365030\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365030/6180eee87e8640ceba8678121fa7ff9a597f199c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3365030",
+          "entry": {
+            "title": "Atelier Ryza: Ever Darkness & the Secret Hideout DX",
+            "price": 780,
+            "percent": 40,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8ca11d200501409a82113467",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Arteria</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5373210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373210/329faab81badf4ab124e46c044a3a93dde23fd1d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5373210",
+          "entry": {
+            "title": "Arteria",
+            "price": 168,
+            "percent": 30,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2df0adcc4dbe496306a348d4",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>PICO PARK</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>99 грн</s> ➡️ <b>69 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1509960\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1509960/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1509960",
+          "entry": {
+            "title": "PICO PARK",
+            "price": 69,
+            "percent": 30,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "659ac104046dd16904763e96",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Korea. IL-2 Series</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>2 290 грн</s> ➡️ <b>1 717 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/247970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247970/bbca62ba800619714e19a99487d021c75e9ad6c7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_247970",
+          "entry": {
+            "title": "Korea. IL-2 Series",
+            "price": 1717,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0fb704d2ac582f057a272df3",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>iRacing® Studios NASCAR 26</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 150 грн</s> ➡️ <b>862 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4883590\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4883590/9fa49381c75d7ae7622e3a7930a744871fd76fdb/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4883590",
+          "entry": {
+            "title": "iRacing® Studios NASCAR 26",
+            "price": 862,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "af326e24720379cccb4e3c16",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DYNASTY WARRIORS: ORIGINS Visions of Four Heroes</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 138 грн</s> ➡️ <b>853 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4038930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4038930/31da9abffc594d507b51640aeed0127dc4dd13e9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4038930",
+          "entry": {
+            "title": "DYNASTY WARRIORS: ORIGINS Visions of Four Heroes",
+            "price": 853,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "258ea6b504a2ce843bdf8a78",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>MARVEL Cosmic Invasion</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>673 грн</s> ➡️ <b>504 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2753970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/69287184eaf5928936bc71c1b16ed0cf092dba12/capsule_616x353_alt_assets_2.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2753970",
+          "entry": {
+            "title": "MARVEL Cosmic Invasion",
+            "price": 504,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d06b9a758a8b0598baab7bed",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Going Medieval</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>450 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1029780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029780/e55e8b593537a69857631367747a2dfe967ef25f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1029780",
+          "entry": {
+            "title": "Going Medieval",
+            "price": 450,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "60d2ce5b34c1fa21f89d3c76",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Approximately Up</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>530 грн</s> ➡️ <b>397 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3904850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3904850/dd811c9d1cf2548b22cce739a8be9a7e8529d45e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3904850",
+          "entry": {
+            "title": "Approximately Up",
+            "price": 397,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5262ccffd61ca6c44ef337fb",
+      "createdAt": "2026-11-15T05:00:27.587Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Five Hearts Under One Roof season 2</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>474 грн</s> ➡️ <b>355 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3731020\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3731020/3e105370cc7641f82ed4ebd027f57076e16d9b38/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3731020",
+          "entry": {
+            "title": "Five Hearts Under One Roof season 2",
+            "price": 355,
+            "percent": 25,
+            "timestamp": "2026-11-15T05:00:27.587Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
