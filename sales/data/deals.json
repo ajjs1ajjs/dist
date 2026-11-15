@@ -8207,6 +8207,13 @@
       "percent": 25,
       "timestamp": "2026-11-15T07:00:29.707Z",
       "type": "discount"
+    },
+    "steam_discount_1958220": {
+      "title": "WitchSpring R",
+      "price": 350,
+      "percent": 50,
+      "timestamp": "2026-11-15T08:00:37.094Z",
+      "type": "discount"
     }
   }
 }
