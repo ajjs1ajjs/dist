@@ -8696,6 +8696,13 @@
       "percent": 37,
       "timestamp": "2026-11-15T20:00:29.674Z",
       "type": "discount"
+    },
+    "steam_discount_3035120": {
+      "title": "Is This Seat Taken?",
+      "price": 139,
+      "percent": 30,
+      "timestamp": "2026-11-15T20:00:29.674Z",
+      "type": "discount"
     }
   }
 }
