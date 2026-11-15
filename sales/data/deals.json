@@ -7958,6 +7958,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T03:00:29.784Z",
       "type": "discount"
+    },
+    "steam_discount_3178350": {
+      "title": "WARRIORS: Abyss",
+      "price": 268,
+      "percent": 67,
+      "timestamp": "2026-11-15T04:00:28.950Z",
+      "type": "discount"
     }
   }
 }
