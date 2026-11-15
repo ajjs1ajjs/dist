@@ -3906,6 +3906,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T11:00:35.958Z"
+    },
+    {
+      "id": "e775d0afe565749ea1d4e1b3",
+      "createdAt": "2026-11-15T12:00:39.633Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Age of Wonders 4: Giant Kings</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>669 грн</s> ➡️ <b>501 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3181500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3181500/8e04791a1dac2aa6794339db7c083692b9bc24aa/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3181500",
+          "entry": {
+            "title": "Age of Wonders 4: Giant Kings",
+            "price": 501,
+            "percent": 25,
+            "timestamp": "2026-11-15T12:00:39.633Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
