@@ -4281,9 +4281,10 @@
           }
         }
       ],
-      "status": "sending",
+      "status": "uncertain",
       "attempts": 1,
-      "claimedAt": "2026-11-15T20:01:07.663Z"
+      "claimedAt": "2026-11-15T20:01:07.663Z",
+      "lastError": "Telegram send failed: fetch failed"
     },
     {
       "id": "3f46adda956f8d844c812269",
