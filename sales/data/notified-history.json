@@ -2189,5 +2189,12 @@
     "percent": 30,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_1509960": {
+    "title": "PICO PARK",
+    "price": 69,
+    "percent": 30,
+    "timestamp": "2026-11-15T05:00:27.587Z",
+    "type": "discount"
   }
 }
