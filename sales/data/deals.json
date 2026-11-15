@@ -7610,6 +7610,13 @@
       "percent": 50,
       "timestamp": "2026-11-15T00:00:30.110Z",
       "type": "discount"
+    },
+    "steam_discount_2585150": {
+      "title": "American Truck Simulator - Arkansas",
+      "price": 120,
+      "percent": 50,
+      "timestamp": "2026-11-15T00:00:30.110Z",
+      "type": "discount"
     }
   }
 }
