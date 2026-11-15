@@ -8055,6 +8055,13 @@
       "percent": 40,
       "timestamp": "2026-11-15T05:00:27.587Z",
       "type": "discount"
+    },
+    "steam_discount_5373210": {
+      "title": "Arteria",
+      "price": 168,
+      "percent": 30,
+      "timestamp": "2026-11-15T05:00:27.587Z",
+      "type": "discount"
     }
   }
 }
