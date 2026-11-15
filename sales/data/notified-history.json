@@ -2035,5 +2035,12 @@
     "percent": 30,
     "timestamp": "2026-11-15T02:00:28.847Z",
     "type": "discount"
+  },
+  "steam_discount_3499520": {
+    "title": "Piano Glow",
+    "price": 360,
+    "percent": 30,
+    "timestamp": "2026-11-15T03:00:29.784Z",
+    "type": "discount"
   }
 }
