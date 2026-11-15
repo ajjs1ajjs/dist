@@ -2504,5 +2504,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T21:00:30.668Z",
     "type": "discount"
+  },
+  "steam_free_4107830": {
+    "title": "Active Matter - Upgrade to Advanced Edition",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-15T22:00:38.387Z",
+    "type": "free"
   }
 }
