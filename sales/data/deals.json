@@ -7885,6 +7885,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T03:00:29.784Z",
       "type": "discount"
+    },
+    "steam_discount_1594940": {
+      "title": "Little Witch in the Woods",
+      "price": 290,
+      "percent": 30,
+      "timestamp": "2026-11-15T03:00:29.784Z",
+      "type": "discount"
     }
   }
 }
