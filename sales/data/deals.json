@@ -8201,6 +8201,13 @@
       "percent": 50,
       "timestamp": "2026-11-15T08:00:37.094Z",
       "type": "discount"
+    },
+    "steam_discount_3181540": {
+      "title": "Age of Wonders 4: Archon Prophecy",
+      "price": 501,
+      "percent": 25,
+      "timestamp": "2026-11-15T09:00:29.482Z",
+      "type": "discount"
     }
   }
 }
