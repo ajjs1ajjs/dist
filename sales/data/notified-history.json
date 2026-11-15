@@ -2196,5 +2196,12 @@
     "percent": 30,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_247970": {
+    "title": "Korea. IL-2 Series",
+    "price": 1717,
+    "percent": 25,
+    "timestamp": "2026-11-15T05:00:27.587Z",
+    "type": "discount"
   }
 }
