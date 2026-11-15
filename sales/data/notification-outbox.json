@@ -4327,6 +4327,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T20:01:16.659Z"
+    },
+    {
+      "id": "b9d5ccc7e11117d5385d2bca",
+      "createdAt": "2026-11-15T21:00:30.668Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>New Tales from the Borderlands</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>599 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1454970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454970/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1454970",
+          "entry": {
+            "title": "New Tales from the Borderlands",
+            "price": 599,
+            "percent": 50,
+            "timestamp": "2026-11-15T21:00:30.668Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9f4570292b3953690a5890f2",
+      "createdAt": "2026-11-15T21:00:30.668Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Horsey Game</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>225 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3602570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602570/1d6ccddbaf4adff754d5be83078b6c5b04f45d77/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3602570",
+          "entry": {
+            "title": "Horsey Game",
+            "price": 168,
+            "percent": 25,
+            "timestamp": "2026-11-15T21:00:30.668Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
