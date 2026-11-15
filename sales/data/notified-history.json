@@ -1909,5 +1909,12 @@
     "percent": 55,
     "timestamp": "2026-11-15T01:00:32.252Z",
     "type": "discount"
+  },
+  "steam_discount_800370": {
+    "title": "American Truck Simulator - Oregon",
+    "price": 120,
+    "percent": 50,
+    "timestamp": "2026-11-15T01:00:32.252Z",
+    "type": "discount"
   }
 }
