@@ -7913,6 +7913,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T03:00:29.784Z",
       "type": "discount"
+    },
+    "steam_discount_2604420": {
+      "title": "Euro Truck Simulator 2 - Greece",
+      "price": 168,
+      "percent": 30,
+      "timestamp": "2026-11-15T03:00:29.784Z",
+      "type": "discount"
     }
   }
 }
