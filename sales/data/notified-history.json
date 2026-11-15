@@ -2245,5 +2245,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T05:00:27.587Z",
     "type": "discount"
+  },
+  "steam_discount_4707700": {
+    "title": "Gold Mining Simulator - Definitive Edition",
+    "price": 589,
+    "percent": 25,
+    "timestamp": "2026-11-15T06:00:35.043Z",
+    "type": "discount"
   }
 }
