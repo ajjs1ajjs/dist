@@ -8000,6 +8000,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T04:00:28.950Z",
       "type": "discount"
+    },
+    "steam_discount_5053820": {
+      "title": "Mimic Party",
+      "price": 119,
+      "percent": 30,
+      "timestamp": "2026-11-15T04:00:28.950Z",
+      "type": "discount"
     }
   }
 }
