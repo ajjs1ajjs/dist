@@ -3780,6 +3780,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T06:01:18.135Z"
+    },
+    {
+      "id": "64ce966f7944d1ddd994e7bc",
+      "createdAt": "2026-11-15T07:00:29.707Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>War for the Overworld</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/230190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230190/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_230190",
+          "entry": {
+            "title": "War for the Overworld",
+            "price": 120,
+            "percent": 80,
+            "timestamp": "2026-11-15T07:00:29.707Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "da18f6c7fa1dbee377ba9be9",
+      "createdAt": "2026-11-15T07:00:29.707Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Atelier Ryza 3: Alchemist of the End &amp; the Secret Key DX</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 300 грн</s> ➡️ <b>975 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3365050\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365050/31b55b93dccef6a8ba834ba45d8edc8fc8c2ab95/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3365050",
+          "entry": {
+            "title": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
+            "price": 975,
+            "percent": 25,
+            "timestamp": "2026-11-15T07:00:29.707Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
