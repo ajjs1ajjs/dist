@@ -4053,6 +4053,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T16:00:47.988Z"
+    },
+    {
+      "id": "ade93fc6233dcc87e285423d",
+      "createdAt": "2026-11-15T17:00:31.190Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Warhammer 40,000: Chaos Gate - Daemonhunters</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>529 грн</s> ➡️ <b>132 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1611910\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1611910/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1611910",
+          "entry": {
+            "title": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+            "price": 132,
+            "percent": 75,
+            "timestamp": "2026-11-15T17:00:31.190Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
