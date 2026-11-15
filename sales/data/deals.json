@@ -8090,6 +8090,13 @@
       "percent": 25,
       "timestamp": "2026-11-15T05:00:27.587Z",
       "type": "discount"
+    },
+    "steam_discount_2753970": {
+      "title": "MARVEL Cosmic Invasion",
+      "price": 504,
+      "percent": 25,
+      "timestamp": "2026-11-15T05:00:27.587Z",
+      "type": "discount"
     }
   }
 }
