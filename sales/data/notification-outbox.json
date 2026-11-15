@@ -3927,6 +3927,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T12:00:43.298Z"
+    },
+    {
+      "id": "f52a24293714f9bec94fc154",
+      "createdAt": "2026-11-15T14:00:28.722Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dorfromantik</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>219 грн</s> ➡️ <b>142 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1455840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1455840/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1455840",
+          "entry": {
+            "title": "Dorfromantik",
+            "price": 142,
+            "percent": 35,
+            "timestamp": "2026-11-15T14:00:28.722Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
