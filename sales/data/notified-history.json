@@ -2021,5 +2021,12 @@
     "percent": 30,
     "timestamp": "2026-11-15T02:00:28.847Z",
     "type": "discount"
+  },
+  "steam_discount_3152780": {
+    "title": "Expansion - Hearts of Iron IV: Götterdämmerung",
+    "price": 468,
+    "percent": 30,
+    "timestamp": "2026-11-15T02:00:28.847Z",
+    "type": "discount"
   }
 }
