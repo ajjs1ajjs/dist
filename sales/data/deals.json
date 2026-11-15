@@ -7920,6 +7920,13 @@
       "percent": 30,
       "timestamp": "2026-11-15T03:00:29.784Z",
       "type": "discount"
+    },
+    "steam_discount_5475960": {
+      "title": "Incremental Traffic",
+      "price": 168,
+      "percent": 30,
+      "timestamp": "2026-11-15T03:00:29.784Z",
+      "type": "discount"
     }
   }
 }
