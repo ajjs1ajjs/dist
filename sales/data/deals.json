@@ -7744,6 +7744,13 @@
       "percent": 35,
       "timestamp": "2026-11-15T01:00:32.252Z",
       "type": "discount"
+    },
+    "steam_discount_5130120": {
+      "title": "Evenicle - Next Fragment Medica",
+      "price": 343,
+      "percent": 35,
+      "timestamp": "2026-11-15T01:00:32.252Z",
+      "type": "discount"
     }
   }
 }
