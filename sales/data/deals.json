@@ -8166,6 +8166,13 @@
       "percent": 25,
       "timestamp": "2026-11-15T06:00:35.043Z",
       "type": "discount"
+    },
+    "steam_discount_4390080": {
+      "title": "Bottled by Bears",
+      "price": 180,
+      "percent": 25,
+      "timestamp": "2026-11-15T06:00:35.043Z",
+      "type": "discount"
     }
   }
 }
