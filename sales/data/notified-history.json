@@ -2287,5 +2287,12 @@
     "percent": 25,
     "timestamp": "2026-11-15T06:00:35.043Z",
     "type": "discount"
+  },
+  "steam_discount_3119540": {
+    "title": "Scriptorium: Master of Manuscripts",
+    "price": 251,
+    "percent": 25,
+    "timestamp": "2026-11-15T06:00:35.043Z",
+    "type": "discount"
   }
 }
