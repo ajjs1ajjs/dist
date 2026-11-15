@@ -8717,6 +8717,13 @@
       "percent": 50,
       "timestamp": "2026-11-15T21:00:30.668Z",
       "type": "discount"
+    },
+    "steam_discount_3602570": {
+      "title": "Horsey Game",
+      "price": 168,
+      "percent": 25,
+      "timestamp": "2026-11-15T21:00:30.668Z",
+      "type": "discount"
     }
   }
 }
