@@ -7631,6 +7631,13 @@
       "percent": 40,
       "timestamp": "2026-11-15T00:00:30.110Z",
       "type": "discount"
+    },
+    "steam_discount_1465470": {
+      "title": "The Crust",
+      "price": 359,
+      "percent": 40,
+      "timestamp": "2026-11-15T00:00:30.110Z",
+      "type": "discount"
     }
   }
 }
