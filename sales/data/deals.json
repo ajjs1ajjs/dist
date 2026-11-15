@@ -8419,6 +8419,13 @@
       "percent": 65,
       "timestamp": "2026-11-15T16:00:34.232Z",
       "type": "discount"
+    },
+    "steam_discount_3021100": {
+      "title": "Five Hearts Under One Roof",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-11-15T16:00:34.232Z",
+      "type": "discount"
     }
   }
 }
