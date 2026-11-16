@@ -9867,6 +9867,13 @@
       "percent": 40,
       "timestamp": "2026-11-16T04:00:31.414Z",
       "type": "discount"
+    },
+    "steam_discount_2542120": {
+      "title": "NINJA GAIDEN: Ragebound",
+      "price": 257,
+      "percent": 50,
+      "timestamp": "2026-11-16T05:00:29.940Z",
+      "type": "discount"
     }
   }
 }
