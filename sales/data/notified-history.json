@@ -2511,5 +2511,12 @@
     "percent": 100,
     "timestamp": "2026-11-15T22:00:38.387Z",
     "type": "free"
+  },
+  "steam_discount_3873970": {
+    "title": "NASCAR 25",
+    "price": 382,
+    "percent": 50,
+    "timestamp": "2026-11-16T00:00:30.438Z",
+    "type": "discount"
   }
 }
