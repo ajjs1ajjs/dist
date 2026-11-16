@@ -10144,6 +10144,13 @@
       "percent": 70,
       "timestamp": "2026-11-16T20:00:30.731Z",
       "type": "discount"
+    },
+    "steam_discount_779340": {
+      "title": "Total War: THREE KINGDOMS",
+      "price": 344,
+      "percent": 70,
+      "timestamp": "2026-11-16T20:00:30.731Z",
+      "type": "discount"
     }
   }
 }
