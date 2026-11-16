@@ -4432,6 +4432,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T01:00:34.873Z"
+    },
+    {
+      "id": "5e487f975a72169786079900",
+      "createdAt": "2026-11-16T03:00:33.815Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>American Truck Simulator - Montana</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>120 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1811080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1811080/341594ff0d584a8e76f29f8b6e19d5dc2bafac5e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1811080",
+          "entry": {
+            "title": "American Truck Simulator - Montana",
+            "price": 120,
+            "percent": 50,
+            "timestamp": "2026-11-16T03:00:33.815Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
