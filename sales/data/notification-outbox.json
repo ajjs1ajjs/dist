@@ -4411,6 +4411,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T00:00:34.714Z"
+    },
+    {
+      "id": "9d0ca1c7b92e74411a0538d4",
+      "createdAt": "2026-11-16T01:00:30.519Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Lay of the Land</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>430 грн</s> ➡️ <b>301 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2776090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2776090/a5436a53a6aad476cf39600dbb5e0ce0baeeaf8c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2776090",
+          "entry": {
+            "title": "Lay of the Land",
+            "price": 301,
+            "percent": 30,
+            "timestamp": "2026-11-16T01:00:30.519Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
