@@ -10736,6 +10736,13 @@
       "percent": 75,
       "timestamp": "2026-11-16T23:00:27.507Z",
       "type": "discount"
+    },
+    "steam_discount_1413480": {
+      "title": "Shin Megami Tensei III Nocturne HD Remaster",
+      "price": 449,
+      "percent": 70,
+      "timestamp": "2026-11-16T23:00:27.507Z",
+      "type": "discount"
     }
   }
 }
