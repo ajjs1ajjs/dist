@@ -2833,5 +2833,12 @@
     "percent": 65,
     "timestamp": "2026-11-16T22:00:31.975Z",
     "type": "discount"
+  },
+  "steam_discount_3937550": {
+    "title": "Yakuza Kiwami 3 & Dark Ties",
+    "price": 919,
+    "percent": 60,
+    "timestamp": "2026-11-16T22:00:31.975Z",
+    "type": "discount"
   }
 }
