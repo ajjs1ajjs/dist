@@ -9722,6 +9722,13 @@
       "percent": 50,
       "timestamp": "2026-11-16T17:00:38.492Z",
       "type": "discount"
+    },
+    "steam_discount_5037200": {
+      "title": "just volleyball",
+      "price": 117,
+      "percent": 38,
+      "timestamp": "2026-11-16T17:00:38.492Z",
+      "type": "discount"
     }
   }
 }
