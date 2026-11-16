@@ -9788,6 +9788,13 @@
       "percent": 40,
       "timestamp": "2026-11-16T10:00:30.434Z",
       "type": "discount"
+    },
+    "steam_discount_2113920": {
+      "title": "英雄伝説 黎の軌跡Ⅱ -CRIMSON SiN-",
+      "price": 719,
+      "percent": 60,
+      "timestamp": "2026-11-16T12:00:35.005Z",
+      "type": "discount"
     }
   }
 }
