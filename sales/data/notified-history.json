@@ -2714,5 +2714,12 @@
     "percent": 70,
     "timestamp": "2026-11-16T20:00:30.731Z",
     "type": "discount"
+  },
+  "steam_discount_3747730": {
+    "title": "Legacy of Kain: Defiance Remastered",
+    "price": 150,
+    "percent": 70,
+    "timestamp": "2026-11-16T20:00:30.731Z",
+    "type": "discount"
   }
 }
