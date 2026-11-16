@@ -10764,6 +10764,13 @@
       "percent": 55,
       "timestamp": "2026-11-16T23:00:27.507Z",
       "type": "discount"
+    },
+    "steam_discount_2458980": {
+      "title": "Dimhaven - The Lost Source",
+      "price": 449,
+      "percent": 53,
+      "timestamp": "2026-11-16T23:00:27.507Z",
+      "type": "discount"
     }
   }
 }
