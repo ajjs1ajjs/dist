@@ -2609,5 +2609,12 @@
     "percent": 85,
     "timestamp": "2026-11-16T19:00:30.510Z",
     "type": "discount"
+  },
+  "steam_discount_2072450": {
+    "title": "Like a Dragon: Infinite Wealth",
+    "price": 399,
+    "percent": 80,
+    "timestamp": "2026-11-16T19:00:30.510Z",
+    "type": "discount"
   }
 }
