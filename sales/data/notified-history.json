@@ -2763,5 +2763,12 @@
     "percent": 75,
     "timestamp": "2026-11-16T21:00:33.965Z",
     "type": "discount"
+  },
+  "steam_discount_535930": {
+    "title": "Two Point Hospital",
+    "price": 237,
+    "percent": 75,
+    "timestamp": "2026-11-16T21:00:33.965Z",
+    "type": "discount"
   }
 }
