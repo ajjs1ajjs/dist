@@ -4516,6 +4516,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T10:00:34.294Z"
+    },
+    {
+      "id": "cbb8debdec0aacf7b5a4bfb9",
+      "createdAt": "2026-11-16T12:00:35.005Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>英雄伝説 黎の軌跡Ⅱ -CRIMSON SiN-</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>719 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2113920\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113920/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2113920",
+          "entry": {
+            "title": "英雄伝説 黎の軌跡Ⅱ -CRIMSON SiN-",
+            "price": 719,
+            "percent": 60,
+            "timestamp": "2026-11-16T12:00:35.005Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
