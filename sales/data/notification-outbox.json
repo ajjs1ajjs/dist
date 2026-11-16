@@ -4558,6 +4558,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T16:00:34.669Z"
+    },
+    {
+      "id": "4796e1cf324ebeb4ce794c5b",
+      "createdAt": "2026-11-16T17:00:38.492Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Last Hero of Nostalgaia - The Rise of Evil DLC</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>105 грн</s> ➡️ <b>52 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2132750\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2132750/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2132750",
+          "entry": {
+            "title": "The Last Hero of Nostalgaia - The Rise of Evil DLC",
+            "price": 52,
+            "percent": 50,
+            "timestamp": "2026-11-16T17:00:38.492Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "13347edae9ab4eb871be54c2",
+      "createdAt": "2026-11-16T17:00:38.492Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>just volleyball</b>\n🏷️ Знижка: <b>-38%</b>\n💰 Ціна: <s>190 грн</s> ➡️ <b>117 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5037200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/93d72ca0a5d52cd4a87fe5d11884cf8bab419b59/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5037200",
+          "entry": {
+            "title": "just volleyball",
+            "price": 117,
+            "percent": 38,
+            "timestamp": "2026-11-16T17:00:38.492Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
