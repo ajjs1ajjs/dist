@@ -10757,6 +10757,13 @@
       "percent": 70,
       "timestamp": "2026-11-16T23:00:27.507Z",
       "type": "discount"
+    },
+    "steam_discount_386940": {
+      "title": "Ultimate Chicken Horse",
+      "price": 134,
+      "percent": 55,
+      "timestamp": "2026-11-16T23:00:27.507Z",
+      "type": "discount"
     }
   }
 }
