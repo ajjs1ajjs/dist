@@ -10493,6 +10493,13 @@
       "percent": 75,
       "timestamp": "2026-11-16T21:00:33.965Z",
       "type": "discount"
+    },
+    "steam_discount_492720": {
+      "title": "Tropico 6",
+      "price": 177,
+      "percent": 75,
+      "timestamp": "2026-11-16T21:00:33.965Z",
+      "type": "discount"
     }
   }
 }
