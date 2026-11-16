@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T13:23:50.675Z",
+  "generatedAt": "2026-11-16T08:13:56.786Z",
   "latest": {
     "uptime-v": {
-      "version": "v3.10.41"
+      "version": "v3.10.42"
     },
     "vilno-v": {
       "version": "v0.5.3",
