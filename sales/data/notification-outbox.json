@@ -5062,6 +5062,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T20:01:17.534Z"
+    },
+    {
+      "id": "6d35c2b33659eaaae09861a4",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Like a Dragon Gaiden: The Man Who Erased His Name</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>339 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2375550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2375550/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2375550",
+          "entry": {
+            "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+            "price": 339,
+            "percent": 80,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "80b9d11eef435912fd3e9e23",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Surviving the Aftermath</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>729 грн</s> ➡️ <b>145 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/684450\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/684450/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_684450",
+          "entry": {
+            "title": "Surviving the Aftermath",
+            "price": 145,
+            "percent": 80,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "10f723dbe99e9a7cc707f21a",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sonic Frontiers</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>374 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1237320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237320/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1237320",
+          "entry": {
+            "title": "Sonic Frontiers",
+            "price": 374,
+            "percent": 75,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2c464bf17f7e2de95c293e2c",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Judgment</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>299 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2058180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058180/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2058180",
+          "entry": {
+            "title": "Judgment",
+            "price": 299,
+            "percent": 75,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4687ef86f48837e0d097725c",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Two Point Hospital</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>237 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/535930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_535930",
+          "entry": {
+            "title": "Two Point Hospital",
+            "price": 237,
+            "percent": 75,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "89972430bbb7b2344fa73462",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Lost Judgment - The Kaito Files Story Expansion</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>237 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2060280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060280/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2060280",
+          "entry": {
+            "title": "Lost Judgment - The Kaito Files Story Expansion",
+            "price": 237,
+            "percent": 75,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bcfb8f267821730edae6e1d8",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tropico 6</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>710 грн</s> ➡️ <b>177 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/492720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/492720/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_492720",
+          "entry": {
+            "title": "Tropico 6",
+            "price": 177,
+            "percent": 75,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e43b908592a6c50b895135e9",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call to Arms - Gates of Hell: Talvisota</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1911520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911520/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1911520",
+          "entry": {
+            "title": "Call to Arms - Gates of Hell: Talvisota",
+            "price": 103,
+            "percent": 75,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7473a46a5624d04cfac3a6ad",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 3 Reload: Expansion Pass</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 249 грн</s> ➡️ <b>374 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2689210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2689210/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2689210",
+          "entry": {
+            "title": "Persona 3 Reload: Expansion Pass",
+            "price": 374,
+            "percent": 70,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3142d37763af9b9ba7e3298b",
+      "createdAt": "2026-11-16T21:00:33.965Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Bayonetta</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/460790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_460790",
+          "entry": {
+            "title": "Bayonetta",
+            "price": 149,
+            "percent": 70,
+            "timestamp": "2026-11-16T21:00:33.965Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
