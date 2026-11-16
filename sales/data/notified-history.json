@@ -2686,5 +2686,12 @@
     "percent": 75,
     "timestamp": "2026-11-16T20:00:30.731Z",
     "type": "discount"
+  },
+  "steam_discount_2447590": {
+    "title": "Call to Arms - Gates of Hell: Liberation",
+    "price": 150,
+    "percent": 75,
+    "timestamp": "2026-11-16T20:00:30.731Z",
+    "type": "discount"
   }
 }
