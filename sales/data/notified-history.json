@@ -2840,5 +2840,12 @@
     "percent": 60,
     "timestamp": "2026-11-16T22:00:31.975Z",
     "type": "discount"
+  },
+  "steam_discount_2988580": {
+    "title": "Yakuza 0 Director's Cut",
+    "price": 679,
+    "percent": 60,
+    "timestamp": "2026-11-16T22:00:31.975Z",
+    "type": "discount"
   }
 }
