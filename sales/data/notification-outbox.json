@@ -4495,6 +4495,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T05:00:35.337Z"
+    },
+    {
+      "id": "9c2686582877d2e2b8ff0408",
+      "createdAt": "2026-11-16T10:00:30.434Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hero Siege</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>187 грн</s> ➡️ <b>112 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/269210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/269210/a70dfa79754a6d9ebc6e975a9e380134a416071d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_269210",
+          "entry": {
+            "title": "Hero Siege",
+            "price": 112,
+            "percent": 40,
+            "timestamp": "2026-11-16T10:00:30.434Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
