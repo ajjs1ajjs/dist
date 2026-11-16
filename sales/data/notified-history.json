@@ -2875,5 +2875,12 @@
     "percent": 55,
     "timestamp": "2026-11-16T22:00:31.975Z",
     "type": "discount"
+  },
+  "steam_discount_885970": {
+    "title": "Total War: ROME REMASTERED",
+    "price": 159,
+    "percent": 75,
+    "timestamp": "2026-11-16T23:00:27.507Z",
+    "type": "discount"
   }
 }
