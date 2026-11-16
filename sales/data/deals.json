@@ -9983,6 +9983,13 @@
       "percent": 80,
       "timestamp": "2026-11-16T19:00:30.510Z",
       "type": "discount"
+    },
+    "steam_discount_728740": {
+      "title": "Sniper Elite V2 Remastered",
+      "price": 135,
+      "percent": 80,
+      "timestamp": "2026-11-16T19:00:30.510Z",
+      "type": "discount"
     }
   }
 }
