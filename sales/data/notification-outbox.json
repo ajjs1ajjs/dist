@@ -4642,6 +4642,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T18:00:43.735Z"
+    },
+    {
+      "id": "23b117beba3b95789a2703ab",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 899 грн</s> ➡️ <b>284 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1142710\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1142710",
+          "entry": {
+            "title": "Total War: WARHAMMER III",
+            "price": 284,
+            "percent": 85,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3e85d167e76dd2cc938ddf4f",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Come: Deliverance</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/379430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/ed0e9fa414c683bd06cd70d0ef8fb519e0f823fe/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_379430",
+          "entry": {
+            "title": "Kingdom Come: Deliverance",
+            "price": 119,
+            "percent": 85,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "951524f733e7a24e230a92b5",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Like a Dragon: Infinite Wealth</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2072450\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2072450",
+          "entry": {
+            "title": "Like a Dragon: Infinite Wealth",
+            "price": 399,
+            "percent": 80,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9133e194b8ed140a7dc675bc",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sniper Elite V2 Remastered</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>135 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/728740\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728740/header.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_728740",
+          "entry": {
+            "title": "Sniper Elite V2 Remastered",
+            "price": 135,
+            "percent": 80,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "27b6609a85f10e33b8ec83cb",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER II</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>237 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/594570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_594570",
+          "entry": {
+            "title": "Total War: WARHAMMER II",
+            "price": 237,
+            "percent": 75,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cac6e67f77e89870e416ec79",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>237 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/364360\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/364360/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_364360",
+          "entry": {
+            "title": "Total War: WARHAMMER",
+            "price": 237,
+            "percent": 75,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "990ddf0578f00917fdc5a25d",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call to Arms - Gates of Hell: Ostfront</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>175 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/400750\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/794866e0a3ebd7ef152ba18e12843cd9cdea8c28/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_400750",
+          "entry": {
+            "title": "Call to Arms - Gates of Hell: Ostfront",
+            "price": 175,
+            "percent": 75,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "012ff899c2e06284a8013648",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: ROME II - Emperor Edition</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>639 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/214950\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_214950",
+          "entry": {
+            "title": "Total War: ROME II - Emperor Edition",
+            "price": 159,
+            "percent": 75,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7129ec739fa1e828b40d078b",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Black Mesa</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/362890\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/f500257563de479b38169882b434ab7aab4168c5/capsule_231x87_alt_assets_3.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_362890",
+          "entry": {
+            "title": "Black Mesa",
+            "price": 103,
+            "percent": 75,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ac7d0089c7df0c3a206ec81a",
+      "createdAt": "2026-11-16T19:00:30.510Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 5 Royal</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 899 грн</s> ➡️ <b>569 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1687950\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1687950",
+          "entry": {
+            "title": "Persona 5 Royal",
+            "price": 569,
+            "percent": 70,
+            "timestamp": "2026-11-16T19:00:30.510Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
