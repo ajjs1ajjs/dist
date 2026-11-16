@@ -5272,6 +5272,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T21:01:23.590Z"
+    },
+    {
+      "id": "f1fee1f690108e66c66a9e77",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: MEDIEVAL II – Definitive Edition</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4700",
+          "entry": {
+            "title": "Total War: MEDIEVAL II – Definitive Edition",
+            "price": 149,
+            "percent": 75,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ddb467efccdb7cfd9792edee",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona® 5 Strikers</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>539 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1382330\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382330/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1382330",
+          "entry": {
+            "title": "Persona® 5 Strikers",
+            "price": 539,
+            "percent": 70,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "df6723c4c7475668dd816345",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Last Train Home</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>244 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1469610\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1469610",
+          "entry": {
+            "title": "Last Train Home",
+            "price": 244,
+            "percent": 67,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4f49a0c8e6e0879fc39960a3",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza: Like a Dragon</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>279 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1235140\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235140/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1235140",
+          "entry": {
+            "title": "Yakuza: Like a Dragon",
+            "price": 279,
+            "percent": 65,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "409ee75c2fe7d92be2ff3cd5",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza Kiwami 3 &amp; Dark Ties</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>919 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3937550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/2a9851eada96c190d00c135a94320020653ae0ec/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3937550",
+          "entry": {
+            "title": "Yakuza Kiwami 3 & Dark Ties",
+            "price": 919,
+            "percent": 60,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d5c7d8e5312df6d930a1a81b",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza 0 Director&#39;s Cut</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2988580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/cd4801db60e667d95798120cc4e6e513695beeef/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2988580",
+          "entry": {
+            "title": "Yakuza 0 Director's Cut",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e4ad8af4dbf507e71ff9d3e9",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Forge of the Chaos Dwarfs</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>339 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2059190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059190/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2059190",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Forge of the Chaos Dwarfs",
+            "price": 339,
+            "percent": 60,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a4483b248476c0c4f79567dd",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hatsune Miku: Project DIVA Mega Mix+</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>259 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1761390\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1761390/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1761390",
+          "entry": {
+            "title": "Hatsune Miku: Project DIVA Mega Mix+",
+            "price": 259,
+            "percent": 60,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9fb8b52b3f8bd02d11e7525b",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Conquest of Elysium 5</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>240 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1606340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1606340/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1606340",
+          "entry": {
+            "title": "Conquest of Elysium 5",
+            "price": 240,
+            "percent": 60,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "09fa5210971e62df67223cf8",
+      "createdAt": "2026-11-16T22:00:31.975Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: ATTILA</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/325610\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/325610/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_325610",
+          "entry": {
+            "title": "Total War: ATTILA",
+            "price": 269,
+            "percent": 55,
+            "timestamp": "2026-11-16T22:00:31.975Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
