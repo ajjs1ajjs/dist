@@ -4537,6 +4537,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T12:00:39.669Z"
+    },
+    {
+      "id": "1e9b2a6c3bd366369345b3f8",
+      "createdAt": "2026-11-16T16:00:30.010Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>WARRIORS OROCHI 4</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 950 грн</s> ➡️ <b>975 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/831560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/831560/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_831560",
+          "entry": {
+            "title": "WARRIORS OROCHI 4",
+            "price": 975,
+            "percent": 50,
+            "timestamp": "2026-11-16T16:00:30.010Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
