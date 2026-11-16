@@ -2868,5 +2868,12 @@
     "percent": 60,
     "timestamp": "2026-11-16T22:00:31.975Z",
     "type": "discount"
+  },
+  "steam_discount_325610": {
+    "title": "Total War: ATTILA",
+    "price": 269,
+    "percent": 55,
+    "timestamp": "2026-11-16T22:00:31.975Z",
+    "type": "discount"
   }
 }
