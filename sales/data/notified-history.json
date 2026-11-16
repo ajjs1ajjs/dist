@@ -2903,5 +2903,12 @@
     "percent": 70,
     "timestamp": "2026-11-16T23:00:27.507Z",
     "type": "discount"
+  },
+  "steam_discount_1794960": {
+    "title": "Sonic Origins",
+    "price": 374,
+    "percent": 70,
+    "timestamp": "2026-11-16T23:00:27.507Z",
+    "type": "discount"
   }
 }
