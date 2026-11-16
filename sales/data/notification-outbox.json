@@ -4474,6 +4474,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T04:00:36.642Z"
+    },
+    {
+      "id": "c18ad24a18982a3b893d0af6",
+      "createdAt": "2026-11-16T05:00:29.940Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NINJA GAIDEN: Ragebound</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>257 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2542120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542120/88c23fd0a4ee2026717eb4b5ca3473c6dcd8c9d3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2542120",
+          "entry": {
+            "title": "NINJA GAIDEN: Ragebound",
+            "price": 257,
+            "percent": 50,
+            "timestamp": "2026-11-16T05:00:29.940Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
