@@ -2588,5 +2588,12 @@
     "percent": 30,
     "timestamp": "2026-11-16T18:00:32.713Z",
     "type": "discount"
+  },
+  "steam_discount_5066010": {
+    "title": "Here Comes the Horde",
+    "price": 84,
+    "percent": 30,
+    "timestamp": "2026-11-16T18:00:32.713Z",
+    "type": "discount"
   }
 }
