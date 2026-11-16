@@ -4852,6 +4852,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T19:01:15.961Z"
+    },
+    {
+      "id": "18c563d07c514f95cfe5d828",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Lost Judgment</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>299 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2058190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058190/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2058190",
+          "entry": {
+            "title": "Lost Judgment",
+            "price": 299,
+            "percent": 80,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0e86e901e77ade685199aa16",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Like a Dragon: Pirate Yakuza in Hawaii</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>2 199 грн</s> ➡️ <b>549 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3061810\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3061810/7028c5abc388a2376e0a19aca1e2362821b2ef62/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3061810",
+          "entry": {
+            "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+            "price": 549,
+            "percent": 75,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "47a90c9f7ff5ef9925771842",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>SONIC X SHADOW GENERATIONS</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>499 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2513280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2513280/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2513280",
+          "entry": {
+            "title": "SONIC X SHADOW GENERATIONS",
+            "price": 499,
+            "percent": 75,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "52d360f08dca6bad77bc4283",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call to Arms - Gates of Hell: Liberation</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>150 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2447590\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447590/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2447590",
+          "entry": {
+            "title": "Call to Arms - Gates of Hell: Liberation",
+            "price": 150,
+            "percent": 75,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2cf47100bc804f7ec6095e70",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Shin Megami Tensei V: Vengeance</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>2 099 грн</s> ➡️ <b>629 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1875830\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1875830",
+          "entry": {
+            "title": "Shin Megami Tensei V: Vengeance",
+            "price": 629,
+            "percent": 70,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2c04dee245dc45d7d4c6bd18",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: THREE KINGDOMS</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 149 грн</s> ➡️ <b>344 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/779340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_779340",
+          "entry": {
+            "title": "Total War: THREE KINGDOMS",
+            "price": 344,
+            "percent": 70,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6b616cfc0fbb14245b6c1b55",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Goat Simulator 3</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>180 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/850190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/850190/13619ecd65fa837b682547b18f69858fc5183f2b/capsule_231x87_alt_assets_8.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_850190",
+          "entry": {
+            "title": "Goat Simulator 3",
+            "price": 180,
+            "percent": 70,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "029164ba04ee39a71870e7df",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Legacy of Kain: Defiance Remastered</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>500 грн</s> ➡️ <b>150 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3747730\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3747730/fb01a6a51ad5dea60703732e5b068a418fdc1832/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3747730",
+          "entry": {
+            "title": "Legacy of Kain: Defiance Remastered",
+            "price": 150,
+            "percent": 70,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "50a89e40f23d35aa10415afc",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Come: Deliverance II</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>1 599 грн</s> ➡️ <b>527 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1771300\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1771300",
+          "entry": {
+            "title": "Kingdom Come: Deliverance II",
+            "price": 527,
+            "percent": 67,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "01b56e9df8b8383630d5f629",
+      "createdAt": "2026-11-16T20:00:30.731Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 3 Reload</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>629 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2161700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2161700",
+          "entry": {
+            "title": "Persona 3 Reload",
+            "price": 629,
+            "percent": 65,
+            "timestamp": "2026-11-16T20:00:30.731Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
