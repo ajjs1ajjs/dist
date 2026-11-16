@@ -9815,6 +9815,13 @@
       "percent": 50,
       "timestamp": "2026-11-16T05:00:29.940Z",
       "type": "discount"
+    },
+    "steam_discount_269210": {
+      "title": "Hero Siege",
+      "price": 112,
+      "percent": 40,
+      "timestamp": "2026-11-16T10:00:30.434Z",
+      "type": "discount"
     }
   }
 }
