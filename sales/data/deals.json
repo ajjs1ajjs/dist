@@ -10577,6 +10577,13 @@
       "percent": 67,
       "timestamp": "2026-11-16T22:00:31.975Z",
       "type": "discount"
+    },
+    "steam_discount_1235140": {
+      "title": "Yakuza: Like a Dragon",
+      "price": 279,
+      "percent": 65,
+      "timestamp": "2026-11-16T22:00:31.975Z",
+      "type": "discount"
     }
   }
 }
