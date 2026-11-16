@@ -2847,5 +2847,12 @@
     "percent": 60,
     "timestamp": "2026-11-16T22:00:31.975Z",
     "type": "discount"
+  },
+  "steam_discount_2059190": {
+    "title": "Total War: WARHAMMER III - Forge of the Chaos Dwarfs",
+    "price": 339,
+    "percent": 60,
+    "timestamp": "2026-11-16T22:00:31.975Z",
+    "type": "discount"
   }
 }
