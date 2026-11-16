@@ -2798,5 +2798,12 @@
     "percent": 70,
     "timestamp": "2026-11-16T21:00:33.965Z",
     "type": "discount"
+  },
+  "steam_discount_460790": {
+    "title": "Bayonetta",
+    "price": 149,
+    "percent": 70,
+    "timestamp": "2026-11-16T21:00:33.965Z",
+    "type": "discount"
   }
 }
