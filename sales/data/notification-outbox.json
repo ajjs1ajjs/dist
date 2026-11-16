@@ -5482,6 +5482,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T22:01:24.035Z"
+    },
+    {
+      "id": "7851619205c42bcc048ffc25",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Like a Dragon: Ishin!</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>374 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1805480\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805480/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1805480",
+          "entry": {
+            "title": "Like a Dragon: Ishin!",
+            "price": 374,
+            "percent": 75,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3e838cd4115c2b9d65e08c2e",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: ROME REMASTERED</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>639 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/885970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/885970/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_885970",
+          "entry": {
+            "title": "Total War: ROME REMASTERED",
+            "price": 159,
+            "percent": 75,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "347c8095e2624c4e09114ae8",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call to Arms - Gates of Hell: Scorched Earth</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>81 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2123890\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2123890/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2123890",
+          "entry": {
+            "title": "Call to Arms - Gates of Hell: Scorched Earth",
+            "price": 81,
+            "percent": 75,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3f0e9bf843af7486d19b838a",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call to Arms - Gates of Hell: Airborne</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>285 грн</s> ➡️ <b>71 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2904660\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904660/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2904660",
+          "entry": {
+            "title": "Call to Arms - Gates of Hell: Airborne",
+            "price": 71,
+            "percent": 75,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2d5d0347d4954ea38464e35b",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Shin Megami Tensei III Nocturne HD Remaster</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>449 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1413480\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413480/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1413480",
+          "entry": {
+            "title": "Shin Megami Tensei III Nocturne HD Remaster",
+            "price": 449,
+            "percent": 70,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "aff69dfbef243c448c87d8bc",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sonic Origins</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 249 грн</s> ➡️ <b>374 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1794960\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794960/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1794960",
+          "entry": {
+            "title": "Sonic Origins",
+            "price": 374,
+            "percent": 70,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a3ae2e34caa614f830871e82",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Have a Nice Death</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>469 грн</s> ➡️ <b>140 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1740720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740720/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1740720",
+          "entry": {
+            "title": "Have a Nice Death",
+            "price": 140,
+            "percent": 70,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b571a2ed0d3b89d9bc602ed7",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ultimate Chicken Horse</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>134 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/386940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386940/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_386940",
+          "entry": {
+            "title": "Ultimate Chicken Horse",
+            "price": 134,
+            "percent": 55,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "25b7f875144b465a72ff719d",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dimhaven - The Lost Source</b>\n🏷️ Знижка: <b>-53%</b>\n💰 Ціна: <s>928 грн</s> ➡️ <b>449 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2458980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2458980/0ae1fd1836257aac400e04af37983b06524e1dce/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2458980",
+          "entry": {
+            "title": "Dimhaven - The Lost Source",
+            "price": 449,
+            "percent": 53,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "31c1ac8591d353a55e270407",
+      "createdAt": "2026-11-16T23:00:27.507Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>RAIDOU Remastered: The Mystery of the Soulless Army</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>999 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2288350\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288350/e8b00acc725f0fcfb9feb006e34d009c8b543bfb/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2288350",
+          "entry": {
+            "title": "RAIDOU Remastered: The Mystery of the Soulless Army",
+            "price": 999,
+            "percent": 50,
+            "timestamp": "2026-11-16T23:00:27.507Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
