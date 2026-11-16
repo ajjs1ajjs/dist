@@ -2658,5 +2658,12 @@
     "percent": 75,
     "timestamp": "2026-11-16T19:00:30.510Z",
     "type": "discount"
+  },
+  "steam_discount_1687950": {
+    "title": "Persona 5 Royal",
+    "price": 569,
+    "percent": 70,
+    "timestamp": "2026-11-16T19:00:30.510Z",
+    "type": "discount"
   }
 }
