@@ -2644,5 +2644,12 @@
     "percent": 75,
     "timestamp": "2026-11-16T19:00:30.510Z",
     "type": "discount"
+  },
+  "steam_discount_214950": {
+    "title": "Total War: ROME II - Emperor Edition",
+    "price": 159,
+    "percent": 75,
+    "timestamp": "2026-11-16T19:00:30.510Z",
+    "type": "discount"
   }
 }
