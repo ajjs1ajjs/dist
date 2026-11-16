@@ -2861,5 +2861,12 @@
     "percent": 60,
     "timestamp": "2026-11-16T22:00:31.975Z",
     "type": "discount"
+  },
+  "steam_discount_1606340": {
+    "title": "Conquest of Elysium 5",
+    "price": 240,
+    "percent": 60,
+    "timestamp": "2026-11-16T22:00:31.975Z",
+    "type": "discount"
   }
 }
