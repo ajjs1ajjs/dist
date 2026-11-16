@@ -2532,5 +2532,12 @@
     "percent": 50,
     "timestamp": "2026-11-16T03:00:33.815Z",
     "type": "discount"
+  },
+  "steam_discount_410900": {
+    "title": "Forts",
+    "price": 137,
+    "percent": 40,
+    "timestamp": "2026-11-16T04:00:31.414Z",
+    "type": "discount"
   }
 }
