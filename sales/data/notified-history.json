@@ -2889,5 +2889,12 @@
     "percent": 75,
     "timestamp": "2026-11-16T23:00:27.507Z",
     "type": "discount"
+  },
+  "steam_discount_2904660": {
+    "title": "Call to Arms - Gates of Hell: Airborne",
+    "price": 71,
+    "percent": 75,
+    "timestamp": "2026-11-16T23:00:27.507Z",
+    "type": "discount"
   }
 }
