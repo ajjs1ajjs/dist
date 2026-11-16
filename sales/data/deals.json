@@ -9301,6 +9301,13 @@
       "percent": 38,
       "timestamp": "2026-11-16T17:00:38.492Z",
       "type": "discount"
+    },
+    "steam_discount_4483900": {
+      "title": "The Tower Must Fall",
+      "price": 168,
+      "percent": 30,
+      "timestamp": "2026-11-16T18:00:32.713Z",
+      "type": "discount"
     }
   }
 }
