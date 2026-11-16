@@ -9715,6 +9715,13 @@
       "percent": 50,
       "timestamp": "2026-11-16T16:00:30.010Z",
       "type": "discount"
+    },
+    "steam_discount_2132750": {
+      "title": "The Last Hero of Nostalgaia - The Rise of Evil DLC",
+      "price": 52,
+      "percent": 50,
+      "timestamp": "2026-11-16T17:00:38.492Z",
+      "type": "discount"
     }
   }
 }
