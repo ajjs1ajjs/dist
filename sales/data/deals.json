@@ -9969,6 +9969,13 @@
       "percent": 85,
       "timestamp": "2026-11-16T19:00:30.510Z",
       "type": "discount"
+    },
+    "steam_discount_379430": {
+      "title": "Kingdom Come: Deliverance",
+      "price": 119,
+      "percent": 85,
+      "timestamp": "2026-11-16T19:00:30.510Z",
+      "type": "discount"
     }
   }
 }
