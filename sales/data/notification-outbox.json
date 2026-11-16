@@ -4600,6 +4600,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T17:00:48.640Z"
+    },
+    {
+      "id": "152d74b22f5215f965c12c87",
+      "createdAt": "2026-11-16T18:00:32.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Tower Must Fall</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4483900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4483900/5a24fcc766d0c1f6fb6c8c5a23bd19d8f2082953/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4483900",
+          "entry": {
+            "title": "The Tower Must Fall",
+            "price": 168,
+            "percent": 30,
+            "timestamp": "2026-11-16T18:00:32.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0e004b1f44083794ab49f2ee",
+      "createdAt": "2026-11-16T18:00:32.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Here Comes the Horde</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>120 грн</s> ➡️ <b>84 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5066010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5066010/a3d3193b723d4dd1f85f961bcd7b400b40e0f47b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_5066010",
+          "entry": {
+            "title": "Here Comes the Horde",
+            "price": 84,
+            "percent": 30,
+            "timestamp": "2026-11-16T18:00:32.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
