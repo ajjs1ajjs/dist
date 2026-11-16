@@ -4390,6 +4390,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-15T22:00:42.365Z"
+    },
+    {
+      "id": "fcb3b7124b4abd5181a98885",
+      "createdAt": "2026-11-16T00:00:30.438Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NASCAR 25</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>765 грн</s> ➡️ <b>382 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3873970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3873970/45c8a230cabb21a5d8c504eb5428287ee51b6577/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3873970",
+          "entry": {
+            "title": "NASCAR 25",
+            "price": 382,
+            "percent": 50,
+            "timestamp": "2026-11-16T00:00:30.438Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
