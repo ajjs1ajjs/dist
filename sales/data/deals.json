@@ -11991,6 +11991,13 @@
       "percent": 40,
       "timestamp": "2026-11-17T01:00:37.570Z",
       "type": "discount"
+    },
+    "steam_discount_3368620": {
+      "title": "Kingdom Come: Deliverance II Mysteria Ecclesiae",
+      "price": 223,
+      "percent": 40,
+      "timestamp": "2026-11-17T01:00:37.570Z",
+      "type": "discount"
     }
   }
 }
