@@ -11928,6 +11928,13 @@
       "percent": 46,
       "timestamp": "2026-11-17T00:00:30.656Z",
       "type": "discount"
+    },
+    "steam_discount_1649080": {
+      "title": "Two Point Campus",
+      "price": 142,
+      "percent": 85,
+      "timestamp": "2026-11-17T01:00:37.570Z",
+      "type": "discount"
     }
   }
 }
