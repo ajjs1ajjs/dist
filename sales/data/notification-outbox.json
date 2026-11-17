@@ -6512,6 +6512,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T06:00:40.071Z"
+    },
+    {
+      "id": "d495b46b715e3a13843109c4",
+      "createdAt": "2026-11-17T09:00:46.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>THE KING OF FIGHTERS XV</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>107 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1498570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1498570/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1498570",
+          "entry": {
+            "title": "THE KING OF FIGHTERS XV",
+            "price": 107,
+            "percent": 75,
+            "timestamp": "2026-11-17T09:00:46.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "78b2dbb848a309d23a9fbf62",
+      "createdAt": "2026-11-17T09:00:46.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>GLADIABOTS - AI Combat Arena</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>81 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/871930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/871930/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_871930",
+          "entry": {
+            "title": "GLADIABOTS - AI Combat Arena",
+            "price": 81,
+            "percent": 75,
+            "timestamp": "2026-11-17T09:00:46.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7cf54aa331f5c17c9aff5f80",
+      "createdAt": "2026-11-17T09:00:46.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Sayl – Tides of Torment</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>200 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3450970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450970/901b3f8685dc7334e358c1af46198e5991a9a3df/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3450970",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Sayl – Tides of Torment",
+            "price": 200,
+            "percent": 33,
+            "timestamp": "2026-11-17T09:00:46.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "776902d2d744003757c70598",
+      "createdAt": "2026-11-17T09:00:46.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Goat Simulator 3 – Baadlands: Furry Road</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>227 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3708030\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3708030/e2a7ca790ff673cd44ba3e7afb3c9f6149224c00/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3708030",
+          "entry": {
+            "title": "Goat Simulator 3 – Baadlands: Furry Road",
+            "price": 227,
+            "percent": 30,
+            "timestamp": "2026-11-17T09:00:46.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
