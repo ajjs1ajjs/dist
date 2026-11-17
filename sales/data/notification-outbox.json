@@ -6785,6 +6785,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T16:00:51.357Z"
+    },
+    {
+      "id": "9a19e792c8ef945b768a39eb",
+      "createdAt": "2026-11-17T17:00:44.100Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER II - Curse of the Vampire Coast</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/835670\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/835670/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_835670",
+          "entry": {
+            "title": "Total War: WARHAMMER II - Curse of the Vampire Coast",
+            "price": 199,
+            "percent": 50,
+            "timestamp": "2026-11-17T17:00:44.100Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
