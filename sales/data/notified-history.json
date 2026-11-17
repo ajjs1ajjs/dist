@@ -3036,5 +3036,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T01:00:37.570Z",
     "type": "discount"
+  },
+  "steam_discount_1479730": {
+    "title": "Commandos: Origins",
+    "price": 899,
+    "percent": 40,
+    "timestamp": "2026-11-17T01:00:37.570Z",
+    "type": "discount"
   }
 }
