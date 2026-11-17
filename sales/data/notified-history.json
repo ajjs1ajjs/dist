@@ -3400,5 +3400,12 @@
     "percent": 47,
     "timestamp": "2026-11-17T21:00:29.922Z",
     "type": "discount"
+  },
+  "steam_discount_10090": {
+    "title": "Call of Duty: World at War",
+    "price": 636,
+    "percent": 25,
+    "timestamp": "2026-11-17T21:00:29.922Z",
+    "type": "discount"
   }
 }
