@@ -3365,5 +3365,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T20:00:39.400Z",
     "type": "discount"
+  },
+  "steam_discount_2444750": {
+    "title": "Shape of Dreams",
+    "price": 349,
+    "percent": 30,
+    "timestamp": "2026-11-17T20:00:39.400Z",
+    "type": "discount"
   }
 }
