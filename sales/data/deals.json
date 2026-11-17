@@ -13146,6 +13146,13 @@
       "percent": 70,
       "timestamp": "2026-11-17T22:00:35.970Z",
       "type": "discount"
+    },
+    "steam_discount_1096900": {
+      "title": "RPG Maker MZ",
+      "price": 663,
+      "percent": 68,
+      "timestamp": "2026-11-17T22:00:35.970Z",
+      "type": "discount"
     }
   }
 }
