@@ -12132,6 +12132,13 @@
       "percent": 75,
       "timestamp": "2026-11-17T03:00:37.883Z",
       "type": "discount"
+    },
+    "steam_discount_1105500": {
+      "title": "Yakuza 4 Remastered",
+      "price": 249,
+      "percent": 50,
+      "timestamp": "2026-11-17T03:00:37.883Z",
+      "type": "discount"
     }
   }
 }
