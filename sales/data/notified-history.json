@@ -3337,5 +3337,12 @@
     "percent": 70,
     "timestamp": "2026-11-17T20:00:39.400Z",
     "type": "discount"
+  },
+  "steam_discount_393080": {
+    "title": "Call of Duty®: Modern Warfare® Remastered (2017)",
+    "price": 679,
+    "percent": 60,
+    "timestamp": "2026-11-17T20:00:39.400Z",
+    "type": "discount"
   }
 }
