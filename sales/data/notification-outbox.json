@@ -6134,6 +6134,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T01:01:29.879Z"
+    },
+    {
+      "id": "a5b724e3c0cdb718da33e855",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 5 Tactica</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 899 грн</s> ➡️ <b>569 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2254740\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254740/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2254740",
+          "entry": {
+            "title": "Persona 5 Tactica",
+            "price": 569,
+            "percent": 70,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ddea8a3206ceab06abd7b7fb",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza 5 Remastered</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1105510\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105510/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1105510",
+          "entry": {
+            "title": "Yakuza 5 Remastered",
+            "price": 249,
+            "percent": 50,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b3d93c0d9ba77fe146cdcaa7",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Warframe: комплект «Тіньопис»</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4447640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447640/1eb3c5cdd0c6e4095ef060df75f511b5749bb65e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4447640",
+          "entry": {
+            "title": "Warframe: комплект «Тіньопис»",
+            "price": 199,
+            "percent": 50,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8f443ebdda2ec825c8cbca91",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sonic Adventure 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>169 грн</s> ➡️ <b>84 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/213610\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213610/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_213610",
+          "entry": {
+            "title": "Sonic Adventure 2",
+            "price": 84,
+            "percent": 50,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9242a7b7b2a41b71ea66e550",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dwarves: Glory, Death and Loot</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>195 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2205850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2205850/ea725a0ce45fea1a4d22d38640c720b235dc9524/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2205850",
+          "entry": {
+            "title": "Dwarves: Glory, Death and Loot",
+            "price": 195,
+            "percent": 40,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c98db24d1aee88daab4fe3f1",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Two Point Museum</b>\n🏷️ Знижка: <b>-38%</b>\n💰 Ціна: <s>1 278 грн</s> ➡️ <b>803 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2185060\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2185060/c4a0ecc4916b1a9a4f70e46535d35fa43833f206/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2185060",
+          "entry": {
+            "title": "Two Point Museum",
+            "price": 803,
+            "percent": 38,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "063ce27ac1e4d41b67df795a",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>How Many Dudes?</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>335 грн</s> ➡️ <b>217 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3934270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3934270/f9800033b6bb5665403e104d94dcc97d13bc1e47/capsule_231x87_alt_assets_0.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3934270",
+          "entry": {
+            "title": "How Many Dudes?",
+            "price": 217,
+            "percent": 35,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "edafa983003d2daa36e60afa",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Loot Loop</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>130 грн</s> ➡️ <b>84 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3972320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3972320/e916e455cb8fd3b2acbab7a11c59222b76875dc3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3972320",
+          "entry": {
+            "title": "Loot Loop",
+            "price": 84,
+            "percent": 35,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "686bdbb93664642c055dbbed",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Aislinn – Tides of Torment</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>200 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3450960\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450960/9d8d25aea9057facaa9dbda96f8e0183ac87d993/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3450960",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Aislinn – Tides of Torment",
+            "price": 200,
+            "percent": 33,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c2f87825bc26a5dde3fe1086",
+      "createdAt": "2026-11-17T02:00:31.586Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Dechala – Tides of Torment</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>200 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3450980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450980/2483c21353564edf0afd830d63301678e2d1b37a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3450980",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Dechala – Tides of Torment",
+            "price": 200,
+            "percent": 33,
+            "timestamp": "2026-11-17T02:00:31.586Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
