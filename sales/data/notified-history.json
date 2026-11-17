@@ -3449,5 +3449,12 @@
     "percent": 60,
     "timestamp": "2026-11-17T22:00:35.970Z",
     "type": "discount"
+  },
+  "steam_discount_1325200": {
+    "title": "Nioh 2 – The Complete Edition",
+    "price": 650,
+    "percent": 60,
+    "timestamp": "2026-11-17T22:00:35.970Z",
+    "type": "discount"
   }
 }
