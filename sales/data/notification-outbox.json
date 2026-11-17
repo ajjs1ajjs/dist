@@ -6617,6 +6617,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T10:00:46.950Z"
+    },
+    {
+      "id": "f59fc96058e6e42cee55b898",
+      "createdAt": "2026-11-17T11:00:33.736Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: PHARAOH</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>639 грн</s> ➡️ <b>191 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1937780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1937780/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1937780",
+          "entry": {
+            "title": "Total War: PHARAOH",
+            "price": 191,
+            "percent": 70,
+            "timestamp": "2026-11-17T11:00:33.736Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
