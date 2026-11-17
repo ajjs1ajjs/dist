@@ -12234,6 +12234,13 @@
       "percent": 40,
       "timestamp": "2026-11-17T06:00:31.521Z",
       "type": "discount"
+    },
+    "steam_discount_3118100": {
+      "title": "Kingdom Come: Deliverance II The Lion’s Crest",
+      "price": 93,
+      "percent": 30,
+      "timestamp": "2026-11-17T06:00:31.521Z",
+      "type": "discount"
     }
   }
 }
