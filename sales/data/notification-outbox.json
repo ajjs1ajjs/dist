@@ -6344,6 +6344,126 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T02:01:12.901Z"
+    },
+    {
+      "id": "62065a76bac13c940d3af7cb",
+      "createdAt": "2026-11-17T03:00:37.883Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Catherine Classic</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>124 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/893180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/893180/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_893180",
+          "entry": {
+            "title": "Catherine Classic",
+            "price": 124,
+            "percent": 75,
+            "timestamp": "2026-11-17T03:00:37.883Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9dc6bdaa267e5fa78d8681df",
+      "createdAt": "2026-11-17T03:00:37.883Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sonic Mania</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>74 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/584400\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/584400/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_584400",
+          "entry": {
+            "title": "Sonic Mania",
+            "price": 74,
+            "percent": 75,
+            "timestamp": "2026-11-17T03:00:37.883Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6345b98e081327dc7f8042da",
+      "createdAt": "2026-11-17T03:00:37.883Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza 4 Remastered</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1105500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1105500",
+          "entry": {
+            "title": "Yakuza 4 Remastered",
+            "price": 249,
+            "percent": 50,
+            "timestamp": "2026-11-17T03:00:37.883Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d58d6f59b7c3d401cf6a2306",
+      "createdAt": "2026-11-17T03:00:37.883Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Guild 1 Remake: Europa 1410</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>940 грн</s> ➡️ <b>705 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2977260\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/1fd9d91f425704ff475993b7a7f85eaf2046a89b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2977260",
+          "entry": {
+            "title": "The Guild 1 Remake: Europa 1410",
+            "price": 705,
+            "percent": 25,
+            "timestamp": "2026-11-17T03:00:37.883Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ee2cd087b343604709bae0b6",
+      "createdAt": "2026-11-17T03:00:37.883Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DrainSim</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>449 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2963800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/78f601d390d2f37d8aa47a0ce8695023ce7d3748/capsule_231x87_alt_assets_3.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2963800",
+          "entry": {
+            "title": "DrainSim",
+            "price": 449,
+            "percent": 25,
+            "timestamp": "2026-11-17T03:00:37.883Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cb4a2477fd2ad2adce3b01f3",
+      "createdAt": "2026-11-17T03:00:37.883Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sniper Dan</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>455 грн</s> ➡️ <b>341 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2841650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2841650/a38fdf78c30ba717d7e5bc35eadb0856c75a8504/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2841650",
+          "entry": {
+            "title": "Sniper Dan",
+            "price": 341,
+            "percent": 25,
+            "timestamp": "2026-11-17T03:00:37.883Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
