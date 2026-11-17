@@ -11784,6 +11784,13 @@
       "percent": 50,
       "timestamp": "2026-11-17T00:00:30.656Z",
       "type": "discount"
+    },
+    "steam_discount_3580160": {
+      "title": "Ambrosia Sky",
+      "price": 265,
+      "percent": 50,
+      "timestamp": "2026-11-17T00:00:30.656Z",
+      "type": "discount"
     }
   }
 }
