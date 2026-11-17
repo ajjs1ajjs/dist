@@ -13278,6 +13278,13 @@
       "percent": 70,
       "timestamp": "2026-11-17T23:00:30.699Z",
       "type": "discount"
+    },
+    "steam_discount_816340": {
+      "title": "Kingdom Rush Origins - Tower Defense",
+      "price": 80,
+      "percent": 65,
+      "timestamp": "2026-11-17T23:00:30.699Z",
+      "type": "discount"
     }
   }
 }
