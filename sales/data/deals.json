@@ -12377,6 +12377,13 @@
       "percent": 75,
       "timestamp": "2026-11-17T09:00:46.529Z",
       "type": "discount"
+    },
+    "steam_discount_871930": {
+      "title": "GLADIABOTS - AI Combat Arena",
+      "price": 81,
+      "percent": 75,
+      "timestamp": "2026-11-17T09:00:46.529Z",
+      "type": "discount"
     }
   }
 }
