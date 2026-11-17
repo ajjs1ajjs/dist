@@ -12384,6 +12384,13 @@
       "percent": 75,
       "timestamp": "2026-11-17T09:00:46.529Z",
       "type": "discount"
+    },
+    "steam_discount_3450970": {
+      "title": "Total War: WARHAMMER III - Sayl – Tides of Torment",
+      "price": 200,
+      "percent": 33,
+      "timestamp": "2026-11-17T09:00:46.529Z",
+      "type": "discount"
     }
   }
 }
