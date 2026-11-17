@@ -12391,6 +12391,13 @@
       "percent": 33,
       "timestamp": "2026-11-17T09:00:46.529Z",
       "type": "discount"
+    },
+    "steam_discount_3708030": {
+      "title": "Goat Simulator 3 – Baadlands: Furry Road",
+      "price": 227,
+      "percent": 30,
+      "timestamp": "2026-11-17T09:00:46.529Z",
+      "type": "discount"
     }
   }
 }
