@@ -6596,6 +6596,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T09:01:06.711Z"
+    },
+    {
+      "id": "93a46c517f108c892c2eb17b",
+      "createdAt": "2026-11-17T10:00:42.993Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Adorable Adventures</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>357 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3840230\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840230/0e093e0541b5feb70f9fffa3e71f6a84a106273e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3840230",
+          "entry": {
+            "title": "Adorable Adventures",
+            "price": 357,
+            "percent": 45,
+            "timestamp": "2026-11-17T10:00:42.993Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
