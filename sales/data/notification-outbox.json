@@ -6701,6 +6701,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T14:00:36.944Z"
+    },
+    {
+      "id": "2c0363c36416e19b4e4ff954",
+      "createdAt": "2026-11-17T15:00:32.212Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crime Boss: Rockay City</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>419 грн</s> ➡️ <b>41 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2933080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933080/dd0f5b3b52637aa6e3f924dbb90d7938239f9520/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2933080",
+          "entry": {
+            "title": "Crime Boss: Rockay City",
+            "price": 41,
+            "percent": 90,
+            "timestamp": "2026-11-17T15:00:32.212Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e51cc2b9eea6da1a7d33e3b6",
+      "createdAt": "2026-11-17T15:00:32.212Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Rush 5: Alliance TD</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>228 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2849080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849080/20b0f472287a2e940b989a730b125e493db4996d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2849080",
+          "entry": {
+            "title": "Kingdom Rush 5: Alliance TD",
+            "price": 228,
+            "percent": 45,
+            "timestamp": "2026-11-17T15:00:32.212Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
