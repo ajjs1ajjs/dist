@@ -5693,6 +5693,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-16T23:01:19.023Z"
+    },
+    {
+      "id": "5cb1a930a9e3207fd2ea761a",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>SHINOBI: Art of Vengeance</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>599 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2361770\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2361770/c7b4ad527b78d911a6b9325c76a4c43010fa3918/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2361770",
+          "entry": {
+            "title": "SHINOBI: Art of Vengeance",
+            "price": 599,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "03c6f9a436d58377e10d0c84",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Space Engineers</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>845 грн</s> ➡️ <b>422 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/244850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/645cb1f76a388a2079055239c2f9a715d6d222ec/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_244850",
+          "entry": {
+            "title": "Space Engineers",
+            "price": 422,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a18882cbd73d5b38b0bc76ba",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 4 Golden</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>324 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1113000\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113000/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1113000",
+          "entry": {
+            "title": "Persona 4 Golden",
+            "price": 324,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "14ff78972bcf0deeccb5477c",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza Kiwami 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>324 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3717340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717340/e92c1041d8697ea3eec7a3aafe60246bce742e7d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3717340",
+          "entry": {
+            "title": "Yakuza Kiwami 2",
+            "price": 324,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f2821920fc276959bc09dfaa",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call to Arms - Gates of Hell: Finest Hour</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>300 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3691330\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3691330/7d272eb626cccacc320f1d39263df829320b9e65/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3691330",
+          "entry": {
+            "title": "Call to Arms - Gates of Hell: Finest Hour",
+            "price": 300,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a0e57b02db640d0bcfee8d5b",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ambrosia Sky</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>530 грн</s> ➡️ <b>265 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3580160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3580160/2f459e904a20ac79f33b0252fdeebb59a06b56d9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3580160",
+          "entry": {
+            "title": "Ambrosia Sky",
+            "price": 265,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "25511322b71320545d85de7a",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Yakuza 6: The Song of Life</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1388590\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388590/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1388590",
+          "entry": {
+            "title": "Yakuza 6: The Song of Life",
+            "price": 249,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "246c5a53838f0a665f14dee4",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Champions of Chaos</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>350 грн</s> ➡️ <b>175 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1824060\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824060/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1824060",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Champions of Chaos",
+            "price": 175,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d3a8a3fbf3c4d0fe89cdcc33",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mechabellum</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>162 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/669330\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/669330/9589e2238e72134cadc9de6ff396b3f2c0186b9c/capsule_231x87_alt_assets_2.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_669330",
+          "entry": {
+            "title": "Mechabellum",
+            "price": 162,
+            "percent": 50,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "040219825ab6f349e052bf0a",
+      "createdAt": "2026-11-17T00:00:30.656Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Blue Prince</b>\n🏷️ Знижка: <b>-46%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>323 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1569580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/e69fbec887a2120c40b63d8b47d1697e9f733ae0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1569580",
+          "entry": {
+            "title": "Blue Prince",
+            "price": 323,
+            "percent": 46,
+            "timestamp": "2026-11-17T00:00:30.656Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
