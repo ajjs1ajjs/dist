@@ -12899,6 +12899,13 @@
       "percent": 55,
       "timestamp": "2026-11-17T20:00:39.400Z",
       "type": "discount"
+    },
+    "steam_discount_2891710": {
+      "title": "Total War: WARHAMMER III - Malakai – Thrones of Decay",
+      "price": 149,
+      "percent": 50,
+      "timestamp": "2026-11-17T20:00:39.400Z",
+      "type": "discount"
     }
   }
 }
