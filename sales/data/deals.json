@@ -12027,6 +12027,13 @@
       "percent": 0,
       "timestamp": "2026-11-17T01:00:37.570Z",
       "type": "gamepass"
+    },
+    "steam_discount_2254740": {
+      "title": "Persona 5 Tactica",
+      "price": 569,
+      "percent": 70,
+      "timestamp": "2026-11-17T02:00:31.586Z",
+      "type": "discount"
     }
   }
 }
