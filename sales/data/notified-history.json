@@ -3323,5 +3323,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T18:00:40.851Z",
     "type": "discount"
+  },
+  "steam_discount_292730": {
+    "title": "Call of Duty®: Infinite Warfare",
+    "price": 638,
+    "percent": 75,
+    "timestamp": "2026-11-17T20:00:39.400Z",
+    "type": "discount"
   }
 }
