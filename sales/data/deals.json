@@ -13181,6 +13181,13 @@
       "percent": 50,
       "timestamp": "2026-11-17T22:00:35.970Z",
       "type": "discount"
+    },
+    "steam_discount_2864560": {
+      "title": "Rune Factory: Guardians of Azuma",
+      "price": 562,
+      "percent": 50,
+      "timestamp": "2026-11-17T22:00:35.970Z",
+      "type": "discount"
     }
   }
 }
