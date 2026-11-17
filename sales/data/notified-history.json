@@ -3393,5 +3393,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T21:00:29.922Z",
     "type": "discount"
+  },
+  "steam_discount_3296060": {
+    "title": "Escape Academy 2: Back 2 School",
+    "price": 399,
+    "percent": 47,
+    "timestamp": "2026-11-17T21:00:29.922Z",
+    "type": "discount"
   }
 }
