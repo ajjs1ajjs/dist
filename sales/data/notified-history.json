@@ -3239,5 +3239,12 @@
     "percent": 30,
     "timestamp": "2026-11-17T09:00:46.529Z",
     "type": "discount"
+  },
+  "steam_discount_3840230": {
+    "title": "Adorable Adventures",
+    "price": 357,
+    "percent": 45,
+    "timestamp": "2026-11-17T10:00:42.993Z",
+    "type": "discount"
   }
 }
