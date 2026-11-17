@@ -3022,5 +3022,12 @@
     "percent": 75,
     "timestamp": "2026-11-17T01:00:37.570Z",
     "type": "discount"
+  },
+  "steam_discount_1602010": {
+    "title": "Persona 4 Arena Ultimax",
+    "price": 299,
+    "percent": 70,
+    "timestamp": "2026-11-17T01:00:37.570Z",
+    "type": "discount"
   }
 }
