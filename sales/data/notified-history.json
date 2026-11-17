@@ -3099,5 +3099,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T02:00:31.586Z",
     "type": "discount"
+  },
+  "steam_discount_4447640": {
+    "title": "Warframe: комплект «Тіньопис»",
+    "price": 199,
+    "percent": 50,
+    "timestamp": "2026-11-17T02:00:31.586Z",
+    "type": "discount"
   }
 }
