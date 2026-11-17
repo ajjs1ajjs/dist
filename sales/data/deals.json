@@ -12459,6 +12459,13 @@
       "percent": 90,
       "timestamp": "2026-11-17T15:00:32.212Z",
       "type": "discount"
+    },
+    "steam_discount_2849080": {
+      "title": "Kingdom Rush 5: Alliance TD",
+      "price": 228,
+      "percent": 45,
+      "timestamp": "2026-11-17T15:00:32.212Z",
+      "type": "discount"
     }
   }
 }
