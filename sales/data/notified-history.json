@@ -3295,5 +3295,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T16:00:33.981Z",
     "type": "discount"
+  },
+  "steam_free_570660": {
+    "title": "The Binding of Isaac: Afterbirth+",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-17T16:00:33.981Z",
+    "type": "free"
   }
 }
