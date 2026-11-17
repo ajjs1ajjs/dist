@@ -7199,6 +7199,146 @@
       "attempts": 1,
       "claimedAt": "2026-11-17T19:02:18.909Z",
       "lastError": "Telegram send failed: This operation was aborted"
+    },
+    {
+      "id": "68ea502549d10d687ee65fb7",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Infinite Warfare</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>2 552 грн</s> ➡️ <b>638 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/292730\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_292730",
+          "entry": {
+            "title": "Call of Duty®: Infinite Warfare",
+            "price": 638,
+            "percent": 75,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dc3cbd833345815ba240daca",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Destiny 2: The Edge of Fate</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>179 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3186490\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/6f22b5edffb51abf393cb527598b21271ae39ba1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3186490",
+          "entry": {
+            "title": "Destiny 2: The Edge of Fate",
+            "price": 179,
+            "percent": 70,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a09202ad5f53b6b4edd85fe7",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Modern Warfare® Remastered (2017)</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/393080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_393080",
+          "entry": {
+            "title": "Call of Duty®: Modern Warfare® Remastered (2017)",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8c64c6217c7f3f5fe65131e7",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Ghosts</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/209160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_209160",
+          "entry": {
+            "title": "Call of Duty®: Ghosts",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c33825765d2c670e45a724f3",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Destiny 2: Renegades</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3186540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/a870d779cb294072c410ca6e90d3c869b05b7233/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3186540",
+          "entry": {
+            "title": "Destiny 2: Renegades",
+            "price": 269,
+            "percent": 55,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "969cfce3a5cff3b514512d42",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Malakai – Thrones of Decay</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2891710\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2891710/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2891710",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Malakai – Thrones of Decay",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "1e620a5a48c317b5c5a43822",
+      "createdAt": "2026-11-17T20:00:39.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Shape of Dreams</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>349 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2444750\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2444750/244d00ca528830d5b29ecec839d40b1658843a56/capsule_231x87_alt_assets_5.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2444750",
+          "entry": {
+            "title": "Shape of Dreams",
+            "price": 349,
+            "percent": 30,
+            "timestamp": "2026-11-17T20:00:39.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
