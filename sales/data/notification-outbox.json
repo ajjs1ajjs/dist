@@ -6743,6 +6743,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T15:00:41.778Z"
+    },
+    {
+      "id": "cbdd8e82f97ed6bcc641527d",
+      "createdAt": "2026-11-17T16:00:33.981Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Rush Vengeance - Tower Defense</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>139 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1367550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367550/bf452d90d1b935a5d8aae95e4853857c6fbc7afd/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1367550",
+          "entry": {
+            "title": "Kingdom Rush Vengeance - Tower Defense",
+            "price": 139,
+            "percent": 50,
+            "timestamp": "2026-11-17T16:00:33.981Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "73fb624d04778a3266ee0ea4",
+      "createdAt": "2026-11-17T16:00:33.981Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>The Binding of Isaac: Afterbirth+</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/570660\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570660/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_free_570660",
+          "entry": {
+            "title": "The Binding of Isaac: Afterbirth+",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-17T16:00:33.981Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
