@@ -3351,5 +3351,12 @@
     "percent": 60,
     "timestamp": "2026-11-17T20:00:39.400Z",
     "type": "discount"
+  },
+  "steam_discount_3186540": {
+    "title": "Destiny 2: Renegades",
+    "price": 269,
+    "percent": 55,
+    "timestamp": "2026-11-17T20:00:39.400Z",
+    "type": "discount"
   }
 }
