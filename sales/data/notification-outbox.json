@@ -7661,6 +7661,186 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T22:01:28.079Z"
+    },
+    {
+      "id": "1a481f9bb0cd417da4db1c01",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DYNASTY WARRIORS 8: Xtreme Legends Complete Edition</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 625 грн</s> ➡️ <b>487 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/278080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/278080/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_278080",
+          "entry": {
+            "title": "DYNASTY WARRIORS 8: Xtreme Legends Complete Edition",
+            "price": 487,
+            "percent": 70,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "1efabd513ded0eaef38f826d",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Arizona Sunshine® VR Remake</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>179 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2897700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2897700/e4769f8065fd9e7f9b07351116306712d9350ed7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2897700",
+          "entry": {
+            "title": "Arizona Sunshine® VR Remake",
+            "price": 179,
+            "percent": 70,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0498d22741dd33b532842ab5",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Rush Origins - Tower Defense</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>229 грн</s> ➡️ <b>80 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/816340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/816340/30f50b27278af30b51dd0aac19d3a31e871974ad/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_816340",
+          "entry": {
+            "title": "Kingdom Rush Origins - Tower Defense",
+            "price": 80,
+            "percent": 65,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5cc72fb3c92c7e5ed8e3bc2b",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NINJA GAIDEN 2 Black</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 625 грн</s> ➡️ <b>650 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3287520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3287520/c4294f6650f352a32f5fccb9a4e52221aef2e1fb/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3287520",
+          "entry": {
+            "title": "NINJA GAIDEN 2 Black",
+            "price": 650,
+            "percent": 60,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9cced209c17ce87d31ef1f05",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crash Bandicoot™ 4: It’s About Time</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1378990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1378990/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1378990",
+          "entry": {
+            "title": "Crash Bandicoot™ 4: It’s About Time",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "72a7bf36175e816ac99d3b57",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Rise of the Ronin</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 625 грн</s> ➡️ <b>812 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1340990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1340990/708f3b2e479bbbe77e22190816151dd682f9172b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1340990",
+          "entry": {
+            "title": "Rise of the Ronin",
+            "price": 812,
+            "percent": 50,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "600230c5cbfccf0126de12e8",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Vampire: The Masquerade - Bloodlines</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>424 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2600\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2600",
+          "entry": {
+            "title": "Vampire: The Masquerade - Bloodlines",
+            "price": 424,
+            "percent": 50,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "96803b7011805c35fb8e6ee9",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crimson Moon</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>389 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4317690\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/5f6705a844f0c6d2b976144fbe32014ffa511200/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4317690",
+          "entry": {
+            "title": "Crimson Moon",
+            "price": 389,
+            "percent": 35,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c1f34514984b42d8cbc5aec4",
+      "createdAt": "2026-11-17T23:00:30.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Storyteller</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>194 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1624540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1624540/30ab85da6424b0596f7c863f73a3e4b0a27aee26/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1624540",
+          "entry": {
+            "title": "Storyteller",
+            "price": 194,
+            "percent": 35,
+            "timestamp": "2026-11-17T23:00:30.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
