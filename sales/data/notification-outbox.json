@@ -7023,6 +7023,166 @@
       "attempts": 1,
       "claimedAt": "2026-11-17T18:02:10.065Z",
       "lastError": "Telegram send failed: This operation was aborted"
+    },
+    {
+      "id": "aa918a71e15d0fcfd5c80283",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: WWII</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>2 552 грн</s> ➡️ <b>638 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/476600\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_476600",
+          "entry": {
+            "title": "Call of Duty®: WWII",
+            "price": 638,
+            "percent": 75,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4144956c4a417bcb07f6975e",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Black Ops Cold War</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>2 552 грн</s> ➡️ <b>638 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1985810\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1985810",
+          "entry": {
+            "title": "Call of Duty®: Black Ops Cold War",
+            "price": 638,
+            "percent": 75,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f4c7be1cfe9d69e41d5022a0",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Black Ops 6</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>3 299 грн</s> ➡️ <b>1 319 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4384550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/a73987e78826c71d3396e47f148180d0a9a160d0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4384550",
+          "entry": {
+            "title": "Call of Duty®: Black Ops 6",
+            "price": 1319,
+            "percent": 60,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c50e600b952981d7718c17fb",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Marathon</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>1 725 грн</s> ➡️ <b>776 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3065800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/14feee66aaae7536289672601ac176364dd2ffa1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3065800",
+          "entry": {
+            "title": "Marathon",
+            "price": 776,
+            "percent": 55,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "92ac36a19d0a05bab6264916",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Black Ops</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/42700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_42700",
+          "entry": {
+            "title": "Call of Duty®: Black Ops",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7b36bb958ba71d58f183d211",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Modern Warfare® 3 (2011)</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/42680\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_42680",
+          "entry": {
+            "title": "Call of Duty®: Modern Warfare® 3 (2011)",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "00ed52c29e1bcc56d310581a",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Goat Simulator 3 - Multiverse of Nonsense</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>195 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2809180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2809180/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2809180",
+          "entry": {
+            "title": "Goat Simulator 3 - Multiverse of Nonsense",
+            "price": 195,
+            "percent": 40,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "65af09080701ac47fd476b74",
+      "createdAt": "2026-11-17T19:00:33.795Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Modern Warfare® 2 (2009)</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>636 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/10180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_10180",
+          "entry": {
+            "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+            "price": 636,
+            "percent": 25,
+            "timestamp": "2026-11-17T19:00:33.795Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
