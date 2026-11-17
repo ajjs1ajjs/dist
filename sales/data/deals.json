@@ -12582,6 +12582,13 @@
       "percent": 100,
       "timestamp": "2026-11-17T16:00:33.981Z",
       "type": "free"
+    },
+    "steam_discount_311210": {
+      "title": "Call of Duty®: Black Ops III",
+      "price": 638,
+      "percent": 75,
+      "timestamp": "2026-11-17T18:00:40.851Z",
+      "type": "discount"
     }
   }
 }
