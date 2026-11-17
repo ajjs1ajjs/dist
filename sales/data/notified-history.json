@@ -3526,5 +3526,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T23:00:30.699Z",
     "type": "discount"
+  },
+  "steam_discount_4317690": {
+    "title": "Crimson Moon",
+    "price": 389,
+    "percent": 35,
+    "timestamp": "2026-11-17T23:00:30.699Z",
+    "type": "discount"
   }
 }
