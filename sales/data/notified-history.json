@@ -2994,5 +2994,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T00:00:30.656Z",
     "type": "discount"
+  },
+  "steam_discount_669330": {
+    "title": "Mechabellum",
+    "price": 162,
+    "percent": 50,
+    "timestamp": "2026-11-17T00:00:30.656Z",
+    "type": "discount"
   }
 }
