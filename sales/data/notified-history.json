@@ -3288,5 +3288,12 @@
     "percent": 45,
     "timestamp": "2026-11-17T15:00:32.212Z",
     "type": "discount"
+  },
+  "steam_discount_1367550": {
+    "title": "Kingdom Rush Vengeance - Tower Defense",
+    "price": 139,
+    "percent": 50,
+    "timestamp": "2026-11-17T16:00:33.981Z",
+    "type": "discount"
   }
 }
