@@ -3260,5 +3260,12 @@
     "percent": 66,
     "timestamp": "2026-11-17T12:00:34.679Z",
     "type": "discount"
+  },
+  "steam_free_1426300": {
+    "title": "The Binding of Isaac: Repentance",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-17T12:00:34.679Z",
+    "type": "free"
   }
 }
