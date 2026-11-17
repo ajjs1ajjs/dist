@@ -12871,6 +12871,13 @@
       "percent": 75,
       "timestamp": "2026-11-17T20:00:39.400Z",
       "type": "discount"
+    },
+    "steam_discount_3186490": {
+      "title": "Destiny 2: The Edge of Fate",
+      "price": 179,
+      "percent": 70,
+      "timestamp": "2026-11-17T20:00:39.400Z",
+      "type": "discount"
     }
   }
 }
