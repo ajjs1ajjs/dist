@@ -6807,6 +6807,206 @@
       "attempts": 1,
       "claimedAt": "2026-11-17T17:00:48.011Z",
       "lastError": "Telegram send failed: This operation was aborted"
+    },
+    {
+      "id": "0d7cc8caec990c07dd1f94ea",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Black Ops III</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>2 552 грн</s> ➡️ <b>638 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/311210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_311210",
+          "entry": {
+            "title": "Call of Duty®: Black Ops III",
+            "price": 638,
+            "percent": 75,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0df788a6e80a82f2d4078da7",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Creator Chronicles</b>\n🏷️ Знижка: <b>-62%</b>\n💰 Ціна: <s>500 грн</s> ➡️ <b>192 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3947460\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3947460/0680d0b77e61ad43a417241e7669884ac0b50a30/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3947460",
+          "entry": {
+            "title": "Creator Chronicles",
+            "price": 192,
+            "percent": 62,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b38683fea1ad5b7892b8d34b",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>HITMAN World of Assassination</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 315 грн</s> ➡️ <b>526 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1659040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/6ec523ac63e60d52f3507929631e4f8b18e876e8/capsule_231x87_alt_assets_15.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1659040",
+          "entry": {
+            "title": "HITMAN World of Assassination",
+            "price": 526,
+            "percent": 60,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ab9a1907f19270117e422441",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Wo Long: Fallen Dynasty</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 300 грн</s> ➡️ <b>520 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1448440\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/dcb5987b4ea792958bc86ecc2887ac12318b904b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1448440",
+          "entry": {
+            "title": "Wo Long: Fallen Dynasty",
+            "price": 520,
+            "percent": 60,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "acd027ddf0ed47cb9d718845",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Nioh 3</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 275 грн</s> ➡️ <b>1 137 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3681010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681010/0084f83d831210e7f0095c20806c7c172783f6e6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3681010",
+          "entry": {
+            "title": "Nioh 3",
+            "price": 1137,
+            "percent": 50,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d6102fe55bc93c56fa888fd5",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Black Ops II</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/202970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_202970",
+          "entry": {
+            "title": "Call of Duty®: Black Ops II",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3ac0f932396c2a2c07a79458",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Lies of P</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 625 грн</s> ➡️ <b>812 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1627720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1627720",
+          "entry": {
+            "title": "Lies of P",
+            "price": 812,
+            "percent": 50,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3307bc663b871a17ef51a29c",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER - Realm of The Wood Elves</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/534331\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534331/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_534331",
+          "entry": {
+            "title": "Total War: WARHAMMER - Realm of The Wood Elves",
+            "price": 199,
+            "percent": 50,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dd8151399cfe5870de20caa2",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Total War: WARHAMMER III - Elspeth – Thrones of Decay</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2325832\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2325832/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2325832",
+          "entry": {
+            "title": "Total War: WARHAMMER III - Elspeth – Thrones of Decay",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "76b384516c2afe461d189c22",
+      "createdAt": "2026-11-17T18:00:40.851Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>TEKKEN 8</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>824 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1778820\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1778820",
+          "entry": {
+            "title": "TEKKEN 8",
+            "price": 824,
+            "percent": 45,
+            "timestamp": "2026-11-17T18:00:40.851Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
