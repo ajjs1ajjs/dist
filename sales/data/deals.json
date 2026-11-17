@@ -11963,6 +11963,13 @@
       "percent": 40,
       "timestamp": "2026-11-17T01:00:37.570Z",
       "type": "discount"
+    },
+    "steam_discount_2486820": {
+      "title": "Sonic Racing: CrossWorlds",
+      "price": 809,
+      "percent": 40,
+      "timestamp": "2026-11-17T01:00:37.570Z",
+      "type": "discount"
     }
   }
 }
