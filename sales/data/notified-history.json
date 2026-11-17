@@ -3267,5 +3267,12 @@
     "percent": 100,
     "timestamp": "2026-11-17T12:00:34.679Z",
     "type": "free"
+  },
+  "steam_discount_2364580": {
+    "title": "Titanium Court",
+    "price": 148,
+    "percent": 34,
+    "timestamp": "2026-11-17T14:00:31.775Z",
+    "type": "discount"
   }
 }
