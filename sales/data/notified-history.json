@@ -3435,5 +3435,12 @@
     "percent": 68,
     "timestamp": "2026-11-17T22:00:35.970Z",
     "type": "discount"
+  },
+  "steam_discount_731490": {
+    "title": "Crash Bandicoot™ N. Sane Trilogy",
+    "price": 679,
+    "percent": 60,
+    "timestamp": "2026-11-17T22:00:35.970Z",
+    "type": "discount"
   }
 }
