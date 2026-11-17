@@ -3316,5 +3316,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T18:00:40.851Z",
     "type": "discount"
+  },
+  "steam_discount_1627720": {
+    "title": "Lies of P",
+    "price": 812,
+    "percent": 50,
+    "timestamp": "2026-11-17T18:00:40.851Z",
+    "type": "discount"
   }
 }
