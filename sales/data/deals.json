@@ -13174,6 +13174,13 @@
       "percent": 60,
       "timestamp": "2026-11-17T22:00:35.970Z",
       "type": "discount"
+    },
+    "steam_discount_2545710": {
+      "title": "Tony Hawk's™ Pro Skater™ 3 + 4",
+      "price": 1048,
+      "percent": 50,
+      "timestamp": "2026-11-17T22:00:35.970Z",
+      "type": "discount"
     }
   }
 }
