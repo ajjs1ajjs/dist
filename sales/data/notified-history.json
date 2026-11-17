@@ -3106,5 +3106,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T02:00:31.586Z",
     "type": "discount"
+  },
+  "steam_discount_213610": {
+    "title": "Sonic Adventure 2",
+    "price": 84,
+    "percent": 50,
+    "timestamp": "2026-11-17T02:00:31.586Z",
+    "type": "discount"
   }
 }
