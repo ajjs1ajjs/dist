@@ -3015,5 +3015,12 @@
     "percent": 85,
     "timestamp": "2026-11-17T01:00:37.570Z",
     "type": "discount"
+  },
+  "steam_discount_1288320": {
+    "title": "Way of the Hunter",
+    "price": 124,
+    "percent": 75,
+    "timestamp": "2026-11-17T01:00:37.570Z",
+    "type": "discount"
   }
 }
