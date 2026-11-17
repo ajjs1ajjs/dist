@@ -13139,6 +13139,13 @@
       "percent": 74,
       "timestamp": "2026-11-17T22:00:35.970Z",
       "type": "discount"
+    },
+    "steam_discount_115320": {
+      "title": "Prototype 2",
+      "price": 509,
+      "percent": 70,
+      "timestamp": "2026-11-17T22:00:35.970Z",
+      "type": "discount"
     }
   }
 }
