@@ -3050,5 +3050,12 @@
     "percent": 40,
     "timestamp": "2026-11-17T01:00:37.570Z",
     "type": "discount"
+  },
+  "steam_discount_2928600": {
+    "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+    "price": 809,
+    "percent": 40,
+    "timestamp": "2026-11-17T01:00:37.570Z",
+    "type": "discount"
   }
 }
