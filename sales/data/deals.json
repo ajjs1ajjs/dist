@@ -13285,6 +13285,13 @@
       "percent": 65,
       "timestamp": "2026-11-17T23:00:30.699Z",
       "type": "discount"
+    },
+    "steam_discount_3287520": {
+      "title": "NINJA GAIDEN 2 Black",
+      "price": 650,
+      "percent": 60,
+      "timestamp": "2026-11-17T23:00:30.699Z",
+      "type": "discount"
     }
   }
 }
