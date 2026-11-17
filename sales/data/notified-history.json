@@ -3309,5 +3309,12 @@
     "percent": 75,
     "timestamp": "2026-11-17T18:00:40.851Z",
     "type": "discount"
+  },
+  "steam_discount_202970": {
+    "title": "Call of Duty®: Black Ops II",
+    "price": 849,
+    "percent": 50,
+    "timestamp": "2026-11-17T18:00:40.851Z",
+    "type": "discount"
   }
 }
