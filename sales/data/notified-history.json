@@ -3386,5 +3386,12 @@
     "percent": 60,
     "timestamp": "2026-11-17T21:00:29.922Z",
     "type": "discount"
+  },
+  "steam_discount_7940": {
+    "title": "Call of Duty® 4: Modern Warfare® (2007)",
+    "price": 424,
+    "percent": 50,
+    "timestamp": "2026-11-17T21:00:29.922Z",
+    "type": "discount"
   }
 }
