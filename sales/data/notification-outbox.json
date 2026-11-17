@@ -6638,6 +6638,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T11:00:37.376Z"
+    },
+    {
+      "id": "9a1b442c89a235fd2a18fc5c",
+      "createdAt": "2026-11-17T12:00:34.679Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>A Total War Saga: TROY</b>\n🏷️ Знижка: <b>-66%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>203 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1099410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1099410/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1099410",
+          "entry": {
+            "title": "A Total War Saga: TROY",
+            "price": 203,
+            "percent": 66,
+            "timestamp": "2026-11-17T12:00:34.679Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4033a443dfa8329bc56760c5",
+      "createdAt": "2026-11-17T12:00:34.679Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>The Binding of Isaac: Repentance</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/1426300\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426300/633b109ef0cf99fca844ff8def1c33cb403e7898/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_free_1426300",
+          "entry": {
+            "title": "The Binding of Isaac: Repentance",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-17T12:00:34.679Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
