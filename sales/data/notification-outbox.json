@@ -7346,6 +7346,106 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T20:01:15.825Z"
+    },
+    {
+      "id": "3be04cb946fb5eed07fbf267",
+      "createdAt": "2026-11-17T21:00:29.922Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Vanguard</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>2 552 грн</s> ➡️ <b>842 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1985820\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985820/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1985820",
+          "entry": {
+            "title": "Call of Duty®: Vanguard",
+            "price": 842,
+            "percent": 67,
+            "timestamp": "2026-11-17T21:00:29.922Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f930313f8c1364d8e14454d3",
+      "createdAt": "2026-11-17T21:00:29.922Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty®: Advanced Warfare - Gold Edition</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/209650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_209650",
+          "entry": {
+            "title": "Call of Duty®: Advanced Warfare - Gold Edition",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-17T21:00:29.922Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b029991ff1cd13d26799d6cc",
+      "createdAt": "2026-11-17T21:00:29.922Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty® 4: Modern Warfare® (2007)</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>424 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/7940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7940/header.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_7940",
+          "entry": {
+            "title": "Call of Duty® 4: Modern Warfare® (2007)",
+            "price": 424,
+            "percent": 50,
+            "timestamp": "2026-11-17T21:00:29.922Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "201ba4bd619422ef7d974f34",
+      "createdAt": "2026-11-17T21:00:29.922Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Escape Academy 2: Back 2 School</b>\n🏷️ Знижка: <b>-47%</b>\n💰 Ціна: <s>749 грн</s> ➡️ <b>399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3296060\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3296060/a246f52bd3cf5bdebd4290c95cd6dffbc17fdcef/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3296060",
+          "entry": {
+            "title": "Escape Academy 2: Back 2 School",
+            "price": 399,
+            "percent": 47,
+            "timestamp": "2026-11-17T21:00:29.922Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "381a9267f1f0618a4c0ae634",
+      "createdAt": "2026-11-17T21:00:29.922Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty: World at War</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>636 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/10090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10090/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_10090",
+          "entry": {
+            "title": "Call of Duty: World at War",
+            "price": 636,
+            "percent": 25,
+            "timestamp": "2026-11-17T21:00:29.922Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
