@@ -5903,6 +5903,226 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T00:01:21.964Z"
+    },
+    {
+      "id": "4efa6ce6909ee22cd592b93c",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Two Point Campus</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>142 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1649080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649080/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1649080",
+          "entry": {
+            "title": "Two Point Campus",
+            "price": 142,
+            "percent": 85,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "20bb9eccb7c2dff7c1916d1b",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Way of the Hunter</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>124 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1288320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1288320",
+          "entry": {
+            "title": "Way of the Hunter",
+            "price": 124,
+            "percent": 75,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a5bde095e7e0997e7eee3e51",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 4 Arena Ultimax</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>299 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1602010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602010/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1602010",
+          "entry": {
+            "title": "Persona 4 Arena Ultimax",
+            "price": 299,
+            "percent": 70,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3a998fde698c14e0b179497d",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Persona 3 Portable</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>324 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1809700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1809700",
+          "entry": {
+            "title": "Persona 3 Portable",
+            "price": 324,
+            "percent": 50,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d99fce55b4f1e1ab2cd078ca",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Commandos: Origins</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>899 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1479730\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1479730/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1479730",
+          "entry": {
+            "title": "Commandos: Origins",
+            "price": 899,
+            "percent": 40,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ab9e58731433e5a62a618803",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sonic Racing: CrossWorlds</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>809 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2486820\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/c9cfd49ac65716ecb0adba44527889ba1866513f/capsule_231x87_alt_assets_17.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2486820",
+          "entry": {
+            "title": "Sonic Racing: CrossWorlds",
+            "price": 809,
+            "percent": 40,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "da5f02473da762066858bc13",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>809 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2928600\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928600/da7e7a7d803a554609cd1cc5822e770c0d2385a8/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2928600",
+          "entry": {
+            "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+            "price": 809,
+            "percent": 40,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "29a3203824801bc7bcad0465",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Warframe: повна колекція «Давній мир»</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>850 грн</s> ➡️ <b>510 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4157990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157990/e1ac80958b2dc2ac00a3221150826b49d3278943/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4157990",
+          "entry": {
+            "title": "Warframe: повна колекція «Давній мир»",
+            "price": 510,
+            "percent": 40,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ffb584fb4efde52bf285fae7",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Come: Deliverance II Legacy of the Forge</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>373 грн</s> ➡️ <b>223 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3368610\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368610/7453a4c7776509b89124294b4589ba55e54683da/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3368610",
+          "entry": {
+            "title": "Kingdom Come: Deliverance II Legacy of the Forge",
+            "price": 223,
+            "percent": 40,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4f00bf8f4f1d630f9c5a01ec",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Come: Deliverance II Mysteria Ecclesiae</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>373 грн</s> ➡️ <b>223 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3368620\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368620/872dbce3377a6cba5513d2b45059c643ccc9cc8a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3368620",
+          "entry": {
+            "title": "Kingdom Come: Deliverance II Mysteria Ecclesiae",
+            "price": 223,
+            "percent": 40,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9cf9ebde788381d93093686d",
+      "createdAt": "2026-11-17T01:00:37.570Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Щенячий патруль™: Диносвіт</b>\n📝 РРРАААРР! Схоже, десь проблема... Це що, долинуло з Диноострова? Здається, Рексу потрібна допомога Щенячого патруля, щоб…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/game/9N3P3TRJGWV0\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.29964.14003155671712527.e2286374-c296-44cb-8b6c-1bb5b97b583a.78463401-4b70-40c1-8a74-4368f5193a15",
+      "receipts": [
+        {
+          "key": "gamepass_9N3P3TRJGWV0",
+          "entry": {
+            "title": "Щенячий патруль™: Диносвіт",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-17T01:00:37.570Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
