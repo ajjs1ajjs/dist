@@ -12885,6 +12885,13 @@
       "percent": 60,
       "timestamp": "2026-11-17T20:00:39.400Z",
       "type": "discount"
+    },
+    "steam_discount_209160": {
+      "title": "Call of Duty®: Ghosts",
+      "price": 679,
+      "percent": 60,
+      "timestamp": "2026-11-17T20:00:39.400Z",
+      "type": "discount"
     }
   }
 }
