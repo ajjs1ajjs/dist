@@ -13271,6 +13271,13 @@
       "percent": 70,
       "timestamp": "2026-11-17T23:00:30.699Z",
       "type": "discount"
+    },
+    "steam_discount_2897700": {
+      "title": "Arizona Sunshine® VR Remake",
+      "price": 179,
+      "percent": 70,
+      "timestamp": "2026-11-17T23:00:30.699Z",
+      "type": "discount"
     }
   }
 }
