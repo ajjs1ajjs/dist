@@ -7063,9 +7063,10 @@
           }
         }
       ],
-      "status": "sending",
+      "status": "uncertain",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:00:52.809Z"
+      "claimedAt": "2026-11-17T19:00:52.809Z",
+      "lastError": "Telegram send failed: This operation was aborted"
     },
     {
       "id": "f4c7be1cfe9d69e41d5022a0",
