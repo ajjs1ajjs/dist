@@ -1,10 +1,17 @@
 {
-  "lastUpdated": "2026-11-17T21:00:29.922Z",
+  "lastUpdated": "2026-11-17T22:00:35.970Z",
   "sourceUpdates": {
-    "steam": "2026-11-17T21:00:29.922Z",
-    "gamepass": "2026-11-17T21:00:29.922Z"
+    "steam": "2026-11-17T22:00:35.970Z",
+    "gamepass": "2026-11-17T22:00:35.970Z"
   },
   "priceHistory": {
+    "2630": [
+      {
+        "date": "2026-11-17",
+        "price": 424,
+        "currency": "UAH"
+      }
+    ],
     "4700": [
       {
         "date": "2026-11-16",
@@ -139,6 +146,13 @@
       {
         "date": "2026-11-16",
         "price": 38,
+        "currency": "UAH"
+      }
+    ],
+    "115320": [
+      {
+        "date": "2026-11-17",
+        "price": 509,
         "currency": "UAH"
       }
     ],
@@ -1464,6 +1478,13 @@
         "currency": "UAH"
       }
     ],
+    "731490": [
+      {
+        "date": "2026-11-17",
+        "price": 679,
+        "currency": "UAH"
+      }
+    ],
     "746850": [
       {
         "date": "2026-11-14",
@@ -1854,6 +1875,13 @@
       {
         "date": "2026-11-17",
         "price": 148,
+        "currency": "UAH"
+      }
+    ],
+    "1096900": [
+      {
+        "date": "2026-11-17",
+        "price": 663,
         "currency": "UAH"
       }
     ],
@@ -2314,6 +2342,13 @@
         "currency": "UAH"
       }
     ],
+    "1325200": [
+      {
+        "date": "2026-11-17",
+        "price": 650,
+        "currency": "UAH"
+      }
+    ],
     "1332720": [
       {
         "date": "2026-11-14",
@@ -2649,6 +2684,13 @@
       {
         "date": "2026-11-17",
         "price": 29,
+        "currency": "UAH"
+      }
+    ],
+    "1540210": [
+      {
+        "date": "2026-11-17",
+        "price": 233,
         "currency": "UAH"
       }
     ],
@@ -3811,6 +3853,13 @@
         "currency": "UAH"
       }
     ],
+    "2395210": [
+      {
+        "date": "2026-11-17",
+        "price": 679,
+        "currency": "UAH"
+      }
+    ],
     "2404880": [
       {
         "date": "2026-11-14",
@@ -4054,6 +4103,13 @@
         "currency": "UAH"
       }
     ],
+    "2545710": [
+      {
+        "date": "2026-11-17",
+        "price": 1048,
+        "currency": "UAH"
+      }
+    ],
     "2569760": [
       {
         "date": "2026-11-14",
@@ -4256,6 +4312,13 @@
       {
         "date": "2026-11-17",
         "price": 157,
+        "currency": "UAH"
+      }
+    ],
+    "2669410": [
+      {
+        "date": "2026-11-17",
+        "price": 233,
         "currency": "UAH"
       }
     ],
@@ -4486,6 +4549,13 @@
       {
         "date": "2026-11-17",
         "price": 228,
+        "currency": "UAH"
+      }
+    ],
+    "2864560": [
+      {
+        "date": "2026-11-17",
+        "price": 562,
         "currency": "UAH"
       }
     ],
@@ -5681,6 +5751,13 @@
         "currency": "UAH"
       }
     ],
+    "4317690": [
+      {
+        "date": "2026-11-17",
+        "price": 389,
+        "currency": "UAH"
+      }
+    ],
     "4324480": [
       {
         "date": "2026-11-14",
@@ -6318,6 +6395,19 @@
       "isPopular": true
     },
     {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg?t=1780963650",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2536520",
       "title": "Diablo II: Resurrected - Infernal Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/221061a6fab4d787dfa936d6f6b38b448b074a63/capsule_616x353.jpg?t=1774399170",
@@ -6339,19 +6429,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/489830",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "12210",
-      "title": "Grand Theft Auto IV: The Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg?t=1721061564",
-      "originalPrice": 429,
-      "discountPrice": 128,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/12210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6435,19 +6512,6 @@
       "isPopular": true
     },
     {
-      "id": "1675200",
-      "title": "Steam Deck",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
-      "originalPrice": 0,
-      "discountPrice": 0,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1675200",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "5185890",
       "title": "Zombies Aren't Real",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185890/b81ce47d316a0b28e1f54f038f35de1ccf4bfa44/capsule_616x353.jpg?t=1794839706",
@@ -6456,6 +6520,19 @@
       "discountPercent": 10,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/5185890",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1675200",
+      "title": "Steam Deck",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675200/ce93cfd12a888ecfbb5428b11bcc15e4352a21d0/capsule_616x353.jpg?t=1781214136",
+      "originalPrice": 0,
+      "discountPrice": 0,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1675200",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -6474,19 +6551,6 @@
       "isPopular": true
     },
     {
-      "id": "949230",
-      "title": "Cities: Skylines II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/331a5bcc257a69132f6502ad146984142e0d4aeb/capsule_616x353.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 944,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/949230",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1142710",
       "title": "Total War: WARHAMMER III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
@@ -6495,6 +6559,19 @@
       "discountPercent": 85,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "949230",
+      "title": "Cities: Skylines II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/331a5bcc257a69132f6502ad146984142e0d4aeb/capsule_616x353.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 944,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/949230",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6552,19 +6629,6 @@
       "isPopular": true
     },
     {
-      "id": "244850",
-      "title": "Space Engineers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/645cb1f76a388a2079055239c2f9a715d6d222ec/capsule_616x353.jpg",
-      "originalPrice": 845,
-      "discountPrice": 422,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/244850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2161700",
       "title": "Persona 3 Reload",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg",
@@ -6573,6 +6637,19 @@
       "discountPercent": 65,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2161700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "244850",
+      "title": "Space Engineers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/645cb1f76a388a2079055239c2f9a715d6d222ec/capsule_616x353.jpg",
+      "originalPrice": 845,
+      "discountPrice": 422,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/244850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6643,6 +6720,19 @@
       "isPopular": true
     },
     {
+      "id": "5378110",
+      "title": "One More Lawn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg",
+      "originalPrice": 170,
+      "discountPrice": 119,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5378110",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2605790",
       "title": "Deep Rock Galactic: Rogue Core",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2605790/92beda8b7b4ecaadd48f1a8890f57a8a2371b5a4/capsule_231x87_alt_assets_2.jpg",
@@ -6677,19 +6767,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2072450",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5378110",
-      "title": "One More Lawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg",
-      "originalPrice": 170,
-      "discountPrice": 119,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5378110",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6734,6 +6811,19 @@
       "isPopular": true
     },
     {
+      "id": "12210",
+      "title": "Grand Theft Auto IV: The Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/capsule_616x353.jpg",
+      "originalPrice": 429,
+      "discountPrice": 128,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/12210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1669000",
       "title": "Age of Wonders 4",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669000/e0f5e3bc99bba2058393168231edd0981e8863a6/capsule_231x87_alt_assets_14.jpg",
@@ -6747,14 +6837,14 @@
       "isPopular": true
     },
     {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
+      "id": "1627720",
+      "title": "Lies of P",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg",
+      "originalPrice": 1625,
+      "discountPrice": 812,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
+      "url": "https://store.steampowered.com/app/1627720",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6762,7 +6852,7 @@
     {
       "id": "1677280",
       "title": "Company of Heroes 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1677280/capsule_616x353.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1677280/58e207080372fea10a4bf493b71f4fdd3a16d207/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 1099,
       "discountPrice": 362,
       "discountPercent": 67,
@@ -6799,19 +6889,6 @@
       "isPopular": true
     },
     {
-      "id": "3691330",
-      "title": "Call to Arms - Gates of Hell: Finest Hour",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3691330/7d272eb626cccacc320f1d39263df829320b9e65/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 300,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3691330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "594570",
       "title": "Total War: WARHAMMER II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/capsule_616x353.jpg",
@@ -6825,6 +6902,19 @@
       "isPopular": true
     },
     {
+      "id": "3691330",
+      "title": "Call to Arms - Gates of Hell: Finest Hour",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3691330/7d272eb626cccacc320f1d39263df829320b9e65/capsule_616x353.jpg",
+      "originalPrice": 600,
+      "discountPrice": 300,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3691330",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "362890",
       "title": "Black Mesa",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/f500257563de479b38169882b434ab7aab4168c5/capsule_231x87_alt_assets_3.jpg",
@@ -6833,19 +6923,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/362890",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1627720",
-      "title": "Lies of P",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg",
-      "originalPrice": 1625,
-      "discountPrice": 812,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1627720",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6916,6 +6993,19 @@
       "isPopular": true
     },
     {
+      "id": "1778820",
+      "title": "TEKKEN 8",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 824,
+      "discountPercent": 45,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1778820",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2680010",
       "title": "The First Berserker: Khazan",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg",
@@ -6955,14 +7045,27 @@
       "isPopular": true
     },
     {
-      "id": "1778820",
-      "title": "TEKKEN 8",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 824,
-      "discountPercent": 45,
+      "id": "1659040",
+      "title": "HITMAN World of Assassination",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/6ec523ac63e60d52f3507929631e4f8b18e876e8/capsule_231x87_alt_assets_15.jpg",
+      "originalPrice": 1315,
+      "discountPrice": 526,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1778820",
+      "url": "https://store.steampowered.com/app/1659040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "476600",
+      "title": "Call of Duty®: WWII",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/476600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -6994,19 +7097,6 @@
       "isPopular": true
     },
     {
-      "id": "1659040",
-      "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/6ec523ac63e60d52f3507929631e4f8b18e876e8/capsule_231x87_alt_assets_15.jpg",
-      "originalPrice": 1315,
-      "discountPrice": 526,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1659040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1875830",
       "title": "Shin Megami Tensei V: Vengeance",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/capsule_616x353.jpg",
@@ -7020,14 +7110,14 @@
       "isPopular": true
     },
     {
-      "id": "214950",
-      "title": "Total War: ROME II - Emperor Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/capsule_616x353.jpg",
-      "originalPrice": 639,
-      "discountPrice": 159,
+      "id": "1985810",
+      "title": "Call of Duty®: Black Ops Cold War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/214950",
+      "url": "https://store.steampowered.com/app/1985810",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7046,14 +7136,40 @@
       "isPopular": true
     },
     {
-      "id": "779340",
-      "title": "Total War: THREE KINGDOMS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/capsule_616x353.jpg",
-      "originalPrice": 1149,
-      "discountPrice": 344,
-      "discountPercent": 70,
+      "id": "3681010",
+      "title": "Nioh 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681010/0084f83d831210e7f0095c20806c7c172783f6e6/capsule_616x353.jpg",
+      "originalPrice": 2275,
+      "discountPrice": 1137,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/779340",
+      "url": "https://store.steampowered.com/app/3681010",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "214950",
+      "title": "Total War: ROME II - Emperor Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/capsule_616x353.jpg",
+      "originalPrice": 639,
+      "discountPrice": 159,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/214950",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "202970",
+      "title": "Call of Duty®: Black Ops II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/202970",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7067,6 +7183,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2492040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "779340",
+      "title": "Total War: THREE KINGDOMS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/capsule_616x353.jpg",
+      "originalPrice": 1149,
+      "discountPrice": 344,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/779340",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7098,6 +7227,19 @@
       "isPopular": true
     },
     {
+      "id": "1676840",
+      "title": "For The King II",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1676840/1106ea7989ec0e50b29766814802b5455f18ac34/capsule_231x87_alt_assets_13_ukrainian.jpg",
+      "originalPrice": 599,
+      "discountPrice": 179,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1676840",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3061810",
       "title": "Like a Dragon: Pirate Yakuza in Hawaii",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3061810/7028c5abc388a2376e0a19aca1e2362821b2ef62/capsule_616x353.jpg",
@@ -7111,14 +7253,14 @@
       "isPopular": true
     },
     {
-      "id": "1676840",
-      "title": "For The King II",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1676840/1106ea7989ec0e50b29766814802b5455f18ac34/capsule_231x87_alt_assets_13_ukrainian.jpg",
-      "originalPrice": 599,
-      "discountPrice": 179,
-      "discountPercent": 70,
+      "id": "2698940",
+      "title": "The Crew Motorfest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/f3de1be59b97e608f3c9fee1d03320330edadb99/capsule_616x353.jpg",
+      "originalPrice": 1799,
+      "discountPrice": 360,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1676840",
+      "url": "https://store.steampowered.com/app/2698940",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7137,14 +7279,14 @@
       "isPopular": true
     },
     {
-      "id": "2698940",
-      "title": "The Crew Motorfest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/f3de1be59b97e608f3c9fee1d03320330edadb99/capsule_616x353.jpg",
-      "originalPrice": 1799,
-      "discountPrice": 360,
-      "discountPercent": 80,
+      "id": "669330",
+      "title": "Mechabellum",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/669330/9589e2238e72134cadc9de6ff396b3f2c0186b9c/capsule_231x87_alt_assets_2.jpg",
+      "originalPrice": 325,
+      "discountPrice": 162,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2698940",
+      "url": "https://store.steampowered.com/app/669330",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7176,19 +7318,6 @@
       "isPopular": true
     },
     {
-      "id": "669330",
-      "title": "Mechabellum",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/669330/9589e2238e72134cadc9de6ff396b3f2c0186b9c/capsule_231x87_alt_assets_2.jpg",
-      "originalPrice": 325,
-      "discountPrice": 162,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/669330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1235140",
       "title": "Yakuza: Like a Dragon",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235140/capsule_616x353.jpg",
@@ -7197,32 +7326,6 @@
       "discountPercent": 65,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1235140",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1469610",
-      "title": "Last Train Home",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/capsule_616x353.jpg",
-      "originalPrice": 740,
-      "discountPrice": 244,
-      "discountPercent": 67,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1469610",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3681010",
-      "title": "Nioh 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681010/0084f83d831210e7f0095c20806c7c172783f6e6/capsule_616x353.jpg",
-      "originalPrice": 2275,
-      "discountPrice": 1137,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3681010",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7241,14 +7344,14 @@
       "isPopular": true
     },
     {
-      "id": "476600",
-      "title": "Call of Duty®: WWII",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
+      "id": "1469610",
+      "title": "Last Train Home",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/capsule_616x353.jpg",
+      "originalPrice": 740,
+      "discountPrice": 244,
+      "discountPercent": 67,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/476600",
+      "url": "https://store.steampowered.com/app/1469610",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7267,14 +7370,27 @@
       "isPopular": true
     },
     {
-      "id": "2447590",
-      "title": "Call to Arms - Gates of Hell: Liberation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447590/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 150,
-      "discountPercent": 75,
+      "id": "4384550",
+      "title": "Call of Duty®: Black Ops 6",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/a73987e78826c71d3396e47f148180d0a9a160d0/capsule_616x353.jpg",
+      "originalPrice": 3299,
+      "discountPrice": 1319,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2447590",
+      "url": "https://store.steampowered.com/app/4384550",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "42700",
+      "title": "Call of Duty®: Black Ops",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/42700",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7293,27 +7409,27 @@
       "isPopular": true
     },
     {
-      "id": "202970",
-      "title": "Call of Duty®: Black Ops II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
+      "id": "3065800",
+      "title": "Marathon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/14feee66aaae7536289672601ac176364dd2ffa1/capsule_616x353.jpg",
+      "originalPrice": 1725,
+      "discountPrice": 776,
+      "discountPercent": 55,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/202970",
+      "url": "https://store.steampowered.com/app/3065800",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "3747730",
-      "title": "Legacy of Kain: Defiance Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3747730/fb01a6a51ad5dea60703732e5b068a418fdc1832/capsule_616x353.jpg",
-      "originalPrice": 500,
+      "id": "2447590",
+      "title": "Call to Arms - Gates of Hell: Liberation",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2447590/capsule_616x353.jpg",
+      "originalPrice": 600,
       "discountPrice": 150,
-      "discountPercent": 70,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3747730",
+      "url": "https://store.steampowered.com/app/2447590",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7332,19 +7448,6 @@
       "isPopular": true
     },
     {
-      "id": "1985810",
-      "title": "Call of Duty®: Black Ops Cold War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1985810",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "460790",
       "title": "Bayonetta",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460790/capsule_616x353.jpg",
@@ -7353,6 +7456,19 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/460790",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "42680",
+      "title": "Call of Duty®: Modern Warfare® 3 (2011)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/42680",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7371,14 +7487,27 @@
       "isPopular": true
     },
     {
-      "id": "2004210",
-      "title": "Euro Truck Simulator 2 - West Balkans",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004210/9a42942fefba39ae9e94746564e0def22020fc5f/capsule_616x353.jpg",
-      "originalPrice": 370,
-      "discountPrice": 185,
-      "discountPercent": 50,
+      "id": "3747730",
+      "title": "Legacy of Kain: Defiance Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3747730/fb01a6a51ad5dea60703732e5b068a418fdc1832/capsule_616x353.jpg",
+      "originalPrice": 500,
+      "discountPrice": 150,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2004210",
+      "url": "https://store.steampowered.com/app/3747730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "292730",
+      "title": "Call of Duty®: Infinite Warfare",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292730",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7392,6 +7521,19 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3368610",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2004210",
+      "title": "Euro Truck Simulator 2 - West Balkans",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2004210/9a42942fefba39ae9e94746564e0def22020fc5f/capsule_616x353.jpg",
+      "originalPrice": 370,
+      "discountPrice": 185,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2004210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7423,19 +7565,6 @@
       "isPopular": true
     },
     {
-      "id": "2604420",
-      "title": "Euro Truck Simulator 2 - Greece",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2604420/ed1f1acfaeceb58650949d40ccf75746da41fc5e/capsule_616x353.jpg",
-      "originalPrice": 240,
-      "discountPrice": 168,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2604420",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1606340",
       "title": "Conquest of Elysium 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1606340/capsule_616x353.jpg",
@@ -7462,14 +7591,14 @@
       "isPopular": true
     },
     {
-      "id": "2058180",
-      "title": "Judgment",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058180/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 299,
-      "discountPercent": 75,
+      "id": "2604420",
+      "title": "Euro Truck Simulator 2 - Greece",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2604420/ed1f1acfaeceb58650949d40ccf75746da41fc5e/capsule_616x353.jpg",
+      "originalPrice": 240,
+      "discountPrice": 168,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2058180",
+      "url": "https://store.steampowered.com/app/2604420",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7488,14 +7617,27 @@
       "isPopular": true
     },
     {
-      "id": "2928600",
-      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928600/da7e7a7d803a554609cd1cc5822e770c0d2385a8/capsule_616x353.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 809,
-      "discountPercent": 40,
+      "id": "2058180",
+      "title": "Judgment",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2058180/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 299,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2928600",
+      "url": "https://store.steampowered.com/app/2058180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "393080",
+      "title": "Call of Duty®: Modern Warfare® Remastered (2017)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/393080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7514,6 +7656,19 @@
       "isPopular": true
     },
     {
+      "id": "2928600",
+      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2928600/da7e7a7d803a554609cd1cc5822e770c0d2385a8/capsule_616x353.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 809,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2928600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1382330",
       "title": "Persona® 5 Strikers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382330/capsule_616x353.jpg",
@@ -7522,19 +7677,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1382330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4384550",
-      "title": "Call of Duty®: Black Ops 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/a73987e78826c71d3396e47f148180d0a9a160d0/capsule_616x353.jpg",
-      "originalPrice": 3299,
-      "discountPrice": 1319,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4384550",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7566,40 +7708,27 @@
       "isPopular": true
     },
     {
-      "id": "684450",
-      "title": "Surviving the Aftermath",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/684450/capsule_616x353.jpg",
-      "originalPrice": 729,
-      "discountPrice": 145,
-      "discountPercent": 80,
+      "id": "325610",
+      "title": "Total War: ATTILA",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/325610/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 269,
+      "discountPercent": 55,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/684450",
+      "url": "https://store.steampowered.com/app/325610",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "42700",
-      "title": "Call of Duty®: Black Ops",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
+      "id": "10180",
+      "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/capsule_616x353.jpg",
+      "originalPrice": 849,
+      "discountPrice": 636,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/42700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1911520",
-      "title": "Call to Arms - Gates of Hell: Talvisota",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911520/capsule_616x353.jpg",
-      "originalPrice": 415,
-      "discountPrice": 103,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1911520",
+      "url": "https://store.steampowered.com/app/10180",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7618,6 +7747,19 @@
       "isPopular": true
     },
     {
+      "id": "3186540",
+      "title": "Destiny 2: Renegades",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/a870d779cb294072c410ca6e90d3c869b05b7233/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 269,
+      "discountPercent": 55,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3186540",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1904480",
       "title": "Absolum",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1904480/33ade00552879948450968586802d222b31e7af5/capsule_616x353.jpg",
@@ -7631,40 +7773,14 @@
       "isPopular": true
     },
     {
-      "id": "535930",
-      "title": "Two Point Hospital",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/capsule_616x353.jpg",
-      "originalPrice": 949,
-      "discountPrice": 237,
+      "id": "1911520",
+      "title": "Call to Arms - Gates of Hell: Talvisota",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911520/capsule_616x353.jpg",
+      "originalPrice": 415,
+      "discountPrice": 103,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/535930",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3717340",
-      "title": "Yakuza Kiwami 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717340/e92c1041d8697ea3eec7a3aafe60246bce742e7d/capsule_616x353.jpg",
-      "originalPrice": 649,
-      "discountPrice": 324,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3717340",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "325610",
-      "title": "Total War: ATTILA",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/325610/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 269,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/325610",
+      "url": "https://store.steampowered.com/app/1911520",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7683,40 +7799,27 @@
       "isPopular": true
     },
     {
-      "id": "2059190",
-      "title": "Total War: WARHAMMER III - Forge of the Chaos Dwarfs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059190/capsule_616x353.jpg",
-      "originalPrice": 849,
-      "discountPrice": 339,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2059190",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "42680",
-      "title": "Call of Duty®: Modern Warfare® 3 (2011)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
+      "id": "3717340",
+      "title": "Yakuza Kiwami 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717340/e92c1041d8697ea3eec7a3aafe60246bce742e7d/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 324,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/42680",
+      "url": "https://store.steampowered.com/app/3717340",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "5053820",
-      "title": "Mimic Party",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/b4377159ba73da6ed927c8b5503bec61ff5ab3ac/capsule_616x353.jpg",
-      "originalPrice": 170,
-      "discountPrice": 119,
-      "discountPercent": 30,
+      "id": "684450",
+      "title": "Surviving the Aftermath",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/684450/capsule_616x353.jpg",
+      "originalPrice": 729,
+      "discountPrice": 145,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5053820",
+      "url": "https://store.steampowered.com/app/684450",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7735,6 +7838,58 @@
       "isPopular": true
     },
     {
+      "id": "535930",
+      "title": "Two Point Hospital",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 237,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/535930",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "209160",
+      "title": "Call of Duty®: Ghosts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/209160",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2059190",
+      "title": "Total War: WARHAMMER III - Forge of the Chaos Dwarfs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059190/capsule_616x353.jpg",
+      "originalPrice": 849,
+      "discountPrice": 339,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2059190",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3947460",
+      "title": "Creator Chronicles",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3947460/0680d0b77e61ad43a417241e7669884ac0b50a30/capsule_616x353.jpg",
+      "originalPrice": 500,
+      "discountPrice": 192,
+      "discountPercent": 62,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3947460",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1056760",
       "title": "Euro Truck Simulator 2 - Road to the Black Sea",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1056760/c2cfd27b3b58ee2a70c23bc612fc942afb1175c6/capsule_616x353.jpg",
@@ -7743,6 +7898,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1056760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5053820",
+      "title": "Mimic Party",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/b4377159ba73da6ed927c8b5503bec61ff5ab3ac/capsule_616x353.jpg",
+      "originalPrice": 170,
+      "discountPrice": 119,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5053820",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7761,19 +7929,6 @@
       "isPopular": true
     },
     {
-      "id": "3186540",
-      "title": "Destiny 2: Renegades",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/a870d779cb294072c410ca6e90d3c869b05b7233/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 269,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3186540",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2977260",
       "title": "The Guild 1 Remake: Europa 1410",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2977260/1fd9d91f425704ff475993b7a7f85eaf2046a89b/capsule_616x353.jpg",
@@ -7782,19 +7937,6 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2977260",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1209460",
-      "title": "Euro Truck Simulator 2 - Iberia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209460/22b762e4e7b76760176ca9bef415b8e11c74d1a5/capsule_616x353.jpg",
-      "originalPrice": 370,
-      "discountPrice": 185,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1209460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7839,53 +7981,27 @@
       "isPopular": true
     },
     {
-      "id": "1479730",
-      "title": "Commandos: Origins",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1479730/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 899,
+      "id": "1158160",
+      "title": "Coral Island",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/510f5cd946c40e220b27a6c537c026ab70eb0a25/capsule_616x353.jpg",
+      "originalPrice": 600,
+      "discountPrice": 360,
       "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1479730",
+      "url": "https://store.steampowered.com/app/1158160",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "3065800",
-      "title": "Marathon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/14feee66aaae7536289672601ac176364dd2ffa1/capsule_616x353.jpg",
-      "originalPrice": 1725,
-      "discountPrice": 776,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3065800",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1562430",
-      "title": "DREDGE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/fa9f07e78fb13a2f467f22716e2ea7235d8b371e/capsule_616x353.jpg",
-      "originalPrice": 899,
-      "discountPrice": 449,
+      "id": "1209460",
+      "title": "Euro Truck Simulator 2 - Iberia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209460/22b762e4e7b76760176ca9bef415b8e11c74d1a5/capsule_616x353.jpg",
+      "originalPrice": 370,
+      "discountPrice": 185,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1562430",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "413420",
-      "title": "Danganronpa 2: Goodbye Despair",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/capsule_616x353.jpg",
-      "originalPrice": 279,
-      "discountPrice": 111,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/413420",
+      "url": "https://store.steampowered.com/app/1209460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7904,14 +8020,14 @@
       "isPopular": true
     },
     {
-      "id": "292730",
-      "title": "Call of Duty®: Infinite Warfare",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
+      "id": "413420",
+      "title": "Danganronpa 2: Goodbye Despair",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/capsule_616x353.jpg",
+      "originalPrice": 279,
+      "discountPrice": 111,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292730",
+      "url": "https://store.steampowered.com/app/413420",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -7930,79 +8046,14 @@
       "isPopular": true
     },
     {
-      "id": "3947460",
-      "title": "Creator Chronicles",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3947460/0680d0b77e61ad43a417241e7669884ac0b50a30/capsule_616x353.jpg",
-      "originalPrice": 500,
-      "discountPrice": 192,
-      "discountPercent": 62,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3947460",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1158160",
-      "title": "Coral Island",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/510f5cd946c40e220b27a6c537c026ab70eb0a25/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 360,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1158160",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "925580",
-      "title": "Euro Truck Simulator 2 - Beyond the Baltic Sea",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/925580/4b51bf2772dfe70ad2994f2afaefbdfe8e68ec9a/capsule_616x353.jpg",
-      "originalPrice": 370,
-      "discountPrice": 185,
+      "id": "1562430",
+      "title": "DREDGE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/fa9f07e78fb13a2f467f22716e2ea7235d8b371e/capsule_616x353.jpg",
+      "originalPrice": 899,
+      "discountPrice": 449,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/925580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "246620",
-      "title": "Plague Inc: Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/6ed6c5774070784cfbc87ea7c534bb44eb37ab42/capsule_616x353.jpg",
-      "originalPrice": 325,
-      "discountPrice": 65,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/246620",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "567640",
-      "title": "Danganronpa V3: Killing Harmony",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/capsule_616x353.jpg",
-      "originalPrice": 479,
-      "discountPrice": 95,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/567640",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2123890",
-      "title": "Call to Arms - Gates of Hell: Scorched Earth",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2123890/capsule_616x353.jpg",
-      "originalPrice": 325,
-      "discountPrice": 81,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2123890",
+      "url": "https://store.steampowered.com/app/1562430",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8021,14 +8072,40 @@
       "isPopular": true
     },
     {
-      "id": "531130",
-      "title": "Euro Truck Simulator 2 - Vive la France !",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/531130/91c1750852290a4a375f6355279ff28d379b8774/capsule_616x353.jpg",
+      "id": "567640",
+      "title": "Danganronpa V3: Killing Harmony",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/capsule_616x353.jpg",
+      "originalPrice": 479,
+      "discountPrice": 95,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/567640",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "246620",
+      "title": "Plague Inc: Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/6ed6c5774070784cfbc87ea7c534bb44eb37ab42/capsule_616x353.jpg",
+      "originalPrice": 325,
+      "discountPrice": 65,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/246620",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "925580",
+      "title": "Euro Truck Simulator 2 - Beyond the Baltic Sea",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/925580/4b51bf2772dfe70ad2994f2afaefbdfe8e68ec9a/capsule_616x353.jpg",
       "originalPrice": 370,
       "discountPrice": 185,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/531130",
+      "url": "https://store.steampowered.com/app/925580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8047,45 +8124,6 @@
       "isPopular": true
     },
     {
-      "id": "2904660",
-      "title": "Call to Arms - Gates of Hell: Airborne",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904660/capsule_616x353.jpg",
-      "originalPrice": 285,
-      "discountPrice": 71,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2904660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "393080",
-      "title": "Call of Duty®: Modern Warfare® Remastered (2017)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/393080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "558244",
-      "title": "Euro Truck Simulator 2 - Italia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/558244/08b14a4dd6b69cc20fb7f51482baecbb26ac0c3b/capsule_616x353.jpg",
-      "originalPrice": 370,
-      "discountPrice": 185,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/558244",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3948120",
       "title": "Scritchy Scratchy",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3948120/3d9dad2f02502bbe5c3d4b1566e5ee250d4a327f/capsule_231x87_alt_assets_0.jpg",
@@ -8099,92 +8137,66 @@
       "isPopular": true
     },
     {
-      "id": "1740720",
-      "title": "Have a Nice Death",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740720/capsule_616x353.jpg",
-      "originalPrice": 469,
-      "discountPrice": 140,
-      "discountPercent": 70,
+      "id": "531130",
+      "title": "Euro Truck Simulator 2 - Vive la France !",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/531130/91c1750852290a4a375f6355279ff28d379b8774/capsule_616x353.jpg",
+      "originalPrice": 370,
+      "discountPrice": 185,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1740720",
+      "url": "https://store.steampowered.com/app/531130",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "10180",
-      "title": "Call of Duty®: Modern Warfare® 2 (2009)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/capsule_616x353.jpg",
-      "originalPrice": 849,
-      "discountPrice": 636,
-      "discountPercent": 25,
+      "id": "2444750",
+      "title": "Shape of Dreams",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2444750/244d00ca528830d5b29ecec839d40b1658843a56/capsule_231x87_alt_assets_5.jpg",
+      "originalPrice": 499,
+      "discountPrice": 349,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10180",
+      "url": "https://store.steampowered.com/app/2444750",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1602010",
-      "title": "Persona 4 Arena Ultimax",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602010/capsule_616x353.jpg",
-      "originalPrice": 999,
-      "discountPrice": 299,
-      "discountPercent": 70,
+      "id": "2904660",
+      "title": "Call to Arms - Gates of Hell: Airborne",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904660/capsule_616x353.jpg",
+      "originalPrice": 285,
+      "discountPrice": 71,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1602010",
+      "url": "https://store.steampowered.com/app/2904660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2753970",
-      "title": "MARVEL Cosmic Invasion",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/69287184eaf5928936bc71c1b16ed0cf092dba12/capsule_616x353_alt_assets_2.jpg",
-      "originalPrice": 673,
-      "discountPrice": 504,
-      "discountPercent": 25,
+      "id": "1985820",
+      "title": "Call of Duty®: Vanguard",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985820/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 842,
+      "discountPercent": 67,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2753970",
+      "url": "https://store.steampowered.com/app/1985820",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "3186490",
-      "title": "Destiny 2: The Edge of Fate",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/6f22b5edffb51abf393cb527598b21271ae39ba1/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 179,
-      "discountPercent": 70,
+      "id": "2123890",
+      "title": "Call to Arms - Gates of Hell: Scorched Earth",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2123890/capsule_616x353.jpg",
+      "originalPrice": 325,
+      "discountPrice": 81,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3186490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "209160",
-      "title": "Call of Duty®: Ghosts",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/209160",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1206070",
-      "title": "Phonopolis",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206070/fe4af527c3cc8a484d023ed4d81b72a287ca6caf/capsule_616x353.jpg",
-      "originalPrice": 449,
-      "discountPrice": 269,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1206070",
+      "url": "https://store.steampowered.com/app/2123890",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8203,6 +8215,110 @@
       "isPopular": true
     },
     {
+      "id": "3186490",
+      "title": "Destiny 2: The Edge of Fate",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/6f22b5edffb51abf393cb527598b21271ae39ba1/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 179,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3186490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "558244",
+      "title": "Euro Truck Simulator 2 - Italia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/558244/08b14a4dd6b69cc20fb7f51482baecbb26ac0c3b/capsule_616x353.jpg",
+      "originalPrice": 370,
+      "discountPrice": 185,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/558244",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1479730",
+      "title": "Commandos: Origins",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1479730/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 899,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1479730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1740720",
+      "title": "Have a Nice Death",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740720/capsule_616x353.jpg",
+      "originalPrice": 469,
+      "discountPrice": 140,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1740720",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1602010",
+      "title": "Persona 4 Arena Ultimax",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1602010/capsule_616x353.jpg",
+      "originalPrice": 999,
+      "discountPrice": 299,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1602010",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "10090",
+      "title": "Call of Duty: World at War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10090/capsule_616x353.jpg",
+      "originalPrice": 849,
+      "discountPrice": 636,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/10090",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "209650",
+      "title": "Call of Duty®: Advanced Warfare - Gold Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/209650",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2753970",
+      "title": "MARVEL Cosmic Invasion",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753970/69287184eaf5928936bc71c1b16ed0cf092dba12/capsule_616x353_alt_assets_2.jpg",
+      "originalPrice": 673,
+      "discountPrice": 504,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2753970",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "492720",
       "title": "Tropico 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/492720/capsule_616x353.jpg",
@@ -8211,19 +8327,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/492720",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2660460",
-      "title": "Aviassembly",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/4865df2f4aa2ec5d0cfb9a410dfdda5313e5e257/capsule_616x353.jpg",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2660460",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8242,6 +8345,32 @@
       "isPopular": true
     },
     {
+      "id": "2545710",
+      "title": "Tony Hawk's™ Pro Skater™ 3 + 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2545710/ff2338d510fd075ea2077194241470c5e2393df1/capsule_616x353.jpg",
+      "originalPrice": 2096,
+      "discountPrice": 1048,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2545710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2669410",
+      "title": "Metro Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669410/4d391d447e2caf37ec81cefb445e5d62edefe00c/capsule_616x353.jpg",
+      "originalPrice": 899,
+      "discountPrice": 233,
+      "discountPercent": 74,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2669410",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1498570",
       "title": "THE KING OF FIGHTERS XV",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1498570/capsule_616x353.jpg",
@@ -8250,32 +8379,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1498570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "227310",
-      "title": "Euro Truck Simulator 2 - Going East!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227310/a5aed991649c12d7e02ae271bae2817fc71e53ee/capsule_616x353.jpg",
-      "originalPrice": 200,
-      "discountPrice": 100,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/227310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1649080",
-      "title": "Two Point Campus",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649080/capsule_616x353.jpg",
-      "originalPrice": 949,
-      "discountPrice": 142,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1649080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8294,6 +8397,32 @@
       "isPopular": true
     },
     {
+      "id": "1794960",
+      "title": "Sonic Origins",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794960/capsule_616x353.jpg",
+      "originalPrice": 1249,
+      "discountPrice": 374,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1794960",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1540210",
+      "title": "Arizona Sunshine® VR 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540210/capsule_616x353.jpg",
+      "originalPrice": 899,
+      "discountPrice": 233,
+      "discountPercent": 74,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1540210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2361770",
       "title": "SHINOBI: Art of Vengeance",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2361770/c7b4ad527b78d911a6b9325c76a4c43010fa3918/capsule_616x353.jpg",
@@ -8307,40 +8436,40 @@
       "isPopular": true
     },
     {
-      "id": "3580160",
-      "title": "Ambrosia Sky",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3580160/2f459e904a20ac79f33b0252fdeebb59a06b56d9/capsule_616x353.jpg",
-      "originalPrice": 530,
-      "discountPrice": 265,
+      "id": "1206070",
+      "title": "Phonopolis",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206070/fe4af527c3cc8a484d023ed4d81b72a287ca6caf/capsule_616x353.jpg",
+      "originalPrice": 449,
+      "discountPrice": 269,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1206070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "7940",
+      "title": "Call of Duty® 4: Modern Warfare® (2007)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7940/header.jpg",
+      "originalPrice": 849,
+      "discountPrice": 424,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3580160",
+      "url": "https://store.steampowered.com/app/7940",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1288320",
-      "title": "Way of the Hunter",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 124,
-      "discountPercent": 75,
+      "id": "227310",
+      "title": "Euro Truck Simulator 2 - Going East!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227310/a5aed991649c12d7e02ae271bae2817fc71e53ee/capsule_616x353.jpg",
+      "originalPrice": 200,
+      "discountPrice": 100,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1288320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1794960",
-      "title": "Sonic Origins",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794960/capsule_616x353.jpg",
-      "originalPrice": 1249,
-      "discountPrice": 374,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1794960",
+      "url": "https://store.steampowered.com/app/227310",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8359,14 +8488,14 @@
       "isPopular": true
     },
     {
-      "id": "2963800",
-      "title": "DrainSim",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2963800/78f601d390d2f37d8aa47a0ce8695023ce7d3748/capsule_231x87_alt_assets_3.jpg",
-      "originalPrice": 599,
-      "discountPrice": 449,
-      "discountPercent": 25,
+      "id": "3314790",
+      "title": "CloverPit",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/e6955b668c667da7b5019f481707f69b4fb814b5/capsule_616x353.jpg",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2963800",
+      "url": "https://store.steampowered.com/app/3314790",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8385,19 +8514,6 @@
       "isPopular": true
     },
     {
-      "id": "1824060",
-      "title": "Total War: WARHAMMER III - Champions of Chaos",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824060/capsule_616x353.jpg",
-      "originalPrice": 350,
-      "discountPrice": 175,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1824060",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4157990",
       "title": "Warframe: повна колекція «Давній мир»",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4157990/e1ac80958b2dc2ac00a3221150826b49d3278943/capsule_616x353.jpg",
@@ -8406,6 +8522,71 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4157990",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1288320",
+      "title": "Way of the Hunter",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288320/capsule_616x353.jpg",
+      "originalPrice": 499,
+      "discountPrice": 124,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1288320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3580160",
+      "title": "Ambrosia Sky",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3580160/2f459e904a20ac79f33b0252fdeebb59a06b56d9/capsule_616x353.jpg",
+      "originalPrice": 530,
+      "discountPrice": 265,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3580160",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1367550",
+      "title": "Kingdom Rush Vengeance - Tower Defense",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367550/bf452d90d1b935a5d8aae95e4853857c6fbc7afd/capsule_616x353.jpg",
+      "originalPrice": 279,
+      "discountPrice": 139,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1367550",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2660460",
+      "title": "Aviassembly",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/4865df2f4aa2ec5d0cfb9a410dfdda5313e5e257/capsule_616x353.jpg",
+      "originalPrice": 225,
+      "discountPrice": 157,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2660460",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1824060",
+      "title": "Total War: WARHAMMER III - Champions of Chaos",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824060/capsule_616x353.jpg",
+      "originalPrice": 350,
+      "discountPrice": 175,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1824060",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8437,183 +8618,27 @@
       "isPopular": true
     },
     {
-      "id": "3314790",
-      "title": "CloverPit",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/e6955b668c667da7b5019f481707f69b4fb814b5/capsule_616x353.jpg",
-      "originalPrice": 225,
-      "discountPrice": 157,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3314790",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1367550",
-      "title": "Kingdom Rush Vengeance - Tower Defense",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1367550/bf452d90d1b935a5d8aae95e4853857c6fbc7afd/capsule_616x353.jpg",
-      "originalPrice": 279,
-      "discountPrice": 139,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1367550",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1388590",
-      "title": "Yakuza 6: The Song of Life",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388590/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 249,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1388590",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4209920",
-      "title": "不问凡尘",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209920/db31d8665665d6ca1b412db240890dcf4641ff67/capsule_616x353.jpg",
-      "originalPrice": 295,
-      "discountPrice": 197,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4209920",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1043810",
-      "title": "Tactical Breach Wizards",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/capsule_616x353.jpg",
-      "originalPrice": 415,
-      "discountPrice": 207,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1043810",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1413480",
-      "title": "Shin Megami Tensei III Nocturne HD Remaster",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413480/capsule_616x353.jpg",
-      "originalPrice": 1499,
+      "id": "2963800",
+      "title": "DrainSim",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2963800/78f601d390d2f37d8aa47a0ce8695023ce7d3748/capsule_231x87_alt_assets_3.jpg",
+      "originalPrice": 599,
       "discountPrice": 449,
-      "discountPercent": 70,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1413480",
+      "url": "https://store.steampowered.com/app/2963800",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "3152780",
-      "title": "Expansion - Hearts of Iron IV: Götterdämmerung",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3152780/dfeb91198a4d5eaf271638e593a50431e4d63541/capsule_616x353.jpg",
-      "originalPrice": 669,
-      "discountPrice": 468,
-      "discountPercent": 30,
+      "id": "1649080",
+      "title": "Two Point Campus",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649080/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 142,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3152780",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3450960",
-      "title": "Total War: WARHAMMER III - Aislinn – Tides of Torment",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450960/9d8d25aea9057facaa9dbda96f8e0183ac87d993/capsule_616x353.jpg",
-      "originalPrice": 299,
-      "discountPrice": 200,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3450960",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1809700",
-      "title": "Persona 3 Portable",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809700/capsule_616x353.jpg",
-      "originalPrice": 649,
-      "discountPrice": 324,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1809700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3368600",
-      "title": "Kingdom Come: Deliverance II Brushes with Death",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368600/f69cd94048ff63b1bc320a46493e40088d729f58/capsule_616x353.jpg",
-      "originalPrice": 160,
-      "discountPrice": 96,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3368600",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3118100",
-      "title": "Kingdom Come: Deliverance II The Lion’s Crest",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3118100/capsule_616x353.jpg",
-      "originalPrice": 133,
-      "discountPrice": 93,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3118100",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1105510",
-      "title": "Yakuza 5 Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105510/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 249,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1105510",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4557380",
-      "title": "Batomon Showdown",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/0de7c71eb0168ca729cf210a502290d76a895969/capsule_616x353.jpg",
-      "originalPrice": 335,
-      "discountPrice": 217,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4557380",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3840230",
-      "title": "Adorable Adventures",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840230/0e093e0541b5feb70f9fffa3e71f6a84a106273e/capsule_616x353.jpg",
-      "originalPrice": 649,
-      "discountPrice": 357,
-      "discountPercent": 45,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3840230",
+      "url": "https://store.steampowered.com/app/1649080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8632,6 +8657,110 @@
       "isPopular": true
     },
     {
+      "id": "1043810",
+      "title": "Tactical Breach Wizards",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/capsule_616x353.jpg",
+      "originalPrice": 415,
+      "discountPrice": 207,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1043810",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2630",
+      "title": "Call of Duty® 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630/header.jpg",
+      "originalPrice": 849,
+      "discountPrice": 424,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2630",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3152780",
+      "title": "Expansion - Hearts of Iron IV: Götterdämmerung",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3152780/dfeb91198a4d5eaf271638e593a50431e4d63541/capsule_616x353.jpg",
+      "originalPrice": 669,
+      "discountPrice": 468,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3152780",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "115320",
+      "title": "Prototype 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115320/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 509,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/115320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4209920",
+      "title": "不问凡尘",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4209920/db31d8665665d6ca1b412db240890dcf4641ff67/capsule_616x353.jpg",
+      "originalPrice": 295,
+      "discountPrice": 197,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4209920",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3450960",
+      "title": "Total War: WARHAMMER III - Aislinn – Tides of Torment",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450960/9d8d25aea9057facaa9dbda96f8e0183ac87d993/capsule_616x353.jpg",
+      "originalPrice": 299,
+      "discountPrice": 200,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3450960",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3118100",
+      "title": "Kingdom Come: Deliverance II The Lion’s Crest",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3118100/capsule_616x353.jpg",
+      "originalPrice": 133,
+      "discountPrice": 93,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3118100",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3368600",
+      "title": "Kingdom Come: Deliverance II Brushes with Death",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368600/f69cd94048ff63b1bc320a46493e40088d729f58/capsule_616x353.jpg",
+      "originalPrice": 160,
+      "discountPrice": 96,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3368600",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "431240",
       "title": "Golf With Your Friends",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431240/capsule_616x353.jpg",
@@ -8640,6 +8769,71 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/431240",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1096900",
+      "title": "RPG Maker MZ",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096900/capsule_616x353.jpg",
+      "originalPrice": 1990,
+      "discountPrice": 663,
+      "discountPercent": 68,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1096900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1413480",
+      "title": "Shin Megami Tensei III Nocturne HD Remaster",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1413480/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 449,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1413480",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1388590",
+      "title": "Yakuza 6: The Song of Life",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388590/capsule_616x353.jpg",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1388590",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4557380",
+      "title": "Batomon Showdown",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/0de7c71eb0168ca729cf210a502290d76a895969/capsule_616x353.jpg",
+      "originalPrice": 335,
+      "discountPrice": 217,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4557380",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2864560",
+      "title": "Rune Factory: Guardians of Azuma",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864560/c95df840c72cd47337f81bf70a85af08489dde47/capsule_616x353.jpg",
+      "originalPrice": 1125,
+      "discountPrice": 562,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2864560",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8671,6 +8865,19 @@
       "isPopular": true
     },
     {
+      "id": "1325200",
+      "title": "Nioh 2 – The Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/capsule_616x353.jpg",
+      "originalPrice": 1625,
+      "discountPrice": 650,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1325200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3450980",
       "title": "Total War: WARHAMMER III - Dechala – Tides of Torment",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3450980/2483c21353564edf0afd830d63301678e2d1b37a/capsule_616x353.jpg",
@@ -8684,14 +8891,27 @@
       "isPopular": true
     },
     {
-      "id": "2569760",
-      "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
-      "originalPrice": 899,
-      "discountPrice": 584,
+      "id": "1809700",
+      "title": "Persona 3 Portable",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809700/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 324,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1809700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4317690",
+      "title": "Crimson Moon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/5f6705a844f0c6d2b976144fbe32014ffa511200/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 389,
       "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2569760",
+      "url": "https://store.steampowered.com/app/4317690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8723,40 +8943,27 @@
       "isPopular": true
     },
     {
-      "id": "885970",
-      "title": "Total War: ROME REMASTERED",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/885970/capsule_616x353.jpg",
-      "originalPrice": 639,
-      "discountPrice": 159,
-      "discountPercent": 75,
+      "id": "1105510",
+      "title": "Yakuza 5 Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105510/capsule_616x353.jpg",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/885970",
+      "url": "https://store.steampowered.com/app/1105510",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1099410",
-      "title": "A Total War Saga: TROY",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1099410/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 203,
-      "discountPercent": 66,
+      "id": "3840230",
+      "title": "Adorable Adventures",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840230/0e093e0541b5feb70f9fffa3e71f6a84a106273e/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 357,
+      "discountPercent": 45,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1099410",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "632300",
-      "title": "Hobo: Tough Life",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632300/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 150,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/632300",
+      "url": "https://store.steampowered.com/app/3840230",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8788,53 +8995,14 @@
       "isPopular": true
     },
     {
-      "id": "2444750",
-      "title": "Shape of Dreams",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2444750/244d00ca528830d5b29ecec839d40b1658843a56/capsule_231x87_alt_assets_5.jpg",
-      "originalPrice": 499,
-      "discountPrice": 349,
-      "discountPercent": 30,
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
+      "originalPrice": 899,
+      "discountPrice": 584,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2444750",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1105500",
-      "title": "Yakuza 4 Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 249,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1105500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2841650",
-      "title": "Sniper Dan",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2841650/a38fdf78c30ba717d7e5bc35eadb0856c75a8504/capsule_616x353.jpg",
-      "originalPrice": 455,
-      "discountPrice": 341,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2841650",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "10090",
-      "title": "Call of Duty: World at War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10090/capsule_616x353.jpg",
-      "originalPrice": 849,
-      "discountPrice": 636,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10090",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8853,27 +9021,53 @@
       "isPopular": true
     },
     {
-      "id": "2254740",
-      "title": "Persona 5 Tactica",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254740/capsule_616x353.jpg",
-      "originalPrice": 1899,
-      "discountPrice": 569,
-      "discountPercent": 70,
+      "id": "1099410",
+      "title": "A Total War Saga: TROY",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1099410/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 203,
+      "discountPercent": 66,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2254740",
+      "url": "https://store.steampowered.com/app/1099410",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1594940",
-      "title": "Little Witch in the Woods",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/93881a2eeb7059e2240f95acaa8d8b717ebee9e1/capsule_616x353.jpg",
-      "originalPrice": 415,
-      "discountPrice": 290,
+      "id": "731490",
+      "title": "Crash Bandicoot™ N. Sane Trilogy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/731490/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/731490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3499520",
+      "title": "Piano Glow",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/aa1e208701c129dd58dee1287085bec626330547/capsule_616x353.jpg",
+      "originalPrice": 515,
+      "discountPrice": 360,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1594940",
+      "url": "https://store.steampowered.com/app/3499520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "885970",
+      "title": "Total War: ROME REMASTERED",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/885970/capsule_616x353.jpg",
+      "originalPrice": 639,
+      "discountPrice": 159,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/885970",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8887,19 +9081,6 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "209650",
-      "title": "Call of Duty®: Advanced Warfare - Gold Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/209650",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8931,6 +9112,19 @@
       "isPopular": true
     },
     {
+      "id": "632300",
+      "title": "Hobo: Tough Life",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632300/capsule_616x353.jpg",
+      "originalPrice": 600,
+      "discountPrice": 150,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/632300",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "555950",
       "title": "Danganronpa Another Episode: Ultra Despair Girls",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555950/capsule_616x353.jpg",
@@ -8944,40 +9138,14 @@
       "isPopular": true
     },
     {
-      "id": "1525700",
-      "title": "Tavern Master",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1525700/capsule_616x353.jpg",
-      "originalPrice": 229,
-      "discountPrice": 29,
-      "discountPercent": 87,
+      "id": "2254740",
+      "title": "Persona 5 Tactica",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254740/capsule_616x353.jpg",
+      "originalPrice": 1899,
+      "discountPrice": 569,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1525700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3499520",
-      "title": "Piano Glow",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499520/aa1e208701c129dd58dee1287085bec626330547/capsule_616x353.jpg",
-      "originalPrice": 515,
-      "discountPrice": 360,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3499520",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1066780",
-      "title": "Transport Fever 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066780/capsule_616x353.jpg",
-      "originalPrice": 740,
-      "discountPrice": 148,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1066780",
+      "url": "https://store.steampowered.com/app/2254740",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -8996,71 +9164,6 @@
       "isPopular": true
     },
     {
-      "id": "7940",
-      "title": "Call of Duty® 4: Modern Warfare® (2007)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7940/header.jpg",
-      "originalPrice": 849,
-      "discountPrice": 424,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/7940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2325832",
-      "title": "Total War: WARHAMMER III - Elspeth – Thrones of Decay",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2325832/capsule_616x353.jpg",
-      "originalPrice": 299,
-      "discountPrice": 149,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2325832",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2996040",
-      "title": "Teenage Mutant Ninja Turtles: Splintered Fate",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2996040/a241dd30032b6896522cdd69e21229321134d35f/capsule_616x353.jpg",
-      "originalPrice": 579,
-      "discountPrice": 144,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2996040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3469800",
-      "title": "Company of Heroes 3: Fire & Steel",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469800/c85a2c8c4f88ae718cd6bc0d70cf3eaca7edf9be/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 349,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3469800",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1985820",
-      "title": "Call of Duty®: Vanguard",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985820/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 842,
-      "discountPercent": 67,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1985820",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2364580",
       "title": "Titanium Court",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2364580/5dfbba98ff0abdc86c5fe3eff843325f9254bc5d/capsule_616x353.jpg",
@@ -9074,14 +9177,14 @@
       "isPopular": true
     },
     {
-      "id": "835670",
-      "title": "Total War: WARHAMMER II - Curse of the Vampire Coast",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/835670/capsule_616x353.jpg",
-      "originalPrice": 399,
-      "discountPrice": 199,
-      "discountPercent": 50,
+      "id": "2395210",
+      "title": "Tony Hawk's™ Pro Skater™ 1 + 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/835670",
+      "url": "https://store.steampowered.com/app/2395210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -9100,27 +9203,53 @@
       "isPopular": true
     },
     {
-      "id": "3708030",
-      "title": "Goat Simulator 3 – Baadlands: Furry Road",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3708030/e2a7ca790ff673cd44ba3e7afb3c9f6149224c00/capsule_616x353.jpg",
-      "originalPrice": 325,
-      "discountPrice": 227,
+      "id": "1594940",
+      "title": "Little Witch in the Woods",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/93881a2eeb7059e2240f95acaa8d8b717ebee9e1/capsule_616x353.jpg",
+      "originalPrice": 415,
+      "discountPrice": 290,
       "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3708030",
+      "url": "https://store.steampowered.com/app/1594940",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2891710",
-      "title": "Total War: WARHAMMER III - Malakai – Thrones of Decay",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2891710/capsule_616x353.jpg",
-      "originalPrice": 299,
-      "discountPrice": 149,
+      "id": "2996040",
+      "title": "Teenage Mutant Ninja Turtles: Splintered Fate",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2996040/a241dd30032b6896522cdd69e21229321134d35f/capsule_616x353.jpg",
+      "originalPrice": 579,
+      "discountPrice": 144,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2996040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1105500",
+      "title": "Yakuza 4 Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1105500/capsule_616x353.jpg",
+      "originalPrice": 499,
+      "discountPrice": 249,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2891710",
+      "url": "https://store.steampowered.com/app/1105500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1525700",
+      "title": "Tavern Master",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1525700/capsule_616x353.jpg",
+      "originalPrice": 229,
+      "discountPrice": 29,
+      "discountPercent": 87,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1525700",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true

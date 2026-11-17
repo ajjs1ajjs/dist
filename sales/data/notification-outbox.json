@@ -7451,6 +7451,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T21:00:59.945Z"
+    },
+    {
+      "id": "53abe2aabdd1fa8472be8e1e",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Metro Awakening</b>\n🏷️ Знижка: <b>-74%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>233 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2669410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669410/4d391d447e2caf37ec81cefb445e5d62edefe00c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2669410",
+          "entry": {
+            "title": "Metro Awakening",
+            "price": 233,
+            "percent": 74,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3a4accaba2f1f40c8629817b",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Arizona Sunshine® VR 2</b>\n🏷️ Знижка: <b>-74%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>233 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1540210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540210/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1540210",
+          "entry": {
+            "title": "Arizona Sunshine® VR 2",
+            "price": 233,
+            "percent": 74,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "937d32f667c1407b72f36890",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Prototype 2</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>509 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/115320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115320/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_115320",
+          "entry": {
+            "title": "Prototype 2",
+            "price": 509,
+            "percent": 70,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e52889a4a54f277d22c699bb",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>RPG Maker MZ</b>\n🏷️ Знижка: <b>-68%</b>\n💰 Ціна: <s>1 990 грн</s> ➡️ <b>663 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1096900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096900/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1096900",
+          "entry": {
+            "title": "RPG Maker MZ",
+            "price": 663,
+            "percent": 68,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "84b3bbf6bdd3d44c039ff663",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crash Bandicoot™ N. Sane Trilogy</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/731490\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/731490/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_731490",
+          "entry": {
+            "title": "Crash Bandicoot™ N. Sane Trilogy",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6c107639ce9901b0d2da0cbf",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tony Hawk&#39;s™ Pro Skater™ 1 + 2</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2395210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2395210",
+          "entry": {
+            "title": "Tony Hawk's™ Pro Skater™ 1 + 2",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "da5e71a013ad8227396a7a03",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Nioh 2 – The Complete Edition</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 625 грн</s> ➡️ <b>650 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1325200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1325200",
+          "entry": {
+            "title": "Nioh 2 – The Complete Edition",
+            "price": 650,
+            "percent": 60,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "358ca4217e459db367615430",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tony Hawk&#39;s™ Pro Skater™ 3 + 4</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 096 грн</s> ➡️ <b>1 048 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2545710\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2545710/ff2338d510fd075ea2077194241470c5e2393df1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2545710",
+          "entry": {
+            "title": "Tony Hawk's™ Pro Skater™ 3 + 4",
+            "price": 1048,
+            "percent": 50,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e1ca8873c30903271e15b4ca",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Rune Factory: Guardians of Azuma</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>562 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2864560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864560/c95df840c72cd47337f81bf70a85af08489dde47/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2864560",
+          "entry": {
+            "title": "Rune Factory: Guardians of Azuma",
+            "price": 562,
+            "percent": 50,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "527643b0f9c9a6d6606c1623",
+      "createdAt": "2026-11-17T22:00:35.970Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty® 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>424 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2630/header.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2630",
+          "entry": {
+            "title": "Call of Duty® 2",
+            "price": 424,
+            "percent": 50,
+            "timestamp": "2026-11-17T22:00:35.970Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
