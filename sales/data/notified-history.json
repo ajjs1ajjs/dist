@@ -3274,5 +3274,12 @@
     "percent": 34,
     "timestamp": "2026-11-17T14:00:31.775Z",
     "type": "discount"
+  },
+  "steam_discount_2933080": {
+    "title": "Crime Boss: Rockay City",
+    "price": 41,
+    "percent": 90,
+    "timestamp": "2026-11-17T15:00:32.212Z",
+    "type": "discount"
   }
 }
