@@ -2980,5 +2980,12 @@
     "percent": 50,
     "timestamp": "2026-11-17T00:00:30.656Z",
     "type": "discount"
+  },
+  "steam_discount_1388590": {
+    "title": "Yakuza 6: The Song of Life",
+    "price": 249,
+    "percent": 50,
+    "timestamp": "2026-11-17T00:00:30.656Z",
+    "type": "discount"
   }
 }
