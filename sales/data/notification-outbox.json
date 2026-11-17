@@ -6680,6 +6680,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T12:00:43.913Z"
+    },
+    {
+      "id": "5f73eae645b567e04b71af59",
+      "createdAt": "2026-11-17T14:00:31.775Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Titanium Court</b>\n🏷️ Знижка: <b>-34%</b>\n💰 Ціна: <s>225 грн</s> ➡️ <b>148 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2364580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2364580/5dfbba98ff0abdc86c5fe3eff843325f9254bc5d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2364580",
+          "entry": {
+            "title": "Titanium Court",
+            "price": 148,
+            "percent": 34,
+            "timestamp": "2026-11-17T14:00:31.775Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
