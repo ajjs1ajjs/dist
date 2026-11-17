@@ -3407,5 +3407,12 @@
     "percent": 25,
     "timestamp": "2026-11-17T21:00:29.922Z",
     "type": "discount"
+  },
+  "steam_discount_2669410": {
+    "title": "Metro Awakening",
+    "price": 233,
+    "percent": 74,
+    "timestamp": "2026-11-17T22:00:35.970Z",
+    "type": "discount"
   }
 }
