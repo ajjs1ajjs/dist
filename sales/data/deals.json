@@ -13306,6 +13306,13 @@
       "percent": 50,
       "timestamp": "2026-11-17T23:00:30.699Z",
       "type": "discount"
+    },
+    "steam_discount_2600": {
+      "title": "Vampire: The Masquerade - Bloodlines",
+      "price": 424,
+      "percent": 50,
+      "timestamp": "2026-11-17T23:00:30.699Z",
+      "type": "discount"
     }
   }
 }
