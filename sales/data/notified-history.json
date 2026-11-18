@@ -3680,5 +3680,12 @@
     "percent": 50,
     "timestamp": "2026-11-18T17:00:34.661Z",
     "type": "discount"
+  },
+  "steam_discount_1022980": {
+    "title": "Ostranauts",
+    "price": 322,
+    "percent": 25,
+    "timestamp": "2026-11-18T17:00:34.661Z",
+    "type": "discount"
   }
 }
