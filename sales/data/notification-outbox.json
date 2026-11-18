@@ -8018,6 +8018,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T05:00:43.178Z"
+    },
+    {
+      "id": "f1ca9f3bbe1e791f1b18abb2",
+      "createdAt": "2026-11-18T06:00:34.079Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Callisto Protocol™</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1544020\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1544020/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1544020",
+          "entry": {
+            "title": "The Callisto Protocol™",
+            "price": 168,
+            "percent": 85,
+            "timestamp": "2026-11-18T06:00:34.079Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
