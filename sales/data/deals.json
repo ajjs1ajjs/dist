@@ -15436,6 +15436,13 @@
       "percent": 70,
       "timestamp": "2026-11-18T22:00:30.381Z",
       "type": "discount"
+    },
+    "steam_discount_595520": {
+      "title": "FINAL FANTASY XII THE ZODIAC AGE",
+      "price": 233,
+      "percent": 70,
+      "timestamp": "2026-11-18T22:00:30.381Z",
+      "type": "discount"
     }
   }
 }
