@@ -14757,6 +14757,13 @@
       "percent": 40,
       "timestamp": "2026-11-18T16:00:35.512Z",
       "type": "discount"
+    },
+    "steam_free_3979530": {
+      "title": "Disney Dreamlight Valley: Wishblossom Ranch — Deluxe Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-11-18T16:00:35.512Z",
+      "type": "free"
     }
   }
 }
