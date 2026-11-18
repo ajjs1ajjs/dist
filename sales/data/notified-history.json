@@ -3988,5 +3988,12 @@
     "percent": 60,
     "timestamp": "2026-11-18T23:00:33.670Z",
     "type": "discount"
+  },
+  "steam_discount_1173820": {
+    "title": "FINAL FANTASY VI",
+    "price": 222,
+    "percent": 40,
+    "timestamp": "2026-11-18T23:00:33.670Z",
+    "type": "discount"
   }
 }
