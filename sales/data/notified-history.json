@@ -3925,5 +3925,12 @@
     "percent": 70,
     "timestamp": "2026-11-18T22:00:30.381Z",
     "type": "discount"
+  },
+  "steam_discount_2455640": {
+    "title": "Romancing SaGa 2: Revenge of the Seven",
+    "price": 559,
+    "percent": 60,
+    "timestamp": "2026-11-18T22:00:30.381Z",
+    "type": "discount"
   }
 }
