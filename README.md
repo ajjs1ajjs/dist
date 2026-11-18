@@ -32,9 +32,12 @@
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=netscope"><img src="https://img.shields.io/badge/NetScope-Windows-0EA5E9?style=for-the-badge&logo=windows&logoColor=white" alt="NetScope Enterprise"></a>
 <a href="https://github.com/ajjs1ajjs/dist/releases?q=vilno"><img src="https://img.shields.io/badge/Vilno_VPN-Windows-16755F?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
 <a href="https://ajjs1ajjs.itch.io/gravityshift"><img src="https://img.shields.io/badge/GravityShift-WebGL-8B5CF6?style=for-the-badge&logo=itchdotio&logoColor=white" alt="GravityShift"></a>
+<a href="https://ajjs1ajjs.itch.io/gigaball"><img src="https://img.shields.io/badge/Gigaball-5v5_3D-0EA5E9?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Gigaball"></a>
+<a href="https://ajjs1ajjs.itch.io/wings-archipelago"><img src="https://img.shields.io/badge/Wings_of_the_Archipelago-Godot_4.7-F59E0B?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Крила архіпелагу"></a>
+<a href="https://github.com/ajjs1ajjs/wpods/releases"><img src="https://img.shields.io/badge/WPods-Windows_11-1D4ED8?style=for-the-badge&logo=windows&logoColor=white" alt="WPods"></a>
 <a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
-<sub><b>13 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA</sub>
+<sub><b>16 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA · Games</sub>
 
 </div>
 
@@ -115,13 +118,37 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 </td>
 <td align="center" width="50%">
 <br>
-<a href="https://ajjs1ajjs.itch.io/"><img src="https://img.shields.io/badge/3D_Games--A3E635?style=for-the-badge&logo=itchdotio&logoColor=black" alt="3D Games"></a>
+<a href="https://ajjs1ajjs.itch.io/gravityshift"><img src="https://img.shields.io/badge/GravityShift-v1.3.0-A3E635?style=for-the-badge&logo=itchdotio&logoColor=black" alt="GravityShift"></a>
 <br>
 <sub>Web · WebGL / Three.js</sub>
 <br><br>
-GravityShift — браузерний 3D endless runner зі зміною гравітації
+GravityShift — браузерний 3D endless runner зі щитами, магнітами та енергобрамами
 <br><br>
 <a href="https://ajjs1ajjs.itch.io/gravityshift">▶️ <b>Грати на itch.io</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="https://ajjs1ajjs.itch.io/gigaball"><img src="https://img.shields.io/badge/Gigaball-v0.0.7-0EA5E9?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Gigaball"></a>
+<br>
+<sub>Web · Windows x64 · 5v5</sub>
+<br><br>
+Гігам’яч — 3D-спортивна аркада 5 на 5 із ботами та хостом на ПК
+<br><br>
+<a href="https://ajjs1ajjs.itch.io/gigaball">▶️ <b>Грати / завантажити на itch.io</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="https://ajjs1ajjs.itch.io/wings-archipelago"><img src="https://img.shields.io/badge/Крила_архіпелагу-v0.1.0-F59E0B?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Крила архіпелагу"></a>
+<br>
+<sub>Windows x64 · Godot 4.7.2</sub>
+<br><br>
+Крила архіпелагу — 3D-гра про острівну авіацію, доставку вантажів та порятунок
+<br><br>
+<a href="https://ajjs1ajjs.itch.io/wings-archipelago">▶️ <b>Сторінка на itch.io</b></a>
 <br><br>
 </td>
 </tr>
@@ -207,6 +234,17 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 Курс словацької мови: граматика, фонетичні вправи та словникові модулі
 <br><br>
 <a href="#slovakia">⬇️ <b>Завантажити</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="https://github.com/ajjs1ajjs/wpods/releases/latest"><img src="https://img.shields.io/badge/WPods-v0.3.3-1D4ED8?style=for-the-badge&logo=windows&logoColor=white" alt="WPods"></a>
+<br>
+<sub>Windows 11 · x64 · GPL-3.0</sub>
+<br><br>
+Функції AirPods на Windows 11 без Test Mode + фікс MediaTek MT7921
+<br><br>
+<a href="https://github.com/ajjs1ajjs/wpods/releases/latest">⬇️ <b>Завантажити WPods-Setup.exe</b></a>
 <br><br>
 </td>
 </tr>
@@ -443,5 +481,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 13 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 16 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)

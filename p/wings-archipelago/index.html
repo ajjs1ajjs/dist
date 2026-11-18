@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Крила архіпелагу — 3D-гра про острівну авіацію, доставку вантажів та порятунок у шторм · DIST</title>
+  <meta name="description" content="«Крила архіпелагу» (Wings of the Archipelago) — 3D-аркада про пілота малої авіації на Godot 4.7.2. Після руйнівного буревію відновлюйте сполучення між островами: перевозьте вантажі, скидайте пошту з парашутом, ловіть висхідні потоки й рятуйте людей у шторм. Гра містить 3 регіони, 12 основних…">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:title" content="Крила архіпелагу — 3D-гра про острівну авіацію, доставку вантажів та порятунок у шторм">
+  <meta property="og:description" content="«Крила архіпелагу» (Wings of the Archipelago) — 3D-аркада про пілота малої авіації на Godot 4.7.2. Після руйнівного буревію відновлюйте сполучення між островами: перевозьте вантажі, скидайте пошту з парашутом, ловіть висхідні потоки й рятуйте людей…">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ajjs1ajjs.github.io/dist/p/wings-archipelago/">
+  <meta property="og:image" content="https://ajjs1ajjs.github.io/dist/og/wings-archipelago.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Крила архіпелагу — 3D-гра про острівну авіацію, доставку вантажів та порятунок у шторм">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Крила архіпелагу — 3D-гра про острівну авіацію, доставку вантажів та порятунок у шторм">
+  <meta name="twitter:description" content="«Крила архіпелагу» (Wings of the Archipelago) — 3D-аркада про пілота малої авіації на Godot 4.7.2. Після руйнівного буревію відновлюйте сполучення між островами: перевозьте вантажі, скидайте пошту з…">
+  <meta name="twitter:image" content="https://ajjs1ajjs.github.io/dist/og/wings-archipelago.png">
+  <meta name="twitter:image:alt" content="Крила архіпелагу — 3D-гра про острівну авіацію, доставку вантажів та порятунок у шторм">
+  <link rel="canonical" href="https://ajjs1ajjs.github.io/dist/p/wings-archipelago/">
+  <meta property="og:locale" content="uk_UA">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GameApplication",
+    "name": "Крила архіпелагу",
+    "description": "«Крила архіпелагу» (Wings of the Archipelago) — 3D-аркада про пілота малої авіації на Godot 4.7.2. Після руйнівного буревію відновлюйте сполучення між островами: перевозьте вантажі, скидайте пошту з парашутом, ловіть висхідні потоки й рятуйте людей у шторм.",
+    "inLanguage": "uk",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Windows 10/11",
+    "url": "https://ajjs1ajjs.github.io/dist/p/wings-archipelago/",
+    "image": "https://ajjs1ajjs.github.io/dist/og/wings-archipelago.png",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "UAH",
+      "description": "Безкоштовно"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Ярослав",
+      "url": "https://andreichuk.dev/"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Продукти",
+        "item": "https://ajjs1ajjs.github.io/dist/#products"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Крила архіпелагу",
+        "item": "https://ajjs1ajjs.github.io/dist/p/wings-archipelago/"
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=acb44788a3">
+  <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+</head>
+<body data-page="p-wings-archipelago">
+  <a class="skip" href="#main" data-i18n="skip">Перейти до контенту</a>
+
+<header class="site-head">
+    <div class="wrap head-in">
+      <a class="brand" href="../../#hero"><span class="b-mark">◢</span> AJ<span class="b-mark">_</span>SRE <em>dist ecosystem</em></a>
+      <nav class="nav-links" aria-label="Головна навігація" data-i18n-attr="aria-label:nav.aria">
+        <a href="../../#products" data-i18n="nav.products">Продукти</a>
+        <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+        <a href="../../#about" data-i18n="nav.about">Про мене</a>
+        <a href="../../#services" data-i18n="nav.services">Послуги</a>
+        <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-sm btn-primary nav-cta" href="../../#contact" data-i18n="nav.contact">Написати</a>
+      </nav>
+      <div class="head-mobile">
+        <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
+          <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="burger" id="burger" aria-label="Меню" data-i18n-attr="aria-label:nav.menuAria" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="../../#hero" data-i18n="nav.m.home">Головна</a>
+      <a href="../../#products" data-i18n="nav.products">Продукти</a>
+      <a href="../../#cases" data-i18n="nav.cases">Кейси</a>
+      <a href="../../#about" data-i18n="nav.about">Про мене</a>
+      <a href="../../#services" data-i18n="nav.services">Послуги</a>
+      <a href="../../#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="../../#contact" data-i18n="nav.contact">Написати</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <nav class="wrap crumbs" aria-label="Навігаційний ланцюжок" data-i18n-attr="aria-label:pd.crumbsAria">
+      <a href="../../#products" data-i18n="pd.crumbs">Продукти</a>
+      <span aria-hidden="true">›</span>
+      <span class="crumbs-cur">Крила архіпелагу</span>
+    </nav>
+
+    <section class="wrap prod-hero">
+      <div class="prod-hero-copy">
+        <p class="badge-line" data-i18n="p.badgeLine">DIST ecosystem · Windows x64 · Godot</p>
+        <h1>Крила архіпелагу <span class="ver">v0.1.0</span></h1>
+        <p class="prod-sub" data-i18n="p.wings-archipelago.sub">3D-гра про острівну авіацію, доставку вантажів та порятунок у шторм</p>
+        <div class="tags"><span>Godot 4.7</span><span>3D Flight</span><span>24 Missions</span><span>Portable</span></div>
+        <div class="prod-buy">
+          <a class="buy buy--free" href="https://ajjs1ajjs.itch.io/wings-archipelago" target="_blank" rel="noopener">
+            <b data-i18n="prod.free">Безкоштовно</b><span data-i18n="prod.live">Відкрити ↗</span>
+          </a>
+        </div>
+        <div class="card-actions">
+          <div class="cmd"><code>WingsArchipelago-Portable-win64.zip</code><a class="copybtn" href="https://ajjs1ajjs.itch.io/wings-archipelago" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
+          <div class="links"><a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="prod.distHub">Хаб завантажень DIST ↗</a><span class="mono">Windows x64</span></div>
+        </div>
+      </div>
+      <div class="prod-hero-shot">
+        <div class="frame">
+          <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="p.wings-archipelago.shots.0.cap">Політ над острівною гаванню та злітною смугою</em></span>
+          <button class="prod-shot-btn" type="button" data-shot="../../shots/wings-archipelago/flight.webp" data-shot-alt="Політ над острівною гаванню та злітною смугою" aria-label="Політ над острівною гаванню та злітною смугою">
+            <img src="../../shots/wings-archipelago/flight.webp" alt="Політ над острівною гаванню та злітною смугою" width="1200" height="675" loading="eager" fetchpriority="high" decoding="async">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="shots">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.shots">01 / Скріни</p>
+        <h2 data-i18n="pd.title.shots">Інтерфейс</h2>
+      </div>
+      <div class="gallery">
+        <figure>
+          <button type="button" data-shot="../../shots/wings-archipelago/harbour.webp" data-shot-alt="Вечірня гавань із ліхтарями та вітровими даними" aria-label="Вечірня гавань із ліхтарями та вітровими даними">
+            <img src="../../shots/wings-archipelago/harbour.webp" alt="Вечірня гавань із ліхтарями та вітровими даними" width="1200" height="675" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.wings-archipelago.shots.1.cap">Вечірня гавань із ліхтарями та вітровими даними</figcaption>
+        </figure>
+        <figure>
+          <button type="button" data-shot="../../shots/wings-archipelago/storm.webp" data-shot-alt="Штормовий пошуково-рятувальний виліт на амфібії Пелікан" aria-label="Штормовий пошуково-рятувальний виліт на амфібії Пелікан">
+            <img src="../../shots/wings-archipelago/storm.webp" alt="Штормовий пошуково-рятувальний виліт на амфібії Пелікан" width="1200" height="675" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.wings-archipelago.shots.2.cap">Штормовий пошуково-рятувальний виліт на амфібії Пелікан</figcaption>
+        </figure>
+        <figure>
+          <button type="button" data-shot="../../shots/wings-archipelago/hangar.webp" data-shot-alt="Ангар: флот із 6 літаків та покращення" aria-label="Ангар: флот із 6 літаків та покращення">
+            <img src="../../shots/wings-archipelago/hangar.webp" alt="Ангар: флот із 6 літаків та покращення" width="1200" height="675" loading="lazy" decoding="async">
+          </button>
+          <figcaption data-i18n="p.wings-archipelago.shots.3.cap">Ангар: флот із 6 літаків та покращення</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="about">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.about">02 / Опис</p>
+        <h2 data-i18n="pd.title.about">Що це</h2>
+      </div>
+      <div class="prod-cols">
+        <div class="prod-prose">
+          <p data-i18n="p.wings-archipelago.intro.0">«Крила архіпелагу» (Wings of the Archipelago) — 3D-аркада про пілота малої авіації на Godot 4.7.2. Після руйнівного буревію відновлюйте сполучення між островами: перевозьте вантажі, скидайте пошту з парашутом, ловіть висхідні потоки й рятуйте людей у шторм.</p>
+          <p data-i18n="p.wings-archipelago.intro.1">Гра містить 3 регіони, 12 основних островів, 18 посадкових майданчиків (смуги, плато та бухти), 24 сюжетні місії, 6 різних літаків, 6 шаблонів вільних контрактів і 4 кат-сцени. Портативний Windows-пакет не потребує встановлення чи інтернету.</p>
+        </div>
+        <aside class="prod-facts">
+          <h3 data-i18n="pd.facts.title">Коротко</h3>
+          <ul class="facts">
+            <li><b data-i18n="pd.facts.platform">Платформа</b><span data-i18n="p.cat">Windows x64 · Godot</span></li>
+            <li><b data-i18n="pd.facts.license">Ліцензія</b><span data-i18n="pd.facts.license.free">Безкоштовно</span></li>
+            <li><b data-i18n="pd.facts.updates">Оновлення</b><span data-i18n="pd.facts.updates.releases">GitHub Releases · SHA-256</span></li>
+            <li><b data-i18n="pd.facts.telemetry">Телеметрія</b><span data-i18n="pd.facts.telemetry.none">Нуль</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="how">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.how">03 / Як працює</p>
+        <h2 data-i18n="pd.title.how">Принцип роботи</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-step">
+          <span class="how-num mono">01</span>
+          <h3 data-i18n="p.wings-archipelago.how.0.t">Завантажте пакет</h3>
+          <p data-i18n="p.wings-archipelago.how.0.d">Отримайте WingsArchipelago-Portable-win64.zip на itch.io, розпакуйте і запустіть wings-archipelago.exe.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">02</span>
+          <h3 data-i18n="p.wings-archipelago.how.1.t">Оберіть літак і рейс</h3>
+          <p data-i18n="p.wings-archipelago.how.1.d">Налаштуйте вантаж і пальне перед вильотом, відкривайте 6 літаків та апгрейди в ангарі.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">03</span>
+          <h3 data-i18n="p.wings-archipelago.how.2.t">Керуйте польотом</h3>
+          <p data-i18n="p.wings-archipelago.how.2.d">W/S — тангаж, A/D — крен, Shift/Ctrl — тяга, Space — гальмо або скид пошти з парашутом.</p>
+        </div>
+        <div class="how-step">
+          <span class="how-num mono">04</span>
+          <h3 data-i18n="p.wings-archipelago.how.3.t">Рятуйте острови</h3>
+          <p data-i18n="p.wings-archipelago.how.3.d">Виконуйте сюжетні завдання, сідайте на складні смуги й воду та завершуйте рейс клавішею E.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="feat">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.feat">04 / Можливості</p>
+        <h2 data-i18n="pd.title.feat">Що вміє</h2>
+      </div>
+      <ul class="feat-list">
+          <li data-i18n="p.wings-archipelago.feat.0">3 регіони, 12 островів і 18 посадкових майданчиків (смуги та вода)</li>
+          <li data-i18n="p.wings-archipelago.feat.1">24 сюжетні місії, 4 кат-сцени й 6 шаблонів вільних контрактів</li>
+          <li data-i18n="p.wings-archipelago.feat.2">6 літаків: Ластівка, Бриз, Чайка, Стриж, Альбатрос і рятувальний Пелікан</li>
+          <li data-i18n="p.wings-archipelago.feat.3">Врахування вітру, маси, пального, висхідних потоків і штормової погоди</li>
+          <li data-i18n="p.wings-archipelago.feat.4">Компактний HUD із компасом, індикатором вітру та журналом радіо</li>
+          <li data-i18n="p.wings-archipelago.feat.5">Один портативний .exe для Windows x64 без телеметрії й інтернету</li>
+      </ul>
+    </section>
+
+    <section class="wrap prod-sec" id="stack">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.stack">05 / Стек</p>
+        <h2 data-i18n="pd.title.stack">Технології</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.wings-archipelago.stack.0.g">Рушій</span>
+          <div class="tags"><span>Godot 4.7.2</span><span>GDScript</span><span>GL Compatibility</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.wings-archipelago.stack.1.g">Асети</span>
+          <div class="tags"><span>Blender 5.2</span><span>GLB</span><span>Synthesized WAV</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.wings-archipelago.stack.2.g">Збірка</span>
+          <div class="tags"><span>Windows x64 Portable</span><span>Embedded PCK</span></div>
+        </div>
+        <div class="stack-card">
+          <span class="stack-g" data-i18n="p.wings-archipelago.stack.3.g">Публікація</span>
+          <div class="tags"><span>itch.io Windows</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap prod-sec" id="install">
+      <div class="prod-sec-head">
+        <p class="sec-eyebrow" data-i18n="pd.eyebrow.install">06 / Встановлення</p>
+        <h2 data-i18n="pd.title.install">Як почати</h2>
+      </div>
+      <div class="prod-cols">
+        <div>
+          <div class="card-actions">
+            <div class="cmd"><code>WingsArchipelago-Portable-win64.zip</code><a class="copybtn" href="https://ajjs1ajjs.itch.io/wings-archipelago" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
+          </div>
+          <p class="prod-note" data-i18n="p.wings-archipelago.install.note">Портативний Windows x64 ZIP — розпакуйте та запустіть wings-archipelago.exe.</p>
+          <p class="prod-links">
+            <a href="https://ajjs1ajjs.itch.io/wings-archipelago" target="_blank" rel="noopener" data-i18n="p.wings-archipelago.links.0">Сторінка на itch.io ↗</a>
+            <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="p.wings-archipelago.links.1">Хаб завантажень DIST ↗</a>
+          </p>
+        </div>
+        <ul class="reqs">
+          <li data-i18n="p.wings-archipelago.reqs.0">Windows 10 або 11 (x64) з підтримкою OpenGL</li>
+          <li data-i18n="p.wings-archipelago.reqs.1">Інсталяція й інтернет не потрібні — усі ресурси вшиті в .exe</li>
+          <li data-i18n="p.wings-archipelago.reqs.2">Безкоштовно, без телеметрії (український інтерфейс і кампанія)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrap prod-cta">
+      <div class="prod-cta-box">
+        <div>
+          <h2 data-i18n="p.wings-archipelago.cta.title">Злітайте над архіпелагом</h2>
+          <p data-i18n="p.wings-archipelago.cta.desc">Завантажте портативний білд для Windows x64 — усе в одному .exe, без інсталяції.</p>
+        </div>
+        <div class="prod-cta-btns">
+          <a class="btn btn-primary" href="https://ajjs1ajjs.itch.io/wings-archipelago" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a>
+          <a class="btn" href="../../#products" data-i18n="pd.cta.products">Усі продукти</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="footer">
+    <div class="wrap footer-in">
+      <p><span data-i18n="footer.tagline">Ярослав · SRE / DevOps / Software Developer</span> · <span data-i18n="footer.note">Чистий HTML/CSS/JS · без cookies · cookieless-аналітика</span> · <span data-i18n="footer.rights">© {year} · Всі права захищені</span></p>
+      <nav aria-label="Футер" data-i18n-attr="aria-label:footer.navAria">
+        <a href="https://ajjs1ajjs.github.io/dist/" target="_blank" rel="noopener" data-i18n="nav.hub">DIST Hub</a>
+        <a href="https://github.com/ajjs1ajjs/dist" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:yaroslav.andreichuk@gmail.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="totop" id="toTop" type="button" aria-label="Догори" data-i18n-attr="aria-label:footer.toTop">↑</button>
+
+<!-- BUY MODAL -->
+  <dialog class="modal" id="buyModal" aria-labelledby="buyTitle">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <h3 id="buyTitle"><span data-i18n="buy.title">Ліцензія</span> · <span id="buyName">—</span></h3>
+      <p class="modal-sub" data-i18n="buy.sub">Оформлення підписки за 3 кроки.</p>
+      <div class="price-pair">
+        <a class="price-opt" id="buyMonthLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyMonth">—</b><span data-i18n="buy.month">за місяць</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+        <a class="price-opt hot" id="buyYearLink" href="https://send.monobank.ua/jar/89iqM1LmXv" target="_blank" rel="noopener">
+          <b id="buyYear">—</b><span data-i18n="buy.year">за рік</span><em data-i18n="buy.payHint">оплатити ↗</em>
+        </a>
+      </div>
+      <div class="buy-steps">
+        <div class="buy-step"><b data-i18n="buy.step1.t">1 · Встановіть програму</b><p data-i18n="buy.step1.d">Завантажте й встановіть програму. Ліцензія не потрібна для встановлення.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step2.t">2 · Оплата</b><p data-i18n="buy.step2.d">Натисніть суму — відкриється банка Monobank. У коментарі вкажіть email і назву програми, наприклад: user@example.com Vilno VPN.</p></div>
+        <div class="buy-step"><b data-i18n="buy.step3.t">3 · Активація</b><p data-i18n="buy.step3.d">Після підтвердження платежу ключ надійде на email автоматично (зазвичай до 5 хвилин). Введіть його в програмі.</p></div>
+      </div>
+      <div class="modal-actions">
+        <a class="btn" id="buyEmail" href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="buy.email">Написати на email</a>
+      </div>
+      <p class="modal-note" data-i18n="buy.note">Для команд — безкоштовні корпоративні ліцензії, напишіть на email.</p>
+    </div>
+  </dialog>
+
+<!-- SCREENSHOT MODAL -->
+  <dialog class="modal modal--shot" id="shotModal" aria-label="Перегляд знімка" data-i18n-attr="aria-label:modal.preview">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрити" data-i18n-attr="aria-label:modal.close">✕</button>
+      <img id="shotImg" alt="">
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+
+<script src="../../translations.js?v=acb44788a3" defer></script>
+  <script src="./i18n.js?v=be69a68575" defer></script>
+  <script src="../../app.js?v=acb44788a3" defer></script>
+  <!-- Cloudflare Web Analytics -->
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
