@@ -7850,6 +7850,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-17T23:01:12.116Z"
+    },
+    {
+      "id": "888fac1c747a179b4d2c9127",
+      "createdAt": "2026-11-18T01:00:36.745Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Amazing Frog?</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/332570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/5546de3bd3aae885f3359804598255acbc9c2fa7/capsule_616x353_alt_assets_7.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_332570",
+          "entry": {
+            "title": "Amazing Frog?",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-18T01:00:36.745Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e26c9e14b61920a3004d5eec",
+      "createdAt": "2026-11-18T01:00:36.745Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>STORY OF SEASONS: Grand Bazaar</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 700 грн</s> ➡️ <b>1 190 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2508780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2508780/9995ac7398486997071ead0ec291cd6ad7f6eb95/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2508780",
+          "entry": {
+            "title": "STORY OF SEASONS: Grand Bazaar",
+            "price": 1190,
+            "percent": 30,
+            "timestamp": "2026-11-18T01:00:36.745Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "701fe9490d1b7e0f454eff6b",
+      "createdAt": "2026-11-18T01:00:36.745Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Call of Duty: United Offensive</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>849 грн</s> ➡️ <b>636 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2640/header.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2640",
+          "entry": {
+            "title": "Call of Duty: United Offensive",
+            "price": 636,
+            "percent": 25,
+            "timestamp": "2026-11-18T01:00:36.745Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
