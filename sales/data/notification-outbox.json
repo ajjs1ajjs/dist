@@ -8081,6 +8081,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T08:00:38.356Z"
+    },
+    {
+      "id": "ade8c104c6de8019b237e9eb",
+      "createdAt": "2026-11-18T09:00:33.723Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NINJA GAIDEN Σ2 [NINJA GAIDEN: Master Collection]</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 300 грн</s> ➡️ <b>650 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1580790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1580790/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1580790",
+          "entry": {
+            "title": "NINJA GAIDEN Σ2 [NINJA GAIDEN: Master Collection]",
+            "price": 650,
+            "percent": 50,
+            "timestamp": "2026-11-18T09:00:33.723Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
