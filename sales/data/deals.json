@@ -14613,6 +14613,13 @@
       "percent": 50,
       "timestamp": "2026-11-18T04:00:32.957Z",
       "type": "discount"
+    },
+    "steam_discount_1817230": {
+      "title": "Hi-Fi RUSH",
+      "price": 269,
+      "percent": 55,
+      "timestamp": "2026-11-18T05:00:39.036Z",
+      "type": "discount"
     }
   }
 }
