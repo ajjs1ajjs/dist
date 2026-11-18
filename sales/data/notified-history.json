@@ -3575,5 +3575,12 @@
     "percent": 70,
     "timestamp": "2026-11-18T03:00:31.597Z",
     "type": "discount"
+  },
+  "steam_discount_458710": {
+    "title": "Kingdom Rush Frontiers - Tower Defense",
+    "price": 84,
+    "percent": 50,
+    "timestamp": "2026-11-18T03:00:31.597Z",
+    "type": "discount"
   }
 }
