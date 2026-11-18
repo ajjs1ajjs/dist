@@ -3687,5 +3687,12 @@
     "percent": 25,
     "timestamp": "2026-11-18T17:00:34.661Z",
     "type": "discount"
+  },
+  "steam_discount_219990": {
+    "title": "Grim Dawn",
+    "price": 106,
+    "percent": 80,
+    "timestamp": "2026-11-18T18:00:36.529Z",
+    "type": "discount"
   }
 }
