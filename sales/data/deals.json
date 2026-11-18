@@ -15607,6 +15607,13 @@
       "percent": 40,
       "timestamp": "2026-11-18T23:00:33.670Z",
       "type": "discount"
+    },
+    "steam_discount_2716400": {
+      "title": "The Rise of the Golden Idol",
+      "price": 290,
+      "percent": 30,
+      "timestamp": "2026-11-18T23:00:33.670Z",
+      "type": "discount"
     }
   }
 }
