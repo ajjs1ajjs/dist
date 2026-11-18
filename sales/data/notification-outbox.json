@@ -8039,6 +8039,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T06:00:38.017Z"
+    },
+    {
+      "id": "408290fda700bae2d68c2504",
+      "createdAt": "2026-11-18T07:00:30.784Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Skul: The Hero Slayer</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1147560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1147560",
+          "entry": {
+            "title": "Skul: The Hero Slayer",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-18T07:00:30.784Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
