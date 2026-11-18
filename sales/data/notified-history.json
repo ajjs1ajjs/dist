@@ -3974,5 +3974,12 @@
     "percent": 70,
     "timestamp": "2026-11-18T23:00:33.670Z",
     "type": "discount"
+  },
+  "steam_discount_2490990": {
+    "title": "Visions of Mana",
+    "price": 599,
+    "percent": 60,
+    "timestamp": "2026-11-18T23:00:33.670Z",
+    "type": "discount"
   }
 }
