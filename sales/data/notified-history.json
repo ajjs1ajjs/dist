@@ -3932,5 +3932,12 @@
     "percent": 60,
     "timestamp": "2026-11-18T22:00:30.381Z",
     "type": "discount"
+  },
+  "steam_discount_1295510": {
+    "title": "DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition",
+    "price": 465,
+    "percent": 50,
+    "timestamp": "2026-11-18T22:00:30.381Z",
+    "type": "discount"
   }
 }
