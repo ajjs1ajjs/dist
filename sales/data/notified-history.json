@@ -3694,5 +3694,12 @@
     "percent": 80,
     "timestamp": "2026-11-18T18:00:36.529Z",
     "type": "discount"
+  },
+  "steam_discount_916440": {
+    "title": "Anno 1800",
+    "price": 228,
+    "percent": 75,
+    "timestamp": "2026-11-18T18:00:36.529Z",
+    "type": "discount"
   }
 }
