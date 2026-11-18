@@ -14542,6 +14542,13 @@
       "percent": 25,
       "timestamp": "2026-11-18T01:00:36.745Z",
       "type": "discount"
+    },
+    "steam_discount_2336880": {
+      "title": "Destiny 2: The Final Shape",
+      "price": 59,
+      "percent": 90,
+      "timestamp": "2026-11-18T02:00:32.768Z",
+      "type": "discount"
     }
   }
 }
