@@ -3729,5 +3729,12 @@
     "percent": 40,
     "timestamp": "2026-11-18T18:00:36.529Z",
     "type": "discount"
+  },
+  "steam_discount_2290180": {
+    "title": "Riders Republic",
+    "price": 119,
+    "percent": 90,
+    "timestamp": "2026-11-18T19:00:33.617Z",
+    "type": "discount"
   }
 }
