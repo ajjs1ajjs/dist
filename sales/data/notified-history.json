@@ -3610,5 +3610,12 @@
     "percent": 50,
     "timestamp": "2026-11-18T07:00:30.784Z",
     "type": "discount"
+  },
+  "steam_discount_2614070": {
+    "title": "NUKITASHI 2",
+    "price": 206,
+    "percent": 60,
+    "timestamp": "2026-11-18T08:00:34.849Z",
+    "type": "discount"
   }
 }
