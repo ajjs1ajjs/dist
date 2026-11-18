@@ -8335,6 +8335,126 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T17:00:55.063Z"
+    },
+    {
+      "id": "5fa1ac480eda56f4a6aadadd",
+      "createdAt": "2026-11-18T18:00:36.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grim Dawn</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>530 грн</s> ➡️ <b>106 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/219990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219990/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_219990",
+          "entry": {
+            "title": "Grim Dawn",
+            "price": 106,
+            "percent": 80,
+            "timestamp": "2026-11-18T18:00:36.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "00d712496a4fb03efea0f3e4",
+      "createdAt": "2026-11-18T18:00:36.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Anno 1800</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>915 грн</s> ➡️ <b>228 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/916440\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/bda65ed0b2a022b7fa304b6a87aec3f2248bf6e8/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_916440",
+          "entry": {
+            "title": "Anno 1800",
+            "price": 228,
+            "percent": 75,
+            "timestamp": "2026-11-18T18:00:36.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "27bcc4106a58286ae26de9ae",
+      "createdAt": "2026-11-18T18:00:36.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Far Cry® 6</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>915 грн</s> ➡️ <b>228 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2369390\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/b5ff5552cefe85aa71375403c988b848e96040b6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2369390",
+          "entry": {
+            "title": "Far Cry® 6",
+            "price": 228,
+            "percent": 75,
+            "timestamp": "2026-11-18T18:00:36.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3ec0398c2f4c4a83fe6b1022",
+      "createdAt": "2026-11-18T18:00:36.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>South Park™: The Fractured But Whole™</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>194 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/488790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_488790",
+          "entry": {
+            "title": "South Park™: The Fractured But Whole™",
+            "price": 194,
+            "percent": 70,
+            "timestamp": "2026-11-18T18:00:36.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d1380c4004d221704ffdcad1",
+      "createdAt": "2026-11-18T18:00:36.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Last Gas Station</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>320 грн</s> ➡️ <b>128 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3690030\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3690030/87260839911334282177110e18fab9a1a7b4745e/capsule_231x87_alt_assets_5.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3690030",
+          "entry": {
+            "title": "The Last Gas Station",
+            "price": 128,
+            "percent": 60,
+            "timestamp": "2026-11-18T18:00:36.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a747d9a21e9ccaa6f533a05f",
+      "createdAt": "2026-11-18T18:00:36.529Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Disney Dreamlight Valley</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>719 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1401590\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/e987c5ffed3889986eea043fbd66849282ec7c6b/capsule_231x87_alt_assets_11.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1401590",
+          "entry": {
+            "title": "Disney Dreamlight Valley",
+            "price": 719,
+            "percent": 40,
+            "timestamp": "2026-11-18T18:00:36.529Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
