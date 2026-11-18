@@ -14664,6 +14664,13 @@
       "percent": 85,
       "timestamp": "2026-11-18T06:00:34.079Z",
       "type": "discount"
+    },
+    "steam_discount_1147560": {
+      "title": "Skul: The Hero Slayer",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-11-18T07:00:30.784Z",
+      "type": "discount"
     }
   }
 }
