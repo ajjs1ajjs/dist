@@ -15230,6 +15230,13 @@
       "percent": 50,
       "timestamp": "2026-11-18T20:00:33.394Z",
       "type": "discount"
+    },
+    "steam_discount_2893570": {
+      "title": "DRAGON QUEST I & II HD-2D Remake",
+      "price": 1104,
+      "percent": 35,
+      "timestamp": "2026-11-18T20:00:33.394Z",
+      "type": "discount"
     }
   }
 }
