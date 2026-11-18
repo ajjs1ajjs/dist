@@ -35,9 +35,11 @@
 <a href="https://ajjs1ajjs.itch.io/gigaball"><img src="https://img.shields.io/badge/Gigaball-5v5_3D-0EA5E9?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Gigaball"></a>
 <a href="https://ajjs1ajjs.itch.io/wings-archipelago"><img src="https://img.shields.io/badge/Wings_of_the_Archipelago-Godot_4.7-F59E0B?style=for-the-badge&logo=itchdotio&logoColor=white" alt="Крила архіпелагу"></a>
 <a href="https://github.com/ajjs1ajjs/wpods/releases"><img src="https://img.shields.io/badge/WPods-Windows_11-1D4ED8?style=for-the-badge&logo=windows&logoColor=white" alt="WPods"></a>
+<a href="https://github.com/ajjs1ajjs/claude-account-switcher/releases"><img src="https://img.shields.io/badge/Claude_Switch-Win_%2F_Mac-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Switch"></a>
+<a href="https://github.com/ajjs1ajjs/codex-account-switcher/releases"><img src="https://img.shields.io/badge/Codex_Switch-Win_%2F_Mac-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="Codex Switch"></a>
 <a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
-<sub><b>16 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; Web / PWA · Games</sub>
+<sub><b>18 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; macOS &nbsp;·&nbsp; Web / PWA · Games</sub>
 
 </div>
 
@@ -238,13 +240,37 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 </td>
 <td align="center" width="50%">
 <br>
-<a href="https://github.com/ajjs1ajjs/wpods/releases/latest"><img src="https://img.shields.io/badge/WPods-v0.3.3-1D4ED8?style=for-the-badge&logo=windows&logoColor=white" alt="WPods"></a>
+<a href="https://github.com/ajjs1ajjs/wpods/releases/latest"><img src="https://img.shields.io/badge/WPods-v0.3.4-1D4ED8?style=for-the-badge&logo=windows&logoColor=white" alt="WPods"></a>
 <br>
 <sub>Windows 11 · x64 · GPL-3.0</sub>
 <br><br>
 Функції AirPods на Windows 11 без Test Mode + фікс MediaTek MT7921
 <br><br>
 <a href="https://github.com/ajjs1ajjs/wpods/releases/latest">⬇️ <b>Завантажити WPods-Setup.exe</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<br>
+<a href="https://github.com/ajjs1ajjs/claude-account-switcher/releases/latest"><img src="https://img.shields.io/badge/Claude_Switch-v0.4.0-D97757?style=for-the-badge&logo=windows&logoColor=white" alt="Claude Switch"></a>
+<br>
+<sub>Windows · macOS · Apache 2.0</sub>
+<br><br>
+Перемикач акаунтів Claude Desktop в один клік із трею, перенесення чатів і живі 5h/weekly ліміти
+<br><br>
+<a href="https://github.com/ajjs1ajjs/claude-account-switcher/releases/latest">⬇️ <b>Завантажити Claude Switch</b></a>
+<br><br>
+</td>
+<td align="center" width="50%">
+<br>
+<a href="https://github.com/ajjs1ajjs/codex-account-switcher/releases/latest"><img src="https://img.shields.io/badge/Codex_Switch-v0.1.28-10A37F?style=for-the-badge&logo=windows&logoColor=white" alt="Codex Switch"></a>
+<br>
+<sub>Windows · macOS · MIT</sub>
+<br><br>
+Нативний перемикач акаунтів Codex Desktop зі шкалами лімітів і швидким перемиканням
+<br><br>
+<a href="https://github.com/ajjs1ajjs/codex-account-switcher/releases/latest">⬇️ <b>Завантажити Codex Switch</b></a>
 <br><br>
 </td>
 </tr>
@@ -481,5 +507,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 16 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 18 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)

@@ -10,9 +10,9 @@ Object.assign(window.SITE_I18N, {
     "p.wpods.cta.title": "Безкоштовно та з відкритим кодом",
     "p.wpods.cta.desc": "Встановіть WPods-Setup.exe на Windows 11 — Secure Boot залишається увімкненим, ліцензія GPL-3.0.",
     "p.wpods.intro.0": "WPods — безкоштовна open-source утиліта для Windows 11, яка додає повноцінну підтримку AirPods: спливаюче вікно заряду навушників і кейса, виявлення в вусі, перемикання режимів шумопоглинання (ANC / Прозорість / Адаптивний), режим низької затримки для ігор і стереозвук навіть при ввімкненому мікрофоні.",
-    "p.wpods.intro.1": "Цей форк (v0.3.3) виправляє роботу на вбудованих комбінованих адаптерах MediaTek Bluetooth MT7921 без вимкнення Secure Boot чи переведення Windows у Test Mode, а також переводить канал оновлень на репозиторій ajjs1ajjs/wpods.",
+    "p.wpods.intro.1": "Цей форк (v0.3.4) виправляє роботу на вбудованих комбінованих адаптерах MediaTek Bluetooth MT7921 без вимкнення Secure Boot чи переведення Windows у Test Mode, а також повністю переводить оновлення і release notes на репозиторій ajjs1ajjs/wpods.",
     "p.wpods.how.0.t": "Завантажте інсталятор",
-    "p.wpods.how.0.d": "Скачайте WPods-Setup.exe (v0.3.3) із GitHub Releases і перевірте SHA256SUMS.txt.",
+    "p.wpods.how.0.d": "Скачайте WPods-Setup.exe (v0.3.4) із GitHub Releases і перевірте SHA256SUMS.txt.",
     "p.wpods.how.1.t": "Встановіть службу",
     "p.wpods.how.1.d": "Один інсталятор Inno Setup ставить WPods, сервіс фонової роботи та необхідні компоненти без Test Mode.",
     "p.wpods.how.2.t": "Відкрийте кейс AirPods",
@@ -35,23 +35,23 @@ Object.assign(window.SITE_I18N, {
     "p.wpods.shots.0.cap": "WPods — спливаюче вікно підключення й заряду AirPods на Windows 11",
     "p.wpods.shots.1.cap": "Головний екран із зарядом навушників і перемикачем шумопоглинання",
     "p.wpods.shots.2.cap": "Налаштування жестів, чутливості розмови та звукових сигналів",
-    "p.wpods.links.0": "Завантажити WPods-Setup.exe (v0.3.3) ↗",
+    "p.wpods.links.0": "Завантажити WPods-Setup.exe (v0.3.4) ↗",
     "p.wpods.links.1": "Релізи на GitHub ↗",
     "p.wpods.links.2": "Вихідний код (GitHub) ↗",
-    "p.wpods.install.note": "Завантажте WPods-Setup.exe із релізу v0.3.3 та встановіть без переведення Windows у Test Mode."
+    "p.wpods.install.note": "Завантажте WPods-Setup.exe із релізу v0.3.4 та встановіть без переведення Windows у Test Mode."
   }),
   en: Object.assign(window.SITE_I18N.en || {}, {
     "meta.p-wpods.title": "WPods — AirPods features on Windows 11 without Test Mode + MediaTek MT7921 fix",
-    "meta.p-wpods.desc": "WPods is a free, open-source Windows 11 utility that brings full AirPods features to your PC: nearby battery popup for earbuds and case, ear detection, noise control modes (ANC / Transparency / Adaptive), low-latency mode and stereo A2DP sound even while the mic is active. This fork (v0.3.3) adds…",
+    "meta.p-wpods.desc": "WPods is a free, open-source Windows 11 utility that brings full AirPods features to your PC: nearby battery popup for earbuds and case, ear detection, noise control modes (ANC / Transparency / Adaptive), low-latency mode and stereo A2DP sound even while the mic is active. This fork (v0.3.4) adds…",
     "p.cat": "Windows 11 · x64",
     "p.badgeLine": "DIST ecosystem · Windows 11 · x64",
     "p.wpods.sub": "AirPods features on Windows 11 without Test Mode + MediaTek MT7921 fix",
     "p.wpods.cta.title": "Free and open source",
     "p.wpods.cta.desc": "Install WPods-Setup.exe on Windows 11 — Secure Boot stays enabled, GPL-3.0 licensed.",
     "p.wpods.intro.0": "WPods is a free, open-source Windows 11 utility that brings full AirPods features to your PC: nearby battery popup for earbuds and case, ear detection, noise control modes (ANC / Transparency / Adaptive), low-latency mode and stereo A2DP sound even while the mic is active.",
-    "p.wpods.intro.1": "This fork (v0.3.3) adds support for integrated MediaTek Bluetooth MT7921 combo adapters without enabling Windows Test Mode or disabling Secure Boot, and points updates to the ajjs1ajjs/wpods repository.",
+    "p.wpods.intro.1": "This fork (v0.3.4) adds support for integrated MediaTek Bluetooth MT7921 combo adapters without enabling Windows Test Mode or disabling Secure Boot, and points all updates and release notes to the ajjs1ajjs/wpods repository.",
     "p.wpods.how.0.t": "Download the installer",
-    "p.wpods.how.0.d": "Grab WPods-Setup.exe (v0.3.3) from GitHub Releases and verify SHA256SUMS.txt.",
+    "p.wpods.how.0.d": "Grab WPods-Setup.exe (v0.3.4) from GitHub Releases and verify SHA256SUMS.txt.",
     "p.wpods.how.1.t": "Install the service",
     "p.wpods.how.1.d": "The single Inno Setup installer deploys WPods, its background service and usbip-win2 without Test Mode.",
     "p.wpods.how.2.t": "Open your AirPods",
@@ -74,9 +74,9 @@ Object.assign(window.SITE_I18N, {
     "p.wpods.shots.0.cap": "WPods — AirPods battery and quick-connect popup on Windows 11",
     "p.wpods.shots.1.cap": "Home screen with battery rings and noise control modes",
     "p.wpods.shots.2.cap": "Stem controls, conversation awareness and tone settings",
-    "p.wpods.links.0": "Download WPods-Setup.exe (v0.3.3) ↗",
+    "p.wpods.links.0": "Download WPods-Setup.exe (v0.3.4) ↗",
     "p.wpods.links.1": "GitHub releases ↗",
     "p.wpods.links.2": "Source code (GitHub) ↗",
-    "p.wpods.install.note": "Download WPods-Setup.exe from release v0.3.3 and install without enabling Windows Test Mode."
+    "p.wpods.install.note": "Download WPods-Setup.exe from release v0.3.4 and install without enabling Windows Test Mode."
   })
 });
