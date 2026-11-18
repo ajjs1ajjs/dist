@@ -3771,5 +3771,12 @@
     "percent": 80,
     "timestamp": "2026-11-18T19:00:33.617Z",
     "type": "discount"
+  },
+  "steam_discount_213670": {
+    "title": "South Park™: The Stick of Truth™",
+    "price": 114,
+    "percent": 75,
+    "timestamp": "2026-11-18T19:00:33.617Z",
+    "type": "discount"
   }
 }
