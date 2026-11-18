@@ -3736,5 +3736,12 @@
     "percent": 90,
     "timestamp": "2026-11-18T19:00:33.617Z",
     "type": "discount"
+  },
+  "steam_discount_2909400": {
+    "title": "FINAL FANTASY VII REBIRTH",
+    "price": 254,
+    "percent": 85,
+    "timestamp": "2026-11-18T19:00:33.617Z",
+    "type": "discount"
   }
 }
