@@ -3953,5 +3953,12 @@
     "percent": 30,
     "timestamp": "2026-11-18T22:00:30.381Z",
     "type": "discount"
+  },
+  "steam_discount_2699230": {
+    "title": "Grim Dawn - Fangs of Asterkarn",
+    "price": 303,
+    "percent": 25,
+    "timestamp": "2026-11-18T22:00:30.381Z",
+    "type": "discount"
   }
 }
