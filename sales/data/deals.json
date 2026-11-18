@@ -15302,6 +15302,13 @@
       "percent": 75,
       "timestamp": "2026-11-18T21:00:32.984Z",
       "type": "discount"
+    },
+    "steam_discount_921570": {
+      "title": "OCTOPATH TRAVELER™",
+      "price": 480,
+      "percent": 70,
+      "timestamp": "2026-11-18T21:00:32.984Z",
+      "type": "discount"
     }
   }
 }
