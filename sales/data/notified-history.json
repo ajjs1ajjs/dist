@@ -3708,5 +3708,12 @@
     "percent": 75,
     "timestamp": "2026-11-18T18:00:36.529Z",
     "type": "discount"
+  },
+  "steam_discount_488790": {
+    "title": "South Park™: The Fractured But Whole™",
+    "price": 194,
+    "percent": 70,
+    "timestamp": "2026-11-18T18:00:36.529Z",
+    "type": "discount"
   }
 }
