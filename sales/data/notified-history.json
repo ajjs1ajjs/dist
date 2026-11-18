@@ -3890,5 +3890,12 @@
     "percent": 30,
     "timestamp": "2026-11-18T21:00:32.984Z",
     "type": "discount"
+  },
+  "steam_discount_307690": {
+    "title": "Sleeping Dogs: Definitive Edition",
+    "price": 56,
+    "percent": 85,
+    "timestamp": "2026-11-18T22:00:30.381Z",
+    "type": "discount"
   }
 }
