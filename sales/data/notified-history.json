@@ -3666,5 +3666,12 @@
     "percent": 85,
     "timestamp": "2026-11-18T17:00:34.661Z",
     "type": "discount"
+  },
+  "steam_discount_304390": {
+    "title": "FOR HONOR™",
+    "price": 68,
+    "percent": 85,
+    "timestamp": "2026-11-18T17:00:34.661Z",
+    "type": "discount"
   }
 }
