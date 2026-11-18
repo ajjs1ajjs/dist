@@ -3876,5 +3876,12 @@
     "percent": 40,
     "timestamp": "2026-11-18T21:00:32.984Z",
     "type": "discount"
+  },
+  "steam_discount_2624870": {
+    "title": "Life is Strange: Reunion",
+    "price": 714,
+    "percent": 35,
+    "timestamp": "2026-11-18T21:00:32.984Z",
+    "type": "discount"
   }
 }
