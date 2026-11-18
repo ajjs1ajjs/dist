@@ -15209,6 +15209,13 @@
       "percent": 30,
       "timestamp": "2026-11-18T19:00:33.617Z",
       "type": "discount"
+    },
+    "steam_discount_2515020": {
+      "title": "FINAL FANTASY XVI",
+      "price": 559,
+      "percent": 60,
+      "timestamp": "2026-11-18T20:00:33.394Z",
+      "type": "discount"
     }
   }
 }
