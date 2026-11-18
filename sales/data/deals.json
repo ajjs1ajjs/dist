@@ -14716,6 +14716,13 @@
       "percent": 85,
       "timestamp": "2026-11-18T10:00:44.377Z",
       "type": "discount"
+    },
+    "steam_discount_1342490": {
+      "title": "Daemon X Machina: Titanic Scion",
+      "price": 526,
+      "percent": 60,
+      "timestamp": "2026-11-18T14:00:34.779Z",
+      "type": "discount"
     }
   }
 }
