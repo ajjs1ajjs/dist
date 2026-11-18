@@ -3862,5 +3862,12 @@
     "percent": 60,
     "timestamp": "2026-11-18T21:00:32.984Z",
     "type": "discount"
+  },
+  "steam_discount_359870": {
+    "title": "FINAL FANTASY X/X-2 HD Remaster",
+    "price": 151,
+    "percent": 60,
+    "timestamp": "2026-11-18T21:00:32.984Z",
+    "type": "discount"
   }
 }
