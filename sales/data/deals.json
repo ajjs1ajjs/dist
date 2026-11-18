@@ -15464,6 +15464,13 @@
       "percent": 35,
       "timestamp": "2026-11-18T22:00:30.381Z",
       "type": "discount"
+    },
+    "steam_discount_1044720": {
+      "title": "Farthest Frontier",
+      "price": 490,
+      "percent": 30,
+      "timestamp": "2026-11-18T22:00:30.381Z",
+      "type": "discount"
     }
   }
 }
