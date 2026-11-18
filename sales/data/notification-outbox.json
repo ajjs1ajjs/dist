@@ -8461,6 +8461,186 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T18:01:16.217Z"
+    },
+    {
+      "id": "9a104893b12e96ba16042cb7",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Riders Republic</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2290180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/4470baeaa927aa7d21edaefc17581d2ee7cbe2f7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2290180",
+          "entry": {
+            "title": "Riders Republic",
+            "price": 119,
+            "percent": 90,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9d0ede888e172945c17ca6ec",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY VII REBIRTH</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>254 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2909400\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2909400",
+          "entry": {
+            "title": "FINAL FANTASY VII REBIRTH",
+            "price": 254,
+            "percent": 85,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8485915fff37e9b2b684fe96",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Watch_Dogs® 2</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>915 грн</s> ➡️ <b>137 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/447040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_447040",
+          "entry": {
+            "title": "Watch_Dogs® 2",
+            "price": 137,
+            "percent": 85,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a6c0d1e5c954aec13d8a989d",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY VII REMAKE INTERGRADE</b>\n🏷️ Знижка: <b>-82%</b>\n💰 Ціна: <s>1 099 грн</s> ➡️ <b>197 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1462040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1462040",
+          "entry": {
+            "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+            "price": 197,
+            "percent": 82,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3417d3b1cee691ebcb4a7aaa",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Star Wars Outlaws</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 519 грн</s> ➡️ <b>303 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2842040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842040/5275d8f2b9395660b8c14d407651090f0e014587/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2842040",
+          "entry": {
+            "title": "Star Wars Outlaws",
+            "price": 303,
+            "percent": 80,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e6788eca72588106f692c643",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tom Clancy&#39;s Ghost Recon® Breakpoint</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>915 грн</s> ➡️ <b>183 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2231380\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2231380",
+          "entry": {
+            "title": "Tom Clancy's Ghost Recon® Breakpoint",
+            "price": 183,
+            "percent": 80,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "98bbcf89a4c4cc6ddccf4bc4",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>South Park™: The Stick of Truth™</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>459 грн</s> ➡️ <b>114 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/213670\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213670/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_213670",
+          "entry": {
+            "title": "South Park™: The Stick of Truth™",
+            "price": 114,
+            "percent": 75,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "158038d421e60258a33b4342",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>BlazBlue Entropy Effect</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2273430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2273430/e2e6097ef5ebd2b1d08cd5ec421a82361dbecdac/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2273430",
+          "entry": {
+            "title": "BlazBlue Entropy Effect",
+            "price": 249,
+            "percent": 40,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2b02d755d0c298f987a83532",
+      "createdAt": "2026-11-18T19:00:33.617Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Lord of Undead</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>470 грн</s> ➡️ <b>329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4018330\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4018330/a24ae64d09733db767a2d03f0c00dee2c2d71fb9/capsule_231x87_alt_assets_0.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4018330",
+          "entry": {
+            "title": "Lord of Undead",
+            "price": 329,
+            "percent": 30,
+            "timestamp": "2026-11-18T19:00:33.617Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
