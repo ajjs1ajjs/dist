@@ -3785,5 +3785,12 @@
     "percent": 40,
     "timestamp": "2026-11-18T19:00:33.617Z",
     "type": "discount"
+  },
+  "steam_discount_4018330": {
+    "title": "Lord of Undead",
+    "price": 329,
+    "percent": 30,
+    "timestamp": "2026-11-18T19:00:33.617Z",
+    "type": "discount"
   }
 }
