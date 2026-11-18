@@ -8650,6 +8650,106 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T19:01:47.422Z"
+    },
+    {
+      "id": "1c4ff659ea755fa841ba9be1",
+      "createdAt": "2026-11-18T20:00:33.394Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY XVI</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>559 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2515020\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2515020",
+          "entry": {
+            "title": "FINAL FANTASY XVI",
+            "price": 559,
+            "percent": 60,
+            "timestamp": "2026-11-18T20:00:33.394Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a0925ff745713d59db0b46f8",
+      "createdAt": "2026-11-18T20:00:33.394Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NieR:Automata™</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>466 грн</s> ➡️ <b>186 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/524220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_524220",
+          "entry": {
+            "title": "NieR:Automata™",
+            "price": 186,
+            "percent": 60,
+            "timestamp": "2026-11-18T20:00:33.394Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e26e98d0c2a9787432c1d255",
+      "createdAt": "2026-11-18T20:00:33.394Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>OCTOPATH TRAVELER 0</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>699 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3014320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/9f0279652ac70173cd9d171f423ef83706aff2f4/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3014320",
+          "entry": {
+            "title": "OCTOPATH TRAVELER 0",
+            "price": 699,
+            "percent": 50,
+            "timestamp": "2026-11-18T20:00:33.394Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "17180e3f76c67bc2c6f7231a",
+      "createdAt": "2026-11-18T20:00:33.394Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Graveyard Orbit</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>130 грн</s> ➡️ <b>78 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4654120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654120/e8cc45c1667df6edea1a6a6a7569faa203f86fa4/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4654120",
+          "entry": {
+            "title": "Graveyard Orbit",
+            "price": 78,
+            "percent": 40,
+            "timestamp": "2026-11-18T20:00:33.394Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ec8e0d72ee5b45eaeee3e6cd",
+      "createdAt": "2026-11-18T20:00:33.394Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DRAGON QUEST I &amp; II HD-2D Remake</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2893570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2893570/7318f0b8665fbbda03ef0c9dbee6c490e0af41d9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2893570",
+          "entry": {
+            "title": "DRAGON QUEST I & II HD-2D Remake",
+            "price": 1104,
+            "percent": 35,
+            "timestamp": "2026-11-18T20:00:33.394Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
