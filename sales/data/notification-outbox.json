@@ -8060,6 +8060,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T07:00:34.950Z"
+    },
+    {
+      "id": "f729c11a4225f93598f8d52f",
+      "createdAt": "2026-11-18T08:00:34.849Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NUKITASHI 2</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>206 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2614070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2614070/f95ebcadb18bc3bee76b2b1b1d18fa805d140429/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2614070",
+          "entry": {
+            "title": "NUKITASHI 2",
+            "price": 206,
+            "percent": 60,
+            "timestamp": "2026-11-18T08:00:34.849Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
