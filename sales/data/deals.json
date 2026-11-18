@@ -15120,6 +15120,13 @@
       "percent": 80,
       "timestamp": "2026-11-18T19:00:33.617Z",
       "type": "discount"
+    },
+    "steam_discount_2231380": {
+      "title": "Tom Clancy's Ghost Recon® Breakpoint",
+      "price": 183,
+      "percent": 80,
+      "timestamp": "2026-11-18T19:00:33.617Z",
+      "type": "discount"
     }
   }
 }
