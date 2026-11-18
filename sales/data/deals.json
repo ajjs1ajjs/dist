@@ -14511,6 +14511,13 @@
       "percent": 50,
       "timestamp": "2026-11-18T01:00:36.745Z",
       "type": "discount"
+    },
+    "steam_discount_2508780": {
+      "title": "STORY OF SEASONS: Grand Bazaar",
+      "price": 1190,
+      "percent": 30,
+      "timestamp": "2026-11-18T01:00:36.745Z",
+      "type": "discount"
     }
   }
 }
