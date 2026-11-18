@@ -7997,6 +7997,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T04:00:38.112Z"
+    },
+    {
+      "id": "729c821d5f5b33963779ea3f",
+      "createdAt": "2026-11-18T05:00:39.036Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hi-Fi RUSH</b>\n🏷️ Знижка: <b>-55%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>269 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1817230\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1817230",
+          "entry": {
+            "title": "Hi-Fi RUSH",
+            "price": 269,
+            "percent": 55,
+            "timestamp": "2026-11-18T05:00:39.036Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
