@@ -3778,5 +3778,12 @@
     "percent": 75,
     "timestamp": "2026-11-18T19:00:33.617Z",
     "type": "discount"
+  },
+  "steam_discount_2273430": {
+    "title": "BlazBlue Entropy Effect",
+    "price": 249,
+    "percent": 40,
+    "timestamp": "2026-11-18T19:00:33.617Z",
+    "type": "discount"
   }
 }
