@@ -8251,6 +8251,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T16:14:49.891Z"
+    },
+    {
+      "id": "457d7723dde502d8efa09ca6",
+      "createdAt": "2026-11-18T17:00:34.661Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Far Cry® 5</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>915 грн</s> ➡️ <b>137 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/552520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/fc7eabeaaf868041538c9c10628f8848fd71c948/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_552520",
+          "entry": {
+            "title": "Far Cry® 5",
+            "price": 137,
+            "percent": 85,
+            "timestamp": "2026-11-18T17:00:34.661Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ca9e78aa8d3c19b569cba17a",
+      "createdAt": "2026-11-18T17:00:34.661Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FOR HONOR™</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>459 грн</s> ➡️ <b>68 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/304390\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304390/2990e16e6dd97857e85b7f7c943112d6084aa5f3/capsule_231x87_alt_assets_13.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_304390",
+          "entry": {
+            "title": "FOR HONOR™",
+            "price": 68,
+            "percent": 85,
+            "timestamp": "2026-11-18T17:00:34.661Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b79af97745d752670ca035d3",
+      "createdAt": "2026-11-18T17:00:34.661Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Avatar: Frontiers of Pandora™</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>859 грн</s> ➡️ <b>429 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2840770\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/192cba5b2a29346ba8899042c4f72e03d8f6515c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2840770",
+          "entry": {
+            "title": "Avatar: Frontiers of Pandora™",
+            "price": 429,
+            "percent": 50,
+            "timestamp": "2026-11-18T17:00:34.661Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e1571270c0cb20a1b4c30e1e",
+      "createdAt": "2026-11-18T17:00:34.661Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ostranauts</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>430 грн</s> ➡️ <b>322 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1022980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1022980/bdef1a238d2386577012afbade505a9c18299930/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1022980",
+          "entry": {
+            "title": "Ostranauts",
+            "price": 322,
+            "percent": 25,
+            "timestamp": "2026-11-18T17:00:34.661Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
