@@ -3617,5 +3617,12 @@
     "percent": 60,
     "timestamp": "2026-11-18T08:00:34.849Z",
     "type": "discount"
+  },
+  "steam_discount_485510": {
+    "title": "Nioh: Complete Edition",
+    "price": 243,
+    "percent": 85,
+    "timestamp": "2026-11-18T10:00:44.377Z",
+    "type": "discount"
   }
 }
