@@ -15579,6 +15579,13 @@
       "percent": 85,
       "timestamp": "2026-11-18T23:00:33.670Z",
       "type": "discount"
+    },
+    "steam_discount_377840": {
+      "title": "FINAL FANTASY IX",
+      "price": 83,
+      "percent": 70,
+      "timestamp": "2026-11-18T23:00:33.670Z",
+      "type": "discount"
     }
   }
 }
