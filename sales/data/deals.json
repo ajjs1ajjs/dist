@@ -14930,6 +14930,13 @@
       "percent": 70,
       "timestamp": "2026-11-18T18:00:36.529Z",
       "type": "discount"
+    },
+    "steam_discount_3690030": {
+      "title": "The Last Gas Station",
+      "price": 128,
+      "percent": 60,
+      "timestamp": "2026-11-18T18:00:36.529Z",
+      "type": "discount"
     }
   }
 }
