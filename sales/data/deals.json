@@ -14784,6 +14784,13 @@
       "percent": 100,
       "timestamp": "2026-11-18T16:00:35.512Z",
       "type": "free"
+    },
+    "steam_discount_2620": {
+      "title": "Call of Duty® (2003)",
+      "price": 424,
+      "percent": 50,
+      "timestamp": "2026-11-18T16:14:45.121Z",
+      "type": "discount"
     }
   }
 }
