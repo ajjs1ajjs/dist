@@ -15216,6 +15216,13 @@
       "percent": 60,
       "timestamp": "2026-11-18T20:00:33.394Z",
       "type": "discount"
+    },
+    "steam_discount_524220": {
+      "title": "NieR:Automata™",
+      "price": 186,
+      "percent": 60,
+      "timestamp": "2026-11-18T20:00:33.394Z",
+      "type": "discount"
     }
   }
 }
