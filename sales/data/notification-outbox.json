@@ -7976,6 +7976,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T03:00:39.585Z"
+    },
+    {
+      "id": "3eeb429aa97052a54328ef2e",
+      "createdAt": "2026-11-18T04:00:32.957Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>SAMURAI WARRIORS 4 DX</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 542 грн</s> ➡️ <b>771 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2719200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719200/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2719200",
+          "entry": {
+            "title": "SAMURAI WARRIORS 4 DX",
+            "price": 771,
+            "percent": 50,
+            "timestamp": "2026-11-18T04:00:32.957Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
