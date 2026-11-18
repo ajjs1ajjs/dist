@@ -8103,6 +8103,46 @@
       "attempts": 1,
       "claimedAt": "2026-11-18T09:00:37.466Z",
       "lastError": "Telegram send failed: This operation was aborted"
+    },
+    {
+      "id": "38cd7d48e94a0282915cfb73",
+      "createdAt": "2026-11-18T10:00:44.377Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Nioh: Complete Edition</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 625 грн</s> ➡️ <b>243 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/485510\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/485510/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_485510",
+          "entry": {
+            "title": "Nioh: Complete Edition",
+            "price": 243,
+            "percent": 85,
+            "timestamp": "2026-11-18T10:00:44.377Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0220e43a977b6a88b43e31c8",
+      "createdAt": "2026-11-18T10:00:44.377Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Rush  - Tower Defense</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>196 грн</s> ➡️ <b>98 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/246420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246420/e4de306b1477293344342ba8d0e8491559034c9d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_246420",
+          "entry": {
+            "title": "Kingdom Rush  - Tower Defense",
+            "price": 98,
+            "percent": 50,
+            "timestamp": "2026-11-18T10:00:44.377Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
