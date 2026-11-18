@@ -8167,6 +8167,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T14:00:38.562Z"
+    },
+    {
+      "id": "042c87c92add5be07060363c",
+      "createdAt": "2026-11-18T16:00:35.512Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Football Life Simulator</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3158270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158270/6f01ac1927f2cf2787a9e2b79890367dda13462c/capsule_231x87_alt_assets_1.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3158270",
+          "entry": {
+            "title": "Football Life Simulator",
+            "price": 239,
+            "percent": 40,
+            "timestamp": "2026-11-18T16:00:35.512Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "1b2e46eaae434393c14407d6",
+      "createdAt": "2026-11-18T16:00:35.512Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>KORRIDOR</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>190 грн</s> ➡️ <b>114 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3739580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739580/8e8289b363484837caf6e83a880502252e550a76/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3739580",
+          "entry": {
+            "title": "KORRIDOR",
+            "price": 114,
+            "percent": 40,
+            "timestamp": "2026-11-18T16:00:35.512Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "090acb36942a920c00c17792",
+      "createdAt": "2026-11-18T16:00:35.512Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>Disney Dreamlight Valley: Wishblossom Ranch — Deluxe Edition</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/3979530\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979530/0add46e46e0b09301a61445365c10f6d028f770f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_free_3979530",
+          "entry": {
+            "title": "Disney Dreamlight Valley: Wishblossom Ranch — Deluxe Edition",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-18T16:00:35.512Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
