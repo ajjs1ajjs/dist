@@ -8966,6 +8966,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T21:01:16.544Z"
+    },
+    {
+      "id": "2ce7e91da0b14dfff72d0d8d",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sleeping Dogs: Definitive Edition</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>379 грн</s> ➡️ <b>56 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/307690\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307690/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_307690",
+          "entry": {
+            "title": "Sleeping Dogs: Definitive Edition",
+            "price": 56,
+            "percent": 85,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b3155f94da75eb99018ea369",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Life is Strange Remastered</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>930 грн</s> ➡️ <b>186 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1265920\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1265920/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1265920",
+          "entry": {
+            "title": "Life is Strange Remastered",
+            "price": 186,
+            "percent": 80,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3a98b7f93c498e61beae7d8e",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tactics Ogre: Reborn</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 099 грн</s> ➡️ <b>329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1451090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451090/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1451090",
+          "entry": {
+            "title": "Tactics Ogre: Reborn",
+            "price": 329,
+            "percent": 70,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "58a2e3676141671b63cada94",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>STRANGER OF PARADISE FINAL FANTASY ORIGIN</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>299 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1358700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1358700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1358700",
+          "entry": {
+            "title": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+            "price": 299,
+            "percent": 70,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ea40591875619fc893dfbf6c",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY XII THE ZODIAC AGE</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>779 грн</s> ➡️ <b>233 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/595520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/595520/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_595520",
+          "entry": {
+            "title": "FINAL FANTASY XII THE ZODIAC AGE",
+            "price": 233,
+            "percent": 70,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "15166c7df1a9307a26c1326d",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Romancing SaGa 2: Revenge of the Seven</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>559 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2455640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455640/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2455640",
+          "entry": {
+            "title": "Romancing SaGa 2: Revenge of the Seven",
+            "price": 559,
+            "percent": 60,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "04f20551f54ffbe7af8ffb00",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>930 грн</s> ➡️ <b>465 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1295510\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295510/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1295510",
+          "entry": {
+            "title": "DRAGON QUEST® XI S: Echoes of an Elusive Age™ - Definitive Edition",
+            "price": 465,
+            "percent": 50,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7002b504aa5ca079b9b0cf9b",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DRAGON QUEST VII Reimagined</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>1 169 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2499860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2499860/2f5ecf8d4a17a0bf959f96145a41250703ee7993/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2499860",
+          "entry": {
+            "title": "DRAGON QUEST VII Reimagined",
+            "price": 1169,
+            "percent": 35,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5be0e47f1a86b869214e80f9",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Farthest Frontier</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>490 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1044720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1044720/1ffb2b6657e6b5079d86616f0a880c7f5fd4789a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1044720",
+          "entry": {
+            "title": "Farthest Frontier",
+            "price": 490,
+            "percent": 30,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c84a31d5b9bfba217a81cf8e",
+      "createdAt": "2026-11-18T22:00:30.381Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grim Dawn - Fangs of Asterkarn</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>405 грн</s> ➡️ <b>303 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2699230\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2699230",
+          "entry": {
+            "title": "Grim Dawn - Fangs of Asterkarn",
+            "price": 303,
+            "percent": 25,
+            "timestamp": "2026-11-18T22:00:30.381Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
