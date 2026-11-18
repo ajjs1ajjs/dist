@@ -15415,6 +15415,13 @@
       "percent": 85,
       "timestamp": "2026-11-18T22:00:30.381Z",
       "type": "discount"
+    },
+    "steam_discount_1265920": {
+      "title": "Life is Strange Remastered",
+      "price": 186,
+      "percent": 80,
+      "timestamp": "2026-11-18T22:00:30.381Z",
+      "type": "discount"
     }
   }
 }
