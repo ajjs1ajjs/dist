@@ -9176,6 +9176,126 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T22:01:18.711Z"
+    },
+    {
+      "id": "4ee4ae08e955c693918f65fc",
+      "createdAt": "2026-11-18T23:00:33.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Just Cause™ 3</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>233 грн</s> ➡️ <b>34 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/225540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225540/eb457702735199abd72bcc5cf85994030917b108/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_225540",
+          "entry": {
+            "title": "Just Cause™ 3",
+            "price": 34,
+            "percent": 85,
+            "timestamp": "2026-11-18T23:00:33.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "edf86c0d31dccd03cccea012",
+      "createdAt": "2026-11-18T23:00:33.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY IX</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>83 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/377840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377840/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_377840",
+          "entry": {
+            "title": "FINAL FANTASY IX",
+            "price": 83,
+            "percent": 70,
+            "timestamp": "2026-11-18T23:00:33.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "405d3fd44a56be1f2b83a4ff",
+      "createdAt": "2026-11-18T23:00:33.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Visions of Mana</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>599 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2490990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2490990/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2490990",
+          "entry": {
+            "title": "Visions of Mana",
+            "price": 599,
+            "percent": 60,
+            "timestamp": "2026-11-18T23:00:33.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e40e784a7591678a73dd79af",
+      "createdAt": "2026-11-18T23:00:33.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Life is Strange: Double Exposure</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>559 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1874000\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874000/b28f2c9245c4caf9b3ab03d16bd4d8957e4fe565/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1874000",
+          "entry": {
+            "title": "Life is Strange: Double Exposure",
+            "price": 559,
+            "percent": 60,
+            "timestamp": "2026-11-18T23:00:33.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2457043cf82fead8d120db5e",
+      "createdAt": "2026-11-18T23:00:33.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY VI</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>222 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1173820\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1173820/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1173820",
+          "entry": {
+            "title": "FINAL FANTASY VI",
+            "price": 222,
+            "percent": 40,
+            "timestamp": "2026-11-18T23:00:33.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d8c9b3b3b7df696860e91870",
+      "createdAt": "2026-11-18T23:00:33.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Rise of the Golden Idol</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>290 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2716400\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716400/4e67a306a36409bff4b9754945187fae54543063/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2716400",
+          "entry": {
+            "title": "The Rise of the Golden Idol",
+            "price": 290,
+            "percent": 30,
+            "timestamp": "2026-11-18T23:00:33.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
