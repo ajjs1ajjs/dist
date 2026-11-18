@@ -3806,5 +3806,12 @@
     "percent": 60,
     "timestamp": "2026-11-18T20:00:33.394Z",
     "type": "discount"
+  },
+  "steam_discount_3014320": {
+    "title": "OCTOPATH TRAVELER 0",
+    "price": 699,
+    "percent": 50,
+    "timestamp": "2026-11-18T20:00:33.394Z",
+    "type": "discount"
   }
 }
