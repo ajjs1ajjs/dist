@@ -7913,6 +7913,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T01:00:49.116Z"
+    },
+    {
+      "id": "be534f69e8647343dbb659f3",
+      "createdAt": "2026-11-18T02:00:32.768Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Destiny 2: The Final Shape</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>59 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2336880\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2336880/a4b574b8dcf4002eaa631c3f038dcaa6acc405ce/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2336880",
+          "entry": {
+            "title": "Destiny 2: The Final Shape",
+            "price": 59,
+            "percent": 90,
+            "timestamp": "2026-11-18T02:00:32.768Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
