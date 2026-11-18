@@ -3820,5 +3820,12 @@
     "percent": 35,
     "timestamp": "2026-11-18T20:00:33.394Z",
     "type": "discount"
+  },
+  "steam_discount_220240": {
+    "title": "Far Cry 3",
+    "price": 74,
+    "percent": 75,
+    "timestamp": "2026-11-18T21:00:32.984Z",
+    "type": "discount"
   }
 }
