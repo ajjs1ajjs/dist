@@ -14518,6 +14518,13 @@
       "percent": 30,
       "timestamp": "2026-11-18T01:00:36.745Z",
       "type": "discount"
+    },
+    "steam_discount_2640": {
+      "title": "Call of Duty: United Offensive",
+      "price": 636,
+      "percent": 25,
+      "timestamp": "2026-11-18T01:00:36.745Z",
+      "type": "discount"
     }
   }
 }
