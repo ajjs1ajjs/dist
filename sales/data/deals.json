@@ -15572,6 +15572,13 @@
       "percent": 25,
       "timestamp": "2026-11-18T22:00:30.381Z",
       "type": "discount"
+    },
+    "steam_discount_225540": {
+      "title": "Just Cause™ 3",
+      "price": 34,
+      "percent": 85,
+      "timestamp": "2026-11-18T23:00:33.670Z",
+      "type": "discount"
     }
   }
 }
