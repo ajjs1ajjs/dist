@@ -14620,6 +14620,13 @@
       "percent": 50,
       "timestamp": "2026-11-18T03:00:31.597Z",
       "type": "discount"
+    },
+    "steam_discount_2719200": {
+      "title": "SAMURAI WARRIORS 4 DX",
+      "price": 771,
+      "percent": 50,
+      "timestamp": "2026-11-18T04:00:32.957Z",
+      "type": "discount"
     }
   }
 }
