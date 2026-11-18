@@ -15113,6 +15113,13 @@
       "percent": 82,
       "timestamp": "2026-11-18T19:00:33.617Z",
       "type": "discount"
+    },
+    "steam_discount_2842040": {
+      "title": "Star Wars Outlaws",
+      "price": 303,
+      "percent": 80,
+      "timestamp": "2026-11-18T19:00:33.617Z",
+      "type": "discount"
     }
   }
 }
