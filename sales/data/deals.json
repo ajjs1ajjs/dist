@@ -16882,6 +16882,13 @@
       "percent": 60,
       "timestamp": "2026-11-19T01:00:33.023Z",
       "type": "discount"
+    },
+    "steam_free_5090180": {
+      "title": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-11-19T01:00:33.023Z",
+      "type": "free"
     }
   }
 }
