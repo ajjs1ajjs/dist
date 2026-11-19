@@ -9680,6 +9680,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T11:00:36.502Z"
+    },
+    {
+      "id": "e94d8457b9a2ed3b114bd1b8",
+      "createdAt": "2026-11-19T13:00:30.109Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY IV</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>222 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1173800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1173800/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1173800",
+          "entry": {
+            "title": "FINAL FANTASY IV",
+            "price": 222,
+            "percent": 40,
+            "timestamp": "2026-11-19T13:00:30.109Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
