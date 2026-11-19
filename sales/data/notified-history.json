@@ -4394,5 +4394,12 @@
     "percent": 60,
     "timestamp": "2026-11-19T21:00:39.713Z",
     "type": "discount"
+  },
+  "steam_discount_1846380": {
+    "title": "Need for Speed™ Unbound",
+    "price": 169,
+    "percent": 90,
+    "timestamp": "2026-11-19T22:00:33.938Z",
+    "type": "discount"
   }
 }
