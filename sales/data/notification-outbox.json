@@ -9596,6 +9596,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T04:00:41.296Z"
+    },
+    {
+      "id": "1adf1323ea87aa75e58406a5",
+      "createdAt": "2026-11-19T06:00:29.195Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>BRAVELY DEFAULT FLYING FAIRY HD Remaster</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>909 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2833580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2833580/fea9e154b0fbb440b58b353ff5be7bf734620b1a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2833580",
+          "entry": {
+            "title": "BRAVELY DEFAULT FLYING FAIRY HD Remaster",
+            "price": 909,
+            "percent": 30,
+            "timestamp": "2026-11-19T06:00:29.195Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
