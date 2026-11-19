@@ -18069,6 +18069,13 @@
       "percent": 80,
       "timestamp": "2026-11-19T23:00:33.361Z",
       "type": "discount"
+    },
+    "steam_discount_4032350": {
+      "title": "EA SPORTS™ College Football 27",
+      "price": 1099,
+      "percent": 50,
+      "timestamp": "2026-11-19T23:00:33.361Z",
+      "type": "discount"
     }
   }
 }
