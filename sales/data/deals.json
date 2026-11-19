@@ -17439,6 +17439,13 @@
       "percent": 80,
       "timestamp": "2026-11-19T19:00:32.037Z",
       "type": "discount"
+    },
+    "steam_discount_805550": {
+      "title": "Assetto Corsa Competizione",
+      "price": 199,
+      "percent": 80,
+      "timestamp": "2026-11-19T19:00:32.037Z",
+      "type": "discount"
     }
   }
 }
