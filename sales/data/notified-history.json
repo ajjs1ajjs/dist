@@ -4184,5 +4184,12 @@
     "percent": 90,
     "timestamp": "2026-11-19T19:00:32.037Z",
     "type": "discount"
+  },
+  "steam_discount_289070": {
+    "title": "Sid Meier’s Civilization® VI",
+    "price": 52,
+    "percent": 90,
+    "timestamp": "2026-11-19T19:00:32.037Z",
+    "type": "discount"
   }
 }
