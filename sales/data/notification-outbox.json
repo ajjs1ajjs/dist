@@ -9827,6 +9827,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T16:23:20.274Z"
+    },
+    {
+      "id": "30a67b82efa777182ae3c51c",
+      "createdAt": "2026-11-19T18:00:39.941Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>ARC Raiders</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 390 грн</s> ➡️ <b>695 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1808500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/a602a7cbfa617d23b11c13aba324e8aa6f753269/capsule_616x353_alt_assets_9.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1808500",
+          "entry": {
+            "title": "ARC Raiders",
+            "price": 695,
+            "percent": 50,
+            "timestamp": "2026-11-19T18:00:39.941Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
