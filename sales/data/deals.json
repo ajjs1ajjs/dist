@@ -16963,6 +16963,13 @@
       "percent": 0,
       "timestamp": "2026-11-19T16:23:05.357Z",
       "type": "gamepass"
+    },
+    "steam_discount_1808500": {
+      "title": "ARC Raiders",
+      "price": 695,
+      "percent": 50,
+      "timestamp": "2026-11-19T18:00:39.941Z",
+      "type": "discount"
     }
   }
 }
