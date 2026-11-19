@@ -4492,5 +4492,12 @@
     "percent": 50,
     "timestamp": "2026-11-19T23:00:33.361Z",
     "type": "discount"
+  },
+  "steam_discount_2420110": {
+    "title": "Повне видання Horizon Forbidden West™",
+    "price": 849,
+    "percent": 50,
+    "timestamp": "2026-11-19T23:00:33.361Z",
+    "type": "discount"
   }
 }
