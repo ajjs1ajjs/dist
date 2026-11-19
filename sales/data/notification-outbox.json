@@ -10289,6 +10289,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T20:01:21.712Z"
+    },
+    {
+      "id": "80c171d76690b23e5e340bd6",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Need for Speed™ Heat</b>\n🏷️ Знижка: <b>-95%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>99 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1222680\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1222680",
+          "entry": {
+            "title": "Need for Speed™ Heat",
+            "price": 99,
+            "percent": 95,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5520a6cfe2f15f8f3abe0fae",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Battlefield™ V</b>\n🏷️ Знижка: <b>-95%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>64 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238810\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238810",
+          "entry": {
+            "title": "Battlefield™ V",
+            "price": 64,
+            "percent": 95,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "46d8be1bd2310530d600d7bf",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dead Island 2</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 866 грн</s> ➡️ <b>186 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/934700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/a0bb0659f81e6a4c1a7201bd6f4b44f80c5c5388/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_934700",
+          "entry": {
+            "title": "Dead Island 2",
+            "price": 186,
+            "percent": 90,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c6b9dc379f2222ed413ab2df",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Titanfall® 2</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1237970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1237970",
+          "entry": {
+            "title": "Titanfall® 2",
+            "price": 119,
+            "percent": 85,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5300869ee6b1e29522423511",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>STAR WARS™ Battlefront™ II</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1237950\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1237950",
+          "entry": {
+            "title": "STAR WARS™ Battlefront™ II",
+            "price": 239,
+            "percent": 80,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dcdd0ff5696ac413277b950d",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dragon Age™: The Veilguard</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>374 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1845910\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/a9faf4de76f5ac4a757a6d30f5f38ce543b1aa3f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1845910",
+          "entry": {
+            "title": "Dragon Age™: The Veilguard",
+            "price": 374,
+            "percent": 75,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ec47b791a16b8839fb372486",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kerbal Space Program</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>224 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/220200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_220200",
+          "entry": {
+            "title": "Kerbal Space Program",
+            "price": 224,
+            "percent": 75,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fdc190b496b44f4a626e3d29",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sackboy™: A Big Adventure</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>560 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1599660\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599660/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1599660",
+          "entry": {
+            "title": "Sackboy™: A Big Adventure",
+            "price": 560,
+            "percent": 67,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c57fce9914f88cb46ead0c93",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Days Gone - Broken Road DLC</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>300 грн</s> ➡️ <b>99 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3238470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3238470/845f1888599dd1384e9291dab1efa2afca9985a2/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3238470",
+          "entry": {
+            "title": "Days Gone - Broken Road DLC",
+            "price": 99,
+            "percent": 67,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5099bbba71cdd2f0a8897773",
+      "createdAt": "2026-11-19T21:00:39.713Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Legend of Heroes: Trails of Cold Steel IV</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>450 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1198090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1198090/1f8203c1a231399093b9dce99b17f106c64a1488/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1198090",
+          "entry": {
+            "title": "The Legend of Heroes: Trails of Cold Steel IV",
+            "price": 450,
+            "percent": 60,
+            "timestamp": "2026-11-19T21:00:39.713Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
