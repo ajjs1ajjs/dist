@@ -18062,6 +18062,13 @@
       "percent": 80,
       "timestamp": "2026-11-19T23:00:33.361Z",
       "type": "discount"
+    },
+    "steam_discount_394510": {
+      "title": "HELLDIVERS™ Dive Harder Edition",
+      "price": 55,
+      "percent": 80,
+      "timestamp": "2026-11-19T23:00:33.361Z",
+      "type": "discount"
     }
   }
 }
