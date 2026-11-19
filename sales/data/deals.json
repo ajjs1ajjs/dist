@@ -18004,6 +18004,13 @@
       "percent": 60,
       "timestamp": "2026-11-19T22:00:33.938Z",
       "type": "discount"
+    },
+    "steam_discount_3940610": {
+      "title": "EA SPORTS™ Madden NFL 27",
+      "price": 1099,
+      "percent": 50,
+      "timestamp": "2026-11-19T22:00:33.938Z",
+      "type": "discount"
     }
   }
 }
