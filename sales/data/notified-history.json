@@ -4254,5 +4254,12 @@
     "percent": 95,
     "timestamp": "2026-11-19T20:00:32.300Z",
     "type": "discount"
+  },
+  "steam_discount_1693980": {
+    "title": "Dead Space",
+    "price": 149,
+    "percent": 90,
+    "timestamp": "2026-11-19T20:00:32.300Z",
+    "type": "discount"
   }
 }
