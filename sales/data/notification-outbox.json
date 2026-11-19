@@ -10499,6 +10499,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T21:01:30.976Z"
+    },
+    {
+      "id": "480b17ad2b169a43aac83ff9",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Need for Speed™ Unbound</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>169 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1846380\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/7db34cfa0adc634dfcb732563450dc4b1da9d1f2/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1846380",
+          "entry": {
+            "title": "Need for Speed™ Unbound",
+            "price": 169,
+            "percent": 90,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "eeb01339adc8c347bd659115",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>STAR WARS Jedi: Fallen Order™</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1172380\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1172380",
+          "entry": {
+            "title": "STAR WARS Jedi: Fallen Order™",
+            "price": 239,
+            "percent": 80,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2baa35bc92d7674a9705fe05",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>SPORE™</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>139 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/17390\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17390/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_17390",
+          "entry": {
+            "title": "SPORE™",
+            "price": 139,
+            "percent": 80,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "44c7c1081eabaced3756ec60",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Lost Soul Aside™</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>659 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3378960\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3378960/f139f50dd878ca94171cd4c6e6ab79b29b3c097e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3378960",
+          "entry": {
+            "title": "Lost Soul Aside™",
+            "price": 659,
+            "percent": 67,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "43027e67bce50461fdb81c6e",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Returnal™</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>560 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1649240\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1649240",
+          "entry": {
+            "title": "Returnal™",
+            "price": 560,
+            "percent": 67,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f6028d1b706117413169c139",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Legend of Heroes: Trails of Cold Steel III</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>450 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/991270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/991270/e0cb0a5ad9ffbe6fa1abc5f34c3f6ca95cdd4c57/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_991270",
+          "entry": {
+            "title": "The Legend of Heroes: Trails of Cold Steel III",
+            "price": 450,
+            "percent": 60,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "76f73ee9f80a2ded78a8cebd",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>EA SPORTS™ Madden NFL 27</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 199 грн</s> ➡️ <b>1 099 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3940610\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/d8aab73ea31bdd36225ad68b6e0030c85a70e298/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3940610",
+          "entry": {
+            "title": "EA SPORTS™ Madden NFL 27",
+            "price": 1099,
+            "percent": 50,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "97c8897848e820eec10f49b8",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Until Dawn™</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>999 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2172010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2172010",
+          "entry": {
+            "title": "Until Dawn™",
+            "price": 999,
+            "percent": 50,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fe8a498f08f65d133052b7ce",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2215430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "receipts": [
+        {
+          "key": "steam_discount_2215430",
+          "entry": {
+            "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5ef6d186e71314ec77789f04",
+      "createdAt": "2026-11-19T22:00:33.938Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Last of Us™ Part I</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1888930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1888930",
+          "entry": {
+            "title": "The Last of Us™ Part I",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-19T22:00:33.938Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
