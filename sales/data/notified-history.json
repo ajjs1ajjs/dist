@@ -4002,5 +4002,12 @@
     "percent": 30,
     "timestamp": "2026-11-18T23:00:33.670Z",
     "type": "discount"
+  },
+  "steam_discount_243470": {
+    "title": "Watch_Dogs™",
+    "price": 107,
+    "percent": 75,
+    "timestamp": "2026-11-19T00:00:35.244Z",
+    "type": "discount"
   }
 }
