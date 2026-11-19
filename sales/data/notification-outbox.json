@@ -9764,6 +9764,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T16:00:48.142Z"
+    },
+    {
+      "id": "77d18d9f570319b4790ac02e",
+      "createdAt": "2026-11-19T16:23:05.357Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>WITCH ON THE HOLY NIGHT</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>562 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2052410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052410/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2052410",
+          "entry": {
+            "title": "WITCH ON THE HOLY NIGHT",
+            "price": 562,
+            "percent": 50,
+            "timestamp": "2026-11-19T16:23:05.357Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bbbd390e6e8fec8ca50949ce",
+      "createdAt": "2026-11-19T16:23:05.357Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Volvy’s Adventure: Reslimed</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>130 грн</s> ➡️ <b>97 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4523120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4523120/a515f53f5ce5727d112723b7c9f80a06f5688824/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4523120",
+          "entry": {
+            "title": "Volvy’s Adventure: Reslimed",
+            "price": 97,
+            "percent": 25,
+            "timestamp": "2026-11-19T16:23:05.357Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5499dd60401fd078a7fc7e47",
+      "createdAt": "2026-11-19T16:23:05.357Z",
+      "text": "🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n🎮 <b>Warhammer Survivors</b>\n📝 Warhammer Survivors — динамічна роглайт-гра на виживання, де ви в ролі легендарних персонажів Warhammer протистоятимете …\n🔥 Зараз у топі популярних PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/warhammer-survivors/9MZZWGTF7V65\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.24118.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.42e56de2-baa7-4e7b-b91f-b2803b377056",
+      "receipts": [
+        {
+          "key": "gamepass_popular_9MZZWGTF7V65",
+          "entry": {
+            "title": "Warhammer Survivors",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-19T16:23:05.357Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
