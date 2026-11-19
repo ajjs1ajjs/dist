@@ -10058,6 +10058,226 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T19:01:16.660Z"
+    },
+    {
+      "id": "dbbd32d26426a4122f1b0893",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Battlefield™ 1</b>\n🏷️ Знижка: <b>-95%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>59 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238840",
+          "entry": {
+            "title": "Battlefield™ 1",
+            "price": 59,
+            "percent": 95,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "54750dedb02209799df0f0a7",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dead Space</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1693980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1693980",
+          "entry": {
+            "title": "Dead Space",
+            "price": 149,
+            "percent": 90,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "16d4dea78073f8ff9151f4b1",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>STAR WARS Jedi: Survivor™</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>254 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1774580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1774580",
+          "entry": {
+            "title": "STAR WARS Jedi: Survivor™",
+            "price": 254,
+            "percent": 85,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "31c681b559cbbc88275bbd2e",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>A Way Out</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1222700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1222700",
+          "entry": {
+            "title": "A Way Out",
+            "price": 159,
+            "percent": 80,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "76955e4da70644d6d392767c",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DEATH STRANDING DIRECTOR&#39;S CUT</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>299 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1850570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1850570",
+          "entry": {
+            "title": "DEATH STRANDING DIRECTOR'S CUT",
+            "price": 299,
+            "percent": 75,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d17575dc91a0b3256367c0e5",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ratchet &amp; Clank: Rift Apart</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1895880\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1895880",
+          "entry": {
+            "title": "Ratchet & Clank: Rift Apart",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "83070828944144f9cd34678e",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Marvel’s Spider-Man: Miles Morales</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>599 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1817190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1817190",
+          "entry": {
+            "title": "Marvel’s Spider-Man: Miles Morales",
+            "price": 599,
+            "percent": 60,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "58568bfef444ceddee6584bf",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Marvel’s Spider-Man Remastered</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>559 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1817070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1787838689",
+      "receipts": [
+        {
+          "key": "steam_discount_1817070",
+          "entry": {
+            "title": "Marvel’s Spider-Man Remastered",
+            "price": 559,
+            "percent": 60,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cf1ce45f14566e81dec207ee",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>God of War</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>479 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1593500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1593500",
+          "entry": {
+            "title": "God of War",
+            "price": 479,
+            "percent": 60,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "29b95f64e8ddf0b81214b65c",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>EA SPORTS FC™ 27</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 199 грн</s> ➡️ <b>1 099 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4080220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/d3e9a412983e68c39b5751a5fc9480129ce745b3/capsule_616x353.jpg?t=1793610006",
+      "receipts": [
+        {
+          "key": "steam_discount_4080220",
+          "entry": {
+            "title": "EA SPORTS FC™ 27",
+            "price": 1099,
+            "percent": 50,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ad80301068e5cabcbd6f5bc4",
+      "createdAt": "2026-11-19T20:00:32.300Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>Horizon Zero Dawn™ Complete Edition</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/1151640\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_free_1151640",
+          "entry": {
+            "title": "Horizon Zero Dawn™ Complete Edition",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-19T20:00:32.300Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
