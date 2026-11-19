@@ -10709,6 +10709,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T22:01:19.218Z"
+    },
+    {
+      "id": "4818f400c3f6651627cf5051",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mass Effect™: Andromeda</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238000\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238000/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238000",
+          "entry": {
+            "title": "Mass Effect™: Andromeda",
+            "price": 199,
+            "percent": 80,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2465cee723a09cddf0eaf3bd",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dragon Age™ Inquisition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1222690\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222690/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1222690",
+          "entry": {
+            "title": "Dragon Age™ Inquisition",
+            "price": 199,
+            "percent": 80,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "15ad524efbd4de2bf7997bd1",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>HELLDIVERS™ Dive Harder Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>55 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/394510\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_394510",
+          "entry": {
+            "title": "HELLDIVERS™ Dive Harder Edition",
+            "price": 55,
+            "percent": 80,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "79d261b90fca9b3f822766a3",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>EA SPORTS™ College Football 27</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 199 грн</s> ➡️ <b>1 099 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4032350\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/78f6aee0ab19432cc9addd80b7bcf77d3aee98f3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4032350",
+          "entry": {
+            "title": "EA SPORTS™ College Football 27",
+            "price": 1099,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e6d7f9f5ebc23949165b0346",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Повне видання Horizon Forbidden West™</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2420110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2420110",
+          "entry": {
+            "title": "Повне видання Horizon Forbidden West™",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f848deb60aa540d7459f0e86",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Horizon Zero Dawn™ Remastered</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>749 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2561580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2561580",
+          "entry": {
+            "title": "Horizon Zero Dawn™ Remastered",
+            "price": 749,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e225b1b389766db80b1333c5",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Legend of Heroes: Trails into Reverie</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>562 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1668540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668540/8315ecd4ee113846d652759d1f4020fe263d5067/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1668540",
+          "entry": {
+            "title": "The Legend of Heroes: Trails into Reverie",
+            "price": 562,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9d1410b4f848de1b0b9362ff",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crusader Kings III: Roads to Power</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>809 грн</s> ➡️ <b>404 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2671070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2671070/b3739ae4171e3c15b159ad52c938aa2f18554e55/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2671070",
+          "entry": {
+            "title": "Crusader Kings III: Roads to Power",
+            "price": 404,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "98d26c42759132c3581b4b13",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 2 Legacy Collection</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3314070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314070/eb2ac1c75fe1d68f324d2804715e5b1e9d419f0e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3314070",
+          "entry": {
+            "title": "The Sims™ 2 Legacy Collection",
+            "price": 399,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dc34f64883d82f9b91101bcd",
+      "createdAt": "2026-11-19T23:00:33.361Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Blacksmith Master</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2292800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/43bc8514a6cd4afed1caabc7dcaae651218ff738/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2292800",
+          "entry": {
+            "title": "Blacksmith Master",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-19T23:00:33.361Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
