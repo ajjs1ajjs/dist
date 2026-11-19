@@ -4247,5 +4247,12 @@
     "percent": 67,
     "timestamp": "2026-11-19T19:00:32.037Z",
     "type": "discount"
+  },
+  "steam_discount_1238840": {
+    "title": "Battlefield™ 1",
+    "price": 59,
+    "percent": 95,
+    "timestamp": "2026-11-19T20:00:32.300Z",
+    "type": "discount"
   }
 }
