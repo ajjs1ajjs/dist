@@ -4128,5 +4128,12 @@
     "percent": 40,
     "timestamp": "2026-11-19T13:00:30.109Z",
     "type": "discount"
+  },
+  "steam_discount_3232690": {
+    "title": "Maid Cafe Simulator",
+    "price": 381,
+    "percent": 25,
+    "timestamp": "2026-11-19T14:00:33.901Z",
+    "type": "discount"
   }
 }

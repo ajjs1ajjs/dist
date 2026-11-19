@@ -9719,7 +9719,7 @@
           }
         }
       ],
-      "status": "sending",
+      "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T14:00:38.042Z"
     }
