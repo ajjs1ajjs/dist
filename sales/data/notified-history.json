@@ -4198,5 +4198,12 @@
     "percent": 85,
     "timestamp": "2026-11-19T19:00:32.037Z",
     "type": "discount"
+  },
+  "steam_discount_1426210": {
+    "title": "It Takes Two",
+    "price": 199,
+    "percent": 80,
+    "timestamp": "2026-11-19T19:00:32.037Z",
+    "type": "discount"
   }
 }
