@@ -17698,6 +17698,13 @@
       "percent": 50,
       "timestamp": "2026-11-19T20:00:32.300Z",
       "type": "discount"
+    },
+    "steam_free_1151640": {
+      "title": "Horizon Zero Dawn™ Complete Edition",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-11-19T20:00:32.300Z",
+      "type": "free"
     }
   }
 }
