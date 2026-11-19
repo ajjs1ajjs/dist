@@ -9701,6 +9701,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T13:00:34.662Z"
+    },
+    {
+      "id": "0d2685de25da12297c4b88ef",
+      "createdAt": "2026-11-19T14:00:33.901Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Maid Cafe Simulator</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>509 грн</s> ➡️ <b>381 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3232690\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3232690/f66109f4933fffa9193b3e4325f7a863dfed3060/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3232690",
+          "entry": {
+            "title": "Maid Cafe Simulator",
+            "price": 381,
+            "percent": 25,
+            "timestamp": "2026-11-19T14:00:33.901Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
