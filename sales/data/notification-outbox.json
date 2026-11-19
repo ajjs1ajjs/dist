@@ -9848,6 +9848,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T18:00:44.692Z"
+    },
+    {
+      "id": "d2b0e9934241bd15ee7c6660",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Metro Exodus</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>79 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/412020\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_412020",
+          "entry": {
+            "title": "Metro Exodus",
+            "price": 79,
+            "percent": 90,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bde660355f258c7d386fac26",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sid Meier’s Civilization® VI</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>525 грн</s> ➡️ <b>52 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/289070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_289070",
+          "entry": {
+            "title": "Sid Meier’s Civilization® VI",
+            "price": 52,
+            "percent": 90,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bf2aae79dc7081fd69e8458d",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mass Effect™ Legendary Edition</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>224 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1328670\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1328670",
+          "entry": {
+            "title": "Mass Effect™ Legendary Edition",
+            "price": 224,
+            "percent": 85,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6f3b45379e422f0dad481bb7",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>It Takes Two</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1426210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1426210",
+          "entry": {
+            "title": "It Takes Two",
+            "price": 199,
+            "percent": 80,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7b6063d85487120572006e05",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Assetto Corsa Competizione</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/805550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_805550",
+          "entry": {
+            "title": "Assetto Corsa Competizione",
+            "price": 199,
+            "percent": 80,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "493baf5601912380a6617271",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Assetto Corsa</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/244210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/9d5338914376791adcf247efdc3cbd2135deb804/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_244210",
+          "entry": {
+            "title": "Assetto Corsa",
+            "price": 103,
+            "percent": 75,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "1d1b308382fbc0f1cd325453",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crusader Kings III</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>404 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1158310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/fc436f66c5b83fa03f3ae3203630529517e4ec16/capsule_231x87_alt_assets_12_ukrainian.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1158310",
+          "entry": {
+            "title": "Crusader Kings III",
+            "price": 404,
+            "percent": 70,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8be80dd96e57974555a34e25",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Oxygen Not Included</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>98 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/457140\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_457140",
+          "entry": {
+            "title": "Oxygen Not Included",
+            "price": 98,
+            "percent": 70,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "419fdd6bf42458af753f034e",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>UNCHARTED™: Legacy of Thieves Collection</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>494 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1659420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659420/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1659420",
+          "entry": {
+            "title": "UNCHARTED™: Legacy of Thieves Collection",
+            "price": 494,
+            "percent": 67,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "266de18baf2a61aee49e6c6f",
+      "createdAt": "2026-11-19T19:00:32.037Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Days Gone</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>395 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1259420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1259420",
+          "entry": {
+            "title": "Days Gone",
+            "price": 395,
+            "percent": 67,
+            "timestamp": "2026-11-19T19:00:32.037Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
