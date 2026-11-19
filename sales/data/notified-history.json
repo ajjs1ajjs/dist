@@ -4191,5 +4191,12 @@
     "percent": 90,
     "timestamp": "2026-11-19T19:00:32.037Z",
     "type": "discount"
+  },
+  "steam_discount_1328670": {
+    "title": "Mass Effect™ Legendary Edition",
+    "price": 224,
+    "percent": 85,
+    "timestamp": "2026-11-19T19:00:32.037Z",
+    "type": "discount"
   }
 }
