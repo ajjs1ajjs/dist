@@ -9722,6 +9722,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T14:00:38.042Z"
+    },
+    {
+      "id": "d92dcc889ad83421823e54ee",
+      "createdAt": "2026-11-19T16:00:34.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>EA Play</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>129 грн</s> ➡️ <b>26 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1289670\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1289670",
+          "entry": {
+            "title": "EA Play",
+            "price": 26,
+            "percent": 80,
+            "timestamp": "2026-11-19T16:00:34.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cb7d6ad36905888669511853",
+      "createdAt": "2026-11-19T16:00:34.400Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Life is Strange: True Colors</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>419 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/936790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/936790/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_936790",
+          "entry": {
+            "title": "Life is Strange: True Colors",
+            "price": 419,
+            "percent": 70,
+            "timestamp": "2026-11-19T16:00:34.400Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
