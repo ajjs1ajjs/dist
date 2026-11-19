@@ -4464,5 +4464,12 @@
     "percent": 50,
     "timestamp": "2026-11-19T22:00:33.938Z",
     "type": "discount"
+  },
+  "steam_discount_1238000": {
+    "title": "Mass Effect™: Andromeda",
+    "price": 199,
+    "percent": 80,
+    "timestamp": "2026-11-19T23:00:33.361Z",
+    "type": "discount"
   }
 }
