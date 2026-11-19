@@ -16882,6 +16882,13 @@
       "percent": 60,
       "timestamp": "2026-11-19T02:00:42.686Z",
       "type": "discount"
+    },
+    "steam_discount_2238900": {
+      "title": "STAR OCEAN THE SECOND STORY R",
+      "price": 649,
+      "percent": 50,
+      "timestamp": "2026-11-19T02:00:42.686Z",
+      "type": "discount"
     }
   }
 }
