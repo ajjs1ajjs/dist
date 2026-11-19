@@ -17649,6 +17649,13 @@
       "percent": 85,
       "timestamp": "2026-11-19T20:00:32.300Z",
       "type": "discount"
+    },
+    "steam_discount_1222700": {
+      "title": "A Way Out",
+      "price": 159,
+      "percent": 80,
+      "timestamp": "2026-11-19T20:00:32.300Z",
+      "type": "discount"
     }
   }
 }
