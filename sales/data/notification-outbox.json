@@ -9656,8 +9656,9 @@
           }
         }
       ],
-      "status": "pending",
-      "attempts": 0
+      "status": "sending",
+      "attempts": 1,
+      "claimedAt": "2026-11-19T10:00:39.524Z"
     }
   ]
 }
