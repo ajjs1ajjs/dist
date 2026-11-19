@@ -10727,8 +10727,9 @@
           }
         }
       ],
-      "status": "pending",
-      "attempts": 0
+      "status": "sending",
+      "attempts": 1,
+      "claimedAt": "2026-11-19T23:00:40.921Z"
     },
     {
       "id": "2465cee723a09cddf0eaf3bd",
