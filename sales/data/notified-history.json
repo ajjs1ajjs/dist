@@ -4415,5 +4415,12 @@
     "percent": 80,
     "timestamp": "2026-11-19T22:00:33.938Z",
     "type": "discount"
+  },
+  "steam_discount_3378960": {
+    "title": "Lost Soul Aside™",
+    "price": 659,
+    "percent": 67,
+    "timestamp": "2026-11-19T22:00:33.938Z",
+    "type": "discount"
   }
 }
