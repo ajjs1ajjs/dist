@@ -9302,6 +9302,106 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-18T23:01:03.294Z"
+    },
+    {
+      "id": "d9c7ed688d9b5fc8a34bc332",
+      "createdAt": "2026-11-19T00:00:35.244Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Watch_Dogs™</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>107 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/243470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/243470/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_243470",
+          "entry": {
+            "title": "Watch_Dogs™",
+            "price": 107,
+            "percent": 75,
+            "timestamp": "2026-11-19T00:00:35.244Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ae09836964f17052c6eec696",
+      "createdAt": "2026-11-19T00:00:35.244Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Rogue Prince of Persia</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>859 грн</s> ➡️ <b>257 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2717880\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2717880/3c08de21ca55c4daded0fb378684f53c709c4629/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2717880",
+          "entry": {
+            "title": "The Rogue Prince of Persia",
+            "price": 257,
+            "percent": 70,
+            "timestamp": "2026-11-19T00:00:35.244Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e3d6224d84f06bc3e1f16156",
+      "createdAt": "2026-11-19T00:00:35.244Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY VIII - REMASTERED</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>400 грн</s> ➡️ <b>160 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1026680\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1026680/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1026680",
+          "entry": {
+            "title": "FINAL FANTASY VIII - REMASTERED",
+            "price": 160,
+            "percent": 60,
+            "timestamp": "2026-11-19T00:00:35.244Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9bb9f3dab5b25096675abc6c",
+      "createdAt": "2026-11-19T00:00:35.244Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DRAGON QUEST III HD-2D Remake</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2701660\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701660/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2701660",
+          "entry": {
+            "title": "DRAGON QUEST III HD-2D Remake",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-19T00:00:35.244Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "057cfcb24282a6b32da1cd40",
+      "createdAt": "2026-11-19T00:00:35.244Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>CHRONO TRIGGER®</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>229 грн</s> ➡️ <b>114 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/613830\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613830/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_613830",
+          "entry": {
+            "title": "CHRONO TRIGGER®",
+            "price": 114,
+            "percent": 50,
+            "timestamp": "2026-11-19T00:00:35.244Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
