@@ -4121,5 +4121,12 @@
     "percent": 40,
     "timestamp": "2026-11-19T11:00:32.668Z",
     "type": "discount"
+  },
+  "steam_discount_1173800": {
+    "title": "FINAL FANTASY IV",
+    "price": 222,
+    "percent": 40,
+    "timestamp": "2026-11-19T13:00:30.109Z",
+    "type": "discount"
   }
 }
