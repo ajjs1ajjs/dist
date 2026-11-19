@@ -16821,6 +16821,13 @@
       "percent": 70,
       "timestamp": "2026-11-19T00:00:35.244Z",
       "type": "discount"
+    },
+    "steam_discount_1026680": {
+      "title": "FINAL FANTASY VIII - REMASTERED",
+      "price": 160,
+      "percent": 60,
+      "timestamp": "2026-11-19T00:00:35.244Z",
+      "type": "discount"
     }
   }
 }
