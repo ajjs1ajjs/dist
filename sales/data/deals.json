@@ -17969,6 +17969,13 @@
       "percent": 90,
       "timestamp": "2026-11-19T22:00:33.938Z",
       "type": "discount"
+    },
+    "steam_discount_1172380": {
+      "title": "STAR WARS Jedi: Fallen Order™",
+      "price": 239,
+      "percent": 80,
+      "timestamp": "2026-11-19T22:00:33.938Z",
+      "type": "discount"
     }
   }
 }
