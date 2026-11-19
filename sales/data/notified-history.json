@@ -4009,5 +4009,12 @@
     "percent": 75,
     "timestamp": "2026-11-19T00:00:35.244Z",
     "type": "discount"
+  },
+  "steam_discount_2717880": {
+    "title": "The Rogue Prince of Persia",
+    "price": 257,
+    "percent": 70,
+    "timestamp": "2026-11-19T00:00:35.244Z",
+    "type": "discount"
   }
 }
