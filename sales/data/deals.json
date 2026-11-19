@@ -17119,6 +17119,13 @@
       "percent": 50,
       "timestamp": "2026-11-19T16:23:05.357Z",
       "type": "discount"
+    },
+    "steam_discount_4523120": {
+      "title": "Volvy’s Adventure: Reslimed",
+      "price": 97,
+      "percent": 25,
+      "timestamp": "2026-11-19T16:23:05.357Z",
+      "type": "discount"
     }
   }
 }
