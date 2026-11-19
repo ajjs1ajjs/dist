@@ -9659,6 +9659,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T10:00:39.524Z"
+    },
+    {
+      "id": "8b08d8d57b1c9440def165ac",
+      "createdAt": "2026-11-19T11:00:32.668Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY V</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>370 грн</s> ➡️ <b>222 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1173810\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1173810/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1173810",
+          "entry": {
+            "title": "FINAL FANTASY V",
+            "price": 222,
+            "percent": 40,
+            "timestamp": "2026-11-19T11:00:32.668Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
