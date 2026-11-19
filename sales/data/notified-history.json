@@ -4366,5 +4366,12 @@
     "percent": 75,
     "timestamp": "2026-11-19T21:00:39.713Z",
     "type": "discount"
+  },
+  "steam_discount_220200": {
+    "title": "Kerbal Space Program",
+    "price": 224,
+    "percent": 75,
+    "timestamp": "2026-11-19T21:00:39.713Z",
+    "type": "discount"
   }
 }
