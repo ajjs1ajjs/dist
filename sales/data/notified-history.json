@@ -4163,5 +4163,12 @@
     "percent": 25,
     "timestamp": "2026-11-19T16:23:05.357Z",
     "type": "discount"
+  },
+  "gamepass_popular_9MZZWGTF7V65": {
+    "title": "Warhammer Survivors",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-19T16:23:05.357Z",
+    "type": "gamepass"
   }
 }
