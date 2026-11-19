@@ -4135,5 +4135,12 @@
     "percent": 25,
     "timestamp": "2026-11-19T14:00:33.901Z",
     "type": "discount"
+  },
+  "steam_discount_1289670": {
+    "title": "EA Play",
+    "price": 26,
+    "percent": 80,
+    "timestamp": "2026-11-19T16:00:34.400Z",
+    "type": "discount"
   }
 }
