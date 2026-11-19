@@ -9554,6 +9554,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T02:01:01.301Z"
+    },
+    {
+      "id": "c18b773301518ef5eeff24ea",
+      "createdAt": "2026-11-19T04:00:31.898Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>PARANORMASIGHT: The Seven Mysteries of Honjo</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>410 грн</s> ➡️ <b>205 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2106840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2106840/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2106840",
+          "entry": {
+            "title": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+            "price": 205,
+            "percent": 50,
+            "timestamp": "2026-11-19T04:00:31.898Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d7896c2b15c53fa057da149f",
+      "createdAt": "2026-11-19T04:00:31.898Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grim Dawn - Forgotten Gods Expansion</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>350 грн</s> ➡️ <b>175 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/897670\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/897670/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_897670",
+          "entry": {
+            "title": "Grim Dawn - Forgotten Gods Expansion",
+            "price": 175,
+            "percent": 50,
+            "timestamp": "2026-11-19T04:00:31.898Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
