@@ -17460,6 +17460,13 @@
       "percent": 70,
       "timestamp": "2026-11-19T19:00:32.037Z",
       "type": "discount"
+    },
+    "steam_discount_457140": {
+      "title": "Oxygen Not Included",
+      "price": 98,
+      "percent": 70,
+      "timestamp": "2026-11-19T19:00:32.037Z",
+      "type": "discount"
     }
   }
 }
