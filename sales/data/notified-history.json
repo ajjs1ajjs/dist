@@ -4457,5 +4457,12 @@
     "percent": 50,
     "timestamp": "2026-11-19T22:00:33.938Z",
     "type": "discount"
+  },
+  "steam_discount_1888930": {
+    "title": "The Last of Us™ Part I",
+    "price": 849,
+    "percent": 50,
+    "timestamp": "2026-11-19T22:00:33.938Z",
+    "type": "discount"
   }
 }
