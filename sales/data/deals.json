@@ -17863,6 +17863,13 @@
       "percent": 100,
       "timestamp": "2026-11-19T20:00:32.300Z",
       "type": "free"
+    },
+    "steam_discount_1222680": {
+      "title": "Need for Speed™ Heat",
+      "price": 99,
+      "percent": 95,
+      "timestamp": "2026-11-19T21:00:39.713Z",
+      "type": "discount"
     }
   }
 }
