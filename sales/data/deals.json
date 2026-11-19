@@ -17912,6 +17912,13 @@
       "percent": 75,
       "timestamp": "2026-11-19T21:00:39.713Z",
       "type": "discount"
+    },
+    "steam_discount_1599660": {
+      "title": "Sackboy™: A Big Adventure",
+      "price": 560,
+      "percent": 67,
+      "timestamp": "2026-11-19T21:00:39.713Z",
+      "type": "discount"
     }
   }
 }
