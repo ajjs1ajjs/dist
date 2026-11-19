@@ -9617,6 +9617,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T06:00:32.885Z"
+    },
+    {
+      "id": "7ab6b7f49b0a3b115a12249a",
+      "createdAt": "2026-11-19T09:00:32.004Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>PARANORMASIGHT: The Mermaid&#39;s Curse</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>789 грн</s> ➡️ <b>512 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2701440\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701440/f9e1d4d0bc783fea79ffa27870c08a201c011e14/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2701440",
+          "entry": {
+            "title": "PARANORMASIGHT: The Mermaid's Curse",
+            "price": 512,
+            "percent": 35,
+            "timestamp": "2026-11-19T09:00:32.004Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
