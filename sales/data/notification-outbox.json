@@ -9470,6 +9470,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T01:00:47.548Z"
+    },
+    {
+      "id": "5e472b0317391973d4697693",
+      "createdAt": "2026-11-19T02:00:42.686Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>FINAL FANTASY® XIII</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>239 грн</s> ➡️ <b>95 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/292120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292120/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_292120",
+          "entry": {
+            "title": "FINAL FANTASY® XIII",
+            "price": 95,
+            "percent": 60,
+            "timestamp": "2026-11-19T02:00:42.686Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4d75eac39d54ec6c5974c07d",
+      "createdAt": "2026-11-19T02:00:42.686Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>STAR OCEAN THE SECOND STORY R</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>649 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2238900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2238900",
+          "entry": {
+            "title": "STAR OCEAN THE SECOND STORY R",
+            "price": 649,
+            "percent": 50,
+            "timestamp": "2026-11-19T02:00:42.686Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "76648adb14f40ba861e29d9d",
+      "createdAt": "2026-11-19T02:00:42.686Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DRAGON QUEST BUILDERS™ 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 150 грн</s> ➡️ <b>575 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1072420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1072420/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1072420",
+          "entry": {
+            "title": "DRAGON QUEST BUILDERS™ 2",
+            "price": 575,
+            "percent": 50,
+            "timestamp": "2026-11-19T02:00:42.686Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bb270d891b5d63bd4c58a4d1",
+      "createdAt": "2026-11-19T02:00:42.686Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grim Dawn - Ashes of Malmouth Expansion</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>385 грн</s> ➡️ <b>192 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/642280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/642280/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_642280",
+          "entry": {
+            "title": "Grim Dawn - Ashes of Malmouth Expansion",
+            "price": 192,
+            "percent": 50,
+            "timestamp": "2026-11-19T02:00:42.686Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
