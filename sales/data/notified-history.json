@@ -4107,5 +4107,12 @@
     "percent": 35,
     "timestamp": "2026-11-19T09:00:32.004Z",
     "type": "discount"
+  },
+  "steam_discount_2795090": {
+    "title": "MR FARMBOY",
+    "price": 66,
+    "percent": 40,
+    "timestamp": "2026-11-19T10:00:35.324Z",
+    "type": "discount"
   }
 }
