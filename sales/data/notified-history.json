@@ -4310,5 +4310,12 @@
     "percent": 60,
     "timestamp": "2026-11-19T20:00:32.300Z",
     "type": "discount"
+  },
+  "steam_discount_4080220": {
+    "title": "EA SPORTS FC™ 27",
+    "price": 1099,
+    "percent": 50,
+    "timestamp": "2026-11-19T20:00:32.300Z",
+    "type": "discount"
   }
 }
