@@ -16835,6 +16835,13 @@
       "percent": 50,
       "timestamp": "2026-11-19T00:00:35.244Z",
       "type": "discount"
+    },
+    "steam_discount_613830": {
+      "title": "CHRONO TRIGGER®",
+      "price": 114,
+      "percent": 50,
+      "timestamp": "2026-11-19T00:00:35.244Z",
+      "type": "discount"
     }
   }
 }
