@@ -17670,6 +17670,13 @@
       "percent": 60,
       "timestamp": "2026-11-19T20:00:32.300Z",
       "type": "discount"
+    },
+    "steam_discount_1817190": {
+      "title": "Marvel’s Spider-Man: Miles Morales",
+      "price": 599,
+      "percent": 60,
+      "timestamp": "2026-11-19T20:00:32.300Z",
+      "type": "discount"
     }
   }
 }
