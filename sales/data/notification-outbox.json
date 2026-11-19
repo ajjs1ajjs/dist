@@ -9638,6 +9638,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T09:00:36.690Z"
+    },
+    {
+      "id": "f62ee188b193f8b842bec940",
+      "createdAt": "2026-11-19T10:00:35.324Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>MR FARMBOY</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>110 грн</s> ➡️ <b>66 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2795090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795090/358ae08b556ae09490d713aa6fb1de17b2984011/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2795090",
+          "entry": {
+            "title": "MR FARMBOY",
+            "price": 66,
+            "percent": 40,
+            "timestamp": "2026-11-19T10:00:35.324Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
