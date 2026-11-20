@@ -4667,5 +4667,12 @@
     "percent": 25,
     "timestamp": "2026-11-20T01:00:44.288Z",
     "type": "discount"
+  },
+  "steam_discount_3316940": {
+    "title": "The Legend of Heroes: Trails beyond the Horizon",
+    "price": 843,
+    "percent": 25,
+    "timestamp": "2026-11-20T01:00:44.288Z",
+    "type": "discount"
   }
 }
