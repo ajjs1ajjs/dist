@@ -20372,6 +20372,13 @@
       "percent": 30,
       "timestamp": "2026-11-20T18:00:29.977Z",
       "type": "discount"
+    },
+    "steam_discount_3010850": {
+      "title": "Gears of War: E-Day",
+      "price": 1609,
+      "percent": 30,
+      "timestamp": "2026-11-20T18:00:29.977Z",
+      "type": "discount"
     }
   }
 }
