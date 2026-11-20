@@ -11843,6 +11843,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T10:00:48.866Z"
+    },
+    {
+      "id": "9f00d5efb549cd7a26a1725b",
+      "createdAt": "2026-11-20T11:00:32.010Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ghostrunner</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>635 грн</s> ➡️ <b>158 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1139900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139900/60f0924935dd337bb0a023558939b29aa666d168/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1139900",
+          "entry": {
+            "title": "Ghostrunner",
+            "price": 158,
+            "percent": 75,
+            "timestamp": "2026-11-20T11:00:32.010Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b68004779ff18ef4078c06ab",
+      "createdAt": "2026-11-20T11:00:32.010Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Get To Work</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1235734\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235734/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1235734",
+          "entry": {
+            "title": "The Sims™ 4 Get To Work",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-20T11:00:32.010Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c9a7928842044543d0185c85",
+      "createdAt": "2026-11-20T11:00:32.010Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crusader Kings III: Tours &amp; Tournaments</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>809 грн</s> ➡️ <b>485 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2311920\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2311920/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2311920",
+          "entry": {
+            "title": "Crusader Kings III: Tours & Tournaments",
+            "price": 485,
+            "percent": 40,
+            "timestamp": "2026-11-20T11:00:32.010Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
