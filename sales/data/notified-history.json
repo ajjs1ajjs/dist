@@ -4919,5 +4919,12 @@
     "percent": 50,
     "timestamp": "2026-11-20T17:00:33.040Z",
     "type": "discount"
+  },
+  "steam_free_2254450": {
+    "title": "The Last of Us™ Part I - Перейдіть на видання Digital Deluxe Edition",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-20T17:00:33.040Z",
+    "type": "free"
   }
 }
