@@ -19877,6 +19877,13 @@
       "percent": 60,
       "timestamp": "2026-11-20T08:00:29.674Z",
       "type": "discount"
+    },
+    "steam_discount_2288630": {
+      "title": "Taiko no Tatsujin: Rhythm Festival",
+      "price": 1099,
+      "percent": 50,
+      "timestamp": "2026-11-20T09:00:31.634Z",
+      "type": "discount"
     }
   }
 }
