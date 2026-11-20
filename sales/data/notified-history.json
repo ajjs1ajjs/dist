@@ -5073,5 +5073,12 @@
     "percent": 25,
     "timestamp": "2026-11-20T23:00:40.802Z",
     "type": "discount"
+  },
+  "steam_discount_4860910": {
+    "title": "Prison Legacy",
+    "price": 352,
+    "percent": 25,
+    "timestamp": "2026-11-20T23:00:40.802Z",
+    "type": "discount"
   }
 }
