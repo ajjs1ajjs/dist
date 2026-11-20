@@ -19509,6 +19509,13 @@
       "percent": 25,
       "timestamp": "2026-11-20T01:00:44.288Z",
       "type": "discount"
+    },
+    "steam_discount_553850": {
+      "title": "HELLDIVERS™ 2",
+      "price": 899,
+      "percent": 25,
+      "timestamp": "2026-11-20T01:00:44.288Z",
+      "type": "discount"
     }
   }
 }
