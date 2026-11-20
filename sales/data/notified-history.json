@@ -4954,5 +4954,12 @@
     "percent": 65,
     "timestamp": "2026-11-20T18:00:29.977Z",
     "type": "discount"
+  },
+  "steam_discount_1551360": {
+    "title": "Forza Horizon 5",
+    "price": 479,
+    "percent": 60,
+    "timestamp": "2026-11-20T18:00:29.977Z",
+    "type": "discount"
   }
 }
