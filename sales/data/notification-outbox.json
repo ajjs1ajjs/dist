@@ -11339,6 +11339,126 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T01:01:29.517Z"
+    },
+    {
+      "id": "1dbce41f46f83b3782ffd19b",
+      "createdAt": "2026-11-20T02:01:10.537Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Battlefield 4™</b>\n🏷️ Знижка: <b>-95%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>59 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238860",
+          "entry": {
+            "title": "Battlefield 4™",
+            "price": 59,
+            "percent": 95,
+            "timestamp": "2026-11-20T02:01:10.537Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "44783faec9cb8627e827bbe5",
+      "createdAt": "2026-11-20T02:01:10.537Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Unravel Two</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1225570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1225570",
+          "entry": {
+            "title": "Unravel Two",
+            "price": 104,
+            "percent": 85,
+            "timestamp": "2026-11-20T02:01:10.537Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "64d7dd6d6232ca6949abadf8",
+      "createdAt": "2026-11-20T02:01:10.537Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dead Space™ 3</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>139 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238060\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238060/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238060",
+          "entry": {
+            "title": "Dead Space™ 3",
+            "price": 139,
+            "percent": 80,
+            "timestamp": "2026-11-20T02:01:10.537Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b7559fe2ff5a12fa8bf01457",
+      "createdAt": "2026-11-20T02:01:10.537Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>JoJo&#39;s Bizarre Adventure: All-Star Battle R</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>2 099 грн</s> ➡️ <b>587 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1372110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1372110",
+          "entry": {
+            "title": "JoJo's Bizarre Adventure: All-Star Battle R",
+            "price": 587,
+            "percent": 72,
+            "timestamp": "2026-11-20T02:01:10.537Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cbd22f58ab8f199b15bbc1fc",
+      "createdAt": "2026-11-20T02:01:10.537Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ys VIII: Lacrimosa of DANA</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>370 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/579180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/8970830c4507de5638d0ddc9d3f0cde24fddce0f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_579180",
+          "entry": {
+            "title": "Ys VIII: Lacrimosa of DANA",
+            "price": 370,
+            "percent": 50,
+            "timestamp": "2026-11-20T02:01:10.537Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ac1fc83355d132b9181188cd",
+      "createdAt": "2026-11-20T02:01:10.537Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crusader Kings III: All Under Heaven</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>809 грн</s> ➡️ <b>606 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3315530\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3315530/497f2ebde059399618db779f62462ac414342e3b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3315530",
+          "entry": {
+            "title": "Crusader Kings III: All Under Heaven",
+            "price": 606,
+            "percent": 25,
+            "timestamp": "2026-11-20T02:01:10.537Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
