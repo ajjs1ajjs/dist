@@ -11906,6 +11906,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T11:00:44.597Z"
+    },
+    {
+      "id": "ba82c499076ef90fb28f3349",
+      "createdAt": "2026-11-20T12:00:36.179Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Need for Speed™ Payback</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1262580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1262580",
+          "entry": {
+            "title": "Need for Speed™ Payback",
+            "price": 119,
+            "percent": 85,
+            "timestamp": "2026-11-20T12:00:36.179Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c9a0047d56520ae505d9b3f8",
+      "createdAt": "2026-11-20T12:00:36.179Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ranch Simulator: Build, Hunt, Farm</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>49 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1119730\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119730/3aeb5067bbd03e77c9fe97ea704ee39218101b3f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1119730",
+          "entry": {
+            "title": "Ranch Simulator: Build, Hunt, Farm",
+            "price": 49,
+            "percent": 85,
+            "timestamp": "2026-11-20T12:00:36.179Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
