@@ -20521,6 +20521,13 @@
       "percent": 40,
       "timestamp": "2026-11-20T20:00:30.027Z",
       "type": "discount"
+    },
+    "steam_discount_2627260": {
+      "title": "NINJA GAIDEN 4",
+      "price": 1149,
+      "percent": 50,
+      "timestamp": "2026-11-20T21:00:43.748Z",
+      "type": "discount"
     }
   }
 }

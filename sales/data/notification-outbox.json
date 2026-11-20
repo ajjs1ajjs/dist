@@ -12449,7 +12449,7 @@
           }
         }
       ],
-      "status": "sending",
+      "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T21:00:48.594Z"
     },
