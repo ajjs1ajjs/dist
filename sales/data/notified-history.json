@@ -4604,5 +4604,12 @@
     "percent": 33,
     "timestamp": "2026-11-20T00:00:32.524Z",
     "type": "discount"
+  },
+  "steam_discount_1517290": {
+    "title": "Battlefield™ 2042",
+    "price": 74,
+    "percent": 95,
+    "timestamp": "2026-11-20T01:00:44.288Z",
+    "type": "discount"
   }
 }
