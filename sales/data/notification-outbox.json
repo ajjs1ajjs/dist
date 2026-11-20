@@ -12389,6 +12389,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T19:01:02.028Z"
+    },
+    {
+      "id": "89133dee45e8c882461a18a2",
+      "createdAt": "2026-11-20T20:00:30.027Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Outer Worlds 2</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>919 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1449110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449110/0130c9add6d097099cc7796a04def57bee93e58d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1449110",
+          "entry": {
+            "title": "The Outer Worlds 2",
+            "price": 919,
+            "percent": 60,
+            "timestamp": "2026-11-20T20:00:30.027Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "87a3407fd0bfd9071022e354",
+      "createdAt": "2026-11-20T20:00:30.027Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Halo: Campaign Evolved</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>1 199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2806050\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2806050",
+          "entry": {
+            "title": "Halo: Campaign Evolved",
+            "price": 1199,
+            "percent": 40,
+            "timestamp": "2026-11-20T20:00:30.027Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
