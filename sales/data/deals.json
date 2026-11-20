@@ -19684,6 +19684,13 @@
       "percent": 60,
       "timestamp": "2026-11-20T03:00:32.801Z",
       "type": "discount"
+    },
+    "steam_discount_1238820": {
+      "title": "Battlefield 3™",
+      "price": 59,
+      "percent": 95,
+      "timestamp": "2026-11-20T04:00:32.961Z",
+      "type": "discount"
     }
   }
 }
