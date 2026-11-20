@@ -19617,6 +19617,13 @@
       "percent": 72,
       "timestamp": "2026-11-20T02:01:10.537Z",
       "type": "discount"
+    },
+    "steam_discount_579180": {
+      "title": "Ys VIII: Lacrimosa of DANA",
+      "price": 370,
+      "percent": 50,
+      "timestamp": "2026-11-20T02:01:10.537Z",
+      "type": "discount"
     }
   }
 }
