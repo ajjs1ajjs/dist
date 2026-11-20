@@ -11969,6 +11969,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T13:00:34.631Z"
+    },
+    {
+      "id": "04d4bcf46ac0f505e9c07ec3",
+      "createdAt": "2026-11-20T15:00:29.152Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Enchanted by Nature Expansion Pack</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3199780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199780/33a6f4141c422a54d54174e631631cf2033831e7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3199780",
+          "entry": {
+            "title": "The Sims™ 4 Enchanted by Nature Expansion Pack",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-20T15:00:29.152Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d0e698d97837f6cf3c29bbb2",
+      "createdAt": "2026-11-20T15:00:29.152Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NEBULOUS: Fleet Command</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/887570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/887570/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_887570",
+          "entry": {
+            "title": "NEBULOUS: Fleet Command",
+            "price": 199,
+            "percent": 50,
+            "timestamp": "2026-11-20T15:00:29.152Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e30ac22338e4c622562c8bef",
+      "createdAt": "2026-11-20T15:00:29.152Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>F1® 25: 2026 Season Pack</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>674 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4148930\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4148930/84d1dd2a8c02689a793e41001f1988fd6999dd57/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4148930",
+          "entry": {
+            "title": "F1® 25: 2026 Season Pack",
+            "price": 674,
+            "percent": 25,
+            "timestamp": "2026-11-20T15:00:29.152Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
