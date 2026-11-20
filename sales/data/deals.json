@@ -19391,6 +19391,13 @@
       "percent": 40,
       "timestamp": "2026-11-20T00:00:32.524Z",
       "type": "discount"
+    },
+    "steam_discount_2138610": {
+      "title": "The Legend of Heroes: Trails through Daybreak",
+      "price": 675,
+      "percent": 40,
+      "timestamp": "2026-11-20T00:00:32.524Z",
+      "type": "discount"
     }
   }
 }
