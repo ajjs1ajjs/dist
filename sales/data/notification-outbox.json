@@ -11759,6 +11759,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T09:00:40.341Z"
+    },
+    {
+      "id": "388b9ac9f8923bf58de7e579",
+      "createdAt": "2026-11-20T10:00:31.149Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Need for Speed™</b>\n🏷️ Знижка: <b>-87%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1262540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262540/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1262540",
+          "entry": {
+            "title": "Need for Speed™",
+            "price": 103,
+            "percent": 87,
+            "timestamp": "2026-11-20T10:00:31.149Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2662ca6544630a179b2f3b97",
+      "createdAt": "2026-11-20T10:00:31.149Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Marvel&#39;s Guardians of the Galaxy</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>1 110 грн</s> ➡️ <b>166 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1088850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/70622ad6d54b484177d7d53846c591c27f8ced41/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1088850",
+          "entry": {
+            "title": "Marvel's Guardians of the Galaxy",
+            "price": 166,
+            "percent": 85,
+            "timestamp": "2026-11-20T10:00:31.149Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "26ae00b60ed2729aabd60e07",
+      "createdAt": "2026-11-20T10:00:31.149Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Little Nightmares</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>162 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/424840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/313e41c0f92d330ee9142518809e0ea8a0398cb0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_424840",
+          "entry": {
+            "title": "Little Nightmares",
+            "price": 162,
+            "percent": 75,
+            "timestamp": "2026-11-20T10:00:31.149Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "acb75bf97d6df44d7de484d7",
+      "createdAt": "2026-11-20T10:00:31.149Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Little Nightmares III</b>\n🏷️ Знижка: <b>-42%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>1 043 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1392860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/fdc6c7f7f4edef951043c52db24592334b10c76a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1392860",
+          "entry": {
+            "title": "Little Nightmares III",
+            "price": 1043,
+            "percent": 42,
+            "timestamp": "2026-11-20T10:00:31.149Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
