@@ -19643,6 +19643,13 @@
       "percent": 25,
       "timestamp": "2026-11-20T02:01:10.537Z",
       "type": "discount"
+    },
+    "steam_discount_1351630": {
+      "title": "Ys IX: Monstrum Nox",
+      "price": 450,
+      "percent": 60,
+      "timestamp": "2026-11-20T03:00:32.801Z",
+      "type": "discount"
     }
   }
 }
