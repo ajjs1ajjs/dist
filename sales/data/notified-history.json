@@ -4961,5 +4961,12 @@
     "percent": 60,
     "timestamp": "2026-11-20T18:00:29.977Z",
     "type": "discount"
+  },
+  "steam_discount_1144200": {
+    "title": "Ready or Not",
+    "price": 600,
+    "percent": 50,
+    "timestamp": "2026-11-20T18:00:29.977Z",
+    "type": "discount"
   }
 }
