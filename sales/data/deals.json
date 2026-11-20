@@ -19759,6 +19759,13 @@
       "percent": 33,
       "timestamp": "2026-11-20T04:00:32.961Z",
       "type": "discount"
+    },
+    "steam_discount_1262560": {
+      "title": "Need for Speed™ Most Wanted",
+      "price": 139,
+      "percent": 80,
+      "timestamp": "2026-11-20T05:00:37.273Z",
+      "type": "discount"
     }
   }
 }
