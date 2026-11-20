@@ -11129,6 +11129,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T00:01:14.431Z"
+    },
+    {
+      "id": "2fe0e558e4d1991c831ddf16",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Battlefield™ 2042</b>\n🏷️ Знижка: <b>-95%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>74 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1517290\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1517290",
+          "entry": {
+            "title": "Battlefield™ 2042",
+            "price": 74,
+            "percent": 95,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "26c37fba5e3fdea8bc70dcef",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1922560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1922560/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1922560",
+          "entry": {
+            "title": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+            "price": 239,
+            "percent": 70,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0e0c7268d59c30cf812ee619",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Last of Us™ Part II Remastered</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>1 004 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2531310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/94b5d8b3165a6fe592e406054b08a2dd24e2f848/capsule_616x353.jpg?t=1750959180",
+      "receipts": [
+        {
+          "key": "steam_discount_2531310",
+          "entry": {
+            "title": "The Last of Us™ Part II Remastered",
+            "price": 1004,
+            "percent": 33,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d5882c92cae716568ec613a6",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>MARVEL Tōkon: Fighting Souls</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>1 399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3787240\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3787240",
+          "entry": {
+            "title": "MARVEL Tōkon: Fighting Souls",
+            "price": 1399,
+            "percent": 30,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9b1310b190007fe465a0085c",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>WUCHANG: Fallen Feathers</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>1 049 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2277560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/599d90f110b1f87e29b85d896f83783b961e9805/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2277560",
+          "entry": {
+            "title": "WUCHANG: Fallen Feathers",
+            "price": 1049,
+            "percent": 30,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "58b4c73c3186c596bb401bdf",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DiRT Rally 2.0</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>230 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/690790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690790/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_690790",
+          "entry": {
+            "title": "DiRT Rally 2.0",
+            "price": 230,
+            "percent": 30,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c645faca9e5be00e18f476dc",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Creature Kitchen</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>187 грн</s> ➡️ <b>130 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3097300\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3097300/617a7b93d4935a04f69035c823e9267ab5eee7e2/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3097300",
+          "entry": {
+            "title": "Creature Kitchen",
+            "price": 130,
+            "percent": 30,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "db747ff4748be6f95564df33",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ys X: Proud Nordics</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 315 грн</s> ➡️ <b>986 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3949290\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949290/a4ad00b9c0ce968d1894e604b2a638a3d5738e94/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3949290",
+          "entry": {
+            "title": "Ys X: Proud Nordics",
+            "price": 986,
+            "percent": 25,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bb9cfe3ef41a8ce8f601066a",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>HELLDIVERS™ 2</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>899 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/553850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_553850",
+          "entry": {
+            "title": "HELLDIVERS™ 2",
+            "price": 899,
+            "percent": 25,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7fc202736f87c6fe1a034d87",
+      "createdAt": "2026-11-20T01:00:44.288Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Legend of Heroes: Trails beyond the Horizon</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>843 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3316940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316940/81d01667bd0f1074961a20600cda760fe4c684cf/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3316940",
+          "entry": {
+            "title": "The Legend of Heroes: Trails beyond the Horizon",
+            "price": 843,
+            "percent": 25,
+            "timestamp": "2026-11-20T01:00:44.288Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
