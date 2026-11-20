@@ -11717,6 +11717,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T08:00:41.746Z"
+    },
+    {
+      "id": "f8930c33937929c21eb2d851",
+      "createdAt": "2026-11-20T09:00:31.634Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Taiko no Tatsujin: Rhythm Festival</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 199 грн</s> ➡️ <b>1 099 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2288630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288630/fe1ef81e09d106e03905cb17fcfcd041ab9003d6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2288630",
+          "entry": {
+            "title": "Taiko no Tatsujin: Rhythm Festival",
+            "price": 1099,
+            "percent": 50,
+            "timestamp": "2026-11-20T09:00:31.634Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a0c9efcd61a70302ac1035ce",
+      "createdAt": "2026-11-20T09:00:31.634Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Businesses &amp; Hobbies Expansion Pack</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2815310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2815310/7d30fc288300383d71821a6123fe1d00950b8770/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2815310",
+          "entry": {
+            "title": "The Sims™ 4 Businesses & Hobbies Expansion Pack",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-20T09:00:31.634Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
