@@ -4926,5 +4926,12 @@
     "percent": 100,
     "timestamp": "2026-11-20T17:00:33.040Z",
     "type": "free"
+  },
+  "steam_discount_1250410": {
+    "title": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+    "price": 539,
+    "percent": 65,
+    "timestamp": "2026-11-20T18:00:29.977Z",
+    "type": "discount"
   }
 }
