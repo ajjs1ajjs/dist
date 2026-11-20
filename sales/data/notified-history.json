@@ -4898,5 +4898,12 @@
     "percent": 50,
     "timestamp": "2026-11-20T15:00:29.152Z",
     "type": "discount"
+  },
+  "steam_discount_4148930": {
+    "title": "F1® 25: 2026 Season Pack",
+    "price": 674,
+    "percent": 25,
+    "timestamp": "2026-11-20T15:00:29.152Z",
+    "type": "discount"
   }
 }
