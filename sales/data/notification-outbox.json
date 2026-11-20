@@ -11465,6 +11465,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T02:01:39.114Z"
+    },
+    {
+      "id": "31ec58d241be7251ccd04026",
+      "createdAt": "2026-11-20T03:00:32.801Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ys IX: Monstrum Nox</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>450 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1351630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1351630/6b7734ef80201e3f00bb49291295f4816013c1df/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1351630",
+          "entry": {
+            "title": "Ys IX: Monstrum Nox",
+            "price": 450,
+            "percent": 60,
+            "timestamp": "2026-11-20T03:00:32.801Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
