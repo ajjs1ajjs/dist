@@ -4772,5 +4772,12 @@
     "percent": 100,
     "timestamp": "2026-11-20T05:00:37.273Z",
     "type": "free"
+  },
+  "steam_discount_19680": {
+    "title": "Alice: Madness Returns",
+    "price": 59,
+    "percent": 80,
+    "timestamp": "2026-11-20T06:00:29.921Z",
+    "type": "discount"
   }
 }
