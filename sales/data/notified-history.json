@@ -4877,5 +4877,12 @@
     "percent": 85,
     "timestamp": "2026-11-20T12:00:36.179Z",
     "type": "discount"
+  },
+  "steam_discount_3124340": {
+    "title": "Demeo x Dungeons & Dragons: Battlemarked",
+    "price": 390,
+    "percent": 35,
+    "timestamp": "2026-11-20T13:00:30.667Z",
+    "type": "discount"
   }
 }
