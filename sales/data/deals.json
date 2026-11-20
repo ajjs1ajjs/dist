@@ -19944,6 +19944,13 @@
       "percent": 87,
       "timestamp": "2026-11-20T10:00:31.149Z",
       "type": "discount"
+    },
+    "steam_discount_1088850": {
+      "title": "Marvel's Guardians of the Galaxy",
+      "price": 166,
+      "percent": 85,
+      "timestamp": "2026-11-20T10:00:31.149Z",
+      "type": "discount"
     }
   }
 }
