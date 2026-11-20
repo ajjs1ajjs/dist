@@ -5045,5 +5045,12 @@
     "percent": 25,
     "timestamp": "2026-11-20T21:00:43.748Z",
     "type": "discount"
+  },
+  "steam_discount_2523720": {
+    "title": "Gears of War: Reloaded",
+    "price": 324,
+    "percent": 75,
+    "timestamp": "2026-11-20T22:00:31.916Z",
+    "type": "discount"
   }
 }
