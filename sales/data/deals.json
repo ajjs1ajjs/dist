@@ -20473,6 +20473,13 @@
       "percent": 25,
       "timestamp": "2026-11-20T19:00:42.822Z",
       "type": "discount"
+    },
+    "steam_discount_1449110": {
+      "title": "The Outer Worlds 2",
+      "price": 919,
+      "percent": 60,
+      "timestamp": "2026-11-20T20:00:30.027Z",
+      "type": "discount"
     }
   }
 }
