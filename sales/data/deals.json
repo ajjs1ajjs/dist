@@ -20379,6 +20379,13 @@
       "percent": 30,
       "timestamp": "2026-11-20T18:00:29.977Z",
       "type": "discount"
+    },
+    "steam_discount_1643320": {
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "price": 1329,
+      "percent": 30,
+      "timestamp": "2026-11-20T18:00:29.977Z",
+      "type": "discount"
     }
   }
 }
