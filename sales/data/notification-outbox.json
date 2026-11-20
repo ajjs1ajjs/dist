@@ -11948,6 +11948,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T12:00:47.171Z"
+    },
+    {
+      "id": "078a455a01e9d66366ee9a79",
+      "createdAt": "2026-11-20T13:00:30.667Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Demeo x Dungeons &amp; Dragons: Battlemarked</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>390 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3124340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124340/d726246ac1f55141b8fa04969db84a92ab99123c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3124340",
+          "entry": {
+            "title": "Demeo x Dungeons & Dragons: Battlemarked",
+            "price": 390,
+            "percent": 35,
+            "timestamp": "2026-11-20T13:00:30.667Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
