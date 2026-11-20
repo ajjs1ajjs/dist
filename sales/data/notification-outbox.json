@@ -12032,6 +12032,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T15:00:42.109Z"
+    },
+    {
+      "id": "e535dae5e5f08c71270eb5ed",
+      "createdAt": "2026-11-20T15:56:39.504Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 City Living</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1235731\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235731/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1235731",
+          "entry": {
+            "title": "The Sims™ 4 City Living",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-20T15:56:39.504Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
