@@ -19780,6 +19780,13 @@
       "percent": 60,
       "timestamp": "2026-11-20T05:00:37.273Z",
       "type": "discount"
+    },
+    "steam_free_3172660": {
+      "title": "Marvel's Spider-Man 2 - Digital Deluxe Upgrade",
+      "price": 0,
+      "percent": 100,
+      "timestamp": "2026-11-20T05:00:37.273Z",
+      "type": "free"
     }
   }
 }
