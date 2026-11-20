@@ -4856,5 +4856,12 @@
     "percent": 60,
     "timestamp": "2026-11-20T11:00:32.010Z",
     "type": "discount"
+  },
+  "steam_discount_2311920": {
+    "title": "Crusader Kings III: Tours & Tournaments",
+    "price": 485,
+    "percent": 40,
+    "timestamp": "2026-11-20T11:00:32.010Z",
+    "type": "discount"
   }
 }
