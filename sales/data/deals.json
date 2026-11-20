@@ -19691,6 +19691,13 @@
       "percent": 95,
       "timestamp": "2026-11-20T04:00:32.961Z",
       "type": "discount"
+    },
+    "steam_discount_2258500": {
+      "title": "CRYMACHINA",
+      "price": 450,
+      "percent": 60,
+      "timestamp": "2026-11-20T04:00:32.961Z",
+      "type": "discount"
     }
   }
 }
