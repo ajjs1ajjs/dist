@@ -19460,6 +19460,13 @@
       "percent": 95,
       "timestamp": "2026-11-20T01:00:44.288Z",
       "type": "discount"
+    },
+    "steam_discount_1922560": {
+      "title": "Plants vs. Zombies™ Garden Warfare 2: Deluxe Edition",
+      "price": 239,
+      "percent": 70,
+      "timestamp": "2026-11-20T01:00:44.288Z",
+      "type": "discount"
     }
   }
 }
