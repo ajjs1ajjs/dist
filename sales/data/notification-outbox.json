@@ -12053,6 +12053,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T15:56:43.929Z"
+    },
+    {
+      "id": "58c1cd8adb8b04b97c580d72",
+      "createdAt": "2026-11-20T17:00:33.040Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Cottage Living Expansion Pack</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1458150\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1458150/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1458150",
+          "entry": {
+            "title": "The Sims™ 4 Cottage Living Expansion Pack",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-20T17:00:33.040Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a9e707d151a504ef71392cc0",
+      "createdAt": "2026-11-20T17:00:33.040Z",
+      "text": "🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n🎮 <b>The Last of Us™ Part I - Перейдіть на видання Digital Deluxe Edition</b>\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 <a href=\"https://store.steampowered.com/app/2254450\">Забрати в Steam</a>\n\n🚀 Інші пропозиції дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2254450/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_free_2254450",
+          "entry": {
+            "title": "The Last of Us™ Part I - Перейдіть на видання Digital Deluxe Edition",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-20T17:00:33.040Z",
+            "type": "free"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
