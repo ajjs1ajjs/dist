@@ -4569,5 +4569,12 @@
     "percent": 35,
     "timestamp": "2026-11-20T00:00:32.524Z",
     "type": "discount"
+  },
+  "steam_discount_2416450": {
+    "title": "Приватний детектив МАУС",
+    "price": 396,
+    "percent": 34,
+    "timestamp": "2026-11-20T00:00:32.524Z",
+    "type": "discount"
   }
 }
