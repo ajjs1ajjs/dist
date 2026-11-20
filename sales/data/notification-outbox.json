@@ -12305,6 +12305,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T18:01:16.053Z"
+    },
+    {
+      "id": "dd7ebf5afb4c7fee72f949c9",
+      "createdAt": "2026-11-20T19:00:42.822Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Halo: The Master Chief Collection</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>349 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/976730\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_976730",
+          "entry": {
+            "title": "Halo: The Master Chief Collection",
+            "price": 349,
+            "percent": 75,
+            "timestamp": "2026-11-20T19:00:42.822Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d94eaafe21d1ce5389c63b8c",
+      "createdAt": "2026-11-20T19:00:42.822Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grounded</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>479 грн</s> ➡️ <b>191 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/962130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_962130",
+          "entry": {
+            "title": "Grounded",
+            "price": 191,
+            "percent": 60,
+            "timestamp": "2026-11-20T19:00:42.822Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9a9fac3fa4ac9ce76c0115c2",
+      "createdAt": "2026-11-20T19:00:42.822Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Age of Mythology: Retold</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>650 грн</s> ➡️ <b>325 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1934680\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1934680",
+          "entry": {
+            "title": "Age of Mythology: Retold",
+            "price": 325,
+            "percent": 50,
+            "timestamp": "2026-11-20T19:00:42.822Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4a270a5946d96782602bb3cb",
+      "createdAt": "2026-11-20T19:00:42.822Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Forza Horizon 6</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>1 724 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2483190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2483190",
+          "entry": {
+            "title": "Forza Horizon 6",
+            "price": 1724,
+            "percent": 25,
+            "timestamp": "2026-11-20T19:00:42.822Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
