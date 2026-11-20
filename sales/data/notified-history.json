@@ -4541,5 +4541,12 @@
     "percent": 80,
     "timestamp": "2026-11-20T00:00:32.524Z",
     "type": "discount"
+  },
+  "steam_discount_3654560": {
+    "title": "Plants vs. Zombies™: Replanted",
+    "price": 384,
+    "percent": 45,
+    "timestamp": "2026-11-20T00:00:32.524Z",
+    "type": "discount"
   }
 }
