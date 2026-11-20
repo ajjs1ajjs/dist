@@ -4583,5 +4583,12 @@
     "percent": 33,
     "timestamp": "2026-11-20T00:00:32.524Z",
     "type": "discount"
+  },
+  "steam_discount_3489700": {
+    "title": "Stellar Blade™",
+    "price": 1339,
+    "percent": 33,
+    "timestamp": "2026-11-20T00:00:32.524Z",
+    "type": "discount"
   }
 }
