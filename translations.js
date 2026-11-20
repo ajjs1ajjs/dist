@@ -3,8 +3,8 @@
 window.SITE_I18N = {
   uk: {
     /* --- meta --- */
-    'meta.site.title': 'Ярослав — SRE / DevOps / Software Developer',
-    'meta.site.desc': 'SRE, DevOps і системний софт: backup, моніторинг, self-hosted сервіси, десктоп на Rust/Tauri. Каталог із 19 продуктів DIST, кейси, послуги.',
+    'meta.site.title': 'DIST Ecosystem — 19 продуктів для Linux, Windows і Web',
+    'meta.site.desc': 'Проєктування й супровід інфраструктури та системного софту: backup, моніторинг, self-hosted сервіси, десктоп на Rust/Tauri. Каталог із 19 продуктів DIST, кейси, послуги.',
     'meta.hub.title': 'DIST — канал релізів: 19 продуктів, ігор та PWA',
     'meta.hub.desc': 'Публічний хаб інсталяторів і PWA: BCK, KubeLens, PyMon, RDM, MyGit, Uptime Monitor, NetScope, Vilno VPN та інші. SHA-256, Minisign, zero-telemetry.',
     'skip': 'Перейти до контенту',
@@ -34,7 +34,7 @@ window.SITE_I18N = {
     'hero.badge': 'DIST ecosystem · 19 продуктів · zero-telemetry',
     'hero.h1a': 'Інфраструктура, яка',
     'hero.h1b': 'не ламається',
-    'hero.sub': 'Я — Ярослав, SRE / DevOps / Software Developer. Проєктую й супроводжую backup, моніторинг, self-hosted сервіси та десктоп-застосунки. DIST — власна екосистема з 19 продуктів для Linux, Windows і Web.',
+    'hero.sub': 'Проєктую й супроводжую backup, моніторинг, self-hosted сервіси та десктоп-застосунки. DIST — власна екосистема з 19 продуктів для Linux, Windows і Web.',
     'hero.cta1': 'Дивитись продукти ↓',
     'hero.cta2': 'Обговорити задачу',
     'hero.note': 'Оплата через Monobank · ключ надходить на email після підтвердження.',
@@ -143,7 +143,7 @@ window.SITE_I18N = {
     /* --- about --- */
     'about.eyebrow': '03 / Про мене',
     'about.title': 'Принципи, за якими працюю',
-    'about.sub': 'SRE-практики, системний софт і веб — від аудиту до продакшену, з повною передачею.',
+    'about.sub': 'Надійна інфраструктура, системний софт і веб — від аудиту до продакшену, з повною передачею.',
     'about.c1.title': '⚙️ Нудна стабільність',
     'about.c1.desc': 'Бекапи, моніторинг, SSL-сентінел, авто-rollback. Оновлення ніколи не втрачають конфіги, бази чи репозиторії.',
     'about.c2.title': '🔐 Security-first',
@@ -173,7 +173,7 @@ window.SITE_I18N = {
     /* --- services --- */
     'services.eyebrow': '04 / Послуги',
     'services.title': 'Що можу зробити для вас',
-    'serv.c1.title': 'DevOps / SRE аудит',
+    'serv.c1.title': 'Аудит інфраструктури',
     'serv.c1.desc': 'Бекапи, моніторинг, SSL, аптайм, алерти. PyMon + Uptime Monitor поставлю за вечір.',
     'serv.c2.title': 'Self-hosted інфраструктура',
     'serv.c2.desc': 'MyGit замість GitLab, BCK замість Veeam. Дешево, швидко, під вашим контролем.',
@@ -204,7 +204,7 @@ window.SITE_I18N = {
     'faq.a6': 'Найшвидше — напишіть на <a href="mailto:yaroslav.andreichuk@gmail.com">yaroslav.andreichuk@gmail.com</a>. Відповім планом і ціною за 24 години.',
 
     /* --- contact --- */
-    'contact.eyebrow': '06 / Контакт · Ярослав',
+    'contact.eyebrow': '06 / Контакт',
     'contact.title': 'Давайте зробимо щось нудно-стабільне',
     'contact.sub': 'Найшвидше — email. Відповідаю з планом і ціною протягом 24 годин.',
     'contact.formTitle': 'Або підготуйте лист — я відповім ↓',
@@ -268,7 +268,7 @@ window.SITE_I18N = {
     'hub.mat.update.slovakia': 'GitHub Releases',
 
     /* --- footer --- */
-    'footer.tagline': 'Ярослав · SRE / DevOps / Software Developer',
+    'footer.tagline': 'DIST Ecosystem · Інфраструктура, десктоп і веб',
     'footer.note': 'Чистий HTML/CSS/JS · без cookies · cookieless-аналітика',
     'footer.rights': '© {year} · Всі права захищені',
     'footer.toTop': 'Догори',
@@ -287,7 +287,7 @@ window.SITE_I18N = {
     'p.kubelens.desc': 'Ворклоади, стрім логів, Helm-релізи й топологія кластера в реальному часі. Нативний Rust/Tauri — легший за Electron.',
     'p.pymon.sub': 'Infrastructure Monitoring & NOC Dashboard',
     'p.pymon.desc': 'Go-сервер + node_exporter / windows_exporter. Живий NOC-дашборд, SLA, дебансинг фальшивих алертів, сповіщення в Telegram.',
-    'p.rdm.sub': 'Remote Connection Manager для SRE',
+    'p.rdm.sub': 'Remote Connection Manager — SSH, RDP і тунелі',
     'p.rdm.desc': 'SSH / RDP / тунелі в одному вікні. Шифрування ключів, SQLite, portable-режим, автооновлення.',
     'p.mygit.sub': 'Self-hosted Git — легка альтернатива Gitea/GitLab',
     'p.mygit.desc': 'Zero-config на Go: ставте однією командою, порт :9555, авто-superuser. Репозиторії зберігаються при оновленні.',
@@ -334,8 +334,8 @@ window.SITE_I18N = {
 
   en: {
     /* --- meta --- */
-    'meta.site.title': 'Yaroslav — SRE / DevOps / Software Developer',
-    'meta.site.desc': 'SRE, DevOps and systems software: backup, monitoring, self-hosted services, Rust/Tauri desktop. DIST catalog of 19 products, cases, services.',
+    'meta.site.title': 'DIST Ecosystem — 19 products for Linux, Windows & Web',
+    'meta.site.desc': 'Infrastructure and systems software: backup, monitoring, self-hosted services, Rust/Tauri desktop. DIST catalog of 19 products, cases, services.',
     'meta.hub.title': 'DIST — release channel: 19 products, games and PWAs',
     'meta.hub.desc': 'Public hub of installers and PWAs: BCK, KubeLens, PyMon, RDM, MyGit, Uptime Monitor, NetScope, Vilno VPN and more. SHA-256, Minisign, zero-telemetry.',
     'skip': 'Skip to content',
@@ -365,7 +365,7 @@ window.SITE_I18N = {
     'hero.badge': 'DIST ecosystem · 19 products · zero-telemetry',
     'hero.h1a': 'Infrastructure that',
     'hero.h1b': 'never breaks',
-    'hero.sub': 'I am Yaroslav, SRE / DevOps / Software Developer. I design and operate backups, monitoring, self-hosted services and desktop apps. DIST is my own ecosystem of 19 products for Linux, Windows and the Web.',
+    'hero.sub': 'I design and operate backups, monitoring, self-hosted services and desktop apps. DIST is my own ecosystem of 19 products for Linux, Windows and the Web.',
     'hero.cta1': 'Browse products ↓',
     'hero.cta2': 'Discuss a project',
     'hero.note': 'Pay via Monobank · the key arrives by email after confirmation.',
@@ -474,7 +474,7 @@ window.SITE_I18N = {
     /* --- about --- */
     'about.eyebrow': '03 / About',
     'about.title': 'How I work',
-    'about.sub': 'SRE practices, systems software and web — from audit to production, with a clean handover.',
+    'about.sub': 'Reliable infrastructure, systems software and web — from audit to production, with a clean handover.',
     'about.c1.title': '⚙️ Boringly stable',
     'about.c1.desc': 'Backups, monitoring, SSL sentinel, auto-rollback. Upgrades never lose configs, databases or repositories.',
     'about.c2.title': '🔐 Security-first',
@@ -504,7 +504,7 @@ window.SITE_I18N = {
     /* --- services --- */
     'services.eyebrow': '04 / Services',
     'services.title': 'What I can do for you',
-    'serv.c1.title': 'DevOps / SRE audit',
+    'serv.c1.title': 'Infrastructure audit',
     'serv.c1.desc': 'Backups, monitoring, SSL, uptime, alerts. PyMon + Uptime Monitor installed in an evening.',
     'serv.c2.title': 'Self-hosted infrastructure',
     'serv.c2.desc': 'MyGit instead of GitLab, BCK instead of Veeam. Cheap, fast, fully under your control.',
@@ -535,7 +535,7 @@ window.SITE_I18N = {
     'faq.a6': 'The fastest way — email <a href="mailto:yaroslav.andreichuk@gmail.com">yaroslav.andreichuk@gmail.com</a>. You will get a plan and a quote within 24 hours.',
 
     /* --- contact --- */
-    'contact.eyebrow': '06 / Contact · Yaroslav',
+    'contact.eyebrow': '06 / Contact',
     'contact.title': 'Let\'s build something boringly stable',
     'contact.sub': 'Email is the fastest route. You will get a plan and a quote within 24 hours.',
     'contact.formTitle': 'Or prepare an email — I will reply ↓',
@@ -599,7 +599,7 @@ window.SITE_I18N = {
     'hub.mat.update.slovakia': 'GitHub Releases',
 
     /* --- footer --- */
-    'footer.tagline': 'Yaroslav · SRE / DevOps / Software Developer',
+    'footer.tagline': 'DIST Ecosystem · Infrastructure, desktop & web',
     'footer.note': 'Vanilla HTML/CSS/JS · no cookies · cookieless analytics',
     'footer.rights': '© {year} · All rights reserved',
     'footer.toTop': 'Back to top',
@@ -618,7 +618,7 @@ window.SITE_I18N = {
     'p.kubelens.desc': 'Workloads, live log streaming, Helm releases and real-time cluster topology. Native Rust/Tauri — far lighter than Electron.',
     'p.pymon.sub': 'Infrastructure Monitoring & NOC Dashboard',
     'p.pymon.desc': 'Go server + node_exporter / windows_exporter. Live NOC dashboard, SLA, alert debouncing, Telegram notifications.',
-    'p.rdm.sub': 'Remote Connection Manager for SREs',
+    'p.rdm.sub': 'Remote Connection Manager — SSH, RDP & tunnels',
     'p.rdm.desc': 'SSH / RDP / tunnels in one window. Encrypted keys, SQLite, portable mode, auto-update.',
     'p.mygit.sub': 'Self-hosted Git — a lightweight Gitea/GitLab alternative',
     'p.mygit.desc': 'Zero-config Go app: install in one command, port :9555, auto-superuser. Repositories survive upgrades.',

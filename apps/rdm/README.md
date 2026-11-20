@@ -1,6 +1,6 @@
 # RDM Manager — завантаження
 
-Remote Connection Manager для SRE та DevOps (Tauri 2 + Rust + React + SQLite).
+Remote Connection Manager — SSH, RDP і SFTP (Tauri 2 + Rust + React + SQLite).
 **Windows 10/11 · x64.**
 
 ## Завантажити

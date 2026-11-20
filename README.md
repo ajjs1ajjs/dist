@@ -197,7 +197,7 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 <br>
 <sub>Windows 10 / 11 · x64</sub>
 <br><br>
-Менеджер віддалених підключень (SSH/RDP) для SRE/DevOps
+Менеджер віддалених підключень (SSH / RDP / SFTP)
 <br><br>
 <a href="#rdm">⬇️ <b>Завантажити</b></a>
 <br><br>
@@ -517,9 +517,9 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 ---
 
-## 👨‍💻 Автор
+## 📦 Контакти
 
-**Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
+Проєктую й супроводжую backup, моніторинг, self-hosted сервіси та десктоп-застосунки. DIST — власна екосистема з 19 продуктів для Linux, Windows і Web.
 
 - 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 19 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)
