@@ -37,9 +37,10 @@
 <a href="https://github.com/ajjs1ajjs/wpods/releases"><img src="https://img.shields.io/badge/WPods-Windows_11-1D4ED8?style=for-the-badge&logo=windows&logoColor=white" alt="WPods"></a>
 <a href="https://github.com/ajjs1ajjs/claude-account-switcher/releases"><img src="https://img.shields.io/badge/Claude_Switch-Win_%2F_Mac-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Switch"></a>
 <a href="https://github.com/ajjs1ajjs/codex-account-switcher/releases"><img src="https://img.shields.io/badge/Codex_Switch-Win_%2F_Mac-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="Codex Switch"></a>
+<a href="https://t.me/svitloifif_bot"><img src="https://img.shields.io/badge/Svitlo_IF-Telegram_Bot-F59E0B?style=for-the-badge&logo=telegram&logoColor=white" alt="Світло ІФ"></a>
 <a href="./p/slovakia/"><img src="https://img.shields.io/badge/Slovak_0→B2-Free_PDF-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Slovak 0→B2"></a>
 
-<sub><b>18 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; macOS &nbsp;·&nbsp; Web / PWA · Games</sub>
+<sub><b>19 позицій каталогу</b> &nbsp;·&nbsp; 11 автоматизованих релізних каналів &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Windows &nbsp;·&nbsp; macOS &nbsp;·&nbsp; Web / PWA · Games</sub>
 
 </div>
 
@@ -271,6 +272,19 @@ Self-hosted Git-платформа — GitLab/Gitea-альтернатива
 Нативний перемикач акаунтів Codex Desktop зі шкалами лімітів і швидким перемиканням
 <br><br>
 <a href="https://github.com/ajjs1ajjs/codex-account-switcher/releases/latest">⬇️ <b>Завантажити Codex Switch</b></a>
+<br><br>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<br>
+<a href="https://t.me/svitloifif_bot"><img src="https://img.shields.io/badge/Світло_ІФ-v1.3.0-F59E0B?style=for-the-badge&logo=telegram&logoColor=white" alt="Світло ІФ"></a>
+<br>
+<sub>Telegram Bot · Node.js 22 · SQLite</sub>
+<br><br>
+Графіки відключень світла в Івано-Франківську (@svitloifif_bot): HD-картки, пошук за адресою та сповіщення
+<br><br>
+<a href="https://t.me/svitloifif_bot">▶️ <b>Відкрити @svitloifif_bot</b></a>
 <br><br>
 </td>
 </tr>
@@ -507,5 +521,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Ярослав (AJ.SRE/DevOps/Dev)** — SRE / DevOps / Software Developer.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 18 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
+- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 19 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)
