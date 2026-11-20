@@ -4597,5 +4597,12 @@
     "percent": 33,
     "timestamp": "2026-11-20T00:00:32.524Z",
     "type": "discount"
+  },
+  "steam_discount_2322010": {
+    "title": "God of War Ragnarök",
+    "price": 1138,
+    "percent": 33,
+    "timestamp": "2026-11-20T00:00:32.524Z",
+    "type": "discount"
   }
 }
