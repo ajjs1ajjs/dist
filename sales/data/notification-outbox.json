@@ -11486,6 +11486,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T03:00:36.930Z"
+    },
+    {
+      "id": "ccbb1c72e84e3e96633b75ec",
+      "createdAt": "2026-11-20T04:00:32.961Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Battlefield 3™</b>\n🏷️ Знижка: <b>-95%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>59 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238820\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238820/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238820",
+          "entry": {
+            "title": "Battlefield 3™",
+            "price": 59,
+            "percent": 95,
+            "timestamp": "2026-11-20T04:00:32.961Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "992531bdb15053b9893123a2",
+      "createdAt": "2026-11-20T04:00:32.961Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>CRYMACHINA</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>450 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2258500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2258500/bd2ecbad31f132d981a6911dc9ca8051c2542b92/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2258500",
+          "entry": {
+            "title": "CRYMACHINA",
+            "price": 450,
+            "percent": 60,
+            "timestamp": "2026-11-20T04:00:32.961Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6365a26f0ff0750dbbd78634",
+      "createdAt": "2026-11-20T04:00:32.961Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Oxygen Not Included - Spaced Out!</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>209 грн</s> ➡️ <b>140 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1452490\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1452490/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1452490",
+          "entry": {
+            "title": "Oxygen Not Included - Spaced Out!",
+            "price": 140,
+            "percent": 33,
+            "timestamp": "2026-11-20T04:00:32.961Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
