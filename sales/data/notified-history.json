@@ -4576,5 +4576,12 @@
     "percent": 34,
     "timestamp": "2026-11-20T00:00:32.524Z",
     "type": "discount"
+  },
+  "steam_discount_3280350": {
+    "title": "DEATH STRANDING 2: ON THE BEACH",
+    "price": 1540,
+    "percent": 33,
+    "timestamp": "2026-11-20T00:00:32.524Z",
+    "type": "discount"
   }
 }
