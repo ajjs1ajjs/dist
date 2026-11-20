@@ -11633,6 +11633,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T05:00:57.910Z"
+    },
+    {
+      "id": "dcff801b0566fdd93e1eefe2",
+      "createdAt": "2026-11-20T06:00:29.921Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Alice: Madness Returns</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>59 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/19680\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19680/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_19680",
+          "entry": {
+            "title": "Alice: Madness Returns",
+            "price": 59,
+            "percent": 80,
+            "timestamp": "2026-11-20T06:00:29.921Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
