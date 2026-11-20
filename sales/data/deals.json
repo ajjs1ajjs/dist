@@ -20528,6 +20528,13 @@
       "percent": 50,
       "timestamp": "2026-11-20T21:00:43.748Z",
       "type": "discount"
+    },
+    "steam_discount_2457220": {
+      "title": "Avowed",
+      "price": 799,
+      "percent": 50,
+      "timestamp": "2026-11-20T21:00:43.748Z",
+      "type": "discount"
     }
   }
 }
