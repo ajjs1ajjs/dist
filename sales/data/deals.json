@@ -19624,6 +19624,13 @@
       "percent": 50,
       "timestamp": "2026-11-20T02:01:10.537Z",
       "type": "discount"
+    },
+    "steam_discount_3315530": {
+      "title": "Crusader Kings III: All Under Heaven",
+      "price": 606,
+      "percent": 25,
+      "timestamp": "2026-11-20T02:01:10.537Z",
+      "type": "discount"
     }
   }
 }
