@@ -12095,6 +12095,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T17:00:43.653Z"
+    },
+    {
+      "id": "8fe8daa2e1a1ca5112a74688",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Microsoft Flight Simulator (2020) 40th Anniversary Edition</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>1 540 грн</s> ➡️ <b>539 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1250410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250410/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1250410",
+          "entry": {
+            "title": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+            "price": 539,
+            "percent": 65,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4a86ee69716c3579a551685d",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sea of Thieves: 2026 Edition</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>1 285 грн</s> ➡️ <b>449 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1172620\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/1617656502fd33cb55deaff55fe1ffada0c51e18/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1172620",
+          "entry": {
+            "title": "Sea of Thieves: 2026 Edition",
+            "price": 449,
+            "percent": 65,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "eee238f2c1ea22a749c937ba",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hunt: Showdown 1896</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>719 грн</s> ➡️ <b>251 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/594650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_594650",
+          "entry": {
+            "title": "Hunt: Showdown 1896",
+            "price": 251,
+            "percent": 65,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ede07d6791ea20ea3eb780db",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Age of Empires IV: Anniversary Edition</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>244 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1466860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1466860",
+          "entry": {
+            "title": "Age of Empires IV: Anniversary Edition",
+            "price": 244,
+            "percent": 65,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2301a5e801e290ce5ec76138",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Forza Horizon 5</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>479 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1551360\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1551360",
+          "entry": {
+            "title": "Forza Horizon 5",
+            "price": 479,
+            "percent": 60,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e2cf663b05e4aec82c4f6e3d",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ready or Not</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 200 грн</s> ➡️ <b>600 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1144200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2f02a7f8e5458c9ac5f93f489a54dae3050742f9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1144200",
+          "entry": {
+            "title": "Ready or Not",
+            "price": 600,
+            "percent": 50,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "02c495ff1657e7f303b38b03",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Age of Empires II: Definitive Edition</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>880 грн</s> ➡️ <b>589 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/813780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_813780",
+          "entry": {
+            "title": "Age of Empires II: Definitive Edition",
+            "price": 589,
+            "percent": 33,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8d29fd53d69f73ac4f306fd8",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Microsoft Flight Simulator 2024</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>2 400 грн</s> ➡️ <b>1 680 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2537590\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/8fa176d72210f43c71d50f4c8ffca70a4f171e62/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2537590",
+          "entry": {
+            "title": "Microsoft Flight Simulator 2024",
+            "price": 1680,
+            "percent": 30,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9277efd4d439eeadc6bac776",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gears of War: E-Day</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>1 609 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3010850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3010850",
+          "entry": {
+            "title": "Gears of War: E-Day",
+            "price": 1609,
+            "percent": 30,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "db9d0538ed2ffb2c870878e9",
+      "createdAt": "2026-11-20T18:00:29.977Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>S.T.A.L.K.E.R. 2: Heart of Chornobyl</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 899 грн</s> ➡️ <b>1 329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1643320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643320/9a8e16d21fc4e6e15e204fcd14626dabcc77c6a1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1643320",
+          "entry": {
+            "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+            "price": 1329,
+            "percent": 30,
+            "timestamp": "2026-11-20T18:00:29.977Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
