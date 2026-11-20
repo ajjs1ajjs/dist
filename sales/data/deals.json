@@ -20134,6 +20134,13 @@
       "percent": 25,
       "timestamp": "2026-11-20T15:00:29.152Z",
       "type": "discount"
+    },
+    "steam_discount_1235731": {
+      "title": "The Sims™ 4 City Living",
+      "price": 679,
+      "percent": 60,
+      "timestamp": "2026-11-20T15:56:39.504Z",
+      "type": "discount"
     }
   }
 }
