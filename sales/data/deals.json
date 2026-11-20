@@ -19426,6 +19426,13 @@
       "percent": 33,
       "timestamp": "2026-11-20T00:00:32.524Z",
       "type": "discount"
+    },
+    "steam_discount_2651280": {
+      "title": "Marvel's Spider-Man 2",
+      "price": 1138,
+      "percent": 33,
+      "timestamp": "2026-11-20T00:00:32.524Z",
+      "type": "discount"
     }
   }
 }
