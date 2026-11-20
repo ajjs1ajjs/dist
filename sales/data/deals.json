@@ -20480,6 +20480,13 @@
       "percent": 60,
       "timestamp": "2026-11-20T20:00:30.027Z",
       "type": "discount"
+    },
+    "steam_discount_2806050": {
+      "title": "Halo: Campaign Evolved",
+      "price": 1199,
+      "percent": 40,
+      "timestamp": "2026-11-20T20:00:30.027Z",
+      "type": "discount"
     }
   }
 }
