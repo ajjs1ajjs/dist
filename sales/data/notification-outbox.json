@@ -10919,6 +10919,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-19T23:01:23.001Z"
+    },
+    {
+      "id": "88f49370c1df5de366892abc",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dragon Age: Origins - Ultimate Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/47810\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47810/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_47810",
+          "entry": {
+            "title": "Dragon Age: Origins - Ultimate Edition",
+            "price": 159,
+            "percent": 80,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "30dbb53e07a280d065eb3fc0",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Plants vs. Zombies™: Replanted</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>384 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3654560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/d604566237e8c12a9021824719aed43c244784c1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3654560",
+          "entry": {
+            "title": "Plants vs. Zombies™: Replanted",
+            "price": 384,
+            "percent": 45,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f720bc9698904d84d04c46cc",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>F1® 25</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 599 грн</s> ➡️ <b>959 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3059520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/111acdc401454a19bc728b030bcc4b49769677e0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3059520",
+          "entry": {
+            "title": "F1® 25",
+            "price": 959,
+            "percent": 40,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "842669ee7cc37607abe89660",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Legend of Heroes: Trails through Daybreak</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>675 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2138610\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138610/295b090cf17309d082a951b2eb6492dd06f2eeef/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2138610",
+          "entry": {
+            "title": "The Legend of Heroes: Trails through Daybreak",
+            "price": 675,
+            "percent": 40,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "73bf6ef7969884397d0ec39c",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Legend of Heroes: Trails through Daybreak II</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 125 грн</s> ➡️ <b>731 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2668430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668430/4f06190a05924c40d3461c73ed22627a23ea8f1c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2668430",
+          "entry": {
+            "title": "The Legend of Heroes: Trails through Daybreak II",
+            "price": 731,
+            "percent": 35,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "37606b37f4615eb515ddbb3a",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Приватний детектив МАУС</b>\n🏷️ Знижка: <b>-34%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>396 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2416450\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/a495751f3ff5c722860319c89d7962ffee7ab743/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2416450",
+          "entry": {
+            "title": "Приватний детектив МАУС",
+            "price": 396,
+            "percent": 34,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fc39dbad81c9ae4f355e9a3a",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DEATH STRANDING 2: ON THE BEACH</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>1 540 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3280350\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3280350",
+          "entry": {
+            "title": "DEATH STRANDING 2: ON THE BEACH",
+            "price": 1540,
+            "percent": 33,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3cb9d68d9a724440a5e09e79",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stellar Blade™</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>1 339 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3489700\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3489700",
+          "entry": {
+            "title": "Stellar Blade™",
+            "price": 1339,
+            "percent": 33,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2104864814a512905be04b52",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Marvel&#39;s Spider-Man 2</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 138 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2651280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2651280",
+          "entry": {
+            "title": "Marvel's Spider-Man 2",
+            "price": 1138,
+            "percent": 33,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "86607c933cb8d8cd418d9761",
+      "createdAt": "2026-11-20T00:00:32.524Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>God of War Ragnarök</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 138 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2322010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2322010",
+          "entry": {
+            "title": "God of War Ragnarök",
+            "price": 1138,
+            "percent": 33,
+            "timestamp": "2026-11-20T00:00:32.524Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
