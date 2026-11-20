@@ -20126,6 +20126,13 @@
       "percent": 50,
       "timestamp": "2026-11-20T15:00:29.152Z",
       "type": "discount"
+    },
+    "steam_discount_887570": {
+      "title": "NEBULOUS: Fleet Command",
+      "price": 199,
+      "percent": 50,
+      "timestamp": "2026-11-20T15:00:29.152Z",
+      "type": "discount"
     }
   }
 }
