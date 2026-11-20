@@ -20155,6 +20155,13 @@
       "percent": 60,
       "timestamp": "2026-11-20T15:56:39.504Z",
       "type": "discount"
+    },
+    "steam_discount_1458150": {
+      "title": "The Sims™ 4 Cottage Living Expansion Pack",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-11-20T17:00:33.040Z",
+      "type": "discount"
     }
   }
 }
