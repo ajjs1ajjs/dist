@@ -4835,5 +4835,12 @@
     "percent": 75,
     "timestamp": "2026-11-20T10:00:31.149Z",
     "type": "discount"
+  },
+  "steam_discount_1392860": {
+    "title": "Little Nightmares III",
+    "price": 1043,
+    "percent": 42,
+    "timestamp": "2026-11-20T10:00:31.149Z",
+    "type": "discount"
   }
 }
