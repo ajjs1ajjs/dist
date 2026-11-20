@@ -19481,6 +19481,13 @@
       "percent": 30,
       "timestamp": "2026-11-20T01:00:44.288Z",
       "type": "discount"
+    },
+    "steam_discount_2277560": {
+      "title": "WUCHANG: Fallen Feathers",
+      "price": 1049,
+      "percent": 30,
+      "timestamp": "2026-11-20T01:00:44.288Z",
+      "type": "discount"
     }
   }
 }
