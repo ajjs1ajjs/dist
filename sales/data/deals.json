@@ -20432,6 +20432,13 @@
       "percent": 75,
       "timestamp": "2026-11-20T19:00:42.822Z",
       "type": "discount"
+    },
+    "steam_discount_962130": {
+      "title": "Grounded",
+      "price": 191,
+      "percent": 60,
+      "timestamp": "2026-11-20T19:00:42.822Z",
+      "type": "discount"
     }
   }
 }
