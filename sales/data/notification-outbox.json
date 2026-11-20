@@ -12494,6 +12494,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T21:00:57.216Z"
+    },
+    {
+      "id": "43bd51d1e54967f42f197007",
+      "createdAt": "2026-11-20T22:00:31.916Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gears of War: Reloaded</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>324 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2523720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/779c1934da3b39c307d91195ff764502f2ce1063/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2523720",
+          "entry": {
+            "title": "Gears of War: Reloaded",
+            "price": 324,
+            "percent": 75,
+            "timestamp": "2026-11-20T22:00:31.916Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "27cfe6e46637fe0cd12b6237",
+      "createdAt": "2026-11-20T22:00:31.916Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Horse Ranch Expansion Pack</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>849 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1990600\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1990600/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1990600",
+          "entry": {
+            "title": "The Sims™ 4 Horse Ranch Expansion Pack",
+            "price": 849,
+            "percent": 50,
+            "timestamp": "2026-11-20T22:00:31.916Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b3d9d37016f9e0918791c22f",
+      "createdAt": "2026-11-20T22:00:31.916Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>WE&#39;RE ALL IN!</b>\n🏷️ Знижка: <b>-38%</b>\n💰 Ціна: <s>190 грн</s> ➡️ <b>117 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4183130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183130/05f84388864ac7ca8c3a65a5ded6a5db69baa6d6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4183130",
+          "entry": {
+            "title": "WE'RE ALL IN!",
+            "price": 117,
+            "percent": 38,
+            "timestamp": "2026-11-20T22:00:31.916Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
