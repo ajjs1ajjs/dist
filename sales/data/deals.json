@@ -20425,6 +20425,13 @@
       "percent": 30,
       "timestamp": "2026-11-20T18:00:29.977Z",
       "type": "discount"
+    },
+    "steam_discount_976730": {
+      "title": "Halo: The Master Chief Collection",
+      "price": 349,
+      "percent": 75,
+      "timestamp": "2026-11-20T19:00:42.822Z",
+      "type": "discount"
     }
   }
 }
