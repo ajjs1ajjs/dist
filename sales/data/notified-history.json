@@ -4653,5 +4653,12 @@
     "percent": 30,
     "timestamp": "2026-11-20T01:00:44.288Z",
     "type": "discount"
+  },
+  "steam_discount_3949290": {
+    "title": "Ys X: Proud Nordics",
+    "price": 986,
+    "percent": 25,
+    "timestamp": "2026-11-20T01:00:44.288Z",
+    "type": "discount"
   }
 }
