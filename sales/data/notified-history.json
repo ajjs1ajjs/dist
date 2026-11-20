@@ -4968,5 +4968,12 @@
     "percent": 50,
     "timestamp": "2026-11-20T18:00:29.977Z",
     "type": "discount"
+  },
+  "steam_discount_813780": {
+    "title": "Age of Empires II: Definitive Edition",
+    "price": 589,
+    "percent": 33,
+    "timestamp": "2026-11-20T18:00:29.977Z",
+    "type": "discount"
   }
 }
