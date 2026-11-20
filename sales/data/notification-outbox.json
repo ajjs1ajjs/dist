@@ -12431,6 +12431,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T20:00:38.880Z"
+    },
+    {
+      "id": "af6418a543ce0e84d5d2afed",
+      "createdAt": "2026-11-20T21:00:43.748Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NINJA GAIDEN 4</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>1 149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2627260\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/d58b8d10bc8a0c45c46d06985aedc46e1edf4e47/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2627260",
+          "entry": {
+            "title": "NINJA GAIDEN 4",
+            "price": 1149,
+            "percent": 50,
+            "timestamp": "2026-11-20T21:00:43.748Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "594d33ce62c80876343e8799",
+      "createdAt": "2026-11-20T21:00:43.748Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Avowed</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 599 грн</s> ➡️ <b>799 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2457220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2457220/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2457220",
+          "entry": {
+            "title": "Avowed",
+            "price": 799,
+            "percent": 50,
+            "timestamp": "2026-11-20T21:00:43.748Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6cf5244dfdf5354eaf65d8fd",
+      "createdAt": "2026-11-20T21:00:43.748Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Royalty &amp; Legacy Expansion Pack</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 274 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3548690\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3548690/9c6ff43a37e0c70a1ed093cbc5ddba424c7dce73/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3548690",
+          "entry": {
+            "title": "The Sims™ 4 Royalty & Legacy Expansion Pack",
+            "price": 1274,
+            "percent": 25,
+            "timestamp": "2026-11-20T21:00:43.748Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
