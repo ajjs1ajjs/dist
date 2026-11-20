@@ -11654,6 +11654,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T06:00:34.709Z"
+    },
+    {
+      "id": "888784bb0c74325599c47600",
+      "createdAt": "2026-11-20T08:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dragon Age II: Ultimate Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1238040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238040/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1238040",
+          "entry": {
+            "title": "Dragon Age II: Ultimate Edition",
+            "price": 159,
+            "percent": 80,
+            "timestamp": "2026-11-20T08:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "81e3430a3b51e08d96cd89f8",
+      "createdAt": "2026-11-20T08:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>EA SPORTS™ WRC</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>389 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1849250\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1849250/69a18167dab37d9a74c52f9e63dd0cb8f35fba9f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1849250",
+          "entry": {
+            "title": "EA SPORTS™ WRC",
+            "price": 389,
+            "percent": 70,
+            "timestamp": "2026-11-20T08:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "987cf3a410b8a497e3639acb",
+      "createdAt": "2026-11-20T08:00:29.674Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Sims™ 4 Seasons</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1235733\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235733/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1235733",
+          "entry": {
+            "title": "The Sims™ 4 Seasons",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-20T08:00:29.674Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
