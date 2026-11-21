@@ -12830,6 +12830,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T05:00:35.166Z"
+    },
+    {
+      "id": "fbad419261367c939e5533d3",
+      "createdAt": "2026-11-21T07:00:34.264Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Devil May Cry HD Collection</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>313 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/631510\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_631510",
+          "entry": {
+            "title": "Devil May Cry HD Collection",
+            "price": 313,
+            "percent": 67,
+            "timestamp": "2026-11-21T07:00:34.264Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
