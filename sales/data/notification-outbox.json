@@ -12977,6 +12977,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T15:00:35.960Z"
+    },
+    {
+      "id": "3a8d3d680e07720c227d564f",
+      "createdAt": "2026-11-21T17:00:32.120Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Farewell North</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>590 грн</s> ➡️ <b>206 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1432850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1432850/429d4a2cddb786b60ecfa8280fb5fe42f0f20688/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1432850",
+          "entry": {
+            "title": "Farewell North",
+            "price": 206,
+            "percent": 65,
+            "timestamp": "2026-11-21T17:00:32.120Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
