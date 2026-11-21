@@ -22166,6 +22166,13 @@
       "percent": 40,
       "timestamp": "2026-11-21T18:00:31.006Z",
       "type": "discount"
+    },
+    "steam_discount_1184050": {
+      "title": "Gears Tactics",
+      "price": 190,
+      "percent": 75,
+      "timestamp": "2026-11-21T19:00:39.404Z",
+      "type": "discount"
     }
   }
 }
