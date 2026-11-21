@@ -5136,5 +5136,12 @@
     "percent": 75,
     "timestamp": "2026-11-21T01:00:28.525Z",
     "type": "discount"
+  },
+  "steam_discount_1135690": {
+    "title": "Unpacking",
+    "price": 111,
+    "percent": 60,
+    "timestamp": "2026-11-21T01:00:28.525Z",
+    "type": "discount"
   }
 }
