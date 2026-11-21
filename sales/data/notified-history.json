@@ -5248,5 +5248,12 @@
     "percent": 66,
     "timestamp": "2026-11-21T21:00:32.344Z",
     "type": "discount"
+  },
+  "steam_discount_1796470": {
+    "title": "Haste",
+    "price": 233,
+    "percent": 40,
+    "timestamp": "2026-11-21T21:00:32.344Z",
+    "type": "discount"
   }
 }
