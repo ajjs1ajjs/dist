@@ -22304,6 +22304,13 @@
       "percent": 50,
       "timestamp": "2026-11-21T20:00:33.677Z",
       "type": "discount"
+    },
+    "steam_discount_508440": {
+      "title": "Totally Accurate Battle Simulator",
+      "price": 135,
+      "percent": 66,
+      "timestamp": "2026-11-21T21:00:32.344Z",
+      "type": "discount"
     }
   }
 }
