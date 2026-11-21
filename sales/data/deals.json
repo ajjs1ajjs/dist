@@ -22059,6 +22059,13 @@
       "percent": 60,
       "timestamp": "2026-11-21T01:00:28.525Z",
       "type": "discount"
+    },
+    "steam_discount_837470": {
+      "title": "Untitled Goose Game",
+      "price": 159,
+      "percent": 60,
+      "timestamp": "2026-11-21T02:00:33.435Z",
+      "type": "discount"
     }
   }
 }
