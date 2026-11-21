@@ -13124,6 +13124,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T20:00:42.824Z"
+    },
+    {
+      "id": "880e3b54a327d0888f2a6366",
+      "createdAt": "2026-11-21T21:00:32.344Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Totally Accurate Battle Simulator</b>\n🏷️ Знижка: <b>-66%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>135 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/508440\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/508440/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_508440",
+          "entry": {
+            "title": "Totally Accurate Battle Simulator",
+            "price": 135,
+            "percent": 66,
+            "timestamp": "2026-11-21T21:00:32.344Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a074b5877744b5ecf469d67f",
+      "createdAt": "2026-11-21T21:00:32.344Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Haste</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>233 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1796470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/facaebeaca52dc14ae2a85d5a4f017947e9c3a87/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1796470",
+          "entry": {
+            "title": "Haste",
+            "price": 233,
+            "percent": 40,
+            "timestamp": "2026-11-21T21:00:32.344Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
