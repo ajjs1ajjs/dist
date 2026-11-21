@@ -5192,5 +5192,12 @@
     "percent": 50,
     "timestamp": "2026-11-21T11:00:37.125Z",
     "type": "discount"
+  },
+  "steam_discount_3372980": {
+    "title": "Tower Wizard",
+    "price": 49,
+    "percent": 34,
+    "timestamp": "2026-11-21T12:00:36.208Z",
+    "type": "discount"
   }
 }
