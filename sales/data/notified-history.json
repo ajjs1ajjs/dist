@@ -5206,5 +5206,12 @@
     "percent": 65,
     "timestamp": "2026-11-21T17:00:32.120Z",
     "type": "discount"
+  },
+  "steam_discount_945360": {
+    "title": "Among Us",
+    "price": 60,
+    "percent": 40,
+    "timestamp": "2026-11-21T18:00:31.006Z",
+    "type": "discount"
   }
 }
