@@ -22173,6 +22173,13 @@
       "percent": 75,
       "timestamp": "2026-11-21T19:00:39.404Z",
       "type": "discount"
+    },
+    "steam_discount_753640": {
+      "title": "Outer Wilds",
+      "price": 249,
+      "percent": 50,
+      "timestamp": "2026-11-21T19:00:39.404Z",
+      "type": "discount"
     }
   }
 }
