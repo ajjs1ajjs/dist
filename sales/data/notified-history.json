@@ -5129,5 +5129,12 @@
     "percent": 80,
     "timestamp": "2026-11-21T01:00:28.525Z",
     "type": "discount"
+  },
+  "steam_discount_1097840": {
+    "title": "Gears 5",
+    "price": 190,
+    "percent": 75,
+    "timestamp": "2026-11-21T01:00:28.525Z",
+    "type": "discount"
   }
 }
