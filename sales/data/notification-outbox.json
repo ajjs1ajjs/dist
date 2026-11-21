@@ -12998,6 +12998,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T17:00:36.496Z"
+    },
+    {
+      "id": "dab3af39a9c81f753e57d6bc",
+      "createdAt": "2026-11-21T18:00:31.006Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Among Us</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>100 грн</s> ➡️ <b>60 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/945360\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/27d201d871b3d617dc4b80c603ca900999c2f11e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_945360",
+          "entry": {
+            "title": "Among Us",
+            "price": 60,
+            "percent": 40,
+            "timestamp": "2026-11-21T18:00:31.006Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
