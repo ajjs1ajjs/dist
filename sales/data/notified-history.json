@@ -5115,5 +5115,12 @@
     "percent": 60,
     "timestamp": "2026-11-21T00:00:31.305Z",
     "type": "discount"
+  },
+  "steam_discount_3486530": {
+    "title": "Stupid Never Dies",
+    "price": 1424,
+    "percent": 25,
+    "timestamp": "2026-11-21T00:00:31.305Z",
+    "type": "discount"
   }
 }
