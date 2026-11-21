@@ -22055,6 +22055,13 @@
       "percent": 90,
       "timestamp": "2026-11-21T05:00:29.961Z",
       "type": "discount"
+    },
+    "steam_discount_631510": {
+      "title": "Devil May Cry HD Collection",
+      "price": 313,
+      "percent": 67,
+      "timestamp": "2026-11-21T07:00:34.264Z",
+      "type": "discount"
     }
   }
 }
