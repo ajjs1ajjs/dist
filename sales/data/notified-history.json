@@ -5171,5 +5171,12 @@
     "percent": 75,
     "timestamp": "2026-11-21T09:00:32.579Z",
     "type": "discount"
+  },
+  "steam_discount_1920490": {
+    "title": "The Outer Worlds: Spacer's Choice Edition",
+    "price": 399,
+    "percent": 75,
+    "timestamp": "2026-11-21T11:00:37.125Z",
+    "type": "discount"
   }
 }
