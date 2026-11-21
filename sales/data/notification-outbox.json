@@ -12788,6 +12788,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T01:00:41.806Z"
+    },
+    {
+      "id": "fb123d679672d2db12bff434",
+      "createdAt": "2026-11-21T02:00:33.435Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Untitled Goose Game</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/837470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_837470",
+          "entry": {
+            "title": "Untitled Goose Game",
+            "price": 159,
+            "percent": 60,
+            "timestamp": "2026-11-21T02:00:33.435Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
