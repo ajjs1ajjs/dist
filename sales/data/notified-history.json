@@ -5164,5 +5164,12 @@
     "percent": 67,
     "timestamp": "2026-11-21T07:00:34.264Z",
     "type": "discount"
+  },
+  "steam_discount_560130": {
+    "title": "Pillars of Eternity II: Deadfire",
+    "price": 174,
+    "percent": 75,
+    "timestamp": "2026-11-21T09:00:32.579Z",
+    "type": "discount"
   }
 }
