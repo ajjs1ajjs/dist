@@ -12725,6 +12725,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T00:00:52.907Z"
+    },
+    {
+      "id": "139d2fbd905ebe126eb109b1",
+      "createdAt": "2026-11-21T01:00:28.525Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Chivalry 2</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>479 грн</s> ➡️ <b>95 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1824220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824220/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1824220",
+          "entry": {
+            "title": "Chivalry 2",
+            "price": 95,
+            "percent": 80,
+            "timestamp": "2026-11-21T01:00:28.525Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f0ffe2d719deffc420be631b",
+      "createdAt": "2026-11-21T01:00:28.525Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gears 5</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>760 грн</s> ➡️ <b>190 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1097840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1097840",
+          "entry": {
+            "title": "Gears 5",
+            "price": 190,
+            "percent": 75,
+            "timestamp": "2026-11-21T01:00:28.525Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a7dc56bd546d682e45f95666",
+      "createdAt": "2026-11-21T01:00:28.525Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Unpacking</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>111 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1135690\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1135690",
+          "entry": {
+            "title": "Unpacking",
+            "price": 111,
+            "percent": 60,
+            "timestamp": "2026-11-21T01:00:28.525Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
