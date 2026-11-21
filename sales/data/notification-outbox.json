@@ -12956,6 +12956,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T12:00:40.353Z"
+    },
+    {
+      "id": "b90b758c83a10e65dd83b3f5",
+      "createdAt": "2026-11-21T15:00:30.432Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Chill with You : Lo-Fi Story</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>265 грн</s> ➡️ <b>172 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3548580\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3548580/a4d6f8c0edd00a382d7c068ace3aa3f778f2562d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3548580",
+          "entry": {
+            "title": "Chill with You : Lo-Fi Story",
+            "price": 172,
+            "percent": 35,
+            "timestamp": "2026-11-21T15:00:30.432Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
