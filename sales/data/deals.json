@@ -22088,6 +22088,13 @@
       "percent": 75,
       "timestamp": "2026-11-21T11:00:37.125Z",
       "type": "discount"
+    },
+    "steam_discount_3144890": {
+      "title": "Age of Empires IV: Knights of Cross and Rose",
+      "price": 157,
+      "percent": 65,
+      "timestamp": "2026-11-21T11:00:37.125Z",
+      "type": "discount"
     }
   }
 }
