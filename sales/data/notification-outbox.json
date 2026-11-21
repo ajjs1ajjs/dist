@@ -13166,6 +13166,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T21:00:41.571Z"
+    },
+    {
+      "id": "c10e496c312c50ba6ddb5a05",
+      "createdAt": "2026-11-21T22:00:34.245Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Wandering Village</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>300 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1121640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1121640/2b4efcde401fe9632e4e88753c3839c634420198/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1121640",
+          "entry": {
+            "title": "The Wandering Village",
+            "price": 300,
+            "percent": 50,
+            "timestamp": "2026-11-21T22:00:34.245Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7625e4c687ce85463a569074",
+      "createdAt": "2026-11-21T22:00:34.245Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Jackbox Party Pack 7</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>330 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1211630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211630/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1211630",
+          "entry": {
+            "title": "The Jackbox Party Pack 7",
+            "price": 330,
+            "percent": 45,
+            "timestamp": "2026-11-21T22:00:34.245Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c152ba679d69cb9fedeb4a5e",
+      "createdAt": "2026-11-21T22:00:34.245Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Jackbox Party Pack 11</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>390 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3364070\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364070/fd640e8b7a56267b1e01502618f92de11335ffa3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3364070",
+          "entry": {
+            "title": "The Jackbox Party Pack 11",
+            "price": 390,
+            "percent": 35,
+            "timestamp": "2026-11-21T22:00:34.245Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
