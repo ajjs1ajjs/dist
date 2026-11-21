@@ -12851,6 +12851,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T07:00:39.049Z"
+    },
+    {
+      "id": "29594b87bea30b88af7de7db",
+      "createdAt": "2026-11-21T09:00:32.579Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Pillars of Eternity II: Deadfire</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>174 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/560130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/560130/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_560130",
+          "entry": {
+            "title": "Pillars of Eternity II: Deadfire",
+            "price": 174,
+            "percent": 75,
+            "timestamp": "2026-11-21T09:00:32.579Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
