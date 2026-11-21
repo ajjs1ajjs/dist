@@ -21966,6 +21966,13 @@
       "percent": 25,
       "timestamp": "2026-11-20T23:00:40.802Z",
       "type": "discount"
+    },
+    "steam_discount_601150": {
+      "title": "Devil May Cry 5",
+      "price": 237,
+      "percent": 75,
+      "timestamp": "2026-11-21T00:00:31.305Z",
+      "type": "discount"
     }
   }
 }
