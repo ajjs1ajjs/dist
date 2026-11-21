@@ -13082,6 +13082,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T19:00:51.268Z"
+    },
+    {
+      "id": "ededa30285d81d0d529b64a1",
+      "createdAt": "2026-11-21T20:00:33.677Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Escapists 2</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>450 грн</s> ➡️ <b>45 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/641990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_641990",
+          "entry": {
+            "title": "The Escapists 2",
+            "price": 45,
+            "percent": 90,
+            "timestamp": "2026-11-21T20:00:33.677Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0b04ba7dc4b31f7ab331db4c",
+      "createdAt": "2026-11-21T20:00:33.677Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stray</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>579 грн</s> ➡️ <b>289 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1332010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1332010",
+          "entry": {
+            "title": "Stray",
+            "price": 289,
+            "percent": 50,
+            "timestamp": "2026-11-21T20:00:33.677Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
