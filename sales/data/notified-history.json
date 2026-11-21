@@ -5269,5 +5269,12 @@
     "percent": 45,
     "timestamp": "2026-11-21T22:00:34.245Z",
     "type": "discount"
+  },
+  "steam_discount_3364070": {
+    "title": "The Jackbox Party Pack 11",
+    "price": 390,
+    "percent": 35,
+    "timestamp": "2026-11-21T22:00:34.245Z",
+    "type": "discount"
   }
 }
