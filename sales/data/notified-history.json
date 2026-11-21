@@ -5185,5 +5185,12 @@
     "percent": 65,
     "timestamp": "2026-11-21T11:00:37.125Z",
     "type": "discount"
+  },
+  "steam_discount_4224910": {
+    "title": "Ready or Not: Boiling Point",
+    "price": 112,
+    "percent": 50,
+    "timestamp": "2026-11-21T11:00:37.125Z",
+    "type": "discount"
   }
 }
