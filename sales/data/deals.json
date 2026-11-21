@@ -22111,6 +22111,13 @@
       "percent": 34,
       "timestamp": "2026-11-21T12:00:36.208Z",
       "type": "discount"
+    },
+    "steam_discount_3548580": {
+      "title": "Chill with You : Lo-Fi Story",
+      "price": 172,
+      "percent": 35,
+      "timestamp": "2026-11-21T15:00:30.432Z",
+      "type": "discount"
     }
   }
 }
