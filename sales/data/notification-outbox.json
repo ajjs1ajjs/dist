@@ -12599,6 +12599,126 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-20T23:00:50.900Z"
+    },
+    {
+      "id": "d822f55d6265a51070f22ee1",
+      "createdAt": "2026-11-21T00:00:31.305Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Devil May Cry 5</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>237 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/601150\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_601150",
+          "entry": {
+            "title": "Devil May Cry 5",
+            "price": 237,
+            "percent": 75,
+            "timestamp": "2026-11-21T00:00:31.305Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "39efb9204b187bdb11c82b8b",
+      "createdAt": "2026-11-21T00:00:31.305Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ori and the Will of the Wisps</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>379 грн</s> ➡️ <b>94 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1057090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1057090",
+          "entry": {
+            "title": "Ori and the Will of the Wisps",
+            "price": 94,
+            "percent": 75,
+            "timestamp": "2026-11-21T00:00:31.305Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4468b411a7178611c414dd26",
+      "createdAt": "2026-11-21T00:00:31.305Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Pentiment</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>69 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1205520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205520/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1205520",
+          "entry": {
+            "title": "Pentiment",
+            "price": 69,
+            "percent": 75,
+            "timestamp": "2026-11-21T00:00:31.305Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e7558ab5a9aa8e30c22b4f96",
+      "createdAt": "2026-11-21T00:00:31.305Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Fable Anniversary</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>429 грн</s> ➡️ <b>128 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/288470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_288470",
+          "entry": {
+            "title": "Fable Anniversary",
+            "price": 128,
+            "percent": 70,
+            "timestamp": "2026-11-21T00:00:31.305Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c7b0907a201edccaf6142ce9",
+      "createdAt": "2026-11-21T00:00:31.305Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Forza Motorsport</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>679 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2440510\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440510/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2440510",
+          "entry": {
+            "title": "Forza Motorsport",
+            "price": 679,
+            "percent": 60,
+            "timestamp": "2026-11-21T00:00:31.305Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "51d0686a4cbc9b3ebde19b08",
+      "createdAt": "2026-11-21T00:00:31.305Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stupid Never Dies</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 899 грн</s> ➡️ <b>1 424 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3486530\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3486530/705ce263956aa328b857ec05e6c9e0bb20091ee1/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3486530",
+          "entry": {
+            "title": "Stupid Never Dies",
+            "price": 1424,
+            "percent": 25,
+            "timestamp": "2026-11-21T00:00:31.305Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
