@@ -5101,5 +5101,12 @@
     "percent": 75,
     "timestamp": "2026-11-21T00:00:31.305Z",
     "type": "discount"
+  },
+  "steam_discount_288470": {
+    "title": "Fable Anniversary",
+    "price": 128,
+    "percent": 70,
+    "timestamp": "2026-11-21T00:00:31.305Z",
+    "type": "discount"
   }
 }
