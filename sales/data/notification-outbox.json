@@ -12872,6 +12872,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T09:00:37.186Z"
+    },
+    {
+      "id": "170f4ec2045e15b2cb856efa",
+      "createdAt": "2026-11-21T11:00:37.125Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Outer Worlds: Spacer&#39;s Choice Edition</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 599 грн</s> ➡️ <b>399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1920490\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1920490/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1920490",
+          "entry": {
+            "title": "The Outer Worlds: Spacer's Choice Edition",
+            "price": 399,
+            "percent": 75,
+            "timestamp": "2026-11-21T11:00:37.125Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5a752c9f1943982db2720cb7",
+      "createdAt": "2026-11-21T11:00:37.125Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Age of Empires IV: Knights of Cross and Rose</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>449 грн</s> ➡️ <b>157 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3144890\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3144890/80b6adb21c701ca030cb09441c5d740f3afedcdc/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3144890",
+          "entry": {
+            "title": "Age of Empires IV: Knights of Cross and Rose",
+            "price": 157,
+            "percent": 65,
+            "timestamp": "2026-11-21T11:00:37.125Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0287c5e6888d7a5987f8f3c5",
+      "createdAt": "2026-11-21T11:00:37.125Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ready or Not: Boiling Point</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>225 грн</s> ➡️ <b>112 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4224910\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224910/fe661496f400d7d873cdb337afc52f946f65ca6a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4224910",
+          "entry": {
+            "title": "Ready or Not: Boiling Point",
+            "price": 112,
+            "percent": 50,
+            "timestamp": "2026-11-21T11:00:37.125Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
