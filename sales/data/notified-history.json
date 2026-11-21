@@ -5234,5 +5234,12 @@
     "percent": 90,
     "timestamp": "2026-11-21T20:00:33.677Z",
     "type": "discount"
+  },
+  "steam_discount_1332010": {
+    "title": "Stray",
+    "price": 289,
+    "percent": 50,
+    "timestamp": "2026-11-21T20:00:33.677Z",
+    "type": "discount"
   }
 }
