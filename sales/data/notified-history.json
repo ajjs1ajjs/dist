@@ -5220,5 +5220,12 @@
     "percent": 50,
     "timestamp": "2026-11-21T19:00:39.404Z",
     "type": "discount"
+  },
+  "steam_discount_4094660": {
+    "title": "Rivage",
+    "price": 344,
+    "percent": 35,
+    "timestamp": "2026-11-21T19:00:39.404Z",
+    "type": "discount"
   }
 }
