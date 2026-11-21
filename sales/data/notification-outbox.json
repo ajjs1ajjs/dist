@@ -12935,6 +12935,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T11:00:51.849Z"
+    },
+    {
+      "id": "bd0816b65ade9758207769df",
+      "createdAt": "2026-11-21T12:00:36.208Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tower Wizard</b>\n🏷️ Знижка: <b>-34%</b>\n💰 Ціна: <s>74 грн</s> ➡️ <b>49 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3372980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3372980/80f26a18109dc2dd2022d633d6716732a7f2d1ea/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3372980",
+          "entry": {
+            "title": "Tower Wizard",
+            "price": 49,
+            "percent": 34,
+            "timestamp": "2026-11-21T12:00:36.208Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
