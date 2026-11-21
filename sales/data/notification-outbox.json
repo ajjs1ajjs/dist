@@ -13019,6 +13019,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T18:00:35.530Z"
+    },
+    {
+      "id": "d4d3eaffc35f7137ab1ec440",
+      "createdAt": "2026-11-21T19:00:39.404Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gears Tactics</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>760 грн</s> ➡️ <b>190 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1184050\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184050/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1184050",
+          "entry": {
+            "title": "Gears Tactics",
+            "price": 190,
+            "percent": 75,
+            "timestamp": "2026-11-21T19:00:39.404Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b2d5b16f2af6b2e1322d844c",
+      "createdAt": "2026-11-21T19:00:39.404Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Outer Wilds</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/753640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_753640",
+          "entry": {
+            "title": "Outer Wilds",
+            "price": 249,
+            "percent": 50,
+            "timestamp": "2026-11-21T19:00:39.404Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3fb1bee7fec8db34ab27d5ba",
+      "createdAt": "2026-11-21T19:00:39.404Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Rivage</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>530 грн</s> ➡️ <b>344 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4094660\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/b92ce011ddcbda9b19968c381c56520931971356/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4094660",
+          "entry": {
+            "title": "Rivage",
+            "price": 344,
+            "percent": 35,
+            "timestamp": "2026-11-21T19:00:39.404Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
