@@ -13670,6 +13670,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T10:00:42.315Z"
+    },
+    {
+      "id": "4d646e5fff9763e52863d61d",
+      "createdAt": "2026-11-22T11:00:28.725Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Flotsam</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>164 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/821250\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/821250/e21eb90e4035e5054a88d078f5a72c69b7906281/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_821250",
+          "entry": {
+            "title": "Flotsam",
+            "price": 164,
+            "percent": 50,
+            "timestamp": "2026-11-22T11:00:28.725Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
