@@ -13586,6 +13586,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T08:00:40.088Z"
+    },
+    {
+      "id": "b29fa8a1c8c11e7f3b9d10b3",
+      "createdAt": "2026-11-22T09:00:28.740Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Old World</b>\n🏷️ Знижка: <b>-91%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>53 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/597180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597180/60eb6a6fe13b186814d0e3f804124303a71eeaa3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_597180",
+          "entry": {
+            "title": "Old World",
+            "price": 53,
+            "percent": 91,
+            "timestamp": "2026-11-22T09:00:28.740Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6b8b341e3ee94b28bb7d4d2d",
+      "createdAt": "2026-11-22T09:00:28.740Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Smushi Come Home</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>166 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1740300\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740300/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1740300",
+          "entry": {
+            "title": "Smushi Come Home",
+            "price": 166,
+            "percent": 60,
+            "timestamp": "2026-11-22T09:00:28.740Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
