@@ -13691,6 +13691,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T11:00:32.959Z"
+    },
+    {
+      "id": "e7446c866299109dbe7c918e",
+      "createdAt": "2026-11-22T13:00:28.575Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Shadow Gambit: The Cursed Crew</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1545560\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1545560/140241d57e1cdf7acf3d5046c0addcf4facfeed3/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1545560",
+          "entry": {
+            "title": "Shadow Gambit: The Cursed Crew",
+            "price": 119,
+            "percent": 80,
+            "timestamp": "2026-11-22T13:00:28.575Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
