@@ -5514,5 +5514,12 @@
     "percent": 65,
     "timestamp": "2026-11-22T20:00:30.293Z",
     "type": "discount"
+  },
+  "steam_discount_2096610": {
+    "title": "Crysis 3 Remastered",
+    "price": 241,
+    "percent": 65,
+    "timestamp": "2026-11-22T20:00:30.293Z",
+    "type": "discount"
   }
 }
