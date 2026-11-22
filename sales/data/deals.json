@@ -23777,6 +23777,13 @@
       "percent": 26,
       "timestamp": "2026-11-22T01:00:35.035Z",
       "type": "discount"
+    },
+    "steam_discount_2069250": {
+      "title": "High On Life 2",
+      "price": 573,
+      "percent": 25,
+      "timestamp": "2026-11-22T01:00:35.035Z",
+      "type": "discount"
     }
   }
 }
