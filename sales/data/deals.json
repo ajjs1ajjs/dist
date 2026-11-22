@@ -24270,6 +24270,13 @@
       "percent": 60,
       "timestamp": "2026-11-22T21:00:33.455Z",
       "type": "discount"
+    },
+    "steam_discount_2289750": {
+      "title": "Super Fantasy Kingdom",
+      "price": 149,
+      "percent": 50,
+      "timestamp": "2026-11-22T23:00:33.538Z",
+      "type": "discount"
     }
   }
 }
