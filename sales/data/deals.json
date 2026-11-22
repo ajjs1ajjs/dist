@@ -23925,6 +23925,13 @@
       "percent": 60,
       "timestamp": "2026-11-22T09:00:28.740Z",
       "type": "discount"
+    },
+    "steam_discount_501300": {
+      "title": "What Remains of Edith Finch",
+      "price": 99,
+      "percent": 75,
+      "timestamp": "2026-11-22T10:00:33.467Z",
+      "type": "discount"
     }
   }
 }
