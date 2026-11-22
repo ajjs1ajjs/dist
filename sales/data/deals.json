@@ -24050,6 +24050,13 @@
       "percent": 80,
       "timestamp": "2026-11-22T16:00:33.176Z",
       "type": "discount"
+    },
+    "steam_discount_897450": {
+      "title": "The Survivalists",
+      "price": 41,
+      "percent": 90,
+      "timestamp": "2026-11-22T17:00:35.885Z",
+      "type": "discount"
     }
   }
 }
