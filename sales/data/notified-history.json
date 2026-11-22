@@ -5444,5 +5444,12 @@
     "percent": 90,
     "timestamp": "2026-11-22T14:00:36.359Z",
     "type": "discount"
+  },
+  "steam_discount_673750": {
+    "title": "Super Bunny Man",
+    "price": 192,
+    "percent": 40,
+    "timestamp": "2026-11-22T14:00:36.359Z",
+    "type": "discount"
   }
 }
