@@ -23770,6 +23770,13 @@
       "percent": 50,
       "timestamp": "2026-11-22T01:00:35.035Z",
       "type": "discount"
+    },
+    "steam_discount_2432860": {
+      "title": "MENACE",
+      "price": 443,
+      "percent": 26,
+      "timestamp": "2026-11-22T01:00:35.035Z",
+      "type": "discount"
     }
   }
 }
