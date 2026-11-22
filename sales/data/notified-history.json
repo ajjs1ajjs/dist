@@ -5325,5 +5325,12 @@
     "percent": 60,
     "timestamp": "2026-11-22T01:00:35.035Z",
     "type": "discount"
+  },
+  "steam_discount_2764460": {
+    "title": "Sandustry",
+    "price": 149,
+    "percent": 50,
+    "timestamp": "2026-11-22T01:00:35.035Z",
+    "type": "discount"
   }
 }
