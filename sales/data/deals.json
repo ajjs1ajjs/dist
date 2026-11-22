@@ -23666,6 +23666,13 @@
       "percent": 35,
       "timestamp": "2026-11-21T22:00:34.245Z",
       "type": "discount"
+    },
+    "steam_discount_1336490": {
+      "title": "Against the Storm",
+      "price": 79,
+      "percent": 80,
+      "timestamp": "2026-11-22T00:00:30.304Z",
+      "type": "discount"
     }
   }
 }
