@@ -24014,6 +24014,13 @@
       "percent": 80,
       "timestamp": "2026-11-22T13:00:28.575Z",
       "type": "discount"
+    },
+    "steam_discount_815370": {
+      "title": "Green Hell",
+      "price": 36,
+      "percent": 90,
+      "timestamp": "2026-11-22T14:00:36.359Z",
+      "type": "discount"
     }
   }
 }
