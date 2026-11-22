@@ -5472,5 +5472,12 @@
     "percent": 90,
     "timestamp": "2026-11-22T17:00:35.885Z",
     "type": "discount"
+  },
+  "steam_discount_3527760": {
+    "title": "RoboCop: Rogue City - Unfinished Business",
+    "price": 192,
+    "percent": 68,
+    "timestamp": "2026-11-22T19:00:33.589Z",
+    "type": "discount"
   }
 }
