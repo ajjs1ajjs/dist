@@ -23673,6 +23673,13 @@
       "percent": 80,
       "timestamp": "2026-11-22T00:00:30.304Z",
       "type": "discount"
+    },
+    "steam_discount_2933130": {
+      "title": "The Lord of the Rings: Return to Moria™",
+      "price": 210,
+      "percent": 65,
+      "timestamp": "2026-11-22T00:00:30.304Z",
+      "type": "discount"
     }
   }
 }
