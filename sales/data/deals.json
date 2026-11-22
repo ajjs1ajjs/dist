@@ -24216,6 +24216,13 @@
       "percent": 65,
       "timestamp": "2026-11-22T20:00:30.293Z",
       "type": "discount"
+    },
+    "steam_discount_3167020": {
+      "title": "Escape from Duckov 逃离鸭科夫",
+      "price": 401,
+      "percent": 25,
+      "timestamp": "2026-11-22T20:00:30.293Z",
+      "type": "discount"
     }
   }
 }
