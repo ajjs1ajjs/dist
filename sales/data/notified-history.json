@@ -5451,5 +5451,12 @@
     "percent": 40,
     "timestamp": "2026-11-22T14:00:36.359Z",
     "type": "discount"
+  },
+  "steam_discount_1176470": {
+    "title": "Terra Invicta",
+    "price": 299,
+    "percent": 50,
+    "timestamp": "2026-11-22T15:00:32.164Z",
+    "type": "discount"
   }
 }
