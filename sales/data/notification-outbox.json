@@ -13985,6 +13985,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T20:00:54.725Z"
+    },
+    {
+      "id": "be1f0cdd8f2b0631d46bc6c9",
+      "createdAt": "2026-11-22T21:00:33.455Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>REMATCH</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>900 грн</s> ➡️ <b>360 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2138720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/fafb8208ecb35de4409a884bb76a0fd3263932c5/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2138720",
+          "entry": {
+            "title": "REMATCH",
+            "price": 360,
+            "percent": 60,
+            "timestamp": "2026-11-22T21:00:33.455Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
