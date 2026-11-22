@@ -5416,5 +5416,12 @@
     "percent": 75,
     "timestamp": "2026-11-22T10:00:33.467Z",
     "type": "discount"
+  },
+  "steam_discount_3365170": {
+    "title": "Firehawk: FPV Drone Shooter",
+    "price": 207,
+    "percent": 50,
+    "timestamp": "2026-11-22T10:00:33.467Z",
+    "type": "discount"
   }
 }
