@@ -5507,5 +5507,12 @@
     "percent": 69,
     "timestamp": "2026-11-22T20:00:30.293Z",
     "type": "discount"
+  },
+  "steam_discount_2096600": {
+    "title": "Crysis 2 Remastered",
+    "price": 241,
+    "percent": 65,
+    "timestamp": "2026-11-22T20:00:30.293Z",
+    "type": "discount"
   }
 }
