@@ -5388,5 +5388,12 @@
     "percent": 70,
     "timestamp": "2026-11-22T06:00:31.664Z",
     "type": "discount"
+  },
+  "steam_discount_2881650": {
+    "title": "Content Warning",
+    "price": 95,
+    "percent": 38,
+    "timestamp": "2026-11-22T08:00:34.500Z",
+    "type": "discount"
   }
 }
