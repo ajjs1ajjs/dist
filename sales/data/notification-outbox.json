@@ -14006,6 +14006,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T21:00:37.652Z"
+    },
+    {
+      "id": "11f5adbb547d27f87f2a29dd",
+      "createdAt": "2026-11-22T23:00:33.538Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Super Fantasy Kingdom</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2289750\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2289750/eb332265029d3128f000e55d0199cfbee4ffce7b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2289750",
+          "entry": {
+            "title": "Super Fantasy Kingdom",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-22T23:00:33.538Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
