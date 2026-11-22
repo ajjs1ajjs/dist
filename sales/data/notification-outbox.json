@@ -13775,6 +13775,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T15:00:36.818Z"
+    },
+    {
+      "id": "ef687916ed7d837cd6916c24",
+      "createdAt": "2026-11-22T16:00:33.176Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Escapists</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>55 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/298630\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298630/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_298630",
+          "entry": {
+            "title": "The Escapists",
+            "price": 55,
+            "percent": 80,
+            "timestamp": "2026-11-22T16:00:33.176Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
