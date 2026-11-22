@@ -23687,6 +23687,13 @@
       "percent": 60,
       "timestamp": "2026-11-22T00:00:30.304Z",
       "type": "discount"
+    },
+    "steam_discount_3407390": {
+      "title": "ENDLESS Legend™ 2",
+      "price": 349,
+      "percent": 50,
+      "timestamp": "2026-11-22T00:00:30.304Z",
+      "type": "discount"
     }
   }
 }
