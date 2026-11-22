@@ -5458,5 +5458,12 @@
     "percent": 50,
     "timestamp": "2026-11-22T15:00:32.164Z",
     "type": "discount"
+  },
+  "steam_discount_298630": {
+    "title": "The Escapists",
+    "price": 55,
+    "percent": 80,
+    "timestamp": "2026-11-22T16:00:33.176Z",
+    "type": "discount"
   }
 }
