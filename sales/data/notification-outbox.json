@@ -13628,6 +13628,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T09:00:37.269Z"
+    },
+    {
+      "id": "f4e0fa5e76ce0490c9a340dc",
+      "createdAt": "2026-11-22T10:00:33.467Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>What Remains of Edith Finch</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>99 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/501300\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/501300/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_501300",
+          "entry": {
+            "title": "What Remains of Edith Finch",
+            "price": 99,
+            "percent": 75,
+            "timestamp": "2026-11-22T10:00:33.467Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "12e9a0a207addd69d9965ceb",
+      "createdAt": "2026-11-22T10:00:33.467Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Firehawk: FPV Drone Shooter</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3365170\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365170/423d77964bf0d8db950f93f64cd6601be4de1d95/capsule_231x87_alt_assets_1.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3365170",
+          "entry": {
+            "title": "Firehawk: FPV Drone Shooter",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-22T10:00:33.467Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
