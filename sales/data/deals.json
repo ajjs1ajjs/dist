@@ -23846,6 +23846,13 @@
       "percent": 50,
       "timestamp": "2026-11-22T04:00:29.487Z",
       "type": "discount"
+    },
+    "steam_discount_1857090": {
+      "title": "Norland",
+      "price": 199,
+      "percent": 50,
+      "timestamp": "2026-11-22T05:00:32.585Z",
+      "type": "discount"
     }
   }
 }
