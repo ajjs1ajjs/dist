@@ -13439,6 +13439,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T01:00:58.846Z"
+    },
+    {
+      "id": "4ee00e1f530f747904825da4",
+      "createdAt": "2026-11-22T02:00:32.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>High On Life</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>174 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1583230\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583230/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1583230",
+          "entry": {
+            "title": "High On Life",
+            "price": 174,
+            "percent": 75,
+            "timestamp": "2026-11-22T02:00:32.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c5c6e8acab066d4520577925",
+      "createdAt": "2026-11-22T02:00:32.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Xenonauts 2</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/538030\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538030/8633d985bdb188141181e129f1ac9d058705a7f0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_538030",
+          "entry": {
+            "title": "Xenonauts 2",
+            "price": 239,
+            "percent": 60,
+            "timestamp": "2026-11-22T02:00:32.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d6ab34a7e59660acb58c859f",
+      "createdAt": "2026-11-22T02:00:32.699Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Crime Scene Cleaner</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>419 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1040200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040200/8de1ccf2f83b32accd61ed86d814712e04ae9259/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1040200",
+          "entry": {
+            "title": "Crime Scene Cleaner",
+            "price": 419,
+            "percent": 30,
+            "timestamp": "2026-11-22T02:00:32.699Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
