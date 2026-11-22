@@ -23756,6 +23756,13 @@
       "percent": 70,
       "timestamp": "2026-11-22T01:00:35.035Z",
       "type": "discount"
+    },
+    "steam_discount_2071280": {
+      "title": "Ravenswatch",
+      "price": 184,
+      "percent": 60,
+      "timestamp": "2026-11-22T01:00:35.035Z",
+      "type": "discount"
     }
   }
 }
