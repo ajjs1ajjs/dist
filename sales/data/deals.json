@@ -23988,6 +23988,13 @@
       "percent": 50,
       "timestamp": "2026-11-22T11:00:28.725Z",
       "type": "discount"
+    },
+    "steam_discount_1545560": {
+      "title": "Shadow Gambit: The Cursed Crew",
+      "price": 119,
+      "percent": 80,
+      "timestamp": "2026-11-22T13:00:28.575Z",
+      "type": "discount"
     }
   }
 }
