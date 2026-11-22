@@ -23820,6 +23820,13 @@
       "percent": 25,
       "timestamp": "2026-11-22T01:00:35.035Z",
       "type": "discount"
+    },
+    "steam_discount_1583230": {
+      "title": "High On Life",
+      "price": 174,
+      "percent": 75,
+      "timestamp": "2026-11-22T02:00:32.699Z",
+      "type": "discount"
     }
   }
 }
