@@ -5528,5 +5528,12 @@
     "percent": 25,
     "timestamp": "2026-11-22T20:00:30.293Z",
     "type": "discount"
+  },
+  "steam_discount_2138720": {
+    "title": "REMATCH",
+    "price": 360,
+    "percent": 60,
+    "timestamp": "2026-11-22T21:00:33.455Z",
+    "type": "discount"
   }
 }
