@@ -5486,5 +5486,12 @@
     "percent": 35,
     "timestamp": "2026-11-22T19:00:33.589Z",
     "type": "discount"
+  },
+  "steam_discount_262060": {
+    "title": "Darkest Dungeon®",
+    "price": 74,
+    "percent": 85,
+    "timestamp": "2026-11-22T20:00:30.293Z",
+    "type": "discount"
   }
 }
