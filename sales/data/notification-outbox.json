@@ -13565,6 +13565,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T06:00:35.611Z"
+    },
+    {
+      "id": "f551f17c72e0bbaa66b9157f",
+      "createdAt": "2026-11-22T08:00:34.500Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Content Warning</b>\n🏷️ Знижка: <b>-38%</b>\n💰 Ціна: <s>154 грн</s> ➡️ <b>95 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2881650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2881650/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2881650",
+          "entry": {
+            "title": "Content Warning",
+            "price": 95,
+            "percent": 38,
+            "timestamp": "2026-11-22T08:00:34.500Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
