@@ -13523,6 +13523,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T04:00:34.261Z"
+    },
+    {
+      "id": "f94bed4052b4880d64b43f35",
+      "createdAt": "2026-11-22T05:00:32.585Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Norland</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1857090\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1857090/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1857090",
+          "entry": {
+            "title": "Norland",
+            "price": 199,
+            "percent": 50,
+            "timestamp": "2026-11-22T05:00:32.585Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
