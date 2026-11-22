@@ -5290,5 +5290,12 @@
     "percent": 65,
     "timestamp": "2026-11-22T00:00:30.304Z",
     "type": "discount"
+  },
+  "steam_discount_285900": {
+    "title": "Gang Beasts",
+    "price": 155,
+    "percent": 60,
+    "timestamp": "2026-11-22T00:00:30.304Z",
+    "type": "discount"
   }
 }
