@@ -13334,6 +13334,106 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T00:00:49.997Z"
+    },
+    {
+      "id": "88c4674afa029a61461c0fb2",
+      "createdAt": "2026-11-22T01:00:35.035Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hell is Us</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 500 грн</s> ➡️ <b>450 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1620730\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/1b050a999f09ce7648d857d736a5e23664fe5637/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1620730",
+          "entry": {
+            "title": "Hell is Us",
+            "price": 450,
+            "percent": 70,
+            "timestamp": "2026-11-22T01:00:35.035Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fe2da16cdac38ea1ad1b1504",
+      "createdAt": "2026-11-22T01:00:35.035Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ravenswatch</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>460 грн</s> ➡️ <b>184 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2071280\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2071280/8e60ae4a2e160ffe05282c983bda455fa6bfa170/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2071280",
+          "entry": {
+            "title": "Ravenswatch",
+            "price": 184,
+            "percent": 60,
+            "timestamp": "2026-11-22T01:00:35.035Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6b5c4199396cf5cca419604c",
+      "createdAt": "2026-11-22T01:00:35.035Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sandustry</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2764460\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/6ecbc0c36b25ff1131dc2262266410bc9ef60d45/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2764460",
+          "entry": {
+            "title": "Sandustry",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-22T01:00:35.035Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0036b5e31649dcf88f3bc9b0",
+      "createdAt": "2026-11-22T01:00:35.035Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>MENACE</b>\n🏷️ Знижка: <b>-26%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>443 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2432860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432860/51096f28fa1f4d471436a5fd559e2c7ed2c791ab/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2432860",
+          "entry": {
+            "title": "MENACE",
+            "price": 443,
+            "percent": 26,
+            "timestamp": "2026-11-22T01:00:35.035Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2a86409d119730f41a2acbe5",
+      "createdAt": "2026-11-22T01:00:35.035Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>High On Life 2</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>765 грн</s> ➡️ <b>573 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2069250\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069250/c9db16c232a4fd74e466f85b20a8b61bddd4aa1e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2069250",
+          "entry": {
+            "title": "High On Life 2",
+            "price": 573,
+            "percent": 25,
+            "timestamp": "2026-11-22T01:00:35.035Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
