@@ -13817,6 +13817,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T17:00:40.373Z"
+    },
+    {
+      "id": "1fb354c3bd06e8ce0a7babf0",
+      "createdAt": "2026-11-22T19:00:33.589Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>RoboCop: Rogue City - Unfinished Business</b>\n🏷️ Знижка: <b>-68%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>192 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3527760\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527760/0fb23456bf47c3b2a63ee06a488a34fa51bf2f62/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3527760",
+          "entry": {
+            "title": "RoboCop: Rogue City - Unfinished Business",
+            "price": 192,
+            "percent": 68,
+            "timestamp": "2026-11-22T19:00:33.589Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6c31874ab70be35e2d474f10",
+      "createdAt": "2026-11-22T19:00:33.589Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Nova Roma</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>259 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2426530\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2426530/43efc9665f39a11ab7f7513346ca4eee646166d0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2426530",
+          "entry": {
+            "title": "Nova Roma",
+            "price": 259,
+            "percent": 35,
+            "timestamp": "2026-11-22T19:00:33.589Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
