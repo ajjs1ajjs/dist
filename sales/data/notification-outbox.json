@@ -13502,6 +13502,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T02:00:44.179Z"
+    },
+    {
+      "id": "564d236f05f0c587aced4da6",
+      "createdAt": "2026-11-22T04:00:29.487Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Outer Wilds - Echoes of the Eye</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1622100\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622100/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1622100",
+          "entry": {
+            "title": "Outer Wilds - Echoes of the Eye",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-22T04:00:29.487Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
