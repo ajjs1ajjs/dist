@@ -5360,5 +5360,12 @@
     "percent": 60,
     "timestamp": "2026-11-22T02:00:32.699Z",
     "type": "discount"
+  },
+  "steam_discount_1040200": {
+    "title": "Crime Scene Cleaner",
+    "price": 419,
+    "percent": 30,
+    "timestamp": "2026-11-22T02:00:32.699Z",
+    "type": "discount"
   }
 }
