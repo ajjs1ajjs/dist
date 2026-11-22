@@ -13796,6 +13796,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T16:00:37.730Z"
+    },
+    {
+      "id": "add750d559a40439167a78eb",
+      "createdAt": "2026-11-22T17:00:35.885Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Survivalists</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>419 грн</s> ➡️ <b>41 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/897450\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/897450/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_897450",
+          "entry": {
+            "title": "The Survivalists",
+            "price": 41,
+            "percent": 90,
+            "timestamp": "2026-11-22T17:00:35.885Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
