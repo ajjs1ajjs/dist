@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-11-21T23:00:30.155Z",
+  "lastUpdated": "2026-11-22T00:00:30.304Z",
   "sourceUpdates": {
-    "steam": "2026-11-21T23:00:30.155Z",
-    "gamepass": "2026-11-21T23:00:30.155Z"
+    "steam": "2026-11-22T00:00:30.304Z",
+    "gamepass": "2026-11-22T00:00:30.304Z"
   },
   "priceHistory": {
     "2600": [
@@ -144,6 +144,11 @@
         "date": "2026-11-21",
         "price": 636,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 636,
+        "currency": "UAH"
       }
     ],
     "10150": [
@@ -181,6 +186,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 636,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 636,
         "currency": "UAH"
       }
@@ -235,6 +245,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 139,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 139,
         "currency": "UAH"
       }
@@ -310,6 +325,11 @@
         "date": "2026-11-21",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "42700": [
@@ -335,6 +355,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 849,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 849,
         "currency": "UAH"
       }
@@ -381,6 +406,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 97,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 97,
         "currency": "UAH"
       }
@@ -432,6 +462,11 @@
         "date": "2026-11-21",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "203140": [
@@ -476,6 +511,11 @@
         "date": "2026-11-21",
         "price": 679,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 679,
+        "currency": "UAH"
       }
     ],
     "209650": [
@@ -501,6 +541,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 679,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 679,
         "currency": "UAH"
       }
@@ -544,6 +589,11 @@
         "date": "2026-11-21",
         "price": 114,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 114,
+        "currency": "UAH"
       }
     ],
     "214950": [
@@ -574,6 +624,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 159,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 159,
         "currency": "UAH"
       }
@@ -610,6 +665,11 @@
         "date": "2026-11-21",
         "price": 106,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 106,
+        "currency": "UAH"
       }
     ],
     "220200": [
@@ -625,6 +685,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 224,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 224,
         "currency": "UAH"
       }
@@ -669,6 +734,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 34,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 34,
         "currency": "UAH"
       }
@@ -721,6 +791,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 100,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 100,
         "currency": "UAH"
       }
@@ -894,6 +969,11 @@
         "date": "2026-11-21",
         "price": 103,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 103,
+        "currency": "UAH"
       }
     ],
     "244850": [
@@ -924,6 +1004,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 422,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 422,
         "currency": "UAH"
       }
@@ -1072,6 +1157,11 @@
         "date": "2026-11-21",
         "price": 100,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 100,
+        "currency": "UAH"
       }
     ],
     "278080": [
@@ -1098,6 +1188,13 @@
         "currency": "UAH"
       }
     ],
+    "285900": [
+      {
+        "date": "2026-11-22",
+        "price": 155,
+        "currency": "UAH"
+      }
+    ],
     "285920": [
       {
         "date": "2026-11-15",
@@ -1115,6 +1212,11 @@
         "date": "2026-11-21",
         "price": 128,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 128,
+        "currency": "UAH"
       }
     ],
     "289070": [
@@ -1130,6 +1232,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 52,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 52,
         "currency": "UAH"
       }
@@ -1169,6 +1276,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 638,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 638,
         "currency": "UAH"
       }
@@ -1213,11 +1325,21 @@
         "date": "2026-11-21",
         "price": 91,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 91,
+        "currency": "UAH"
       }
     ],
     "302670": [
       {
         "date": "2026-11-21",
+        "price": 32,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 32,
         "currency": "UAH"
       }
@@ -1262,6 +1384,11 @@
         "date": "2026-11-21",
         "price": 185,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 185,
+        "currency": "UAH"
       }
     ],
     "304214": [
@@ -1301,6 +1428,11 @@
         "date": "2026-11-21",
         "price": 68,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 68,
+        "currency": "UAH"
       }
     ],
     "307690": [
@@ -1321,6 +1453,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 56,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 56,
         "currency": "UAH"
       }
@@ -1360,6 +1497,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 638,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 638,
         "currency": "UAH"
       }
@@ -1498,6 +1640,11 @@
         "date": "2026-11-21",
         "price": 151,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 151,
+        "currency": "UAH"
       }
     ],
     "362890": [
@@ -1530,6 +1677,11 @@
         "date": "2026-11-21",
         "price": 103,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 103,
+        "currency": "UAH"
       }
     ],
     "364360": [
@@ -1560,6 +1712,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 237,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 237,
         "currency": "UAH"
       }
@@ -1611,6 +1768,11 @@
         "date": "2026-11-21",
         "price": 119,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 119,
+        "currency": "UAH"
       }
     ],
     "386940": [
@@ -1641,6 +1803,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 134,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 134,
         "currency": "UAH"
       }
@@ -1699,6 +1866,11 @@
         "date": "2026-11-21",
         "price": 679,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 679,
+        "currency": "UAH"
       }
     ],
     "394360": [
@@ -1746,6 +1918,11 @@
         "date": "2026-11-21",
         "price": 404,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 404,
+        "currency": "UAH"
       }
     ],
     "394510": [
@@ -1761,6 +1938,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 55,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 55,
         "currency": "UAH"
       }
@@ -1788,6 +1970,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 194,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 194,
         "currency": "UAH"
       }
@@ -1822,6 +2009,11 @@
         "date": "2026-11-21",
         "price": 175,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 175,
+        "currency": "UAH"
       }
     ],
     "410900": [
@@ -1844,6 +2036,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 79,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 79,
         "currency": "UAH"
       }
@@ -1930,6 +2127,11 @@
         "date": "2026-11-21",
         "price": 111,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 111,
+        "currency": "UAH"
       }
     ],
     "424840": [
@@ -1940,6 +2142,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 162,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 162,
         "currency": "UAH"
       }
@@ -1976,6 +2183,13 @@
         "currency": "UAH"
       }
     ],
+    "434170": [
+      {
+        "date": "2026-11-22",
+        "price": 283,
+        "currency": "UAH"
+      }
+    ],
     "447040": [
       {
         "date": "2026-11-18",
@@ -1994,6 +2208,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 137,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 137,
         "currency": "UAH"
       }
@@ -2028,6 +2247,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 98,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 98,
         "currency": "UAH"
       }
@@ -2111,6 +2335,11 @@
         "date": "2026-11-21",
         "price": 300,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 300,
+        "currency": "UAH"
       }
     ],
     "469600": [
@@ -2155,6 +2384,11 @@
         "date": "2026-11-21",
         "price": 638,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 638,
+        "currency": "UAH"
       }
     ],
     "485510": [
@@ -2187,6 +2421,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 194,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 194,
         "currency": "UAH"
       }
@@ -2274,6 +2513,11 @@
         "date": "2026-11-21",
         "price": 135,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 135,
+        "currency": "UAH"
       }
     ],
     "524220": [
@@ -2294,6 +2538,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 186,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 186,
         "currency": "UAH"
       }
@@ -2435,6 +2684,11 @@
         "date": "2026-11-21",
         "price": 137,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 137,
+        "currency": "UAH"
       }
     ],
     "553640": [
@@ -2462,6 +2716,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 899,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 899,
         "currency": "UAH"
       }
@@ -2552,6 +2811,11 @@
         "date": "2026-11-21",
         "price": 174,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 174,
+        "currency": "UAH"
       }
     ],
     "567640": [
@@ -2594,6 +2858,11 @@
         "date": "2026-11-21",
         "price": 95,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 95,
+        "currency": "UAH"
       }
     ],
     "570660": [
@@ -2619,6 +2888,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 0,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 0,
         "currency": "UAH"
       }
@@ -2697,6 +2971,11 @@
         "date": "2026-11-21",
         "price": 14,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 14,
+        "currency": "UAH"
       }
     ],
     "584400": [
@@ -2736,6 +3015,11 @@
         "date": "2026-11-21",
         "price": 237,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 237,
+        "currency": "UAH"
       }
     ],
     "594650": [
@@ -2746,6 +3030,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 251,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 251,
         "currency": "UAH"
       }
@@ -2826,6 +3115,11 @@
         "date": "2026-11-21",
         "price": 237,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 237,
+        "currency": "UAH"
       }
     ],
     "613830": [
@@ -2875,6 +3169,11 @@
     "631510": [
       {
         "date": "2026-11-21",
+        "price": 313,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 313,
         "currency": "UAH"
       }
@@ -2931,11 +3230,21 @@
         "date": "2026-11-21",
         "price": 210,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 210,
+        "currency": "UAH"
       }
     ],
     "641990": [
       {
         "date": "2026-11-21",
+        "price": 45,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 45,
         "currency": "UAH"
       }
@@ -3009,6 +3318,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 230,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 230,
         "currency": "UAH"
       }
@@ -3115,6 +3429,11 @@
         "date": "2026-11-21",
         "price": 249,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 249,
+        "currency": "UAH"
       }
     ],
     "773370": [
@@ -3159,6 +3478,11 @@
         "date": "2026-11-21",
         "price": 344,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 344,
+        "currency": "UAH"
       }
     ],
     "800370": [
@@ -3193,6 +3517,11 @@
         "date": "2026-11-21",
         "price": 199,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 199,
+        "currency": "UAH"
       }
     ],
     "813780": [
@@ -3203,6 +3532,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 589,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 589,
         "currency": "UAH"
       }
@@ -3253,6 +3587,11 @@
         "date": "2026-11-21",
         "price": 159,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 159,
+        "currency": "UAH"
       }
     ],
     "850190": [
@@ -3283,6 +3622,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 180,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 180,
         "currency": "UAH"
       }
@@ -3369,6 +3713,11 @@
         "date": "2026-11-21",
         "price": 228,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 228,
+        "currency": "UAH"
       }
     ],
     "921570": [
@@ -3389,6 +3738,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 480,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 480,
         "currency": "UAH"
       }
@@ -3440,6 +3794,11 @@
         "date": "2026-11-21",
         "price": 186,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 186,
+        "currency": "UAH"
       }
     ],
     "936790": [
@@ -3469,6 +3828,11 @@
     "945360": [
       {
         "date": "2026-11-21",
+        "price": 60,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 60,
         "currency": "UAH"
       }
@@ -3515,6 +3879,11 @@
         "date": "2026-11-21",
         "price": 191,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 191,
+        "currency": "UAH"
       }
     ],
     "976730": [
@@ -3525,6 +3894,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 349,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 349,
         "currency": "UAH"
       }
@@ -3581,6 +3955,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 839,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 839,
         "currency": "UAH"
       }
@@ -3759,6 +4138,11 @@
         "date": "2026-11-21",
         "price": 490,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 490,
+        "currency": "UAH"
       }
     ],
     "1054490": [
@@ -3823,6 +4207,11 @@
     "1057090": [
       {
         "date": "2026-11-21",
+        "price": 94,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 94,
         "currency": "UAH"
       }
@@ -3925,11 +4314,21 @@
         "date": "2026-11-21",
         "price": 663,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 663,
+        "currency": "UAH"
       }
     ],
     "1097840": [
       {
         "date": "2026-11-21",
+        "price": 190,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 190,
         "currency": "UAH"
       }
@@ -4007,6 +4406,11 @@
         "date": "2026-11-21",
         "price": 559,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 559,
+        "currency": "UAH"
       }
     ],
     "1119730": [
@@ -4043,6 +4447,11 @@
     "1135690": [
       {
         "date": "2026-11-21",
+        "price": 111,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 111,
         "currency": "UAH"
       }
@@ -4084,6 +4493,11 @@
         "date": "2026-11-21",
         "price": 284,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 284,
+        "currency": "UAH"
       }
     ],
     "1144200": [
@@ -4094,6 +4508,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 600,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 600,
         "currency": "UAH"
       }
@@ -4118,6 +4537,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 0,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 0,
         "currency": "UAH"
       }
@@ -4213,6 +4637,11 @@
         "date": "2026-11-21",
         "price": 404,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 404,
+        "currency": "UAH"
       }
     ],
     "1164940": [
@@ -4252,6 +4681,11 @@
         "date": "2026-11-21",
         "price": 239,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 239,
+        "currency": "UAH"
       }
     ],
     "1172620": [
@@ -4262,6 +4696,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 449,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 449,
         "currency": "UAH"
       }
@@ -4370,6 +4809,11 @@
     "1205520": [
       {
         "date": "2026-11-21",
+        "price": 69,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 69,
         "currency": "UAH"
       }
@@ -4509,6 +4953,11 @@
         "date": "2026-11-21",
         "price": 330,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 330,
+        "currency": "UAH"
       }
     ],
     "1222680": [
@@ -4524,6 +4973,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 99,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 99,
         "currency": "UAH"
       }
@@ -4560,6 +5014,11 @@
         "date": "2026-11-21",
         "price": 159,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 159,
+        "currency": "UAH"
       }
     ],
     "1225570": [
@@ -4570,6 +5029,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 104,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 104,
         "currency": "UAH"
       }
@@ -4633,6 +5097,11 @@
         "date": "2026-11-21",
         "price": 679,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 679,
+        "currency": "UAH"
       }
     ],
     "1235731": [
@@ -4657,6 +5126,11 @@
         "date": "2026-11-21",
         "price": 679,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 679,
+        "currency": "UAH"
       }
     ],
     "1235734": [
@@ -4667,6 +5141,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 679,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 679,
         "currency": "UAH"
       }
@@ -4701,6 +5180,11 @@
         "date": "2026-11-21",
         "price": 374,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 374,
+        "currency": "UAH"
       }
     ],
     "1237950": [
@@ -4718,6 +5202,11 @@
         "date": "2026-11-21",
         "price": 239,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 239,
+        "currency": "UAH"
       }
     ],
     "1237970": [
@@ -4733,6 +5222,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 119,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 119,
         "currency": "UAH"
       }
@@ -4788,6 +5282,11 @@
         "date": "2026-11-21",
         "price": 64,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 64,
+        "currency": "UAH"
       }
     ],
     "1238820": [
@@ -4798,6 +5297,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 59,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 59,
         "currency": "UAH"
       }
@@ -4817,6 +5321,11 @@
         "date": "2026-11-21",
         "price": 59,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 59,
+        "currency": "UAH"
       }
     ],
     "1238860": [
@@ -4829,6 +5338,11 @@
         "date": "2026-11-21",
         "price": 59,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 59,
+        "currency": "UAH"
       }
     ],
     "1250410": [
@@ -4839,6 +5353,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 539,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 539,
         "currency": "UAH"
       }
@@ -4856,6 +5375,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 395,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 395,
         "currency": "UAH"
       }
@@ -4882,6 +5406,11 @@
         "date": "2026-11-21",
         "price": 139,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 139,
+        "currency": "UAH"
       }
     ],
     "1262580": [
@@ -4892,6 +5421,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 119,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 119,
         "currency": "UAH"
       }
@@ -4914,6 +5448,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 186,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 186,
         "currency": "UAH"
       }
@@ -5006,6 +5545,11 @@
         "date": "2026-11-21",
         "price": 2149,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 2149,
+        "currency": "UAH"
       }
     ],
     "1286680": [
@@ -5065,6 +5609,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 26,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 26,
         "currency": "UAH"
       }
@@ -5157,11 +5706,21 @@
         "date": "2026-11-21",
         "price": 224,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 224,
+        "currency": "UAH"
       }
     ],
     "1332010": [
       {
         "date": "2026-11-21",
+        "price": 289,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 289,
         "currency": "UAH"
       }
@@ -5170,6 +5729,13 @@
       {
         "date": "2026-11-14",
         "price": 78,
+        "currency": "UAH"
+      }
+    ],
+    "1336490": [
+      {
+        "date": "2026-11-22",
+        "price": 79,
         "currency": "UAH"
       }
     ],
@@ -5346,6 +5912,11 @@
         "date": "2026-11-21",
         "price": 587,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 587,
+        "currency": "UAH"
       }
     ],
     "1373960": [
@@ -5462,6 +6033,11 @@
         "date": "2026-11-21",
         "price": 719,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 719,
+        "currency": "UAH"
       }
     ],
     "1413480": [
@@ -5508,6 +6084,11 @@
         "date": "2026-11-21",
         "price": 199,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 199,
+        "currency": "UAH"
       }
     ],
     "1426300": [
@@ -5533,6 +6114,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 0,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 0,
         "currency": "UAH"
       }
@@ -5593,6 +6179,11 @@
         "date": "2026-11-21",
         "price": 919,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 919,
+        "currency": "UAH"
       }
     ],
     "1451090": [
@@ -5620,6 +6211,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 140,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 140,
         "currency": "UAH"
       }
@@ -5680,6 +6276,11 @@
         "date": "2026-11-21",
         "price": 197,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 197,
+        "currency": "UAH"
       }
     ],
     "1465470": [
@@ -5729,6 +6330,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 244,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 244,
         "currency": "UAH"
       }
@@ -5829,6 +6435,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 74,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 74,
         "currency": "UAH"
       }
@@ -5941,6 +6552,11 @@
         "date": "2026-11-21",
         "price": 479,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 479,
+        "currency": "UAH"
       }
     ],
     "1562430": [
@@ -6005,6 +6621,11 @@
         "date": "2026-11-21",
         "price": 323,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 323,
+        "currency": "UAH"
       }
     ],
     "1580790": [
@@ -6061,6 +6682,11 @@
         "date": "2026-11-21",
         "price": 479,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 479,
+        "currency": "UAH"
       }
     ],
     "1594940": [
@@ -6108,6 +6734,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 560,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 560,
         "currency": "UAH"
       }
@@ -6178,6 +6809,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 384,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 384,
         "currency": "UAH"
       }
@@ -6263,6 +6899,11 @@
         "date": "2026-11-21",
         "price": 812,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 812,
+        "currency": "UAH"
       }
     ],
     "1643320": [
@@ -6273,6 +6914,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1329,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1329,
         "currency": "UAH"
       }
@@ -6304,6 +6950,11 @@
         "date": "2026-11-21",
         "price": 560,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 560,
+        "currency": "UAH"
       }
     ],
     "1659040": [
@@ -6331,6 +6982,11 @@
         "date": "2026-11-21",
         "price": 526,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 526,
+        "currency": "UAH"
       }
     ],
     "1659420": [
@@ -6346,6 +7002,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 494,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 494,
         "currency": "UAH"
       }
@@ -6481,6 +7142,11 @@
         "date": "2026-11-21",
         "price": 179,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 179,
+        "currency": "UAH"
       }
     ],
     "1677280": [
@@ -6552,6 +7218,11 @@
         "date": "2026-11-21",
         "price": 569,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 569,
+        "currency": "UAH"
       }
     ],
     "1693980": [
@@ -6567,6 +7238,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 149,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 149,
         "currency": "UAH"
       }
@@ -6640,6 +7316,11 @@
         "date": "2026-11-21",
         "price": 259,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 259,
+        "currency": "UAH"
       }
     ],
     "1766100": [
@@ -6689,6 +7370,11 @@
         "date": "2026-11-21",
         "price": 527,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 527,
+        "currency": "UAH"
       }
     ],
     "1774580": [
@@ -6704,6 +7390,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 254,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 254,
         "currency": "UAH"
       }
@@ -6733,6 +7424,11 @@
         "date": "2026-11-21",
         "price": 824,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 824,
+        "currency": "UAH"
       }
     ],
     "1794960": [
@@ -6755,6 +7451,11 @@
     "1796470": [
       {
         "date": "2026-11-21",
+        "price": 233,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 233,
         "currency": "UAH"
       }
@@ -6789,6 +7490,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 695,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 695,
         "currency": "UAH"
       }
@@ -6827,6 +7533,11 @@
         "date": "2026-11-21",
         "price": 559,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 559,
+        "currency": "UAH"
       }
     ],
     "1817190": [
@@ -6842,6 +7553,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 599,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 599,
         "currency": "UAH"
       }
@@ -6864,6 +7580,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 269,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 269,
         "currency": "UAH"
       }
@@ -6890,6 +7611,11 @@
         "date": "2026-11-21",
         "price": 95,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 95,
+        "currency": "UAH"
       }
     ],
     "1845910": [
@@ -6907,6 +7633,11 @@
         "date": "2026-11-21",
         "price": 374,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 374,
+        "currency": "UAH"
       }
     ],
     "1846380": [
@@ -6922,6 +7653,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 169,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 169,
         "currency": "UAH"
       }
@@ -6963,6 +7699,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 299,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 299,
         "currency": "UAH"
       }
@@ -7068,6 +7809,11 @@
         "date": "2026-11-21",
         "price": 629,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 629,
+        "currency": "UAH"
       }
     ],
     "1880650": [
@@ -7107,6 +7853,11 @@
         "date": "2026-11-21",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "1894430": [
@@ -7139,6 +7890,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 679,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 679,
         "currency": "UAH"
       }
@@ -7219,6 +7975,11 @@
         "date": "2026-11-21",
         "price": 399,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 399,
+        "currency": "UAH"
       }
     ],
     "1922560": [
@@ -7229,6 +7990,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 239,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 239,
         "currency": "UAH"
       }
@@ -7253,6 +8019,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 325,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 325,
         "currency": "UAH"
       }
@@ -7330,6 +8101,11 @@
         "date": "2026-11-21",
         "price": 719,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 719,
+        "currency": "UAH"
       }
     ],
     "1985810": [
@@ -7357,6 +8133,11 @@
         "date": "2026-11-21",
         "price": 638,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 638,
+        "currency": "UAH"
       }
     ],
     "1985820": [
@@ -7382,6 +8163,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 842,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 842,
         "currency": "UAH"
       }
@@ -7433,6 +8219,11 @@
         "date": "2026-11-21",
         "price": 185,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 185,
+        "currency": "UAH"
       }
     ],
     "2052410": [
@@ -7448,6 +8239,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 562,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 562,
         "currency": "UAH"
       }
@@ -7507,6 +8303,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 299,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 299,
         "currency": "UAH"
       }
@@ -7634,6 +8435,11 @@
         "date": "2026-11-21",
         "price": 399,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 399,
+        "currency": "UAH"
       }
     ],
     "2075800": [
@@ -7755,6 +8561,11 @@
         "date": "2026-11-21",
         "price": 142,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 142,
+        "currency": "UAH"
       }
     ],
     "2155180": [
@@ -7797,6 +8608,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 629,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 629,
         "currency": "UAH"
       }
@@ -7853,6 +8669,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 999,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 999,
         "currency": "UAH"
       }
@@ -7953,6 +8774,11 @@
         "date": "2026-11-21",
         "price": 803,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 803,
+        "currency": "UAH"
       }
     ],
     "2201940": [
@@ -8021,6 +8847,11 @@
         "date": "2026-11-21",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "2218970": [
@@ -8063,6 +8894,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 183,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 183,
         "currency": "UAH"
       }
@@ -8119,6 +8955,11 @@
         "date": "2026-11-21",
         "price": 142,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 142,
+        "currency": "UAH"
       }
     ],
     "2254450": [
@@ -8172,6 +9013,11 @@
         "date": "2026-11-21",
         "price": 249,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 249,
+        "currency": "UAH"
       }
     ],
     "2277560": [
@@ -8182,6 +9028,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1049,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1049,
         "currency": "UAH"
       }
@@ -8240,6 +9091,11 @@
         "date": "2026-11-21",
         "price": 119,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 119,
+        "currency": "UAH"
       }
     ],
     "2292800": [
@@ -8257,6 +9113,11 @@
         "date": "2026-11-21",
         "price": 149,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 149,
+        "currency": "UAH"
       }
     ],
     "2311920": [
@@ -8267,6 +9128,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 485,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 485,
         "currency": "UAH"
       }
@@ -8291,6 +9157,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1138,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1138,
         "currency": "UAH"
       }
@@ -8368,6 +9239,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 228,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 228,
         "currency": "UAH"
       }
@@ -8517,6 +9393,11 @@
         "date": "2026-11-21",
         "price": 700,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 700,
+        "currency": "UAH"
       }
     ],
     "2416450": [
@@ -8534,6 +9415,11 @@
         "date": "2026-11-21",
         "price": 396,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 396,
+        "currency": "UAH"
       }
     ],
     "2420110": [
@@ -8549,6 +9435,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 849,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 849,
         "currency": "UAH"
       }
@@ -8583,6 +9474,11 @@
     "2440510": [
       {
         "date": "2026-11-21",
+        "price": 679,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 679,
         "currency": "UAH"
       }
@@ -8627,6 +9523,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 349,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 349,
         "currency": "UAH"
       }
@@ -8705,6 +9606,11 @@
         "date": "2026-11-21",
         "price": 559,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 559,
+        "currency": "UAH"
       }
     ],
     "2457220": [
@@ -8715,6 +9621,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 799,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 799,
         "currency": "UAH"
       }
@@ -8776,6 +9687,11 @@
         "date": "2026-11-21",
         "price": 14,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 14,
+        "currency": "UAH"
       }
     ],
     "2483190": [
@@ -8786,6 +9702,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1724,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1724,
         "currency": "UAH"
       }
@@ -8818,6 +9739,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 809,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 809,
         "currency": "UAH"
       }
@@ -8874,6 +9800,11 @@
         "date": "2026-11-21",
         "price": 162,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 349,
+        "currency": "UAH"
       }
     ],
     "2499860": [
@@ -8894,6 +9825,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1169,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1169,
         "currency": "UAH"
       }
@@ -8945,6 +9881,11 @@
         "date": "2026-11-21",
         "price": 499,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 499,
+        "currency": "UAH"
       }
     ],
     "2515020": [
@@ -8967,6 +9908,11 @@
         "date": "2026-11-21",
         "price": 559,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 559,
+        "currency": "UAH"
       }
     ],
     "2523720": [
@@ -8977,6 +9923,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 324,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 324,
         "currency": "UAH"
       }
@@ -8994,6 +9945,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1004,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1004,
         "currency": "UAH"
       }
@@ -9045,6 +10001,11 @@
         "date": "2026-11-21",
         "price": 1680,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1680,
+        "currency": "UAH"
       }
     ],
     "2542120": [
@@ -9084,6 +10045,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 749,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 749,
         "currency": "UAH"
       }
@@ -9126,6 +10092,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 584,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 584,
         "currency": "UAH"
       }
@@ -9214,6 +10185,11 @@
         "date": "2026-11-21",
         "price": 168,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 168,
+        "currency": "UAH"
       }
     ],
     "2605790": [
@@ -9254,6 +10230,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 254,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 254,
         "currency": "UAH"
       }
@@ -9317,6 +10298,11 @@
         "date": "2026-11-21",
         "price": 714,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 714,
+        "currency": "UAH"
       }
     ],
     "2627260": [
@@ -9327,6 +10313,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1149,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1149,
         "currency": "UAH"
       }
@@ -9371,6 +10362,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1138,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1138,
         "currency": "UAH"
       }
@@ -9530,6 +10526,11 @@
         "date": "2026-11-21",
         "price": 257,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 257,
+        "currency": "UAH"
       }
     ],
     "2671070": [
@@ -9545,6 +10546,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 404,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 404,
         "currency": "UAH"
       }
@@ -9582,6 +10588,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 989,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 989,
         "currency": "UAH"
       }
@@ -9655,6 +10666,11 @@
         "date": "2026-11-21",
         "price": 360,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 360,
+        "currency": "UAH"
       }
     ],
     "2699230": [
@@ -9675,6 +10691,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 303,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 303,
         "currency": "UAH"
       }
@@ -9859,6 +10880,11 @@
         "date": "2026-11-21",
         "price": 149,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 149,
+        "currency": "UAH"
       }
     ],
     "2795090": [
@@ -9878,6 +10904,11 @@
         "date": "2026-11-21",
         "price": 1199,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1199,
+        "currency": "UAH"
       }
     ],
     "2809180": [
@@ -9895,6 +10926,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 849,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 849,
         "currency": "UAH"
       }
@@ -9943,6 +10979,11 @@
         "date": "2026-11-21",
         "price": 429,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 429,
+        "currency": "UAH"
       }
     ],
     "2841650": [
@@ -9975,6 +11016,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 303,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 303,
         "currency": "UAH"
       }
@@ -10031,6 +11077,11 @@
         "date": "2026-11-21",
         "price": 562,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 562,
+        "currency": "UAH"
       }
     ],
     "2868840": [
@@ -10080,6 +11131,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1104,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1104,
         "currency": "UAH"
       }
@@ -10172,6 +11228,11 @@
         "date": "2026-11-21",
         "price": 254,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 254,
+        "currency": "UAH"
       }
     ],
     "2928600": [
@@ -10215,6 +11276,13 @@
       {
         "date": "2026-11-19",
         "price": 41,
+        "currency": "UAH"
+      }
+    ],
+    "2933130": [
+      {
+        "date": "2026-11-22",
+        "price": 210,
         "currency": "UAH"
       }
     ],
@@ -10294,6 +11362,11 @@
         "date": "2026-11-21",
         "price": 679,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 679,
+        "currency": "UAH"
       }
     ],
     "2996040": [
@@ -10328,6 +11401,11 @@
         "date": "2026-11-21",
         "price": 1609,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1609,
+        "currency": "UAH"
       }
     ],
     "3014320": [
@@ -10348,6 +11426,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 699,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 699,
         "currency": "UAH"
       }
@@ -10401,6 +11484,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 959,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 959,
         "currency": "UAH"
       }
@@ -10460,6 +11548,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 776,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 776,
         "currency": "UAH"
       }
@@ -10547,11 +11640,21 @@
         "date": "2026-11-21",
         "price": 390,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 390,
+        "currency": "UAH"
       }
     ],
     "3144890": [
       {
         "date": "2026-11-21",
+        "price": 157,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 157,
         "currency": "UAH"
       }
@@ -10622,6 +11725,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 0,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 0,
         "currency": "UAH"
       }
@@ -10702,6 +11810,11 @@
         "date": "2026-11-21",
         "price": 179,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 179,
+        "currency": "UAH"
       }
     ],
     "3186540": [
@@ -10729,6 +11842,11 @@
         "date": "2026-11-21",
         "price": 269,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 269,
+        "currency": "UAH"
       }
     ],
     "3188660": [
@@ -10751,6 +11869,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 849,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 849,
         "currency": "UAH"
       }
@@ -10816,6 +11939,11 @@
         "date": "2026-11-21",
         "price": 99,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 99,
+        "currency": "UAH"
       }
     ],
     "3240220": [
@@ -10831,6 +11959,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1349,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1349,
         "currency": "UAH"
       }
@@ -10889,6 +12022,11 @@
         "date": "2026-11-21",
         "price": 1540,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1540,
+        "currency": "UAH"
       }
     ],
     "3287520": [
@@ -10940,6 +12078,11 @@
         "date": "2026-11-21",
         "price": 399,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 399,
+        "currency": "UAH"
       }
     ],
     "3314790": [
@@ -10989,6 +12132,11 @@
         "date": "2026-11-21",
         "price": 606,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 606,
+        "currency": "UAH"
       }
     ],
     "3316940": [
@@ -11004,6 +12152,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 843,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 843,
         "currency": "UAH"
       }
@@ -11045,6 +12198,11 @@
     "3364070": [
       {
         "date": "2026-11-21",
+        "price": 390,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 390,
         "currency": "UAH"
       }
@@ -11190,6 +12348,18 @@
         "date": "2026-11-21",
         "price": 659,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 659,
+        "currency": "UAH"
+      }
+    ],
+    "3407390": [
+      {
+        "date": "2026-11-22",
+        "price": 349,
+        "currency": "UAH"
       }
     ],
     "3450960": [
@@ -11304,6 +12474,11 @@
         "date": "2026-11-21",
         "price": 1424,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1424,
+        "currency": "UAH"
       }
     ],
     "3489700": [
@@ -11319,6 +12494,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1339,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1339,
         "currency": "UAH"
       }
@@ -11423,6 +12603,11 @@
         "date": "2026-11-21",
         "price": 1274,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1274,
+        "currency": "UAH"
       }
     ],
     "3580160": [
@@ -11469,6 +12654,11 @@
         "date": "2026-11-21",
         "price": 384,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 384,
+        "currency": "UAH"
       }
     ],
     "3681010": [
@@ -11509,6 +12699,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1137,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1137,
         "currency": "UAH"
       }
@@ -11563,6 +12758,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 300,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 300,
         "currency": "UAH"
       }
@@ -11713,6 +12913,11 @@
         "date": "2026-11-21",
         "price": 1399,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1399,
+        "currency": "UAH"
       }
     ],
     "3796990": [
@@ -11839,6 +13044,11 @@
         "date": "2026-11-21",
         "price": 217,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 217,
+        "currency": "UAH"
       }
     ],
     "3937550": [
@@ -11871,6 +13081,11 @@
         "date": "2026-11-21",
         "price": 919,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 919,
+        "currency": "UAH"
       }
     ],
     "3940610": [
@@ -11886,6 +13101,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1099,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1099,
         "currency": "UAH"
       }
@@ -11954,6 +13174,11 @@
         "date": "2026-11-21",
         "price": 986,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 986,
+        "currency": "UAH"
       }
     ],
     "3972320": [
@@ -12005,6 +13230,11 @@
         "date": "2026-11-21",
         "price": 329,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 329,
+        "currency": "UAH"
       }
     ],
     "4032350": [
@@ -12020,6 +13250,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 1099,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 1099,
         "currency": "UAH"
       }
@@ -12061,11 +13296,21 @@
         "date": "2026-11-21",
         "price": 1099,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1099,
+        "currency": "UAH"
       }
     ],
     "4094660": [
       {
         "date": "2026-11-21",
+        "price": 344,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 344,
         "currency": "UAH"
       }
@@ -12242,6 +13487,11 @@
         "date": "2026-11-21",
         "price": 0,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 0,
+        "currency": "UAH"
       }
     ],
     "4165910": [
@@ -12274,6 +13524,11 @@
         "date": "2026-11-21",
         "price": 0,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 0,
+        "currency": "UAH"
       }
     ],
     "4183130": [
@@ -12286,6 +13541,11 @@
         "date": "2026-11-21",
         "price": 117,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 117,
+        "currency": "UAH"
       }
     ],
     "4199960": [
@@ -12296,6 +13556,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 465,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 465,
         "currency": "UAH"
       }
@@ -12345,6 +13610,11 @@
     "4224910": [
       {
         "date": "2026-11-21",
+        "price": 112,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 112,
         "currency": "UAH"
       }
@@ -12420,6 +13690,11 @@
         "date": "2026-11-21",
         "price": 1319,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1319,
+        "currency": "UAH"
       }
     ],
     "4390080": [
@@ -12487,6 +13762,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 2449,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 2449,
         "currency": "UAH"
       }
@@ -12706,6 +13986,11 @@
         "date": "2026-11-21",
         "price": 168,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 168,
+        "currency": "UAH"
       }
     ],
     "4654120": [
@@ -12864,6 +14149,11 @@
         "date": "2026-11-21",
         "price": 117,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 117,
+        "currency": "UAH"
       }
     ],
     "5053820": [
@@ -12928,6 +14218,11 @@
         "date": "2026-11-21",
         "price": 84,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 84,
+        "currency": "UAH"
       }
     ],
     "5090170": [
@@ -12955,6 +14250,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 0,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 0,
         "currency": "UAH"
       }
@@ -13024,6 +14324,11 @@
       },
       {
         "date": "2026-11-21",
+        "price": 110,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
         "price": 110,
         "currency": "UAH"
       }
@@ -13210,6 +14515,11 @@
         "date": "2026-11-21",
         "price": 119,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-22",
+        "price": 119,
+        "currency": "UAH"
       }
     ],
     "5458210": [
@@ -13264,19 +14574,6 @@
   },
   "steam": [
     {
-      "id": "2215430",
-      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215430",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1426210",
       "title": "It Takes Two",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
@@ -13285,6 +14582,19 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2215430",
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215430",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -13420,19 +14730,6 @@
       "isPopular": true
     },
     {
-      "id": "3240220",
-      "title": "Grand Theft Auto V Enhanced",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
-      "originalPrice": 1349,
-      "discountPrice": 1349,
-      "discountPercent": 0,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3240220",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4435490",
       "title": "Call of Duty®: Modern Warfare® 4",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
@@ -13441,6 +14738,19 @@
       "discountPercent": 0,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3240220",
+      "title": "Grand Theft Auto V Enhanced",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "originalPrice": 1349,
+      "discountPrice": 1349,
+      "discountPercent": 0,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3240220",
       "isSpecial": false,
       "isFree": false,
       "isPopular": true
@@ -13641,19 +14951,6 @@
       "isPopular": true
     },
     {
-      "id": "3010850",
-      "title": "Gears of War: E-Day",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg",
-      "originalPrice": 2299,
-      "discountPrice": 1609,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3010850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3489700",
       "title": "Stellar Blade™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg",
@@ -13662,6 +14959,19 @@
       "discountPercent": 33,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3489700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3010850",
+      "title": "Gears of War: E-Day",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg",
+      "originalPrice": 2299,
+      "discountPrice": 1609,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3010850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -13758,19 +15068,6 @@
       "isPopular": true
     },
     {
-      "id": "962130",
-      "title": "Grounded",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/capsule_616x353.jpg",
-      "originalPrice": 479,
-      "discountPrice": 191,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/962130",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "976730",
       "title": "Halo: The Master Chief Collection",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/capsule_616x353.jpg",
@@ -13779,6 +15076,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/976730",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "962130",
+      "title": "Grounded",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/capsule_616x353.jpg",
+      "originalPrice": 479,
+      "discountPrice": 191,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/962130",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -13875,19 +15185,6 @@
       "isPopular": true
     },
     {
-      "id": "457140",
-      "title": "Oxygen Not Included",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/capsule_616x353.jpg",
-      "originalPrice": 329,
-      "discountPrice": 98,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/457140",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1693980",
       "title": "Dead Space",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg",
@@ -13896,6 +15193,19 @@
       "discountPercent": 90,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1693980",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "457140",
+      "title": "Oxygen Not Included",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/capsule_616x353.jpg",
+      "originalPrice": 329,
+      "discountPrice": 98,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/457140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -13940,19 +15250,6 @@
       "isPopular": true
     },
     {
-      "id": "2806050",
-      "title": "Halo: Campaign Evolved",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 1199,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2806050",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4618570",
       "title": "Booster Pack Heroes",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/cfd270242b96d8f634cd460de0b7ed398184ff8d/capsule_616x353.jpg",
@@ -13966,14 +15263,14 @@
       "isPopular": true
     },
     {
-      "id": "1934680",
-      "title": "Age of Mythology: Retold",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/capsule_616x353.jpg",
-      "originalPrice": 650,
-      "discountPrice": 325,
-      "discountPercent": 50,
+      "id": "2806050",
+      "title": "Halo: Campaign Evolved",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/70b74783e3c5b70276bd015c7662af1b6dd819f4/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 1199,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1934680",
+      "url": "https://store.steampowered.com/app/2806050",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -13987,6 +15284,19 @@
       "discountPercent": 75,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1850570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1934680",
+      "title": "Age of Mythology: Retold",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/capsule_616x353.jpg",
+      "originalPrice": 650,
+      "discountPrice": 325,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1934680",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14018,6 +15328,19 @@
       "isPopular": true
     },
     {
+      "id": "1627720",
+      "title": "Lies of P",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg",
+      "originalPrice": 1625,
+      "discountPrice": 812,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1627720",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1151640",
       "title": "Horizon Zero Dawn™ Complete Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/capsule_616x353.jpg",
@@ -14028,19 +15351,6 @@
       "url": "https://store.steampowered.com/app/1151640",
       "isSpecial": false,
       "isFree": true,
-      "isPopular": true
-    },
-    {
-      "id": "2457220",
-      "title": "Avowed",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2457220/capsule_616x353.jpg",
-      "originalPrice": 1599,
-      "discountPrice": 799,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2457220",
-      "isSpecial": true,
-      "isFree": false,
       "isPopular": true
     },
     {
@@ -14057,27 +15367,14 @@
       "isPopular": true
     },
     {
-      "id": "400750",
-      "title": "Call to Arms - Gates of Hell: Ostfront",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/794866e0a3ebd7ef152ba18e12843cd9cdea8c28/capsule_616x353.jpg",
-      "originalPrice": 700,
-      "discountPrice": 175,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/400750",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1627720",
-      "title": "Lies of P",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg",
-      "originalPrice": 1625,
-      "discountPrice": 812,
+      "id": "2457220",
+      "title": "Avowed",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2457220/capsule_616x353.jpg",
+      "originalPrice": 1599,
+      "discountPrice": 799,
       "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1627720",
+      "url": "https://store.steampowered.com/app/2457220",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14091,6 +15388,19 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4032350",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "400750",
+      "title": "Call to Arms - Gates of Hell: Ostfront",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400750/794866e0a3ebd7ef152ba18e12843cd9cdea8c28/capsule_616x353.jpg",
+      "originalPrice": 700,
+      "discountPrice": 175,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/400750",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14135,14 +15445,14 @@
       "isPopular": true
     },
     {
-      "id": "476600",
-      "title": "Call of Duty®: WWII",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
+      "id": "2161700",
+      "title": "Persona 3 Reload",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg",
+      "originalPrice": 1799,
+      "discountPrice": 629,
+      "discountPercent": 65,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/476600",
+      "url": "https://store.steampowered.com/app/2161700",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14174,27 +15484,27 @@
       "isPopular": true
     },
     {
-      "id": "2605790",
-      "title": "Deep Rock Galactic: Rogue Core",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2605790/92beda8b7b4ecaadd48f1a8890f57a8a2371b5a4/capsule_231x87_alt_assets_2.jpg",
-      "originalPrice": 509,
-      "discountPrice": 254,
-      "discountPercent": 50,
+      "id": "5378110",
+      "title": "One More Lawn",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg",
+      "originalPrice": 170,
+      "discountPrice": 119,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2605790",
+      "url": "https://store.steampowered.com/app/5378110",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2161700",
-      "title": "Persona 3 Reload",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg",
-      "originalPrice": 1799,
-      "discountPrice": 629,
-      "discountPercent": 65,
+      "id": "476600",
+      "title": "Call of Duty®: WWII",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2161700",
+      "url": "https://store.steampowered.com/app/476600",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14213,6 +15523,19 @@
       "isPopular": true
     },
     {
+      "id": "2605790",
+      "title": "Deep Rock Galactic: Rogue Core",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2605790/92beda8b7b4ecaadd48f1a8890f57a8a2371b5a4/capsule_231x87_alt_assets_2.jpg",
+      "originalPrice": 509,
+      "discountPrice": 254,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2605790",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2842040",
       "title": "Star Wars Outlaws",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842040/5275d8f2b9395660b8c14d407651090f0e014587/capsule_616x353.jpg",
@@ -14223,32 +15546,6 @@
       "url": "https://store.steampowered.com/app/2842040",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5378110",
-      "title": "One More Lawn",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/6d507344e73577a8493c31c2c5ec39c0e1024c3e/capsule_616x353.jpg",
-      "originalPrice": 170,
-      "discountPrice": 119,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5378110",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "5090180",
-      "title": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090180/8d12dda9337b8f83262817aab8b48f1f222d4ded/capsule_616x353.jpg",
-      "originalPrice": 1818,
-      "discountPrice": 0,
-      "discountPercent": 100,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5090180",
-      "isSpecial": false,
-      "isFree": true,
       "isPopular": true
     },
     {
@@ -14273,6 +15570,32 @@
       "discountPercent": 50,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2627260",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "5090180",
+      "title": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090180/8d12dda9337b8f83262817aab8b48f1f222d4ded/capsule_616x353.jpg",
+      "originalPrice": 1818,
+      "discountPrice": 0,
+      "discountPercent": 100,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/5090180",
+      "isSpecial": false,
+      "isFree": true,
+      "isPopular": true
+    },
+    {
+      "id": "2561580",
+      "title": "Horizon Zero Dawn™ Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 749,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2561580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14317,32 +15640,6 @@
       "isPopular": true
     },
     {
-      "id": "1222700",
-      "title": "A Way Out",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/capsule_616x353.jpg",
-      "originalPrice": 799,
-      "discountPrice": 159,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2561580",
-      "title": "Horizon Zero Dawn™ Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 749,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2561580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1237320",
       "title": "Sonic Frontiers",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237320/capsule_616x353.jpg",
@@ -14369,6 +15666,32 @@
       "isPopular": true
     },
     {
+      "id": "289070",
+      "title": "Sid Meier’s Civilization® VI",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_616x353.jpg",
+      "originalPrice": 525,
+      "discountPrice": 52,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/289070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1222700",
+      "title": "A Way Out",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/capsule_616x353.jpg",
+      "originalPrice": 799,
+      "discountPrice": 159,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "202970",
       "title": "Call of Duty®: Black Ops II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/capsule_616x353.jpg",
@@ -14382,14 +15705,40 @@
       "isPopular": true
     },
     {
-      "id": "289070",
-      "title": "Sid Meier’s Civilization® VI",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/capsule_616x353.jpg",
-      "originalPrice": 525,
-      "discountPrice": 52,
-      "discountPercent": 90,
+      "id": "2486820",
+      "title": "Sonic Racing: CrossWorlds",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 809,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/289070",
+      "url": "https://store.steampowered.com/app/2486820",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "524220",
+      "title": "NieR:Automata™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg",
+      "originalPrice": 466,
+      "discountPrice": 186,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/524220",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "244850",
+      "title": "Space Engineers",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/645cb1f76a388a2079055239c2f9a715d6d222ec/capsule_616x353.jpg",
+      "originalPrice": 845,
+      "discountPrice": 422,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/244850",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14421,45 +15770,6 @@
       "isPopular": true
     },
     {
-      "id": "2515020",
-      "title": "FINAL FANTASY XVI",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2515020",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "244850",
-      "title": "Space Engineers",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/645cb1f76a388a2079055239c2f9a715d6d222ec/capsule_616x353.jpg",
-      "originalPrice": 845,
-      "discountPrice": 422,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/244850",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2486820",
-      "title": "Sonic Racing: CrossWorlds",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 809,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2486820",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "1985810",
       "title": "Call of Duty®: Black Ops Cold War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/capsule_616x353.jpg",
@@ -14473,14 +15783,14 @@
       "isPopular": true
     },
     {
-      "id": "524220",
-      "title": "NieR:Automata™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg",
-      "originalPrice": 466,
-      "discountPrice": 186,
+      "id": "2515020",
+      "title": "FINAL FANTASY XVI",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 559,
       "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/524220",
+      "url": "https://store.steampowered.com/app/2515020",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14655,6 +15965,19 @@
       "isPopular": true
     },
     {
+      "id": "753640",
+      "title": "Outer Wilds",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg",
+      "originalPrice": 499,
+      "discountPrice": 249,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/753640",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3238470",
       "title": "Days Gone - Broken Road DLC",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3238470/845f1888599dd1384e9291dab1efa2afca9985a2/capsule_616x353.jpg",
@@ -14668,19 +15991,6 @@
       "isPopular": true
     },
     {
-      "id": "916440",
-      "title": "Anno 1800",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/bda65ed0b2a022b7fa304b6a87aec3f2248bf6e8/capsule_616x353.jpg",
-      "originalPrice": 915,
-      "discountPrice": 228,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/916440",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "4384550",
       "title": "Call of Duty®: Black Ops 6",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/a73987e78826c71d3396e47f148180d0a9a160d0/capsule_616x353.jpg",
@@ -14689,6 +15999,32 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/4384550",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "934700",
+      "title": "Dead Island 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/a0bb0659f81e6a4c1a7201bd6f4b44f80c5c5388/capsule_616x353.jpg",
+      "originalPrice": 1866,
+      "discountPrice": 186,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/934700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "916440",
+      "title": "Anno 1800",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/bda65ed0b2a022b7fa304b6a87aec3f2248bf6e8/capsule_616x353.jpg",
+      "originalPrice": 915,
+      "discountPrice": 228,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/916440",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14720,45 +16056,6 @@
       "isPopular": true
     },
     {
-      "id": "934700",
-      "title": "Dead Island 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/a0bb0659f81e6a4c1a7201bd6f4b44f80c5c5388/capsule_616x353.jpg",
-      "originalPrice": 1866,
-      "discountPrice": 186,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/934700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1569580",
-      "title": "Blue Prince",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/e69fbec887a2120c40b63d8b47d1697e9f733ae0/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 323,
-      "discountPercent": 46,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1569580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "379430",
-      "title": "Kingdom Come: Deliverance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/ed0e9fa414c683bd06cd70d0ef8fb519e0f823fe/capsule_616x353.jpg",
-      "originalPrice": 799,
-      "discountPrice": 119,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/379430",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "2784470",
       "title": "9 Kings",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/54427b2703db1ec9ea121d6e267eaac6b7855f10/capsule_616x353.jpg",
@@ -14785,14 +16082,27 @@
       "isPopular": true
     },
     {
-      "id": "2185060",
-      "title": "Two Point Museum",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2185060/c4a0ecc4916b1a9a4f70e46535d35fa43833f206/capsule_616x353.jpg",
-      "originalPrice": 1278,
-      "discountPrice": 803,
-      "discountPercent": 38,
+      "id": "379430",
+      "title": "Kingdom Come: Deliverance",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/ed0e9fa414c683bd06cd70d0ef8fb519e0f823fe/capsule_616x353.jpg",
+      "originalPrice": 799,
+      "discountPrice": 119,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2185060",
+      "url": "https://store.steampowered.com/app/379430",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1569580",
+      "title": "Blue Prince",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/e69fbec887a2120c40b63d8b47d1697e9f733ae0/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 323,
+      "discountPercent": 46,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1569580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14811,14 +16121,27 @@
       "isPopular": true
     },
     {
-      "id": "594570",
-      "title": "Total War: WARHAMMER II",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/capsule_616x353.jpg",
-      "originalPrice": 949,
-      "discountPrice": 237,
-      "discountPercent": 75,
+      "id": "2185060",
+      "title": "Two Point Museum",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2185060/c4a0ecc4916b1a9a4f70e46535d35fa43833f206/capsule_616x353.jpg",
+      "originalPrice": 1278,
+      "discountPrice": 803,
+      "discountPercent": 38,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/594570",
+      "url": "https://store.steampowered.com/app/2185060",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1332010",
+      "title": "Stray",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg",
+      "originalPrice": 579,
+      "discountPrice": 289,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1332010",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14837,6 +16160,32 @@
       "isPopular": true
     },
     {
+      "id": "594570",
+      "title": "Total War: WARHAMMER II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 237,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/594570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "42700",
+      "title": "Call of Duty®: Black Ops",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/42700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "3186540",
       "title": "Destiny 2: Renegades",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186540/a870d779cb294072c410ca6e90d3c869b05b7233/capsule_616x353.jpg",
@@ -14845,32 +16194,6 @@
       "discountPercent": 55,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3186540",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3787240",
-      "title": "MARVEL Tōkon: Fighting Souls",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 1399,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3787240",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1289670",
-      "title": "EA Play",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg",
-      "originalPrice": 129,
-      "discountPrice": 26,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1289670",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14889,14 +16212,27 @@
       "isPopular": true
     },
     {
-      "id": "42700",
-      "title": "Call of Duty®: Black Ops",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
+      "id": "1289670",
+      "title": "EA Play",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1289670/38a9c194965a78816f3bd61520d3c688bcf44b4e/capsule_616x353.jpg",
+      "originalPrice": 129,
+      "discountPrice": 26,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/42700",
+      "url": "https://store.steampowered.com/app/1289670",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3787240",
+      "title": "MARVEL Tōkon: Fighting Souls",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/c7f5d61d655d10574e4d1299c34203484b1796b7/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 1399,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3787240",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14928,14 +16264,14 @@
       "isPopular": true
     },
     {
-      "id": "1845910",
-      "title": "Dragon Age™: The Veilguard",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/a9faf4de76f5ac4a757a6d30f5f38ce543b1aa3f/capsule_616x353.jpg",
+      "id": "460930",
+      "title": "Tom Clancy's Ghost Recon® Wildlands",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/0c04c73f2e1e60236e93498371de8caf33e3e998/capsule_616x353.jpg",
       "originalPrice": 1499,
-      "discountPrice": 374,
-      "discountPercent": 75,
+      "discountPrice": 300,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1845910",
+      "url": "https://store.steampowered.com/app/460930",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -14954,27 +16290,14 @@
       "isPopular": true
     },
     {
-      "id": "460930",
-      "title": "Tom Clancy's Ghost Recon® Wildlands",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/0c04c73f2e1e60236e93498371de8caf33e3e998/capsule_616x353.jpg",
+      "id": "1845910",
+      "title": "Dragon Age™: The Veilguard",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845910/a9faf4de76f5ac4a757a6d30f5f38ce543b1aa3f/capsule_616x353.jpg",
       "originalPrice": 1499,
-      "discountPrice": 300,
-      "discountPercent": 80,
+      "discountPrice": 374,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/460930",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "753640",
-      "title": "Outer Wilds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 249,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/753640",
+      "url": "https://store.steampowered.com/app/1845910",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15006,6 +16329,32 @@
       "isPopular": true
     },
     {
+      "id": "394510",
+      "title": "HELLDIVERS™ Dive Harder Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/capsule_616x353.jpg",
+      "originalPrice": 279,
+      "discountPrice": 55,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/394510",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "641990",
+      "title": "The Escapists 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/capsule_616x353.jpg",
+      "originalPrice": 450,
+      "discountPrice": 45,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/641990",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2988580",
       "title": "Yakuza 0 Director's Cut",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/cd4801db60e667d95798120cc4e6e513695beeef/capsule_616x353.jpg",
@@ -15019,14 +16368,14 @@
       "isPopular": true
     },
     {
-      "id": "394510",
-      "title": "HELLDIVERS™ Dive Harder Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/capsule_616x353.jpg",
-      "originalPrice": 279,
-      "discountPrice": 55,
-      "discountPercent": 80,
+      "id": "4199960",
+      "title": "The Jackbox Party Pack 12",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/7d0246ceb6bbb612a4ed4d23d96a381eb754e17b/capsule_616x353.jpg",
+      "originalPrice": 620,
+      "discountPrice": 465,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/394510",
+      "url": "https://store.steampowered.com/app/4199960",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15045,45 +16394,6 @@
       "isPopular": true
     },
     {
-      "id": "2440510",
-      "title": "Forza Motorsport",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440510/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2440510",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1332010",
-      "title": "Stray",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg",
-      "originalPrice": 579,
-      "discountPrice": 289,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1332010",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4094660",
-      "title": "Rivage",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/b92ce011ddcbda9b19968c381c56520931971356/capsule_616x353.jpg",
-      "originalPrice": 530,
-      "discountPrice": 344,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4094660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "220200",
       "title": "Kerbal Space Program",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/capsule_616x353.jpg",
@@ -15097,14 +16407,14 @@
       "isPopular": true
     },
     {
-      "id": "2072450",
-      "title": "Like a Dragon: Infinite Wealth",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 399,
-      "discountPercent": 80,
+      "id": "2492040",
+      "title": "FATAL FURY: City of the Wolves",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2492040/cf5e65fb0e2c61c089485ed25722d989e1713587/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 349,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2072450",
+      "url": "https://store.steampowered.com/app/2492040",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15118,19 +16428,6 @@
       "discountPercent": 40,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2680010",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4199960",
-      "title": "The Jackbox Party Pack 12",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/7d0246ceb6bbb612a4ed4d23d96a381eb754e17b/capsule_616x353.jpg",
-      "originalPrice": 620,
-      "discountPrice": 465,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4199960",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15175,79 +16472,53 @@
       "isPopular": true
     },
     {
-      "id": "641990",
-      "title": "The Escapists 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/capsule_616x353.jpg",
-      "originalPrice": 450,
-      "discountPrice": 45,
-      "discountPercent": 90,
+      "id": "2072450",
+      "title": "Like a Dragon: Infinite Wealth",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 399,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/641990",
+      "url": "https://store.steampowered.com/app/2072450",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2492040",
-      "title": "FATAL FURY: City of the Wolves",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2492040/cf5e65fb0e2c61c089485ed25722d989e1713587/capsule_616x353.jpg",
-      "originalPrice": 1399,
+      "id": "4094660",
+      "title": "Rivage",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/b92ce011ddcbda9b19968c381c56520931971356/capsule_616x353.jpg",
+      "originalPrice": 530,
+      "discountPrice": 344,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4094660",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2444750",
+      "title": "Shape of Dreams",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2444750/244d00ca528830d5b29ecec839d40b1658843a56/capsule_231x87_alt_assets_5.jpg",
+      "originalPrice": 499,
       "discountPrice": 349,
-      "discountPercent": 75,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2492040",
+      "url": "https://store.steampowered.com/app/2444750",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "2670630",
-      "title": "Supermarket Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/88bc3b48af8c5136e59e7d63cfbc37d14fad64f7/capsule_616x353.jpg",
-      "originalPrice": 429,
-      "discountPrice": 257,
-      "discountPercent": 40,
+      "id": "2440510",
+      "title": "Forza Motorsport",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2440510/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2670630",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "213670",
-      "title": "South Park™: The Stick of Truth™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213670/capsule_616x353.jpg",
-      "originalPrice": 459,
-      "discountPrice": 114,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/213670",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "945360",
-      "title": "Among Us",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/27d201d871b3d617dc4b80c603ca900999c2f11e/capsule_616x353.jpg",
-      "originalPrice": 100,
-      "discountPrice": 60,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/945360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2292800",
-      "title": "Blacksmith Master",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/43bc8514a6cd4afed1caabc7dcaae651218ff738/capsule_616x353.jpg",
-      "originalPrice": 299,
-      "discountPrice": 149,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2292800",
+      "url": "https://store.steampowered.com/app/2440510",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15279,14 +16550,40 @@
       "isPopular": true
     },
     {
-      "id": "1205520",
-      "title": "Pentiment",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205520/capsule_616x353.jpg",
-      "originalPrice": 279,
-      "discountPrice": 69,
+      "id": "213670",
+      "title": "South Park™: The Stick of Truth™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213670/capsule_616x353.jpg",
+      "originalPrice": 459,
+      "discountPrice": 114,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1205520",
+      "url": "https://store.steampowered.com/app/213670",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2292800",
+      "title": "Blacksmith Master",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/43bc8514a6cd4afed1caabc7dcaae651218ff738/capsule_616x353.jpg",
+      "originalPrice": 299,
+      "discountPrice": 149,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2292800",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2670630",
+      "title": "Supermarket Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/88bc3b48af8c5136e59e7d63cfbc37d14fad64f7/capsule_616x353.jpg",
+      "originalPrice": 429,
+      "discountPrice": 257,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2670630",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15305,19 +16602,6 @@
       "isPopular": true
     },
     {
-      "id": "2444750",
-      "title": "Shape of Dreams",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2444750/244d00ca528830d5b29ecec839d40b1658843a56/capsule_231x87_alt_assets_5.jpg",
-      "originalPrice": 499,
-      "discountPrice": 349,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2444750",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "637650",
       "title": "FINAL FANTASY XV WINDOWS EDITION",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/637650/capsule_616x353.jpg",
@@ -15326,32 +16610,6 @@
       "discountPercent": 70,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/637650",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "304390",
-      "title": "FOR HONOR™",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304390/2990e16e6dd97857e85b7f7c943112d6084aa5f3/capsule_231x87_alt_assets_13.jpg",
-      "originalPrice": 459,
-      "discountPrice": 68,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/304390",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2138710",
-      "title": "Sifu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg",
-      "originalPrice": 569,
-      "discountPrice": 142,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138710",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15370,14 +16628,53 @@
       "isPopular": true
     },
     {
-      "id": "837470",
-      "title": "Untitled Goose Game",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/capsule_616x353.jpg",
-      "originalPrice": 399,
-      "discountPrice": 159,
-      "discountPercent": 60,
+      "id": "2138710",
+      "title": "Sifu",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg",
+      "originalPrice": 569,
+      "discountPrice": 142,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/837470",
+      "url": "https://store.steampowered.com/app/2138710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "945360",
+      "title": "Among Us",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/27d201d871b3d617dc4b80c603ca900999c2f11e/capsule_616x353.jpg",
+      "originalPrice": 100,
+      "discountPrice": 60,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/945360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1205520",
+      "title": "Pentiment",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205520/capsule_616x353.jpg",
+      "originalPrice": 279,
+      "discountPrice": 69,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1205520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "304390",
+      "title": "FOR HONOR™",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304390/2990e16e6dd97857e85b7f7c943112d6084aa5f3/capsule_231x87_alt_assets_13.jpg",
+      "originalPrice": 459,
+      "discountPrice": 68,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/304390",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15396,6 +16693,19 @@
       "isPopular": true
     },
     {
+      "id": "3014320",
+      "title": "OCTOPATH TRAVELER 0",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/9f0279652ac70173cd9d171f423ef83706aff2f4/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 699,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3014320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "288470",
       "title": "Fable Anniversary",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/capsule_616x353.jpg",
@@ -15409,27 +16719,14 @@
       "isPopular": true
     },
     {
-      "id": "3691330",
-      "title": "Call to Arms - Gates of Hell: Finest Hour",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3691330/7d272eb626cccacc320f1d39263df829320b9e65/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 300,
-      "discountPercent": 50,
+      "id": "837470",
+      "title": "Untitled Goose Game",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/capsule_616x353.jpg",
+      "originalPrice": 399,
+      "discountPrice": 159,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3691330",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3014320",
-      "title": "OCTOPATH TRAVELER 0",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014320/9f0279652ac70173cd9d171f423ef83706aff2f4/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 699,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3014320",
+      "url": "https://store.steampowered.com/app/837470",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15448,6 +16745,19 @@
       "isPopular": true
     },
     {
+      "id": "3691330",
+      "title": "Call to Arms - Gates of Hell: Finest Hour",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3691330/7d272eb626cccacc320f1d39263df829320b9e65/capsule_616x353.jpg",
+      "originalPrice": 600,
+      "discountPrice": 300,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3691330",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "1172380",
       "title": "STAR WARS Jedi: Fallen Order™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/capsule_616x353.jpg",
@@ -15456,19 +16766,6 @@
       "discountPercent": 80,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/1172380",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3486530",
-      "title": "Stupid Never Dies",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3486530/705ce263956aa328b857ec05e6c9e0bb20091ee1/capsule_616x353.jpg",
-      "originalPrice": 1899,
-      "discountPrice": 1424,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3486530",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15487,14 +16784,14 @@
       "isPopular": true
     },
     {
-      "id": "2475460",
-      "title": "SOS OPS!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/132f2ff2a2c88fe5b50c3f2d74b8b7b7276adfb9/capsule_616x353.jpg",
-      "originalPrice": 149,
-      "discountPrice": 14,
-      "discountPercent": 91,
+      "id": "3486530",
+      "title": "Stupid Never Dies",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3486530/705ce263956aa328b857ec05e6c9e0bb20091ee1/capsule_616x353.jpg",
+      "originalPrice": 1899,
+      "discountPrice": 1424,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2475460",
+      "url": "https://store.steampowered.com/app/3486530",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15513,32 +16810,6 @@
       "isPopular": true
     },
     {
-      "id": "779340",
-      "title": "Total War: THREE KINGDOMS",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/capsule_616x353.jpg",
-      "originalPrice": 1149,
-      "discountPrice": 344,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/779340",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "214950",
-      "title": "Total War: ROME II - Emperor Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/capsule_616x353.jpg",
-      "originalPrice": 639,
-      "discountPrice": 159,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/214950",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3186490",
       "title": "Destiny 2: The Edge of Fate",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3186490/6f22b5edffb51abf393cb527598b21271ae39ba1/capsule_616x353.jpg",
@@ -15552,6 +16823,32 @@
       "isPopular": true
     },
     {
+      "id": "2475460",
+      "title": "SOS OPS!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475460/132f2ff2a2c88fe5b50c3f2d74b8b7b7276adfb9/capsule_616x353.jpg",
+      "originalPrice": 149,
+      "discountPrice": 14,
+      "discountPercent": 91,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2475460",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "779340",
+      "title": "Total War: THREE KINGDOMS",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/779340/capsule_616x353.jpg",
+      "originalPrice": 1149,
+      "discountPrice": 344,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/779340",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "209160",
       "title": "Call of Duty®: Ghosts",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/capsule_616x353.jpg",
@@ -15560,6 +16857,19 @@
       "discountPercent": 60,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/209160",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "214950",
+      "title": "Total War: ROME II - Emperor Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214950/capsule_616x353.jpg",
+      "originalPrice": 639,
+      "discountPrice": 159,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/214950",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15591,16 +16901,16 @@
       "isPopular": true
     },
     {
-      "id": "2624870",
-      "title": "Life is Strange: Reunion",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624870/df22658da4ac9d886986cd3d9bd1d5aeee03c915/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 714,
-      "discountPercent": 35,
+      "id": "1426300",
+      "title": "The Binding of Isaac: Repentance",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426300/633b109ef0cf99fca844ff8def1c33cb403e7898/capsule_616x353.jpg",
+      "originalPrice": 806,
+      "discountPrice": 0,
+      "discountPercent": 100,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2624870",
-      "isSpecial": true,
-      "isFree": false,
+      "url": "https://store.steampowered.com/app/1426300",
+      "isSpecial": false,
+      "isFree": true,
       "isPopular": true
     },
     {
@@ -15612,6 +16922,19 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/3315530",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2624870",
+      "title": "Life is Strange: Reunion",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624870/df22658da4ac9d886986cd3d9bd1d5aeee03c915/capsule_616x353.jpg",
+      "originalPrice": 1099,
+      "discountPrice": 714,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2624870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15630,29 +16953,16 @@
       "isPopular": true
     },
     {
-      "id": "393080",
-      "title": "Call of Duty®: Modern Warfare® Remastered (2017)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
+      "id": "1372110",
+      "title": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/capsule_616x353.jpg",
+      "originalPrice": 2099,
+      "discountPrice": 587,
+      "discountPercent": 72,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/393080",
+      "url": "https://store.steampowered.com/app/1372110",
       "isSpecial": true,
       "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1426300",
-      "title": "The Binding of Isaac: Repentance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426300/633b109ef0cf99fca844ff8def1c33cb403e7898/capsule_616x353.jpg",
-      "originalPrice": 806,
-      "discountPrice": 0,
-      "discountPercent": 100,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426300",
-      "isSpecial": false,
-      "isFree": true,
       "isPopular": true
     },
     {
@@ -15669,66 +16979,14 @@
       "isPopular": true
     },
     {
-      "id": "1044720",
-      "title": "Farthest Frontier",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1044720/1ffb2b6657e6b5079d86616f0a880c7f5fd4789a/capsule_616x353.jpg",
-      "originalPrice": 700,
-      "discountPrice": 490,
-      "discountPercent": 30,
+      "id": "393080",
+      "title": "Call of Duty®: Modern Warfare® Remastered (2017)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1044720",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1225570",
-      "title": "Unravel Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/capsule_616x353.jpg",
-      "originalPrice": 699,
-      "discountPrice": 104,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1225570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3654560",
-      "title": "Plants vs. Zombies™: Replanted",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/d604566237e8c12a9021824719aed43c244784c1/capsule_616x353.jpg",
-      "originalPrice": 699,
-      "discountPrice": 384,
-      "discountPercent": 45,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3654560",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1875830",
-      "title": "Shin Megami Tensei V: Vengeance",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/capsule_616x353.jpg",
-      "originalPrice": 2099,
-      "discountPrice": 629,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1875830",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1372110",
-      "title": "JoJo's Bizarre Adventure: All-Star Battle R",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/capsule_616x353.jpg",
-      "originalPrice": 2099,
-      "discountPrice": 587,
-      "discountPercent": 72,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1372110",
+      "url": "https://store.steampowered.com/app/393080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15747,14 +17005,79 @@
       "isPopular": true
     },
     {
-      "id": "10180",
-      "title": "Call of Duty®: Modern Warfare® 2 (2009)",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/capsule_616x353.jpg",
-      "originalPrice": 849,
-      "discountPrice": 636,
-      "discountPercent": 25,
+      "id": "1875830",
+      "title": "Shin Megami Tensei V: Vengeance",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/capsule_616x353.jpg",
+      "originalPrice": 2099,
+      "discountPrice": 629,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10180",
+      "url": "https://store.steampowered.com/app/1875830",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1044720",
+      "title": "Farthest Frontier",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1044720/1ffb2b6657e6b5079d86616f0a880c7f5fd4789a/capsule_616x353.jpg",
+      "originalPrice": 700,
+      "discountPrice": 490,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1044720",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3654560",
+      "title": "Plants vs. Zombies™: Replanted",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/d604566237e8c12a9021824719aed43c244784c1/capsule_616x353.jpg",
+      "originalPrice": 699,
+      "discountPrice": 384,
+      "discountPercent": 45,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3654560",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1225570",
+      "title": "Unravel Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/capsule_616x353.jpg",
+      "originalPrice": 699,
+      "discountPrice": 104,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1225570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2671070",
+      "title": "Crusader Kings III: Roads to Power",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2671070/b3739ae4171e3c15b159ad52c938aa2f18554e55/capsule_616x353.jpg",
+      "originalPrice": 809,
+      "discountPrice": 404,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2671070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2569760",
+      "title": "The Mound: Omen of Cthulhu",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
+      "originalPrice": 899,
+      "discountPrice": 584,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2569760",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15773,14 +17096,66 @@
       "isPopular": true
     },
     {
-      "id": "2671070",
-      "title": "Crusader Kings III: Roads to Power",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2671070/b3739ae4171e3c15b159ad52c938aa2f18554e55/capsule_616x353.jpg",
-      "originalPrice": 809,
-      "discountPrice": 404,
-      "discountPercent": 50,
+      "id": "298110",
+      "title": "Far Cry® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/8da058472fd8ac7d4c8a05b5eb798c9870998819/capsule_616x353.jpg",
+      "originalPrice": 459,
+      "discountPrice": 91,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2671070",
+      "url": "https://store.steampowered.com/app/298110",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "10180",
+      "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/capsule_616x353.jpg",
+      "originalPrice": 849,
+      "discountPrice": 636,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/10180",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1817230",
+      "title": "Hi-Fi RUSH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 269,
+      "discountPercent": 55,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817230",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3172660",
+      "title": "Marvel's Spider-Man 2 - Digital Deluxe Upgrade",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3172660/0c0f71d9656b96f53095a9757bbba6ea1c074acc/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 0,
+      "discountPercent": 100,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3172660",
+      "isSpecial": false,
+      "isFree": true,
+      "isPopular": true
+    },
+    {
+      "id": "921570",
+      "title": "OCTOPATH TRAVELER™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/921570/capsule_616x353.jpg",
+      "originalPrice": 1600,
+      "discountPrice": 480,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/921570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15812,27 +17187,40 @@
       "isPopular": true
     },
     {
-      "id": "298110",
-      "title": "Far Cry® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/8da058472fd8ac7d4c8a05b5eb798c9870998819/capsule_616x353.jpg",
-      "originalPrice": 459,
-      "discountPrice": 91,
+      "id": "1262560",
+      "title": "Need for Speed™ Most Wanted",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/capsule_616x353.jpg",
+      "originalPrice": 699,
+      "discountPrice": 139,
       "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/298110",
+      "url": "https://store.steampowered.com/app/1262560",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "921570",
-      "title": "OCTOPATH TRAVELER™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/921570/capsule_616x353.jpg",
-      "originalPrice": 1600,
-      "discountPrice": 480,
-      "discountPercent": 70,
+      "id": "2893570",
+      "title": "DRAGON QUEST I & II HD-2D Remake",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2893570/7318f0b8665fbbda03ef0c9dbee6c490e0af41d9/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 1104,
+      "discountPercent": 35,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/921570",
+      "url": "https://store.steampowered.com/app/2893570",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3934270",
+      "title": "How Many Dudes?",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3934270/f9800033b6bb5665403e104d94dcc97d13bc1e47/capsule_231x87_alt_assets_0.jpg",
+      "originalPrice": 335,
+      "discountPrice": 217,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3934270",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15851,53 +17239,14 @@
       "isPopular": true
     },
     {
-      "id": "2569760",
-      "title": "The Mound: Omen of Cthulhu",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2569760/14801d69592c4411fea1711d358d4c4a98df5349/capsule_231x87_alt_assets_1.jpg",
-      "originalPrice": 899,
-      "discountPrice": 584,
-      "discountPercent": 35,
+      "id": "1235721",
+      "title": "The Sims™ 4 Cats & Dogs",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235721/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2569760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3172660",
-      "title": "Marvel's Spider-Man 2 - Digital Deluxe Upgrade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3172660/0c0f71d9656b96f53095a9757bbba6ea1c074acc/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 0,
-      "discountPercent": 100,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3172660",
-      "isSpecial": false,
-      "isFree": true,
-      "isPopular": true
-    },
-    {
-      "id": "1262560",
-      "title": "Need for Speed™ Most Wanted",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262560/capsule_616x353.jpg",
-      "originalPrice": 699,
-      "discountPrice": 139,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1262560",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1238820",
-      "title": "Battlefield 3™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238820/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 59,
-      "discountPercent": 95,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1238820",
+      "url": "https://store.steampowered.com/app/1235721",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15929,14 +17278,14 @@
       "isPopular": true
     },
     {
-      "id": "1817230",
-      "title": "Hi-Fi RUSH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 269,
-      "discountPercent": 55,
+      "id": "359870",
+      "title": "FINAL FANTASY X/X-2 HD Remaster",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359870/capsule_616x353.jpg",
+      "originalPrice": 379,
+      "discountPrice": 151,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817230",
+      "url": "https://store.steampowered.com/app/359870",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -15955,149 +17304,6 @@
       "isPopular": true
     },
     {
-      "id": "3316940",
-      "title": "The Legend of Heroes: Trails beyond the Horizon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316940/81d01667bd0f1074961a20600cda760fe4c684cf/capsule_616x353.jpg",
-      "originalPrice": 1125,
-      "discountPrice": 843,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3316940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "508440",
-      "title": "Totally Accurate Battle Simulator",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/508440/capsule_616x353.jpg",
-      "originalPrice": 399,
-      "discountPrice": 135,
-      "discountPercent": 66,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/508440",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2893570",
-      "title": "DRAGON QUEST I & II HD-2D Remake",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2893570/7318f0b8665fbbda03ef0c9dbee6c490e0af41d9/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 1104,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2893570",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "359870",
-      "title": "FINAL FANTASY X/X-2 HD Remaster",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359870/capsule_616x353.jpg",
-      "originalPrice": 379,
-      "discountPrice": 151,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/359870",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1235721",
-      "title": "The Sims™ 4 Cats & Dogs",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235721/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1235721",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "302670",
-      "title": "Call to Arms",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302670/capsule_616x353.jpg",
-      "originalPrice": 325,
-      "discountPrice": 32,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/302670",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3934270",
-      "title": "How Many Dudes?",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3934270/f9800033b6bb5665403e104d94dcc97d13bc1e47/capsule_231x87_alt_assets_0.jpg",
-      "originalPrice": 335,
-      "discountPrice": 217,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3934270",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3199780",
-      "title": "The Sims™ 4 Enchanted by Nature Expansion Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199780/33a6f4141c422a54d54174e631631cf2033831e7/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3199780",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1235733",
-      "title": "The Sims™ 4 Seasons",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235733/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1235733",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "4224910",
-      "title": "Ready or Not: Boiling Point",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224910/fe661496f400d7d873cdb337afc52f946f65ca6a/capsule_616x353.jpg",
-      "originalPrice": 225,
-      "discountPrice": 112,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4224910",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1761390",
-      "title": "Hatsune Miku: Project DIVA Mega Mix+",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1761390/capsule_616x353.jpg",
-      "originalPrice": 649,
-      "discountPrice": 259,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1761390",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "3937550",
       "title": "Yakuza Kiwami 3 & Dark Ties",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3937550/2a9851eada96c190d00c135a94320020653ae0ec/capsule_616x353.jpg",
@@ -16111,27 +17317,27 @@
       "isPopular": true
     },
     {
-      "id": "631510",
-      "title": "Devil May Cry HD Collection",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/capsule_616x353.jpg",
-      "originalPrice": 949,
-      "discountPrice": 313,
-      "discountPercent": 67,
+      "id": "3316940",
+      "title": "The Legend of Heroes: Trails beyond the Horizon",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316940/81d01667bd0f1074961a20600cda760fe4c684cf/capsule_616x353.jpg",
+      "originalPrice": 1125,
+      "discountPrice": 843,
+      "discountPercent": 25,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/631510",
+      "url": "https://store.steampowered.com/app/3316940",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "386940",
-      "title": "Ultimate Chicken Horse",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386940/capsule_616x353.jpg",
-      "originalPrice": 299,
-      "discountPrice": 134,
-      "discountPercent": 55,
+      "id": "1238820",
+      "title": "Battlefield 3™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238820/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 59,
+      "discountPercent": 95,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/386940",
+      "url": "https://store.steampowered.com/app/1238820",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16150,6 +17356,71 @@
       "isPopular": true
     },
     {
+      "id": "508440",
+      "title": "Totally Accurate Battle Simulator",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/508440/capsule_616x353.jpg",
+      "originalPrice": 399,
+      "discountPrice": 135,
+      "discountPercent": 66,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/508440",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "4224910",
+      "title": "Ready or Not: Boiling Point",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224910/fe661496f400d7d873cdb337afc52f946f65ca6a/capsule_616x353.jpg",
+      "originalPrice": 225,
+      "discountPrice": 112,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4224910",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "302670",
+      "title": "Call to Arms",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/302670/capsule_616x353.jpg",
+      "originalPrice": 325,
+      "discountPrice": 32,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/302670",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "386940",
+      "title": "Ultimate Chicken Horse",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386940/capsule_616x353.jpg",
+      "originalPrice": 299,
+      "discountPrice": 134,
+      "discountPercent": 55,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/386940",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1235733",
+      "title": "The Sims™ 4 Seasons",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235733/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1235733",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2699230",
       "title": "Grim Dawn - Fangs of Asterkarn",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2699230/d9ea5bbe62eaa89f572b1fb2c4206cbce63cc3a3/capsule_616x353.jpg",
@@ -16158,6 +17429,45 @@
       "discountPercent": 25,
       "currency": "UAH",
       "url": "https://store.steampowered.com/app/2699230",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3199780",
+      "title": "The Sims™ 4 Enchanted by Nature Expansion Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199780/33a6f4141c422a54d54174e631631cf2033831e7/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3199780",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3949290",
+      "title": "Ys X: Proud Nordics",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949290/a4ad00b9c0ce968d1894e604b2a638a3d5738e94/capsule_616x353.jpg",
+      "originalPrice": 1315,
+      "discountPrice": 986,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3949290",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "631510",
+      "title": "Devil May Cry HD Collection",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631510/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 313,
+      "discountPercent": 67,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/631510",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16176,14 +17486,27 @@
       "isPopular": true
     },
     {
-      "id": "3949290",
-      "title": "Ys X: Proud Nordics",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949290/a4ad00b9c0ce968d1894e604b2a638a3d5738e94/capsule_616x353.jpg",
-      "originalPrice": 1315,
-      "discountPrice": 986,
-      "discountPercent": 25,
+      "id": "1761390",
+      "title": "Hatsune Miku: Project DIVA Mega Mix+",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1761390/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 259,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3949290",
+      "url": "https://store.steampowered.com/app/1761390",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1336490",
+      "title": "Against the Storm",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336490/b1a59a2fe46cf25d8b49c188a6f03febe654be4a/capsule_616x353.jpg",
+      "originalPrice": 399,
+      "discountPrice": 79,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1336490",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16215,14 +17538,14 @@
       "isPopular": true
     },
     {
-      "id": "560130",
-      "title": "Pillars of Eternity II: Deadfire",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/560130/capsule_616x353.jpg",
-      "originalPrice": 699,
-      "discountPrice": 174,
-      "discountPercent": 75,
+      "id": "397540",
+      "title": "Borderlands 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/capsule_616x353.jpg",
+      "originalPrice": 1299,
+      "discountPrice": 194,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/560130",
+      "url": "https://store.steampowered.com/app/397540",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16241,58 +17564,6 @@
       "isPopular": true
     },
     {
-      "id": "304212",
-      "title": "Euro Truck Simulator 2 - Scandinavia",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304212/fd7d354dc774b920606014d38a895f83c809745f/capsule_616x353.jpg",
-      "originalPrice": 370,
-      "discountPrice": 185,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/304212",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1265920",
-      "title": "Life is Strange Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1265920/capsule_616x353.jpg",
-      "originalPrice": 930,
-      "discountPrice": 186,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1265920",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "397540",
-      "title": "Borderlands 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/capsule_616x353.jpg",
-      "originalPrice": 1299,
-      "discountPrice": 194,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/397540",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2239150",
-      "title": "Thronefall",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/b38a7da0aed3eda084382f8dec195c3a7d2cbdf5/capsule_616x353_alt_assets_4_ukrainian.jpg",
-      "originalPrice": 285,
-      "discountPrice": 142,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2239150",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "567640",
       "title": "Danganronpa V3: Killing Harmony",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/capsule_616x353.jpg",
@@ -16306,14 +17577,14 @@
       "isPopular": true
     },
     {
-      "id": "690790",
-      "title": "DiRT Rally 2.0",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690790/capsule_616x353.jpg",
-      "originalPrice": 329,
-      "discountPrice": 230,
-      "discountPercent": 30,
+      "id": "560130",
+      "title": "Pillars of Eternity II: Deadfire",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/560130/capsule_616x353.jpg",
+      "originalPrice": 699,
+      "discountPrice": 174,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/690790",
+      "url": "https://store.steampowered.com/app/560130",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16332,6 +17603,32 @@
       "isPopular": true
     },
     {
+      "id": "1265920",
+      "title": "Life is Strange Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1265920/capsule_616x353.jpg",
+      "originalPrice": 930,
+      "discountPrice": 186,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1265920",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2239150",
+      "title": "Thronefall",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/b38a7da0aed3eda084382f8dec195c3a7d2cbdf5/capsule_616x353_alt_assets_4_ukrainian.jpg",
+      "originalPrice": 285,
+      "discountPrice": 142,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2239150",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "209650",
       "title": "Call of Duty®: Advanced Warfare - Gold Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/capsule_616x353.jpg",
@@ -16345,27 +17642,27 @@
       "isPopular": true
     },
     {
-      "id": "1796470",
-      "title": "Haste",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/facaebeaca52dc14ae2a85d5a4f017947e9c3a87/capsule_616x353.jpg",
-      "originalPrice": 389,
-      "discountPrice": 233,
-      "discountPercent": 40,
+      "id": "304212",
+      "title": "Euro Truck Simulator 2 - Scandinavia",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304212/fd7d354dc774b920606014d38a895f83c809745f/capsule_616x353.jpg",
+      "originalPrice": 370,
+      "discountPrice": 185,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1796470",
+      "url": "https://store.steampowered.com/app/304212",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1920490",
-      "title": "The Outer Worlds: Spacer's Choice Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1920490/capsule_616x353.jpg",
-      "originalPrice": 1599,
-      "discountPrice": 399,
-      "discountPercent": 75,
+      "id": "690790",
+      "title": "DiRT Rally 2.0",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690790/capsule_616x353.jpg",
+      "originalPrice": 329,
+      "discountPrice": 230,
+      "discountPercent": 30,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1920490",
+      "url": "https://store.steampowered.com/app/690790",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16384,14 +17681,40 @@
       "isPopular": true
     },
     {
-      "id": "362890",
-      "title": "Black Mesa",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/f500257563de479b38169882b434ab7aab4168c5/capsule_231x87_alt_assets_3.jpg",
-      "originalPrice": 415,
-      "discountPrice": 103,
+      "id": "10090",
+      "title": "Call of Duty: World at War",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10090/capsule_616x353.jpg",
+      "originalPrice": 849,
+      "discountPrice": 636,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/10090",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1920490",
+      "title": "The Outer Worlds: Spacer's Choice Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1920490/capsule_616x353.jpg",
+      "originalPrice": 1599,
+      "discountPrice": 399,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/362890",
+      "url": "https://store.steampowered.com/app/1920490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3364070",
+      "title": "The Jackbox Party Pack 11",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364070/fd640e8b7a56267b1e01502618f92de11335ffa3/capsule_616x353.jpg",
+      "originalPrice": 600,
+      "discountPrice": 390,
+      "discountPercent": 35,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3364070",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16410,19 +17733,6 @@
       "isPopular": true
     },
     {
-      "id": "10090",
-      "title": "Call of Duty: World at War",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10090/capsule_616x353.jpg",
-      "originalPrice": 849,
-      "discountPrice": 636,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/10090",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
       "id": "570660",
       "title": "The Binding of Isaac: Afterbirth+",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570660/capsule_616x353.jpg",
@@ -16436,79 +17746,14 @@
       "isPopular": true
     },
     {
-      "id": "3364070",
-      "title": "The Jackbox Party Pack 11",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3364070/fd640e8b7a56267b1e01502618f92de11335ffa3/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 390,
-      "discountPercent": 35,
+      "id": "434170",
+      "title": "The Jackbox Party Pack 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/434170/capsule_616x353.jpg",
+      "originalPrice": 515,
+      "discountPrice": 283,
+      "discountPercent": 45,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3364070",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "2311920",
-      "title": "Crusader Kings III: Tours & Tournaments",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2311920/capsule_616x353.jpg",
-      "originalPrice": 809,
-      "discountPrice": 485,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2311920",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3548690",
-      "title": "The Sims™ 4 Royalty & Legacy Expansion Pack",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3548690/9c6ff43a37e0c70a1ed093cbc5ddba424c7dce73/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 1274,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3548690",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1262580",
-      "title": "Need for Speed™ Payback",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/capsule_616x353.jpg",
-      "originalPrice": 799,
-      "discountPrice": 119,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1262580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "49520",
-      "title": "Borderlands 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/a31378d171ddc282073952ada2b9514668f82106/capsule_616x353.jpg",
-      "originalPrice": 651,
-      "discountPrice": 97,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/49520",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1235734",
-      "title": "The Sims™ 4 Get To Work",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235734/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 679,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1235734",
+      "url": "https://store.steampowered.com/app/434170",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16527,14 +17772,40 @@
       "isPopular": true
     },
     {
-      "id": "1222690",
-      "title": "Dragon Age™ Inquisition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222690/capsule_616x353.jpg",
-      "originalPrice": 999,
-      "discountPrice": 199,
-      "discountPercent": 80,
+      "id": "362890",
+      "title": "Black Mesa",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/f500257563de479b38169882b434ab7aab4168c5/capsule_231x87_alt_assets_3.jpg",
+      "originalPrice": 415,
+      "discountPrice": 103,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222690",
+      "url": "https://store.steampowered.com/app/362890",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "49520",
+      "title": "Borderlands 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/a31378d171ddc282073952ada2b9514668f82106/capsule_616x353.jpg",
+      "originalPrice": 651,
+      "discountPrice": 97,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/49520",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3548690",
+      "title": "The Sims™ 4 Royalty & Legacy Expansion Pack",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3548690/9c6ff43a37e0c70a1ed093cbc5ddba424c7dce73/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 1274,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3548690",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16553,6 +17824,45 @@
       "isPopular": true
     },
     {
+      "id": "1096900",
+      "title": "RPG Maker MZ",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096900/capsule_616x353.jpg",
+      "originalPrice": 1990,
+      "discountPrice": 663,
+      "discountPercent": 68,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1096900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "1235734",
+      "title": "The Sims™ 4 Get To Work",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1235734/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1235734",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2311920",
+      "title": "Crusader Kings III: Tours & Tournaments",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2311920/capsule_616x353.jpg",
+      "originalPrice": 809,
+      "discountPrice": 485,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2311920",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
       "id": "2499860",
       "title": "DRAGON QUEST VII Reimagined",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2499860/2f5ecf8d4a17a0bf959f96145a41250703ee7993/capsule_616x353.jpg",
@@ -16566,27 +17876,53 @@
       "isPopular": true
     },
     {
-      "id": "220240",
-      "title": "Far Cry 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/e24302fd0b603ceddc1f09f8528b4b58e6990923/capsule_616x353.jpg",
-      "originalPrice": 299,
-      "discountPrice": 74,
-      "discountPercent": 75,
+      "id": "1262580",
+      "title": "Need for Speed™ Payback",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/capsule_616x353.jpg",
+      "originalPrice": 799,
+      "discountPrice": 119,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/220240",
+      "url": "https://store.steampowered.com/app/1262580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
     },
     {
-      "id": "1119730",
-      "title": "Ranch Simulator: Build, Hunt, Farm",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119730/3aeb5067bbd03e77c9fe97ea704ee39218101b3f/capsule_616x353.jpg",
-      "originalPrice": 329,
-      "discountPrice": 49,
-      "discountPercent": 85,
+      "id": "1796470",
+      "title": "Haste",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796470/facaebeaca52dc14ae2a85d5a4f017947e9c3a87/capsule_616x353.jpg",
+      "originalPrice": 389,
+      "discountPrice": 233,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1119730",
+      "url": "https://store.steampowered.com/app/1796470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "2933130",
+      "title": "The Lord of the Rings: Return to Moria™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933130/8fbc2e71513e2103b7b82d355ddfc1ceee29b34e/capsule_616x353.jpg",
+      "originalPrice": 600,
+      "discountPrice": 210,
+      "discountPercent": 65,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2933130",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true
+    },
+    {
+      "id": "3407390",
+      "title": "ENDLESS Legend™ 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/7ac001b77ef36beb6ed60a198e73f561523ca5ec/capsule_616x353.jpg",
+      "originalPrice": 699,
+      "discountPrice": 349,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3407390",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16605,40 +17941,14 @@
       "isPopular": true
     },
     {
-      "id": "3690030",
-      "title": "The Last Gas Station",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3690030/87260839911334282177110e18fab9a1a7b4745e/capsule_231x87_alt_assets_5.jpg",
-      "originalPrice": 320,
-      "discountPrice": 128,
+      "id": "285900",
+      "title": "Gang Beasts",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/capsule_616x353.jpg",
+      "originalPrice": 389,
+      "discountPrice": 155,
       "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3690030",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "1096900",
-      "title": "RPG Maker MZ",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096900/capsule_616x353.jpg",
-      "originalPrice": 1990,
-      "discountPrice": 663,
-      "discountPercent": 68,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1096900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true
-    },
-    {
-      "id": "3483510",
-      "title": "The Adventures of Elliot: The Millennium Tales",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/0d5cbb1d81642a256b5a690d5c27b57cdd7891d4/capsule_616x353.jpg",
-      "originalPrice": 1799,
-      "discountPrice": 1259,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3483510",
+      "url": "https://store.steampowered.com/app/285900",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true
@@ -16912,15 +18222,6 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.42553.14305479850136392.1d44bfb9-b43e-4fae-a421-d6f972529d66.9523b661-eef0-4e38-88f4-d425d8e88953",
       "url": "https://www.xbox.com/uk-UA/games/store/minecraft-dungeons-ii/9PM3J18QM4Q3",
       "description": "Над Верхнім світом нависла нова загроза… Minecraft Dungeons II вже вийшла. На вас чекає ще більше дій, більше здобичі й більше пригод. Пройдіть крізь Розлом і вирушайте туди, де ще не бував жоден геро",
-      "isNew": true,
-      "isPopular": false
-    },
-    {
-      "id": "9N944N1WP67T",
-      "title": "Mad King Redemption",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.14521.13544556109351948.9c4c33b4-f6ce-4d2c-ac5f-3aa565d08d7d.eb03fc89-f3ca-415d-aef6-27921c78ef63",
-      "url": "https://www.xbox.com/uk-UA/games/store/mad-king-redemption/9N944N1WP67T",
-      "description": "The Kingdom has fallen to the Mad King, who has used forbidden magic to try to resuscitate the queen. But the powers of life and death were too big to handle for him, and as a consequence, the King lo",
       "isNew": true,
       "isPopular": false
     },

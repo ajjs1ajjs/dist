@@ -13229,6 +13229,106 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-21T22:00:48.116Z"
+    },
+    {
+      "id": "48fc213410dae5d99ee6e197",
+      "createdAt": "2026-11-22T00:00:30.304Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Against the Storm</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>79 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1336490\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336490/b1a59a2fe46cf25d8b49c188a6f03febe654be4a/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1336490",
+          "entry": {
+            "title": "Against the Storm",
+            "price": 79,
+            "percent": 80,
+            "timestamp": "2026-11-22T00:00:30.304Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0ba5fb686a4b10e5b279a86d",
+      "createdAt": "2026-11-22T00:00:30.304Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Lord of the Rings: Return to Moria™</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>210 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2933130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933130/8fbc2e71513e2103b7b82d355ddfc1ceee29b34e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2933130",
+          "entry": {
+            "title": "The Lord of the Rings: Return to Moria™",
+            "price": 210,
+            "percent": 65,
+            "timestamp": "2026-11-22T00:00:30.304Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "85cf22340e99744111679f82",
+      "createdAt": "2026-11-22T00:00:30.304Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Gang Beasts</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>155 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/285900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_285900",
+          "entry": {
+            "title": "Gang Beasts",
+            "price": 155,
+            "percent": 60,
+            "timestamp": "2026-11-22T00:00:30.304Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d0ffd53b5cafe3c852270ab3",
+      "createdAt": "2026-11-22T00:00:30.304Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>ENDLESS Legend™ 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>349 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3407390\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/7ac001b77ef36beb6ed60a198e73f561523ca5ec/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3407390",
+          "entry": {
+            "title": "ENDLESS Legend™ 2",
+            "price": 349,
+            "percent": 50,
+            "timestamp": "2026-11-22T00:00:30.304Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "74b711cb2200db9c22b40d81",
+      "createdAt": "2026-11-22T00:00:30.304Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Jackbox Party Pack 3</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>283 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/434170\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/434170/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_434170",
+          "entry": {
+            "title": "The Jackbox Party Pack 3",
+            "price": 283,
+            "percent": 45,
+            "timestamp": "2026-11-22T00:00:30.304Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
