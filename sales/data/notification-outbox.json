@@ -13754,6 +13754,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T14:00:45.840Z"
+    },
+    {
+      "id": "4fcf89f21d2a9fba1e6f3b9a",
+      "createdAt": "2026-11-22T15:00:32.164Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Terra Invicta</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>299 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1176470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1176470/7526b8bc966e96df4151461b1163954cddffa313/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1176470",
+          "entry": {
+            "title": "Terra Invicta",
+            "price": 299,
+            "percent": 50,
+            "timestamp": "2026-11-22T15:00:32.164Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
