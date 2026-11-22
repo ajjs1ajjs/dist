@@ -24114,6 +24114,13 @@
       "percent": 68,
       "timestamp": "2026-11-22T19:00:33.589Z",
       "type": "discount"
+    },
+    "steam_discount_2426530": {
+      "title": "Nova Roma",
+      "price": 259,
+      "percent": 35,
+      "timestamp": "2026-11-22T19:00:33.589Z",
+      "type": "discount"
     }
   }
 }

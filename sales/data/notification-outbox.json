@@ -13856,7 +13856,7 @@
           }
         }
       ],
-      "status": "sending",
+      "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T19:00:43.013Z"
     }
