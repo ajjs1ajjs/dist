@@ -13544,6 +13544,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T05:00:37.538Z"
+    },
+    {
+      "id": "7f443d93a3e70747e1fec93d",
+      "createdAt": "2026-11-22T06:00:31.664Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Battle Brothers</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>399 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/365360\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365360/5d087b838950577ba378b34f1ff91e7bdaba7697/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_365360",
+          "entry": {
+            "title": "Battle Brothers",
+            "price": 119,
+            "percent": 70,
+            "timestamp": "2026-11-22T06:00:31.664Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
