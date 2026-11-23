@@ -26237,6 +26237,13 @@
       "percent": 85,
       "timestamp": "2026-11-23T20:00:29.745Z",
       "type": "discount"
+    },
+    "steam_discount_255710": {
+      "title": "Cities: Skylines",
+      "price": 242,
+      "percent": 70,
+      "timestamp": "2026-11-23T20:00:29.745Z",
+      "type": "discount"
     }
   }
 }
