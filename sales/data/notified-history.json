@@ -5976,5 +5976,12 @@
     "percent": 40,
     "timestamp": "2026-11-23T22:00:41.256Z",
     "type": "discount"
+  },
+  "steam_discount_2623190": {
+    "title": "The Elder Scrolls IV: Oblivion Remastered",
+    "price": 1079,
+    "percent": 40,
+    "timestamp": "2026-11-23T22:00:41.256Z",
+    "type": "discount"
   }
 }
