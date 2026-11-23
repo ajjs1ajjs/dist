@@ -25635,6 +25635,13 @@
       "percent": 80,
       "timestamp": "2026-11-23T18:00:32.559Z",
       "type": "discount"
+    },
+    "steam_discount_3240220": {
+      "title": "Grand Theft Auto V Enhanced",
+      "price": 879,
+      "percent": 56,
+      "timestamp": "2026-11-23T18:00:32.559Z",
+      "type": "discount"
     }
   }
 }
