@@ -81,6 +81,12 @@
     updateResultCount();
     updateFilterCountLabels();
 
+    $$('.buy b').forEach((el) => {
+      el.textContent = el.textContent
+        .replace(/₴\/(?:міс|mo)/g, `₴/${t('buy.moSuffix')}`)
+        .replace(/₴\/(?:рік|yr)/g, `₴/${t('buy.yrSuffix')}`);
+    });
+
     const buyModal = $('#buyModal');
     if (buyModal?.open) {
       $('#buyMonth').textContent = `${fmtPrice(buyModal.dataset.month)} / ${t('buy.moSuffix')}`;
