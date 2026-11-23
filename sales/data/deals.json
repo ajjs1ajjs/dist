@@ -26477,6 +26477,13 @@
       "percent": 50,
       "timestamp": "2026-11-23T21:00:33.856Z",
       "type": "discount"
+    },
+    "steam_discount_2321470": {
+      "title": "Deep Rock Galactic: Survivor",
+      "price": 147,
+      "percent": 50,
+      "timestamp": "2026-11-23T21:00:33.856Z",
+      "type": "discount"
     }
   }
 }
