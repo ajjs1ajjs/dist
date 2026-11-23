@@ -1,5 +1,5 @@
 /* ==========================================================================
-   andreichuk.dev / DIST hub — shared UI script (vanilla, no dependencies)
+   DIST hub / SITE mirror — shared UI script (vanilla, no dependencies)
    Один файл для двох сайтів: мова, фільтри, пошук, копіювання, модалки,
    оновлення версій з GitHub Releases, scrollspy, «догори».
    ========================================================================== */

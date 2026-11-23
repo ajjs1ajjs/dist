@@ -10,9 +10,9 @@
 > ⚠️ Змінюєш `styles.css` / `app.js` / `translations.js` — підніми `?v=YYYYMMDD`
 > у посиланнях `index.html`, інакше в кеші (GitHub Pages/CDN) добу житиме стара версія.
 
-> 📄 Сторінки продуктів `/p/<slug>/` — дзеркало SITE (andreichuk.dev): генеруються
-> з `SITE/scripts/products/*.json` командою `npm run products:dist`. Правити треба
-> в SITE, у дисті файли лише оновлюються (як і спільні `styles.css`/`app.js`/`translations.js`).
+> 📄 Сторінки продуктів `/p/<slug>/` генеруються
+> з `SITE/scripts/products/*.json` командою `npm run products:dist`, яка тримає `dist` і
+> дзеркало `SITE` в паритеті 1:1 (уключно зі спільними `index.html`/`styles.css`/`app.js`/`translations.js`).
 
 <br>
 
@@ -521,5 +521,5 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 Проєктую й супроводжую backup, моніторинг, self-hosted сервіси та десктоп-застосунки. DIST — власна екосистема з 19 продуктів для Linux, Windows і Web.
 
-- 🚀 [Портфоліо + кейси](https://andreichuk.dev) — 19 продуктів зі скрінами й цінами, кейси, послуги, форма заявки
+- 🌐 [DIST Hub (основний сайт)](https://ajjs1ajjs.github.io/dist/) — 19 продуктів зі скрінами, цінами, зведеною таблицею та інструкціями
 - 📩 yaroslav.andreichuk@gmail.com · ✈️ [Telegram](https://t.me/+380979454941)

@@ -1,4 +1,4 @@
-/* Словник UK/EN для обох сайтів (andreichuk.dev і DIST hub).
+/* Словник UK/EN для DIST Hub (ajjs1ajjs.github.io/dist) та дзеркала SITE.
    Одне джерело тексту — правити тільки тут. */
 window.SITE_I18N = {
   uk: {
@@ -50,7 +50,7 @@ window.SITE_I18N = {
     'hub.badge': 'DIST HUB · публічний канал релізів',
     'hub.h1a': '19 продуктів.',
     'hub.h1b': 'Один канал оновлень.',
-    'hub.sub': 'Інсталятори, SHA-256 хеші, підписані автооновлення та офлайн-PWA. Той самий каталог, що на andreichuk.dev — тут зібрані всі релізи й завантаження.',
+    'hub.sub': 'Інсталятори, SHA-256 хеші, підписані автооновлення та офлайн-PWA. Єдиний публічний каталог усіх 19 продуктів DIST Ecosystem, релізи й завантаження.',
     'hub.cta1': 'До каталогу ↓',
     'hub.cta2': 'GitHub ↗',
     'hub.note': 'Ліцензія Paid після оплати · SHA-256 для бінарників · Minisign / Ed25519 для десктопу',
@@ -381,7 +381,7 @@ window.SITE_I18N = {
     'hub.badge': 'DIST HUB · public release channel',
     'hub.h1a': '19 products.',
     'hub.h1b': 'One update channel.',
-    'hub.sub': 'Installers, SHA-256 checksums, signed auto-updates and offline PWAs. The same catalog as on andreichuk.dev — with every release and download in one place.',
+    'hub.sub': 'Installers, SHA-256 checksums, signed auto-updates and offline PWAs. The single public catalog of all 19 DIST Ecosystem products, releases and downloads.',
     'hub.cta1': 'Open the catalog ↓',
     'hub.cta2': 'GitHub ↗',
     'hub.note': 'Paid license after payment · SHA-256 for binaries · Minisign / Ed25519 for desktop',
