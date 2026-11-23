@@ -26286,6 +26286,13 @@
       "percent": 50,
       "timestamp": "2026-11-23T20:00:29.745Z",
       "type": "discount"
+    },
+    "steam_discount_374320": {
+      "title": "DARK SOULS™ III",
+      "price": 495,
+      "percent": 50,
+      "timestamp": "2026-11-23T20:00:29.745Z",
+      "type": "discount"
     }
   }
 }
