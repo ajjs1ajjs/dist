@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T08:04:41.530Z",
+  "generatedAt": "2026-11-23T07:56:29.958Z",
   "latest": {
     "uptime-v": {
-      "version": "v3.10.50"
+      "version": "v3.10.51"
     },
     "rdm-v": {
       "version": "v2.1.54",
