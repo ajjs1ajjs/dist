@@ -26603,6 +26603,13 @@
       "percent": 40,
       "timestamp": "2026-11-23T22:00:41.256Z",
       "type": "discount"
+    },
+    "steam_discount_2001120": {
+      "title": "Split Fiction",
+      "price": 779,
+      "percent": 40,
+      "timestamp": "2026-11-23T22:00:41.256Z",
+      "type": "discount"
     }
   }
 }
