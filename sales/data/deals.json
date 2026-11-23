@@ -25649,6 +25649,13 @@
       "percent": 30,
       "timestamp": "2026-11-23T18:00:32.559Z",
       "type": "discount"
+    },
+    "steam_discount_1551980": {
+      "title": "Clive Barker's Hellraiser: Revival",
+      "price": 749,
+      "percent": 25,
+      "timestamp": "2026-11-23T18:00:32.559Z",
+      "type": "discount"
     }
   }
 }
