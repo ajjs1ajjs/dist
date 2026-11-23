@@ -201,6 +201,7 @@
   const chips = $$('.chip[data-filter]');
   const searchInput = $('#searchInput');
   const searchClear = $('#searchClear');
+  const searchKbd = $('#searchKbd');
   const emptyMsg = $('#emptyMsg');
   let activeFilter = 'all';
 
@@ -218,10 +219,12 @@
       c.classList.toggle('is-hidden', !show);
       if (show) visible++;
     });
+    productGrid?.classList?.toggle('grid--filtered', activeFilter !== 'all' || q.length > 0);
     if (emptyMsg) emptyMsg.hidden = visible > 0;
     const emptyActions = $('#emptyActions');
     if (emptyActions) emptyActions.hidden = visible > 0;
     if (searchClear) searchClear.hidden = !q;
+    if (searchKbd) searchKbd.hidden = !!q;
     updateResultCount(visible);
     updateFilterCountLabels();
   }
@@ -283,6 +286,42 @@
     applyFilters();
     syncFilterUrl();
   });
+
+  /* ---------- Hero frame preview tabs & search "/" shortcut ---------- */
+  const heroTabs = $$('[data-hero-shot]');
+  const heroImg = $('#heroFrameImg');
+  const heroLabel = $('#heroFrameLabel');
+  if (heroTabs.length && heroImg) {
+    heroTabs.forEach((tab) => tab.addEventListener('click', () => {
+      heroTabs.forEach((b) => {
+        const active = b === tab;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      if (tab.dataset.heroShot) heroImg.src = tab.dataset.heroShot;
+      if (tab.dataset.heroAlt !== undefined) heroImg.alt = tab.dataset.heroAlt;
+      if (heroLabel && tab.dataset.heroLabel) heroLabel.textContent = tab.dataset.heroLabel;
+    }));
+  }
+  if (searchInput) {
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        const tag = document.activeElement?.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || document.activeElement?.isContentEditable) return;
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.select?.();
+      } else if (e.key === 'Escape' && document.activeElement === searchInput) {
+        if (searchInput.value) {
+          searchInput.value = '';
+          applyFilters();
+          syncFilterUrl();
+        } else {
+          searchInput.blur();
+        }
+      }
+    });
+  }
 
   /* ---------- Modal helpers ---------- */
   let lastFocus = null;

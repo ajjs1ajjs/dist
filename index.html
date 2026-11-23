@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=28c2e53f46">
+  <link rel="stylesheet" href="./styles.css?v=4a8e2b2dbc">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230c0c0e'/%3E%3Cpath d='M20 44V20h10a10 10 0 0 1 0 20H20zm10-14h8' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
 </head>
@@ -67,10 +67,19 @@
           </div>
           <p class="hero-note" data-i18n="hub.note">Ліцензія Paid після оплати · SHA-256 для бінарників · Minisign / Ed25519 для десктопу</p>
         </div>
-        <div class="hero-visual" aria-hidden="true">
+        <div class="hero-visual">
           <div class="frame">
-            <span class="frame-bar"><i></i><i></i><i></i><em data-i18n="hero.frame">kubelens · live</em></span>
-            <img src="./shots/kubelens.webp" alt="" width="1200" height="777">
+            <span class="frame-bar">
+              <i></i><i></i><i></i>
+              <span class="frame-tabs" role="tablist" aria-label="Прев’ю продуктів" data-i18n-attr="aria-label:hero.tabsAria">
+                <button class="frame-tab active" type="button" role="tab" aria-selected="true" data-hero-shot="./shots/kubelens.webp" data-hero-label="kubelens · live" data-hero-alt="KubeLens — Kubernetes Desktop IDE">KubeLens</button>
+                <button class="frame-tab" type="button" role="tab" aria-selected="false" data-hero-shot="./shots/bck.webp" data-hero-label="bck · web console" data-hero-alt="BCK — Enterprise Backup & Disaster Recovery">BCK</button>
+                <button class="frame-tab" type="button" role="tab" aria-selected="false" data-hero-shot="./shots/pymon.webp" data-hero-label="pymon · noc" data-hero-alt="PyMon NOC — Infrastructure Monitoring">PyMon</button>
+                <button class="frame-tab" type="button" role="tab" aria-selected="false" data-hero-shot="./shots/vilno.webp" data-hero-label="vilno · vpn" data-hero-alt="Vilno VPN — WireGuard Client">Vilno</button>
+              </span>
+              <em id="heroFrameLabel" data-i18n="hero.frame">kubelens · live</em>
+            </span>
+            <img id="heroFrameImg" src="./shots/kubelens.webp" alt="KubeLens — Kubernetes Desktop IDE" width="1200" height="777">
           </div>
           <div class="hero-float">
             <span class="hero-float-ico">🛡</span>
@@ -112,6 +121,7 @@
           </div>
           <div class="search">
             <input type="search" id="searchInput" placeholder="Пошук: backup, k8s, PWA…" data-i18n-placeholder="prod.searchPh" autocomplete="off" aria-label="Пошук продуктів" data-i18n-attr="aria-label:prod.searchAria">
+            <kbd class="search-kbd" id="searchKbd" aria-hidden="true">/</kbd>
             <button class="search-clear" id="searchClear" type="button" hidden aria-label="Очистити пошук" data-i18n-attr="aria-label:prod.searchClear">✕</button>
           </div>
         </div>
@@ -120,7 +130,7 @@
         <div class="grid" id="productGrid">
 
           <!-- BCK -->
-          <article class="card" data-cat="linux" data-search="bck backup бекап резервне копіювання disaster recovery veeam rust systemd linux ubuntu">
+          <article class="card card--featured" data-cat="linux" data-search="bck backup бекап резервне копіювання disaster recovery veeam rust systemd linux ubuntu">
             <a class="card-shot card-shot--open" href="./p/bck/" aria-label="Детальніше: BCK" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="BCK">
               <img src="./shots/bck.webp" alt="BCK — дашборд веб-консолі" width="1200" height="771" loading="lazy" decoding="async">
             </a>
@@ -220,7 +230,7 @@
           </article>
 
           <!-- NetScope -->
-          <article class="card" data-cat="windows monitoring" data-search="netscope мережа топологія ad ldap сканування підмереж офлайн inventory windows">
+          <article class="card card--featured" data-cat="windows monitoring" data-search="netscope мережа топологія ad ldap сканування підмереж офлайн inventory windows">
             <a class="card-shot card-shot--open" href="./p/netscope/" aria-label="Детальніше: NetScope Enterprise" data-i18n-attr="aria-label:prod.detailsAria" data-i18n-name="NetScope Enterprise">
               <img src="./shots/netscope.webp" alt="NetScope — карта топології мережі" width="1400" height="887" loading="lazy" decoding="async">
             </a>
@@ -598,10 +608,10 @@
           <p class="sec-sub" data-i18n="hub.sec.sub">Чому розповсюдження через цей репозиторій передбачуване, захищене і безпечне для production.</p>
         </div>
         <div class="sec-grid">
-          <div class="sec-card"><span class="ico">🔑</span><h3 data-i18n="hub.sec.1.title">Minisign-підпис</h3><p data-i18n="hub.sec.1.desc">Десктопні застосунки (KubeLens, RDM) перевіряють цифрові підписи збірок перед кожним оновленням.</p></div>
-          <div class="sec-card"><span class="ico">🧾</span><h3 data-i18n="hub.sec.2.title">SHA-256 контроль</h3><p data-i18n="hub.sec.2.desc">Кожен реліз має файл контрольних сум. Curl-інсталятори звіряють хеш перед запуском.</p></div>
-          <div class="sec-card"><span class="ico">💾</span><h3 data-i18n="hub.sec.3.title">Безпечні апгрейди</h3><p data-i18n="hub.sec.3.desc">Конфіги, SQLite-бази та репозиторії зберігаються. Замінюється лише бінарник, з автобекапом.</p></div>
-          <div class="sec-card"><span class="ico">📴</span><h3 data-i18n="hub.sec.4.title">Zero-telemetry &amp; Offline</h3><p data-i18n="hub.sec.4.desc">PWA працюють офлайн через Service Workers. Дані — лише локально, без сторонніх серверів.</p></div>
+          <div class="sec-card"><div class="sec-card-top"><span class="ico">🔑</span><span class="sec-tag">Ed25519</span></div><h3 data-i18n="hub.sec.1.title">Minisign-підпис</h3><p data-i18n="hub.sec.1.desc">Десктопні застосунки (KubeLens, RDM) перевіряють цифрові підписи збірок перед кожним оновленням.</p></div>
+          <div class="sec-card"><div class="sec-card-top"><span class="ico">🧾</span><span class="sec-tag">SHA-256</span></div><h3 data-i18n="hub.sec.2.title">SHA-256 контроль</h3><p data-i18n="hub.sec.2.desc">Кожен реліз має файл контрольних сум. Curl-інсталятори звіряють хеш перед запуском.</p></div>
+          <div class="sec-card"><div class="sec-card-top"><span class="ico">💾</span><span class="sec-tag">Rollback</span></div><h3 data-i18n="hub.sec.3.title">Безпечні апгрейди</h3><p data-i18n="hub.sec.3.desc">Конфіги, SQLite-бази та репозиторії зберігаються. Замінюється лише бінарник, з автобекапом.</p></div>
+          <div class="sec-card"><div class="sec-card-top"><span class="ico">📴</span><span class="sec-tag">Zero-Telemetry</span></div><h3 data-i18n="hub.sec.4.title">Zero-telemetry &amp; Offline</h3><p data-i18n="hub.sec.4.desc">PWA працюють офлайн через Service Workers. Дані — лише локально, без сторонніх серверів.</p></div>
         </div>
       </div>
     </section>
@@ -834,8 +844,8 @@
   </dialog>
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="./translations.js?v=28c2e53f46" defer></script>
-  <script src="./app.js?v=28c2e53f46" defer></script>
+  <script src="./translations.js?v=4a8e2b2dbc" defer></script>
+  <script src="./app.js?v=4a8e2b2dbc" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->
