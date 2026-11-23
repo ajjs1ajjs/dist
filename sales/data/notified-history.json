@@ -6039,5 +6039,12 @@
     "percent": 36,
     "timestamp": "2026-11-23T23:00:31.077Z",
     "type": "discount"
+  },
+  "steam_discount_1363080": {
+    "title": "Manor Lords",
+    "price": 389,
+    "percent": 35,
+    "timestamp": "2026-11-23T23:00:31.077Z",
+    "type": "discount"
   }
 }
