@@ -14202,6 +14202,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-23T21:01:29.168Z"
+    },
+    {
+      "id": "24b3f04222a3ee1e82ddd965",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Beyond: Two Souls</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>64 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/960990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_960990",
+          "entry": {
+            "title": "Beyond: Two Souls",
+            "price": 64,
+            "percent": 90,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d29176d6283988149579788d",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Heavy Rain</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>64 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/960910\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960910/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_960910",
+          "entry": {
+            "title": "Heavy Rain",
+            "price": 64,
+            "percent": 90,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "aae25015d28a01ce489e50a1",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Laika: Aged Through Blood</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>62 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1796220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/df13e06f4245090ed14e72c1633a6b0f48625ea6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1796220",
+          "entry": {
+            "title": "Laika: Aged Through Blood",
+            "price": 62,
+            "percent": 85,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8f2b72f440aafaafd0b2a0cf",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls V: Skyrim VR</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 560 грн</s> ➡️ <b>312 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/611670\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/611670/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_611670",
+          "entry": {
+            "title": "The Elder Scrolls V: Skyrim VR",
+            "price": 312,
+            "percent": 80,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "599eedb3a943ae02a483503a",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mafia: Definitive Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1030840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030840/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1030840",
+          "entry": {
+            "title": "Mafia: Definitive Edition",
+            "price": 239,
+            "percent": 80,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5b5d15f7399de3f7be75e6ed",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Vampire: The Masquerade® - Bloodlines™ 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 609 грн</s> ➡️ <b>804 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/532790\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532790/9cac22d8df33ac2ab02cb699f6362c25ed0ecc6c/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_532790",
+          "entry": {
+            "title": "Vampire: The Masquerade® - Bloodlines™ 2",
+            "price": 804,
+            "percent": 50,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2a7b4b8a574e9982e043f448",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Tempest Rising</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>1 049 грн</s> ➡️ <b>576 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1486920\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1486920/912913984858854c1e9e82a1ad4eecef9e5c5c54/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1486920",
+          "entry": {
+            "title": "Tempest Rising",
+            "price": 576,
+            "percent": 45,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4b8c9e01da1dfcd1d78d9f8d",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Indiana Jones and the Great Circle</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>2 449 грн</s> ➡️ <b>1 469 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2677660\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/c939ee590e5b9ccdd1af63240cd9d6df8177c2aa/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2677660",
+          "entry": {
+            "title": "Indiana Jones and the Great Circle",
+            "price": 1469,
+            "percent": 40,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "508e1df71c2c4cf78605e1c0",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls IV: Oblivion Remastered</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 799 грн</s> ➡️ <b>1 079 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2623190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/67e60b0125feb2f0cc6964f0acb785faf1207fbd/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2623190",
+          "entry": {
+            "title": "The Elder Scrolls IV: Oblivion Remastered",
+            "price": 1079,
+            "percent": 40,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "58c06bb01985482bf1725c8d",
+      "createdAt": "2026-11-23T22:00:41.256Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Split Fiction</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>779 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2001120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2001120",
+          "entry": {
+            "title": "Split Fiction",
+            "price": 779,
+            "percent": 40,
+            "timestamp": "2026-11-23T22:00:41.256Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
