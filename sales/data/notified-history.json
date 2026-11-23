@@ -5871,5 +5871,12 @@
     "percent": 80,
     "timestamp": "2026-11-23T21:00:33.856Z",
     "type": "discount"
+  },
+  "steam_discount_1273400": {
+    "title": "Construction Simulator",
+    "price": 128,
+    "percent": 75,
+    "timestamp": "2026-11-23T21:00:33.856Z",
+    "type": "discount"
   }
 }
