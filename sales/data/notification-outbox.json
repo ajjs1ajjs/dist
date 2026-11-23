@@ -13508,6 +13508,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-23T13:00:37.143Z"
+    },
+    {
+      "id": "0b18340aa42a3694dd2ff9c6",
+      "createdAt": "2026-11-23T18:00:32.559Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Serious Sam 4</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>740 грн</s> ➡️ <b>148 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/257420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257420/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_257420",
+          "entry": {
+            "title": "Serious Sam 4",
+            "price": 148,
+            "percent": 80,
+            "timestamp": "2026-11-23T18:00:32.559Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cb3cf6d8fd2e18edc32a972d",
+      "createdAt": "2026-11-23T18:00:32.559Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Grand Theft Auto V Enhanced</b>\n🏷️ Знижка: <b>-56%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>879 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3240220\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/4c8d7ce5142a528bdac68c093bd1bcc720e2baee/capsule_616x353.jpg?t=1781187782",
+      "receipts": [
+        {
+          "key": "steam_discount_3240220",
+          "entry": {
+            "title": "Grand Theft Auto V Enhanced",
+            "price": 879,
+            "percent": 56,
+            "timestamp": "2026-11-23T18:00:32.559Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2310c91191f52262e8bd27c4",
+      "createdAt": "2026-11-23T18:00:32.559Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Fogpiercer</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>299 грн</s> ➡️ <b>209 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3219010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219010/1710827a0306deffc1d9924c58b17d11901e1f4d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3219010",
+          "entry": {
+            "title": "Fogpiercer",
+            "price": 209,
+            "percent": 30,
+            "timestamp": "2026-11-23T18:00:32.559Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6ed7d5a432a988222a83cb10",
+      "createdAt": "2026-11-23T18:00:32.559Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Clive Barker&#39;s Hellraiser: Revival</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>999 грн</s> ➡️ <b>749 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1551980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/6708f74679c5feca41a5f264a3b7068a8c2d383f/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1551980",
+          "entry": {
+            "title": "Clive Barker's Hellraiser: Revival",
+            "price": 749,
+            "percent": 25,
+            "timestamp": "2026-11-23T18:00:32.559Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
