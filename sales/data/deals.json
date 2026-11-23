@@ -26244,6 +26244,13 @@
       "percent": 70,
       "timestamp": "2026-11-23T20:00:29.745Z",
       "type": "discount"
+    },
+    "steam_discount_632360": {
+      "title": "Risk of Rain 2",
+      "price": 108,
+      "percent": 67,
+      "timestamp": "2026-11-23T20:00:29.745Z",
+      "type": "discount"
     }
   }
 }
