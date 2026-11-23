@@ -26540,6 +26540,13 @@
       "percent": 50,
       "timestamp": "2026-11-23T21:00:33.856Z",
       "type": "discount"
+    },
+    "steam_discount_960990": {
+      "title": "Beyond: Two Souls",
+      "price": 64,
+      "percent": 90,
+      "timestamp": "2026-11-23T22:00:41.256Z",
+      "type": "discount"
     }
   }
 }
