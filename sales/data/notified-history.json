@@ -5738,5 +5738,12 @@
     "percent": 75,
     "timestamp": "2026-11-23T19:00:30.721Z",
     "type": "discount"
+  },
+  "steam_discount_699130": {
+    "title": "World War Z",
+    "price": 194,
+    "percent": 75,
+    "timestamp": "2026-11-23T19:00:30.721Z",
+    "type": "discount"
   }
 }
