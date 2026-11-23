@@ -6025,5 +6025,12 @@
     "percent": 40,
     "timestamp": "2026-11-23T23:00:31.077Z",
     "type": "discount"
+  },
+  "steam_discount_4656000": {
+    "title": "BOMBANANA!",
+    "price": 117,
+    "percent": 40,
+    "timestamp": "2026-11-23T23:00:31.077Z",
+    "type": "discount"
   }
 }
