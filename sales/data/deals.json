@@ -26442,6 +26442,13 @@
       "percent": 75,
       "timestamp": "2026-11-23T21:00:33.856Z",
       "type": "discount"
+    },
+    "steam_discount_573410": {
+      "title": "AI War 2",
+      "price": 103,
+      "percent": 75,
+      "timestamp": "2026-11-23T21:00:33.856Z",
+      "type": "discount"
     }
   }
 }
