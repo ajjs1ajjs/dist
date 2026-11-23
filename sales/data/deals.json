@@ -26470,6 +26470,13 @@
       "percent": 50,
       "timestamp": "2026-11-23T21:00:33.856Z",
       "type": "discount"
+    },
+    "steam_discount_1746860": {
+      "title": "The Elder Scrolls V: Skyrim Anniversary Upgrade",
+      "price": 164,
+      "percent": 50,
+      "timestamp": "2026-11-23T21:00:33.856Z",
+      "type": "discount"
     }
   }
 }
