@@ -25628,6 +25628,13 @@
       "percent": 40,
       "timestamp": "2026-11-18T20:00:33.394Z",
       "type": "discount"
+    },
+    "steam_discount_257420": {
+      "title": "Serious Sam 4",
+      "price": 148,
+      "percent": 80,
+      "timestamp": "2026-11-23T18:00:32.559Z",
+      "type": "discount"
     }
   }
 }
