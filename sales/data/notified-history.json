@@ -5941,5 +5941,12 @@
     "percent": 85,
     "timestamp": "2026-11-23T22:00:41.256Z",
     "type": "discount"
+  },
+  "steam_discount_611670": {
+    "title": "The Elder Scrolls V: Skyrim VR",
+    "price": 312,
+    "percent": 80,
+    "timestamp": "2026-11-23T22:00:41.256Z",
+    "type": "discount"
   }
 }
