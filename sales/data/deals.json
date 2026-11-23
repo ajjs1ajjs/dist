@@ -25642,6 +25642,13 @@
       "percent": 56,
       "timestamp": "2026-11-23T18:00:32.559Z",
       "type": "discount"
+    },
+    "steam_discount_3219010": {
+      "title": "Fogpiercer",
+      "price": 209,
+      "percent": 30,
+      "timestamp": "2026-11-23T18:00:32.559Z",
+      "type": "discount"
     }
   }
 }
