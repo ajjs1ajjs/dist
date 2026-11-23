@@ -5780,5 +5780,12 @@
     "percent": 70,
     "timestamp": "2026-11-23T19:00:30.721Z",
     "type": "discount"
+  },
+  "steam_discount_435150": {
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "price": 132,
+    "percent": 88,
+    "timestamp": "2026-11-23T20:00:29.745Z",
+    "type": "discount"
   }
 }
