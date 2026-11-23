@@ -5899,5 +5899,12 @@
     "percent": 50,
     "timestamp": "2026-11-23T21:00:33.856Z",
     "type": "discount"
+  },
+  "steam_discount_440900": {
+    "title": "Conan Exiles Enhanced",
+    "price": 239,
+    "percent": 50,
+    "timestamp": "2026-11-23T21:00:33.856Z",
+    "type": "discount"
   }
 }
