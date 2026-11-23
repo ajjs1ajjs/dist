@@ -26707,6 +26707,13 @@
       "percent": 35,
       "timestamp": "2026-11-23T23:00:31.077Z",
       "type": "discount"
+    },
+    "steam_discount_2424420": {
+      "title": "Avatar Legends: The Fighting Game",
+      "price": 402,
+      "percent": 33,
+      "timestamp": "2026-11-23T23:00:31.077Z",
+      "type": "discount"
     }
   }
 }
