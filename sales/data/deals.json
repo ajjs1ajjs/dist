@@ -26547,6 +26547,13 @@
       "percent": 90,
       "timestamp": "2026-11-23T22:00:41.256Z",
       "type": "discount"
+    },
+    "steam_discount_960910": {
+      "title": "Heavy Rain",
+      "price": 64,
+      "percent": 90,
+      "timestamp": "2026-11-23T22:00:41.256Z",
+      "type": "discount"
     }
   }
 }
