@@ -13992,6 +13992,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-23T20:01:23.052Z"
+    },
+    {
+      "id": "e3814d16b0008297444fb361",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Middle-earth™: Shadow of War™</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 049 грн</s> ➡️ <b>104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/356190\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_356190",
+          "entry": {
+            "title": "Middle-earth™: Shadow of War™",
+            "price": 104,
+            "percent": 90,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "336d692c9b8097e3aea55e89",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>LEGO® Star Wars™: The Skywalker Saga</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>64 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/920210\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_920210",
+          "entry": {
+            "title": "LEGO® Star Wars™: The Skywalker Saga",
+            "price": 64,
+            "percent": 90,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b15cb9355a7e664b8b63a438",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Batman™: Arkham Knight</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>55 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/208650\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_208650",
+          "entry": {
+            "title": "Batman™: Arkham Knight",
+            "price": 55,
+            "percent": 80,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "312d9d843c713aa2b9815b7b",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Construction Simulator</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>128 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1273400\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1273400",
+          "entry": {
+            "title": "Construction Simulator",
+            "price": 128,
+            "percent": 75,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d2d856ba6ca89d5ade687aaa",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>AI War 2</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/573410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573410/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_573410",
+          "entry": {
+            "title": "AI War 2",
+            "price": 103,
+            "percent": 75,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c2ddf25238d011f1848e8865",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DOOM Eternal</b>\n🏷️ Знижка: <b>-67%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>214 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/782330\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/3efb12f884eaee39b4853721f5cf1c6e2b706495/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_782330",
+          "entry": {
+            "title": "DOOM Eternal",
+            "price": 214,
+            "percent": 67,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "672f5f8622fb9a9979f21d67",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DARK SOULS™: REMASTERED</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/570940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_570940",
+          "entry": {
+            "title": "DARK SOULS™: REMASTERED",
+            "price": 399,
+            "percent": 50,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "15d975d0b6a4abc00fee4d08",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Conan Exiles Enhanced</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>479 грн</s> ➡️ <b>239 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/440900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/440900/06b9d029be096ea4d290536a8d0c9e6c5b73c6dd/capsule_231x87_alt_assets_10.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_440900",
+          "entry": {
+            "title": "Conan Exiles Enhanced",
+            "price": 239,
+            "percent": 50,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "cf480b840b8e506758c6742d",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls V: Skyrim Anniversary Upgrade</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>164 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1746860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1746860/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1746860",
+          "entry": {
+            "title": "The Elder Scrolls V: Skyrim Anniversary Upgrade",
+            "price": 164,
+            "percent": 50,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3631a681c40fb767697a2c15",
+      "createdAt": "2026-11-23T21:00:33.856Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Deep Rock Galactic: Survivor</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>295 грн</s> ➡️ <b>147 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2321470\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2321470/b816b23b3ff265b1484cd0424046f76f5496dac1/capsule_231x87_alt_assets_13.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2321470",
+          "entry": {
+            "title": "Deep Rock Galactic: Survivor",
+            "price": 147,
+            "percent": 50,
+            "timestamp": "2026-11-23T21:00:33.856Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
