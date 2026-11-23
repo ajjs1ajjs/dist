@@ -6018,5 +6018,12 @@
     "percent": 40,
     "timestamp": "2026-11-23T23:00:31.077Z",
     "type": "discount"
+  },
+  "steam_discount_3024040": {
+    "title": "Stronghold Crusader: Definitive Edition",
+    "price": 249,
+    "percent": 40,
+    "timestamp": "2026-11-23T23:00:31.077Z",
+    "type": "discount"
   }
 }
