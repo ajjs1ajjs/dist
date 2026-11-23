@@ -26665,6 +26665,13 @@
       "percent": 40,
       "timestamp": "2026-11-23T23:00:31.077Z",
       "type": "discount"
+    },
+    "steam_discount_3417840": {
+      "title": "Stellaris: BioGenesis",
+      "price": 401,
+      "percent": 40,
+      "timestamp": "2026-11-23T23:00:31.077Z",
+      "type": "discount"
     }
   }
 }
