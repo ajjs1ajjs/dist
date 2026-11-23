@@ -14412,6 +14412,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-23T22:01:32.792Z"
+    },
+    {
+      "id": "2acd9c7e87d110e64e626828",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>LEGO® Harry Potter™ Collection</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 049 грн</s> ➡️ <b>104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2950340\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950340/8dba023d30b7bca8f0e4f5b3e5384748635bc4e8/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2950340",
+          "entry": {
+            "title": "LEGO® Harry Potter™ Collection",
+            "price": 104,
+            "percent": 90,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d755f9de880cefcd9e3b8dc7",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Sins of a Solar Empire II</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>955 грн</s> ➡️ <b>477 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1575940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1575940/fe997de03d5e2cc56fee3980bdaa20a1872e3bb0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1575940",
+          "entry": {
+            "title": "Sins of a Solar Empire II",
+            "price": 477,
+            "percent": 50,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f29c913b376642a10f31885a",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mafia: The Old Country</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>1 199 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1941540\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/480ec5d21e6d63e1b9eedbb32d3bce88c19a0542/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1941540",
+          "entry": {
+            "title": "Mafia: The Old Country",
+            "price": 1199,
+            "percent": 40,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "87d2dbb3517c4ace35c7afb5",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stellaris: BioGenesis</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>669 грн</s> ➡️ <b>401 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3417840\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3417840/4fb92b02ea27317fd8f95fff7edddd0fa8d29429/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3417840",
+          "entry": {
+            "title": "Stellaris: BioGenesis",
+            "price": 401,
+            "percent": 40,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ebe651f4f09634200d693519",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stronghold Crusader: Definitive Edition</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>249 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3024040\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024040/6a538ecab77ccee4bdb28d328c4962b7ce69e702/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3024040",
+          "entry": {
+            "title": "Stronghold Crusader: Definitive Edition",
+            "price": 249,
+            "percent": 40,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f4b12896025eca8ad763d6de",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>BOMBANANA!</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>195 грн</s> ➡️ <b>117 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4656000\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4656000",
+          "entry": {
+            "title": "BOMBANANA!",
+            "price": 117,
+            "percent": 40,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3f2e03cce020ed98a3ba04a9",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Esoteric Ebb</b>\n🏷️ Знижка: <b>-36%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2057760\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/c59230aa82e1373c76f020cd3f842acb084124a0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2057760",
+          "entry": {
+            "title": "Esoteric Ebb",
+            "price": 329,
+            "percent": 36,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d36a7e0c5577beb4c8a5f108",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Manor Lords</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>389 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1363080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1363080",
+          "entry": {
+            "title": "Manor Lords",
+            "price": 389,
+            "percent": 35,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f3c825bd69966740a4fab4c3",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Risk of Rain 2: Alloyed Collective</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>209 грн</s> ➡️ <b>135 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2781620\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781620/8f89fb3295095806721ba90d3452f991379bb9e9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2781620",
+          "entry": {
+            "title": "Risk of Rain 2: Alloyed Collective",
+            "price": 135,
+            "percent": 35,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f5e515cdc6a985dd248fdf65",
+      "createdAt": "2026-11-23T23:00:31.077Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Avatar Legends: The Fighting Game</b>\n🏷️ Знижка: <b>-33%</b>\n💰 Ціна: <s>600 грн</s> ➡️ <b>402 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2424420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/86390fb8c5f8e93686c26bc83e384aa2d02ba528/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2424420",
+          "entry": {
+            "title": "Avatar Legends: The Fighting Game",
+            "price": 402,
+            "percent": 33,
+            "timestamp": "2026-11-23T23:00:31.077Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
