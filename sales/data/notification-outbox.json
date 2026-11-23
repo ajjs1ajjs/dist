@@ -14027,6 +14027,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-22T23:00:37.965Z"
+    },
+    {
+      "id": "ce0c03227ba2ee5d0e677017",
+      "createdAt": "2026-11-23T13:00:32.476Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Rotwood</b>\n🏷️ Знижка: <b>-34%</b>\n💰 Ціна: <s>325 грн</s> ➡️ <b>214 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2015270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2015270/9bd065e6bb69c10d4d8f858c605acbb448920b9c/capsule_231x87_alt_assets_3.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2015270",
+          "entry": {
+            "title": "Rotwood",
+            "price": 214,
+            "percent": 34,
+            "timestamp": "2026-11-23T13:00:32.476Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
