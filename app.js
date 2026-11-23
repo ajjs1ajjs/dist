@@ -219,7 +219,6 @@
       c.classList.toggle('is-hidden', !show);
       if (show) visible++;
     });
-    productGrid?.classList?.toggle('grid--filtered', activeFilter !== 'all' || q.length > 0);
     if (emptyMsg) emptyMsg.hidden = visible > 0;
     const emptyActions = $('#emptyActions');
     if (emptyActions) emptyActions.hidden = visible > 0;

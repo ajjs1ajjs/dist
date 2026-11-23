@@ -415,13 +415,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .buy:active { transform: translateY(1px); }
 .buy b { font-family: var(--font-display); font-size: 15.5px; font-weight: 700; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
 .buy span { font-size: 12px; font-weight: 700; color: var(--accent); }
-.card--featured .buy:not(.buy--free) {
-  background: linear-gradient(135deg, #2dd4bf, #22d3ee);
-  border-color: transparent; color: #032420;
-  box-shadow: 0 10px 24px -14px rgba(45, 212, 191, .55);
-}
-.card--featured .buy:not(.buy--free) span { color: #032420; opacity: .82; }
-.card--featured .buy:not(.buy--free):hover { filter: brightness(1.08); }
 .buy--free { background: rgba(255, 255, 255, .025); color: var(--text); border-color: var(--line-strong); }
 .buy--free:hover { border-color: rgba(45, 212, 191, .45); background: rgba(45, 212, 191, .07); color: var(--text); filter: none; }
 .buy--free b { font-size: 14.5px; }
@@ -449,38 +442,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
 @media (min-width: 1081px) {
   .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .grid:not(.grid--filtered) .card--featured {
-    grid-column: span 2;
-    border-color: rgba(45, 212, 191, .26);
-  }
-  .grid:not(.grid--filtered) .card--featured .card-shot {
-    aspect-ratio: 16 / 8.2;
-  }
-  .grid:not(.grid--filtered) .card--featured .card-body {
-    padding: 20px 22px;
-    display: grid;
-    grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
-    gap: 10px 22px;
-    align-content: start;
-  }
-  .grid:not(.grid--filtered) .card--featured .card-head,
-  .grid:not(.grid--filtered) .card--featured .card-sub,
-  .grid:not(.grid--filtered) .card--featured .card-desc,
-  .grid:not(.grid--filtered) .card--featured .tags {
-    grid-column: 1;
-  }
-  .grid:not(.grid--filtered) .card--featured .tags { margin-top: 4px; }
-  .grid:not(.grid--filtered) .card--featured .buy,
-  .grid:not(.grid--filtered) .card--featured .license-note,
-  .grid:not(.grid--filtered) .card--featured .card-actions,
-  .grid:not(.grid--filtered) .card--featured .details-link {
-    grid-column: 2;
-  }
-  .grid:not(.grid--filtered) .card--featured .buy { grid-row: 1; }
-  .grid:not(.grid--filtered) .card--featured .license-note { grid-row: 2; align-self: start; }
-  .grid:not(.grid--filtered) .card--featured .card-actions { grid-row: 3; }
-  .grid:not(.grid--filtered) .card--featured .details-link { grid-row: 4; align-self: end; }
-  .grid:not(.grid--filtered) .card--featured .card-head h3 { font-size: 19px; }
 }
 
 .empty { text-align: center; color: var(--muted); padding: 40px 0 10px; }
