@@ -67,6 +67,7 @@ window.SITE_I18N = {
     'prod.filterWeb': '🌐 Web / PDF · {n}',
     'prod.filterGames': '🎮 Ігри · {n}',
     'prod.filterMonitoring': '📡 Моніторинг · {n}',
+    'prod.filterSites': '💼 Сайти · {n}',
     'prod.searchAria': 'Пошук продуктів',
     'prod.searchPh': 'Пошук: backup, k8s, PWA…',
     'prod.searchClear': 'Очистити пошук',
@@ -79,6 +80,8 @@ window.SITE_I18N = {
     'prod.live': 'Відкрити ↗',
     'prod.play': 'Грати ↗',
     'prod.free': 'Безкоштовно',
+    'prod.clientSite': 'Клієнтський сайт',
+    'prod.visitSite': 'Відкрити сайт ↗',
     'prod.buy': 'Купити ліцензію',
     'prod.license': 'За ключем',
     'prod.details': 'Детальніше',
@@ -331,7 +334,15 @@ window.SITE_I18N = {
     'p.netscope.sub': 'Офлайн-інвентаризація мережі',
     'p.netscope.desc': 'Сканування підмереж, AD/LDAP, карта топології. Підписані оновлення Ed25519, працює без інтернету.',
     'p.vilno.sub': 'VPN-клієнт на OpenVPN і VPN Gate',
-    'p.vilno.desc': 'Каталог публічних серверів VPN Gate, один найкращий сервер на країну, перепідключення та ліцензійна активація.'
+    'p.vilno.desc': 'Каталог публічних серверів VPN Gate, один найкращий сервер на країну, перепідключення та ліцензійна активація.',
+    'p.ppu.cat': 'Корпоративний сайт',
+    'p.ppu.sub': 'Утеплення пінополіуретаном (ППУ) — Івано-Франківськ',
+    'p.ppu.desc': '10+ сторінок послуг, робіт і цін, галерея реальних об’єктів, база знань, форма розрахунку площі та SEO під регіон.',
+    'p.ppu.alt': 'PPU Protection — корпоративний сайт утеплення ППУ',
+    'p.unis.cat': 'Лендінг · Студія засмаги',
+    'p.unis.sub': 'UNIS SUN — солярій, Івано-Франківськ',
+    'p.unis.desc': 'Швидкий mobile-first лендінг: 2 формати засмаги (Flame 230W / Rainbow), ціни від 29 ₴/хв, косметика Soleo та запис по телефону.',
+    'p.unis.alt': 'UNIS SUN — лендінг студії засмаги'
   },
 
   en: {
@@ -400,6 +411,7 @@ window.SITE_I18N = {
     'prod.filterWeb': '🌐 Web / PDF · {n}',
     'prod.filterGames': '🎮 Games · {n}',
     'prod.filterMonitoring': '📡 Monitoring · {n}',
+    'prod.filterSites': '💼 Client sites · {n}',
     'prod.searchAria': 'Search products',
     'prod.searchPh': 'Search: backup, k8s, PWA…',
     'prod.searchClear': 'Clear search',
@@ -412,6 +424,8 @@ window.SITE_I18N = {
     'prod.live': 'Open ↗',
     'prod.play': 'Play ↗',
     'prod.free': 'Free',
+    'prod.clientSite': 'Client website',
+    'prod.visitSite': 'Visit website ↗',
     'prod.buy': 'Buy license',
     'prod.license': 'License key',
     'prod.details': 'Details',
@@ -664,6 +678,14 @@ window.SITE_I18N = {
     'p.netscope.sub': 'Offline network inventory',
     'p.netscope.desc': 'Subnet scanning, AD/LDAP, topology map. Ed25519-signed updates, works without internet.',
     'p.vilno.sub': 'Windows VPN client powered by OpenVPN and VPN Gate',
-    'p.vilno.desc': 'Public VPN Gate server catalog, one best server per country, reconnect and license activation.'
+    'p.vilno.desc': 'Public VPN Gate server catalog, one best server per country, reconnect and license activation.',
+    'p.ppu.cat': 'Corporate website',
+    'p.ppu.sub': 'Polyurethane spray foam insulation — Ivano-Frankivsk',
+    'p.ppu.desc': '10+ service, portfolio and pricing pages, real project gallery, knowledge base, area estimate form and local SEO.',
+    'p.ppu.alt': 'PPU Protection — corporate spray foam insulation website',
+    'p.unis.cat': 'Landing page · Tanning studio',
+    'p.unis.sub': 'UNIS SUN — tanning studio, Ivano-Frankivsk',
+    'p.unis.desc': 'Fast mobile-first landing page: 2 tanning formats (Flame 230W / Rainbow), prices from 29 ₴/min, Soleo cosmetics and phone booking.',
+    'p.unis.alt': 'UNIS SUN — tanning studio landing page'
   }
 };

@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=542d9c2572">
+  <link rel="stylesheet" href="./styles.css?v=403b095617">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230c0c0e'/%3E%3Cpath d='M20 44V20h10a10 10 0 0 1 0 20H20zm10-14h8' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
 </head>
@@ -30,7 +30,6 @@
         <a href="#products" data-i18n="nav.products">Продукти</a>
         <a href="#security" data-i18n="nav.security">Безпека</a>
         <a href="#matrix" data-i18n="nav.matrix">Таблиця</a>
-        <a href="#cases" data-i18n="nav.cases">Кейси</a>
         <div class="lang" role="group" aria-label="Мова сайту" data-i18n-attr="aria-label:nav.langAria">
           <button type="button" class="active" data-lang="uk" aria-pressed="true">UA</button>
           <button type="button" data-lang="en" aria-pressed="false">EN</button>
@@ -50,7 +49,6 @@
       <a href="#products" data-i18n="nav.products">Продукти</a>
       <a href="#security" data-i18n="nav.security">Безпека</a>
       <a href="#matrix" data-i18n="nav.matrix">Таблиця</a>
-      <a href="#cases" data-i18n="nav.cases">Кейси</a>
       <a href="mailto:yaroslav.andreichuk@gmail.com" data-i18n="nav.contact">Написати</a>
     </div>
   </header>
@@ -114,12 +112,13 @@
 
         <div class="toolbar">
           <div class="chips" role="group" aria-label="Фільтр продуктів" data-i18n-attr="aria-label:prod.filterAria">
-            <button class="chip active" type="button" data-filter="all" data-filter-count="all" aria-pressed="true" data-i18n="prod.filterAll">Всі · 19</button>
+            <button class="chip active" type="button" data-filter="all" data-filter-count="all" aria-pressed="true" data-i18n="prod.filterAll">Всі · 21</button>
             <button class="chip" type="button" data-filter="linux" data-filter-count="linux" aria-pressed="false" data-i18n="prod.filterLinux">🐧 Linux · 4</button>
             <button class="chip" type="button" data-filter="windows" data-filter-count="windows" aria-pressed="false" data-i18n="prod.filterWindows">🪟 Windows · 10</button>
-            <button class="chip" type="button" data-filter="web" data-filter-count="web" aria-pressed="false" data-i18n="prod.filterWeb">🌐 Web / PDF · 6</button>
+            <button class="chip" type="button" data-filter="web" data-filter-count="web" aria-pressed="false" data-i18n="prod.filterWeb">🌐 Web / PDF · 8</button>
             <button class="chip" type="button" data-filter="games" data-filter-count="games" aria-pressed="false" data-i18n="prod.filterGames">🎮 Ігри · 3</button>
             <button class="chip" type="button" data-filter="monitoring" data-filter-count="monitoring" aria-pressed="false" data-i18n="prod.filterMonitoring">📡 Моніторинг · 4</button>
+            <button class="chip" type="button" data-filter="sites" data-filter-count="sites" aria-pressed="false" data-i18n="prod.filterSites">💼 Сайти · 2</button>
           </div>
           <div class="search">
             <input type="search" id="searchInput" placeholder="Пошук: backup, k8s, PWA…" data-i18n-placeholder="prod.searchPh" autocomplete="off" aria-label="Пошук продуктів" data-i18n-attr="aria-label:prod.searchAria">
@@ -127,7 +126,7 @@
             <button class="search-clear" id="searchClear" type="button" hidden aria-label="Очистити пошук" data-i18n-attr="aria-label:prod.searchClear">✕</button>
           </div>
         </div>
-        <div class="result-bar"><span class="result-count" id="resultCount" aria-live="polite">Показано 19 з 19</span></div>
+        <div class="result-bar"><span class="result-count" id="resultCount" aria-live="polite">Показано 21 з 21</span></div>
 
         <div class="grid" id="productGrid">
 
@@ -596,6 +595,52 @@
             </div>
           </article>
 
+          <!-- PPU Protection -->
+          <article class="card" data-cat="web sites" data-search="ppu protection утеплення ппу пінополіуретан корпоративний сайт івано-франківськ клієнтський сайт під ключ seo">
+            <button class="card-shot" type="button" data-shot="./shots/ppu-protection.png" data-shot-alt="PPU Protection — корпоративний сайт утеплення ППУ">
+              <img src="./shots/ppu-protection.png" alt="PPU Protection — корпоративний сайт утеплення ППУ" data-i18n-attr="alt:p.ppu.alt" width="1280" height="800" loading="lazy" decoding="async">
+            </button>
+            <div class="card-body">
+              <div class="card-head">
+                <h3><a href="https://www.ppu-protection.com/" target="_blank" rel="noopener">PPU Protection</a> <span class="ver">live</span></h3>
+                <span class="cat" data-i18n="p.ppu.cat">Корпоративний сайт</span>
+              </div>
+              <p class="card-sub" data-i18n="p.ppu.sub">Утеплення пінополіуретаном (ППУ) — Івано-Франківськ</p>
+              <p class="card-desc" data-i18n="p.ppu.desc">10+ сторінок послуг, робіт і цін, галерея реальних об’єктів, база знань, форма розрахунку площі та SEO під регіон.</p>
+              <div class="tags"><span>10+ сторінок</span><span>Галерея</span><span>Форма заявки</span><span>SEO</span></div>
+              <a class="buy buy--free" href="https://www.ppu-protection.com/" target="_blank" rel="noopener">
+                <b data-i18n="prod.clientSite">Клієнтський сайт</b><span data-i18n="prod.visitSite">Відкрити сайт ↗</span>
+              </a>
+              <div class="card-actions">
+                <div class="cmd"><code>ppu-protection.com · production</code><a class="copybtn" href="https://www.ppu-protection.com/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
+                <div class="links"><a href="https://www.ppu-protection.com/" target="_blank" rel="noopener">www.ppu-protection.com ↗</a><span class="mono" data-i18n="case.ppu.meta">10+ сторінок · лідогенерація</span></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- UNIS SUN -->
+          <article class="card" data-cat="web sites" data-search="unis sun солярій засмага лендінг івано-франківськ клієнтський сайт під ключ flame rainbow soleo">
+            <button class="card-shot" type="button" data-shot="./shots/unis-sun.png" data-shot-alt="UNIS SUN — лендінг студії засмаги">
+              <img src="./shots/unis-sun.png" alt="UNIS SUN — лендінг студії засмаги" data-i18n-attr="alt:p.unis.alt" width="1280" height="800" loading="lazy" decoding="async">
+            </button>
+            <div class="card-body">
+              <div class="card-head">
+                <h3><a href="https://unis.com.ua/" target="_blank" rel="noopener">UNIS SUN</a> <span class="ver">live</span></h3>
+                <span class="cat" data-i18n="p.unis.cat">Лендінг · Студія засмаги</span>
+              </div>
+              <p class="card-sub" data-i18n="p.unis.sub">UNIS SUN — солярій, Івано-Франківськ</p>
+              <p class="card-desc" data-i18n="p.unis.desc">Швидкий mobile-first лендінг: 2 формати засмаги (Flame 230W / Rainbow), ціни від 29 ₴/хв, косметика Soleo та запис по телефону.</p>
+              <div class="tags"><span>Mobile-first</span><span>UA / EN</span><span>29 ₴/хв</span><span>Landing</span></div>
+              <a class="buy buy--free" href="https://unis.com.ua/" target="_blank" rel="noopener">
+                <b data-i18n="prod.clientSite">Клієнтський сайт</b><span data-i18n="prod.visitSite">Відкрити сайт ↗</span>
+              </a>
+              <div class="card-actions">
+                <div class="cmd"><code>unis.com.ua · production</code><a class="copybtn" href="https://unis.com.ua/" target="_blank" rel="noopener" data-i18n="prod.live">Відкрити ↗</a></div>
+                <div class="links"><a href="https://unis.com.ua/" target="_blank" rel="noopener">unis.com.ua ↗</a><span class="mono" data-i18n="case.unis.meta">лендінг · запис по телефону</span></div>
+              </div>
+            </div>
+          </article>
+
         </div>
         <p class="empty" id="emptyMsg" hidden data-i18n="prod.empty">Нічого не знайдено — спробуйте інший фільтр.</p>
       </div>
@@ -796,60 +841,6 @@
         </div>
       </div>
     </section>
-
-    <!-- CASES -->
-    <section class="section" id="cases">
-      <div class="wrap">
-        <div class="sec-head">
-          <p class="sec-eyebrow" data-i18n="hub.cases.eyebrow">04 / Кейси · 2 клієнтські сайти</p>
-          <h2 data-i18n="cases.title">Клієнтські сайти під ключ</h2>
-          <p class="sec-sub" data-i18n="cases.sub">Два живі проєкти: корпоративний сайт і лендінг — з SEO, галереями та формами заявок.</p>
-        </div>
-        <div class="case-grid">
-          <article class="case">
-            <div class="case-head">
-              <div class="case-ico" aria-hidden="true">🏠</div>
-              <div>
-                <div class="case-badge" data-i18n="case.ppu.badge">Корпоративний сайт · утеплення ППУ</div>
-                <h3 data-i18n="case.ppu.title">PPU Protection — Івано-Франківськ</h3>
-              </div>
-            </div>
-            <p data-i18n="case.ppu.desc">Професійне утеплення пінополіуретаном: дахи, мансарди, будинки, ангари, холодильні камери. 15 років досвіду, робота по Україні.</p>
-            <ul data-i18n="case.ppu.list">
-              <li>10 послуг + сторінки /poslugy/ · /roby/ · /ciny/</li>
-              <li>Галерея реальних об'єктів, FAQ, база знань</li>
-              <li>Форма заявки: тип об'єкта + площа + телефон</li>
-              <li>SEO + контакти: 099 100 80 28, Instagram/Telegram</li>
-            </ul>
-            <div class="case-actions">
-              <a class="btn btn-sm btn-primary" href="https://www.ppu-protection.com/" target="_blank" rel="noopener" data-i18n="case.ppu.btn">Відкрити сайт ↗</a>
-              <span class="meta" data-i18n="case.ppu.meta">10+ сторінок · лідогенерація</span>
-            </div>
-          </article>
-
-          <article class="case">
-            <div class="case-head">
-              <div class="case-ico" aria-hidden="true">☀️</div>
-              <div>
-                <div class="case-badge" data-i18n="case.unis.badge">Лендінг · студія засмаги</div>
-                <h3 data-i18n="case.unis.title">UNIS SUN — солярій, Івано-Франківськ</h3>
-              </div>
-            </div>
-            <p data-i18n="case.unis.desc">Турбо на лампах Flame 230W — 31 ₴/хв, вітамінний Rainbow — 29 ₴/хв. Косметика Soleo. Пн–Сб 11:00–20:00, вул. Тарнавського, 37.</p>
-            <ul data-i18n="case.unis.list">
-              <li>2 формати засмаги + ціни від 29 ₴/хв</li>
-              <li>4 кроки візиту: консультація → сеанс 5–12 хв</li>
-              <li>Запис: +38 (098) 467-70-60 + Instagram</li>
-              <li>Швидкий mobile-first лендінг</li>
-            </ul>
-            <div class="case-actions">
-              <a class="btn btn-sm btn-primary" href="https://unis.com.ua/" target="_blank" rel="noopener" data-i18n="case.unis.btn">Відкрити сайт ↗</a>
-              <span class="meta" data-i18n="case.unis.meta">лендінг · запис по телефону</span>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
@@ -900,8 +891,8 @@
   </dialog>
   <div class="toast" id="toast" role="status"></div>
 
-  <script src="./translations.js?v=542d9c2572" defer></script>
-  <script src="./app.js?v=542d9c2572" defer></script>
+  <script src="./translations.js?v=403b095617" defer></script>
+  <script src="./app.js?v=403b095617" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a63bf4492b974ab09254d26723c9ef"}'></script>
   <!-- End Cloudflare Web Analytics -->

@@ -391,6 +391,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .card[data-cat*="windows"] .cat::before { background: var(--sky); }
 .card[data-cat*="web"] .cat::before { background: var(--violet); }
 .card[data-cat*="monitoring"] .cat::before { background: var(--emerald); }
+.card[data-cat*="sites"] .cat::before { background: var(--amber); }
 .card-sub { color: var(--text); font-size: 13.5px; font-weight: 600; }
 .card-desc { color: var(--muted); font-size: 13.5px; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }

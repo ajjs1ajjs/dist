@@ -195,7 +195,9 @@
   const priority = (card) => {
     const paid = card.querySelector('[data-buy]');
     if (paid) return 1000 + Number(paid.dataset.month || 0);
-    return (card.dataset.cat || '').split(/\s+/).includes('games') ? 1 : 0;
+    const cats = (card.dataset.cat || '').split(/\s+/);
+    if (cats.includes('sites')) return 2;
+    return cats.includes('games') ? 1 : 0;
   };
   cards.sort((a, b) => priority(b) - priority(a)).forEach((card) => productGrid.append(card));
   const chips = $$('.chip[data-filter]');
