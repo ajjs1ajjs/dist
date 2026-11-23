@@ -49,9 +49,9 @@ window.SITE_I18N = {
 
     /* --- hero (hub) --- */
     'hub.badge': 'DIST HUB · публічний канал релізів',
-    'hub.h1a': '19 продуктів.',
-    'hub.h1b': 'Один канал оновлень.',
-    'hub.sub': 'Інсталятори, SHA-256 хеші, підписані автооновлення та офлайн-PWA. Єдиний публічний каталог усіх 19 продуктів DIST Ecosystem, релізи й завантаження.',
+    'hub.h1a': 'Софт, що працює',
+    'hub.h1b': 'з першого запуску.',
+    'hub.sub': 'Десктоп-утиліти, серверні сервіси, офлайн-PWA та ігри — з перевіреними збірками, швидким встановленням і нульовою телеметрією.',
     'hub.cta1': 'До каталогу ↓',
     'hub.cta2': 'GitHub ↗',
     'hub.note': 'Ліцензія Paid після оплати · SHA-256 для бінарників · Minisign / Ed25519 для десктопу',
@@ -381,9 +381,9 @@ window.SITE_I18N = {
 
     /* --- hero (hub) --- */
     'hub.badge': 'DIST HUB · public release channel',
-    'hub.h1a': '19 products.',
-    'hub.h1b': 'One update channel.',
-    'hub.sub': 'Installers, SHA-256 checksums, signed auto-updates and offline PWAs. The single public catalog of all 19 DIST Ecosystem products, releases and downloads.',
+    'hub.h1a': 'Software built to',
+    'hub.h1b': 'run from day one.',
+    'hub.sub': 'Desktop utilities, server services, offline PWAs and games — with verified builds, fast setup and zero telemetry.',
     'hub.cta1': 'Open the catalog ↓',
     'hub.cta2': 'GitHub ↗',
     'hub.note': 'Paid license after payment · SHA-256 for binaries · Minisign / Ed25519 for desktop',
