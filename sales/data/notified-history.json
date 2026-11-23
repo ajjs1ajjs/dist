@@ -5542,5 +5542,12 @@
     "percent": 50,
     "timestamp": "2026-11-22T23:00:33.538Z",
     "type": "discount"
+  },
+  "steam_discount_2015270": {
+    "title": "Rotwood",
+    "price": 214,
+    "percent": 34,
+    "timestamp": "2026-11-23T13:00:32.476Z",
+    "type": "discount"
   }
 }
