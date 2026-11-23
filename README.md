@@ -97,7 +97,7 @@ Enterprise backup &amp; disaster recovery — Veeam-альтернатива
 </td>
 <td align="center" width="50%">
 <br>
-<a href="#vilno-vpn"><img src="https://img.shields.io/badge/Vilno%20VPN-v0.5.2-16A34A?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
+<a href="#vilno-vpn"><img src="https://img.shields.io/badge/Vilno%20VPN-v0.5.3-16A34A?style=for-the-badge&logo=windows&logoColor=white" alt="Vilno VPN"></a>
 <br>
 <sub>Windows 10 / 11 · x64 (NSIS)</sub>
 <br><br>
@@ -493,7 +493,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 
 **Windows 10 / 11 · x64** — VPN-клієнт на OpenVPN Community та каталозі публічних серверів VPN Gate.
 
-<a href="https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.2/Vilno.VPN_0.5.2_x64-setup.exe">
+<a href="https://github.com/ajjs1ajjs/dist/releases/download/vilno-v0.5.3/Vilno.VPN_0.5.3_x64-setup.exe">
 ⬇️ <b>Завантажити NSIS-інсталятор</b>
 </a>
 
@@ -501,7 +501,7 @@ curl -sSL https://raw.githubusercontent.com/ajjs1ajjs/dist/main/apps/uptime-moni
 - Перепідключення після обриву та резервні сервери.
 - Ліцензійна активація ключем; ключ зберігається в Windows Credential Manager.
 - Оновлення з перевіркою підпису через `apps/vilno-vpn/latest-v2.json`.
-- `0.5.1` і старіші потребують одноразового ручного встановлення через ротацію ключа updater; встановлюйте `0.5.2` поверх, не видаляючи попередню версію.
+- `0.5.1` і старіші потребують одноразового ручного встановлення через ротацію ключа updater; встановлюйте `0.5.3` поверх, не видаляючи попередню версію.
 
 [⬇️ Усі релізи Vilno VPN](https://github.com/ajjs1ajjs/dist/releases?q=vilno) &nbsp;·&nbsp; [📄 Сторінка продукту](https://ajjs1ajjs.github.io/dist/p/vilno/)
 

@@ -31,7 +31,7 @@ const CONFIG = {
   // ще й постить у канал (з анти-спам капом і кулдаунами нижче).
   minDiscountPercent: 25,
   tgMaxDealsPerRun: 10,
-  tgTimeoutMs: 10000,
+  tgTimeoutMs: 20000,
   fetchTimeoutMs: 30000,
   fetchRetries: 3,
   fetchRetryDelayMs: 2000,

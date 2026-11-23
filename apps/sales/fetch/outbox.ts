@@ -142,7 +142,7 @@ export function recordDeliveryOutcome(outbox: NotificationOutbox, id: string, ou
   return message;
 }
 
-export function pruneDelivered(outbox: NotificationOutbox, now = new Date(), retentionMs = 90 * 24 * 60 * 60 * 1000): void {
+export function pruneDelivered(outbox: NotificationOutbox, now = new Date(), retentionMs = 14 * 24 * 60 * 60 * 1000): void {
   const cutoff = now.getTime() - retentionMs;
   outbox.messages = outbox.messages.filter(message =>
     message.status !== 'delivered' || Date.parse(message.createdAt) >= cutoff);

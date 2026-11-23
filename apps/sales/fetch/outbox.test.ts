@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
   claimNextMessage, classifyDeliveryFailure, emptyOutbox, enqueueMessage, normalizeOutbox, pendingReceiptKeys,
-  recordDeliveryOutcome,
+  pruneDelivered, recordDeliveryOutcome,
 } from './outbox';
 import type { OutboxReceipt } from './outbox';
 
@@ -103,4 +103,27 @@ test('outbox preserves valid photoUrl, omits absent/invalid photoUrl, and reject
       attempts: 0,
     }],
   }), /Invalid/);
+});
+
+test('pruneDelivered drops delivered entries older than retention while keeping recent and active items', () => {
+  const outbox = emptyOutbox();
+  const oldDelivered = enqueueMessage(outbox, '<b>Old</b>', [receipt], new Date('2026-11-01T00:00:00.000Z'))!;
+  oldDelivered.status = 'delivered';
+
+  const recentReceipt: OutboxReceipt = {
+    key: 'steam_discount_43',
+    entry: { title: 'Game 2', price: 5, percent: 50, timestamp: '2026-11-20T00:00:00.000Z', type: 'discount' },
+  };
+  const recentDelivered = enqueueMessage(outbox, '<b>Recent</b>', [recentReceipt], new Date('2026-11-20T00:00:00.000Z'))!;
+  recentDelivered.status = 'delivered';
+
+  const oldUncertainReceipt: OutboxReceipt = {
+    key: 'steam_discount_44',
+    entry: { title: 'Game 3', price: 5, percent: 50, timestamp: '2026-11-01T00:00:00.000Z', type: 'discount' },
+  };
+  const oldUncertain = enqueueMessage(outbox, '<b>Uncertain</b>', [oldUncertainReceipt], new Date('2026-11-01T00:00:00.000Z'))!;
+  oldUncertain.status = 'uncertain';
+
+  pruneDelivered(outbox, new Date('2026-11-23T00:00:00.000Z'));
+  assert.deepEqual(outbox.messages.map((m) => m.id), [recentDelivered.id, oldUncertain.id]);
 });

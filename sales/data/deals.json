@@ -21391,9 +21391,9 @@
     },
     "steam_discount_1448440": {
       "title": "Wo Long: Fallen Dynasty",
-      "price": 780,
+      "price": 520,
       "percent": 60,
-      "timestamp": "2026-11-14T17:00:36.122Z",
+      "timestamp": "2026-11-17T18:00:40.851Z",
       "type": "discount"
     },
     "steam_discount_238090": {
@@ -25573,6 +25573,139 @@
       "price": 214,
       "percent": 34,
       "timestamp": "2026-11-23T13:00:32.476Z",
+      "type": "discount"
+    },
+    "steam_discount_2102040": {
+      "title": "My Little Puppy",
+      "price": 309,
+      "percent": 40,
+      "timestamp": "2026-11-15T20:00:29.674Z",
+      "type": "discount"
+    },
+    "steam_discount_1805480": {
+      "title": "Like a Dragon: Ishin!",
+      "price": 374,
+      "percent": 75,
+      "timestamp": "2026-11-16T23:00:27.507Z",
+      "type": "discount"
+    },
+    "steam_discount_835670": {
+      "title": "Total War: WARHAMMER II - Curse of the Vampire Coast",
+      "price": 199,
+      "percent": 50,
+      "timestamp": "2026-11-17T17:00:44.100Z",
+      "type": "discount"
+    },
+    "steam_discount_3947460": {
+      "title": "Creator Chronicles",
+      "price": 192,
+      "percent": 62,
+      "timestamp": "2026-11-17T18:00:40.851Z",
+      "type": "discount"
+    },
+    "steam_discount_1659040": {
+      "title": "HITMAN World of Assassination",
+      "price": 526,
+      "percent": 60,
+      "timestamp": "2026-11-17T18:00:40.851Z",
+      "type": "discount"
+    },
+    "steam_discount_534331": {
+      "title": "Total War: WARHAMMER - Realm of The Wood Elves",
+      "price": 199,
+      "percent": 50,
+      "timestamp": "2026-11-17T18:00:40.851Z",
+      "type": "discount"
+    },
+    "steam_discount_2325832": {
+      "title": "Total War: WARHAMMER III - Elspeth – Thrones of Decay",
+      "price": 149,
+      "percent": 50,
+      "timestamp": "2026-11-17T18:00:40.851Z",
+      "type": "discount"
+    },
+    "steam_discount_1778820": {
+      "title": "TEKKEN 8",
+      "price": 824,
+      "percent": 45,
+      "timestamp": "2026-11-17T18:00:40.851Z",
+      "type": "discount"
+    },
+    "steam_discount_476600": {
+      "title": "Call of Duty®: WWII",
+      "price": 638,
+      "percent": 75,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_1985810": {
+      "title": "Call of Duty®: Black Ops Cold War",
+      "price": 638,
+      "percent": 75,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_4384550": {
+      "title": "Call of Duty®: Black Ops 6",
+      "price": 1319,
+      "percent": 60,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_3065800": {
+      "title": "Marathon",
+      "price": 776,
+      "percent": 55,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_42700": {
+      "title": "Call of Duty®: Black Ops",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_42680": {
+      "title": "Call of Duty®: Modern Warfare® 3 (2011)",
+      "price": 849,
+      "percent": 50,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_2809180": {
+      "title": "Goat Simulator 3 - Multiverse of Nonsense",
+      "price": 195,
+      "percent": 40,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_10180": {
+      "title": "Call of Duty®: Modern Warfare® 2 (2009)",
+      "price": 636,
+      "percent": 25,
+      "timestamp": "2026-11-17T19:00:33.795Z",
+      "type": "discount"
+    },
+    "steam_discount_1580790": {
+      "title": "NINJA GAIDEN Σ2 [NINJA GAIDEN: Master Collection]",
+      "price": 650,
+      "percent": 50,
+      "timestamp": "2026-11-18T09:00:33.723Z",
+      "type": "discount"
+    },
+    "steam_discount_246420": {
+      "title": "Kingdom Rush  - Tower Defense",
+      "price": 98,
+      "percent": 50,
+      "timestamp": "2026-11-18T10:00:44.377Z",
+      "type": "discount"
+    },
+    "steam_discount_4654120": {
+      "title": "Graveyard Orbit",
+      "price": 78,
+      "percent": 40,
+      "timestamp": "2026-11-18T20:00:33.394Z",
       "type": "discount"
     }
   }

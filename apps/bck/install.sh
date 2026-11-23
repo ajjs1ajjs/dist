@@ -111,27 +111,21 @@ esac
 
 check_ubuntu_version
 
-# Re-exec as root so system deps + /opt install + service registration work.
+# Re-exec as root only from an existing local script file (never re-fetch main).
 if [ "$(id -u)" -ne 0 ]; then
-    if command -v sudo >/dev/null 2>&1; then
-        log "Not running as root — re-executing installer with sudo..."
+    if command -v sudo >/dev/null 2>&1 && [ -f "$0" ] && [ -r "$0" ]; then
+        log "Not running as root — re-executing local installer with sudo..."
         if [ -n "${BCK_INSTALL_REEXEC:-}" ]; then
             fail "sudo re-exec already attempted; install manually as root."
         fi
-        # Download ourselves to a temp file (stdin may be a pipe) and re-run.
-        SELF_URL="$(self_url)"
-        TMP_SELF="$(mktemp)"
-        if command -v curl >/dev/null 2>&1; then
-            curl -fsSL "$SELF_URL" -o "$TMP_SELF"
-        elif command -v wget >/dev/null 2>&1; then
-            wget -q "$SELF_URL" -O "$TMP_SELF"
-        else
-            fail "Need curl or wget"
-        fi
-        exec sudo -E env BCK_INSTALL_REEXEC=1 bash "$TMP_SELF" "$@"
+        exec sudo -E env BCK_INSTALL_REEXEC=1 bash "$0" "$@"
     else
         warn "Root privileges are required to install system dependencies and register the service."
-        warn "Re-run as root:  curl -fsSL $(self_url) | sudo bash"
+        if [ -f "$0" ] && [ -r "$0" ]; then
+            warn "Re-run as root:  sudo bash $0"
+        else
+            warn "Re-run as root:  curl -fsSL $(self_url) | sudo bash"
+        fi
         exit 1
     fi
 fi

@@ -4281,10 +4281,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-15T20:01:07.663Z",
-      "lastError": "Telegram send failed: fetch failed"
+      "claimedAt": "2026-11-15T20:01:07.663Z"
     },
     {
       "id": "3f46adda956f8d844c812269",
@@ -5500,10 +5499,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-16T23:00:31.401Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-16T23:00:31.401Z"
     },
     {
       "id": "3e838cd4115c2b9d65e08c2e",
@@ -6803,10 +6801,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T17:00:48.011Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T17:00:48.011Z"
     },
     {
       "id": "0d7cc8caec990c07dd1f94ea",
@@ -6846,10 +6843,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T18:00:49.452Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T18:00:49.452Z"
     },
     {
       "id": "b38683fea1ad5b7892b8d34b",
@@ -6868,10 +6864,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T18:01:03.475Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T18:01:03.475Z"
     },
     {
       "id": "ab9a1907f19270117e422441",
@@ -6890,10 +6885,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T18:01:17.214Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T18:01:17.214Z"
     },
     {
       "id": "acd027ddf0ed47cb9d718845",
@@ -6975,10 +6969,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T18:01:42.119Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T18:01:42.119Z"
     },
     {
       "id": "dd8151399cfe5870de20caa2",
@@ -6997,10 +6990,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T18:01:56.060Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T18:01:56.060Z"
     },
     {
       "id": "76b384516c2afe461d189c22",
@@ -7019,10 +7011,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T18:02:10.065Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T18:02:10.065Z"
     },
     {
       "id": "aa918a71e15d0fcfd5c80283",
@@ -7041,10 +7032,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:00:38.430Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:00:38.430Z"
     },
     {
       "id": "4144956c4a417bcb07f6975e",
@@ -7063,10 +7053,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:00:52.809Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:00:52.809Z"
     },
     {
       "id": "f4c7be1cfe9d69e41d5022a0",
@@ -7085,10 +7074,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:01:07.131Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:01:07.131Z"
     },
     {
       "id": "c50e600b952981d7718c17fb",
@@ -7107,10 +7095,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:01:21.349Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:01:21.349Z"
     },
     {
       "id": "92ac36a19d0a05bab6264916",
@@ -7129,10 +7116,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:01:35.668Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:01:35.668Z"
     },
     {
       "id": "7b36bb958ba71d58f183d211",
@@ -7151,10 +7137,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:01:49.989Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:01:49.989Z"
     },
     {
       "id": "00ed52c29e1bcc56d310581a",
@@ -7173,10 +7158,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:02:04.238Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:02:04.238Z"
     },
     {
       "id": "65af09080701ac47fd476b74",
@@ -7195,10 +7179,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-17T19:02:18.909Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-17T19:02:18.909Z"
     },
     {
       "id": "68ea502549d10d687ee65fb7",
@@ -8099,10 +8082,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-18T09:00:37.466Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-18T09:00:37.466Z"
     },
     {
       "id": "38cd7d48e94a0282915cfb73",
@@ -8142,10 +8124,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-18T10:00:53.001Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-18T10:00:53.001Z"
     },
     {
       "id": "4744bbed7bf8934b73b88e20",
@@ -8731,10 +8712,9 @@
           }
         }
       ],
-      "status": "uncertain",
+      "status": "delivered",
       "attempts": 1,
-      "claimedAt": "2026-11-18T20:01:03.419Z",
-      "lastError": "Telegram send failed: This operation was aborted"
+      "claimedAt": "2026-11-18T20:01:03.419Z"
     },
     {
       "id": "ec8e0d72ee5b45eaeee3e6cd",
