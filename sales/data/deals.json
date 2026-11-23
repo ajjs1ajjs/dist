@@ -26179,6 +26179,13 @@
       "percent": 75,
       "timestamp": "2026-11-23T19:00:30.721Z",
       "type": "discount"
+    },
+    "steam_discount_377160": {
+      "title": "Fallout 4",
+      "price": 87,
+      "percent": 75,
+      "timestamp": "2026-11-23T19:00:30.721Z",
+      "type": "discount"
     }
   }
 }
