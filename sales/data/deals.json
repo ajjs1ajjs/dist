@@ -26230,6 +26230,13 @@
       "percent": 88,
       "timestamp": "2026-11-23T20:00:29.745Z",
       "type": "discount"
+    },
+    "steam_discount_1971870": {
+      "title": "Mortal Kombat 1",
+      "price": 194,
+      "percent": 85,
+      "timestamp": "2026-11-23T20:00:29.745Z",
+      "type": "discount"
     }
   }
 }
