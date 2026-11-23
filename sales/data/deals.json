@@ -26258,6 +26258,13 @@
       "percent": 50,
       "timestamp": "2026-11-23T20:00:29.745Z",
       "type": "discount"
+    },
+    "steam_discount_3768760": {
+      "title": "007 First Light",
+      "price": 799,
+      "percent": 50,
+      "timestamp": "2026-11-23T20:00:29.745Z",
+      "type": "discount"
     }
   }
 }
