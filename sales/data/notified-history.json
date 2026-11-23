@@ -6032,5 +6032,12 @@
     "percent": 40,
     "timestamp": "2026-11-23T23:00:31.077Z",
     "type": "discount"
+  },
+  "steam_discount_2057760": {
+    "title": "Esoteric Ebb",
+    "price": 329,
+    "percent": 36,
+    "timestamp": "2026-11-23T23:00:31.077Z",
+    "type": "discount"
   }
 }
