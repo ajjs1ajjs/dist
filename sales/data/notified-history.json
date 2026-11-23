@@ -5710,5 +5710,12 @@
     "percent": 25,
     "timestamp": "2026-11-23T18:00:32.559Z",
     "type": "discount"
+  },
+  "steam_discount_990080": {
+    "title": "Hogwarts Legacy",
+    "price": 159,
+    "percent": 90,
+    "timestamp": "2026-11-23T19:00:30.721Z",
+    "type": "discount"
   }
 }
