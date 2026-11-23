@@ -156,6 +156,7 @@ window.SITE_I18N = {
 
     /* --- cases --- */
     'cases.eyebrow': '02 / Кейси · 2 клієнтські сайти',
+    'hub.cases.eyebrow': '04 / Кейси · 2 клієнтські сайти',
     'cases.title': 'Клієнтські сайти під ключ',
     'cases.sub': 'Два живі проєкти: корпоративний сайт і лендінг — з SEO, галереями та формами заявок.',
     'case.ppu.badge': 'Корпоративний сайт · утеплення ППУ',
@@ -488,6 +489,7 @@ window.SITE_I18N = {
 
     /* --- cases --- */
     'cases.eyebrow': '02 / Cases · 2 client sites',
+    'hub.cases.eyebrow': '04 / Cases · 2 client sites',
     'cases.title': 'Turnkey client websites',
     'cases.sub': 'Two live websites: a corporate site and a landing page — SEO-ready, with galleries and lead forms.',
     'case.ppu.badge': 'Corporate website · spray foam insulation',
