@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "9e2ce1a91f319134ef89bb9f",
-      "createdAt": "2026-11-09T19:00:30.606Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mortal Shell II</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>1 449 грн</s> ➡️ <b>1 086 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2584270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_2584270",
-          "entry": {
-            "title": "Mortal Shell II",
-            "price": 1086,
-            "percent": 25,
-            "timestamp": "2026-11-09T19:00:30.606Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-09T19:00:35.454Z"
-    },
-    {
       "id": "58a1bcbceec7171f33b59787",
       "createdAt": "2026-11-10T04:00:31.670Z",
       "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Worst Class Ever</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>110 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5175310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
@@ -13592,6 +13572,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-23T18:00:50.392Z"
+    },
+    {
+      "id": "21aa697b7d612302ecf10208",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hogwarts Legacy</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 599 грн</s> ➡️ <b>159 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/990080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_990080",
+          "entry": {
+            "title": "Hogwarts Legacy",
+            "price": 159,
+            "percent": 90,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b26d32309231ec966d47d3d3",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Detroit: Become Human</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 299 грн</s> ➡️ <b>129 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1222140\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1222140",
+          "entry": {
+            "title": "Detroit: Become Human",
+            "price": 129,
+            "percent": 90,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3c117e21a1d53bc777787bd9",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Europa Universalis IV</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 609 грн</s> ➡️ <b>321 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/236850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/23cbb7b306087b17601b7bd7d5eeec38722d38e6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_236850",
+          "entry": {
+            "title": "Europa Universalis IV",
+            "price": 321,
+            "percent": 80,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "1aed08b7dd335cfd9cf5cbee",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Red Dead Redemption 2</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>2 599 грн</s> ➡️ <b>649 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1174180\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+      "receipts": [
+        {
+          "key": "steam_discount_1174180",
+          "entry": {
+            "title": "Red Dead Redemption 2",
+            "price": 649,
+            "percent": 75,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b58f4df1ac996dca60dc4c0c",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>World War Z</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>779 грн</s> ➡️ <b>194 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/699130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/312f7a491b3b773dcee4f6ac13da41a872afc003/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_699130",
+          "entry": {
+            "title": "World War Z",
+            "price": 194,
+            "percent": 75,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "345c70c99e7fbaf3c9227edf",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Workers &amp; Resources: Soviet Republic</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/784150\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_784150",
+          "entry": {
+            "title": "Workers & Resources: Soviet Republic",
+            "price": 149,
+            "percent": 75,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f829be9436a9bbd5afc34aec",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls® Online</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>149 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/306130\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/4ae01020cb5053ee868a98537a60b138811f1b55/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_306130",
+          "entry": {
+            "title": "The Elder Scrolls® Online",
+            "price": 149,
+            "percent": 75,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "99c3320b38dbe8baa69e6d45",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>MechWarrior 5: Mercenaries</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>379 грн</s> ➡️ <b>94 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/784080\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784080/0c623e030df4aad5cc8a49ffba7b2c8a06af2ded/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_784080",
+          "entry": {
+            "title": "MechWarrior 5: Mercenaries",
+            "price": 94,
+            "percent": 75,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "38a8c74f000c3ea21a688f59",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Fallout 4</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>349 грн</s> ➡️ <b>87 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/377160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_377160",
+          "entry": {
+            "title": "Fallout 4",
+            "price": 87,
+            "percent": 75,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a672f8a11e64ad9149aae598",
+      "createdAt": "2026-11-23T19:00:30.721Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stellaris</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>404 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/281990\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_281990",
+          "entry": {
+            "title": "Stellaris",
+            "price": 404,
+            "percent": 70,
+            "timestamp": "2026-11-23T19:00:30.721Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
