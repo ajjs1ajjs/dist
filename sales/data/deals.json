@@ -26172,6 +26172,13 @@
       "percent": 75,
       "timestamp": "2026-11-23T19:00:30.721Z",
       "type": "discount"
+    },
+    "steam_discount_784080": {
+      "title": "MechWarrior 5: Mercenaries",
+      "price": 94,
+      "percent": 75,
+      "timestamp": "2026-11-23T19:00:30.721Z",
+      "type": "discount"
     }
   }
 }
