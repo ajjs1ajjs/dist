@@ -5934,5 +5934,12 @@
     "percent": 90,
     "timestamp": "2026-11-23T22:00:41.256Z",
     "type": "discount"
+  },
+  "steam_discount_1796220": {
+    "title": "Laika: Aged Through Blood",
+    "price": 62,
+    "percent": 85,
+    "timestamp": "2026-11-23T22:00:41.256Z",
+    "type": "discount"
   }
 }
