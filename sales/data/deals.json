@@ -28031,6 +28031,13 @@
       "percent": 60,
       "timestamp": "2026-11-24T00:00:32.950Z",
       "type": "discount"
+    },
+    "steam_discount_4356430": {
+      "title": "NBA 2K27",
+      "price": 1399,
+      "percent": 30,
+      "timestamp": "2026-11-24T00:00:32.950Z",
+      "type": "discount"
     }
   }
 }
