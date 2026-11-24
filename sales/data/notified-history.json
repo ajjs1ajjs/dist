@@ -6298,5 +6298,12 @@
     "percent": 65,
     "timestamp": "2026-11-24T15:00:37.328Z",
     "type": "discount"
+  },
+  "steam_discount_307780": {
+    "title": "Mortal Kombat X",
+    "price": 95,
+    "percent": 80,
+    "timestamp": "2026-11-24T18:00:36.282Z",
+    "type": "discount"
   }
 }
