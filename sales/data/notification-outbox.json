@@ -14622,6 +14622,206 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-23T23:01:17.467Z"
+    },
+    {
+      "id": "53bbc78cb09820b98ae9c5e5",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Divinity: Original Sin - Enhanced Edition</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>479 грн</s> ➡️ <b>47 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/373420\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373420/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_373420",
+          "entry": {
+            "title": "Divinity: Original Sin - Enhanced Edition",
+            "price": 47,
+            "percent": 90,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7d425cecb9ee58cd46da7e12",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>DREDGE</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>549 грн</s> ➡️ <b>219 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1562430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/fa9f07e78fb13a2f467f22716e2ea7235d8b371e/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1562430",
+          "entry": {
+            "title": "DREDGE",
+            "price": 219,
+            "percent": 60,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c6e5ae125edd2f5d818357fe",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kenshi</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>379 грн</s> ➡️ <b>151 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/233860\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/b7e568633a9d06614fef54bfd5d7f835d78d1e1d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_233860",
+          "entry": {
+            "title": "Kenshi",
+            "price": 151,
+            "percent": 60,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0d223c515505f9f281ee6da2",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>NBA 2K27</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>1 399 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4356430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/f36173562a29d72ec0da4bfcd5e66e5825b671e0/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4356430",
+          "entry": {
+            "title": "NBA 2K27",
+            "price": 1399,
+            "percent": 30,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c7e72f2189a1df0a48641a40",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>LEGO® Batman™: Legacy of the Dark Knight</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 899 грн</s> ➡️ <b>1 329 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2215200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2215200",
+          "entry": {
+            "title": "LEGO® Batman™: Legacy of the Dark Knight",
+            "price": 1329,
+            "percent": 30,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6795b1023e670aa4b927c580",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Baldur&#39;s Gate 3</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>629 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1086940\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+      "receipts": [
+        {
+          "key": "steam_discount_1086940",
+          "entry": {
+            "title": "Baldur's Gate 3",
+            "price": 629,
+            "percent": 30,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "ee2c2df9fde42b28f04d8cbc",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Corsair Cove</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>419 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1368140\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1368140",
+          "entry": {
+            "title": "Corsair Cove",
+            "price": 419,
+            "percent": 30,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "90c82a6d5c86ecfdc6afb025",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Heroes of Might and Magic: Olden Era</b>\n🏷️ Знижка: <b>-26%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>443 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3105440\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105440/e2e5d0b727a89e836985c9a05d410033a2d349d9/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3105440",
+          "entry": {
+            "title": "Heroes of Might and Magic: Olden Era",
+            "price": 443,
+            "percent": 26,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "0518cd071966dd74b5be19c9",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Train Sim World® 7</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>955 грн</s> ➡️ <b>716 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4678800\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4678800/73a59941a9b184a9c0b1e82de09be79dfeb332a7/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_4678800",
+          "entry": {
+            "title": "Train Sim World® 7",
+            "price": 716,
+            "percent": 25,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7745055ec03557d3c38ea729",
+      "createdAt": "2026-11-24T00:00:32.950Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Broken Arrow</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>925 грн</s> ➡️ <b>693 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1604270\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604270/ef2a2d5659e3e59fa4047442c3750720bb1f58ec/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1604270",
+          "entry": {
+            "title": "Broken Arrow",
+            "price": 693,
+            "percent": 25,
+            "timestamp": "2026-11-24T00:00:32.950Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
