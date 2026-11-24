@@ -15244,6 +15244,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T13:00:39.370Z"
+    },
+    {
+      "id": "8d2c3051838c44c58db19897",
+      "createdAt": "2026-11-24T14:00:30.201Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Quarry</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 749 грн</s> ➡️ <b>174 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1577120\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1577120/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1577120",
+          "entry": {
+            "title": "The Quarry",
+            "price": 174,
+            "percent": 90,
+            "timestamp": "2026-11-24T14:00:30.201Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
