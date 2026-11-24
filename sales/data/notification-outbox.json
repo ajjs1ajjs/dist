@@ -14938,6 +14938,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T04:00:48.261Z"
+    },
+    {
+      "id": "35e9ef7187cf92aa984f4bd5",
+      "createdAt": "2026-11-24T05:00:31.197Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stellaris: Shadows of the Shroud</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>323 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3417850\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3417850/4672432070561654a1ad9e45a0d834147e5a2162/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3417850",
+          "entry": {
+            "title": "Stellaris: Shadows of the Shroud",
+            "price": 323,
+            "percent": 40,
+            "timestamp": "2026-11-24T05:00:31.197Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5de7136ed5c9e4df37602c8e",
+      "createdAt": "2026-11-24T05:00:31.197Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Baldur&#39;s Gate 3 - Digital Deluxe Edition DLC</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>149 грн</s> ➡️ <b>104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2378500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2378500/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2378500",
+          "entry": {
+            "title": "Baldur's Gate 3 - Digital Deluxe Edition DLC",
+            "price": 104,
+            "percent": 30,
+            "timestamp": "2026-11-24T05:00:31.197Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
