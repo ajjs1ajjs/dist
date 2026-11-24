@@ -6578,5 +6578,12 @@
     "percent": 45,
     "timestamp": "2026-11-24T19:00:31.508Z",
     "type": "ps_deal"
+  },
+  "steam_discount_668580": {
+    "title": "Atomic Heart",
+    "price": 299,
+    "percent": 80,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "discount"
   }
 }
