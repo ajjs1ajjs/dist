@@ -6732,5 +6732,26 @@
     "percent": 75,
     "timestamp": "2026-11-24T21:14:37.809Z",
     "type": "ps_deal"
+  },
+  "steam_discount_527430": {
+    "title": "Warhammer 40,000: Inquisitor - Martyr",
+    "price": 92,
+    "percent": 90,
+    "timestamp": "2026-11-24T22:00:32.634Z",
+    "type": "discount"
+  },
+  "steam_discount_2104890": {
+    "title": "RoadCraft",
+    "price": 499,
+    "percent": 50,
+    "timestamp": "2026-11-24T22:00:32.634Z",
+    "type": "discount"
+  },
+  "steam_discount_2958130": {
+    "title": "Jurassic World Evolution 3",
+    "price": 1065,
+    "percent": 40,
+    "timestamp": "2026-11-24T22:00:32.634Z",
+    "type": "discount"
   }
 }
