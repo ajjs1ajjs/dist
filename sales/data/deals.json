@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-24T21:14:37.809Z",
+  "lastUpdated": "2026-11-24T22:00:32.634Z",
   "sourceUpdates": {
-    "steam": "2026-11-24T21:14:37.809Z",
-    "gamepass": "2026-11-24T21:14:37.809Z",
-    "playstation": "2026-11-24T21:14:37.809Z"
+    "steam": "2026-11-24T22:00:32.634Z",
+    "gamepass": "2026-11-24T22:00:32.634Z",
+    "playstation": "2026-11-24T22:00:32.634Z"
   },
   "priceHistory": {
     "2600": [
@@ -3265,6 +3265,13 @@
       {
         "date": "2026-11-19",
         "price": 27,
+        "currency": "UAH"
+      }
+    ],
+    "527430": [
+      {
+        "date": "2026-11-24",
+        "price": 92,
         "currency": "UAH"
       }
     ],
@@ -10997,6 +11004,13 @@
         "currency": "UAH"
       }
     ],
+    "2104890": [
+      {
+        "date": "2026-11-24",
+        "price": 499,
+        "currency": "UAH"
+      }
+    ],
     "2106840": [
       {
         "date": "2026-11-19",
@@ -14534,6 +14548,13 @@
       {
         "date": "2026-11-14",
         "price": 224,
+        "currency": "UAH"
+      }
+    ],
+    "2958130": [
+      {
+        "date": "2026-11-24",
+        "price": 1065,
         "currency": "UAH"
       }
     ],
@@ -19027,7 +19048,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 9,
+      "popularRank": 8,
       "reviewCount": 233202,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -19048,6 +19069,24 @@
       "reviewCount": 79857,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
+      "originalPrice": 2449,
+      "discountPrice": 2081,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 10,
+      "parentAppId": "1938090",
+      "reviewCount": 12740,
+      "reviewPercent": 69,
+      "reviewLabel": "змішані"
     },
     {
       "id": "2483190",
@@ -19078,7 +19117,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 14,
       "reviewCount": 140055,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
@@ -19163,7 +19202,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 20,
       "reviewCount": 66410,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -19180,7 +19219,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 22,
+      "popularRank": 23,
       "reviewCount": 25529,
       "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
@@ -19220,23 +19259,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 26,
-      "reviewCount": 263131,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2909400",
       "title": "FINAL FANTASY VII REBIRTH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
@@ -19248,10 +19270,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 27,
+      "popularRank": 26,
       "reviewCount": 27261,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 27,
+      "reviewCount": 263131,
+      "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "2623190",
@@ -19265,7 +19304,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 30,
+      "popularRank": 29,
       "reviewCount": 60208,
       "reviewPercent": 75,
       "reviewLabel": "переважно схвальні"
@@ -19282,7 +19321,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 31,
+      "popularRank": 30,
       "reviewCount": 269668,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
@@ -19299,7 +19338,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 31,
       "reviewCount": 265487,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
@@ -19316,7 +19355,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 33,
+      "popularRank": 32,
       "reviewCount": 102812,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
@@ -19334,7 +19373,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 34,
-      "reviewCount": 243168,
+      "reviewCount": 243204,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
@@ -19419,7 +19458,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 39,
-      "reviewCount": 858645,
+      "reviewCount": 858874,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -19793,22 +19832,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "447040",
-      "title": "Watch_Dogs® 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/capsule_616x353.jpg",
-      "originalPrice": 915,
-      "discountPrice": 137,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/447040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 99801,
-      "reviewPercent": 81,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "208650",
       "title": "Batman™: Arkham Knight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/capsule_616x353.jpg",
@@ -19871,6 +19894,22 @@
       "reviewCount": 241359,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "527430",
+      "title": "Warhammer 40,000: Inquisitor - Martyr",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527430/capsule_616x353.jpg",
+      "originalPrice": 925,
+      "discountPrice": 92,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/527430",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 19618,
+      "reviewPercent": 76,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "236850",
@@ -20001,22 +20040,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1796220",
-      "title": "Laika: Aged Through Blood",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/df13e06f4245090ed14e72c1633a6b0f48625ea6/capsule_616x353.jpg",
-      "originalPrice": 415,
-      "discountPrice": 62,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1796220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 6079,
-      "reviewPercent": 91,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "594570",
       "title": "Total War: WARHAMMER II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/capsule_616x353.jpg",
@@ -20108,7 +20131,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 137015,
+      "reviewCount": 137025,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -20508,7 +20531,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 215571,
+      "reviewCount": 215660,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -20899,22 +20922,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2627260",
-      "title": "NINJA GAIDEN 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/d58b8d10bc8a0c45c46d06985aedc46e1edf4e47/capsule_616x353.jpg",
-      "originalPrice": 2299,
-      "discountPrice": 1149,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2627260",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 8836,
-      "reviewPercent": 87,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1622100",
       "title": "Outer Wilds - Echoes of the Eye",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622100/capsule_616x353.jpg",
@@ -21047,6 +21054,22 @@
       "reviewLabel": "переважно схвальні"
     },
     {
+      "id": "2104890",
+      "title": "RoadCraft",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
+      "originalPrice": 999,
+      "discountPrice": 499,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2104890",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 13900,
+      "reviewPercent": 74,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "813780",
       "title": "Age of Empires II: Definitive Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/capsule_616x353.jpg",
@@ -21060,22 +21083,6 @@
       "isPopular": false,
       "reviewCount": 161022,
       "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "2172010",
-      "title": "Until Dawn™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 999,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2172010",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 3710,
-      "reviewPercent": 83,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21108,6 +21115,22 @@
       "isPopular": false,
       "reviewCount": 27230,
       "reviewPercent": 87,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2958130",
+      "title": "Jurassic World Evolution 3",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2958130/616c3965d246dbb92f857c5aa93afdc845fa6fce/capsule_616x353.jpg",
+      "originalPrice": 1775,
+      "discountPrice": 1065,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2958130",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 12118,
+      "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21588,7 +21611,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 1456,
+      "reviewCount": 1571,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },

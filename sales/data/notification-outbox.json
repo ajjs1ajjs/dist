@@ -16015,6 +16015,146 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T21:14:54.597Z"
+    },
+    {
+      "id": "dca0a3a5254506fb39bdf938",
+      "createdAt": "2026-11-24T22:00:32.634Z",
+      "text": "🔥 <b>ТОП ЗНИЖКИ В STEAM</b>\n\n• <a href=\"https://store.steampowered.com/app/527430\">Warhammer 40,000: Inquisitor - Martyr</a>\n  <b>-90%</b> · <s>925 грн</s> ➡️ <b>92 грн</b> · 👍 76%\n\n• <a href=\"https://store.steampowered.com/app/2104890\">RoadCraft</a>\n  <b>-50%</b> · <s>999 грн</s> ➡️ <b>499 грн</b> · 👍 74%\n\n• <a href=\"https://store.steampowered.com/app/2958130\">Jurassic World Evolution 3</a>\n  <b>-40%</b> · <s>1 775 грн</s> ➡️ <b>1 065 грн</b> · 👍 93%\n\n#steam #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🌐 Всі знижки Steam на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_527430",
+          "entry": {
+            "title": "Warhammer 40,000: Inquisitor - Martyr",
+            "price": 92,
+            "percent": 90,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2104890",
+          "entry": {
+            "title": "RoadCraft",
+            "price": 499,
+            "percent": 50,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "discount"
+          }
+        },
+        {
+          "key": "steam_discount_2958130",
+          "entry": {
+            "title": "Jurassic World Evolution 3",
+            "price": 1065,
+            "percent": 40,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "97c770a69d56c5f469402ee5",
+      "createdAt": "2026-11-24T22:00:32.634Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0700-PPSA02594_00-SMGDARKPICTURESC\">The Dark Pictures Anthology: House of Ashes PS4 &amp; PS5</a>\n  <b>-75%</b> · <s>949 грн</s> ➡️ <b>237,25 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP4062-PPSA21704_00-KCD2MAINGAMEDSEU\">Kingdom Come: Deliverance II</a>\n  <b>-65%</b> · <s>1 999 грн</s> ➡️ <b>699,65 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP6311-PPSA17668_00-MINERVA000000000\">Sea of Thieves</a>\n  <b>-65%</b> · <s>1 030 грн</s> ➡️ <b>360,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP6312-PPSA22327_00-0629872585919347\">Forza Horizon 5 Standard Edition</a>\n  <b>-60%</b> · <s>1 199 грн</s> ➡️ <b>479,6 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0001-PPSA20397_00-GAME000000000000\">Assassin’s Creed Shadows</a>\n  <b>-60%</b> · <s>2 299 грн</s> ➡️ <b>919,6 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP4062-PPSA21914_00-UNDISPUTEDPS5EU1\">Undisputed</a>\n  <b>-60%</b> · <s>1 499 грн</s> ➡️ <b>599,6 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP6312-PPSA24588_00-0872768154966924\">The Outer Worlds 2</a>\n  <b>-60%</b> · <s>2 299 грн</s> ➡️ <b>919,6 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP0700-PPSA02594_00-SMGDARKPICTURESC",
+          "entry": {
+            "title": "The Dark Pictures Anthology: House of Ashes PS4 & PS5",
+            "price": 237.25,
+            "percent": 75,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP4062-PPSA21704_00-KCD2MAINGAMEDSEU",
+          "entry": {
+            "title": "Kingdom Come: Deliverance II",
+            "price": 699.65,
+            "percent": 65,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP6311-PPSA17668_00-MINERVA000000000",
+          "entry": {
+            "title": "Sea of Thieves",
+            "price": 360.5,
+            "percent": 65,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP6312-PPSA22327_00-0629872585919347",
+          "entry": {
+            "title": "Forza Horizon 5 Standard Edition",
+            "price": 479.6,
+            "percent": 60,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0001-PPSA20397_00-GAME000000000000",
+          "entry": {
+            "title": "Assassin’s Creed Shadows",
+            "price": 919.6,
+            "percent": 60,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP4062-PPSA21914_00-UNDISPUTEDPS5EU1",
+          "entry": {
+            "title": "Undisputed",
+            "price": 599.6,
+            "percent": 60,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP6312-PPSA24588_00-0872768154966924",
+          "entry": {
+            "title": "The Outer Worlds 2",
+            "price": 919.6,
+            "percent": 60,
+            "timestamp": "2026-11-24T22:00:32.634Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
