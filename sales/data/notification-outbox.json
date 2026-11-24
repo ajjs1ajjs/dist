@@ -15299,6 +15299,66 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T18:00:45.673Z"
+    },
+    {
+      "id": "90735c3c09ab3e9044654604",
+      "createdAt": "2026-11-24T18:41:10.801Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dishonored 2</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>99 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/403640\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_403640",
+          "entry": {
+            "title": "Dishonored 2",
+            "price": 99,
+            "percent": 80,
+            "timestamp": "2026-11-24T18:41:10.801Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "76dc7f4b54aafab1ddd77dfa",
+      "createdAt": "2026-11-24T18:41:10.801Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Dishonored®: Death of the Outsider™</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>499 грн</s> ➡️ <b>99 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/614570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614570/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_614570",
+          "entry": {
+            "title": "Dishonored®: Death of the Outsider™",
+            "price": 99,
+            "percent": 80,
+            "timestamp": "2026-11-24T18:41:10.801Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "872c775e8f4d59e214b17750",
+      "createdAt": "2026-11-24T18:41:10.801Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Hades II</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>460 грн</s> ➡️ <b>322 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1145350\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1145350",
+          "entry": {
+            "title": "Hades II",
+            "price": 322,
+            "percent": 30,
+            "timestamp": "2026-11-24T18:41:10.801Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
