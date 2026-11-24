@@ -28327,6 +28327,13 @@
       "percent": 85,
       "timestamp": "2026-11-24T07:00:30.958Z",
       "type": "discount"
+    },
+    "steam_discount_22320": {
+      "title": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+      "price": 95,
+      "percent": 75,
+      "timestamp": "2026-11-24T08:00:43.670Z",
+      "type": "discount"
     }
   }
 }
