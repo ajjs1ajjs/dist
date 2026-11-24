@@ -15064,6 +15064,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T07:00:35.272Z"
+    },
+    {
+      "id": "04ece702300fbd5ad955e62a",
+      "createdAt": "2026-11-24T08:00:43.670Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls III: Morrowind® Game of the Year Edition</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>380 грн</s> ➡️ <b>95 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/22320\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22320/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_22320",
+          "entry": {
+            "title": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+            "price": 95,
+            "percent": 75,
+            "timestamp": "2026-11-24T08:00:43.670Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
