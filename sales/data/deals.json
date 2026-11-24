@@ -29960,6 +29960,55 @@
       "percent": 60,
       "timestamp": "2026-11-24T22:00:32.634Z",
       "type": "ps_deal"
+    },
+    "ps_deal_UP1001-PPSA35889_00-NBA2K27000000000": {
+      "title": "NBA 2K27",
+      "price": 1574.55,
+      "percent": 55,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP3969-PPSA11386_00-007FIRSTLIGHT000": {
+      "title": "007 First Light",
+      "price": 1149.5,
+      "percent": 50,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP9000-PPSA08338_00-MARVELSPIDERMAN2": {
+      "title": "Marvel’s Spider-Man 2",
+      "price": 1149.5,
+      "percent": 50,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP6848-PPSA04998_00-4085881659726287": {
+      "title": "Arc Raiders",
+      "price": 695,
+      "percent": 50,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP2911-PPSA24003_00-DLTHEBEASTP5EU00": {
+      "title": "Dying Light: The Beast",
+      "price": 999.5,
+      "percent": 50,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP9000-PPSA07642_00-THELASTOFUSPART1": {
+      "title": "The Last of Us™ Part I",
+      "price": 1149.5,
+      "percent": 50,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP1003-PPSA20560_00-DTITAN0000000000": {
+      "title": "DOOM: The Dark Ages",
+      "price": 749.5,
+      "percent": 50,
+      "timestamp": "2026-11-24T23:00:33.813Z",
+      "type": "ps_deal"
     }
   }
 }
