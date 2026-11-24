@@ -6249,5 +6249,12 @@
     "percent": 50,
     "timestamp": "2026-11-24T11:00:47.177Z",
     "type": "discount"
+  },
+  "steam_discount_2840100": {
+    "title": "Stellaris: The Machine Age",
+    "price": 334,
+    "percent": 50,
+    "timestamp": "2026-11-24T11:00:47.177Z",
+    "type": "discount"
   }
 }
