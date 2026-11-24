@@ -15223,6 +15223,26 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T12:00:44.140Z"
+    },
+    {
+      "id": "1b0d03a20cb495cef69952b4",
+      "createdAt": "2026-11-24T13:00:34.827Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Wolfenstein: The New Order</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>520 грн</s> ➡️ <b>130 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/201810\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201810/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_201810",
+          "entry": {
+            "title": "Wolfenstein: The New Order",
+            "price": 130,
+            "percent": 75,
+            "timestamp": "2026-11-24T13:00:34.827Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
