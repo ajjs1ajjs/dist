@@ -29819,6 +29819,55 @@
       "percent": 35,
       "timestamp": "2026-11-24T21:14:37.809Z",
       "type": "dlc"
+    },
+    "ps_deal_EP3643-PPSA03752_00-SERIOUSSAM4PS5EU": {
+      "title": "Serious Sam 4",
+      "price": 179.85,
+      "percent": 85,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP1018-PPSA22946_00-HARRYPOTTER17000": {
+      "title": "LEGO® Harry Potter™ Collection",
+      "price": 179.85,
+      "percent": 85,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP4062-PPSA28731_00-0405812491993057": {
+      "title": "Kingdom Come: Deliverance",
+      "price": 142.35,
+      "percent": 85,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP2911-PPSA02262_00-DL2GAME0000000EU": {
+      "title": "Dying Light 2 Stay Human PS4&PS5",
+      "price": 399.8,
+      "percent": 80,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP6312-PPSA17525_00-0219247498273183": {
+      "title": "Gears of War: Reloaded",
+      "price": 324.75,
+      "percent": 75,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP0688-PPSA17101_00-SURVIVALASCENDED": {
+      "title": "ARK: Survival Ascended",
+      "price": 337.25,
+      "percent": 75,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP4133-PPSA04451_00-SPACEMARINESII00": {
+      "title": "Warhammer 40,000: Space Marine 2",
+      "price": 549.75,
+      "percent": 75,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "ps_deal"
     }
   }
 }
