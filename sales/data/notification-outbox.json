@@ -15257,6 +15257,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T15:00:46.324Z"
+    },
+    {
+      "id": "bf85859f890e9ed2ac176a47",
+      "createdAt": "2026-11-24T18:00:36.282Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mortal Kombat X</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>549 грн</s> ➡️ <b>95 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/307780\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307780/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_307780",
+          "entry": {
+            "title": "Mortal Kombat X",
+            "price": 95,
+            "percent": 80,
+            "timestamp": "2026-11-24T18:00:36.282Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4fdeee6e459c7df0ec1c4d41",
+      "createdAt": "2026-11-24T18:00:36.282Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Warhammer 40,000: Space Marine 2</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 559 грн</s> ➡️ <b>389 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2183900\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2183900",
+          "entry": {
+            "title": "Warhammer 40,000: Space Marine 2",
+            "price": 389,
+            "percent": 75,
+            "timestamp": "2026-11-24T18:00:36.282Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
