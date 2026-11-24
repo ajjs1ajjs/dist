@@ -6277,5 +6277,12 @@
     "percent": 75,
     "timestamp": "2026-11-24T13:00:34.827Z",
     "type": "discount"
+  },
+  "steam_discount_1577120": {
+    "title": "The Quarry",
+    "price": 174,
+    "percent": 90,
+    "timestamp": "2026-11-24T14:00:30.201Z",
+    "type": "discount"
   }
 }
