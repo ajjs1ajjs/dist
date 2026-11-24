@@ -28066,6 +28066,13 @@
       "percent": 26,
       "timestamp": "2026-11-24T00:00:32.950Z",
       "type": "discount"
+    },
+    "steam_discount_4678800": {
+      "title": "Train Sim World® 7",
+      "price": 716,
+      "percent": 25,
+      "timestamp": "2026-11-24T00:00:32.950Z",
+      "type": "discount"
     }
   }
 }
