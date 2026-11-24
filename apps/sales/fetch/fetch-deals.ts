@@ -3,16 +3,35 @@ import path from 'path';
 import pino from 'pino';
 import { fileURLToPath } from 'node:url';
 import { RateLimiter } from './rate-limiter';
-import { chooseSteamSnapshot, isValidSteamSearchPage, planGamePassNewEntries, resolveCatalogTimestamps, selectSteamNotifications, updatePriceHistory } from './collector-core';
+import {
+  choosePlayStationSnapshot,
+  chooseSteamSnapshot,
+  filterQualitySteamGames,
+  isValidSteamSearchPage,
+  partitionMegaSteamDeals,
+  planGamePassNewEntries,
+  planPlayStationNotifications,
+  resolveCatalogTimestamps,
+  selectSteamNotifications,
+  updatePriceHistory,
+} from './collector-core';
+import type { SteamMetadata } from './collector-core';
+import { fetchPlayStationGames } from './playstation';
 import { writeJsonAtomically } from './persistence';
-import { buildTelegramBatches, normalizeTelegramPhotoUrl } from './telegram';
+import {
+  buildDigestBatches,
+  buildTelegramBatches,
+  isQuietHoursKyiv,
+  normalizeTelegramPhotoUrl,
+} from './telegram';
+import type { TelegramReplyMarkup } from './telegram';
 import {
   claimNextMessage, classifyDeliveryFailure, emptyOutbox, enqueueMessage, normalizeOutbox, pendingReceiptKeys,
   pruneDelivered, recordDeliveryOutcome,
 } from './outbox';
 import type { NotificationOutbox, OutboxReceipt } from './outbox';
-import type { SteamGame, GamePassGame, DealsData, NotifiedItem } from './types';
-import { formatPrice, escapeHtml, escapeAttr } from './format';
+import type { SteamGame, GamePassGame, PlayStationGame, DealsData, NotifiedItem } from './types';
+import { formatPrice, formatReviewCount, escapeHtml, escapeAttr } from './format';
 
 const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 const logger = pino({
@@ -21,24 +40,37 @@ const logger = pino({
 });
 
 const CONFIG = {
-  dealsDir: process.env.DEALS_DIR ?? path.resolve(process.cwd(), '../../../sales/data'),
+  dealsDir: process.env.DEALS_DIR ?? path.join(process.cwd(), 'public', 'data'),
+  siteUrl: 'https://ajjs1ajjs.github.io/dist/sales/',
   freeGameCooldownMs: 14 * 24 * 60 * 60 * 1000,
   discountCooldownMs: 30 * 24 * 60 * 60 * 1000,
   historyRetentionMs: 30 * 24 * 60 * 60 * 1000,
   tgMessageLimit: 4000,
-  // Порог знижки — однаковий для сайту і Telegram (вимога власника: правила
-  // сайту й каналу мають збігатися). Сайт показує знижки від 25%, глибші —
-  // ще й постить у канал (з анти-спам капом і кулдаунами нижче).
-  minDiscountPercent: 25,
-  tgMaxDealsPerRun: 10,
-  tgTimeoutMs: 20000,
+  minDiscountPercent: 30,
+  topSellerMinDiscountPercent: 25,
+  popularTopLimit: 40,
+  tgMaxDealsPerRun: 7,
+  tgMaxMegaCardsPerRun: 3,
+  tgMaxDlcPerRun: 5,
+  tgTimeoutMs: 10000,
   fetchTimeoutMs: 30000,
   fetchRetries: 3,
   fetchRetryDelayMs: 2000,
-  // Покриття Steam search API: 3 сторінки по 100 = ~300 топів зі знижками.
-  // Безкоштовно, без ключа; 4 запити на ран (1 categories + 3 search).
-  searchPages: 3,
+  searchPages: 2,
   searchCount: 100,
+  dlcSearchCount: 60,
+  steamQuality: {
+    minReviewPercent: 70,
+    minReviewCount: 500,
+    newReleaseDays: 45,
+    newReleaseMinReviews: 100,
+    popularMinReviewPercent: 65,
+    popularMinReviewCount: 100,
+    dlcMinDiscountPercent: 25,
+    dlcMinReviewCount: 300,
+    dlcMinReviewPercent: 70,
+    dlcMinOriginalPriceUah: 120,
+  },
   // Game Pass для ПК: неофіційний каталог catalog.gamepass.com (списки
   // «Recently added» / «Most popular», як на xbox.com) + displaycatalog
   // для назв/зображень. Без ключа; ~5 запитів на ран.
@@ -54,6 +86,11 @@ const CONFIG = {
     // Ключі gamepass_ живуть довше за 30 днів: інакше гра, що тижнями
     // висить у «Recently added», після очистки сповістилася б повторно.
     historyRetentionMs: 120 * 24 * 60 * 60 * 1000,
+  },
+  playstation: {
+    minDiscountPercent: 25,
+    historyRetentionMs: 120 * 24 * 60 * 60 * 1000,
+    tgMaxDealsPerRun: 7,
   },
 } as const;
 
@@ -77,12 +114,14 @@ const finiteOr = (v: number, dflt: number): number =>
 
 const STEAM_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 
-// Один лімітер на весь Steam (categories + search): безкоштовно, без ключа,
-// ~4 запити на ран — далеко від обмежень Store API.
+// Один лімітер на весь Steam (categories + search + metadata): безкоштовно, без ключа.
 const steamLimiter = new RateLimiter(60);
 
 // Microsoft-каталог: ~5 запитів на ран (2 списки + батчі деталей).
 const gamepassLimiter = new RateLimiter(30);
+
+// PlayStation Store GraphQL + PS Blog RSS: ~4 запити на ран.
+const psLimiter = new RateLimiter(20);
 
 export async function fetchWithRetry(url: string, options?: RequestInit, retries = 3, delay = 2000, timeoutMs = 30000): Promise<Response> {
   for (let i = 0; i < retries; i++) {
@@ -163,6 +202,20 @@ interface StoreBrowseAssets {
 
 interface StoreBrowseItem {
   appid?: number;
+  type?: number;
+  related_items?: {
+    parent_appid?: number;
+  };
+  release?: {
+    steam_release_date?: number;
+  };
+  reviews?: {
+    summary_filtered?: {
+      review_count?: number;
+      percent_positive?: number;
+      review_score_label?: string;
+    };
+  };
   assets?: StoreBrowseAssets;
 }
 
@@ -226,6 +279,7 @@ function upsertGame(
   isSpecial: boolean,
   isFree: boolean,
   isPopular: boolean,
+  extra?: { isDlc?: boolean; popularRank?: number },
 ) {
   if (!title) return;
   const existing = gamesMap.get(id);
@@ -233,6 +287,11 @@ function upsertGame(
     existing.isSpecial = existing.isSpecial || isSpecial;
     existing.isFree = existing.isFree || isFree;
     existing.isPopular = existing.isPopular || isPopular;
+    if (extra?.isDlc) existing.isDlc = true;
+    if (extra?.popularRank !== undefined) {
+      existing.popularRank =
+        existing.popularRank === undefined ? extra.popularRank : Math.min(existing.popularRank, extra.popularRank);
+    }
     if (discountPercent > existing.discountPercent) {
       existing.discountPercent = discountPercent;
       existing.originalPrice = originalPrice;
@@ -257,6 +316,8 @@ function upsertGame(
     isSpecial,
     isFree,
     isPopular,
+    ...(extra?.isDlc ? { isDlc: true } : {}),
+    ...(extra?.popularRank !== undefined ? { popularRank: extra.popularRank } : {}),
   });
 }
 
@@ -265,7 +326,8 @@ export function processCategoryItems(
   items: SteamItem[],
   opts: { specialBucket: boolean; popularBucket: boolean },
 ) {
-  for (const item of items) {
+  for (let idx = 0; idx < items.length; idx++) {
+    const item = items[idx];
     const id = String(item.id);
     const imageUrl = item.large_capsule_image || item.header_image || item.capsule_image || '';
 
@@ -286,21 +348,28 @@ export function processCategoryItems(
     if (!Number.isFinite(originalPrice) || !Number.isFinite(discountPrice) || originalPrice < 0 || discountPrice < 0) continue;
     const pct = finiteOr(Number(item.discount_percent ?? 0), 0);
     const isFree = originalPrice > 0 && discountPrice === 0;
-    // У top_sellers багато повноцінних ігор без знижки — прапорець isPopular
-    // ставимо всім записам бакета, а isSpecial лише реальним знижкам.
-    const isDiscounted = !isFree && pct >= CONFIG.minDiscountPercent;
-    // Free offers are surfaced through their own (free) section/post. They must
-    // not also be flagged as "specials": a free game in the specials bucket used
-    // to get isSpecial=true, which posted it twice (free + a bogus -100% deal).
+    const minPct = opts.popularBucket ? CONFIG.topSellerMinDiscountPercent : CONFIG.minDiscountPercent;
+    const isDiscounted = !isFree && pct >= minPct;
     const isSpecial = isDiscounted;
     const isPopular = opts.popularBucket;
 
-    // Зі specials-бакета беремо лише знижки від порога/безкоштовне;
-    // з top_sellers — усе (топи потрібні для секції трендів).
     if (opts.specialBucket && !opts.popularBucket && !isSpecial && !isFree) continue;
     if (!isSpecial && !isFree && !isPopular) continue;
 
-    upsertGame(gamesMap, id, item.name, imageUrl, originalPrice, discountPrice, pct, item.currency || 'UAH', isSpecial, isFree, isPopular);
+    upsertGame(
+      gamesMap,
+      id,
+      item.name,
+      imageUrl,
+      originalPrice,
+      discountPrice,
+      pct,
+      item.currency || 'UAH',
+      isSpecial,
+      isFree,
+      isPopular,
+      isPopular ? { popularRank: idx + 1 } : undefined,
+    );
   }
 }
 
@@ -330,16 +399,23 @@ function parseSteamPriceText(raw: string): number | null {
   return Number.isFinite(n) && n >= 0 ? n : null;
 }
 
-/** Парсинг однієї сторінки search API (topsellers + specials). */
-export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>): number {
+/** Парсинг однієї сторінки search API (topsellers + specials, ігри або DLC). */
+export function parseSearchHtml(
+  html: string,
+  gamesMap: Map<string, SteamGame>,
+  opts?: { isDlc?: boolean; popularLimit?: number; startOffset?: number },
+): number {
   const anchorRe = /<a\b[^>]*data-ds-appid="(\d+)"[^>]*data-ds-itemkey="([^"]*)"[^>]*>([\s\S]*?)<\/a\s*>/g;
   let added = 0;
+  let rowIndex = 0;
   let m: RegExpExecArray | null;
   while ((m = anchorRe.exec(html)) !== null) {
     const appId = m[1];
     const itemKey = m[2] || '';
     // Тільки застосунки; Bundle/Package/Sub пропускаємо (ціни там за набір).
     if (!itemKey.startsWith('App_')) continue;
+    const currentRank = (opts?.startOffset ?? 0) + rowIndex + 1;
+    rowIndex++;
     const body = m[3];
 
     const titleM = body.match(/<span class="title"[^>]*>(.*?)<\/span>/s);
@@ -363,7 +439,14 @@ export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>):
           ? Math.round((discountPrice / (1 - discountPercent / 100)) * 100) / 100
           : discountPrice;
     const isFree = discountPercent >= 100 || (originalPrice > 0 && discountPrice === 0);
-    const isSpecial = !isFree && discountPercent >= CONFIG.minDiscountPercent;
+    const isDlc = Boolean(opts?.isDlc);
+    const isPopular = !isDlc && (opts?.popularLimit === undefined || currentRank <= opts.popularLimit);
+    const minPct = isDlc
+      ? CONFIG.steamQuality.dlcMinDiscountPercent
+      : isPopular
+        ? CONFIG.topSellerMinDiscountPercent
+        : CONFIG.minDiscountPercent;
+    const isSpecial = !isFree && discountPercent >= minPct;
 
     if (!isSpecial && !isFree) continue;
 
@@ -377,7 +460,23 @@ export function parseSearchHtml(html: string, gamesMap: Map<string, SteamGame>):
       /* лишаємо як є */
     }
 
-    upsertGame(gamesMap, appId, title, imageUrl, originalPrice, discountPrice, isFree ? 100 : discountPercent, 'UAH', isSpecial, isFree, true);
+    upsertGame(
+      gamesMap,
+      appId,
+      title,
+      imageUrl,
+      originalPrice,
+      discountPrice,
+      isFree ? 100 : discountPercent,
+      'UAH',
+      isSpecial,
+      isFree,
+      isPopular,
+      {
+        ...(isDlc ? { isDlc: true } : {}),
+        ...(isPopular && opts?.popularLimit !== undefined ? { popularRank: currentRank } : {}),
+      },
+    );
     added++;
   }
   return added;
@@ -390,7 +489,7 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
     const url =
       `https://store.steampowered.com/search/results/?query&start=${start}` +
       `&count=${CONFIG.searchCount}&dynamic_data=&sort_by=_ASC&snr=1_7_7_230_7&infinite=1` +
-      `&filter=topsellers&specials=1&cc=UA&l=ukrainian`;
+      `&filter=topsellers&specials=1&category1=998&cc=UA&l=ukrainian`;
     const res = await fetchWithRetry(
       url,
       { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } },
@@ -399,7 +498,10 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
     if (!isValidSteamSearchPage(data)) {
       throw new Error(`Steam search page ${page} returned an incomplete response.`);
     }
-    const added = parseSearchHtml(data.results_html, gamesMap);
+    const added = parseSearchHtml(data.results_html, gamesMap, {
+      popularLimit: CONFIG.popularTopLimit,
+      startOffset: start,
+    });
     if (
       page === 0 &&
       added === 0 &&
@@ -409,8 +511,27 @@ async function fetchSteamSearchDeals(gamesMap: Map<string, SteamGame>): Promise<
       throw new Error('Steam search page 0 contained discounted app rows but 0 were parsed.');
     }
     logger.info({ page, start, total: data.total_count ?? -1, added }, 'steam search page fetched');
-    // Остання неповна сторінка — далі гортати нема чого.
     if (data.results_html.length < 1000) break;
+  }
+
+  // Fetch top-selling DLCs with discounts (category1=21) separately.
+  try {
+    await steamLimiter.take();
+    const dlcUrl =
+      `https://store.steampowered.com/search/results/?query&start=0` +
+      `&count=${CONFIG.dlcSearchCount}&dynamic_data=&sort_by=_ASC&snr=1_7_7_230_7&infinite=1` +
+      `&filter=topsellers&specials=1&category1=21&cc=UA&l=ukrainian`;
+    const res = await fetchWithRetry(
+      dlcUrl,
+      { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } },
+    );
+    const data = (await res.json()) as SteamSearchResponse;
+    if (isValidSteamSearchPage(data)) {
+      const dlcAdded = parseSearchHtml(data.results_html, gamesMap, { isDlc: true });
+      logger.info({ total: data.total_count ?? -1, dlcAdded }, 'steam DLC search page fetched');
+    }
+  } catch (err) {
+    logger.warn({ err: sanitizeLog(err) }, 'steam DLC search failed (continuing with base games)');
   }
 }
 
@@ -432,18 +553,18 @@ function resolveStoreBrowseAssetUrl(assets?: StoreBrowseAssets): string | undefi
   }
 }
 
-async function enrichSteamImages(gamesMap: Map<string, SteamGame>): Promise<void> {
+async function enrichSteamMetadata(gamesMap: Map<string, SteamGame>): Promise<Map<string, SteamMetadata>> {
+  const metaMap = new Map<string, SteamMetadata>();
   const appIds: number[] = [];
-  for (const [id, game] of gamesMap) {
-    if (game.imageUrl && !isLowResSteamCapsule(game.imageUrl)) continue;
+  for (const id of gamesMap.keys()) {
     if (!/^\d+$/.test(id)) continue;
     const appid = Number(id);
     if (Number.isSafeInteger(appid) && appid > 0) appIds.push(appid);
   }
-  if (appIds.length === 0) return;
+  if (appIds.length === 0) return metaMap;
 
   const batchSize = 100;
-  let upgraded = 0;
+  let upgradedImages = 0;
   for (let i = 0; i < appIds.length; i += batchSize) {
     const batch = appIds.slice(i, i + batchSize);
     try {
@@ -451,37 +572,67 @@ async function enrichSteamImages(gamesMap: Map<string, SteamGame>): Promise<void
       const inputJson = JSON.stringify({
         ids: batch.map(appid => ({ appid })),
         context: { language: 'ukrainian', country_code: 'UA' },
-        data_request: { include_assets: true },
+        data_request: {
+          include_assets: true,
+          include_basic_info: true,
+          include_reviews: true,
+          include_release: true,
+        },
       });
       const url = `https://api.steampowered.com/IStoreBrowseService/GetItems/v1/?input_json=${encodeURIComponent(inputJson)}`;
       const res = await fetchWithRetry(url, { headers: { 'User-Agent': STEAM_UA, Accept: 'application/json' } });
       const data = (await res.json()) as StoreBrowseItemsResponse;
       for (const item of data.response?.store_items ?? []) {
         if (!item.appid) continue;
-        const game = gamesMap.get(String(item.appid));
+        const id = String(item.appid);
+        const game = gamesMap.get(id);
         if (!game) continue;
-        const resolved = resolveStoreBrowseAssetUrl(item.assets);
-        if (resolved && (!game.imageUrl || !isLowResSteamCapsule(resolved))) {
-          game.imageUrl = resolved;
-          upgraded++;
+
+        const summary = item.reviews?.summary_filtered;
+        metaMap.set(id, {
+          type: item.type,
+          parentAppId: item.related_items?.parent_appid ? String(item.related_items.parent_appid) : undefined,
+          reviewCount: summary?.review_count,
+          reviewPercent: summary?.percent_positive,
+          reviewLabel: summary?.review_score_label,
+          releaseTimeSec: item.release?.steam_release_date,
+        });
+
+        if (!game.imageUrl || isLowResSteamCapsule(game.imageUrl)) {
+          const resolved = resolveStoreBrowseAssetUrl(item.assets);
+          if (resolved && (!game.imageUrl || !isLowResSteamCapsule(resolved))) {
+            game.imageUrl = resolved;
+            upgradedImages++;
+          }
         }
       }
     } catch (err) {
-      logger.warn({ count: batch.length, err: sanitizeLog(err) }, 'steam image enrichment batch failed');
+      logger.warn({ count: batch.length, err: sanitizeLog(err) }, 'steam metadata enrichment batch failed');
     }
   }
-  logger.info({ candidates: appIds.length, upgraded }, 'steam images enriched');
+  logger.info({ candidates: appIds.length, resolved: metaMap.size, upgradedImages }, 'steam metadata enriched');
+  return metaMap;
 }
 
 async function fetchSteamGames(): Promise<SteamGame[]> {
-  logger.info('Fetching Steam: categories + topsellers search...');
+  logger.info('Fetching Steam: categories + topsellers + DLC + reviews...');
   const gamesMap = new Map<string, SteamGame>();
 
   await fetchSteamCategories(gamesMap);
   await fetchSteamSearchDeals(gamesMap);
-  await enrichSteamImages(gamesMap);
-
-  return Array.from(gamesMap.values());
+  const metaMap = await enrichSteamMetadata(gamesMap);
+  const rawGames = Array.from(gamesMap.values());
+  if (metaMap.size === 0) {
+    logger.warn('Steam metadata unavailable; skipping quality filter for this run');
+    return rawGames;
+  }
+  const filtered = filterQualitySteamGames(rawGames, metaMap, new Date(), {
+    minDiscountPercent: CONFIG.minDiscountPercent,
+    topSellerMinDiscountPercent: CONFIG.topSellerMinDiscountPercent,
+    ...CONFIG.steamQuality,
+  });
+  logger.info({ rawCount: rawGames.length, filteredCount: filtered.length }, 'steam quality filter applied');
+  return filtered;
 }
 
 /** Порядок переваги зображень каталогу (усі landscape або близькі до 16:9). */
@@ -653,7 +804,11 @@ async function postTelegramEndpoint(
   }
 }
 
-async function sendTelegramMessage(text: string, photoUrl?: string): Promise<boolean> {
+async function sendTelegramMessage(
+  text: string,
+  photoUrl?: string,
+  opts?: { replyMarkup?: TelegramReplyMarkup; disableNotification?: boolean },
+): Promise<boolean> {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
@@ -663,11 +818,16 @@ async function sendTelegramMessage(text: string, photoUrl?: string): Promise<boo
   }
 
   const normalizedPhotoUrl = normalizeTelegramPhotoUrl(photoUrl);
+  const commonOpts = {
+    ...(opts?.replyMarkup ? { reply_markup: opts.replyMarkup } : {}),
+    ...(opts?.disableNotification ? { disable_notification: true } : {}),
+  };
   const textPayload = {
     chat_id: chatId,
     text,
     parse_mode: 'HTML',
-    disable_web_page_preview: false,
+    disable_web_page_preview: true,
+    ...commonOpts,
   };
 
   let result = normalizedPhotoUrl
@@ -676,6 +836,7 @@ async function sendTelegramMessage(text: string, photoUrl?: string): Promise<boo
         photo: normalizedPhotoUrl,
         caption: text,
         parse_mode: 'HTML',
+        ...commonOpts,
       })
     : await postTelegramEndpoint(token, 'sendMessage', textPayload);
 
@@ -741,7 +902,10 @@ async function runOutboxCommand(args: string[]) {
     let outcome: Parameters<typeof recordDeliveryOutcome>[2];
     let delivered = false;
     try {
-      delivered = await sendTelegramMessage(message.text, message.photoUrl);
+      delivered = await sendTelegramMessage(message.text, message.photoUrl, {
+        replyMarkup: message.replyMarkup,
+        disableNotification: message.disableNotification,
+      });
       outcome = delivered
         ? { kind: 'delivered' }
         : { kind: 'blocked', error: 'Telegram credentials are missing.' };
@@ -864,11 +1028,9 @@ export async function loadNotifiedHistory(
 }
 
 async function runPrepare() {
-  logger.info('Starting deals fetcher script (Steam + Game Pass PC)...');
+  logger.info('Starting deals fetcher script (Steam + Game Pass PC + PlayStation 5)...');
 
   // Load previous deals for comparison.
-  // Поле `epic` зі старих файлів ігнорується (перехід на Steam-only):
-  // відсутнє чи пошкоджене поле не повинно класти ран.
   const coerceOldData = (parsed: unknown): DealsData => {
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) throw new Error('Invalid previous catalog');
     const p = parsed as Record<string, unknown>;
@@ -882,6 +1044,7 @@ async function runPrepare() {
       ? {
           steam: typeof rawUpdates.steam === 'string' ? rawUpdates.steam : undefined,
           gamepass: typeof rawUpdates.gamepass === 'string' ? rawUpdates.gamepass : undefined,
+          playstation: typeof rawUpdates.playstation === 'string' ? rawUpdates.playstation : undefined,
         }
       : undefined;
     return {
@@ -890,11 +1053,12 @@ async function runPrepare() {
       priceHistory: p.priceHistory as DealsData['priceHistory'],
       steam: Array.isArray(p.steam) ? (p.steam as DealsData['steam']) : [],
       gamepass: Array.isArray(p.gamepass) ? (p.gamepass as GamePassGame[]) : [],
+      playstation: Array.isArray(p.playstation) ? (p.playstation as PlayStationGame[]) : [],
       notifiedHistory: {},
     };
   };
 
-  let oldData: DealsData = { lastUpdated: '', steam: [], gamepass: [], notifiedHistory: {} };
+  let oldData: DealsData = { lastUpdated: '', steam: [], gamepass: [], playstation: [], notifiedHistory: {} };
   if (fs.existsSync(DEALS_PATH)) {
     try {
       oldData = coerceOldData(JSON.parse(fs.readFileSync(DEALS_PATH, 'utf-8')));
@@ -918,9 +1082,6 @@ async function runPrepare() {
   }
 
   // Load notified history from the separate file (append-only, merge-friendly).
-  // A corrupt local file must NOT be read as "nothing was ever notified": that
-  // would reset every cooldown and re-send the whole catalog. Recover from the
-  // published copy, or stop the run when neither source is readable.
   const notifiedHistory = await loadNotifiedHistory(
     {
       readLocal: () =>
@@ -933,16 +1094,16 @@ async function runPrepare() {
     logger,
   );
 
-  // Clean notified history: remove expired (30 days) and corrupted (NaN timestamp) entries
+  // Clean notified history: remove expired and corrupted (NaN timestamp) entries
   const now = new Date();
 
   for (const [key, value] of Object.entries(notifiedHistory)) {
     const notifiedTime = new Date(value.timestamp).getTime();
-    // Видаляємо застарілі ТА пошкоджені (невалідна дата → NaN) записи,
-    // інакше биті записи накопичувалися б вічно (NaN < x === false).
-    // Game Pass-ключі тримаємо довше (див. CONFIG.gamepass): запис, що
-    // зник із файлу, поки гра ще висить у «Recently added», дав би дубль.
-    const maxAgeMs = key.startsWith('gamepass_') ? CONFIG.gamepass.historyRetentionMs : CONFIG.historyRetentionMs;
+    const isLongRetention =
+      key.startsWith('gamepass_') ||
+      key.startsWith('ps_essential_') ||
+      key.startsWith('ps_extra_');
+    const maxAgeMs = isLongRetention ? CONFIG.gamepass.historyRetentionMs : CONFIG.historyRetentionMs;
     if (Number.isNaN(notifiedTime) || notifiedTime < now.getTime() - maxAgeMs) {
       delete notifiedHistory[key];
     }
@@ -952,15 +1113,13 @@ async function runPrepare() {
     notifiedHistory[key] = entry;
   }
 
-  // Fetch fresh data (Steam-only)
+  // Fetch fresh Steam data
   let steamFetchSuccess = false;
-
   const freshSteam = await fetchSteamGames().then(r => { steamFetchSuccess = true; return r; }).catch((err) => {
     logger.error({ err: err instanceof Error ? err.message : String(err) }, 'steam fetch failed');
     return [] as SteamGame[];
   });
 
-  // Keep the last known-good catalog on failures and unconfirmed empty responses.
   const steamSnapshot = chooseSteamSnapshot(freshSteam, oldData.steam, steamFetchSuccess);
   if (steamSnapshot.usedPrevious) {
     logger.warn({ fetchSucceeded: steamFetchSuccess, freshCount: freshSteam.length, keptCount: oldData.steam.length }, 'keeping previous Steam snapshot');
@@ -968,8 +1127,7 @@ async function runPrepare() {
   const steam = steamSnapshot.games;
   const steamUpdated = !steamSnapshot.usedPrevious && freshSteam.length > 0;
 
-  // Fetch Game Pass for PC catalog. Збій Microsoft-каталогу не має валити ран
-  // і не має стирати попередній каталог — лишаємо старі дані, якщо нові пусті.
+  // Fetch Game Pass for PC catalog
   let freshGamePass: GamePassGame[] = [];
   let gamepassFetchSuccess = false;
   try {
@@ -986,27 +1144,64 @@ async function runPrepare() {
     gamepassUsedPrevious ? (oldData.gamepass ?? []) : freshGamePass;
   const gamepassUpdated = !gamepassUsedPrevious && freshGamePass.length > 0;
 
+  // Fetch PlayStation 5 (PS Store Deals + Top Sellers + PS Plus Essential & Extra)
+  let freshPlayStation: PlayStationGame[] = [];
+  let playstationFetchSuccess = false;
+  try {
+    freshPlayStation = await fetchPlayStationGames(
+      (url, options) => fetchWithRetry(url, options, CONFIG.fetchRetries, CONFIG.fetchRetryDelayMs, CONFIG.fetchTimeoutMs),
+      psLimiter,
+      { minDiscountPercent: CONFIG.playstation.minDiscountPercent },
+    );
+    playstationFetchSuccess = true;
+    logger.info({ count: freshPlayStation.length }, 'playstation catalog fetched');
+  } catch (err) {
+    logger.error({ err: err instanceof Error ? err.message : String(err) }, 'playstation fetch failed');
+  }
+  const psSnapshot = choosePlayStationSnapshot(freshPlayStation, oldData.playstation ?? [], playstationFetchSuccess);
+  if (psSnapshot.usedPrevious) {
+    logger.warn(
+      { fetchSucceeded: playstationFetchSuccess, freshCount: freshPlayStation.length, keptCount: oldData.playstation?.length ?? 0 },
+      'keeping previous PlayStation snapshot',
+    );
+  }
+  const playstation = psSnapshot.games;
+  const playstationUpdated = !psSnapshot.usedPrevious && freshPlayStation.length > 0;
+
+  // Update 90-day price history (Steam + PS5) before notifications so lowest-price badges are current.
+  const priceHistory = updatePriceHistory(
+    oldData.priceHistory,
+    freshSteam,
+    now,
+    steamUpdated,
+    freshPlayStation,
+    playstationUpdated,
+  );
+
   // Read outbox early so already-queued items do not consume the per-run cap.
   const outbox = readNotificationOutbox();
   const queuedKeys = pendingReceiptKeys(outbox);
 
-  // Detect changes (Steam freebies + hot deals)
-  const { freeGames: newSteamFreeGames, deals: newSteamDeals } = selectSteamNotifications(
+  // Detect Steam changes (freebies + base-game deals + DLC deals)
+  const { freeGames: newSteamFreeGames, deals: newSteamDeals, dlcDeals: newSteamDlcDeals } = selectSteamNotifications(
     freshSteam,
     notifiedHistory,
     queuedKeys,
     now,
     {
-      minDiscountPercent: CONFIG.minDiscountPercent,
+      minDiscountPercent: CONFIG.topSellerMinDiscountPercent,
       freeCooldownMs: FREE_GAME_COOLDOWN_MS,
       discountCooldownMs: DISCOUNT_COOLDOWN_MS,
       maxDealsPerRun: CONFIG.tgMaxDealsPerRun,
+      maxDlcPerRun: CONFIG.tgMaxDlcPerRun,
     },
   );
+  const { megaDeals: newSteamMegaDeals, digestDeals: newSteamDigestDeals } = partitionMegaSteamDeals(
+    newSteamDeals,
+    CONFIG.tgMaxMegaCardsPerRun,
+  );
 
-  // Game Pass: новинки каталогу. Перший ран після деплою (жодного ключа
-  // gamepass_ в історії) лише запам'ятовує поточний список — без заливки
-  // каналу десятками постів; далі постимо тільки реально нові ігри.
+  // Game Pass: новинки та популярне
   const hasGamePassHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_') && !key.startsWith('gamepass_popular_'));
   const newGamePassGames = planGamePassNewEntries(gamepass, notifiedHistory);
   if (!hasGamePassHistory) {
@@ -1019,16 +1214,9 @@ async function runPrepare() {
     }
   }
   if (newGamePassGames.length > CONFIG.tgMaxDealsPerRun) {
-    logger.info(
-      { total: newGamePassGames.length, capped: CONFIG.tgMaxDealsPerRun },
-      'capping gamepass telegram posts (rest stays for next run)',
-    );
     newGamePassGames.length = CONFIG.tgMaxDealsPerRun;
   }
 
-  // Game Pass: топ популярних — постимо гру, коли вона вперше потрапляє в
-  // список «Most popular» (повторних постів про той самий топ немає).
-  // Гра, яку цього ж рану вже запостили як новинку, не дублюється.
   const hasGamePassPopularHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_popular_'));
   const newPopularGamePassGames: GamePassGame[] = [];
   const justPostedGamePassIds = new Set(newGamePassGames.map((g) => g.id));
@@ -1045,148 +1233,340 @@ async function runPrepare() {
     newPopularGamePassGames.push(game);
   }
   if (newPopularGamePassGames.length > CONFIG.tgMaxDealsPerRun) {
-    logger.info(
-      { total: newPopularGamePassGames.length, capped: CONFIG.tgMaxDealsPerRun },
-      'capping gamepass popular telegram posts (rest stays for next run)',
-    );
     newPopularGamePassGames.length = CONFIG.tgMaxDealsPerRun;
   }
 
+  // PlayStation 5: PS Plus Essential (baseline-guarded), PS Plus Extra (baseline-guarded), and PS5 Deals
+  const hasPsEssentialHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('ps_essential_'));
+  const hasPsExtraHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('ps_extra_'));
+  if (!hasPsEssentialHistory) {
+    for (const game of playstation) {
+      if (game.psPlusTier === 'essential' && !notifiedHistory[game.id]) {
+        markNotified(game.id, {
+          title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'ps_essential',
+        });
+      }
+    }
+  }
+  if (!hasPsExtraHistory) {
+    for (const game of playstation) {
+      if (game.psPlusTier === 'extra' && !notifiedHistory[game.id]) {
+        markNotified(game.id, {
+          title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'ps_extra',
+        });
+      }
+    }
+  }
+  const {
+    essential: newPsEssentialGames,
+    extra: newPsExtraGames,
+    deals: newPsDeals,
+  } = planPlayStationNotifications(freshPlayStation, notifiedHistory, queuedKeys, now, {
+    minDiscountPercent: CONFIG.playstation.minDiscountPercent,
+    discountCooldownMs: DISCOUNT_COOLDOWN_MS,
+    maxDealsPerRun: CONFIG.playstation.tgMaxDealsPerRun,
+  });
+
   logger.info(
-    `Detected: ${newSteamFreeGames.length} free Steam, ${newSteamDeals.length} hot Steam (total ${freshSteam.length}), ` +
-    `${newGamePassGames.length} new Game Pass, ${newPopularGamePassGames.length} popular Game Pass (catalog ${gamepass.length}).`,
+    `Detected: ${newSteamFreeGames.length} free Steam, ${newSteamMegaDeals.length} mega + ${newSteamDigestDeals.length} Steam deals, ` +
+    `${newSteamDlcDeals.length} Steam DLC (total ${freshSteam.length}), ` +
+    `${newGamePassGames.length} new + ${newPopularGamePassGames.length} popular Game Pass (${gamepass.length}), ` +
+    `${newPsEssentialGames.length} PS+ Essential, ${newPsExtraGames.length} PS+ Extra, ${newPsDeals.length} PS5 deals (${playstation.length}).`,
   );
 
   async function saveHistory() {
     await writeJsonAtomically(HISTORY_PATH, notifiedHistory);
   }
 
-  // Shared Telegram-HTML builders to keep the notification blocks DRY.
+  const quietHours = isQuietHoursKyiv(now);
   const gameTitle = (name: string) => `<b>${escapeHtml(name)}</b>`;
   const storeLink = (label: string, url: string) => `<a href="${escapeAttr(url)}">${label}</a>`;
+  const siteButtonRow = (label = '🌐 Всі знижки на сайті'): TelegramReplyMarkup => ({
+    inline_keyboard: [[{ text: label, url: CONFIG.siteUrl }]],
+  });
 
-  function formatDealLine(
+  const isLowestObservedPrice = (id: string, currentPrice: number, currency: string): boolean => {
+    const obs = (priceHistory[id] ?? []).filter((o) => o.currency === currency);
+    if (obs.length < 2) return false;
+    const minObserved = Math.min(...obs.map((o) => o.price));
+    return currentPrice <= minObserved;
+  };
+
+  function formatSteamHeroDeal(deal: SteamGame): string {
+    const lines = [
+      `🎮 ${gameTitle(deal.title)}`,
+      `🏷️ Знижка: <b>-${deal.discountPercent}%</b>`,
+      `💰 Ціна: <s>${formatPrice(deal.originalPrice, deal.currency)}</s> ➡️ <b>${formatPrice(deal.discountPrice, deal.currency)}</b>`,
+    ];
+    if (deal.reviewPercent !== undefined && deal.reviewCount) {
+      lines.push(`👍 Відгуки: <b>${deal.reviewPercent}%</b> (${formatReviewCount(deal.reviewCount)})`);
+    }
+    if (isLowestObservedPrice(deal.id, deal.discountPrice, deal.currency)) {
+      lines.push(`📉 <b>Найнижча ціна за 90 днів</b>`);
+    }
+    return lines.join('\n');
+  }
+
+  function formatCompactDealLine(
     title: string,
     percent: number,
     originalPrice: number,
     discountPrice: number,
     currency: string,
     url: string,
-    linkLabel: string,
+    extraTag?: string,
   ): string {
-    const pct = percent > 0 ? `-${percent}%` : 'знижка';
-    return `🎮 ${gameTitle(title)}\n🏷️ Знижка: <b>${pct}</b>\n💰 Ціна: <s>${formatPrice(originalPrice, currency)}</s> ➡️ <b>${formatPrice(discountPrice, currency)}</b>\n🔗 ${storeLink(linkLabel, url)}`;
+    const meta = extraTag ? ` · ${extraTag}` : '';
+    return `• ${storeLink(escapeHtml(title), url)}\n  <b>-${percent}%</b> · <s>${formatPrice(originalPrice, currency)}</s> ➡️ <b>${formatPrice(discountPrice, currency)}</b>${meta}`;
   }
 
-  // Persist delivery intent before any Telegram request. The workflow pushes
-  // this outbox, then claims/sends one message per durable checkpoint.
-  // Eligibility against notifiedHistory/cooldowns/price-drops is already decided above.
-  async function sendBatched<T>(
+  async function sendPhotoCards<T>(
     header: string,
     items: T[],
     footer: string,
     buildItem: (item: T) => string,
     receiptFor: (item: T) => OutboxReceipt,
-    getPhotoUrl?: (item: T) => string | undefined,
+    getPhotoUrl: (item: T) => string | undefined,
+    getReplyMarkup: (item: T) => TelegramReplyMarkup,
   ) {
     const eligible = items.filter(item => !queuedKeys.has(receiptFor(item).key));
     if (eligible.length === 0) return;
     const batches = buildTelegramBatches(eligible, header, footer, buildItem, TG_MESSAGE_LIMIT - 100, CONFIG.tgMaxDealsPerRun, getPhotoUrl);
     for (const batch of batches) {
       const receipts = batch.items.map(receiptFor);
-      const queued = enqueueMessage(outbox, batch.text, receipts, now, batch.photoUrl);
+      const replyMarkup = batch.items.length === 1 ? getReplyMarkup(batch.items[0]) : siteButtonRow();
+      const queued = enqueueMessage(outbox, batch.text, receipts, now, batch.photoUrl, {
+        replyMarkup,
+        disableNotification: quietHours,
+      });
       if (!queued) continue;
       for (const receipt of queued.receipts) queuedKeys.add(receipt.key);
-      logger.info({ messageId: queued.id, count: queued.receipts.length }, 'queued durable Telegram message');
+      logger.info({ messageId: queued.id, count: queued.receipts.length }, 'queued durable Telegram card');
     }
   }
 
-  if (newSteamDeals.length > 0) {
-    await sendBatched(
-      `🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n`,
-      newSteamDeals,
-      `🚀 Більше знижок дивіться на нашому сайті!`,
-      (deal) => formatDealLine(deal.title, deal.discountPercent, deal.originalPrice, deal.discountPrice, deal.currency, deal.url, 'Детальніше в Steam'),
-      (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
-        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
-      } }),
-      (deal) => deal.imageUrl,
-    );
+  async function sendDigest<T>(
+    items: T[],
+    opts: {
+      header: string;
+      footer: string;
+      renderItem: (item: T, index: number) => string;
+      receiptFor: (item: T) => OutboxReceipt;
+      heroPhotoUrl?: string;
+      replyMarkup?: TelegramReplyMarkup;
+      maxItems?: number;
+    },
+  ) {
+    const eligible = items.filter(item => !queuedKeys.has(opts.receiptFor(item).key));
+    if (eligible.length === 0) return;
+    const batches = buildDigestBatches(eligible, {
+      header: opts.header,
+      footer: opts.footer,
+      renderItem: opts.renderItem,
+      maxChars: TG_MESSAGE_LIMIT - 100,
+      maxItems: opts.maxItems ?? 7,
+      heroPhotoUrl: opts.heroPhotoUrl,
+      replyMarkup: opts.replyMarkup ?? siteButtonRow(),
+    });
+    for (const batch of batches) {
+      const receipts = batch.items.map(opts.receiptFor);
+      const queued = enqueueMessage(outbox, batch.text, receipts, now, batch.photoUrl, {
+        replyMarkup: batch.replyMarkup,
+        disableNotification: quietHours,
+      });
+      if (!queued) continue;
+      for (const receipt of queued.receipts) queuedKeys.add(receipt.key);
+      logger.info({ messageId: queued.id, count: queued.receipts.length }, 'queued durable Telegram digest');
+    }
   }
 
+  // 1. Steam Freebies (окремі картки з обкладинкою)
   if (newSteamFreeGames.length > 0) {
-    await sendBatched(
-      `🎁 <b>БЕЗКОШТОВНІ ПРОПОЗИЦІЇ В STEAM!</b>\n\n`,
+    await sendPhotoCards(
+      `🎁 <b>БЕЗКОШТОВНО В STEAM!</b>\n\n`,
       newSteamFreeGames,
-      `🚀 Інші пропозиції дивіться на нашому сайті!`,
-      (game) => `🎮 ${gameTitle(game.title)}\n💰 <b>БЕЗКОШТОВНО</b>\n🔗 ${storeLink('Забрати в Steam', game.url)}`,
+      `#steam #безкоштовно`,
+      (game) => `🎮 ${gameTitle(game.title)}\n💰 <b>БЕЗКОШТОВНО</b>`,
       (game) => ({ key: `steam_free_${game.id}`, entry: {
         title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'free'
       } }),
       (game) => game.imageUrl,
+      (game) => ({
+        inline_keyboard: [[
+          { text: '🎁 Забрати в Steam', url: game.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
     );
   }
 
+  // 2. Steam Mega-Hits (окремі картки з рейтингом)
+  if (newSteamMegaDeals.length > 0) {
+    await sendPhotoCards(
+      `🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n`,
+      newSteamMegaDeals,
+      `#steam #знижки #хіт`,
+      formatSteamHeroDeal,
+      (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
+        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
+      } }),
+      (deal) => deal.imageUrl,
+      (deal) => ({
+        inline_keyboard: [[
+          { text: '🛒 Купити в Steam', url: deal.url },
+          { text: '🌐 Всі знижки', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
+  }
+
+  // 3. Steam Hot Deals Digest
+  if (newSteamDigestDeals.length > 0) {
+    await sendDigest(newSteamDigestDeals, {
+      header: `🔥 <b>ТОП ЗНИЖКИ В STEAM</b>\n\n`,
+      footer: `#steam #знижки`,
+      renderItem: (deal) =>
+        formatCompactDealLine(
+          deal.title,
+          deal.discountPercent,
+          deal.originalPrice,
+          deal.discountPrice,
+          deal.currency,
+          deal.url,
+          deal.reviewPercent !== undefined ? `👍 ${deal.reviewPercent}%` : undefined,
+        ),
+      receiptFor: (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
+        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
+      } }),
+      replyMarkup: siteButtonRow('🌐 Всі знижки Steam на сайті'),
+    });
+  }
+
+  // 4. Steam DLC Digest
+  if (newSteamDlcDeals.length > 0) {
+    await sendDigest(newSteamDlcDeals, {
+      header: `🧩 <b>ЗНИЖКИ НА ВЕЛИКІ DLC У STEAM</b>\n\n`,
+      footer: `#steam #dlc #знижки`,
+      renderItem: (deal) =>
+        formatCompactDealLine(
+          deal.title,
+          deal.discountPercent,
+          deal.originalPrice,
+          deal.discountPrice,
+          deal.currency,
+          deal.url,
+          deal.reviewPercent !== undefined ? `👍 ${deal.reviewPercent}%` : undefined,
+        ),
+      receiptFor: (deal) => ({ key: `steam_dlc_${deal.id}`, entry: {
+        title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'dlc'
+      } }),
+      replyMarkup: siteButtonRow('🧩 Всі DLC зі знижкою на сайті'),
+    });
+  }
+
+  // 5. PC Game Pass Digests
   if (newGamePassGames.length > 0) {
-    await sendBatched(
-      `🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n`,
-      newGamePassGames,
-      `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
-      (game) => {
-        let text = `🎮 ${gameTitle(game.title)}\n`;
+    await sendDigest(newGamePassGames, {
+      header: `🎮 <b>НОВИНКИ В PC GAME PASS</b>\n\n`,
+      footer: `#gamepass #pc`,
+      renderItem: (game) => {
         const desc = game.description?.trim();
-        if (desc) {
-          text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
-        }
-        text += `✅ Доступно в PC Game Pass\n`;
-        text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
-        return text;
+        const shortDesc = desc ? `\n  <i>${escapeHtml(desc.slice(0, 95))}${desc.length > 95 ? '…' : ''}</i>` : '';
+        return `• ${storeLink(escapeHtml(game.title), game.url)} — ✅ У підписці${shortDesc}`;
       },
-      (game) => ({ key: `gamepass_${game.id}`, entry: {
+      receiptFor: (game) => ({ key: `gamepass_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       } }),
-      (game) => game.imageUrl,
-    );
+      heroPhotoUrl: newGamePassGames[0]?.imageUrl,
+      replyMarkup: siteButtonRow('🎮 Весь каталог PC Game Pass'),
+    });
   }
 
   if (newPopularGamePassGames.length > 0) {
-    await sendBatched(
-      `🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n`,
-      newPopularGamePassGames,
-      `🚀 Більше ігор PC Game Pass дивіться на нашому сайті!`,
-      (game) => {
-        let text = `🎮 ${gameTitle(game.title)}\n`;
-        const desc = game.description?.trim();
-        if (desc) {
-          text += `📝 ${escapeHtml(desc.slice(0, 120))}${desc.length > 120 ? '…' : ''}\n`;
-        }
-        text += `🔥 Зараз у топі популярних PC Game Pass\n`;
-        text += `🔗 ${storeLink('Microsoft Store', game.url)}`;
-        return text;
-      },
-      (game) => ({ key: `gamepass_popular_${game.id}`, entry: {
+    await sendDigest(newPopularGamePassGames, {
+      header: `🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS</b>\n\n`,
+      footer: `#gamepass #pc #топ`,
+      renderItem: (game) => `• ${storeLink(escapeHtml(game.title), game.url)} — 🔥 Топ тижня`,
+      receiptFor: (game) => ({ key: `gamepass_popular_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       } }),
-      (game) => game.imageUrl,
-    );
+      replyMarkup: siteButtonRow('🎮 Топ PC Game Pass на сайті'),
+    });
   }
 
-  // Save updated data (Steam + Game Pass for PC; поле epic видалено).
-  // notifiedHistory вбудовуємо і в deals.json: сайт читає історію саме звідти
-  // (окремий notified-history.json — merge-friendly джерело для scheduler-а).
+  // 6. PS Plus Essential (Ігри місяця)
+  if (newPsEssentialGames.length > 0) {
+    const monthNote = newPsEssentialGames[0]?.psPlusMonth ? ` (${escapeHtml(newPsEssentialGames[0].psPlusMonth)})` : '';
+    await sendDigest(newPsEssentialGames, {
+      header: `🎁 <b>PS PLUS ESSENTIAL — ІГРИ МІСЯЦЯ${monthNote}</b>\n\n`,
+      footer: `#ps5 #psplus #essential #безкоштовно`,
+      renderItem: (game) => {
+        const desc = game.description?.trim();
+        const shortDesc = desc ? `\n  <i>${escapeHtml(desc.slice(0, 100))}${desc.length > 100 ? '…' : ''}</i>` : '';
+        return `• ${storeLink(escapeHtml(game.title), game.url)} — 🎁 Безкоштовно з підпискою${shortDesc}`;
+      },
+      receiptFor: (game) => ({ key: game.id, entry: {
+        title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'ps_essential'
+      } }),
+      heroPhotoUrl: newPsEssentialGames[0]?.imageUrl,
+      replyMarkup: siteButtonRow('🎮 PS Plus на сайті'),
+    });
+  }
+
+  // 7. PS Plus Extra (Новинки каталогу)
+  if (newPsExtraGames.length > 0) {
+    const monthNote = newPsExtraGames[0]?.psPlusMonth ? ` (${escapeHtml(newPsExtraGames[0].psPlusMonth)})` : '';
+    await sendDigest(newPsExtraGames, {
+      header: `⭐ <b>НОВИНКИ КАТАЛОГУ PS PLUS EXTRA${monthNote}</b>\n\n`,
+      footer: `#ps5 #psplus #extra`,
+      renderItem: (game) => `• ${storeLink(escapeHtml(game.title), game.url)} — ⭐ Доступно в Extra`,
+      receiptFor: (game) => ({ key: game.id, entry: {
+        title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'ps_extra'
+      } }),
+      heroPhotoUrl: newPsExtraGames[0]?.imageUrl,
+      replyMarkup: siteButtonRow('⭐ Каталог PS Plus Extra на сайті'),
+    });
+  }
+
+  // 8. PS5 Hot Deals Digest
+  if (newPsDeals.length > 0) {
+    await sendDigest(newPsDeals, {
+      header: `🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n`,
+      footer: `#ps5 #знижки`,
+      renderItem: (deal) =>
+        formatCompactDealLine(
+          deal.title,
+          deal.discountPercent ?? 0,
+          deal.originalPrice ?? deal.discountPrice ?? 0,
+          deal.discountPrice ?? 0,
+          deal.currency ?? 'UAH',
+          deal.url,
+          deal.isPsPlusExclusive ? 'PS+ знижка' : undefined,
+        ),
+      receiptFor: (deal) => ({ key: `ps_deal_${deal.id}`, entry: {
+        title: deal.title, price: deal.discountPrice ?? 0, percent: deal.discountPercent ?? 0, timestamp: now.toISOString(), type: 'ps_deal'
+      } }),
+      heroPhotoUrl: newPsDeals[0]?.imageUrl,
+      replyMarkup: siteButtonRow('🎮 Всі знижки PS5 на сайті'),
+    });
+  }
+
+  // Save updated data (Steam + Game Pass for PC + PlayStation 5).
   const { lastUpdated, sourceUpdates } = resolveCatalogTimestamps({
     nowIso: now.toISOString(),
     oldData,
     steamUpdated,
     gamepassUpdated,
+    playstationUpdated,
   });
 
   const newData: DealsData = {
     lastUpdated,
     sourceUpdates,
-    priceHistory: updatePriceHistory(oldData.priceHistory, freshSteam, now, steamUpdated),
+    priceHistory,
     steam,
     gamepass,
+    playstation,
     notifiedHistory,
   };
 
@@ -1196,7 +1576,6 @@ async function runPrepare() {
   pruneDelivered(outbox, now);
   await writeJsonAtomically(OUTBOX_PATH, outbox);
 
-  // Persist the current delivered history snapshot alongside the catalog.
   await saveHistory();
   logger.info(`✅ Saved notified history to ${HISTORY_PATH}`);
 }

@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import type { NotifiedItem } from './types';
 import { normalizeTelegramPhotoUrl } from './telegram';
+import type { TelegramReplyMarkup } from './telegram';
 
 export type OutboxStatus = 'pending' | 'sending' | 'delivered' | 'blocked' | 'uncertain';
 
@@ -14,6 +15,8 @@ export interface OutboxMessage {
   createdAt: string;
   text: string;
   photoUrl?: string;
+  replyMarkup?: TelegramReplyMarkup;
+  disableNotification?: boolean;
   receipts: OutboxReceipt[];
   status: OutboxStatus;
   attempts: number;
@@ -47,8 +50,13 @@ export function normalizeOutbox(value: unknown): NotificationOutbox {
     const validPhotoUrl = item.photoUrl === undefined ||
       (typeof item.photoUrl === 'string' && /^https?:\/\/\S+$/i.test(item.photoUrl) &&
         normalizeTelegramPhotoUrl(item.photoUrl) !== undefined);
+    const validReplyMarkup = item.replyMarkup === undefined || isValidReplyMarkup(item.replyMarkup);
+    const validDisableNotif =
+      item.disableNotification === undefined || typeof item.disableNotification === 'boolean';
     const valid = typeof item.id === 'string' && typeof item.text === 'string' &&
       validPhotoUrl &&
+      validReplyMarkup &&
+      validDisableNotif &&
       validReceipts && typeof item.createdAt === 'string' && !Number.isNaN(Date.parse(item.createdAt)) &&
       ['pending', 'sending', 'delivered', 'blocked', 'uncertain'].includes(String(item.status)) &&
       Number.isInteger(item.attempts) && (item.attempts as number) >= 0 &&
@@ -57,6 +65,25 @@ export function normalizeOutbox(value: unknown): NotificationOutbox {
     return candidate as OutboxMessage;
   });
   return { schemaVersion: 1, messages };
+}
+
+function isValidReplyMarkup(value: unknown): value is TelegramReplyMarkup {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return false;
+  const kb = (value as Record<string, unknown>).inline_keyboard;
+  if (!Array.isArray(kb)) return false;
+  return kb.every(
+    (row) =>
+      Array.isArray(row) &&
+      row.every(
+        (btn) =>
+          !!btn &&
+          typeof btn === 'object' &&
+          !Array.isArray(btn) &&
+          typeof (btn as Record<string, unknown>).text === 'string' &&
+          typeof (btn as Record<string, unknown>).url === 'string' &&
+          normalizeTelegramPhotoUrl((btn as Record<string, unknown>).url as string) !== undefined,
+      ),
+  );
 }
 
 export function pendingReceiptKeys(outbox: NotificationOutbox): Set<string> {
@@ -71,6 +98,7 @@ export function enqueueMessage(
   receipts: OutboxReceipt[],
   now = new Date(),
   photoUrl?: string,
+  opts?: { replyMarkup?: TelegramReplyMarkup; disableNotification?: boolean },
 ): OutboxMessage | undefined {
   const alreadyQueued = pendingReceiptKeys(outbox);
   const freshReceipts = receipts.filter(receipt => !alreadyQueued.has(receipt.key));
@@ -87,6 +115,8 @@ export function enqueueMessage(
     createdAt: now.toISOString(),
     text,
     ...(normalizedPhotoUrl ? { photoUrl: normalizedPhotoUrl } : {}),
+    ...(opts?.replyMarkup && isValidReplyMarkup(opts.replyMarkup) ? { replyMarkup: opts.replyMarkup } : {}),
+    ...(opts?.disableNotification ? { disableNotification: true } : {}),
     receipts: freshReceipts,
     status: 'pending',
     attempts: 0,
