@@ -6060,5 +6060,12 @@
     "percent": 33,
     "timestamp": "2026-11-23T23:00:31.077Z",
     "type": "discount"
+  },
+  "steam_discount_373420": {
+    "title": "Divinity: Original Sin - Enhanced Edition",
+    "price": 47,
+    "percent": 90,
+    "timestamp": "2026-11-24T00:00:32.950Z",
+    "type": "discount"
   }
 }
