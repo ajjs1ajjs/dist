@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "58a1bcbceec7171f33b59787",
-      "createdAt": "2026-11-10T04:00:31.670Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Worst Class Ever</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>110 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5175310\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_5175310",
-          "entry": {
-            "title": "Worst Class Ever",
-            "price": 110,
-            "percent": 35,
-            "timestamp": "2026-11-10T04:00:31.670Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-10T04:00:35.218Z"
-    },
-    {
       "id": "edfa4c0f684702a7f0da45d8",
       "createdAt": "2026-11-10T11:00:32.047Z",
       "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Warhammer Survivors</b>\n📝 Warhammer Survivors — динамічна роглайт-гра на виживання, де ви в ролі легендарних персонажів Warhammer протистоятимете …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/warhammer-survivors/9MZZWGTF7V65\">Microsoft Store</a>\n\n🎮 <b>TANUKI: Pon&#39;s Summer</b>\n📝 Протягом одного спекотного літа… Доставляйте пакунки Застрибуйте на свій BMX і розвозьте листи й посилки дивакуватим меш…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/tanuki-pon-s-summer/9NRBW3FJSJWT\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
@@ -14916,6 +14896,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T03:00:42.850Z"
+    },
+    {
+      "id": "708656350e04b2503bb14669",
+      "createdAt": "2026-11-24T04:00:38.346Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Fallout 3: Game of the Year Edition</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>520 грн</s> ➡️ <b>130 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/22370\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22370/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_22370",
+          "entry": {
+            "title": "Fallout 3: Game of the Year Edition",
+            "price": 130,
+            "percent": 75,
+            "timestamp": "2026-11-24T04:00:38.346Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4eb69f122217e45cca0b69a7",
+      "createdAt": "2026-11-24T04:00:38.346Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Celeste</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>97 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/504230\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_504230",
+          "entry": {
+            "title": "Celeste",
+            "price": 97,
+            "percent": 75,
+            "timestamp": "2026-11-24T04:00:38.346Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
