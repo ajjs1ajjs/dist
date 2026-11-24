@@ -29805,6 +29805,13 @@
       "percent": 85,
       "timestamp": "2026-11-24T20:00:35.133Z",
       "type": "ps_deal"
+    },
+    "steam_discount_1145360": {
+      "title": "Hades",
+      "price": 128,
+      "percent": 75,
+      "timestamp": "2026-11-24T21:14:37.809Z",
+      "type": "discount"
     }
   }
 }
