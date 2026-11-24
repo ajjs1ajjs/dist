@@ -6067,5 +6067,12 @@
     "percent": 90,
     "timestamp": "2026-11-24T00:00:32.950Z",
     "type": "discount"
+  },
+  "steam_discount_233860": {
+    "title": "Kenshi",
+    "price": 151,
+    "percent": 60,
+    "timestamp": "2026-11-24T00:00:32.950Z",
+    "type": "discount"
   }
 }
