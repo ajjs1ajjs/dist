@@ -28381,6 +28381,13 @@
       "percent": 50,
       "timestamp": "2026-11-24T09:00:36.134Z",
       "type": "discount"
+    },
+    "steam_discount_3976500": {
+      "title": "The Spotter: Dig or Die",
+      "price": 206,
+      "percent": 30,
+      "timestamp": "2026-11-24T09:00:36.134Z",
+      "type": "discount"
     }
   }
 }
