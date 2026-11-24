@@ -14832,6 +14832,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T00:01:19.029Z"
+    },
+    {
+      "id": "2de696b9e95becf7f9fb7ee1",
+      "createdAt": "2026-11-24T01:00:30.380Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Ризик Дощу 2: Шукачі Бурі</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>209 грн</s> ➡️ <b>104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2306620\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2306620/70e0920ccd6b3c05a0c01977b8c6ba8548d4d0a6/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2306620",
+          "entry": {
+            "title": "Ризик Дощу 2: Шукачі Бурі",
+            "price": 104,
+            "percent": 50,
+            "timestamp": "2026-11-24T01:00:30.380Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "3a232f3f4d226cbdd1e9f867",
+      "createdAt": "2026-11-24T01:00:30.380Z",
+      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Sniper Ghost Warrior Contracts 2</b>\n📝 Sniper Ghost Warrior Contracts 2 now includes ‘Butcher’s Banquet’: a major expansion which introduces an entirely new an…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/sniper-ghost-warrior-contracts-2/9NV8BWGH15GN\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.39546.14403486953530579.6bfc3ab0-0fcb-4aba-afa5-8c49b9b8755d.35198801-8741-4302-8e1a-422d0a71aec2",
+      "receipts": [
+        {
+          "key": "gamepass_9NV8BWGH15GN",
+          "entry": {
+            "title": "Sniper Ghost Warrior Contracts 2",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-24T01:00:30.380Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
