@@ -6620,5 +6620,54 @@
     "percent": 25,
     "timestamp": "2026-11-24T20:00:35.133Z",
     "type": "dlc"
+  },
+  "ps_deal_EP1018-PPSA01865_00-LEGOSWTSS0000000": {
+    "title": "LEGO® Зоряні Війни™: Скайуокер. Сага PS4 & PS5",
+    "price": 179.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0006-PPSA03846_00-BEYONDPS5GAME000": {
+    "title": "Dead Space",
+    "price": 239.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP1001-PPSA06225_00-7789207353273926": {
+    "title": "The Quarry для PS5™",
+    "price": 209.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0006-PPSA01465_00-KINGSTONGAME0000": {
+    "title": "Battlefield™ 2042 для PS5",
+    "price": 239.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0006-PPSA01717_00-NEEDFORSPEED2022": {
+    "title": "Need for Speed™ Unbound",
+    "price": 239.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP1018-PPSA07571_00-MKONE00000000000": {
+    "title": "Mortal Kombat™ 1",
+    "price": 224.85,
+    "percent": 85,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0006-PPSA07784_00-APPLEJACKGAME000": {
+    "title": "STAR WARS Jedi: Survivor™",
+    "price": 359.85,
+    "percent": 85,
+    "timestamp": "2026-11-24T20:00:35.133Z",
+    "type": "ps_deal"
   }
 }
