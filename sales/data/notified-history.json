@@ -6179,5 +6179,12 @@
     "percent": 30,
     "timestamp": "2026-11-24T05:00:31.197Z",
     "type": "discount"
+  },
+  "steam_discount_209000": {
+    "title": "Batman™: Arkham Origins",
+    "price": 75,
+    "percent": 80,
+    "timestamp": "2026-11-24T06:00:31.368Z",
+    "type": "discount"
   }
 }
