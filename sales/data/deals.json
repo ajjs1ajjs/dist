@@ -29578,6 +29578,41 @@
       "percent": 90,
       "timestamp": "2026-11-24T18:43:15.144Z",
       "type": "ps_deal"
+    },
+    "steam_dlc_2840100": {
+      "title": "Stellaris: The Machine Age",
+      "price": 334,
+      "percent": 50,
+      "timestamp": "2026-11-24T19:00:31.508Z",
+      "type": "dlc"
+    },
+    "steam_dlc_3948510": {
+      "title": "ARC Raiders - Upgrade to Deluxe Edition",
+      "price": 350,
+      "percent": 50,
+      "timestamp": "2026-11-24T19:00:31.508Z",
+      "type": "dlc"
+    },
+    "steam_dlc_3799610": {
+      "title": "MechWarrior 5: Mercenaries - Shadow of Kerensky",
+      "price": 207,
+      "percent": 50,
+      "timestamp": "2026-11-24T19:00:31.508Z",
+      "type": "dlc"
+    },
+    "steam_dlc_3368610": {
+      "title": "Kingdom Come: Deliverance II Legacy of the Forge",
+      "price": 223,
+      "percent": 40,
+      "timestamp": "2026-11-24T19:00:31.508Z",
+      "type": "dlc"
+    },
+    "steam_dlc_2311920": {
+      "title": "Crusader Kings III: Tours & Tournaments",
+      "price": 485,
+      "percent": 40,
+      "timestamp": "2026-11-24T19:00:31.508Z",
+      "type": "dlc"
     }
   }
 }
