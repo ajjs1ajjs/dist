@@ -2,36 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "edfa4c0f684702a7f0da45d8",
-      "createdAt": "2026-11-10T11:00:32.047Z",
-      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Warhammer Survivors</b>\n📝 Warhammer Survivors — динамічна роглайт-гра на виживання, де ви в ролі легендарних персонажів Warhammer протистоятимете …\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/warhammer-survivors/9MZZWGTF7V65\">Microsoft Store</a>\n\n🎮 <b>TANUKI: Pon&#39;s Summer</b>\n📝 Протягом одного спекотного літа… Доставляйте пакунки Застрибуйте на свій BMX і розвозьте листи й посилки дивакуватим меш…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/tanuki-pon-s-summer/9NRBW3FJSJWT\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "gamepass_9MZZWGTF7V65",
-          "entry": {
-            "title": "Warhammer Survivors",
-            "price": 0,
-            "percent": 0,
-            "timestamp": "2026-11-10T11:00:32.047Z",
-            "type": "gamepass"
-          }
-        },
-        {
-          "key": "gamepass_9NRBW3FJSJWT",
-          "entry": {
-            "title": "TANUKI: Pon's Summer",
-            "price": 0,
-            "percent": 0,
-            "timestamp": "2026-11-10T11:00:32.047Z",
-            "type": "gamepass"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-10T11:00:35.366Z"
-    },
-    {
       "id": "7a1068b162a88786c69e7468",
       "createdAt": "2026-11-10T17:00:29.815Z",
       "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Booster Pack Heroes</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>240 грн</s> ➡️ <b>168 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/4618570\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
@@ -15127,6 +15097,86 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T09:00:44.581Z"
+    },
+    {
+      "id": "feaa6cadeb476daf08086877",
+      "createdAt": "2026-11-24T11:00:47.177Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Back 4 Blood</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>749 грн</s> ➡️ <b>74 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/924970\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/924970/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_924970",
+          "entry": {
+            "title": "Back 4 Blood",
+            "price": 74,
+            "percent": 90,
+            "timestamp": "2026-11-24T11:00:47.177Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "111691d147442993621d13af",
+      "createdAt": "2026-11-24T11:00:47.177Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Kingdom Two Crowns</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>83 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/701160\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/701160/08a7f276e45327770cab816f44a076d8b7a63d5f/capsule_231x87_alt_assets_18.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_701160",
+          "entry": {
+            "title": "Kingdom Two Crowns",
+            "price": 83,
+            "percent": 80,
+            "timestamp": "2026-11-24T11:00:47.177Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "09347dc7683b9ae2aabbf750",
+      "createdAt": "2026-11-24T11:00:47.177Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>City Car Driving 2.0</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>685 грн</s> ➡️ <b>342 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2327720\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2327720/b692db7c32d4d01a538bd09d9c679db626b1ca31/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2327720",
+          "entry": {
+            "title": "City Car Driving 2.0",
+            "price": 342,
+            "percent": 50,
+            "timestamp": "2026-11-24T11:00:47.177Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "96fc0e1dea54bb5c9f020693",
+      "createdAt": "2026-11-24T11:00:47.177Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Stellaris: The Machine Age</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>669 грн</s> ➡️ <b>334 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2840100\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840100/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2840100",
+          "entry": {
+            "title": "Stellaris: The Machine Age",
+            "price": 334,
+            "percent": 50,
+            "timestamp": "2026-11-24T11:00:47.177Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
