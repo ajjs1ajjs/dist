@@ -6186,5 +6186,12 @@
     "percent": 80,
     "timestamp": "2026-11-24T06:00:31.368Z",
     "type": "discount"
+  },
+  "steam_discount_371660": {
+    "title": "Far Cry® Primal",
+    "price": 214,
+    "percent": 75,
+    "timestamp": "2026-11-24T06:00:31.368Z",
+    "type": "discount"
   }
 }
