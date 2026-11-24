@@ -28182,6 +28182,13 @@
       "percent": 0,
       "timestamp": "2026-11-24T01:00:30.380Z",
       "type": "gamepass"
+    },
+    "steam_discount_379720": {
+      "title": "DOOM",
+      "price": 124,
+      "percent": 80,
+      "timestamp": "2026-11-24T03:00:32.926Z",
+      "type": "discount"
     }
   }
 }
