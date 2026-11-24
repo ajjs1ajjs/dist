@@ -15181,6 +15181,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T11:01:08.486Z"
+    },
+    {
+      "id": "b85881f1446d479e400de635",
+      "createdAt": "2026-11-24T12:00:33.653Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Mafia III: Definitive Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>189 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/360430\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/360430/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_360430",
+          "entry": {
+            "title": "Mafia III: Definitive Edition",
+            "price": 189,
+            "percent": 80,
+            "timestamp": "2026-11-24T12:00:33.653Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "19d5fc47e0333b49c3c60298",
+      "createdAt": "2026-11-24T12:00:33.653Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Police Simulator: Patrol Officers</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>599 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/997010\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/997010/307d5ca5753456d8a32abc807aa90417627638ee/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_997010",
+          "entry": {
+            "title": "Police Simulator: Patrol Officers",
+            "price": 119,
+            "percent": 80,
+            "timestamp": "2026-11-24T12:00:33.653Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
