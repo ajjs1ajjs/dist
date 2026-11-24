@@ -6081,5 +6081,12 @@
     "percent": 30,
     "timestamp": "2026-11-24T00:00:32.950Z",
     "type": "discount"
+  },
+  "steam_discount_2215200": {
+    "title": "LEGO® Batman™: Legacy of the Dark Knight",
+    "price": 1329,
+    "percent": 30,
+    "timestamp": "2026-11-24T00:00:32.950Z",
+    "type": "discount"
   }
 }
