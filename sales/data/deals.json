@@ -28238,6 +28238,13 @@
       "percent": 50,
       "timestamp": "2026-11-24T03:00:32.926Z",
       "type": "discount"
+    },
+    "steam_discount_22370": {
+      "title": "Fallout 3: Game of the Year Edition",
+      "price": 130,
+      "percent": 75,
+      "timestamp": "2026-11-24T04:00:38.346Z",
+      "type": "discount"
     }
   }
 }
