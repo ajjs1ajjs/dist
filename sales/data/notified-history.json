@@ -6529,5 +6529,54 @@
     "percent": 40,
     "timestamp": "2026-11-24T19:00:31.508Z",
     "type": "dlc"
+  },
+  "ps_deal_EP0102-PPSA04405_00-BH7G000000000001": {
+    "title": "RESIDENT EVIL 7 biohazard Gold Edition",
+    "price": 299.75,
+    "percent": 75,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP9000-PPSA28997_00-SONSOFSPARTAPS50": {
+    "title": "God of War Sons of Sparta",
+    "price": 599.4,
+    "percent": 40,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP1672-PPSA10621_00-9137597337715830": {
+    "title": "Lies of P",
+    "price": 899.5,
+    "percent": 50,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0001-PPSA01532_00-GAME000000000000": {
+    "title": "Assassin's Creed Valhalla",
+    "price": 474.75,
+    "percent": 75,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0700-PPSA02154_00-LITTLENIGHTS2000": {
+    "title": "Little Nightmares II PS4 & PS5",
+    "price": 313.17,
+    "percent": 67,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0006-PPSA02199_00-RESPAWNSWBIRDDOG": {
+    "title": "STAR WARS Jedi: Fallen Order™",
+    "price": 319.8,
+    "percent": 80,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP0006-PPSA29802_00-PVZRELOADEDGAME0": {
+    "title": "Plants vs. Zombies™: Replanted",
+    "price": 384.45,
+    "percent": 45,
+    "timestamp": "2026-11-24T19:00:31.508Z",
+    "type": "ps_deal"
   }
 }
