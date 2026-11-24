@@ -15265,6 +15265,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T14:00:37.960Z"
+    },
+    {
+      "id": "52957efe2375210a61737fca",
+      "createdAt": "2026-11-24T15:00:37.328Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Watch Dogs®: Legion</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>915 грн</s> ➡️ <b>137 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2239550\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239550/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_2239550",
+          "entry": {
+            "title": "Watch Dogs®: Legion",
+            "price": 137,
+            "percent": 85,
+            "timestamp": "2026-11-24T15:00:37.328Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "f144d4c0788b40851301b151",
+      "createdAt": "2026-11-24T15:00:37.328Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Symphony of War: The Nephilim Saga</b>\n🏷️ Знижка: <b>-65%</b>\n💰 Ціна: <s>389 грн</s> ➡️ <b>136 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1488200\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1488200/73bc815e09b8941a97203256755dd2073933a6d7/capsule_231x87_alt_assets_7.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1488200",
+          "entry": {
+            "title": "Symphony of War: The Nephilim Saga",
+            "price": 136,
+            "percent": 65,
+            "timestamp": "2026-11-24T15:00:37.328Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
