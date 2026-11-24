@@ -15362,6 +15362,164 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T18:41:23.708Z"
+    },
+    {
+      "id": "2e37aac87a66478c8bbbea81",
+      "createdAt": "2026-11-24T18:43:15.144Z",
+      "text": "🧩 <b>ЗНИЖКИ НА ВЕЛИКІ DLC У STEAM</b>\n\n• <a href=\"https://store.steampowered.com/app/3238470\">Days Gone - Broken Road DLC</a>\n  <b>-67%</b> · <s>300 грн</s> ➡️ <b>99 грн</b> · 👍 85%\n\n• <a href=\"https://store.steampowered.com/app/1622100\">Outer Wilds - Echoes of the Eye</a>\n  <b>-50%</b> · <s>299 грн</s> ➡️ <b>149 грн</b> · 👍 90%\n\n• <a href=\"https://store.steampowered.com/app/1607890\">Risk of Rain 2: Survivors of the Void</a>\n  <b>-50%</b> · <s>209 грн</s> ➡️ <b>104 грн</b> · 👍 88%\n\n• <a href=\"https://store.steampowered.com/app/2671070\">Crusader Kings III: Roads to Power</a>\n  <b>-50%</b> · <s>809 грн</s> ➡️ <b>404 грн</b> · 👍 80%\n\n• <a href=\"https://store.steampowered.com/app/4224910\">Ready or Not: Boiling Point</a>\n  <b>-50%</b> · <s>225 грн</s> ➡️ <b>112 грн</b> · 👍 78%\n\n#steam #dlc #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🧩 Всі DLC зі знижкою на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_dlc_3238470",
+          "entry": {
+            "title": "Days Gone - Broken Road DLC",
+            "price": 99,
+            "percent": 67,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_1622100",
+          "entry": {
+            "title": "Outer Wilds - Echoes of the Eye",
+            "price": 149,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_1607890",
+          "entry": {
+            "title": "Risk of Rain 2: Survivors of the Void",
+            "price": 104,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_2671070",
+          "entry": {
+            "title": "Crusader Kings III: Roads to Power",
+            "price": 404,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_4224910",
+          "entry": {
+            "title": "Ready or Not: Boiling Point",
+            "price": 112,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "e52a6e4b204407ee64b6bff1",
+      "createdAt": "2026-11-24T18:43:15.144Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1001-PPSA36458_00-MAFIA1DEPS500000\">Mafia: Definitive Edition для PS5®</a>\n  <b>-85%</b> · <s>1 199 грн</s> ➡️ <b>179,85 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1018-PPSA01603_00-HOGWARTSLEGACY01\">Версія Hogwarts Legacy для PS5</a>\n  <b>-90%</b> · <s>2 099 грн</s> ➡️ <b>209,9 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP0002-PPSA34502_00-CODBO2GAME000001\">Call of Duty®: Black Ops II</a>\n  <b>-50%</b> · <s>1 699 грн</s> ➡️ <b>849,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP0002-PPSA34501_00-CODBO1GAME000001\">Call of Duty®: Black Ops</a>\n  <b>-50%</b> · <s>1 699 грн</s> ➡️ <b>849,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1004-PPSA30523_00-REDEMPTION000001\">Red Dead Redemption (PS4 &amp; PS5)</a>\n  <b>-60%</b> · <s>2 199 грн</s> ➡️ <b>879,6 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP9000-PPSA01461_00-MARVELSSMMORALES\">Marvel&#39;s Spider-Man: Miles Morales PS4 &amp; PS5</a>\n  <b>-50%</b> · <s>1 699 грн</s> ➡️ <b>849,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP4062-PPSA01749_00-METROEXODUS0GEN9\">Metro Exodus</a>\n  <b>-90%</b> · <s>949 грн</s> ➡️ <b>94,9 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_deal_EP1001-PPSA36458_00-MAFIA1DEPS500000",
+          "entry": {
+            "title": "Mafia: Definitive Edition для PS5®",
+            "price": 179.85,
+            "percent": 85,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP1018-PPSA01603_00-HOGWARTSLEGACY01",
+          "entry": {
+            "title": "Версія Hogwarts Legacy для PS5",
+            "price": 209.9,
+            "percent": 90,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP0002-PPSA34502_00-CODBO2GAME000001",
+          "entry": {
+            "title": "Call of Duty®: Black Ops II",
+            "price": 849.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP0002-PPSA34501_00-CODBO1GAME000001",
+          "entry": {
+            "title": "Call of Duty®: Black Ops",
+            "price": 849.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP1004-PPSA30523_00-REDEMPTION000001",
+          "entry": {
+            "title": "Red Dead Redemption (PS4 & PS5)",
+            "price": 879.6,
+            "percent": 60,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP9000-PPSA01461_00-MARVELSSMMORALES",
+          "entry": {
+            "title": "Marvel's Spider-Man: Miles Morales PS4 & PS5",
+            "price": 849.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP4062-PPSA01749_00-METROEXODUS0GEN9",
+          "entry": {
+            "title": "Metro Exodus",
+            "price": 94.9,
+            "percent": 90,
+            "timestamp": "2026-11-24T18:43:15.144Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

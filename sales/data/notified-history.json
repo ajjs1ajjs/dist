@@ -6333,5 +6333,82 @@
     "percent": 30,
     "timestamp": "2026-11-24T18:41:10.801Z",
     "type": "discount"
+  },
+  "ps_essential_dead-island-2": {
+    "title": "Dead Island 2",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_essential"
+  },
+  "ps_essential_tomb-raider-iv-vi-remastered": {
+    "title": "Tomb Raider IV – VI Remastered",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_essential"
+  },
+  "ps_essential_monster-train-2": {
+    "title": "Monster Train 2",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_essential"
+  },
+  "ps_extra_death-stranding-2-on-the-beach": {
+    "title": "Death Stranding 2: On the Beach",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_like-a-dragon-pirate-yakuza-in-hawaii": {
+    "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_atomfall": {
+    "title": "Atomfall",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_dragon-quest-iii-hd-2d-remake": {
+    "title": "Dragon Quest III HD-2D Remake",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_trepang2": {
+    "title": "Trepang2",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_motogp-26": {
+    "title": "MotoGP 26",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_hell-let-loose": {
+    "title": "Hell Let Loose",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
+  },
+  "ps_extra_cricket-26-the-official-game-of-the-ashes": {
+    "title": "Cricket 26 – The Official Game of the Ashes",
+    "price": 0,
+    "percent": 0,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_extra"
   }
 }
