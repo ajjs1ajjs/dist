@@ -28422,6 +28422,13 @@
       "percent": 80,
       "timestamp": "2026-11-24T11:00:47.177Z",
       "type": "discount"
+    },
+    "steam_discount_2327720": {
+      "title": "City Car Driving 2.0",
+      "price": 342,
+      "percent": 50,
+      "timestamp": "2026-11-24T11:00:47.177Z",
+      "type": "discount"
     }
   }
 }
