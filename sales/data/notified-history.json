@@ -6676,5 +6676,12 @@
     "percent": 75,
     "timestamp": "2026-11-24T21:14:37.809Z",
     "type": "discount"
+  },
+  "steam_dlc_1996840": {
+    "title": "Guild Wars 2® Heart of Thorns® and Path of Fire™ Expansions",
+    "price": 581,
+    "percent": 35,
+    "timestamp": "2026-11-24T21:14:37.809Z",
+    "type": "dlc"
   }
 }
