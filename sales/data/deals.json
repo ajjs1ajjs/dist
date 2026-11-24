@@ -29912,6 +29912,55 @@
       "percent": 40,
       "timestamp": "2026-11-24T22:00:32.634Z",
       "type": "discount"
+    },
+    "ps_deal_EP0700-PPSA02594_00-SMGDARKPICTURESC": {
+      "title": "The Dark Pictures Anthology: House of Ashes PS4 & PS5",
+      "price": 237.25,
+      "percent": 75,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP4062-PPSA21704_00-KCD2MAINGAMEDSEU": {
+      "title": "Kingdom Come: Deliverance II",
+      "price": 699.65,
+      "percent": 65,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP6311-PPSA17668_00-MINERVA000000000": {
+      "title": "Sea of Thieves",
+      "price": 360.5,
+      "percent": 65,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP6312-PPSA22327_00-0629872585919347": {
+      "title": "Forza Horizon 5 Standard Edition",
+      "price": 479.6,
+      "percent": 60,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP0001-PPSA20397_00-GAME000000000000": {
+      "title": "Assassin’s Creed Shadows",
+      "price": 919.6,
+      "percent": 60,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP4062-PPSA21914_00-UNDISPUTEDPS5EU1": {
+      "title": "Undisputed",
+      "price": 599.6,
+      "percent": 60,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP6312-PPSA24588_00-0872768154966924": {
+      "title": "The Outer Worlds 2",
+      "price": 919.6,
+      "percent": 60,
+      "timestamp": "2026-11-24T22:00:32.634Z",
+      "type": "ps_deal"
     }
   }
 }
