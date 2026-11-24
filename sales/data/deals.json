@@ -28480,6 +28480,13 @@
       "percent": 90,
       "timestamp": "2026-11-24T14:00:30.201Z",
       "type": "discount"
+    },
+    "steam_discount_2239550": {
+      "title": "Watch Dogs®: Legion",
+      "price": 137,
+      "percent": 85,
+      "timestamp": "2026-11-24T15:00:37.328Z",
+      "type": "discount"
     }
   }
 }
