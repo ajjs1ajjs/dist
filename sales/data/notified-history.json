@@ -6319,5 +6319,12 @@
     "percent": 80,
     "timestamp": "2026-11-24T18:41:10.801Z",
     "type": "discount"
+  },
+  "steam_discount_614570": {
+    "title": "Dishonored®: Death of the Outsider™",
+    "price": 99,
+    "percent": 80,
+    "timestamp": "2026-11-24T18:41:10.801Z",
+    "type": "discount"
   }
 }
