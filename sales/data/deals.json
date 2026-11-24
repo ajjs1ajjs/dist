@@ -28487,6 +28487,13 @@
       "percent": 85,
       "timestamp": "2026-11-24T15:00:37.328Z",
       "type": "discount"
+    },
+    "steam_discount_1488200": {
+      "title": "Symphony of War: The Nephilim Saga",
+      "price": 136,
+      "percent": 65,
+      "timestamp": "2026-11-24T15:00:37.328Z",
+      "type": "discount"
     }
   }
 }
