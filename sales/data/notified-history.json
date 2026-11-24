@@ -6228,5 +6228,12 @@
     "percent": 30,
     "timestamp": "2026-11-24T09:00:36.134Z",
     "type": "discount"
+  },
+  "steam_discount_924970": {
+    "title": "Back 4 Blood",
+    "price": 74,
+    "percent": 90,
+    "timestamp": "2026-11-24T11:00:47.177Z",
+    "type": "discount"
   }
 }
