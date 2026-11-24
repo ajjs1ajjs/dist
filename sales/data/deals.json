@@ -28471,6 +28471,13 @@
       "percent": 80,
       "timestamp": "2026-11-24T12:00:33.653Z",
       "type": "discount"
+    },
+    "steam_discount_201810": {
+      "title": "Wolfenstein: The New Order",
+      "price": 130,
+      "percent": 75,
+      "timestamp": "2026-11-24T13:00:34.827Z",
+      "type": "discount"
     }
   }
 }
