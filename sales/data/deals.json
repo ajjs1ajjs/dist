@@ -29707,6 +29707,41 @@
       "percent": 80,
       "timestamp": "2026-11-24T20:00:35.133Z",
       "type": "discount"
+    },
+    "steam_dlc_2781620": {
+      "title": "Risk of Rain 2: Alloyed Collective",
+      "price": 135,
+      "percent": 35,
+      "timestamp": "2026-11-24T20:00:35.133Z",
+      "type": "dlc"
+    },
+    "steam_dlc_1452490": {
+      "title": "Oxygen Not Included - Spaced Out!",
+      "price": 140,
+      "percent": 33,
+      "timestamp": "2026-11-24T20:00:35.133Z",
+      "type": "dlc"
+    },
+    "steam_dlc_2378500": {
+      "title": "Baldur's Gate 3 - Digital Deluxe Edition DLC",
+      "price": 104,
+      "percent": 30,
+      "timestamp": "2026-11-24T20:00:35.133Z",
+      "type": "dlc"
+    },
+    "steam_dlc_3469450": {
+      "title": "DOOM: The Dark Ages | Revelations",
+      "price": 419,
+      "percent": 30,
+      "timestamp": "2026-11-24T20:00:35.133Z",
+      "type": "dlc"
+    },
+    "steam_dlc_2699230": {
+      "title": "Grim Dawn - Fangs of Asterkarn",
+      "price": 303,
+      "percent": 25,
+      "timestamp": "2026-11-24T20:00:35.133Z",
+      "type": "dlc"
     }
   }
 }
