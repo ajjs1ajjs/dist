@@ -28052,6 +28052,13 @@
       "percent": 30,
       "timestamp": "2026-11-24T00:00:32.950Z",
       "type": "discount"
+    },
+    "steam_discount_1368140": {
+      "title": "Corsair Cove",
+      "price": 419,
+      "percent": 30,
+      "timestamp": "2026-11-24T00:00:32.950Z",
+      "type": "discount"
     }
   }
 }
