@@ -15522,6 +15522,164 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T18:43:26.187Z"
+    },
+    {
+      "id": "07a7471ce509b1b205fce4c8",
+      "createdAt": "2026-11-24T19:00:31.508Z",
+      "text": "🧩 <b>ЗНИЖКИ НА ВЕЛИКІ DLC У STEAM</b>\n\n• <a href=\"https://store.steampowered.com/app/2840100\">Stellaris: The Machine Age</a>\n  <b>-50%</b> · <s>669 грн</s> ➡️ <b>334 грн</b> · 👍 75%\n\n• <a href=\"https://store.steampowered.com/app/3948510\">ARC Raiders - Upgrade to Deluxe Edition</a>\n  <b>-50%</b> · <s>700 грн</s> ➡️ <b>350 грн</b> · 👍 84%\n\n• <a href=\"https://store.steampowered.com/app/3799610\">MechWarrior 5: Mercenaries - Shadow of Kerensky</a>\n  <b>-50%</b> · <s>415 грн</s> ➡️ <b>207 грн</b> · 👍 82%\n\n• <a href=\"https://store.steampowered.com/app/3368610\">Kingdom Come: Deliverance II Legacy of the Forge</a>\n  <b>-40%</b> · <s>373 грн</s> ➡️ <b>223 грн</b> · 👍 70%\n\n• <a href=\"https://store.steampowered.com/app/2311920\">Crusader Kings III: Tours &amp; Tournaments</a>\n  <b>-40%</b> · <s>809 грн</s> ➡️ <b>485 грн</b> · 👍 73%\n\n#steam #dlc #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🧩 Всі DLC зі знижкою на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_dlc_2840100",
+          "entry": {
+            "title": "Stellaris: The Machine Age",
+            "price": 334,
+            "percent": 50,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_3948510",
+          "entry": {
+            "title": "ARC Raiders - Upgrade to Deluxe Edition",
+            "price": 350,
+            "percent": 50,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_3799610",
+          "entry": {
+            "title": "MechWarrior 5: Mercenaries - Shadow of Kerensky",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_3368610",
+          "entry": {
+            "title": "Kingdom Come: Deliverance II Legacy of the Forge",
+            "price": 223,
+            "percent": 40,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "dlc"
+          }
+        },
+        {
+          "key": "steam_dlc_2311920",
+          "entry": {
+            "title": "Crusader Kings III: Tours & Tournaments",
+            "price": 485,
+            "percent": 40,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8fe6e8e68b362fb46fbe253d",
+      "createdAt": "2026-11-24T19:00:31.508Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0102-PPSA04405_00-BH7G000000000001\">RESIDENT EVIL 7 biohazard Gold Edition</a>\n  <b>-75%</b> · <s>1 199 грн</s> ➡️ <b>299,75 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP9000-PPSA28997_00-SONSOFSPARTAPS50\">God of War Sons of Sparta</a>\n  <b>-40%</b> · <s>999 грн</s> ➡️ <b>599,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1672-PPSA10621_00-9137597337715830\">Lies of P</a>\n  <b>-50%</b> · <s>1 799 грн</s> ➡️ <b>899,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0001-PPSA01532_00-GAME000000000000\">Assassin&#39;s Creed Valhalla</a>\n  <b>-75%</b> · <s>1 899 грн</s> ➡️ <b>474,75 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0700-PPSA02154_00-LITTLENIGHTS2000\">Little Nightmares II PS4 &amp; PS5</a>\n  <b>-67%</b> · <s>949 грн</s> ➡️ <b>313,17 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0006-PPSA02199_00-RESPAWNSWBIRDDOG\">STAR WARS Jedi: Fallen Order™</a>\n  <b>-80%</b> · <s>1 599 грн</s> ➡️ <b>319,8 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP0006-PPSA29802_00-PVZRELOADEDGAME0\">Plants vs. Zombies™: Replanted</a>\n  <b>-45%</b> · <s>699 грн</s> ➡️ <b>384,45 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_deal_EP0102-PPSA04405_00-BH7G000000000001",
+          "entry": {
+            "title": "RESIDENT EVIL 7 biohazard Gold Edition",
+            "price": 299.75,
+            "percent": 75,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP9000-PPSA28997_00-SONSOFSPARTAPS50",
+          "entry": {
+            "title": "God of War Sons of Sparta",
+            "price": 599.4,
+            "percent": 40,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP1672-PPSA10621_00-9137597337715830",
+          "entry": {
+            "title": "Lies of P",
+            "price": 899.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0001-PPSA01532_00-GAME000000000000",
+          "entry": {
+            "title": "Assassin's Creed Valhalla",
+            "price": 474.75,
+            "percent": 75,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0700-PPSA02154_00-LITTLENIGHTS2000",
+          "entry": {
+            "title": "Little Nightmares II PS4 & PS5",
+            "price": 313.17,
+            "percent": 67,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0006-PPSA02199_00-RESPAWNSWBIRDDOG",
+          "entry": {
+            "title": "STAR WARS Jedi: Fallen Order™",
+            "price": 319.8,
+            "percent": 80,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP0006-PPSA29802_00-PVZRELOADEDGAME0",
+          "entry": {
+            "title": "Plants vs. Zombies™: Replanted",
+            "price": 384.45,
+            "percent": 45,
+            "timestamp": "2026-11-24T19:00:31.508Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

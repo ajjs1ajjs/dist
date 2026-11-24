@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-24T18:43:15.144Z",
+  "lastUpdated": "2026-11-24T19:00:31.508Z",
   "sourceUpdates": {
-    "steam": "2026-11-24T18:43:15.144Z",
-    "gamepass": "2026-11-24T18:43:15.144Z",
-    "playstation": "2026-11-24T18:43:15.144Z"
+    "steam": "2026-11-24T19:00:31.508Z",
+    "gamepass": "2026-11-24T19:00:31.508Z",
+    "playstation": "2026-11-24T19:00:31.508Z"
   },
   "priceHistory": {
     "2600": [
@@ -19132,23 +19132,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "784150",
-      "title": "Workers & Resources: Soviet Republic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 149,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/784150",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 18,
-      "reviewCount": 25529,
-      "reviewPercent": 91,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "990080",
       "title": "Hogwarts Legacy",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg",
@@ -19160,9 +19143,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 19,
+      "popularRank": 18,
       "reviewCount": 279084,
       "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "784150",
+      "title": "Workers & Resources: Soviet Republic",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 149,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/784150",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 19,
+      "reviewCount": 25529,
+      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -19194,7 +19194,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 22,
+      "popularRank": 23,
       "reviewCount": 94618,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
@@ -19219,7 +19219,7 @@
     {
       "id": "2909400",
       "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg?t=1793774936",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
       "originalPrice": 1699,
       "discountPrice": 254,
       "discountPercent": 85,
@@ -19336,21 +19336,21 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
+      "id": "632360",
+      "title": "Risk of Rain 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_616x353.jpg",
+      "originalPrice": 329,
+      "discountPrice": 108,
+      "discountPercent": 67,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
+      "url": "https://store.steampowered.com/app/632360",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 34,
-      "reviewCount": 104574,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
+      "reviewCount": 243168,
+      "reviewPercent": 93,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "255710",
@@ -19370,23 +19370,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "632360",
-      "title": "Risk of Rain 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_616x353.jpg",
-      "originalPrice": 329,
-      "discountPrice": 108,
-      "discountPercent": 67,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/632360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 36,
-      "reviewCount": 243168,
-      "reviewPercent": 93,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1888930",
       "title": "The Last of Us™ Part I",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
@@ -19398,10 +19381,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 37,
+      "popularRank": 36,
       "reviewCount": 67923,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 37,
+      "reviewCount": 104574,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1551980",
@@ -19421,23 +19421,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "3280350",
-      "title": "DEATH STRANDING 2: ON THE BEACH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
-      "originalPrice": 2299,
-      "discountPrice": 1540,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3280350",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 39,
-      "reviewCount": 16229,
-      "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "3017860",
       "title": "DOOM: The Dark Ages",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/83434b237ecb9fd536c1cb9f3fd5dfb93515c67f/capsule_616x353.jpg",
@@ -19449,9 +19432,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 40,
+      "popularRank": 39,
       "reviewCount": 33382,
       "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "3280350",
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
+      "originalPrice": 2299,
+      "discountPrice": 1540,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3280350",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 40,
+      "reviewCount": 16229,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20106,7 +20106,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 136858,
+      "reviewCount": 136996,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -20687,22 +20687,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "3065800",
-      "title": "Marathon",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/14feee66aaae7536289672601ac176364dd2ffa1/capsule_616x353.jpg",
-      "originalPrice": 1725,
-      "discountPrice": 776,
-      "discountPercent": 55,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3065800",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 46043,
-      "reviewPercent": 81,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1627720",
       "title": "Lies of P",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg",
@@ -20847,6 +20831,22 @@
       "reviewCount": 7601,
       "reviewPercent": 98,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "2988580",
+      "title": "Yakuza 0 Director's Cut",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/cd4801db60e667d95798120cc4e6e513695beeef/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2988580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 1971,
+      "reviewPercent": 83,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "202970",
@@ -21570,7 +21570,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 3412,
+      "reviewCount": 3413,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
