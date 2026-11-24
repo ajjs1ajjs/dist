@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "06550349820883b309095474",
-      "createdAt": "2026-11-10T21:00:33.380Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Euro Truck Simulator 2</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>400 грн</s> ➡️ <b>100 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/227300\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_227300",
-          "entry": {
-            "title": "Euro Truck Simulator 2",
-            "price": 100,
-            "percent": 75,
-            "timestamp": "2026-11-10T21:00:33.380Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-10T21:00:36.763Z"
-    },
-    {
       "id": "13582ec9a5d9ccdcb73f02da",
       "createdAt": "2026-11-11T09:00:30.457Z",
       "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>iRacing</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>259 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/266410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
@@ -15877,6 +15857,161 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T20:00:56.032Z"
+    },
+    {
+      "id": "faa5f1ccdf47806db5fa7630",
+      "createdAt": "2026-11-24T21:14:37.809Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Hades</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>128 грн</b>\n👍 Відгуки: <b>97%</b> (288K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1145360"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_1145360",
+          "entry": {
+            "title": "Hades",
+            "price": 128,
+            "percent": 75,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "a87f0eb130372b46392d71c8",
+      "createdAt": "2026-11-24T21:14:37.809Z",
+      "text": "🧩 <b>ЗНИЖКИ НА ВЕЛИКІ DLC У STEAM</b>\n\n• <a href=\"https://store.steampowered.com/app/1996840\">Guild Wars 2® Heart of Thorns® and Path of Fire™ Expansions</a>\n  <b>-35%</b> · <s>894 грн</s> ➡️ <b>581 грн</b> · 👍 78%\n\n#steam #dlc #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🧩 Всі DLC зі знижкою на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_dlc_1996840",
+          "entry": {
+            "title": "Guild Wars 2® Heart of Thorns® and Path of Fire™ Expansions",
+            "price": 581,
+            "percent": 35,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "4ff1c74ad3f93a7bdd5f31e5",
+      "createdAt": "2026-11-24T21:14:37.809Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP3643-PPSA03752_00-SERIOUSSAM4PS5EU\">Serious Sam 4</a>\n  <b>-85%</b> · <s>1 199 грн</s> ➡️ <b>179,85 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1018-PPSA22946_00-HARRYPOTTER17000\">LEGO® Harry Potter™ Collection</a>\n  <b>-85%</b> · <s>1 199 грн</s> ➡️ <b>179,85 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP4062-PPSA28731_00-0405812491993057\">Kingdom Come: Deliverance</a>\n  <b>-85%</b> · <s>949 грн</s> ➡️ <b>142,35 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP2911-PPSA02262_00-DL2GAME0000000EU\">Dying Light 2 Stay Human PS4&amp;PS5</a>\n  <b>-80%</b> · <s>1 999 грн</s> ➡️ <b>399,8 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP6312-PPSA17525_00-0219247498273183\">Gears of War: Reloaded</a>\n  <b>-75%</b> · <s>1 299 грн</s> ➡️ <b>324,75 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0688-PPSA17101_00-SURVIVALASCENDED\">ARK: Survival Ascended</a>\n  <b>-75%</b> · <s>1 349 грн</s> ➡️ <b>337,25 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00\">Warhammer 40,000: Space Marine 2</a>\n  <b>-75%</b> · <s>2 199 грн</s> ➡️ <b>549,75 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP3643-PPSA03752_00-SERIOUSSAM4PS5EU",
+          "entry": {
+            "title": "Serious Sam 4",
+            "price": 179.85,
+            "percent": 85,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP1018-PPSA22946_00-HARRYPOTTER17000",
+          "entry": {
+            "title": "LEGO® Harry Potter™ Collection",
+            "price": 179.85,
+            "percent": 85,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP4062-PPSA28731_00-0405812491993057",
+          "entry": {
+            "title": "Kingdom Come: Deliverance",
+            "price": 142.35,
+            "percent": 85,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP2911-PPSA02262_00-DL2GAME0000000EU",
+          "entry": {
+            "title": "Dying Light 2 Stay Human PS4&PS5",
+            "price": 399.8,
+            "percent": 80,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP6312-PPSA17525_00-0219247498273183",
+          "entry": {
+            "title": "Gears of War: Reloaded",
+            "price": 324.75,
+            "percent": 75,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0688-PPSA17101_00-SURVIVALASCENDED",
+          "entry": {
+            "title": "ARK: Survival Ascended",
+            "price": 337.25,
+            "percent": 75,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP4133-PPSA04451_00-SPACEMARINESII00",
+          "entry": {
+            "title": "Warhammer 40,000: Space Marine 2",
+            "price": 549.75,
+            "percent": 75,
+            "timestamp": "2026-11-24T21:14:37.809Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
