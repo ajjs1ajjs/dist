@@ -28457,6 +28457,13 @@
       "percent": 80,
       "timestamp": "2026-11-24T12:00:33.653Z",
       "type": "discount"
+    },
+    "steam_discount_997010": {
+      "title": "Police Simulator: Patrol Officers",
+      "price": 119,
+      "percent": 80,
+      "timestamp": "2026-11-24T12:00:33.653Z",
+      "type": "discount"
     }
   }
 }
