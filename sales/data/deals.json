@@ -28351,6 +28351,13 @@
       "percent": 75,
       "timestamp": "2026-11-24T06:00:31.368Z",
       "type": "discount"
+    },
+    "steam_discount_204100": {
+      "title": "Max Payne 3",
+      "price": 116,
+      "percent": 70,
+      "timestamp": "2026-11-24T06:00:31.368Z",
+      "type": "discount"
     }
   }
 }
