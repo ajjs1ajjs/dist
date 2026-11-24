@@ -29494,6 +29494,41 @@
       "percent": 0,
       "timestamp": "2026-11-24T18:43:15.144Z",
       "type": "ps_extra"
+    },
+    "steam_dlc_3238470": {
+      "title": "Days Gone - Broken Road DLC",
+      "price": 99,
+      "percent": 67,
+      "timestamp": "2026-11-24T18:43:15.144Z",
+      "type": "dlc"
+    },
+    "steam_dlc_1622100": {
+      "title": "Outer Wilds - Echoes of the Eye",
+      "price": 149,
+      "percent": 50,
+      "timestamp": "2026-11-24T18:43:15.144Z",
+      "type": "dlc"
+    },
+    "steam_dlc_1607890": {
+      "title": "Risk of Rain 2: Survivors of the Void",
+      "price": 104,
+      "percent": 50,
+      "timestamp": "2026-11-24T18:43:15.144Z",
+      "type": "dlc"
+    },
+    "steam_dlc_2671070": {
+      "title": "Crusader Kings III: Roads to Power",
+      "price": 404,
+      "percent": 50,
+      "timestamp": "2026-11-24T18:43:15.144Z",
+      "type": "dlc"
+    },
+    "steam_dlc_4224910": {
+      "title": "Ready or Not: Boiling Point",
+      "price": 112,
+      "percent": 50,
+      "timestamp": "2026-11-24T18:43:15.144Z",
+      "type": "dlc"
     }
   }
 }
