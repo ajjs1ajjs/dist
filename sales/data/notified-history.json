@@ -6445,5 +6445,54 @@
     "percent": 50,
     "timestamp": "2026-11-24T18:43:15.144Z",
     "type": "dlc"
+  },
+  "ps_deal_EP1001-PPSA36458_00-MAFIA1DEPS500000": {
+    "title": "Mafia: Definitive Edition для PS5®",
+    "price": 179.85,
+    "percent": 85,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP1018-PPSA01603_00-HOGWARTSLEGACY01": {
+    "title": "Версія Hogwarts Legacy для PS5",
+    "price": 209.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP0002-PPSA34502_00-CODBO2GAME000001": {
+    "title": "Call of Duty®: Black Ops II",
+    "price": 849.5,
+    "percent": 50,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP0002-PPSA34501_00-CODBO1GAME000001": {
+    "title": "Call of Duty®: Black Ops",
+    "price": 849.5,
+    "percent": 50,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP1004-PPSA30523_00-REDEMPTION000001": {
+    "title": "Red Dead Redemption (PS4 & PS5)",
+    "price": 879.6,
+    "percent": 60,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP9000-PPSA01461_00-MARVELSSMMORALES": {
+    "title": "Marvel's Spider-Man: Miles Morales PS4 & PS5",
+    "price": 849.5,
+    "percent": 50,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP4062-PPSA01749_00-METROEXODUS0GEN9": {
+    "title": "Metro Exodus",
+    "price": 94.9,
+    "percent": 90,
+    "timestamp": "2026-11-24T18:43:15.144Z",
+    "type": "ps_deal"
   }
 }
