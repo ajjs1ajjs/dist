@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-24T22:00:32.634Z",
+  "lastUpdated": "2026-11-24T23:00:33.813Z",
   "sourceUpdates": {
-    "steam": "2026-11-24T22:00:32.634Z",
-    "gamepass": "2026-11-24T22:00:32.634Z",
-    "playstation": "2026-11-24T22:00:32.634Z"
+    "steam": "2026-11-24T23:00:33.813Z",
+    "gamepass": "2026-11-24T23:00:33.813Z",
+    "playstation": "2026-11-24T23:00:33.813Z"
   },
   "priceHistory": {
     "2600": [
@@ -19003,23 +19003,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1795019577",
-      "originalPrice": 1599,
-      "discountPrice": 799,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 3,
-      "reviewCount": 36571,
-      "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -19031,10 +19014,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 4,
+      "popularRank": 3,
       "reviewCount": 762263,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1795019577",
+      "originalPrice": 1599,
+      "discountPrice": 799,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 4,
+      "reviewCount": 36571,
+      "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1222140",
@@ -19065,28 +19065,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 10,
+      "popularRank": 9,
       "reviewCount": 79857,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
-      "originalPrice": 2449,
-      "discountPrice": 2081,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 10,
-      "parentAppId": "1938090",
-      "reviewCount": 12740,
-      "reviewPercent": 69,
-      "reviewLabel": "змішані"
     },
     {
       "id": "2483190",
@@ -19100,7 +19082,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 11,
+      "popularRank": 12,
       "reviewCount": 96306,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
@@ -19134,7 +19116,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 16,
+      "popularRank": 15,
       "reviewCount": 221992,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
@@ -19174,23 +19156,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 19,
-      "reviewCount": 279084,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2215430",
       "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
@@ -19202,26 +19167,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 20,
+      "popularRank": 19,
       "reviewCount": 66410,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "784150",
-      "title": "Workers & Resources: Soviet Republic",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/capsule_616x353.jpg",
-      "originalPrice": 599,
-      "discountPrice": 149,
-      "discountPercent": 75,
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/784150",
+      "url": "https://store.steampowered.com/app/990080",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 23,
-      "reviewCount": 25529,
-      "reviewPercent": 91,
+      "popularRank": 20,
+      "reviewCount": 279084,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -19236,9 +19201,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 24,
+      "popularRank": 23,
       "reviewCount": 95047,
       "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "784150",
+      "title": "Workers & Resources: Soviet Republic",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/capsule_616x353.jpg",
+      "originalPrice": 599,
+      "discountPrice": 149,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/784150",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 24,
+      "reviewCount": 25529,
+      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -19304,7 +19286,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 29,
+      "popularRank": 28,
       "reviewCount": 60208,
       "reviewPercent": 75,
       "reviewLabel": "переважно схвальні"
@@ -19321,10 +19303,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 30,
+      "popularRank": 29,
       "reviewCount": 269668,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "2183900",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg",
+      "originalPrice": 1559,
+      "discountPrice": 389,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2183900",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 30,
+      "reviewCount": 175686,
+      "reviewPercent": 84,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "394360",
@@ -19344,23 +19343,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "570940",
-      "title": "DARK SOULS™: REMASTERED",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg",
-      "originalPrice": 799,
-      "discountPrice": 399,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/570940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 32,
-      "reviewCount": 102812,
-      "reviewPercent": 92,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "632360",
       "title": "Risk of Rain 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/capsule_616x353.jpg",
@@ -19372,9 +19354,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
-      "reviewCount": 243204,
+      "popularRank": 32,
+      "reviewCount": 243207,
       "reviewPercent": 93,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "570940",
+      "title": "DARK SOULS™: REMASTERED",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg",
+      "originalPrice": 799,
+      "discountPrice": 399,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/570940",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 33,
+      "reviewCount": 102812,
+      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -19395,23 +19394,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1888930",
-      "title": "The Last of Us™ Part I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1888930",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 36,
-      "reviewCount": 67923,
-      "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1817070",
       "title": "Marvel’s Spider-Man Remastered",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
@@ -19423,7 +19405,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 37,
+      "popularRank": 36,
       "reviewCount": 104574,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -19440,9 +19422,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
+      "popularRank": 37,
       "reviewCount": 220397,
       "reviewPercent": 92,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1888930",
+      "title": "The Last of Us™ Part I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1888930",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 38,
+      "reviewCount": 67923,
+      "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -19475,7 +19474,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 22631,
+      "reviewCount": 22651,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -20088,22 +20087,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "2183900",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg",
-      "originalPrice": 1559,
-      "discountPrice": 389,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2183900",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 175686,
-      "reviewPercent": 84,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "668580",
       "title": "Atomic Heart",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
@@ -20131,7 +20114,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 137025,
+      "reviewCount": 137034,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -20922,6 +20905,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "2627260",
+      "title": "NINJA GAIDEN 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2627260/d58b8d10bc8a0c45c46d06985aedc46e1edf4e47/capsule_616x353.jpg",
+      "originalPrice": 2299,
+      "discountPrice": 1149,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2627260",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 8836,
+      "reviewPercent": 87,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1622100",
       "title": "Outer Wilds - Echoes of the Eye",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622100/capsule_616x353.jpg",
@@ -21081,8 +21080,24 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 161022,
+      "reviewCount": 161093,
       "reviewPercent": 94,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2172010",
+      "title": "Until Dawn™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 999,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2172010",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 3710,
+      "reviewPercent": 83,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21146,22 +21161,6 @@
       "isFree": false,
       "isPopular": false,
       "reviewCount": 12121,
-      "reviewPercent": 92,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "3024040",
-      "title": "Stronghold Crusader: Definitive Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3024040/6a538ecab77ccee4bdb28d328c4962b7ce69e702/capsule_616x353.jpg",
-      "originalPrice": 415,
-      "discountPrice": 249,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3024040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 10967,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -21627,7 +21626,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 3413,
+      "reviewCount": 3420,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
@@ -22134,11 +22133,11 @@
       "isPopular": true
     },
     {
-      "id": "9NKX70BBCDRN",
-      "title": "Forza Horizon 5 Standard Edition",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
-      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
-      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
+      "id": "9NDKFJ6XDX2M",
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
+      "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
       "isNew": false,
       "isPopular": true
     },
@@ -22152,20 +22151,11 @@
       "isPopular": true
     },
     {
-      "id": "9NDKFJ6XDX2M",
-      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
-      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
-      "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9N4W31HSMVVD",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
-      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
-      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "id": "9NKX70BBCDRN",
+      "title": "Forza Horizon 5 Standard Edition",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+      "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
+      "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
       "isPopular": true
     },
@@ -22175,6 +22165,15 @@
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.57302.14221973547534254.c9400a22-a0eb-4428-bc72-11e2270ad849.eafa7d9c-446c-44be-b6f6-2c84d41417e7",
       "url": "https://www.xbox.com/uk-UA/games/store/dune-awakening/9PJ6FV3130QZ",
       "description": "Dune: Awakening — це рольова гра в жанрі «виживання» у відкритому світі, який можна вивчати як в одноосібному, так і в багатоосібному режимах. Досліджуйте, будуйте, майструйте й дізнавайтеся видовищну",
+      "isNew": false,
+      "isPopular": true
+    },
+    {
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
       "isNew": false,
       "isPopular": true
     }

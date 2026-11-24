@@ -16157,6 +16157,96 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T22:00:44.398Z"
+    },
+    {
+      "id": "4cfd413dda2ae06afa309c69",
+      "createdAt": "2026-11-24T23:00:33.813Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1001-PPSA35889_00-NBA2K27000000000\">NBA 2K27</a>\n  <b>-55%</b> · <s>3 499 грн</s> ➡️ <b>1 574,55 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP3969-PPSA11386_00-007FIRSTLIGHT000\">007 First Light</a>\n  <b>-50%</b> · <s>2 299 грн</s> ➡️ <b>1 149,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP9000-PPSA08338_00-MARVELSPIDERMAN2\">Marvel’s Spider-Man 2</a>\n  <b>-50%</b> · <s>2 299 грн</s> ➡️ <b>1 149,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP6848-PPSA04998_00-4085881659726287\">Arc Raiders</a>\n  <b>-50%</b> · <s>1 390 грн</s> ➡️ <b>695 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP2911-PPSA24003_00-DLTHEBEASTP5EU00\">Dying Light: The Beast</a>\n  <b>-50%</b> · <s>1 999 грн</s> ➡️ <b>999,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP9000-PPSA07642_00-THELASTOFUSPART1\">The Last of Us™ Part I</a>\n  <b>-50%</b> · <s>2 299 грн</s> ➡️ <b>1 149,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1003-PPSA20560_00-DTITAN0000000000\">DOOM: The Dark Ages</a>\n  <b>-50%</b> · <s>1 499 грн</s> ➡️ <b>749,5 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_UP1001-PPSA35889_00-NBA2K27000000000",
+          "entry": {
+            "title": "NBA 2K27",
+            "price": 1574.55,
+            "percent": 55,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP3969-PPSA11386_00-007FIRSTLIGHT000",
+          "entry": {
+            "title": "007 First Light",
+            "price": 1149.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP9000-PPSA08338_00-MARVELSPIDERMAN2",
+          "entry": {
+            "title": "Marvel’s Spider-Man 2",
+            "price": 1149.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP6848-PPSA04998_00-4085881659726287",
+          "entry": {
+            "title": "Arc Raiders",
+            "price": 695,
+            "percent": 50,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP2911-PPSA24003_00-DLTHEBEASTP5EU00",
+          "entry": {
+            "title": "Dying Light: The Beast",
+            "price": 999.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP9000-PPSA07642_00-THELASTOFUSPART1",
+          "entry": {
+            "title": "The Last of Us™ Part I",
+            "price": 1149.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP1003-PPSA20560_00-DTITAN0000000000",
+          "entry": {
+            "title": "DOOM: The Dark Ages",
+            "price": 749.5,
+            "percent": 50,
+            "timestamp": "2026-11-24T23:00:33.813Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
