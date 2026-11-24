@@ -6165,5 +6165,12 @@
     "percent": 75,
     "timestamp": "2026-11-24T04:00:38.346Z",
     "type": "discount"
+  },
+  "steam_discount_3417850": {
+    "title": "Stellaris: Shadows of the Shroud",
+    "price": 323,
+    "percent": 40,
+    "timestamp": "2026-11-24T05:00:31.197Z",
+    "type": "discount"
   }
 }
