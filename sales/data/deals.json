@@ -28189,6 +28189,13 @@
       "percent": 80,
       "timestamp": "2026-11-24T03:00:32.926Z",
       "type": "discount"
+    },
+    "steam_discount_1607890": {
+      "title": "Risk of Rain 2: Survivors of the Void",
+      "price": 104,
+      "percent": 50,
+      "timestamp": "2026-11-24T03:00:32.926Z",
+      "type": "discount"
     }
   }
 }
