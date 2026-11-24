@@ -15085,6 +15085,46 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T08:00:48.614Z"
+    },
+    {
+      "id": "9c77d224d83dcee8933be55e",
+      "createdAt": "2026-11-24T09:00:36.134Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Little Kitty, Big City</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>257 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/1177980\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1177980/33e16fe7e4028086f3cdd60c5c956373b3ddba9d/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_1177980",
+          "entry": {
+            "title": "Little Kitty, Big City",
+            "price": 257,
+            "percent": 50,
+            "timestamp": "2026-11-24T09:00:36.134Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "8243daf109e79b8d80893f33",
+      "createdAt": "2026-11-24T09:00:36.134Z",
+      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Spotter: Dig or Die</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>295 грн</s> ➡️ <b>206 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/3976500\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3976500/cafd7910cb5b0745a3ce7dece94e2bfb11c30e29/capsule_616x353.jpg",
+      "receipts": [
+        {
+          "key": "steam_discount_3976500",
+          "entry": {
+            "title": "The Spotter: Dig or Die",
+            "price": 206,
+            "percent": 30,
+            "timestamp": "2026-11-24T09:00:36.134Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
