@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "559459eec3db5b5075c5de9d",
-      "createdAt": "2026-11-11T20:02:53.734Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Diablo II: Resurrected - Infernal Edition</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2536520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_2536520",
-          "entry": {
-            "title": "Diablo II: Resurrected - Infernal Edition",
-            "price": 1104,
-            "percent": 35,
-            "timestamp": "2026-11-11T20:02:53.734Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-11T20:02:57.210Z"
-    },
-    {
       "id": "fb165a86e9f91bf2268a5f3a",
       "createdAt": "2026-11-11T21:00:35.504Z",
       "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>The Elder Scrolls V: Skyrim Special Edition</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>649 грн</s> ➡️ <b>129 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/489830\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
@@ -17407,6 +17387,76 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T20:00:40.390Z"
+    },
+    {
+      "id": "5864d9cd23d913a7704d5577",
+      "createdAt": "2026-11-25T21:00:34.782Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Squad</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 560 грн</s> ➡️ <b>624 грн</b>\n👍 Відгуки: <b>82%</b> (183K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/ad23025eadcd9c8a1281f3e8a8904308a9e61dd8/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/393380"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_393380",
+          "entry": {
+            "title": "Squad",
+            "price": 624,
+            "percent": 60,
+            "timestamp": "2026-11-25T21:00:34.782Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "115f4816154b131be912cd1f",
+      "createdAt": "2026-11-25T21:00:34.782Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>METAL GEAR SOLID Δ: SNAKE EATER</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>1 475 грн</s> ➡️ <b>885 грн</b>\n👍 Відгуки: <b>82%</b> (14K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/9038732c9ed1efe365d102b1eb7d239f345ec791/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2417610"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_2417610",
+          "entry": {
+            "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+            "price": 885,
+            "percent": 40,
+            "timestamp": "2026-11-25T21:00:34.782Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
