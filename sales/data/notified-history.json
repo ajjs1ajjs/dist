@@ -7117,5 +7117,12 @@
     "percent": 70,
     "timestamp": "2026-11-25T12:00:36.064Z",
     "type": "discount"
+  },
+  "steam_discount_29720": {
+    "title": "Guild Wars® Reforged",
+    "price": 399,
+    "percent": 50,
+    "timestamp": "2026-11-25T12:00:36.064Z",
+    "type": "discount"
   }
 }
