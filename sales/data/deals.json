@@ -31635,6 +31635,13 @@
       "percent": 75,
       "timestamp": "2026-11-25T17:50:20.964Z",
       "type": "discount"
+    },
+    "steam_discount_2947440": {
+      "title": "SILENT HILL f",
+      "price": 413,
+      "percent": 72,
+      "timestamp": "2026-11-25T19:00:38.592Z",
+      "type": "discount"
     }
   }
 }
