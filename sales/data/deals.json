@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-25T17:50:20.964Z",
+  "lastUpdated": "2026-11-25T18:00:33.340Z",
   "sourceUpdates": {
-    "steam": "2026-11-25T17:50:20.964Z",
-    "gamepass": "2026-11-25T17:50:20.964Z",
-    "playstation": "2026-11-25T17:50:20.964Z"
+    "steam": "2026-11-25T18:00:33.340Z",
+    "gamepass": "2026-11-25T18:00:33.340Z",
+    "playstation": "2026-11-25T18:00:33.340Z"
   },
   "priceHistory": {
     "2600": [
@@ -22668,7 +22668,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 16426,
+      "reviewCount": 16442,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
@@ -22870,7 +22870,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 1804,
+      "reviewCount": 1821,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
     },
