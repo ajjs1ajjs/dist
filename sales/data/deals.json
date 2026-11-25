@@ -31365,6 +31365,55 @@
       "percent": 35,
       "timestamp": "2026-11-25T01:00:30.208Z",
       "type": "ps_deal"
+    },
+    "ps_deal_EP0001-PPSA07497_00-AVATAR2GAME00001": {
+      "title": "Avatar: Frontiers of Pandora™",
+      "price": 429.5,
+      "percent": 50,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP6322-PPSA18605_00-0342498734252743": {
+      "title": "Ready or Not",
+      "price": 1049.3,
+      "percent": 30,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP1018-PPSA16833_00-LEGOBATMAN000000": {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight",
+      "price": 1399.3,
+      "percent": 30,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP1833-PPSA02391_00-DUNEAWAKENING000": {
+      "title": "Dune: Awakening",
+      "price": 1189.3,
+      "percent": 30,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_UP9000-PPSA03671_00-MARVELSWOLVERINE": {
+      "title": "Marvel's Wolverine",
+      "price": 1649.25,
+      "percent": 25,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_EP0001-PPSA28183_00-GAME000000000000": {
+      "title": "Assassin's Creed Black Flag Resynced",
+      "price": 1349.25,
+      "percent": 25,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
+    },
+    "ps_deal_HP1597-PPSA25717_00-ENDOFABYSS000000": {
+      "title": "End of Abyss",
+      "price": 481.5,
+      "percent": 25,
+      "timestamp": "2026-11-25T02:00:29.333Z",
+      "type": "ps_deal"
     }
   }
 }
