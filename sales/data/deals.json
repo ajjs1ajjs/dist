@@ -31665,6 +31665,13 @@
       "percent": 35,
       "timestamp": "2026-11-25T09:00:29.593Z",
       "type": "ps_deal"
+    },
+    "steam_discount_1157390": {
+      "title": "King Arthur: Knight's Tale",
+      "price": 250,
+      "percent": 70,
+      "timestamp": "2026-11-25T12:00:36.064Z",
+      "type": "discount"
     }
   }
 }
