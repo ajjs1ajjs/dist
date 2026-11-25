@@ -6851,5 +6851,54 @@
     "percent": 50,
     "timestamp": "2026-11-24T23:00:33.813Z",
     "type": "ps_deal"
+  },
+  "ps_deal_UP1001-PPSA01494_00-000000000000OAK2": {
+    "title": "Borderlands®4",
+    "price": 1499.5,
+    "percent": 50,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP1003-PPSA24884_00-HELIUM0000000000": {
+    "title": "Starfield",
+    "price": 749.5,
+    "percent": 50,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP4108-PPSA32785_00-NIOH300000000000": {
+    "title": "Nioh 3",
+    "price": 1099.5,
+    "percent": 50,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0101-PPSA15368_00-GALUGA00PS5EU000": {
+    "title": "Contra: Operation Galuga PS4 & PS5",
+    "price": 599.5,
+    "percent": 50,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0634-PPSA04677_00-9725862811759774": {
+    "title": "Five Nights at Freddy's: Security Breach",
+    "price": 699.5,
+    "percent": 50,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0006-PPSA23566_00-BASEUFC6GAME0000": {
+    "title": "UFC™ 6",
+    "price": 1559.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP9000-PPSA15508_00-THELASTOFUSPART2": {
+    "title": "The Last of Us™ Part II Remastered",
+    "price": 899.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T00:00:30.252Z",
+    "type": "ps_deal"
   }
 }
