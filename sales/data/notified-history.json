@@ -7068,5 +7068,12 @@
     "percent": 90,
     "timestamp": "2026-11-25T06:00:30.232Z",
     "type": "gamepass_deal"
+  },
+  "gamepass_deal_9NRQVQ7ZRM7Z": {
+    "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "price": 299.8,
+    "percent": 80,
+    "timestamp": "2026-11-25T06:00:30.232Z",
+    "type": "gamepass_deal"
   }
 }
