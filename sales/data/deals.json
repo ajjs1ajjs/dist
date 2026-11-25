@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-25T15:00:34.934Z",
+  "lastUpdated": "2026-11-25T17:00:29.606Z",
   "sourceUpdates": {
-    "steam": "2026-11-25T15:00:34.934Z",
-    "gamepass": "2026-11-25T15:00:34.934Z",
-    "playstation": "2026-11-25T15:00:34.934Z"
+    "steam": "2026-11-25T17:00:29.606Z",
+    "gamepass": "2026-11-25T17:00:29.606Z",
+    "playstation": "2026-11-25T17:00:29.606Z"
   },
   "priceHistory": {
     "2600": [
@@ -20285,7 +20285,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 1,
+      "popularRank": 2,
       "reviewCount": 233155,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -20302,7 +20302,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 4,
+      "popularRank": 5,
       "reviewCount": 765203,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -20371,7 +20371,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 11,
-      "reviewCount": 222000,
+      "reviewCount": 222118,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
@@ -20387,7 +20387,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 12,
+      "popularRank": 13,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
@@ -20421,7 +20421,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 17,
       "reviewCount": 149505,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -20444,20 +20444,20 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
+      "id": "2215430",
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
+      "url": "https://store.steampowered.com/app/2215430",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 20,
-      "reviewCount": 263497,
-      "reviewPercent": 89,
+      "popularRank": 21,
+      "reviewCount": 66527,
+      "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20472,26 +20472,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 22,
       "reviewCount": 279298,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2215430",
-      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215430",
+      "url": "https://store.steampowered.com/app/1551360",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 22,
-      "reviewCount": 66527,
-      "reviewPercent": 93,
+      "popularRank": 23,
+      "reviewCount": 263497,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20506,27 +20506,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 24,
+      "popularRank": 25,
       "reviewCount": 280555,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 254,
-      "discountPercent": 85,
+      "id": "1401590",
+      "title": "Disney Dreamlight Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 719,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
+      "url": "https://store.steampowered.com/app/1401590",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 26,
-      "reviewCount": 27336,
-      "reviewPercent": 74,
-      "reviewLabel": "переважно схвальні"
+      "reviewCount": 22663,
+      "reviewPercent": 92,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1808500",
@@ -20541,7 +20541,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 27,
-      "reviewCount": 312265,
+      "reviewCount": 312382,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
@@ -20563,6 +20563,23 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 254,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 29,
+      "reviewCount": 27336,
+      "reviewPercent": 74,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "394360",
       "title": "Hearts of Iron IV",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_616x353.jpg",
@@ -20574,27 +20591,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 29,
+      "popularRank": 30,
       "reviewCount": 265698,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1144200",
-      "title": "Ready or Not",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2f02a7f8e5458c9ac5f93f489a54dae3050742f9/capsule_616x353.jpg",
-      "originalPrice": 1200,
-      "discountPrice": 600,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1144200",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 30,
-      "reviewCount": 269813,
-      "reviewPercent": 79,
-      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "668580",
@@ -20614,6 +20614,23 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1144200",
+      "title": "Ready or Not",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2f02a7f8e5458c9ac5f93f489a54dae3050742f9/capsule_616x353.jpg",
+      "originalPrice": 1200,
+      "discountPrice": 600,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1144200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 32,
+      "reviewCount": 269813,
+      "reviewPercent": 79,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1145350",
       "title": "Hades II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg",
@@ -20625,27 +20642,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 33,
       "reviewCount": 116499,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
-    },
-    {
-      "id": "1401590",
-      "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 719,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1401590",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 33,
-      "reviewCount": 22663,
-      "reviewPercent": 92,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "784150",
@@ -20694,7 +20694,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 37,
-      "reviewCount": 858966,
+      "reviewCount": 859185,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -20716,23 +20716,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 39,
-      "reviewCount": 104878,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "3280350",
       "title": "DEATH STRANDING 2: ON THE BEACH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
@@ -20744,9 +20727,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 40,
+      "popularRank": 39,
       "reviewCount": 17446,
       "reviewPercent": 94,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2651280",
+      "title": "Marvel's Spider-Man 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 1138,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2651280",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 40,
+      "reviewCount": 35517,
+      "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20889,7 +20889,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 64869,
+      "reviewCount": 64910,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
@@ -21097,7 +21097,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 99837,
+      "reviewCount": 99888,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
@@ -21180,22 +21180,6 @@
       "reviewCount": 19625,
       "reviewPercent": 76,
       "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "1057090",
-      "title": "Ori and the Will of the Wisps",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg",
-      "originalPrice": 379,
-      "discountPrice": 94,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1057090",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 143824,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "236850",
@@ -21401,7 +21385,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 137119,
+      "reviewCount": 137195,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -21582,6 +21566,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "916440",
+      "title": "Anno 1800",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/bda65ed0b2a022b7fa304b6a87aec3f2248bf6e8/capsule_616x353.jpg",
+      "originalPrice": 915,
+      "discountPrice": 228,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/916440",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 30384,
+      "reviewPercent": 81,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1259420",
       "title": "Days Gone",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/capsule_616x353.jpg",
@@ -21678,6 +21678,22 @@
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "488790",
+      "title": "South Park™: The Fractured But Whole™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 194,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/488790",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 32727,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1273400",
       "title": "Construction Simulator",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/capsule_616x353.jpg",
@@ -21758,6 +21774,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 104878,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
       "id": "1466860",
       "title": "Age of Empires IV: Anniversary Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/capsule_616x353.jpg",
@@ -21833,7 +21865,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 76407,
+      "reviewCount": 76423,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
@@ -21913,7 +21945,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 61170,
+      "reviewCount": 61190,
       "reviewPercent": 87,
       "reviewLabel": "дуже схвальні"
     },
@@ -22025,7 +22057,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46128,
+      "reviewCount": 46231,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
@@ -22139,7 +22171,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 33419,
+      "reviewCount": 33453,
       "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
     },
@@ -22351,7 +22383,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12302,
+      "reviewCount": 12339,
       "reviewPercent": 78,
       "reviewLabel": "переважно схвальні"
     },
@@ -22447,9 +22479,25 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12132,
+      "reviewCount": 12135,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "4656000",
+      "title": "BOMBANANA!",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg",
+      "originalPrice": 195,
+      "discountPrice": 117,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4656000",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 7311,
+      "reviewPercent": 97,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2486820",
@@ -22466,22 +22514,6 @@
       "reviewCount": 12196,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "4656000",
-      "title": "BOMBANANA!",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5c8c9fb42a56e6fd25f2877053158fd207ffb028/capsule_616x353.jpg",
-      "originalPrice": 195,
-      "discountPrice": 117,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4656000",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 6793,
-      "reviewPercent": 97,
-      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2677660",
@@ -22661,7 +22693,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 16301,
+      "reviewCount": 16426,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
@@ -22732,22 +22764,6 @@
       "reviewCount": 21497,
       "reviewPercent": 71,
       "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "2651280",
-      "title": "Marvel's Spider-Man 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 1138,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2651280",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 35517,
-      "reviewPercent": 84,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1643320",
@@ -22879,7 +22895,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 1763,
+      "reviewCount": 1790,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
     },
@@ -24405,6 +24421,28 @@
       "popularRank": 20
     },
     {
+      "id": "ps_essential_tony-hawk-s-pro-skater-3-4-cross-gen-edition",
+      "title": "Tony Hawk’s Pro Skater 3+4 – Cross-Gen Edition",
+      "imageUrl": "https://blog.playstation.com/tachyon/2026/11/393a7151bd4ebdcfaec45d08f6598f81ccc842af-scaled.jpg",
+      "url": "https://store.playstation.com/uk-ua/search/Tony%20Hawk%E2%80%99s%20Pro%20Skater%203%2B4%20%E2%80%93%20Cross-Gen%20Edition",
+      "description": "Alert the neighborhood watch and grab your skate buddies because the shred’s not dead: the legendary franchise returns with Tony Hawk’s Pro Skater 3 + 4. Everything you loved is back, revamped with mo",
+      "isDeal": false,
+      "isPopular": false,
+      "psPlusTier": "essential",
+      "psPlusMonth": "December 2026"
+    },
+    {
+      "id": "ps_essential_dragon-ball-xenoverse-2",
+      "title": "Dragon Ball Xenoverse 2",
+      "imageUrl": "https://blog.playstation.com/tachyon/2026/11/31b101a1fe6a6fcebcb2cb8afb3e7a50013465da-scaled.jpg",
+      "url": "https://store.playstation.com/uk-ua/search/Dragon%20Ball%20Xenoverse%202",
+      "description": "Dragon Ball Xenoverse 2 is the ultimate Dragon Ball gaming experience, packed with thrilling action, epic battles, and endless customization options. Create your own character, explore Conton City and",
+      "isDeal": false,
+      "isPopular": false,
+      "psPlusTier": "essential",
+      "psPlusMonth": "December 2026"
+    },
+    {
       "id": "ps_extra_death-stranding-2-on-the-beach",
       "title": "Death Stranding 2: On the Beach",
       "imageUrl": "https://blog.playstation.com/tachyon/2026/11/be07500b8d288a2ac8b3bdd91247f5a62b972d68.jpg",
@@ -24490,39 +24528,6 @@
       "isDeal": false,
       "isPopular": false,
       "psPlusTier": "extra",
-      "psPlusMonth": "November 2026"
-    },
-    {
-      "id": "ps_essential_dead-island-2",
-      "title": "Dead Island 2",
-      "imageUrl": "https://blog.playstation.com/tachyon/2026/10/2c7339f1eb2120dc035b6cf966466b10eb243945-scaled.jpeg",
-      "url": "https://store.playstation.com/uk-ua/search/Dead%20Island%202",
-      "description": "Welcome to HELL-A. The City of Angels has been transformed into a hellish sprawl, its populace now mutated into disgusting zombies with an insatiable appetite for humans. In this extensive, visceral R",
-      "isDeal": false,
-      "isPopular": false,
-      "psPlusTier": "essential",
-      "psPlusMonth": "November 2026"
-    },
-    {
-      "id": "ps_essential_tomb-raider-iv-vi-remastered",
-      "title": "Tomb Raider IV – VI Remastered",
-      "imageUrl": "https://blog.playstation.com/tachyon/2026/10/e3fcf7e2648fbf2a9088abe339bbaf216adde4d6-scaled.jpeg",
-      "url": "https://store.playstation.com/uk-ua/search/Tomb%20Raider%20IV%20%E2%80%93%20VI%20Remastered",
-      "description": "Play the next series of Tomb Raider adventures in this remastered collection of the Darkness Trilogy, which includes",
-      "isDeal": false,
-      "isPopular": false,
-      "psPlusTier": "essential",
-      "psPlusMonth": "November 2026"
-    },
-    {
-      "id": "ps_essential_monster-train-2",
-      "title": "Monster Train 2",
-      "imageUrl": "https://blog.playstation.com/tachyon/2026/10/5142098b9fe908ee2068029a22023ae6650f04ce-scaled.jpeg",
-      "url": "https://store.playstation.com/uk-ua/search/Monster%20Train%202",
-      "description": "This single player deckbuilding roguelite sees you command clans formed of a makeshift alliance between former angels and demons, as they work together to oust powerful beings known as Titans, who hav",
-      "isDeal": false,
-      "isPopular": false,
-      "psPlusTier": "essential",
       "psPlusMonth": "November 2026"
     }
   ],

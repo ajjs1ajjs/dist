@@ -17217,6 +17217,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T15:00:41.346Z"
+    },
+    {
+      "id": "73041b0113ed17627d2a55f6",
+      "createdAt": "2026-11-25T17:00:29.606Z",
+      "text": "🎁 <b>PS PLUS ESSENTIAL — ГРА МІСЯЦЯ!</b>\n\n🎮 <b>Tony Hawk’s Pro Skater 3+4 – Cross-Gen Edition</b>\n📅 December 2026\n🎁 Безкоштовно з підпискою PS Plus\n<i>Alert the neighborhood watch and grab your skate buddies because the shred’s not dead: the legendary franchise returns with Tony Hawk’s Pro Skater 3…</i>\n\n#ps5 #psplus #essential #безкоштовно",
+      "photoUrl": "https://blog.playstation.com/tachyon/2026/11/393a7151bd4ebdcfaec45d08f6598f81ccc842af-scaled.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Відкрити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/search/Tony%20Hawk%E2%80%99s%20Pro%20Skater%203%2B4%20%E2%80%93%20Cross-Gen%20Edition"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_essential_tony-hawk-s-pro-skater-3-4-cross-gen-edition",
+          "entry": {
+            "title": "Tony Hawk’s Pro Skater 3+4 – Cross-Gen Edition",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-25T17:00:29.606Z",
+            "type": "ps_essential"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "66b67bb6df343bb8586ddaa7",
+      "createdAt": "2026-11-25T17:00:29.606Z",
+      "text": "🎁 <b>PS PLUS ESSENTIAL — ГРА МІСЯЦЯ!</b>\n\n🎮 <b>Dragon Ball Xenoverse 2</b>\n📅 December 2026\n🎁 Безкоштовно з підпискою PS Plus\n<i>Dragon Ball Xenoverse 2 is the ultimate Dragon Ball gaming experience, packed with thrilling action, epic battles, and endless customization options.…</i>\n\n#ps5 #psplus #essential #безкоштовно",
+      "photoUrl": "https://blog.playstation.com/tachyon/2026/11/31b101a1fe6a6fcebcb2cb8afb3e7a50013465da-scaled.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Відкрити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/search/Dragon%20Ball%20Xenoverse%202"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_essential_dragon-ball-xenoverse-2",
+          "entry": {
+            "title": "Dragon Ball Xenoverse 2",
+            "price": 0,
+            "percent": 100,
+            "timestamp": "2026-11-25T17:00:29.606Z",
+            "type": "ps_essential"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
