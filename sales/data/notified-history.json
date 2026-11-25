@@ -7096,5 +7096,12 @@
     "percent": 25,
     "timestamp": "2026-11-25T06:00:30.232Z",
     "type": "gamepass_deal"
+  },
+  "steam_dlc_2214824": {
+    "title": "Atomic Heart - Blood On Crystal",
+    "price": 126,
+    "percent": 25,
+    "timestamp": "2026-11-25T07:00:34.480Z",
+    "type": "dlc"
   }
 }
