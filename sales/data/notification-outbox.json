@@ -16620,6 +16620,251 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T03:00:45.595Z"
+    },
+    {
+      "id": "265647c2bd6036cb2b902446",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Horizon Zero Dawn™ Complete Edition</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>749 грн</b>\n👍 Відгуки: <b>87%</b> (96K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1151640"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_1151640",
+          "entry": {
+            "title": "Horizon Zero Dawn™ Complete Edition",
+            "price": 749,
+            "percent": 50,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fbc9081199e691116793c8a5",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Forza Horizon 5 Standard Edition</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 540 грн</s> ➡️ <b>616 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limi…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.19144.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.08f6abcd-96f3-4d91-877e-dc834b74132d",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "gamepass_deal_9NKX70BBCDRN",
+          "entry": {
+            "title": "Forza Horizon 5 Standard Edition",
+            "price": 616,
+            "percent": 60,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "49b96bbbb1349c2790f083e1",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Gears of War: E-Day</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>2 460 грн</s> ➡️ <b>1 722 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Початок вторгнення Відчуйте жах і жорстокість Дня вторгнення Чотирнадцять років до оригінальної Gears of War — приєднуй…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.7129.13978914104035031.46ab30c4-87b3-48d6-9e4a-ed44b301b17a.c6a61057-524a-4b26-a462-7cb77482c68f",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/gears-of-war-e-day/9N4PT8HGCDHQ"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "gamepass_deal_9N4PT8HGCDHQ",
+          "entry": {
+            "title": "Gears of War: E-Day",
+            "price": 1722,
+            "percent": 30,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "38bf847194d70816d35719cf",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Dune: Awakening</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 755 грн</s> ➡️ <b>1 228,5 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Dune: Awakening — це рольова гра в жанрі «виживання» у відкритому світі, який можна вивчати як в одноосібному, так і в…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.57302.14221973547534254.c9400a22-a0eb-4428-bc72-11e2270ad849.eafa7d9c-446c-44be-b6f6-2c84d41417e7",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/dune-awakening/9PJ6FV3130QZ"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "gamepass_deal_9PJ6FV3130QZ",
+          "entry": {
+            "title": "Dune: Awakening",
+            "price": 1228.5,
+            "percent": 30,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "b5809611f88e8e80d1f1449f",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Microsoft Flight Simulator 2024 - Standard Edition</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>2 400 грн</s> ➡️ <b>1 680 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, щ…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.2689.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.70477e5a-c41e-494f-a710-995d5498a227",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "gamepass_deal_9P2VGCTBMM52",
+          "entry": {
+            "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+            "price": 1680,
+            "percent": 30,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "d2a9dfc5bd917502e3fa4186",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Forza Horizon 6 Standard Edition</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>1 724,25 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend at the Horizon Fes…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.50642.14202278764680089.8e4c786a-0a1c-4737-a244-0bdfa34aab7b.5a985817-6d04-4bda-970d-b74bb963c0b8",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-6-standard-edition/9N431PX143P8"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "gamepass_deal_9N431PX143P8",
+          "entry": {
+            "title": "Forza Horizon 6 Standard Edition",
+            "price": 1724.25,
+            "percent": 25,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "6f2566239cdfc09874095c84",
+      "createdAt": "2026-11-25T05:54:01.216Z",
+      "text": "🎮 <b>ЗНИЖКА PLAYSTATION 5!</b>\n\n🎮 <b>Overcooked! All You Can Eat</b>\n🏷️ Знижка: <b>-66%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>407,66 грн</b>\n\n#ps5 #знижки",
+      "photoUrl": "https://image.api.playstation.com/vulcan/img/rnd/202109/2814/KBjM7tWNPQIy2nca7OhRRwlf.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/product/EP4064-PPSA01528_00-0538983162460184"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP4064-PPSA01528_00-0538983162460184",
+          "entry": {
+            "title": "Overcooked! All You Can Eat",
+            "price": 407.66,
+            "percent": 66,
+            "timestamp": "2026-11-25T05:54:01.216Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

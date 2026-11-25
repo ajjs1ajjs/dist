@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-25T05:00:44.233Z",
+  "lastUpdated": "2026-11-25T05:54:01.216Z",
   "sourceUpdates": {
-    "steam": "2026-11-25T05:00:44.233Z",
-    "gamepass": "2026-11-25T05:00:44.233Z",
-    "playstation": "2026-11-25T05:00:44.233Z"
+    "steam": "2026-11-25T05:54:01.216Z",
+    "gamepass": "2026-11-25T05:54:01.216Z",
+    "playstation": "2026-11-25T05:54:01.216Z"
   },
   "priceHistory": {
     "2600": [
@@ -2940,6 +2940,11 @@
         "date": "2026-11-24",
         "price": 137,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-25",
+        "price": 137,
+        "currency": "UAH"
       }
     ],
     "451340": [
@@ -4124,6 +4129,11 @@
       },
       {
         "date": "2026-11-24",
+        "price": 237,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-25",
         "price": 237,
         "currency": "UAH"
       }
@@ -20184,61 +20194,16 @@
         "price": 899.4,
         "currency": "UAH"
       }
+    ],
+    "EP4064-PPSA01528_00-0538983162460184": [
+      {
+        "date": "2026-11-25",
+        "price": 407.66,
+        "currency": "UAH"
+      }
     ]
   },
   "steam": [
-    {
-      "id": "1151640",
-      "title": "Horizon Zero Dawn™ Complete Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 0,
-      "discountPercent": 100,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1151640",
-      "isSpecial": false,
-      "isFree": true,
-      "isPopular": false,
-      "reviewCount": 95952,
-      "reviewPercent": 87,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "3172660",
-      "title": "Marvel's Spider-Man 2 - Digital Deluxe Upgrade",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3172660/0c0f71d9656b96f53095a9757bbba6ea1c074acc/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 0,
-      "discountPercent": 100,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3172660",
-      "isSpecial": false,
-      "isFree": true,
-      "isPopular": false,
-      "isDlc": true,
-      "parentAppId": "2651280",
-      "reviewCount": 108,
-      "reviewPercent": 76,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "5090180",
-      "title": "Disney Dreamlight Valley: The Keepsake Sea — Deluxe Edition",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5090180/8d12dda9337b8f83262817aab8b48f1f222d4ded/capsule_616x353.jpg",
-      "originalPrice": 1818,
-      "discountPrice": 0,
-      "discountPercent": 100,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/5090180",
-      "isSpecial": false,
-      "isFree": true,
-      "isPopular": false,
-      "isDlc": true,
-      "parentAppId": "1401590",
-      "reviewCount": 35,
-      "reviewPercent": 65,
-      "reviewLabel": "змішані"
-    },
     {
       "id": "1174180",
       "title": "Red Dead Redemption 2",
@@ -20455,7 +20420,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 20,
       "reviewCount": 176015,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -20507,7 +20472,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 25,
-      "reviewCount": 312188,
+      "reviewCount": 312244,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
@@ -20541,7 +20506,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 28,
-      "reviewCount": 95086,
+      "reviewCount": 95122,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
@@ -20558,7 +20523,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 29,
-      "reviewCount": 269716,
+      "reviewCount": 269771,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
     },
@@ -20626,7 +20591,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 34,
-      "reviewCount": 46277,
+      "reviewCount": 46295,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
@@ -20643,8 +20608,25 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 35,
-      "reviewCount": 265560,
+      "reviewCount": 265621,
       "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "570940",
+      "title": "DARK SOULS™: REMASTERED",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg",
+      "originalPrice": 799,
+      "discountPrice": 399,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/570940",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 36,
+      "reviewCount": 102930,
+      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20659,27 +20641,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 36,
+      "popularRank": 37,
       "reviewCount": 60254,
       "reviewPercent": 75,
       "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "570940",
-      "title": "DARK SOULS™: REMASTERED",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/capsule_616x353.jpg",
-      "originalPrice": 799,
-      "discountPrice": 399,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/570940",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 37,
-      "reviewCount": 102930,
-      "reviewPercent": 92,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "255710",
@@ -20699,23 +20664,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 39,
-      "reviewCount": 159423,
-      "reviewPercent": 88,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1817070",
       "title": "Marvel’s Spider-Man Remastered",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
@@ -20727,10 +20675,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 40,
+      "popularRank": 39,
       "reviewCount": 104878,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 40,
+      "reviewCount": 159423,
+      "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1238840",
@@ -21016,7 +20981,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 63511,
+      "reviewCount": 63514,
       "reviewPercent": 75,
       "reviewLabel": "переважно схвальні"
     },
@@ -21032,7 +20997,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 175121,
+      "reviewCount": 175134,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
@@ -21069,6 +21034,22 @@
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "447040",
+      "title": "Watch_Dogs® 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/capsule_616x353.jpg",
+      "originalPrice": 915,
+      "discountPrice": 137,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/447040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 99837,
+      "reviewPercent": 81,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "208650",
       "title": "Batman™: Arkham Knight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/capsule_616x353.jpg",
@@ -21080,7 +21061,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 113043,
+      "reviewCount": 113052,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -21179,6 +21160,22 @@
       "reviewCount": 108259,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 237,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/601150",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 120741,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1222700",
@@ -21432,7 +21429,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 45994,
+      "reviewCount": 46000,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
     },
@@ -21720,7 +21717,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 215717,
+      "reviewCount": 215727,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -21930,6 +21927,22 @@
       "isPopular": false,
       "reviewCount": 46128,
       "reviewPercent": 81,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1151640",
+      "title": "Horizon Zero Dawn™ Complete Edition",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 749,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1151640",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 95952,
+      "reviewPercent": 87,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -22350,7 +22363,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 22651,
+      "reviewCount": 22664,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -22512,7 +22525,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 10139,
+      "reviewCount": 10140,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
@@ -22828,7 +22841,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 1678,
+      "reviewCount": 1696,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
     },
@@ -22848,6 +22861,24 @@
       "parentAppId": "1158310",
       "reviewCount": 1466,
       "reviewPercent": 73,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "3368610",
+      "title": "Kingdom Come: Deliverance II Legacy of the Forge",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368610/7453a4c7776509b89124294b4589ba55e54683da/capsule_616x353.jpg",
+      "originalPrice": 373,
+      "discountPrice": 223,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3368610",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "isDlc": true,
+      "parentAppId": "1771300",
+      "reviewCount": 1835,
+      "reviewPercent": 70,
       "reviewLabel": "переважно схвальні"
     },
     {
@@ -22979,7 +23010,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/sniper-ghost-warrior-contracts-2/9NV8BWGH15GN",
       "description": "Sniper Ghost Warrior Contracts 2 now includes ‘Butcher’s Banquet’: a major expansion which introduces an entirely new and expansive region - The Temple - complete with all-new objectives and some of y",
       "isNew": true,
-      "isPopular": false
+      "isPopular": false,
+      "originalPrice": 1195,
+      "discountPrice": 119.5,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9N3P3TRJGWV0",
@@ -23060,7 +23096,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/firefighting-simulator-ignite/9N8RKWJT32L4",
       "description": "РАЗОМ ПРОТИ ВОГНЮ. Сміливо долайте непередбачувані загрози, гасіть нищівний вогонь разом із командою й рятуйте життя в Firefighting Simulator: Ignite. Відчуйте себе справжнім американським пожежником ",
       "isNew": true,
-      "isPopular": false
+      "isPopular": false,
+      "originalPrice": 1230,
+      "discountPrice": 615,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9N4NKMXDZCX6",
@@ -23123,7 +23164,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/final-fantasy-vii-remake-intergrade/9NRQVQ7ZRM7Z",
       "description": "*Please note that FINAL FANTASY VII REMAKE INTERGRADE Digital Deluxe Edition contains certain items not available in this bundle. The award-winning FINAL FANTASY VII REMAKE INTERGRADE* retells the ori",
       "isNew": true,
-      "isPopular": false
+      "isPopular": false,
+      "originalPrice": 1499,
+      "discountPrice": 299.8,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9PNRLJNDPP4G",
@@ -23177,7 +23223,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/bluey-s-happy-snaps/9NQVHHW88XW9",
       "description": "Play, explore, and capture moments with Bluey and Bingo in this photo-powered adventure across familiar spots from the show. Snap memories solo or side-by-side with a second player, discover Australia",
       "isNew": true,
-      "isPopular": false
+      "isPopular": false,
+      "originalPrice": 1199,
+      "discountPrice": 839.3,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9P861V1542BL",
@@ -23204,7 +23255,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/deep-dish-dungeon/9PPF72ZH6RP8",
       "description": "Deep Dish Dungeon is a dungeon crawler and exploration game that rewards curiosity and resourcefulness. In an atmospheric environment, explore corridors, rooms and passageways solo or with up to two f",
       "isNew": true,
-      "isPopular": false
+      "isPopular": false,
+      "originalPrice": 525,
+      "discountPrice": 420,
+      "discountPercent": 20,
+      "currency": "UAH",
+      "isDeal": false
     },
     {
       "id": "9N72DFC6GL91",
@@ -23231,7 +23287,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/neon-abyss-2/9P5QV5XX8S9H",
       "description": "Зануртеся глибше в хаотичну Безодню в Neon Abyss 2! Події розгортаються ще стрімкіше, ставки стають іще вищими, а можливості — безмежними. На вас чекають перестрілки в стилі «біжи та стріляй», різнома",
       "isNew": true,
-      "isPopular": false
+      "isPopular": false,
+      "originalPrice": 700,
+      "discountPrice": 525,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9N4PT8HGCDHQ",
@@ -23240,7 +23301,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/gears-of-war-e-day/9N4PT8HGCDHQ",
       "description": "Початок вторгнення Відчуйте жах і жорстокість Дня вторгнення Чотирнадцять років до оригінальної Gears of War — приєднуйтеся до Маркуса Фенікса та Домініка Сантьяго в оригінальній напруженій сюжетній к",
       "isNew": true,
-      "isPopular": true
+      "isPopular": true,
+      "originalPrice": 2460,
+      "discountPrice": 1722,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9PM3J18QM4Q3",
@@ -23285,7 +23351,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-6-standard-edition/9N431PX143P8",
       "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend at the Horizon Festival. Start your journey as a tourist and explore a world full of hit music and ",
       "isNew": false,
-      "isPopular": true
+      "isPopular": true,
+      "originalPrice": 2299,
+      "discountPrice": 1724.25,
+      "discountPercent": 25,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9N8KMNW6942X",
@@ -23384,7 +23455,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/dune-awakening/9PJ6FV3130QZ",
       "description": "Dune: Awakening — це рольова гра в жанрі «виживання» у відкритому світі, який можна вивчати як в одноосібному, так і в багатоосібному режимах. Досліджуйте, будуйте, майструйте й дізнавайтеся видовищну",
       "isNew": false,
-      "isPopular": true
+      "isPopular": true,
+      "originalPrice": 1755,
+      "discountPrice": 1228.5,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9P2VGCTBMM52",
@@ -23393,7 +23469,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/microsoft-flight-simulator-2024-standard-edition/9P2VGCTBMM52",
       "description": "Видання Standard Досліджуйте світ на літаках з нашого найбільшого для видання Standard авіаційного парку та відчуйте, що таке симулятор нового рівня, обравши кар’єру пілота авіації у Microsoft Flight ",
       "isNew": false,
-      "isPopular": true
+      "isPopular": true,
+      "originalPrice": 2400,
+      "discountPrice": 1680,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9NKX70BBCDRN",
@@ -23402,7 +23483,12 @@
       "url": "https://www.xbox.com/uk-UA/games/store/forza-horizon-5-standard-edition/9NKX70BBCDRN",
       "description": "Your Ultimate Horizon Adventure awaits! Explore the vibrant and ever-evolving open world landscapes of Mexico with limitless, fun driving action in hundreds of the world’s greatest cars.",
       "isNew": false,
-      "isPopular": true
+      "isPopular": true,
+      "originalPrice": 1540,
+      "discountPrice": 616,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "isDeal": true
     },
     {
       "id": "9N4W31HSMVVD",
@@ -23990,18 +24076,6 @@
       "isPopular": false
     },
     {
-      "id": "UP1001-PPSA01494_00-000000000000OAK2",
-      "title": "Borderlands®4",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202506/0210/214ca4b5cdbf9198e587396e71714b9147e669bbdaf07b0d.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/UP1001-PPSA01494_00-000000000000OAK2",
-      "originalPrice": 2999,
-      "discountPrice": 1499.5,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
       "id": "UP0006-PPSA29802_00-PVZRELOADEDGAME0",
       "title": "Plants vs. Zombies™: Replanted",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202507/1618/0d4797d63ad430bc8b2ab47771d7bf28adf6b34ceeb5ff61.png",
@@ -24137,6 +24211,18 @@
       "isPopular": false
     },
     {
+      "id": "UP1001-PPSA01494_00-000000000000OAK2",
+      "title": "Borderlands®4",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202506/0210/214ca4b5cdbf9198e587396e71714b9147e669bbdaf07b0d.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/UP1001-PPSA01494_00-000000000000OAK2",
+      "originalPrice": 2999,
+      "discountPrice": 1499.5,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
       "id": "EP2911-PPSA02262_00-DL2GAME0000000EU",
       "title": "Dying Light 2 Stay Human PS4&PS5",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202501/3115/420630164b84387c4355bacfe7fbd3a684716e703d573876.png",
@@ -24180,6 +24266,18 @@
       "originalPrice": 859,
       "discountPrice": 429.5,
       "discountPercent": 50,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
+      "id": "EP4064-PPSA01528_00-0538983162460184",
+      "title": "Overcooked! All You Can Eat",
+      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202109/2814/KBjM7tWNPQIy2nca7OhRRwlf.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP4064-PPSA01528_00-0538983162460184",
+      "originalPrice": 1199,
+      "discountPrice": 407.66,
+      "discountPercent": 66,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
