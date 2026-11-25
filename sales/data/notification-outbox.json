@@ -16872,6 +16872,176 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T05:54:36.444Z"
+    },
+    {
+      "id": "00c7b0aba859e9a38e938fdd",
+      "createdAt": "2026-11-25T06:00:30.232Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Sniper Ghost Warrior Contracts 2</b>\n🏷️ Знижка: <b>-90%</b>\n💰 Ціна: <s>1 195 грн</s> ➡️ <b>119,5 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Sniper Ghost Warrior Contracts 2 now includes ‘Butcher’s Banquet’: a major expansion which introduces an entirely new a…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.39546.14403486953530579.6bfc3ab0-0fcb-4aba-afa5-8c49b9b8755d.35198801-8741-4302-8e1a-422d0a71aec2",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/sniper-ghost-warrior-contracts-2/9NV8BWGH15GN"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "gamepass_deal_9NV8BWGH15GN",
+          "entry": {
+            "title": "Sniper Ghost Warrior Contracts 2",
+            "price": 119.5,
+            "percent": 90,
+            "timestamp": "2026-11-25T06:00:30.232Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "5abbc73d92b443ffe80681ca",
+      "createdAt": "2026-11-25T06:00:30.232Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>FINAL FANTASY VII REMAKE INTERGRADE</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>1 499 грн</s> ➡️ <b>299,8 грн</b>\n✅ Також у підписці PC Game Pass\n<i>*Please note that FINAL FANTASY VII REMAKE INTERGRADE Digital Deluxe Edition contains certain items not available in th…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.64582.14378305291947412.bd502b16-8ce7-4985-8334-40c582006123.7dacdd77-ab81-44f4-9b29-57bd03674165",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/final-fantasy-vii-remake-intergrade/9NRQVQ7ZRM7Z"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "gamepass_deal_9NRQVQ7ZRM7Z",
+          "entry": {
+            "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+            "price": 299.8,
+            "percent": 80,
+            "timestamp": "2026-11-25T06:00:30.232Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "fef218c659f359af492ae51f",
+      "createdAt": "2026-11-25T06:00:30.232Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Firefighting Simulator: Ignite</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 230 грн</s> ➡️ <b>615 грн</b>\n✅ Також у підписці PC Game Pass\n<i>РАЗОМ ПРОТИ ВОГНЮ. Сміливо долайте непередбачувані загрози, гасіть нищівний вогонь разом із командою й рятуйте життя в…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.30093.14039390486448903.600abc2c-9f2a-489a-8d46-0eefc0946576.5daffa7b-9822-43a9-87dd-a8e6ee21249b",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/firefighting-simulator-ignite/9N8RKWJT32L4"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "gamepass_deal_9N8RKWJT32L4",
+          "entry": {
+            "title": "Firefighting Simulator: Ignite",
+            "price": 615,
+            "percent": 50,
+            "timestamp": "2026-11-25T06:00:30.232Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "228c45f85381c21c600eded8",
+      "createdAt": "2026-11-25T06:00:30.232Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Bluey&#39;s Happy Snaps</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>1 199 грн</s> ➡️ <b>839,3 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Play, explore, and capture moments with Bluey and Bingo in this photo-powered adventure across familiar spots from the…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.13570.13762188493241252.c9eed3d4-2711-40bb-b507-e4c31d9fe3e1.76f113cf-8899-43f3-83de-e503e07ff7a3",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/bluey-s-happy-snaps/9NQVHHW88XW9"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "gamepass_deal_9NQVHHW88XW9",
+          "entry": {
+            "title": "Bluey's Happy Snaps",
+            "price": 839.3,
+            "percent": 30,
+            "timestamp": "2026-11-25T06:00:30.232Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "61775ae43415bdff6ca3abb0",
+      "createdAt": "2026-11-25T06:00:30.232Z",
+      "text": "🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n🎮 <b>Neon Abyss 2</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>700 грн</s> ➡️ <b>525 грн</b>\n✅ Також у підписці PC Game Pass\n<i>Зануртеся глибше в хаотичну Безодню в Neon Abyss 2! Події розгортаються ще стрімкіше, ставки стають іще вищими, а можли…</i>\n\n#gamepass #xbox #знижки",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.37622.14568732908027610.68635d5d-3a83-401c-989b-7640ee69ed9c.6d37d4c2-fa60-4549-8f7a-a7fe3f42441d",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/neon-abyss-2/9P5QV5XX8S9H"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "gamepass_deal_9P5QV5XX8S9H",
+          "entry": {
+            "title": "Neon Abyss 2",
+            "price": 525,
+            "percent": 25,
+            "timestamp": "2026-11-25T06:00:30.232Z",
+            "type": "gamepass_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
