@@ -31509,6 +31509,13 @@
       "percent": 50,
       "timestamp": "2026-11-25T05:54:01.216Z",
       "type": "discount"
+    },
+    "gamepass_deal_9NKX70BBCDRN": {
+      "title": "Forza Horizon 5 Standard Edition",
+      "price": 616,
+      "percent": 60,
+      "timestamp": "2026-11-25T05:54:01.216Z",
+      "type": "gamepass_deal"
     }
   }
 }
