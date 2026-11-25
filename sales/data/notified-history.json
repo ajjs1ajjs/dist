@@ -7033,5 +7033,12 @@
     "percent": 30,
     "timestamp": "2026-11-25T05:54:01.216Z",
     "type": "gamepass_deal"
+  },
+  "gamepass_deal_9PJ6FV3130QZ": {
+    "title": "Dune: Awakening",
+    "price": 1228.5,
+    "percent": 30,
+    "timestamp": "2026-11-25T05:54:01.216Z",
+    "type": "gamepass_deal"
   }
 }
