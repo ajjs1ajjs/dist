@@ -16248,6 +16248,96 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-24T23:00:42.510Z"
+    },
+    {
+      "id": "f092e9d0712b2200beedd6fb",
+      "createdAt": "2026-11-25T00:00:30.252Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1001-PPSA01494_00-000000000000OAK2\">Borderlands®4</a>\n  <b>-50%</b> · <s>2 999 грн</s> ➡️ <b>1 499,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1003-PPSA24884_00-HELIUM0000000000\">Starfield</a>\n  <b>-50%</b> · <s>1 499 грн</s> ➡️ <b>749,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP4108-PPSA32785_00-NIOH300000000000\">Nioh 3</a>\n  <b>-50%</b> · <s>2 199 грн</s> ➡️ <b>1 099,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0101-PPSA15368_00-GALUGA00PS5EU000\">Contra: Operation Galuga PS4 &amp; PS5</a>\n  <b>-50%</b> · <s>1 199 грн</s> ➡️ <b>599,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0634-PPSA04677_00-9725862811759774\">Five Nights at Freddy&#39;s: Security Breach</a>\n  <b>-50%</b> · <s>1 399 грн</s> ➡️ <b>699,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0006-PPSA23566_00-BASEUFC6GAME0000\">UFC™ 6</a>\n  <b>-40%</b> · <s>2 599 грн</s> ➡️ <b>1 559,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP9000-PPSA15508_00-THELASTOFUSPART2\">The Last of Us™ Part II Remastered</a>\n  <b>-40%</b> · <s>1 499 грн</s> ➡️ <b>899,4 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_UP1001-PPSA01494_00-000000000000OAK2",
+          "entry": {
+            "title": "Borderlands®4",
+            "price": 1499.5,
+            "percent": 50,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP1003-PPSA24884_00-HELIUM0000000000",
+          "entry": {
+            "title": "Starfield",
+            "price": 749.5,
+            "percent": 50,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP4108-PPSA32785_00-NIOH300000000000",
+          "entry": {
+            "title": "Nioh 3",
+            "price": 1099.5,
+            "percent": 50,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0101-PPSA15368_00-GALUGA00PS5EU000",
+          "entry": {
+            "title": "Contra: Operation Galuga PS4 & PS5",
+            "price": 599.5,
+            "percent": 50,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0634-PPSA04677_00-9725862811759774",
+          "entry": {
+            "title": "Five Nights at Freddy's: Security Breach",
+            "price": 699.5,
+            "percent": 50,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0006-PPSA23566_00-BASEUFC6GAME0000",
+          "entry": {
+            "title": "UFC™ 6",
+            "price": 1559.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP9000-PPSA15508_00-THELASTOFUSPART2",
+          "entry": {
+            "title": "The Last of Us™ Part II Remastered",
+            "price": 899.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T00:00:30.252Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
