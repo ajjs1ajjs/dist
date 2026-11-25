@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "13582ec9a5d9ccdcb73f02da",
-      "createdAt": "2026-11-11T09:00:30.457Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>iRacing</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>259 грн</s> ➡️ <b>103 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/266410\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_266410",
-          "entry": {
-            "title": "iRacing",
-            "price": 103,
-            "percent": 60,
-            "timestamp": "2026-11-11T09:00:30.457Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-11T09:00:33.769Z"
-    },
-    {
       "id": "805bf6187197a48c690f39cb",
       "createdAt": "2026-11-11T14:56:59.858Z",
       "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Thronefall</b>\n📝 Thronefall — це мінімалістична стратегічна гра, де вдень ви розбудовуєте маленьке королівство, а вночі його захищаєте. З…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/thronefall/9NWWL1CBWFCG\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
