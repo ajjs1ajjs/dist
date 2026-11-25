@@ -31467,6 +31467,13 @@
       "percent": 65,
       "timestamp": "2026-11-25T03:00:31.119Z",
       "type": "discount"
+    },
+    "ps_deal_EP0700-PPSA15210_00-DRAGONBALLSPARK0": {
+      "title": "DRAGON BALL: Sparking! ZERO",
+      "price": 899.4,
+      "percent": 40,
+      "timestamp": "2026-11-25T03:00:31.119Z",
+      "type": "ps_deal"
     }
   }
 }
