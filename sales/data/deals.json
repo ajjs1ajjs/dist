@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-25T10:00:34.696Z",
+  "lastUpdated": "2026-11-25T11:00:34.387Z",
   "sourceUpdates": {
-    "steam": "2026-11-25T10:00:34.696Z",
-    "gamepass": "2026-11-25T10:00:34.696Z",
-    "playstation": "2026-11-25T10:00:34.696Z"
+    "steam": "2026-11-25T11:00:34.387Z",
+    "gamepass": "2026-11-25T11:00:34.387Z",
+    "playstation": "2026-11-25T11:00:34.387Z"
   },
   "priceHistory": {
     "2600": [
@@ -20298,10 +20298,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 6,
+      "popularRank": 7,
       "reviewCount": 37984,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1222140",
+      "title": "Detroit: Become Human",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
+      "originalPrice": 1299,
+      "discountPrice": 129,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1222140",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 9,
+      "reviewCount": 233630,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2001120",
@@ -20315,7 +20332,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 9,
+      "popularRank": 10,
       "reviewCount": 79923,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
@@ -20332,28 +20349,11 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 9,
+      "popularRank": 10,
       "parentAppId": "1938090",
       "reviewCount": 12786,
       "reviewPercent": 68,
       "reviewLabel": "змішані"
-    },
-    {
-      "id": "1222140",
-      "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
-      "originalPrice": 1299,
-      "discountPrice": 129,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222140",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 10,
-      "reviewCount": 233630,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2483190",
@@ -20426,7 +20426,7 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg?t=1790874369",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg",
       "originalPrice": 1559,
       "discountPrice": 389,
       "discountPercent": 75,
@@ -20452,7 +20452,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 18,
+      "popularRank": 20,
       "reviewCount": 280555,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
@@ -20469,7 +20469,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 20,
+      "popularRank": 21,
       "reviewCount": 279298,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
@@ -20696,21 +20696,21 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
+      "url": "https://store.steampowered.com/app/668580",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 39,
-      "reviewCount": 104878,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
+      "reviewCount": 46918,
+      "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "3280350",
@@ -21205,9 +21205,25 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 108259,
+      "reviewCount": 108290,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "601150",
+      "title": "Devil May Cry 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 237,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/601150",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 120741,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1222700",
@@ -21338,22 +21354,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "668580",
-      "title": "Atomic Heart",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 299,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/668580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 46918,
-      "reviewPercent": 82,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "457140",
       "title": "Oxygen Not Included",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/capsule_616x353.jpg",
@@ -21365,7 +21365,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 137106,
+      "reviewCount": 137119,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -21637,7 +21637,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46390,
+      "reviewCount": 46413,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
@@ -21738,6 +21738,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 104878,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
       "id": "1466860",
       "title": "Age of Empires IV: Anniversary Edition",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1466860/capsule_616x353.jpg",
@@ -21765,7 +21781,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 215738,
+      "reviewCount": 215760,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -21868,7 +21884,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/6ec523ac63e60d52f3507929631e4f8b18e876e8/capsule_231x87_alt_assets_15.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -21877,7 +21893,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 61103,
+      "reviewCount": 61162,
       "reviewPercent": 87,
       "reviewLabel": "дуже схвальні"
     },
@@ -22103,7 +22119,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46844,
+      "reviewCount": 46856,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
@@ -22199,7 +22215,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 2089,
+      "reviewCount": 2100,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
@@ -22352,22 +22368,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "2457220",
-      "title": "Avowed",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2457220/capsule_616x353.jpg",
-      "originalPrice": 1599,
-      "discountPrice": 799,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2457220",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 12885,
-      "reviewPercent": 76,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "2104890",
       "title": "RoadCraft",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
@@ -22395,7 +22395,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 161133,
+      "reviewCount": 161142,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
@@ -22475,7 +22475,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12193,
+      "reviewCount": 12196,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -22573,7 +22573,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 10140,
+      "reviewCount": 10148,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
