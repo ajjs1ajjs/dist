@@ -31551,6 +31551,13 @@
       "percent": 66,
       "timestamp": "2026-11-25T05:54:01.216Z",
       "type": "ps_deal"
+    },
+    "gamepass_deal_9NV8BWGH15GN": {
+      "title": "Sniper Ghost Warrior Contracts 2",
+      "price": 119.5,
+      "percent": 90,
+      "timestamp": "2026-11-25T06:00:30.232Z",
+      "type": "gamepass_deal"
     }
   }
 }
