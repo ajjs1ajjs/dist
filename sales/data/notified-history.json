@@ -7145,5 +7145,12 @@
     "percent": 72,
     "timestamp": "2026-11-25T19:00:38.592Z",
     "type": "discount"
+  },
+  "steam_discount_2124490": {
+    "title": "SILENT HILL 2",
+    "price": 368,
+    "percent": 72,
+    "timestamp": "2026-11-25T20:00:30.600Z",
+    "type": "discount"
   }
 }
