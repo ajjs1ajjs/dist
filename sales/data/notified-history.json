@@ -7117,5 +7117,12 @@
     "percent": 50,
     "timestamp": "2026-11-25T12:00:36.064Z",
     "type": "discount"
+  },
+  "steam_dlc_2214821": {
+    "title": "Atomic Heart - Annihilation Instinct",
+    "price": 84,
+    "percent": 50,
+    "timestamp": "2026-11-25T15:00:34.934Z",
+    "type": "dlc"
   }
 }
