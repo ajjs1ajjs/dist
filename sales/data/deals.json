@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-25T14:00:35.146Z",
+  "lastUpdated": "2026-11-25T15:00:34.934Z",
   "sourceUpdates": {
-    "steam": "2026-11-25T14:00:35.146Z",
-    "gamepass": "2026-11-25T14:00:35.146Z",
-    "playstation": "2026-11-25T14:00:35.146Z"
+    "steam": "2026-11-25T15:00:34.934Z",
+    "gamepass": "2026-11-25T15:00:34.934Z",
+    "playstation": "2026-11-25T15:00:34.934Z"
   },
   "priceHistory": {
     "2600": [
@@ -12082,6 +12082,13 @@
         "currency": "UAH"
       }
     ],
+    "2214821": [
+      {
+        "date": "2026-11-25",
+        "price": 84,
+        "currency": "UAH"
+      }
+    ],
     "2214823": [
       {
         "date": "2026-11-25",
@@ -20295,7 +20302,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 3,
+      "popularRank": 4,
       "reviewCount": 765203,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -20333,24 +20340,6 @@
       "reviewCount": 97580,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
-      "originalPrice": 2449,
-      "discountPrice": 2081,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 9,
-      "parentAppId": "1938090",
-      "reviewCount": 12786,
-      "reviewPercent": 68,
-      "reviewLabel": "змішані"
     },
     {
       "id": "1222140",
@@ -20432,7 +20421,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 16,
+      "popularRank": 15,
       "reviewCount": 149505,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -20449,26 +20438,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 17,
+      "popularRank": 18,
       "reviewCount": 140134,
       "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 20,
-      "reviewCount": 280555,
-      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20483,7 +20455,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 20,
       "reviewCount": 263497,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
@@ -20500,7 +20472,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 23,
+      "popularRank": 21,
       "reviewCount": 279298,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
@@ -20517,9 +20489,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 24,
+      "popularRank": 22,
       "reviewCount": 66527,
       "reviewPercent": 93,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 24,
+      "reviewCount": 280555,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20608,6 +20597,23 @@
       "reviewLabel": "переважно схвальні"
     },
     {
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/668580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 31,
+      "reviewCount": 46918,
+      "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1145350",
       "title": "Hades II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/65e1c51cf2950d70209d63e288d1c5ba3f86044b/capsule_616x353.jpg",
@@ -20625,20 +20631,20 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "668580",
-      "title": "Atomic Heart",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 299,
-      "discountPercent": 80,
+      "id": "1401590",
+      "title": "Disney Dreamlight Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 719,
+      "discountPercent": 40,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/668580",
+      "url": "https://store.steampowered.com/app/1401590",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 33,
-      "reviewCount": 46918,
-      "reviewPercent": 82,
+      "reviewCount": 22663,
+      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20654,7 +20660,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 34,
-      "reviewCount": 25570,
+      "reviewCount": 25593,
       "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
@@ -20670,7 +20676,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 35,
+      "popularRank": 36,
       "reviewCount": 46295,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
@@ -20687,7 +20693,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 36,
+      "popularRank": 37,
       "reviewCount": 858966,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
@@ -20704,26 +20710,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 37,
+      "popularRank": 38,
       "reviewCount": 68160,
       "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "3280350",
-      "title": "DEATH STRANDING 2: ON THE BEACH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
-      "originalPrice": 2299,
-      "discountPrice": 1540,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3280350",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 38,
-      "reviewCount": 17446,
-      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -20744,20 +20733,20 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "255710",
-      "title": "Cities: Skylines",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/c950fea5ca1836a8727dabf7da3393c1941f1bc3/capsule_616x353.jpg",
-      "originalPrice": 809,
-      "discountPrice": 242,
-      "discountPercent": 70,
+      "id": "3280350",
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
+      "originalPrice": 2299,
+      "discountPrice": 1540,
+      "discountPercent": 33,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/255710",
+      "url": "https://store.steampowered.com/app/3280350",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 220453,
-      "reviewPercent": 92,
+      "reviewCount": 17446,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21124,7 +21113,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 113052,
+      "reviewCount": 113055,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -21191,6 +21180,22 @@
       "reviewCount": 19625,
       "reviewPercent": 76,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "1057090",
+      "title": "Ori and the Will of the Wisps",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/capsule_616x353.jpg",
+      "originalPrice": 379,
+      "discountPrice": 94,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1057090",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 143824,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "236850",
@@ -21367,6 +21372,22 @@
       "reviewCount": 34981,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "255710",
+      "title": "Cities: Skylines",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/c950fea5ca1836a8727dabf7da3393c1941f1bc3/capsule_616x353.jpg",
+      "originalPrice": 809,
+      "discountPrice": 242,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/255710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 220453,
+      "reviewPercent": 92,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "457140",
@@ -21558,22 +21579,6 @@
       "isPopular": false,
       "reviewCount": 323725,
       "reviewPercent": 88,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "916440",
-      "title": "Anno 1800",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/bda65ed0b2a022b7fa304b6a87aec3f2248bf6e8/capsule_616x353.jpg",
-      "originalPrice": 915,
-      "discountPrice": 228,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/916440",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 30384,
-      "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21972,7 +21977,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 13645,
+      "reviewCount": 13646,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -22118,7 +22123,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46858,
+      "reviewCount": 46860,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
@@ -22182,7 +22187,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 8769,
+      "reviewCount": 8772,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
     },
@@ -22399,22 +22404,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1401590",
-      "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 719,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1401590",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 22663,
-      "reviewPercent": 92,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1486920",
       "title": "Tempest Rising",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1486920/912913984858854c1e9e82a1ad4eecef9e5c5c54/capsule_616x353.jpg",
@@ -22458,7 +22447,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12129,
+      "reviewCount": 12132,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
@@ -22693,6 +22682,24 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "2214821",
+      "title": "Atomic Heart - Annihilation Instinct",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214821/capsule_616x353.jpg",
+      "originalPrice": 169,
+      "discountPrice": 84,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2214821",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "isDlc": true,
+      "parentAppId": "668580",
+      "reviewCount": 1814,
+      "reviewPercent": 70,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "2840100",
       "title": "Stellaris: The Machine Age",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840100/capsule_616x353.jpg",
@@ -22877,6 +22884,24 @@
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "2311920",
+      "title": "Crusader Kings III: Tours & Tournaments",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2311920/capsule_616x353.jpg",
+      "originalPrice": 809,
+      "discountPrice": 485,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2311920",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "isDlc": true,
+      "parentAppId": "1158310",
+      "reviewCount": 1466,
+      "reviewPercent": 73,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1368140",
       "title": "Corsair Cove",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368140/8ad275589211455dbd44cb992f18e7b677ae77f5/capsule_616x353.jpg",
@@ -22888,7 +22913,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 3428,
+      "reviewCount": 3430,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
