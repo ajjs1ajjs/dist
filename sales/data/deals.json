@@ -31718,6 +31718,13 @@
       "percent": 40,
       "timestamp": "2026-11-25T21:00:34.782Z",
       "type": "discount"
+    },
+    "steam_discount_690830": {
+      "title": "Foundation",
+      "price": 420,
+      "percent": 40,
+      "timestamp": "2026-11-25T22:00:31.703Z",
+      "type": "discount"
     }
   }
 }
