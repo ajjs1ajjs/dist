@@ -31537,6 +31537,13 @@
       "percent": 30,
       "timestamp": "2026-11-25T05:54:01.216Z",
       "type": "gamepass_deal"
+    },
+    "gamepass_deal_9N431PX143P8": {
+      "title": "Forza Horizon 6 Standard Edition",
+      "price": 1724.25,
+      "percent": 25,
+      "timestamp": "2026-11-25T05:54:01.216Z",
+      "type": "gamepass_deal"
     }
   }
 }
