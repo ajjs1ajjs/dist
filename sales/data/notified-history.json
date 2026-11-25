@@ -7131,5 +7131,12 @@
     "percent": 100,
     "timestamp": "2026-11-25T17:00:29.606Z",
     "type": "ps_essential"
+  },
+  "ps_essential_dragon-ball-xenoverse-2": {
+    "title": "Dragon Ball Xenoverse 2",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-25T17:00:29.606Z",
+    "type": "ps_essential"
   }
 }
