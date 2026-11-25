@@ -6998,5 +6998,12 @@
     "percent": 25,
     "timestamp": "2026-11-25T02:00:29.333Z",
     "type": "ps_deal"
+  },
+  "steam_discount_703080": {
+    "title": "Planet Zoo",
+    "price": 306,
+    "percent": 70,
+    "timestamp": "2026-11-25T03:00:31.119Z",
+    "type": "discount"
   }
 }
