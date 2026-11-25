@@ -31460,6 +31460,13 @@
       "percent": 70,
       "timestamp": "2026-11-25T03:00:31.119Z",
       "type": "discount"
+    },
+    "steam_discount_2688950": {
+      "title": "Planet Coaster 2",
+      "price": 420,
+      "percent": 65,
+      "timestamp": "2026-11-25T03:00:31.119Z",
+      "type": "discount"
     }
   }
 }
