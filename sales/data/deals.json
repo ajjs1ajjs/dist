@@ -31628,6 +31628,13 @@
       "percent": 100,
       "timestamp": "2026-11-25T17:00:29.606Z",
       "type": "ps_essential"
+    },
+    "steam_discount_1182900": {
+      "title": "A Plague Tale: Requiem",
+      "price": 462,
+      "percent": 75,
+      "timestamp": "2026-11-25T17:50:20.964Z",
+      "type": "discount"
     }
   }
 }
