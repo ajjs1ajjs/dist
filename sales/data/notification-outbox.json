@@ -17082,6 +17082,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T07:00:40.259Z"
+    },
+    {
+      "id": "ab35af4d7554fc94837c9547",
+      "createdAt": "2026-11-25T09:00:29.593Z",
+      "text": "🧩 <b>ЗНИЖКА НА DLC У STEAM!</b>\n\n🎮 <b>Atomic Heart - Enchantment Under the Sea</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>169 грн</s> ➡️ <b>101 грн</b>\n👍 Відгуки: <b>92%</b> (1.5K)\n\n#steam #dlc #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214823/9ae715e97640fa475b987ed3bf925a8c09a614ee/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити DLC в Steam",
+              "url": "https://store.steampowered.com/app/2214823"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_dlc_2214823",
+          "entry": {
+            "title": "Atomic Heart - Enchantment Under the Sea",
+            "price": 101,
+            "percent": 40,
+            "timestamp": "2026-11-25T09:00:29.593Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "46aef9ca6c0cbb7d311c179b",
+      "createdAt": "2026-11-25T09:00:29.593Z",
+      "text": "🎮 <b>ЗНИЖКА PLAYSTATION 5!</b>\n\n🎮 <b>ROMEO IS A DEAD MAN</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 104,35 грн</b>\n\n#ps5 #знижки",
+      "photoUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202511/2104/cd285e0a8325c2fd2a1fbb089af3e06e55e53329240c7bb6.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/product/EP7562-PPSA34861_00-0144352911871192"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_deal_EP7562-PPSA34861_00-0144352911871192",
+          "entry": {
+            "title": "ROMEO IS A DEAD MAN",
+            "price": 1104.35,
+            "percent": 35,
+            "timestamp": "2026-11-25T09:00:29.593Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
