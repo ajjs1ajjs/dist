@@ -7152,5 +7152,12 @@
     "percent": 72,
     "timestamp": "2026-11-25T20:00:30.600Z",
     "type": "discount"
+  },
+  "steam_discount_4000": {
+    "title": "Garry's Mod",
+    "price": 84,
+    "percent": 50,
+    "timestamp": "2026-11-25T20:00:30.600Z",
+    "type": "discount"
   }
 }
