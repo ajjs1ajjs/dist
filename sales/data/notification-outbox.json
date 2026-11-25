@@ -16430,6 +16430,96 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T01:00:35.864Z"
+    },
+    {
+      "id": "cf39cf45286d82a623d91394",
+      "createdAt": "2026-11-25T02:00:29.333Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0001-PPSA07497_00-AVATAR2GAME00001\">Avatar: Frontiers of Pandora™</a>\n  <b>-50%</b> · <s>859 грн</s> ➡️ <b>429,5 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP6322-PPSA18605_00-0342498734252743\">Ready or Not</a>\n  <b>-30%</b> · <s>1 499 грн</s> ➡️ <b>1 049,3 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1018-PPSA16833_00-LEGOBATMAN000000\">LEGO® Batman™: Legacy of the Dark Knight</a>\n  <b>-30%</b> · <s>1 999 грн</s> ➡️ <b>1 399,3 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1833-PPSA02391_00-DUNEAWAKENING000\">Dune: Awakening</a>\n  <b>-30%</b> · <s>1 699 грн</s> ➡️ <b>1 189,3 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP9000-PPSA03671_00-MARVELSWOLVERINE\">Marvel&#39;s Wolverine</a>\n  <b>-25%</b> · <s>2 199 грн</s> ➡️ <b>1 649,25 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0001-PPSA28183_00-GAME000000000000\">Assassin&#39;s Creed Black Flag Resynced</a>\n  <b>-25%</b> · <s>1 799 грн</s> ➡️ <b>1 349,25 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/HP1597-PPSA25717_00-ENDOFABYSS000000\">End of Abyss</a>\n  <b>-25%</b> · <s>642 грн</s> ➡️ <b>481,5 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP0001-PPSA07497_00-AVATAR2GAME00001",
+          "entry": {
+            "title": "Avatar: Frontiers of Pandora™",
+            "price": 429.5,
+            "percent": 50,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP6322-PPSA18605_00-0342498734252743",
+          "entry": {
+            "title": "Ready or Not",
+            "price": 1049.3,
+            "percent": 30,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP1018-PPSA16833_00-LEGOBATMAN000000",
+          "entry": {
+            "title": "LEGO® Batman™: Legacy of the Dark Knight",
+            "price": 1399.3,
+            "percent": 30,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP1833-PPSA02391_00-DUNEAWAKENING000",
+          "entry": {
+            "title": "Dune: Awakening",
+            "price": 1189.3,
+            "percent": 30,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP9000-PPSA03671_00-MARVELSWOLVERINE",
+          "entry": {
+            "title": "Marvel's Wolverine",
+            "price": 1649.25,
+            "percent": 25,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0001-PPSA28183_00-GAME000000000000",
+          "entry": {
+            "title": "Assassin's Creed Black Flag Resynced",
+            "price": 1349.25,
+            "percent": 25,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_HP1597-PPSA25717_00-ENDOFABYSS000000",
+          "entry": {
+            "title": "End of Abyss",
+            "price": 481.5,
+            "percent": 25,
+            "timestamp": "2026-11-25T02:00:29.333Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
