@@ -587,13 +587,6 @@
     "timestamp": "2026-10-26T18:00:29.496Z",
     "type": "gamepass"
   },
-  "steam_discount_252490": {
-    "title": "Rust",
-    "price": 389,
-    "percent": 50,
-    "timestamp": "2026-10-26T19:00:28.666Z",
-    "type": "discount"
-  },
   "steam_discount_275850": {
     "title": "No Man's Sky",
     "price": 450,

@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "12407b168296a39fbd5a1a66",
-      "createdAt": "2026-11-11T19:00:29.466Z",
-      "text": "🎮 <b>НОВІ ІГРИ В PC GAME PASS!</b>\n\n🎮 <b>Hope in the City</b>\n📝 Your sketches may be the only clues you have. Play as 17-year-old Hope Song in this narrative mystery set in Shenyang, C…\n✅ Доступно в PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/hope-in-the-city/9P1S707BPW6W\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "gamepass_9P1S707BPW6W",
-          "entry": {
-            "title": "Hope in the City",
-            "price": 0,
-            "percent": 0,
-            "timestamp": "2026-11-11T19:00:29.466Z",
-            "type": "gamepass"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-11T19:00:32.948Z"
-    },
-    {
       "id": "559459eec3db5b5075c5de9d",
       "createdAt": "2026-11-11T20:02:53.734Z",
       "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>Diablo II: Resurrected - Infernal Edition</b>\n🏷️ Знижка: <b>-35%</b>\n💰 Ціна: <s>1 699 грн</s> ➡️ <b>1 104 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/2536520\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
@@ -17322,6 +17302,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T17:50:27.836Z"
+    },
+    {
+      "id": "c2746adbe3d2d1cd9166b333",
+      "createdAt": "2026-11-25T19:00:38.592Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>SILENT HILL f</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>1 475 грн</s> ➡️ <b>413 грн</b>\n👍 Відгуки: <b>80%</b> (20K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2947440"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_2947440",
+          "entry": {
+            "title": "SILENT HILL f",
+            "price": 413,
+            "percent": 72,
+            "timestamp": "2026-11-25T19:00:38.592Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
