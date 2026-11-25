@@ -7026,5 +7026,12 @@
     "percent": 60,
     "timestamp": "2026-11-25T05:54:01.216Z",
     "type": "gamepass_deal"
+  },
+  "gamepass_deal_9N4PT8HGCDHQ": {
+    "title": "Gears of War: E-Day",
+    "price": 1722,
+    "percent": 30,
+    "timestamp": "2026-11-25T05:54:01.216Z",
+    "type": "gamepass_deal"
   }
 }
