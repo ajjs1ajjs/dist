@@ -16339,6 +16339,96 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T00:00:36.686Z"
+    },
+    {
+      "id": "3eb0a5cdf823f0809ca062e4",
+      "createdAt": "2026-11-25T01:00:30.208Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0700-PPSA10594_00-TEKKEN8000000000\">TEKKEN 8</a>\n  <b>-40%</b> · <s>1 199 грн</s> ➡️ <b>719,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1003-PPSA26786_00-INDIANAJONESATGC\">Indiana Jones and the Great Circle</a>\n  <b>-40%</b> · <s>2 199 грн</s> ➡️ <b>1 319,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/UP1003-PPSA21203_00-ALTAR00000000000\">The Elder Scrolls IV: Oblivion Remastered</a>\n  <b>-40%</b> · <s>1 799 грн</s> ➡️ <b>1 079,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP1001-PPSA14299_00-00000NEROPS5SIEE\">Mafia: The Old Country</a>\n  <b>-40%</b> · <s>1 999 грн</s> ➡️ <b>1 199,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/JP0177-PPSA08804_00-SONICRACINGCW000\">Sonic Racing: CrossWorlds PS4 &amp; PS5</a>\n  <b>-40%</b> · <s>1 349 грн</s> ➡️ <b>809,4 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP9000-PPSA07631_00-SAROS00000000000\">SAROS</a>\n  <b>-38%</b> · <s>2 199 грн</s> ➡️ <b>1 363,38 грн</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0082-PPSA28101_00-0821634695257710\">Life is Strange: Reunion</a>\n  <b>-35%</b> · <s>1 499 грн</s> ➡️ <b>974,35 грн</b>\n\n#ps5 #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP0700-PPSA10594_00-TEKKEN8000000000",
+          "entry": {
+            "title": "TEKKEN 8",
+            "price": 719.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP1003-PPSA26786_00-INDIANAJONESATGC",
+          "entry": {
+            "title": "Indiana Jones and the Great Circle",
+            "price": 1319.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_UP1003-PPSA21203_00-ALTAR00000000000",
+          "entry": {
+            "title": "The Elder Scrolls IV: Oblivion Remastered",
+            "price": 1079.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP1001-PPSA14299_00-00000NEROPS5SIEE",
+          "entry": {
+            "title": "Mafia: The Old Country",
+            "price": 1199.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_JP0177-PPSA08804_00-SONICRACINGCW000",
+          "entry": {
+            "title": "Sonic Racing: CrossWorlds PS4 & PS5",
+            "price": 809.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP9000-PPSA07631_00-SAROS00000000000",
+          "entry": {
+            "title": "SAROS",
+            "price": 1363.38,
+            "percent": 38,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        },
+        {
+          "key": "ps_deal_EP0082-PPSA28101_00-0821634695257710",
+          "entry": {
+            "title": "Life is Strange: Reunion",
+            "price": 974.35,
+            "percent": 35,
+            "timestamp": "2026-11-25T01:00:30.208Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
