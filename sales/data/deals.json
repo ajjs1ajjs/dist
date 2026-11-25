@@ -31687,6 +31687,13 @@
       "percent": 60,
       "timestamp": "2026-11-25T21:00:34.782Z",
       "type": "discount"
+    },
+    "steam_discount_2417610": {
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+      "price": 885,
+      "percent": 40,
+      "timestamp": "2026-11-25T21:00:34.782Z",
+      "type": "discount"
     }
   }
 }
