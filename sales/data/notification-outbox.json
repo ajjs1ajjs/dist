@@ -17287,6 +17287,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T17:00:39.619Z"
+    },
+    {
+      "id": "c7830fe612c225de6eba8113",
+      "createdAt": "2026-11-25T17:50:20.964Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>A Plague Tale: Requiem</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 849 грн</s> ➡️ <b>462 грн</b>\n👍 Відгуки: <b>90%</b> (22K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1182900/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1182900"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1182900",
+          "entry": {
+            "title": "A Plague Tale: Requiem",
+            "price": 462,
+            "percent": 75,
+            "timestamp": "2026-11-25T17:50:20.964Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
