@@ -17475,6 +17475,76 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T22:00:37.269Z"
+    },
+    {
+      "id": "7b9b19f0e39994178ac067a0",
+      "createdAt": "2026-11-25T23:00:32.948Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Project Wingman</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>329 грн</s> ➡️ <b>164 грн</b>\n👍 Відгуки: <b>94%</b> (19K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/895870/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/895870"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_895870",
+          "entry": {
+            "title": "Project Wingman",
+            "price": 164,
+            "percent": 50,
+            "timestamp": "2026-11-25T23:00:32.948Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "9bf79331f4572241524d5216",
+      "createdAt": "2026-11-25T23:00:32.948Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Sunderfolk</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>925 грн</s> ➡️ <b>231 грн</b>\n👍 Відгуки: <b>93%</b> (1.9K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414270/01717410bff12ab090340d59e518159dbf900202/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2414270"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_2414270",
+          "entry": {
+            "title": "Sunderfolk",
+            "price": 231,
+            "percent": 75,
+            "timestamp": "2026-11-25T23:00:32.948Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
