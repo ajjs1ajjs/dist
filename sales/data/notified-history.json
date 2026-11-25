@@ -7159,5 +7159,12 @@
     "percent": 50,
     "timestamp": "2026-11-25T20:00:30.600Z",
     "type": "discount"
+  },
+  "steam_discount_393380": {
+    "title": "Squad",
+    "price": 624,
+    "percent": 60,
+    "timestamp": "2026-11-25T21:00:34.782Z",
+    "type": "discount"
   }
 }
