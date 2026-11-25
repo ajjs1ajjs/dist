@@ -17337,6 +17337,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T19:00:45.450Z"
+    },
+    {
+      "id": "26091b355d305ac2d797aac7",
+      "createdAt": "2026-11-25T20:00:30.600Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>SILENT HILL 2</b>\n🏷️ Знижка: <b>-72%</b>\n💰 Ціна: <s>1 315 грн</s> ➡️ <b>368 грн</b>\n👍 Відгуки: <b>94%</b> (45K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2124490"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_2124490",
+          "entry": {
+            "title": "SILENT HILL 2",
+            "price": 368,
+            "percent": 72,
+            "timestamp": "2026-11-25T20:00:30.600Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c3332990ef34b6a8ddec579b",
+      "createdAt": "2026-11-25T20:00:30.600Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Garry&#39;s Mod</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>169 грн</s> ➡️ <b>84 грн</b>\n👍 Відгуки: <b>96%</b> (1.1M)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/ecae0f862ac2f087f1581122999dd1e6281ce3b5/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/4000"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_4000",
+          "entry": {
+            "title": "Garry's Mod",
+            "price": 84,
+            "percent": 50,
+            "timestamp": "2026-11-25T20:00:30.600Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
