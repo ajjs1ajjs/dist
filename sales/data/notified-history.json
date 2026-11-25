@@ -7103,5 +7103,12 @@
     "percent": 25,
     "timestamp": "2026-11-25T07:00:34.480Z",
     "type": "dlc"
+  },
+  "steam_dlc_2214823": {
+    "title": "Atomic Heart - Enchantment Under the Sea",
+    "price": 101,
+    "percent": 40,
+    "timestamp": "2026-11-25T09:00:29.593Z",
+    "type": "dlc"
   }
 }
