@@ -31579,6 +31579,13 @@
       "percent": 30,
       "timestamp": "2026-11-25T06:00:30.232Z",
       "type": "gamepass_deal"
+    },
+    "gamepass_deal_9P5QV5XX8S9H": {
+      "title": "Neon Abyss 2",
+      "price": 525,
+      "percent": 25,
+      "timestamp": "2026-11-25T06:00:30.232Z",
+      "type": "gamepass_deal"
     }
   }
 }
