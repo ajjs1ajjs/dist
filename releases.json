@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T18:41:51.150Z",
+  "generatedAt": "2026-11-25T05:53:19.902Z",
   "latest": {
     "sales-v": {
-      "version": "v0.2.0"
+      "version": "v0.2.1"
     },
     "uptime-v": {
       "version": "v3.10.52"
