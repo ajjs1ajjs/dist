@@ -16521,6 +16521,102 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T02:00:35.848Z"
+    },
+    {
+      "id": "6d0f6b0e315cdd85c6de2685",
+      "createdAt": "2026-11-25T03:00:31.119Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Planet Zoo</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 020 грн</s> ➡️ <b>306 грн</b>\n👍 Відгуки: <b>90%</b> (82K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/703080/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/703080"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_703080",
+          "entry": {
+            "title": "Planet Zoo",
+            "price": 306,
+            "percent": 70,
+            "timestamp": "2026-11-25T03:00:31.119Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "604d22938da491bd295ac499",
+      "createdAt": "2026-11-25T03:00:31.119Z",
+      "text": "🔥 <b>ТОП ЗНИЖКИ В STEAM</b>\n\n• <a href=\"https://store.steampowered.com/app/2688950\">Planet Coaster 2</a>\n  <b>-65%</b> · <s>1 200 грн</s> ➡️ <b>420 грн</b> · 👍 74%\n\n#steam #знижки",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🌐 Всі знижки Steam на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_2688950",
+          "entry": {
+            "title": "Planet Coaster 2",
+            "price": 420,
+            "percent": 65,
+            "timestamp": "2026-11-25T03:00:31.119Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "16c9828729fe23f9890bcd52",
+      "createdAt": "2026-11-25T03:00:31.119Z",
+      "text": "🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n• <a href=\"https://store.playstation.com/uk-ua/product/EP0700-PPSA15210_00-DRAGONBALLSPARK0\">DRAGON BALL: Sparking! ZERO</a>\n  <b>-40%</b> · <s>1 499 грн</s> ➡️ <b>899,4 грн</b>\n\n#ps5 #знижки",
+      "photoUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2216/d617f02b7966f1d8d22f126b99dad79951bab83c0d0d19b7.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Всі знижки PS5 на сайті",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP0700-PPSA15210_00-DRAGONBALLSPARK0",
+          "entry": {
+            "title": "DRAGON BALL: Sparking! ZERO",
+            "price": 899.4,
+            "percent": 40,
+            "timestamp": "2026-11-25T03:00:31.119Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
