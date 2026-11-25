@@ -17132,6 +17132,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T09:00:40.399Z"
+    },
+    {
+      "id": "d107b4f5e8bdd7f1ba9b6b07",
+      "createdAt": "2026-11-25T12:00:36.064Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>King Arthur: Knight&#39;s Tale</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>835 грн</s> ➡️ <b>250 грн</b>\n👍 Відгуки: <b>83%</b> (6.8K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157390/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1157390"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1157390",
+          "entry": {
+            "title": "King Arthur: Knight's Tale",
+            "price": 250,
+            "percent": 70,
+            "timestamp": "2026-11-25T12:00:36.064Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "dcf5ee7bcb24481858712688",
+      "createdAt": "2026-11-25T12:00:36.064Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Guild Wars® Reforged</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>799 грн</s> ➡️ <b>399 грн</b>\n👍 Відгуки: <b>87%</b> (3.4K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/29720/5da02c8a7e54019c6ca095badad2e11bfd6b71ae/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/29720"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_29720",
+          "entry": {
+            "title": "Guild Wars® Reforged",
+            "price": 399,
+            "percent": 50,
+            "timestamp": "2026-11-25T12:00:36.064Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
