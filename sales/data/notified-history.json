@@ -6900,5 +6900,54 @@
     "percent": 40,
     "timestamp": "2026-11-25T00:00:30.252Z",
     "type": "ps_deal"
+  },
+  "ps_deal_EP0700-PPSA10594_00-TEKKEN8000000000": {
+    "title": "TEKKEN 8",
+    "price": 719.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP1003-PPSA26786_00-INDIANAJONESATGC": {
+    "title": "Indiana Jones and the Great Circle",
+    "price": 1319.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_UP1003-PPSA21203_00-ALTAR00000000000": {
+    "title": "The Elder Scrolls IV: Oblivion Remastered",
+    "price": 1079.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP1001-PPSA14299_00-00000NEROPS5SIEE": {
+    "title": "Mafia: The Old Country",
+    "price": 1199.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_JP0177-PPSA08804_00-SONICRACINGCW000": {
+    "title": "Sonic Racing: CrossWorlds PS4 & PS5",
+    "price": 809.4,
+    "percent": 40,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP9000-PPSA07631_00-SAROS00000000000": {
+    "title": "SAROS",
+    "price": 1363.38,
+    "percent": 38,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
+  },
+  "ps_deal_EP0082-PPSA28101_00-0821634695257710": {
+    "title": "Life is Strange: Reunion",
+    "price": 974.35,
+    "percent": 35,
+    "timestamp": "2026-11-25T01:00:30.208Z",
+    "type": "ps_deal"
   }
 }
