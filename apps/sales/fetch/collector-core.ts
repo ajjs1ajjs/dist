@@ -52,6 +52,7 @@ export function filterQualitySteamGames(
 
   for (const game of games) {
     const meta = metaMap.get(game.id);
+    if (meta?.type !== undefined && meta.type !== 0 && meta.type !== 4) continue;
     const isDlc = Boolean(game.isDlc || meta?.type === 4);
     const reviewCount = meta?.reviewCount ?? game.reviewCount;
     const reviewPercent = meta?.reviewPercent ?? game.reviewPercent;
@@ -178,12 +179,18 @@ export function selectSteamNotifications(
     }
   }
 
+  const dealScore = (g: SteamGame): number =>
+    (g.isPopular ? 30 : 0) +
+    g.discountPercent +
+    Math.log10(Math.max(10, g.reviewCount ?? 10)) * 10;
+
   const sortDeals = (list: SteamGame[]) =>
     list.sort(
       (a, b) =>
+        dealScore(b) - dealScore(a) ||
+        (a.popularRank ?? 999) - (b.popularRank ?? 999) ||
         b.discountPercent - a.discountPercent ||
-        (b.reviewCount ?? 0) - (a.reviewCount ?? 0) ||
-        (b.originalPrice - b.discountPrice) - (a.originalPrice - a.discountPrice),
+        (b.reviewCount ?? 0) - (a.reviewCount ?? 0),
     );
 
   sortDeals(deals);
@@ -290,7 +297,9 @@ export function chooseSteamSnapshot(
 }
 
 export function planGamePassNewEntries(games: GamePassGame[], history: Record<string, unknown>): GamePassGame[] {
-  const hasNewBaseline = Object.keys(history).some((key) => key.startsWith('gamepass_') && !key.startsWith('gamepass_popular_'));
+  const hasNewBaseline = Object.keys(history).some(
+    (key) => key.startsWith('gamepass_') && !key.startsWith('gamepass_popular_') && !key.startsWith('gamepass_deal_'),
+  );
   if (!hasNewBaseline) return [];
   return games.filter((game) => game.isNew && !history[`gamepass_${game.id}`]);
 }
@@ -299,6 +308,43 @@ export function planGamePassPopularEntries(games: GamePassGame[], history: Recor
   const hasPopularBaseline = Object.keys(history).some((key) => key.startsWith('gamepass_popular_'));
   if (!hasPopularBaseline) return [];
   return games.filter((game) => game.isPopular && !history[`gamepass_popular_${game.id}`]);
+}
+
+export function planGamePassDealNotifications(
+  games: GamePassGame[],
+  history: Record<string, NotifiedItem>,
+  queuedKeys: ReadonlySet<string>,
+  now: Date,
+  opts: { minDiscountPercent: number; discountCooldownMs: number; maxDealsPerRun: number },
+): GamePassGame[] {
+  const nowMs = now.getTime();
+  const deals: GamePassGame[] = [];
+
+  for (const game of games) {
+    if (!game.isDeal || (game.discountPercent ?? 0) < opts.minDiscountPercent) continue;
+    if (typeof game.discountPrice !== 'number' || game.discountPrice <= 0) continue;
+    const key = `gamepass_deal_${game.id}`;
+    if (queuedKeys.has(key)) continue;
+    const entry = history[key];
+    if (!entry) {
+      deals.push(game);
+      continue;
+    }
+    const lastMs = Date.parse(entry.timestamp);
+    const priceDropped = game.discountPrice < entry.price * 0.95;
+    const cooldownExpired = Number.isNaN(lastMs) || nowMs - lastMs > opts.discountCooldownMs;
+    if (priceDropped || cooldownExpired) {
+      deals.push(game);
+    }
+  }
+
+  deals.sort(
+    (a, b) =>
+      (b.isPopular ? 1 : 0) - (a.isPopular ? 1 : 0) ||
+      (b.discountPercent ?? 0) - (a.discountPercent ?? 0),
+  );
+
+  return deals.slice(0, opts.maxDealsPerRun);
 }
 
 export function choosePlayStationSnapshot(
@@ -330,30 +376,35 @@ export function planPlayStationNotifications(
     ? games.filter((g) => g.psPlusTier === 'extra' && !history[g.id] && !queuedKeys.has(g.id))
     : [];
 
-  const deals: PlayStationGame[] = [];
-  for (const game of games) {
+  const indexedDeals: Array<{ game: PlayStationGame; idx: number }> = [];
+  for (let idx = 0; idx < games.length; idx++) {
+    const game = games[idx];
     if (!game.isDeal || (game.discountPercent ?? 0) < opts.minDiscountPercent) continue;
     if (typeof game.discountPrice !== 'number' || game.discountPrice <= 0) continue;
     const key = `ps_deal_${game.id}`;
     if (queuedKeys.has(key)) continue;
     const entry = history[key];
     if (!entry) {
-      deals.push(game);
+      indexedDeals.push({ game, idx });
       continue;
     }
     const lastMs = Date.parse(entry.timestamp);
     const priceDropped = game.discountPrice < entry.price * 0.95;
     const cooldownExpired = Number.isNaN(lastMs) || nowMs - lastMs > opts.discountCooldownMs;
     if (priceDropped || cooldownExpired) {
-      deals.push(game);
+      indexedDeals.push({ game, idx });
     }
   }
 
-  deals.sort(
+  indexedDeals.sort(
     (a, b) =>
-      (a.popularRank ?? 999) - (b.popularRank ?? 999) ||
-      (b.discountPercent ?? 0) - (a.discountPercent ?? 0),
+      (a.game.isPopular ? 0 : 1) - (b.game.isPopular ? 0 : 1) ||
+      (a.game.popularRank ?? 999) - (b.game.popularRank ?? 999) ||
+      a.idx - b.idx ||
+      (b.game.discountPercent ?? 0) - (a.game.discountPercent ?? 0),
   );
+
+  const deals = indexedDeals.map((entry) => entry.game);
 
   return {
     essential,

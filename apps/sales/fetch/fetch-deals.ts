@@ -9,6 +9,7 @@ import {
   filterQualitySteamGames,
   isValidSteamSearchPage,
   partitionMegaSteamDeals,
+  planGamePassDealNotifications,
   planGamePassNewEntries,
   planPlayStationNotifications,
   resolveCatalogTimestamps,
@@ -19,7 +20,6 @@ import type { SteamMetadata } from './collector-core';
 import { fetchPlayStationGames } from './playstation';
 import { writeJsonAtomically } from './persistence';
 import {
-  buildDigestBatches,
   buildTelegramBatches,
   isQuietHoursKyiv,
   normalizeTelegramPhotoUrl,
@@ -31,7 +31,7 @@ import {
 } from './outbox';
 import type { NotificationOutbox, OutboxReceipt } from './outbox';
 import type { SteamGame, GamePassGame, PlayStationGame, DealsData, NotifiedItem } from './types';
-import { formatPrice, formatReviewCount, escapeHtml, escapeAttr } from './format';
+import { formatPrice, formatReviewCount, escapeHtml } from './format';
 
 const runId = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 const logger = pino({
@@ -83,6 +83,8 @@ const CONFIG = {
     siglNew: '06323672-b8c8-43cc-b0de-32d5a9834749',
     siglPopular: 'a884932a-f02b-40c8-a903-a008c23b1df1',
     detailsBatchSize: 20,
+    minDiscountPercent: 25,
+    tgMaxDealsPerRun: 5,
     // Ключі gamepass_ живуть довше за 30 днів: інакше гра, що тижнями
     // висить у «Recently added», після очистки сповістилася б повторно.
     historyRetentionMs: 120 * 24 * 60 * 60 * 1000,
@@ -243,9 +245,23 @@ interface GamePassLocalizedProperty {
   ProductDescription?: string;
   Images?: GamePassImage[];
 }
+interface GamePassAvailability {
+  Actions?: string[];
+  OrderManagementData?: {
+    Price?: {
+      MSRP?: number;
+      ListPrice?: number;
+      CurrencyCode?: string;
+    };
+  };
+}
+interface GamePassSkuAvailability {
+  Availabilities?: GamePassAvailability[];
+}
 interface GamePassProduct {
   ProductId?: string;
   LocalizedProperties?: GamePassLocalizedProperty[];
+  DisplaySkuAvailabilities?: GamePassSkuAvailability[];
 }
 interface GamePassDetailsResponse {
   Products?: GamePassProduct[];
@@ -304,10 +320,15 @@ function upsertGame(
     }
     return;
   }
+  const resolvedImageUrl =
+    imageUrl ||
+    (/^\d+$/.test(id)
+      ? `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${encodeURIComponent(id)}/header.jpg`
+      : '');
   gamesMap.set(id, {
     id,
     title,
-    imageUrl,
+    imageUrl: resolvedImageUrl,
     originalPrice,
     discountPrice,
     discountPercent,
@@ -424,21 +445,32 @@ export function parseSearchHtml(
       body.match(/<div class="discount_pct"[^>]*>\s*-(\d+)%\s*<\/div>/) ??
       body.match(/\bdata-discount="(\d+)"/);
     const origM = body.match(/<div class="discount_original_price"[^>]*>([^<]+)<\/div>/);
+    const finalTextM = body.match(/<div class="discount_final_price"[^>]*>([^<]+)<\/div>/);
     const finalM = body.match(/data-price-final="(\d+)"/);
     if (!titleM || !pctM || !finalM) continue;
 
     const discountPercent = finiteOr(Number(pctM[1]), 0);
     const finalCents = finiteOr(Number(finalM[1]), NaN);
     if (!Number.isFinite(finalCents)) continue;
-    const discountPrice = finalCents / 100;
     const parsedOriginal = origM ? parseSteamPriceText(decodeEntities(origM[1])) : null;
+    const parsedFinal = finalTextM ? parseSteamPriceText(decodeEntities(finalTextM[1])) : null;
+    let discountPrice = finalCents / 100;
+    if (finalCents === 0 && discountPercent < 100) {
+      if (parsedFinal !== null && parsedFinal > 0) {
+        discountPrice = parsedFinal;
+      } else if (parsedOriginal !== null && parsedOriginal > 0 && discountPercent > 0) {
+        discountPrice = Math.round(parsedOriginal * (1 - discountPercent / 100) * 100) / 100;
+      }
+    }
     const originalPrice =
       parsedOriginal !== null && parsedOriginal >= discountPrice
         ? parsedOriginal
         : discountPercent > 0 && discountPercent < 100
           ? Math.round((discountPrice / (1 - discountPercent / 100)) * 100) / 100
           : discountPrice;
-    const isFree = discountPercent >= 100 || (originalPrice > 0 && discountPrice === 0);
+    const isFree =
+      discountPercent >= 100 ||
+      (originalPrice > 0 && discountPrice === 0 && !(parsedFinal !== null && parsedFinal > 0));
     const isDlc = Boolean(opts?.isDlc);
     const isPopular = !isDlc && (opts?.popularLimit === undefined || currentRank <= opts.popularLimit);
     const minPct = isDlc
@@ -703,9 +735,45 @@ async function fetchGamePassIds(siglId: string): Promise<string[]> {
   return [...new Set(ids)];
 }
 
-/** Деталі продуктів (назва/опис/зображення) батчами через displaycatalog. */
-async function fetchGamePassDetails(ids: string[]): Promise<Map<string, { title: string; description: string; imageUrl: string }>> {
-  const details = new Map<string, { title: string; description: string; imageUrl: string }>();
+interface GamePassPricing {
+  originalPrice?: number;
+  discountPrice?: number;
+  discountPercent?: number;
+  currency?: string;
+  isDeal?: boolean;
+}
+
+function pickGamePassPricing(product: GamePassProduct): GamePassPricing {
+  let best: GamePassPricing | null = null;
+  for (const sku of product.DisplaySkuAvailabilities ?? []) {
+    for (const avail of sku.Availabilities ?? []) {
+      const actions = avail.Actions ?? [];
+      if (!actions.includes('Purchase')) continue;
+      const price = avail.OrderManagementData?.Price;
+      const msrp = Number(price?.MSRP);
+      const list = Number(price?.ListPrice);
+      if (!Number.isFinite(msrp) || !Number.isFinite(list) || msrp <= 0 || list <= 0 || list >= msrp) continue;
+      const discountPercent = Math.round((1 - list / msrp) * 100);
+      if (discountPercent <= 0) continue;
+      if (!best || discountPercent > (best.discountPercent ?? 0)) {
+        best = {
+          originalPrice: Math.round(msrp * 100) / 100,
+          discountPrice: Math.round(list * 100) / 100,
+          discountPercent,
+          currency: typeof price?.CurrencyCode === 'string' && /^[A-Z]{3}$/.test(price.CurrencyCode) ? price.CurrencyCode : 'UAH',
+          isDeal: discountPercent >= CONFIG.gamepass.minDiscountPercent,
+        };
+      }
+    }
+  }
+  return best ?? {};
+}
+
+/** Деталі продуктів (назва/опис/зображення/ціна) батчами через displaycatalog. */
+async function fetchGamePassDetails(
+  ids: string[],
+): Promise<Map<string, { title: string; description: string; imageUrl: string; pricing: GamePassPricing }>> {
+  const details = new Map<string, { title: string; description: string; imageUrl: string; pricing: GamePassPricing }>();
   for (let i = 0; i < ids.length; i += CONFIG.gamepass.detailsBatchSize) {
     const batch = ids.slice(i, i + CONFIG.gamepass.detailsBatchSize);
     try {
@@ -719,7 +787,12 @@ async function fetchGamePassDetails(ids: string[]): Promise<Map<string, { title:
         const id = typeof product.ProductId === 'string' ? product.ProductId.trim().toUpperCase() : '';
         const title = pickGamePassTitle(product);
         if (!id || !title) continue;
-        details.set(id, { title, description: pickGamePassDescription(product), imageUrl: pickGamePassImage(product) });
+        details.set(id, {
+          title,
+          description: pickGamePassDescription(product),
+          imageUrl: pickGamePassImage(product),
+          pricing: pickGamePassPricing(product),
+        });
       }
     } catch (err) {
       // Частковий збій батча не має валити весь каталог — решта батчів іде далі.
@@ -764,6 +837,7 @@ async function fetchGamePassGames(): Promise<GamePassGame[]> {
       description: detail.description,
       isNew: flag.isNew,
       isPopular: flag.isPopular,
+      ...detail.pricing,
     });
   }
   logger.info(
@@ -841,7 +915,11 @@ async function sendTelegramMessage(
     : await postTelegramEndpoint(token, 'sendMessage', textPayload);
 
   if (normalizedPhotoUrl && result.response.status === 400) {
-    logger.warn({ url: result.logSafeUrl, status: result.response.status }, 'telegram sendPhoto returned 400, falling back to sendMessage');
+    const errBody = await result.response.text().catch(() => '');
+    logger.warn(
+      { url: result.logSafeUrl, status: result.response.status, errBody: sanitizeLog(errBody).slice(0, 300) },
+      'telegram sendPhoto returned 400, falling back to sendMessage',
+    );
     result = await postTelegramEndpoint(token, 'sendMessage', textPayload);
   }
 
@@ -1100,7 +1178,7 @@ async function runPrepare() {
   for (const [key, value] of Object.entries(notifiedHistory)) {
     const notifiedTime = new Date(value.timestamp).getTime();
     const isLongRetention =
-      key.startsWith('gamepass_') ||
+      (key.startsWith('gamepass_') && !key.startsWith('gamepass_deal_')) ||
       key.startsWith('ps_essential_') ||
       key.startsWith('ps_extra_');
     const maxAgeMs = isLongRetention ? CONFIG.gamepass.historyRetentionMs : CONFIG.historyRetentionMs;
@@ -1201,8 +1279,10 @@ async function runPrepare() {
     CONFIG.tgMaxMegaCardsPerRun,
   );
 
-  // Game Pass: новинки та популярне
-  const hasGamePassHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('gamepass_') && !key.startsWith('gamepass_popular_'));
+  // Game Pass: новинки, популярне та знижки
+  const hasGamePassHistory = Object.keys(notifiedHistory).some(
+    (key) => key.startsWith('gamepass_') && !key.startsWith('gamepass_popular_') && !key.startsWith('gamepass_deal_'),
+  );
   const newGamePassGames = planGamePassNewEntries(gamepass, notifiedHistory);
   if (!hasGamePassHistory) {
     for (const game of gamepass) {
@@ -1235,6 +1315,12 @@ async function runPrepare() {
   if (newPopularGamePassGames.length > CONFIG.tgMaxDealsPerRun) {
     newPopularGamePassGames.length = CONFIG.tgMaxDealsPerRun;
   }
+
+  const newGamePassDeals = planGamePassDealNotifications(gamepass, notifiedHistory, queuedKeys, now, {
+    minDiscountPercent: CONFIG.gamepass.minDiscountPercent,
+    discountCooldownMs: DISCOUNT_COOLDOWN_MS,
+    maxDealsPerRun: CONFIG.gamepass.tgMaxDealsPerRun,
+  });
 
   // PlayStation 5: PS Plus Essential (baseline-guarded), PS Plus Extra (baseline-guarded), and PS5 Deals
   const hasPsEssentialHistory = Object.keys(notifiedHistory).some((key) => key.startsWith('ps_essential_'));
@@ -1270,7 +1356,7 @@ async function runPrepare() {
   logger.info(
     `Detected: ${newSteamFreeGames.length} free Steam, ${newSteamMegaDeals.length} mega + ${newSteamDigestDeals.length} Steam deals, ` +
     `${newSteamDlcDeals.length} Steam DLC (total ${freshSteam.length}), ` +
-    `${newGamePassGames.length} new + ${newPopularGamePassGames.length} popular Game Pass (${gamepass.length}), ` +
+    `${newGamePassGames.length} new + ${newPopularGamePassGames.length} popular + ${newGamePassDeals.length} deals Game Pass (${gamepass.length}), ` +
     `${newPsEssentialGames.length} PS+ Essential, ${newPsExtraGames.length} PS+ Extra, ${newPsDeals.length} PS5 deals (${playstation.length}).`,
   );
 
@@ -1280,7 +1366,11 @@ async function runPrepare() {
 
   const quietHours = isQuietHoursKyiv(now);
   const gameTitle = (name: string) => `<b>${escapeHtml(name)}</b>`;
-  const storeLink = (label: string, url: string) => `<a href="${escapeAttr(url)}">${label}</a>`;
+  const truncateText = (value: string | undefined, max: number): string => {
+    const cleaned = value?.replace(/\s+/g, ' ').trim() ?? '';
+    if (!cleaned) return '';
+    return cleaned.length > max ? `${cleaned.slice(0, max - 1).trimEnd()}…` : cleaned;
+  };
   const siteButtonRow = (label = '🌐 Всі знижки на сайті'): TelegramReplyMarkup => ({
     inline_keyboard: [[{ text: label, url: CONFIG.siteUrl }]],
   });
@@ -1307,17 +1397,18 @@ async function runPrepare() {
     return lines.join('\n');
   }
 
-  function formatCompactDealLine(
-    title: string,
-    percent: number,
-    originalPrice: number,
-    discountPrice: number,
-    currency: string,
-    url: string,
-    extraTag?: string,
-  ): string {
-    const meta = extraTag ? ` · ${extraTag}` : '';
-    return `• ${storeLink(escapeHtml(title), url)}\n  <b>-${percent}%</b> · <s>${formatPrice(originalPrice, currency)}</s> ➡️ <b>${formatPrice(discountPrice, currency)}</b>${meta}`;
+  function formatGamePassSubscriptionCard(game: GamePassGame, statusLine: string): string {
+    const lines = [`🎮 ${gameTitle(game.title)}`, statusLine];
+    if (game.isDeal && game.discountPercent && typeof game.discountPrice === 'number') {
+      const currency = game.currency ?? 'UAH';
+      const orig = game.originalPrice ?? game.discountPrice;
+      lines.push(
+        `🏷️ Знижка на покупку: <b>-${game.discountPercent}%</b> (<s>${formatPrice(orig, currency)}</s> ➡️ <b>${formatPrice(game.discountPrice, currency)}</b>)`,
+      );
+    }
+    const shortDesc = truncateText(game.description, 140);
+    if (shortDesc) lines.push(`<i>${escapeHtml(shortDesc)}</i>`);
+    return lines.join('\n');
   }
 
   async function sendPhotoCards<T>(
@@ -1345,41 +1436,6 @@ async function runPrepare() {
     }
   }
 
-  async function sendDigest<T>(
-    items: T[],
-    opts: {
-      header: string;
-      footer: string;
-      renderItem: (item: T, index: number) => string;
-      receiptFor: (item: T) => OutboxReceipt;
-      heroPhotoUrl?: string;
-      replyMarkup?: TelegramReplyMarkup;
-      maxItems?: number;
-    },
-  ) {
-    const eligible = items.filter(item => !queuedKeys.has(opts.receiptFor(item).key));
-    if (eligible.length === 0) return;
-    const batches = buildDigestBatches(eligible, {
-      header: opts.header,
-      footer: opts.footer,
-      renderItem: opts.renderItem,
-      maxChars: TG_MESSAGE_LIMIT - 100,
-      maxItems: opts.maxItems ?? 7,
-      heroPhotoUrl: opts.heroPhotoUrl,
-      replyMarkup: opts.replyMarkup ?? siteButtonRow(),
-    });
-    for (const batch of batches) {
-      const receipts = batch.items.map(opts.receiptFor);
-      const queued = enqueueMessage(outbox, batch.text, receipts, now, batch.photoUrl, {
-        replyMarkup: batch.replyMarkup,
-        disableNotification: quietHours,
-      });
-      if (!queued) continue;
-      for (const receipt of queued.receipts) queuedKeys.add(receipt.key);
-      logger.info({ messageId: queued.id, count: queued.receipts.length }, 'queued durable Telegram digest');
-    }
-  }
-
   // 1. Steam Freebies (окремі картки з обкладинкою)
   if (newSteamFreeGames.length > 0) {
     await sendPhotoCards(
@@ -1400,7 +1456,7 @@ async function runPrepare() {
     );
   }
 
-  // 2. Steam Mega-Hits (окремі картки з рейтингом)
+  // 2. Steam Mega-Hits (окремі картки з обкладинкою та рейтингом)
   if (newSteamMegaDeals.length > 0) {
     await sendPhotoCards(
       `🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n`,
@@ -1420,135 +1476,205 @@ async function runPrepare() {
     );
   }
 
-  // 3. Steam Hot Deals Digest
+  // 3. Steam Regular Hot Deals (окремі картки з обкладинкою)
   if (newSteamDigestDeals.length > 0) {
-    await sendDigest(newSteamDigestDeals, {
-      header: `🔥 <b>ТОП ЗНИЖКИ В STEAM</b>\n\n`,
-      footer: `#steam #знижки`,
-      renderItem: (deal) =>
-        formatCompactDealLine(
-          deal.title,
-          deal.discountPercent,
-          deal.originalPrice,
-          deal.discountPrice,
-          deal.currency,
-          deal.url,
-          deal.reviewPercent !== undefined ? `👍 ${deal.reviewPercent}%` : undefined,
-        ),
-      receiptFor: (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
+    await sendPhotoCards(
+      `🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n`,
+      newSteamDigestDeals,
+      `#steam #знижки`,
+      formatSteamHeroDeal,
+      (deal) => ({ key: `steam_discount_${deal.id}`, entry: {
         title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'discount'
       } }),
-      replyMarkup: siteButtonRow('🌐 Всі знижки Steam на сайті'),
-    });
+      (deal) => deal.imageUrl,
+      (deal) => ({
+        inline_keyboard: [[
+          { text: '🛒 Купити в Steam', url: deal.url },
+          { text: '🌐 Всі знижки', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
-  // 4. Steam DLC Digest
+  // 4. Steam Major DLC Deals (окремі картки з обкладинкою)
   if (newSteamDlcDeals.length > 0) {
-    await sendDigest(newSteamDlcDeals, {
-      header: `🧩 <b>ЗНИЖКИ НА ВЕЛИКІ DLC У STEAM</b>\n\n`,
-      footer: `#steam #dlc #знижки`,
-      renderItem: (deal) =>
-        formatCompactDealLine(
-          deal.title,
-          deal.discountPercent,
-          deal.originalPrice,
-          deal.discountPrice,
-          deal.currency,
-          deal.url,
-          deal.reviewPercent !== undefined ? `👍 ${deal.reviewPercent}%` : undefined,
-        ),
-      receiptFor: (deal) => ({ key: `steam_dlc_${deal.id}`, entry: {
+    await sendPhotoCards(
+      `🧩 <b>ЗНИЖКА НА DLC У STEAM!</b>\n\n`,
+      newSteamDlcDeals,
+      `#steam #dlc #знижки`,
+      formatSteamHeroDeal,
+      (deal) => ({ key: `steam_dlc_${deal.id}`, entry: {
         title: deal.title, price: deal.discountPrice, percent: deal.discountPercent, timestamp: now.toISOString(), type: 'dlc'
       } }),
-      replyMarkup: siteButtonRow('🧩 Всі DLC зі знижкою на сайті'),
-    });
+      (deal) => deal.imageUrl,
+      (deal) => ({
+        inline_keyboard: [[
+          { text: '🛒 Купити DLC в Steam', url: deal.url },
+          { text: '🌐 Всі знижки', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
-  // 5. PC Game Pass Digests
+  // 5. PC Game Pass — Нові надходження (окремі картки з обкладинкою)
   if (newGamePassGames.length > 0) {
-    await sendDigest(newGamePassGames, {
-      header: `🎮 <b>НОВИНКИ В PC GAME PASS</b>\n\n`,
-      footer: `#gamepass #pc`,
-      renderItem: (game) => {
-        const desc = game.description?.trim();
-        const shortDesc = desc ? `\n  <i>${escapeHtml(desc.slice(0, 95))}${desc.length > 95 ? '…' : ''}</i>` : '';
-        return `• ${storeLink(escapeHtml(game.title), game.url)} — ✅ У підписці${shortDesc}`;
-      },
-      receiptFor: (game) => ({ key: `gamepass_${game.id}`, entry: {
+    await sendPhotoCards(
+      `🎮 <b>НОВИНКА В PC GAME PASS!</b>\n\n`,
+      newGamePassGames,
+      `#gamepass #pc`,
+      (game) => formatGamePassSubscriptionCard(game, '✅ Включено у підписку PC Game Pass'),
+      (game) => ({ key: `gamepass_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       } }),
-      heroPhotoUrl: newGamePassGames[0]?.imageUrl,
-      replyMarkup: siteButtonRow('🎮 Весь каталог PC Game Pass'),
-    });
+      (game) => game.imageUrl,
+      (game) => ({
+        inline_keyboard: [[
+          { text: '🎮 Відкрити в Xbox Store', url: game.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
+  // 6. PC Game Pass — Популярні у підписці (окремі картки з обкладинкою)
   if (newPopularGamePassGames.length > 0) {
-    await sendDigest(newPopularGamePassGames, {
-      header: `🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS</b>\n\n`,
-      footer: `#gamepass #pc #топ`,
-      renderItem: (game) => `• ${storeLink(escapeHtml(game.title), game.url)} — 🔥 Топ тижня`,
-      receiptFor: (game) => ({ key: `gamepass_popular_${game.id}`, entry: {
+    await sendPhotoCards(
+      `🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n`,
+      newPopularGamePassGames,
+      `#gamepass #pc #топ`,
+      (game) => formatGamePassSubscriptionCard(game, '🔥 Топ популярних у PC Game Pass'),
+      (game) => ({ key: `gamepass_popular_${game.id}`, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'gamepass'
       } }),
-      replyMarkup: siteButtonRow('🎮 Топ PC Game Pass на сайті'),
-    });
+      (game) => game.imageUrl,
+      (game) => ({
+        inline_keyboard: [[
+          { text: '🎮 Відкрити в Xbox Store', url: game.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
-  // 6. PS Plus Essential (Ігри місяця)
-  if (newPsEssentialGames.length > 0) {
-    const monthNote = newPsEssentialGames[0]?.psPlusMonth ? ` (${escapeHtml(newPsEssentialGames[0].psPlusMonth)})` : '';
-    await sendDigest(newPsEssentialGames, {
-      header: `🎁 <b>PS PLUS ESSENTIAL — ІГРИ МІСЯЦЯ${monthNote}</b>\n\n`,
-      footer: `#ps5 #psplus #essential #безкоштовно`,
-      renderItem: (game) => {
-        const desc = game.description?.trim();
-        const shortDesc = desc ? `\n  <i>${escapeHtml(desc.slice(0, 100))}${desc.length > 100 ? '…' : ''}</i>` : '';
-        return `• ${storeLink(escapeHtml(game.title), game.url)} — 🎁 Безкоштовно з підпискою${shortDesc}`;
+  // 7. PC Game Pass / Xbox — Знижки на популярні та нові ігри (окремі картки з обкладинкою)
+  if (newGamePassDeals.length > 0) {
+    await sendPhotoCards(
+      `🏷️ <b>ЗНИЖКА НА ХІТ У GAME PASS / XBOX!</b>\n\n`,
+      newGamePassDeals,
+      `#gamepass #xbox #знижки`,
+      (deal) => {
+        const currency = deal.currency ?? 'UAH';
+        const orig = deal.originalPrice ?? deal.discountPrice ?? 0;
+        const disc = deal.discountPrice ?? 0;
+        const lines = [
+          `🎮 ${gameTitle(deal.title)}`,
+          `🏷️ Знижка: <b>-${deal.discountPercent ?? 0}%</b>`,
+          `💰 Ціна: <s>${formatPrice(orig, currency)}</s> ➡️ <b>${formatPrice(disc, currency)}</b>`,
+          `✅ Також у підписці PC Game Pass`,
+        ];
+        const shortDesc = truncateText(deal.description, 120);
+        if (shortDesc) lines.push(`<i>${escapeHtml(shortDesc)}</i>`);
+        return lines.join('\n');
       },
-      receiptFor: (game) => ({ key: game.id, entry: {
+      (deal) => ({ key: `gamepass_deal_${deal.id}`, entry: {
+        title: deal.title, price: deal.discountPrice ?? 0, percent: deal.discountPercent ?? 0, timestamp: now.toISOString(), type: 'gamepass_deal'
+      } }),
+      (deal) => deal.imageUrl,
+      (deal) => ({
+        inline_keyboard: [[
+          { text: '🛒 Купити в Xbox Store', url: deal.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
+  }
+
+  // 8. PS Plus Essential (Ігри місяця — окремі картки з обкладинкою)
+  if (newPsEssentialGames.length > 0) {
+    await sendPhotoCards(
+      `🎁 <b>PS PLUS ESSENTIAL — ГРА МІСЯЦЯ!</b>\n\n`,
+      newPsEssentialGames,
+      `#ps5 #psplus #essential #безкоштовно`,
+      (game) => {
+        const lines = [`🎮 ${gameTitle(game.title)}`];
+        if (game.psPlusMonth) lines.push(`📅 ${escapeHtml(game.psPlusMonth)}`);
+        lines.push(`🎁 Безкоштовно з підпискою PS Plus`);
+        const shortDesc = truncateText(game.description, 150);
+        if (shortDesc) lines.push(`<i>${escapeHtml(shortDesc)}</i>`);
+        return lines.join('\n');
+      },
+      (game) => ({ key: game.id, entry: {
         title: game.title, price: 0, percent: 100, timestamp: now.toISOString(), type: 'ps_essential'
       } }),
-      heroPhotoUrl: newPsEssentialGames[0]?.imageUrl,
-      replyMarkup: siteButtonRow('🎮 PS Plus на сайті'),
-    });
+      (game) => game.imageUrl,
+      (game) => ({
+        inline_keyboard: [[
+          { text: '🎮 Відкрити в PS Store', url: game.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
-  // 7. PS Plus Extra (Новинки каталогу)
+  // 9. PS Plus Extra (Новинки каталогу — окремі картки з обкладинкою)
   if (newPsExtraGames.length > 0) {
-    const monthNote = newPsExtraGames[0]?.psPlusMonth ? ` (${escapeHtml(newPsExtraGames[0].psPlusMonth)})` : '';
-    await sendDigest(newPsExtraGames, {
-      header: `⭐ <b>НОВИНКИ КАТАЛОГУ PS PLUS EXTRA${monthNote}</b>\n\n`,
-      footer: `#ps5 #psplus #extra`,
-      renderItem: (game) => `• ${storeLink(escapeHtml(game.title), game.url)} — ⭐ Доступно в Extra`,
-      receiptFor: (game) => ({ key: game.id, entry: {
+    await sendPhotoCards(
+      `⭐ <b>НОВИНКА КАТАЛОГУ PS PLUS EXTRA!</b>\n\n`,
+      newPsExtraGames,
+      `#ps5 #psplus #extra`,
+      (game) => {
+        const lines = [`🎮 ${gameTitle(game.title)}`];
+        if (game.psPlusMonth) lines.push(`📅 ${escapeHtml(game.psPlusMonth)}`);
+        lines.push(`⭐ Доступно у підписці PS Plus Extra`);
+        const shortDesc = truncateText(game.description, 150);
+        if (shortDesc) lines.push(`<i>${escapeHtml(shortDesc)}</i>`);
+        return lines.join('\n');
+      },
+      (game) => ({ key: game.id, entry: {
         title: game.title, price: 0, percent: 0, timestamp: now.toISOString(), type: 'ps_extra'
       } }),
-      heroPhotoUrl: newPsExtraGames[0]?.imageUrl,
-      replyMarkup: siteButtonRow('⭐ Каталог PS Plus Extra на сайті'),
-    });
+      (game) => game.imageUrl,
+      (game) => ({
+        inline_keyboard: [[
+          { text: '🎮 Відкрити в PS Store', url: game.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
-  // 8. PS5 Hot Deals Digest
+  // 10. PS5 Hot Deals (окремі картки з обкладинкою)
   if (newPsDeals.length > 0) {
-    await sendDigest(newPsDeals, {
-      header: `🎮 <b>ТОП ЗНИЖКИ PLAYSTATION 5</b>\n\n`,
-      footer: `#ps5 #знижки`,
-      renderItem: (deal) =>
-        formatCompactDealLine(
-          deal.title,
-          deal.discountPercent ?? 0,
-          deal.originalPrice ?? deal.discountPrice ?? 0,
-          deal.discountPrice ?? 0,
-          deal.currency ?? 'UAH',
-          deal.url,
-          deal.isPsPlusExclusive ? 'PS+ знижка' : undefined,
-        ),
-      receiptFor: (deal) => ({ key: `ps_deal_${deal.id}`, entry: {
+    await sendPhotoCards(
+      `🎮 <b>ЗНИЖКА PLAYSTATION 5!</b>\n\n`,
+      newPsDeals,
+      `#ps5 #знижки`,
+      (deal) => {
+        const currency = deal.currency ?? 'UAH';
+        const orig = deal.originalPrice ?? deal.discountPrice ?? 0;
+        const disc = deal.discountPrice ?? 0;
+        const lines = [
+          `🎮 ${gameTitle(deal.title)}`,
+          `🏷️ Знижка: <b>-${deal.discountPercent ?? 0}%</b>`,
+          `💰 Ціна: <s>${formatPrice(orig, currency)}</s> ➡️ <b>${formatPrice(disc, currency)}</b>`,
+        ];
+        if (deal.isPsPlusExclusive) lines.push(`⭐ Додаткова знижка з PS+`);
+        if (typeof deal.discountPrice === 'number' && isLowestObservedPrice(deal.id, deal.discountPrice, currency)) {
+          lines.push(`📉 <b>Найнижча ціна за 90 днів</b>`);
+        }
+        return lines.join('\n');
+      },
+      (deal) => ({ key: `ps_deal_${deal.id}`, entry: {
         title: deal.title, price: deal.discountPrice ?? 0, percent: deal.discountPercent ?? 0, timestamp: now.toISOString(), type: 'ps_deal'
       } }),
-      heroPhotoUrl: newPsDeals[0]?.imageUrl,
-      replyMarkup: siteButtonRow('🎮 Всі знижки PS5 на сайті'),
-    });
+      (deal) => deal.imageUrl,
+      (deal) => ({
+        inline_keyboard: [[
+          { text: '🛒 Купити в PS Store', url: deal.url },
+          { text: '🌐 Сайт', url: CONFIG.siteUrl },
+        ]],
+      }),
+    );
   }
 
   // Save updated data (Steam + Game Pass for PC + PlayStation 5).

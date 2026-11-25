@@ -30,6 +30,11 @@ export interface GamePassGame {
   isNew: boolean;
   /** Є у списку «Most popular» каталогу. */
   isPopular: boolean;
+  originalPrice?: number;
+  discountPrice?: number;
+  discountPercent?: number;
+  currency?: string;
+  isDeal?: boolean;
 }
 
 export type PsPlusTier = 'essential' | 'extra';
@@ -65,6 +70,7 @@ export interface NotifiedItem {
     | 'popular'
     | 'dlc'
     | 'gamepass'
+    | 'gamepass_deal'
     | 'xbox_new'
     | 'ps_deal'
     | 'ps_essential'
@@ -107,6 +113,7 @@ export type FilterType =
   | 'gamepass_all'
   | 'gamepass_new'
   | 'gamepass_popular'
+  | 'gamepass_deals'
   | 'ps_all'
   | 'ps_essential'
   | 'ps_extra'
