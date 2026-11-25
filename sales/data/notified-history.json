@@ -7040,5 +7040,12 @@
     "percent": 30,
     "timestamp": "2026-11-25T05:54:01.216Z",
     "type": "gamepass_deal"
+  },
+  "gamepass_deal_9P2VGCTBMM52": {
+    "title": "Microsoft Flight Simulator 2024 - Standard Edition",
+    "price": 1680,
+    "percent": 30,
+    "timestamp": "2026-11-25T05:54:01.216Z",
+    "type": "gamepass_deal"
   }
 }
