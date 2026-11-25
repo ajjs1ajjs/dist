@@ -31668,6 +31668,13 @@
       "percent": 40,
       "timestamp": "2026-11-25T09:00:29.593Z",
       "type": "dlc"
+    },
+    "ps_deal_EP7562-PPSA34861_00-0144352911871192": {
+      "title": "ROMEO IS A DEAD MAN",
+      "price": 1104.35,
+      "percent": 35,
+      "timestamp": "2026-11-25T09:00:29.593Z",
+      "type": "ps_deal"
     }
   }
 }
