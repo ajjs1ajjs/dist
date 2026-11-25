@@ -7054,5 +7054,12 @@
     "percent": 25,
     "timestamp": "2026-11-25T05:54:01.216Z",
     "type": "gamepass_deal"
+  },
+  "ps_deal_EP4064-PPSA01528_00-0538983162460184": {
+    "title": "Overcooked! All You Can Eat",
+    "price": 407.66,
+    "percent": 66,
+    "timestamp": "2026-11-25T05:54:01.216Z",
+    "type": "ps_deal"
   }
 }
