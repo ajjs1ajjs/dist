@@ -7124,5 +7124,12 @@
     "percent": 50,
     "timestamp": "2026-11-25T15:00:34.934Z",
     "type": "dlc"
+  },
+  "ps_essential_tony-hawk-s-pro-skater-3-4-cross-gen-edition": {
+    "title": "Tony Hawk’s Pro Skater 3+4 – Cross-Gen Edition",
+    "price": 0,
+    "percent": 100,
+    "timestamp": "2026-11-25T17:00:29.606Z",
+    "type": "ps_essential"
   }
 }
