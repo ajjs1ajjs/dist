@@ -17047,6 +17047,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T06:00:54.574Z"
+    },
+    {
+      "id": "2957580566e3fabf2c43fe1f",
+      "createdAt": "2026-11-25T07:00:34.480Z",
+      "text": "🧩 <b>ЗНИЖКА НА DLC У STEAM!</b>\n\n🎮 <b>Atomic Heart - Blood On Crystal</b>\n🏷️ Знижка: <b>-25%</b>\n💰 Ціна: <s>169 грн</s> ➡️ <b>126 грн</b>\n👍 Відгуки: <b>88%</b> (1.2K)\n\n#steam #dlc #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214824/ebb31f40f0908db99b0f1ae5e90046219812e85e/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити DLC в Steam",
+              "url": "https://store.steampowered.com/app/2214824"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_dlc_2214824",
+          "entry": {
+            "title": "Atomic Heart - Blood On Crystal",
+            "price": 126,
+            "percent": 25,
+            "timestamp": "2026-11-25T07:00:34.480Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
