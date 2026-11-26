@@ -7208,5 +7208,12 @@
     "percent": 75,
     "timestamp": "2026-11-26T19:00:29.049Z",
     "type": "discount"
+  },
+  "steam_discount_1172710": {
+    "title": "Dune: Awakening",
+    "price": 574,
+    "percent": 50,
+    "timestamp": "2026-11-26T19:00:29.049Z",
+    "type": "discount"
   }
 }
