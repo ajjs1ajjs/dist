@@ -7222,5 +7222,12 @@
     "percent": 45,
     "timestamp": "2026-11-26T19:00:29.049Z",
     "type": "discount"
+  },
+  "steam_discount_960090": {
+    "title": "Bloons TD 6",
+    "price": 43,
+    "percent": 80,
+    "timestamp": "2026-11-26T20:00:28.735Z",
+    "type": "discount"
   }
 }
