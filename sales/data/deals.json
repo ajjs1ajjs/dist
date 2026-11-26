@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-26T13:00:29.777Z",
+  "lastUpdated": "2026-11-26T14:00:40.906Z",
   "sourceUpdates": {
-    "steam": "2026-11-26T13:00:29.777Z",
-    "gamepass": "2026-11-26T13:00:29.777Z",
-    "playstation": "2026-11-26T13:00:29.777Z"
+    "steam": "2026-11-26T14:00:40.906Z",
+    "gamepass": "2026-11-26T14:00:40.906Z",
+    "playstation": "2026-11-26T14:00:40.906Z"
   },
   "priceHistory": {
     "2600": [
@@ -21636,8 +21636,8 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 7,
-      "reviewCount": 765203,
+      "popularRank": 6,
+      "reviewCount": 767039,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -21659,6 +21659,24 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
+      "originalPrice": 2449,
+      "discountPrice": 2081,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 8,
+      "parentAppId": "1938090",
+      "reviewCount": 12786,
+      "reviewPercent": 68,
+      "reviewLabel": "змішані"
+    },
+    {
       "id": "2483190",
       "title": "Forza Horizon 6",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
@@ -21676,24 +21694,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "4435490",
-      "title": "Call of Duty®: Modern Warfare® 4",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
-      "originalPrice": 2449,
-      "discountPrice": 2081,
-      "discountPercent": 15,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/4435490",
-      "isSpecial": false,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 10,
-      "parentAppId": "1938090",
-      "reviewCount": 12786,
-      "reviewPercent": 68,
-      "reviewLabel": "змішані"
-    },
-    {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/db611b4424c2b7799c943c0424ca82227300fd69/capsule_616x353.jpg",
@@ -21706,7 +21706,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 12,
-      "reviewCount": 176505,
+      "reviewCount": 176545,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
@@ -21790,7 +21790,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 19,
+      "popularRank": 20,
       "reviewCount": 149505,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -21813,20 +21813,20 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "281990",
-      "title": "Stellaris",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "id": "394360",
+      "title": "Hearts of Iron IV",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_616x353.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/281990",
+      "url": "https://store.steampowered.com/app/394360",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 23,
-      "reviewCount": 140191,
-      "reviewPercent": 85,
+      "reviewCount": 265985,
+      "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21847,20 +21847,20 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "394360",
-      "title": "Hearts of Iron IV",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/capsule_616x353.jpg",
+      "id": "281990",
+      "title": "Stellaris",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/394360",
+      "url": "https://store.steampowered.com/app/281990",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 25,
-      "reviewCount": 265985,
-      "reviewPercent": 90,
+      "reviewCount": 140191,
+      "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21898,23 +21898,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1158310",
-      "title": "Crusader Kings III",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1158310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 28,
-      "reviewCount": 95330,
-      "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1808500",
       "title": "ARC Raiders",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
@@ -21926,9 +21909,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 30,
+      "popularRank": 28,
       "reviewCount": 312687,
       "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1158310",
+      "title": "Crusader Kings III",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1158310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 29,
+      "reviewCount": 95330,
+      "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21943,7 +21943,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 31,
       "reviewCount": 270000,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
@@ -23151,7 +23151,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 182787,
+      "reviewCount": 182859,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
@@ -23190,7 +23190,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/capsule_616x353.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -23199,7 +23199,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 61288,
+      "reviewCount": 61323,
       "reviewPercent": 87,
       "reviewLabel": "дуже схвальні"
     },
@@ -23799,7 +23799,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 116608,
+      "reviewCount": 116651,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
@@ -24163,7 +24163,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 3441,
+      "reviewCount": 3444,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
@@ -25737,13 +25737,6 @@
     }
   ],
   "notifiedHistory": {
-    "steam_discount_242760": {
-      "title": "The Forest",
-      "price": 55,
-      "percent": 80,
-      "timestamp": "2026-10-27T13:00:30.724Z",
-      "type": "discount"
-    },
     "gamepass_popular_9PJ6FV3130QZ": {
       "title": "Dune: Awakening",
       "price": 0,
