@@ -17547,6 +17547,41 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-25T23:00:43.768Z"
+    },
+    {
+      "id": "25f80fd1b7725dd1a06319fd",
+      "createdAt": "2026-11-26T00:00:29.396Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>METAL GEAR SOLID V: THE PHANTOM PAIN</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>806 грн</s> ➡️ <b>483 грн</b>\n👍 Відгуки: <b>91%</b> (74K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/287700"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_287700",
+          "entry": {
+            "title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+            "price": 483,
+            "percent": 40,
+            "timestamp": "2026-11-26T00:00:29.396Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
