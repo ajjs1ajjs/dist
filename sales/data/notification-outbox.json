@@ -17633,6 +17633,108 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-26T17:00:43.149Z"
+    },
+    {
+      "id": "34a7323ae9756bb2a71420ff",
+      "createdAt": "2026-11-26T19:00:29.049Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Warhammer 40,000: Darktide</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>759 грн</s> ➡️ <b>189 грн</b>\n👍 Відгуки: <b>72%</b> (111K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1361210"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1361210",
+          "entry": {
+            "title": "Warhammer 40,000: Darktide",
+            "price": 189,
+            "percent": 75,
+            "timestamp": "2026-11-26T19:00:29.049Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "637ac449bc0462a722fb83b3",
+      "createdAt": "2026-11-26T19:00:29.049Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Dune: Awakening</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 149 грн</s> ➡️ <b>574 грн</b>\n👍 Відгуки: <b>72%</b> (70K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1172710"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1172710",
+          "entry": {
+            "title": "Dune: Awakening",
+            "price": 574,
+            "percent": 50,
+            "timestamp": "2026-11-26T19:00:29.049Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "c0e852b49acad22ade82c60a",
+      "createdAt": "2026-11-26T19:00:29.049Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Le Mans Ultimate</b>\n🏷️ Знижка: <b>-45%</b>\n💰 Ціна: <s>1 450 грн</s> ➡️ <b>797 грн</b>\n👍 Відгуки: <b>79%</b> (16K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399420/eefeee37cce081143c54630d2b29879499eba20e/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2399420"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_2399420",
+          "entry": {
+            "title": "Le Mans Ultimate",
+            "price": 797,
+            "percent": 45,
+            "timestamp": "2026-11-26T19:00:29.049Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
