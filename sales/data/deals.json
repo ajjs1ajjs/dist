@@ -32975,6 +32975,13 @@
       "percent": 50,
       "timestamp": "2026-11-26T19:00:29.049Z",
       "type": "discount"
+    },
+    "steam_discount_2399420": {
+      "title": "Le Mans Ultimate",
+      "price": 797,
+      "percent": 45,
+      "timestamp": "2026-11-26T19:00:29.049Z",
+      "type": "discount"
     }
   }
 }
