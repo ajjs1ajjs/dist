@@ -2,26 +2,6 @@
   "schemaVersion": 1,
   "messages": [
     {
-      "id": "3a74c0331b1a6a5e91a27bb1",
-      "createdAt": "2026-11-12T19:00:30.958Z",
-      "text": "🔥 <b>ГАРЯЧІ ЗНИЖКИ В STEAM (від 25%)!</b>\n\n🎮 <b>One More Lawn</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>170 грн</s> ➡️ <b>119 грн</b>\n🔗 <a href=\"https://store.steampowered.com/app/5378110\">Детальніше в Steam</a>\n\n🚀 Більше знижок дивіться на нашому сайті!",
-      "receipts": [
-        {
-          "key": "steam_discount_5378110",
-          "entry": {
-            "title": "One More Lawn",
-            "price": 119,
-            "percent": 30,
-            "timestamp": "2026-11-12T19:00:30.958Z",
-            "type": "discount"
-          }
-        }
-      ],
-      "status": "delivered",
-      "attempts": 1,
-      "claimedAt": "2026-11-12T19:00:34.226Z"
-    },
-    {
       "id": "adf33929f74d1f5577eee3d1",
       "createdAt": "2026-11-12T20:00:33.863Z",
       "text": "🔥 <b>ПОПУЛЯРНЕ У PC GAME PASS!</b>\n\n🎮 <b>Football Manager 27</b>\n📝 Кожен уболівальник впевнений, що він може краще. У FM27 це не просто гучна заява — це історія, яка тільки й чекає, щоб в…\n🔥 Зараз у топі популярних PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/football-manager-27/9N4NKMXDZCX6\">Microsoft Store</a>\n\n🎮 <b>Call of Duty®: Black Ops 6 - Standard Edition (Windows)</b>\n📝 Forced to go rogue. Hunted from within. This is Call of Duty®: Black Ops 6. Developed by Treyarch and Raven, Black Ops 6…\n🔥 Зараз у топі популярних PC Game Pass\n🔗 <a href=\"https://www.xbox.com/uk-UA/games/store/call-of-duty-black-ops-6-standard-edition-windows/9MZ1RZTJTZKB\">Microsoft Store</a>\n\n🚀 Більше ігор PC Game Pass дивіться на нашому сайті!",
@@ -17738,6 +17718,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-26T19:00:44.411Z"
+    },
+    {
+      "id": "d979a7e8a936ec9f8e5a324d",
+      "createdAt": "2026-11-26T20:00:28.735Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Bloons TD 6</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>219 грн</s> ➡️ <b>43 грн</b>\n👍 Відгуки: <b>97%</b> (355K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/960090"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_960090",
+          "entry": {
+            "title": "Bloons TD 6",
+            "price": 43,
+            "percent": 80,
+            "timestamp": "2026-11-26T20:00:28.735Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "71c1b7cce54206263040c420",
+      "createdAt": "2026-11-26T20:00:28.735Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>PAYDAY 2</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>194 грн</s> ➡️ <b>97 грн</b>\n👍 Відгуки: <b>89%</b> (447K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/34588a7ef1996a61917fad367d0cdb6deb60c12d/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/218620"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_218620",
+          "entry": {
+            "title": "PAYDAY 2",
+            "price": 97,
+            "percent": 50,
+            "timestamp": "2026-11-26T20:00:28.735Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
