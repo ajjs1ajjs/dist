@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-26T20:00:28.735Z",
+  "lastUpdated": "2026-11-26T21:00:36.394Z",
   "sourceUpdates": {
-    "steam": "2026-11-26T20:00:28.735Z",
-    "gamepass": "2026-11-26T20:00:28.735Z",
-    "playstation": "2026-11-26T20:00:28.735Z"
+    "steam": "2026-11-26T21:00:36.394Z",
+    "gamepass": "2026-11-26T21:00:36.394Z",
+    "playstation": "2026-11-26T21:00:36.394Z"
   },
   "priceHistory": {
     "2600": [
@@ -5008,6 +5008,13 @@
       {
         "date": "2026-11-16",
         "price": 120,
+        "currency": "UAH"
+      }
+    ],
+    "801800": [
+      {
+        "date": "2026-11-26",
+        "price": 277,
         "currency": "UAH"
       }
     ],
@@ -14605,6 +14612,11 @@
         "date": "2026-11-25",
         "price": 749,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-26",
+        "price": 749,
+        "currency": "UAH"
       }
     ],
     "2569760": [
@@ -21830,23 +21842,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg",
-      "originalPrice": 999,
-      "discountPrice": 199,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 20,
-      "reviewCount": 222118,
-      "reviewPercent": 95,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "2215430",
       "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
@@ -21858,10 +21853,44 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 20,
       "reviewCount": 66527,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg",
+      "originalPrice": 999,
+      "discountPrice": 199,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 21,
+      "reviewCount": 222118,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 254,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 23,
+      "reviewCount": 27336,
+      "reviewPercent": 74,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "281990",
@@ -21875,7 +21904,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 24,
+      "popularRank": 25,
       "reviewCount": 140191,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
@@ -21892,43 +21921,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 25,
+      "popularRank": 26,
       "reviewCount": 95330,
       "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 254,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 26,
-      "reviewCount": 27336,
-      "reviewPercent": 74,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "1808500",
-      "title": "ARC Raiders",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
-      "originalPrice": 1390,
-      "discountPrice": 695,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1808500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 27,
-      "reviewCount": 312687,
-      "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21943,9 +21938,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 28,
+      "popularRank": 27,
       "reviewCount": 279298,
       "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1808500",
+      "title": "ARC Raiders",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
+      "originalPrice": 1390,
+      "discountPrice": 695,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1808500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 28,
+      "reviewCount": 312915,
+      "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21961,43 +21973,9 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 29,
-      "reviewCount": 270087,
+      "reviewCount": 270130,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "582660",
-      "title": "Black Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
-      "originalPrice": 149,
-      "discountPrice": 14,
-      "discountPercent": 91,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/582660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 31,
-      "reviewCount": 63540,
-      "reviewPercent": 75,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 32,
-      "reviewCount": 280555,
-      "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "668580",
@@ -22011,10 +21989,44 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 33,
-      "reviewCount": 47010,
+      "popularRank": 32,
+      "reviewCount": 47031,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 33,
+      "reviewCount": 280555,
+      "reviewPercent": 94,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "582660",
+      "title": "Black Desert",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
+      "originalPrice": 149,
+      "discountPrice": 14,
+      "discountPercent": 91,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/582660",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 34,
+      "reviewCount": 63540,
+      "reviewPercent": 75,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "1551360",
@@ -22028,26 +22040,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
+      "popularRank": 35,
       "reviewCount": 263497,
       "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1401590",
-      "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 719,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1401590",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 36,
-      "reviewCount": 22700,
-      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -22062,10 +22057,44 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
-      "reviewCount": 859591,
+      "popularRank": 36,
+      "reviewCount": 859679,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 38,
+      "reviewCount": 159423,
+      "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1401590",
+      "title": "Disney Dreamlight Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 719,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1401590",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 39,
+      "reviewCount": 22700,
+      "reviewPercent": 92,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1888930",
@@ -22079,27 +22108,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 39,
+      "popularRank": 40,
       "reviewCount": 68160,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "3280350",
-      "title": "DEATH STRANDING 2: ON THE BEACH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
-      "originalPrice": 2299,
-      "discountPrice": 1540,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3280350",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 40,
-      "reviewCount": 17574,
-      "reviewPercent": 95,
-      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1238840",
@@ -22275,22 +22287,6 @@
       "isPopular": false,
       "reviewCount": 38536,
       "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "262060",
-      "title": "Darkest Dungeon®",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/997e3ac21cf31545cde60f87fc02f65c6fa67aef/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 74,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/262060",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 142367,
-      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -22502,22 +22498,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "601150",
-      "title": "Devil May Cry 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg",
-      "originalPrice": 949,
-      "discountPrice": 237,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/601150",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 120741,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "1222700",
       "title": "A Way Out",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/capsule_616x353.jpg",
@@ -22596,22 +22576,6 @@
       "reviewCount": 81214,
       "reviewPercent": 71,
       "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 159423,
-      "reviewPercent": 88,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "594570",
@@ -22817,7 +22781,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46019,
+      "reviewCount": 46035,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
     },
@@ -23238,6 +23202,22 @@
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "801800",
+      "title": "Atomfall",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/90d302bd4bac575300dfa4bcae7531ee1af285c7/capsule_616x353.jpg",
+      "originalPrice": 925,
+      "discountPrice": 277,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/801800",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 4685,
+      "reviewPercent": 76,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1895880",
       "title": "Ratchet & Clank: Rift Apart",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/capsule_616x353.jpg",
@@ -23609,6 +23589,22 @@
       "parentAppId": "632360",
       "reviewCount": 5445,
       "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2561580",
+      "title": "Horizon Zero Dawn™ Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 749,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2561580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 7182,
+      "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24048,6 +24044,22 @@
       "reviewCount": 37091,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "3280350",
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
+      "originalPrice": 2299,
+      "discountPrice": 1540,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3280350",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 17574,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2322010",
