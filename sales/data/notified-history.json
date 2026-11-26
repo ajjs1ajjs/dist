@@ -7229,5 +7229,12 @@
     "percent": 80,
     "timestamp": "2026-11-26T20:00:28.735Z",
     "type": "discount"
+  },
+  "steam_discount_218620": {
+    "title": "PAYDAY 2",
+    "price": 97,
+    "percent": 50,
+    "timestamp": "2026-11-26T20:00:28.735Z",
+    "type": "discount"
   }
 }
