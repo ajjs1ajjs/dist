@@ -32950,6 +32950,13 @@
       "percent": 75,
       "timestamp": "2026-11-25T23:00:32.948Z",
       "type": "discount"
+    },
+    "steam_discount_287700": {
+      "title": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+      "price": 483,
+      "percent": 40,
+      "timestamp": "2026-11-26T00:00:29.396Z",
+      "type": "discount"
     }
   }
 }
