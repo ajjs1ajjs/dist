@@ -17583,6 +17583,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-26T00:00:39.346Z"
+    },
+    {
+      "id": "823dce04408b62b91266db7c",
+      "createdAt": "2026-11-26T16:00:30.402Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Cuphead</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>279 грн</s> ➡️ <b>195 грн</b>\n👍 Відгуки: <b>96%</b> (202K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/268910"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_268910",
+          "entry": {
+            "title": "Cuphead",
+            "price": 195,
+            "percent": 30,
+            "timestamp": "2026-11-26T16:00:30.402Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
