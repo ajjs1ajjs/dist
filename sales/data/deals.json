@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-26T07:00:29.156Z",
+  "lastUpdated": "2026-11-26T08:00:38.900Z",
   "sourceUpdates": {
-    "steam": "2026-11-26T07:00:29.156Z",
-    "gamepass": "2026-11-26T07:00:29.156Z",
-    "playstation": "2026-11-26T07:00:29.156Z"
+    "steam": "2026-11-26T08:00:38.900Z",
+    "gamepass": "2026-11-26T08:00:38.900Z",
+    "playstation": "2026-11-26T08:00:38.900Z"
   },
   "priceHistory": {
     "2600": [
@@ -21714,7 +21714,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 16,
       "reviewCount": 45030,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
@@ -21805,23 +21805,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 254,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 24,
-      "reviewCount": 27336,
-      "reviewPercent": 74,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "1551360",
       "title": "Forza Horizon 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
@@ -21833,8 +21816,42 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 25,
+      "popularRank": 24,
       "reviewCount": 263497,
+      "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 254,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2909400",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 25,
+      "reviewCount": 27336,
+      "reviewPercent": 74,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "990080",
+      "title": "Hogwarts Legacy",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg",
+      "originalPrice": 1599,
+      "discountPrice": 159,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/990080",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 26,
+      "reviewCount": 279298,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
@@ -21850,27 +21867,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 26,
+      "popularRank": 27,
       "reviewCount": 270000,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "990080",
-      "title": "Hogwarts Legacy",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg",
-      "originalPrice": 1599,
-      "discountPrice": 159,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/990080",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 27,
-      "reviewCount": 279298,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "374320",
@@ -21901,26 +21901,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 29,
+      "popularRank": 30,
       "reviewCount": 95235,
       "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1401590",
-      "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 719,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1401590",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 32,
-      "reviewCount": 22692,
-      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -21935,7 +21918,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 33,
+      "popularRank": 32,
       "reviewCount": 312687,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
@@ -21952,9 +21935,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 35,
+      "popularRank": 33,
       "reviewCount": 265915,
       "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1401590",
+      "title": "Disney Dreamlight Valley",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 719,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1401590",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 35,
+      "reviewCount": 22700,
+      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -22038,7 +22038,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 243259,
+      "reviewCount": 243302,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
@@ -22998,7 +22998,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 215956,
+      "reviewCount": 215986,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -23922,7 +23922,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 16537,
+      "reviewCount": 16590,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
@@ -24106,7 +24106,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 3969,
+      "reviewCount": 3972,
       "reviewPercent": 87,
       "reviewLabel": "дуже схвальні"
     },
@@ -24156,7 +24156,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 3437,
+      "reviewCount": 3438,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
@@ -24945,6 +24945,18 @@
       "popularRank": 3
     },
     {
+      "id": "EP0700-PPSA10594_00-TEKKEN8000000000",
+      "title": "TEKKEN 8",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202308/0312/1a7c7392295e02a8fa688fdadde8e75799526881f990ad2a.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP0700-PPSA10594_00-TEKKEN8000000000",
+      "originalPrice": 1199,
+      "discountPrice": 719.4,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
       "id": "EP0006-PPSA03846_00-BEYONDPS5GAME000",
       "title": "Dead Space",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1918/2uQ9krCrTymIECLlXII1rJYQ.png",
@@ -24975,18 +24987,6 @@
       "url": "https://store.playstation.com/uk-ua/product/EP9000-PPSA15508_00-THELASTOFUSPART2",
       "originalPrice": 1499,
       "discountPrice": 899.4,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
-      "id": "EP0700-PPSA10594_00-TEKKEN8000000000",
-      "title": "TEKKEN 8",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202308/0312/1a7c7392295e02a8fa688fdadde8e75799526881f990ad2a.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP0700-PPSA10594_00-TEKKEN8000000000",
-      "originalPrice": 1199,
-      "discountPrice": 719.4,
       "discountPercent": 40,
       "currency": "UAH",
       "isDeal": true,
@@ -25031,18 +25031,6 @@
       "isPopular": false
     },
     {
-      "id": "EP9000-PPSA07642_00-THELASTOFUSPART1",
-      "title": "The Last of Us™ Part I",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/JKqkaz5Sy6AvH2fZAVdjTxR8.png",
-      "url": "https://store.playstation.com/uk-ua/product/EP9000-PPSA07642_00-THELASTOFUSPART1",
-      "originalPrice": 2299,
-      "discountPrice": 1149.5,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
       "id": "UP1003-PPSA26786_00-INDIANAJONESATGC",
       "title": "Indiana Jones and the Great Circle",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/1520/d002c270771bec89f396906f47f18d46d2c66b7da1b21cf0.jpg",
@@ -25050,6 +25038,18 @@
       "originalPrice": 2199,
       "discountPrice": 1319.4,
       "discountPercent": 40,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
+      "id": "EP9000-PPSA07642_00-THELASTOFUSPART1",
+      "title": "The Last of Us™ Part I",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/JKqkaz5Sy6AvH2fZAVdjTxR8.png",
+      "url": "https://store.playstation.com/uk-ua/product/EP9000-PPSA07642_00-THELASTOFUSPART1",
+      "originalPrice": 2299,
+      "discountPrice": 1149.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -25130,6 +25130,18 @@
       "isPopular": false
     },
     {
+      "id": "EP1001-PPSA06225_00-7789207353273926",
+      "title": "The Quarry для PS5™",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202203/0501/NTT9SfB3wDOxYDrbNuxlADVU.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP1001-PPSA06225_00-7789207353273926",
+      "originalPrice": 2099,
+      "discountPrice": 209.9,
+      "discountPercent": 90,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
       "id": "UP1018-PPSA16833_00-LEGOBATMAN000000",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202508/1316/6e7241b916d50c2a09b0c1a5cb6a305335cfa770422ae6fa.jpg",
@@ -25153,18 +25165,6 @@
       "isDeal": true,
       "isPopular": true,
       "popularRank": 12
-    },
-    {
-      "id": "EP1001-PPSA06225_00-7789207353273926",
-      "title": "The Quarry для PS5™",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202203/0501/NTT9SfB3wDOxYDrbNuxlADVU.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP1001-PPSA06225_00-7789207353273926",
-      "originalPrice": 2099,
-      "discountPrice": 209.9,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
     },
     {
       "id": "UP1003-PPSA20560_00-DTITAN0000000000",
@@ -25237,19 +25237,7 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 16
-    },
-    {
-      "id": "EP4133-PPSA04451_00-SPACEMARINESII00",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0711/nqyAJzSXromWZPf7SzCiDtZh.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00",
-      "originalPrice": 2199,
-      "discountPrice": 549.75,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
+      "popularRank": 15
     },
     {
       "id": "EP0700-PPSA02154_00-LITTLENIGHTS2000",
@@ -25262,7 +25250,7 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 17
+      "popularRank": 16
     },
     {
       "id": "EP0082-PPSA28101_00-0821634695257710",
@@ -25287,16 +25275,16 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 20
+      "popularRank": 19
     },
     {
-      "id": "EP1833-PPSA02391_00-DUNEAWAKENING000",
-      "title": "Dune: Awakening",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1512/16174f87c0c029ce0ed7882065a6717106b3d7beac4f5211.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP1833-PPSA02391_00-DUNEAWAKENING000",
-      "originalPrice": 1699,
-      "discountPrice": 1189.3,
-      "discountPercent": 30,
+      "id": "EP4133-PPSA04451_00-SPACEMARINESII00",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0711/nqyAJzSXromWZPf7SzCiDtZh.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00",
+      "originalPrice": 2199,
+      "discountPrice": 549.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -25324,7 +25312,19 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 21
+      "popularRank": 20
+    },
+    {
+      "id": "EP1833-PPSA02391_00-DUNEAWAKENING000",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202605/1512/16174f87c0c029ce0ed7882065a6717106b3d7beac4f5211.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP1833-PPSA02391_00-DUNEAWAKENING000",
+      "originalPrice": 1699,
+      "discountPrice": 1189.3,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
     },
     {
       "id": "EP4108-PPSA32785_00-NIOH300000000000",
@@ -25349,7 +25349,7 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 22
+      "popularRank": 21
     },
     {
       "id": "EP0006-PPSA01465_00-KINGSTONGAME0000",
@@ -25362,7 +25362,7 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 23
+      "popularRank": 22
     },
     {
       "id": "EP1018-PPSA22946_00-HARRYPOTTER17000",
@@ -25372,18 +25372,6 @@
       "originalPrice": 1199,
       "discountPrice": 179.85,
       "discountPercent": 85,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
-      "id": "UP1003-PPSA24884_00-HELIUM0000000000",
-      "title": "Starfield",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202603/0401/154e007ddacddf6ef08034822dbee7f9613936398b8d7743.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/UP1003-PPSA24884_00-HELIUM0000000000",
-      "originalPrice": 1499,
-      "discountPrice": 749.5,
-      "discountPercent": 50,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -25399,7 +25387,7 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 24
+      "popularRank": 23
     },
     {
       "id": "UP1001-PPSA01494_00-000000000000OAK2",
@@ -25408,6 +25396,18 @@
       "url": "https://store.playstation.com/uk-ua/product/UP1001-PPSA01494_00-000000000000OAK2",
       "originalPrice": 2999,
       "discountPrice": 1499.5,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
+      "id": "UP1003-PPSA24884_00-HELIUM0000000000",
+      "title": "Starfield",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202603/0401/154e007ddacddf6ef08034822dbee7f9613936398b8d7743.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/UP1003-PPSA24884_00-HELIUM0000000000",
+      "originalPrice": 1499,
+      "discountPrice": 749.5,
       "discountPercent": 50,
       "currency": "UAH",
       "isDeal": true,
@@ -25435,7 +25435,8 @@
       "discountPercent": 50,
       "currency": "UAH",
       "isDeal": true,
-      "isPopular": false
+      "isPopular": true,
+      "popularRank": 24
     },
     {
       "id": "UP0006-PPSA29802_00-PVZRELOADEDGAME0",
@@ -25450,18 +25451,6 @@
       "isPopular": false
     },
     {
-      "id": "HP1597-PPSA25717_00-ENDOFABYSS000000",
-      "title": "End of Abyss",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/f107dce9059811656b37de58e847ebca59c7b2bab277247c.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/HP1597-PPSA25717_00-ENDOFABYSS000000",
-      "originalPrice": 642,
-      "discountPrice": 481.5,
-      "discountPercent": 25,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
       "id": "JP0177-PPSA08804_00-SONICRACINGCW000",
       "title": "Sonic Racing: CrossWorlds PS4 & PS5",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2420/bccdbba86a2531b06bae4608e0a5fb1812e210e5818beb29.jpg",
@@ -25469,6 +25458,18 @@
       "originalPrice": 1349,
       "discountPrice": 809.4,
       "discountPercent": 40,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
+      "id": "HP1597-PPSA25717_00-ENDOFABYSS000000",
+      "title": "End of Abyss",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/f107dce9059811656b37de58e847ebca59c7b2bab277247c.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/HP1597-PPSA25717_00-ENDOFABYSS000000",
+      "originalPrice": 642,
+      "discountPrice": 481.5,
+      "discountPercent": 25,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -25582,18 +25583,6 @@
       "popularRank": 13
     },
     {
-      "id": "EP5067-PPSA15035_00-BEATSABERFULLPS5",
-      "title": "Beat Saber",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1422/e8b74cae2e5815adae0720a7a60ee3091e835677a754a3ac.png",
-      "url": "https://store.playstation.com/uk-ua/product/EP5067-PPSA15035_00-BEATSABERFULLPS5",
-      "originalPrice": 649,
-      "discountPrice": 649,
-      "currency": "UAH",
-      "isDeal": false,
-      "isPopular": true,
-      "popularRank": 14
-    },
-    {
       "id": "EP0700-PPSA04609_00-ELDENRING0000000",
       "title": "ELDEN RING PS4 & PS5",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202402/2214/636522fa4f2f7130c23e833a94774354a6dfb79db469face.jpg",
@@ -25603,7 +25592,7 @@
       "currency": "UAH",
       "isDeal": false,
       "isPopular": true,
-      "popularRank": 15
+      "popularRank": 14
     },
     {
       "id": "EP4497-PPSA04027_00-00000000000000N1",
@@ -25615,19 +25604,19 @@
       "currency": "UAH",
       "isDeal": false,
       "isPopular": true,
-      "popularRank": 18
+      "popularRank": 17
     },
     {
-      "id": "EP4040-PPSA01951_00-CONTROLUEPS50000",
-      "title": "CONTROL Ultimate Edition",
-      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202011/0615/3UWZHE8qN0kgnF6o74Ts4AC4.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP4040-PPSA01951_00-CONTROLUEPS50000",
-      "originalPrice": 1199,
-      "discountPrice": 1199,
+      "id": "EP5067-PPSA15035_00-BEATSABERFULLPS5",
+      "title": "Beat Saber",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1422/e8b74cae2e5815adae0720a7a60ee3091e835677a754a3ac.png",
+      "url": "https://store.playstation.com/uk-ua/product/EP5067-PPSA15035_00-BEATSABERFULLPS5",
+      "originalPrice": 649,
+      "discountPrice": 649,
       "currency": "UAH",
       "isDeal": false,
       "isPopular": true,
-      "popularRank": 19
+      "popularRank": 18
     },
     {
       "id": "ps_essential_tony-hawk-s-pro-skater-3-4-cross-gen-edition",
