@@ -32888,6 +32888,13 @@
       "percent": 40,
       "timestamp": "2026-11-26T00:00:29.396Z",
       "type": "discount"
+    },
+    "steam_discount_268910": {
+      "title": "Cuphead",
+      "price": 195,
+      "percent": 30,
+      "timestamp": "2026-11-26T16:00:30.402Z",
+      "type": "discount"
     }
   }
 }
