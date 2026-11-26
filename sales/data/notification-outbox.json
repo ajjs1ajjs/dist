@@ -17618,6 +17618,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-26T16:00:36.562Z"
+    },
+    {
+      "id": "86036989ac409b1e962532f2",
+      "createdAt": "2026-11-26T17:00:37.426Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>ZERO Sievert</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>207 грн</b>\n👍 Відгуки: <b>84%</b> (15K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782120/e99728277e02db3b7e706bff5f55f4f3b23f5147/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1782120"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1782120",
+          "entry": {
+            "title": "ZERO Sievert",
+            "price": 207,
+            "percent": 50,
+            "timestamp": "2026-11-26T17:00:37.426Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
