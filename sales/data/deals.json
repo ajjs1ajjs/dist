@@ -34603,6 +34603,13 @@
       "percent": 85,
       "timestamp": "2026-11-27T18:00:30.500Z",
       "type": "discount"
+    },
+    "steam_discount_107410": {
+      "title": "Arma 3",
+      "price": 187,
+      "percent": 75,
+      "timestamp": "2026-11-27T18:00:30.500Z",
+      "type": "discount"
     }
   }
 }
