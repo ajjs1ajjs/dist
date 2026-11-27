@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T15:00:31.857Z",
+  "lastUpdated": "2026-11-27T16:00:29.168Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T15:00:31.857Z",
-    "gamepass": "2026-11-27T15:00:31.857Z",
-    "playstation": "2026-11-27T15:00:31.857Z"
+    "steam": "2026-11-27T16:00:29.168Z",
+    "gamepass": "2026-11-27T16:00:29.168Z",
+    "playstation": "2026-11-27T16:00:29.168Z"
   },
   "priceHistory": {
     "2600": [
@@ -5863,6 +5863,13 @@
       {
         "date": "2026-11-19",
         "price": 944,
+        "currency": "UAH"
+      }
+    ],
+    "954740": [
+      {
+        "date": "2026-11-27",
+        "price": 94,
         "currency": "UAH"
       }
     ],
@@ -23185,15 +23192,32 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 16,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "2215430",
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215430",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 19,
+      "reviewCount": 66527,
+      "reviewPercent": 93,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1222140",
       "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg",
       "originalPrice": 1299,
       "discountPrice": 129,
       "discountPercent": 90,
@@ -23202,7 +23226,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 19,
+      "popularRank": 20,
       "reviewCount": 234117,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -23219,26 +23243,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 20,
+      "popularRank": 22,
       "reviewCount": 45030,
       "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "2215430",
-      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215430",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 21,
-      "reviewCount": 66527,
-      "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23276,23 +23283,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 26,
-      "reviewCount": 263497,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "292030",
       "title": "Відьмак 3: Дикий гін — Перевидання",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f719671b6983e490fedb357c8e5f7c9925751d50/capsule_616x353_ukrainian.jpg",
@@ -23304,10 +23294,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 27,
+      "popularRank": 26,
       "reviewCount": 852374,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 27,
+      "reviewCount": 263497,
+      "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1144200",
@@ -23361,23 +23368,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 197,
-      "discountPercent": 82,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1462040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 33,
-      "reviewCount": 46295,
-      "reviewPercent": 86,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "281990",
       "title": "Stellaris",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
@@ -23389,7 +23379,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
+      "popularRank": 33,
       "reviewCount": 140232,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
@@ -23406,9 +23396,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 35,
+      "popularRank": 34,
       "reviewCount": 313132,
       "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
+      "originalPrice": 1099,
+      "discountPrice": 197,
+      "discountPercent": 82,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1462040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 35,
+      "reviewCount": 46295,
+      "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23429,6 +23436,23 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1172710",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
+      "originalPrice": 1149,
+      "discountPrice": 574,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1172710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 37,
+      "reviewCount": 69600,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "3280350",
       "title": "DEATH STRANDING 2: ON THE BEACH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
@@ -23440,7 +23464,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 37,
+      "popularRank": 38,
       "reviewCount": 18068,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
@@ -23457,44 +23481,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
+      "popularRank": 39,
       "reviewCount": 104878,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
-    },
-    {
-      "id": "1172710",
-      "title": "Dune: Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
-      "originalPrice": 1149,
-      "discountPrice": 574,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1172710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 39,
-      "reviewCount": 69600,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "3489700",
-      "title": "Stellar Blade™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 1339,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3489700",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 40,
-      "reviewCount": 62929,
-      "reviewPercent": 93,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1238840",
@@ -23686,22 +23676,6 @@
       "isPopular": false,
       "reviewCount": 38536,
       "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "262060",
-      "title": "Darkest Dungeon®",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/997e3ac21cf31545cde60f87fc02f65c6fa67aef/capsule_616x353.jpg",
-      "originalPrice": 499,
-      "discountPrice": 74,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/262060",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 142367,
-      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24041,19 +24015,19 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "2072450",
-      "title": "Like a Dragon: Infinite Wealth",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2072450/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 399,
+      "id": "954740",
+      "title": "Terminator: Resistance",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/capsule_616x353.jpg",
+      "originalPrice": 472,
+      "discountPrice": 94,
       "discountPercent": 80,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2072450",
+      "url": "https://store.steampowered.com/app/954740",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 16589,
-      "reviewPercent": 90,
+      "reviewCount": 16923,
+      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24249,22 +24223,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "916440",
-      "title": "Anno 1800",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916440/bda65ed0b2a022b7fa304b6a87aec3f2248bf6e8/capsule_616x353.jpg",
-      "originalPrice": 915,
-      "discountPrice": 228,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/916440",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 30384,
-      "reviewPercent": 81,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1259420",
       "title": "Days Gone",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/capsule_616x353.jpg",
@@ -24292,7 +24250,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 25743,
+      "reviewCount": 25756,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
@@ -24359,6 +24317,22 @@
       "reviewCount": 46413,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "488790",
+      "title": "South Park™: The Fractured But Whole™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 194,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/488790",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 32727,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "476600",
@@ -24484,7 +24458,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 76463,
+      "reviewCount": 76464,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
@@ -24692,7 +24666,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46470,
+      "reviewCount": 46476,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
@@ -25007,6 +24981,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "2561580",
+      "title": "Horizon Zero Dawn™ Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 749,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2561580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 7182,
+      "reviewPercent": 84,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "2840770",
       "title": "Avatar: Frontiers of Pandora™",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/192cba5b2a29346ba8899042c4f72e03d8f6515c/capsule_616x353.jpg",
@@ -25082,7 +25072,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 13963,
+      "reviewCount": 13968,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
     },
@@ -25278,6 +25268,22 @@
       "isPopular": false,
       "reviewCount": 13422,
       "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "3489700",
+      "title": "Stellar Blade™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 1339,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3489700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 62929,
+      "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25540,7 +25546,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 110112,
+      "reviewCount": 110141,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
     },
@@ -25558,8 +25564,8 @@
       "isPopular": false,
       "isDlc": true,
       "parentAppId": "668580",
-      "reviewCount": 1546,
-      "reviewPercent": 91,
+      "reviewCount": 1550,
+      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25720,6 +25726,15 @@
     }
   ],
   "gamepass": [
+    {
+      "id": "9NFZHXPSB473",
+      "title": "Arkheron (Game Preview)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.48283.13589912066336146.960b6af0-616b-4327-891e-43879004fc77.34f27689-fc50-42ea-aa8e-15bf39bbf04c",
+      "url": "https://www.xbox.com/uk-UA/games/store/arkheron-game-preview/9NFZHXPSB473",
+      "description": "Buy the Standard or Supporter Edition by December 1, 2026, 08:01 UTC to get the Armored Swan Pack included with your purchase*. Early Access lets us put Arkheron in players' hands, gather meaningful f",
+      "isNew": true,
+      "isPopular": false
+    },
     {
       "id": "9NV8BWGH15GN",
       "title": "Sniper Ghost Warrior Contracts 2",

@@ -18146,6 +18146,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T14:00:39.278Z"
+    },
+    {
+      "id": "c4719703258bd3e1a4f96524",
+      "createdAt": "2026-11-27T16:00:29.168Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Terminator: Resistance</b>\n🏷️ Знижка: <b>-80%</b>\n💰 Ціна: <s>472 грн</s> ➡️ <b>94 грн</b>\n👍 Відгуки: <b>91%</b> (17K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/954740"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_954740",
+          "entry": {
+            "title": "Terminator: Resistance",
+            "price": 94,
+            "percent": 80,
+            "timestamp": "2026-11-27T16:00:29.168Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7e832875ac5a4f0dd9513b68",
+      "createdAt": "2026-11-27T16:00:29.168Z",
+      "text": "🎮 <b>НОВИНКА В PC GAME PASS!</b>\n\n🎮 <b>Arkheron (Game Preview)</b>\n✅ Включено у підписку PC Game Pass\n<i>Buy the Standard or Supporter Edition by December 1, 2026, 08:01 UTC to get the Armored Swan Pack included with your purchase*. Early Acces…</i>\n\n#gamepass #pc",
+      "photoUrl": "https://store-images.s-microsoft.com/image/apps.48283.13589912066336146.960b6af0-616b-4327-891e-43879004fc77.34f27689-fc50-42ea-aa8e-15bf39bbf04c",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🎮 Відкрити в Xbox Store",
+              "url": "https://www.xbox.com/uk-UA/games/store/arkheron-game-preview/9NFZHXPSB473"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "gamepass_9NFZHXPSB473",
+          "entry": {
+            "title": "Arkheron (Game Preview)",
+            "price": 0,
+            "percent": 0,
+            "timestamp": "2026-11-27T16:00:29.168Z",
+            "type": "gamepass"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
