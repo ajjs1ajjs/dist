@@ -34572,6 +34572,13 @@
       "percent": 0,
       "timestamp": "2026-11-27T16:00:29.168Z",
       "type": "gamepass"
+    },
+    "steam_discount_1874880": {
+      "title": "Arma Reforger",
+      "price": 629,
+      "percent": 30,
+      "timestamp": "2026-11-27T17:00:33.205Z",
+      "type": "discount"
     }
   }
 }
