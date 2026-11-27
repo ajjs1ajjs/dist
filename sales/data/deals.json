@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T12:00:36.635Z",
+  "lastUpdated": "2026-11-27T13:00:32.929Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T12:00:36.635Z",
-    "gamepass": "2026-11-27T12:00:36.635Z",
-    "playstation": "2026-11-27T12:00:36.635Z"
+    "steam": "2026-11-27T13:00:32.929Z",
+    "gamepass": "2026-11-27T13:00:32.929Z",
+    "playstation": "2026-11-27T13:00:32.929Z"
   },
   "priceHistory": {
     "2600": [
@@ -23033,7 +23033,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 3,
-      "reviewCount": 236766,
+      "reviewCount": 237374,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
@@ -23049,7 +23049,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 6,
+      "popularRank": 5,
       "reviewCount": 19753,
       "reviewPercent": 80,
       "reviewLabel": "дуже схвальні"
@@ -23100,7 +23100,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 11,
+      "popularRank": 10,
       "reviewCount": 100126,
       "reviewPercent": 81,
       "reviewLabel": "дуже схвальні"
@@ -23151,7 +23151,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 14,
       "reviewCount": 149505,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -23310,23 +23310,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1158310",
-      "title": "Crusader Kings III",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1158310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 31,
-      "reviewCount": 95472,
-      "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "668580",
       "title": "Atomic Heart",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
@@ -23338,26 +23321,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 31,
       "reviewCount": 47049,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1808500",
-      "title": "ARC Raiders",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
-      "originalPrice": 1390,
-      "discountPrice": 695,
-      "discountPercent": 50,
+      "id": "1158310",
+      "title": "Crusader Kings III",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1808500",
+      "url": "https://store.steampowered.com/app/1158310",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 33,
-      "reviewCount": 312987,
-      "reviewPercent": 82,
+      "popularRank": 32,
+      "reviewCount": 95472,
+      "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23372,8 +23355,8 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
-      "reviewCount": 140229,
+      "popularRank": 33,
+      "reviewCount": 140232,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
@@ -23389,9 +23372,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 35,
+      "popularRank": 34,
       "reviewCount": 46295,
       "reviewPercent": 86,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1808500",
+      "title": "ARC Raiders",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
+      "originalPrice": 1390,
+      "discountPrice": 695,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1808500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 35,
+      "reviewCount": 313120,
+      "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23446,21 +23446,21 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1361210",
-      "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
-      "originalPrice": 759,
-      "discountPrice": 189,
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1361210",
+      "url": "https://store.steampowered.com/app/311210",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 110505,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
+      "reviewCount": 159423,
+      "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1238840",
@@ -23943,19 +23943,19 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
+      "id": "594570",
+      "title": "Total War: WARHAMMER II",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594570/capsule_616x353.jpg",
+      "originalPrice": 949,
+      "discountPrice": 237,
       "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
+      "url": "https://store.steampowered.com/app/594570",
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 159423,
-      "reviewPercent": 88,
+      "reviewCount": 85194,
+      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24114,7 +24114,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 25664,
+      "reviewCount": 25712,
       "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
@@ -24183,6 +24183,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1361210",
+      "title": "Warhammer 40,000: Darktide",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "originalPrice": 759,
+      "discountPrice": 189,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1361210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 110505,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1259420",
       "title": "Days Gone",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/capsule_616x353.jpg",
@@ -24194,7 +24210,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 83932,
+      "reviewCount": 83945,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -24226,7 +24242,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 13862,
+      "reviewCount": 13880,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
@@ -24514,7 +24530,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 447015,
+      "reviewCount": 447050,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
@@ -24562,7 +24578,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 11778,
+      "reviewCount": 11797,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
@@ -24952,24 +24968,8 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 51662,
+      "reviewCount": 51714,
       "reviewPercent": 92,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "2561580",
-      "title": "Horizon Zero Dawn™ Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 749,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2561580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 7182,
-      "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25178,7 +25178,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 15998,
+      "reviewCount": 16003,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
     },
@@ -25679,24 +25679,6 @@
       "reviewCount": 1929,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1996840",
-      "title": "Guild Wars 2® Heart of Thorns® and Path of Fire™ Expansions",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996840/13630a2ce9d9e1ce6debd02b1a5f621d1c045eda/capsule_616x353.jpg",
-      "originalPrice": 894,
-      "discountPrice": 581,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1996840",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "isDlc": true,
-      "parentAppId": "1284210",
-      "reviewCount": 334,
-      "reviewPercent": 78,
-      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "2214824",
