@@ -18061,6 +18061,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T07:00:38.332Z"
+    },
+    {
+      "id": "83a32eb81a9cf2cd50e30cb5",
+      "createdAt": "2026-11-27T08:00:39.173Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Overcooked! All You Can Eat</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>800 грн</s> ➡️ <b>200 грн</b>\n👍 Відгуки: <b>73%</b> (5.9K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1243830"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1243830",
+          "entry": {
+            "title": "Overcooked! All You Can Eat",
+            "price": 200,
+            "percent": 75,
+            "timestamp": "2026-11-27T08:00:39.173Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "2eb03ef641826f5458fc1ce8",
+      "createdAt": "2026-11-27T08:00:39.173Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Door Kickers 2: Task Force North</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>515 грн</s> ➡️ <b>309 грн</b>\n👍 Відгуки: <b>96%</b> (13K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1239080/ce63e1e60147d530e0b63cc6dab5cf5f7af587bd/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1239080"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1239080",
+          "entry": {
+            "title": "Door Kickers 2: Task Force North",
+            "price": 309,
+            "percent": 40,
+            "timestamp": "2026-11-27T08:00:39.173Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
