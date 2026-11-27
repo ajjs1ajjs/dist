@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T14:00:32.750Z",
+  "lastUpdated": "2026-11-27T15:00:31.857Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T14:00:32.750Z",
-    "gamepass": "2026-11-27T14:00:32.750Z",
-    "playstation": "2026-11-27T14:00:32.750Z"
+    "steam": "2026-11-27T15:00:31.857Z",
+    "gamepass": "2026-11-27T15:00:31.857Z",
+    "playstation": "2026-11-27T15:00:31.857Z"
   },
   "priceHistory": {
     "2600": [
@@ -23049,7 +23049,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 3,
+      "popularRank": 5,
       "reviewCount": 237374,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -23066,7 +23066,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 6,
+      "popularRank": 7,
       "reviewCount": 19753,
       "reviewPercent": 80,
       "reviewLabel": "дуже схвальні"
@@ -23108,7 +23108,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
       "originalPrice": 2299,
       "discountPrice": 1724,
       "discountPercent": 25,
@@ -23125,7 +23125,7 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
       "originalPrice": 1559,
       "discountPrice": 389,
       "discountPercent": 75,
@@ -23191,23 +23191,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "2124490",
-      "title": "SILENT HILL 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/capsule_616x353.jpg",
-      "originalPrice": 1315,
-      "discountPrice": 368,
-      "discountPercent": 72,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2124490",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 19,
-      "reviewCount": 45030,
-      "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1222140",
       "title": "Detroit: Become Human",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
@@ -23219,10 +23202,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 20,
+      "popularRank": 19,
       "reviewCount": 234117,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "2124490",
+      "title": "SILENT HILL 2",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/capsule_616x353.jpg",
+      "originalPrice": 1315,
+      "discountPrice": 368,
+      "discountPercent": 72,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2124490",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 20,
+      "reviewCount": 45030,
+      "reviewPercent": 94,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "2215430",
@@ -23304,7 +23304,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 28,
+      "popularRank": 27,
       "reviewCount": 852374,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -23346,7 +23346,7 @@
     {
       "id": "1158310",
       "title": "Crusader Kings III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -23378,6 +23378,23 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "281990",
+      "title": "Stellaris",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/281990",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 34,
+      "reviewCount": 140232,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1808500",
       "title": "ARC Raiders",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
@@ -23389,26 +23406,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
-      "reviewCount": 313120,
-      "reviewPercent": 82,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "281990",
-      "title": "Stellaris",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/281990",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
       "popularRank": 35,
-      "reviewCount": 140232,
-      "reviewPercent": 85,
+      "reviewCount": 313132,
+      "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23429,23 +23429,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 37,
-      "reviewCount": 104878,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "3280350",
       "title": "DEATH STRANDING 2: ON THE BEACH",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
@@ -23457,27 +23440,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
+      "popularRank": 37,
       "reviewCount": 18068,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "3489700",
-      "title": "Stellar Blade™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 1339,
-      "discountPercent": 33,
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3489700",
+      "url": "https://store.steampowered.com/app/1817070",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 39,
-      "reviewCount": 62929,
-      "reviewPercent": 93,
-      "reviewLabel": "дуже схвальні"
+      "popularRank": 38,
+      "reviewCount": 104878,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1172710",
@@ -23491,10 +23474,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 40,
+      "popularRank": 39,
       "reviewCount": 69600,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "3489700",
+      "title": "Stellar Blade™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg",
+      "originalPrice": 1999,
+      "discountPrice": 1339,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3489700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 40,
+      "reviewCount": 62929,
+      "reviewPercent": 93,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1238840",
@@ -23755,7 +23755,7 @@
     {
       "id": "582660",
       "title": "Black Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
       "originalPrice": 149,
       "discountPrice": 14,
       "discountPercent": 91,
@@ -23892,7 +23892,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 108533,
+      "reviewCount": 108586,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
     },
@@ -24185,22 +24185,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2138710",
-      "title": "Sifu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg",
-      "originalPrice": 569,
-      "discountPrice": 142,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 22618,
-      "reviewPercent": 91,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2231380",
       "title": "Tom Clancy's Ghost Recon® Breakpoint",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg",
@@ -24251,7 +24235,7 @@
     {
       "id": "1361210",
       "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
       "originalPrice": 759,
       "discountPrice": 189,
       "discountPercent": 75,
@@ -24443,7 +24427,7 @@
     {
       "id": "594650",
       "title": "Hunt: Showdown 1896",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
       "originalPrice": 719,
       "discountPrice": 251,
       "discountPercent": 65,
@@ -24468,7 +24452,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 1103063,
+      "reviewCount": 1103162,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -24500,7 +24484,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 76443,
+      "reviewCount": 76463,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
@@ -24571,7 +24555,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -24708,7 +24692,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 46392,
+      "reviewCount": 46470,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
@@ -24792,24 +24776,6 @@
       "isPopular": false,
       "reviewCount": 68160,
       "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1755190",
-      "title": "Terminator: Resistance Annihilation Line",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1755190/capsule_616x353.jpg",
-      "originalPrice": 229,
-      "discountPrice": 91,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1755190",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "isDlc": true,
-      "parentAppId": "954740",
-      "reviewCount": 971,
-      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25107,7 +25073,7 @@
     {
       "id": "2104890",
       "title": "RoadCraft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 999,
       "discountPrice": 499,
       "discountPercent": 50,
@@ -25139,7 +25105,7 @@
     {
       "id": "1401590",
       "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 1199,
       "discountPrice": 719,
       "discountPercent": 40,
@@ -25269,7 +25235,7 @@
     {
       "id": "2486820",
       "title": "Sonic Racing: CrossWorlds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
       "originalPrice": 1349,
       "discountPrice": 809,
       "discountPercent": 40,
@@ -25285,7 +25251,7 @@
     {
       "id": "690830",
       "title": "Foundation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 700,
       "discountPrice": 420,
       "discountPercent": 40,
