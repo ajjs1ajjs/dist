@@ -18216,6 +18216,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T16:00:40.498Z"
+    },
+    {
+      "id": "b0b1f1e3410e907a2c78bbf9",
+      "createdAt": "2026-11-27T17:00:33.205Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Arma Reforger</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>899 грн</s> ➡️ <b>629 грн</b>\n👍 Відгуки: <b>80%</b> (54K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874880/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1874880"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1874880",
+          "entry": {
+            "title": "Arma Reforger",
+            "price": 629,
+            "percent": 30,
+            "timestamp": "2026-11-27T17:00:33.205Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
