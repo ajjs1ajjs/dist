@@ -34596,6 +34596,13 @@
       "percent": 30,
       "timestamp": "2026-11-27T17:00:33.205Z",
       "type": "discount"
+    },
+    "steam_discount_518790": {
+      "title": "theHunter: Call of the Wild™",
+      "price": 62,
+      "percent": 85,
+      "timestamp": "2026-11-27T18:00:30.500Z",
+      "type": "discount"
     }
   }
 }
