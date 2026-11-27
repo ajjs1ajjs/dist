@@ -7285,5 +7285,12 @@
     "percent": 30,
     "timestamp": "2026-11-27T02:00:43.987Z",
     "type": "discount"
+  },
+  "steam_discount_204360": {
+    "title": "Castle Crashers®",
+    "price": 68,
+    "percent": 70,
+    "timestamp": "2026-11-27T05:00:35.652Z",
+    "type": "discount"
   }
 }
