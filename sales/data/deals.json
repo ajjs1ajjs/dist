@@ -34325,6 +34325,13 @@
       "percent": 40,
       "timestamp": "2026-11-27T00:00:29.298Z",
       "type": "discount"
+    },
+    "steam_discount_1091500": {
+      "title": "Cyberpunk 2077",
+      "price": 419,
+      "percent": 70,
+      "timestamp": "2026-11-27T01:00:31.404Z",
+      "type": "discount"
     }
   }
 }
