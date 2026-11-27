@@ -7264,5 +7264,12 @@
     "percent": 40,
     "timestamp": "2026-11-27T01:00:31.404Z",
     "type": "dlc"
+  },
+  "ps_deal_EP4001-PPSA01551_00-DIRTFIVEPS5EDITI": {
+    "title": "DIRT 5 PS4 & PS5",
+    "price": 499.75,
+    "percent": 75,
+    "timestamp": "2026-11-27T01:00:31.404Z",
+    "type": "ps_deal"
   }
 }
