@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T22:00:32.338Z",
+  "lastUpdated": "2026-11-27T23:00:32.432Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T22:00:32.338Z",
-    "gamepass": "2026-11-27T22:00:32.338Z",
-    "playstation": "2026-11-27T22:00:32.338Z"
+    "steam": "2026-11-27T23:00:32.432Z",
+    "gamepass": "2026-11-27T23:00:32.432Z",
+    "playstation": "2026-11-27T23:00:32.432Z"
   },
   "priceHistory": {
     "2600": [
@@ -23187,7 +23187,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 13,
+      "popularRank": 14,
       "reviewCount": 176814,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -23238,7 +23238,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 19,
+      "popularRank": 18,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
@@ -23280,7 +23280,7 @@
     {
       "id": "1222140",
       "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
       "originalPrice": 1299,
       "discountPrice": 129,
       "discountPercent": 90,
@@ -23357,7 +23357,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 29,
+      "popularRank": 28,
       "reviewCount": 270261,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
@@ -23459,7 +23459,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 36,
+      "popularRank": 35,
       "reviewCount": 104878,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -23482,36 +23482,36 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "668580",
-      "title": "Atomic Heart",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 299,
-      "discountPercent": 80,
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/668580",
+      "url": "https://store.steampowered.com/app/374320",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 38,
-      "reviewCount": 47090,
-      "reviewPercent": 82,
+      "reviewCount": 280555,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1361210",
-      "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
-      "originalPrice": 759,
-      "discountPrice": 189,
-      "discountPercent": 75,
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1361210",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 39,
-      "reviewCount": 110505,
+      "reviewCount": 108586,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
     },
@@ -23901,22 +23901,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 108586,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "601150",
       "title": "Devil May Cry 5",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg",
@@ -24075,6 +24059,22 @@
       "reviewCount": 35018,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/668580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 47090,
+      "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "255710",
@@ -24285,6 +24285,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1361210",
+      "title": "Warhammer 40,000: Darktide",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "originalPrice": 759,
+      "discountPrice": 189,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1361210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 110505,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1259420",
       "title": "Days Gone",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/capsule_616x353.jpg",
@@ -24488,7 +24504,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 1103162,
+      "reviewCount": 1103245,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -24602,22 +24618,6 @@
       "isPopular": false,
       "reviewCount": 61415,
       "reviewPercent": 87,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 280555,
-      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25118,7 +25118,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 161375,
+      "reviewCount": 161400,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
@@ -25150,7 +25150,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12531,
+      "reviewCount": 12532,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
@@ -25264,7 +25264,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12266,
+      "reviewCount": 12281,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -25592,24 +25592,6 @@
       "isPopular": false,
       "reviewCount": 110141,
       "reviewPercent": 81,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "2214823",
-      "title": "Atomic Heart - Enchantment Under the Sea",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2214823/9ae715e97640fa475b987ed3bf925a8c09a614ee/capsule_616x353.jpg",
-      "originalPrice": 169,
-      "discountPrice": 101,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2214823",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "isDlc": true,
-      "parentAppId": "668580",
-      "reviewCount": 1550,
-      "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
     {
