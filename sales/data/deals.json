@@ -34519,6 +34519,13 @@
       "percent": 60,
       "timestamp": "2026-11-27T14:00:32.750Z",
       "type": "dlc"
+    },
+    "steam_discount_954740": {
+      "title": "Terminator: Resistance",
+      "price": 94,
+      "percent": 80,
+      "timestamp": "2026-11-27T16:00:29.168Z",
+      "type": "discount"
     }
   }
 }
