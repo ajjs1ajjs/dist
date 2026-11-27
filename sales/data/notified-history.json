@@ -7355,5 +7355,12 @@
     "percent": 75,
     "timestamp": "2026-11-27T18:00:30.500Z",
     "type": "discount"
+  },
+  "steam_discount_2495100": {
+    "title": "Hello Kitty Island Adventure",
+    "price": 515,
+    "percent": 50,
+    "timestamp": "2026-11-27T22:00:32.338Z",
+    "type": "discount"
   }
 }
