@@ -34332,6 +34332,13 @@
       "percent": 70,
       "timestamp": "2026-11-27T01:00:31.404Z",
       "type": "discount"
+    },
+    "steam_dlc_2138330": {
+      "title": "Cyberpunk 2077: Ілюзія свободи",
+      "price": 419,
+      "percent": 40,
+      "timestamp": "2026-11-27T01:00:31.404Z",
+      "type": "dlc"
     }
   }
 }
