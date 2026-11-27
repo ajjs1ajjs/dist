@@ -18321,6 +18321,41 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T18:00:42.432Z"
+    },
+    {
+      "id": "075a24dc9fb40476e864bed5",
+      "createdAt": "2026-11-27T22:00:32.338Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Hello Kitty Island Adventure</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>1 030 грн</s> ➡️ <b>515 грн</b>\n👍 Відгуки: <b>93%</b> (10K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495100/185a1702ef1497a1f51d1c88dfffafb640aafeea/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2495100"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_2495100",
+          "entry": {
+            "title": "Hello Kitty Island Adventure",
+            "price": 515,
+            "percent": 50,
+            "timestamp": "2026-11-27T22:00:32.338Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
