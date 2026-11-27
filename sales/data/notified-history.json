@@ -7306,5 +7306,12 @@
     "percent": 75,
     "timestamp": "2026-11-27T08:00:39.173Z",
     "type": "discount"
+  },
+  "steam_discount_1239080": {
+    "title": "Door Kickers 2: Task Force North",
+    "price": 309,
+    "percent": 40,
+    "timestamp": "2026-11-27T08:00:39.173Z",
+    "type": "discount"
   }
 }
