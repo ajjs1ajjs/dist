@@ -7292,5 +7292,12 @@
     "percent": 70,
     "timestamp": "2026-11-27T05:00:35.652Z",
     "type": "discount"
+  },
+  "ps_deal_EP4133-PPSA34751_00-MUDRUNNER0000000": {
+    "title": "MudRunner [PS4 & PS5]",
+    "price": 474.5,
+    "percent": 50,
+    "timestamp": "2026-11-27T07:00:32.819Z",
+    "type": "ps_deal"
   }
 }
