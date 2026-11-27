@@ -17990,6 +17990,41 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T02:00:55.505Z"
+    },
+    {
+      "id": "6ddf332494b15c4da206c3bb",
+      "createdAt": "2026-11-27T05:00:35.652Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Castle Crashers®</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>229 грн</s> ➡️ <b>68 грн</b>\n👍 Відгуки: <b>96%</b> (110K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/204360"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_204360",
+          "entry": {
+            "title": "Castle Crashers®",
+            "price": 68,
+            "percent": 70,
+            "timestamp": "2026-11-27T05:00:35.652Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
