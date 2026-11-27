@@ -18131,6 +18131,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T08:00:48.237Z"
+    },
+    {
+      "id": "55768b8bbeab1871e127e250",
+      "createdAt": "2026-11-27T14:00:32.750Z",
+      "text": "🧩 <b>ЗНИЖКА НА DLC У STEAM!</b>\n\n🎮 <b>Terminator: Resistance Annihilation Line</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>229 грн</s> ➡️ <b>91 грн</b>\n👍 Відгуки: <b>94%</b> (971)\n\n#steam #dlc #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1755190/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити DLC в Steam",
+              "url": "https://store.steampowered.com/app/1755190"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_dlc_1755190",
+          "entry": {
+            "title": "Terminator: Resistance Annihilation Line",
+            "price": 91,
+            "percent": 60,
+            "timestamp": "2026-11-27T14:00:32.750Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
