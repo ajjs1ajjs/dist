@@ -18026,6 +18026,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T05:00:53.642Z"
+    },
+    {
+      "id": "d238b7727cd8c02151254602",
+      "createdAt": "2026-11-27T07:00:32.819Z",
+      "text": "🎮 <b>ЗНИЖКА PLAYSTATION 5!</b>\n\n🎮 <b>MudRunner [PS4 &amp; PS5]</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>949 грн</s> ➡️ <b>474,5 грн</b>\n\n#ps5 #знижки",
+      "photoUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1116/a661a990225f67c8f5939178715cde024107f3a4faf39e3c.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA34751_00-MUDRUNNER0000000"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_deal_EP4133-PPSA34751_00-MUDRUNNER0000000",
+          "entry": {
+            "title": "MudRunner [PS4 & PS5]",
+            "price": 474.5,
+            "percent": 50,
+            "timestamp": "2026-11-27T07:00:32.819Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }

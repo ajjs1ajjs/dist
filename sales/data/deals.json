@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T06:00:29.101Z",
+  "lastUpdated": "2026-11-27T07:00:32.819Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T06:00:29.101Z",
-    "gamepass": "2026-11-27T06:00:29.101Z",
-    "playstation": "2026-11-27T06:00:29.101Z"
+    "steam": "2026-11-27T07:00:32.819Z",
+    "gamepass": "2026-11-27T07:00:32.819Z",
+    "playstation": "2026-11-27T07:00:32.819Z"
   },
   "priceHistory": {
     "2600": [
@@ -1473,6 +1473,11 @@
       },
       {
         "date": "2026-11-26",
+        "price": 74,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-27",
         "price": 74,
         "currency": "UAH"
       }
@@ -6092,6 +6097,11 @@
       },
       {
         "date": "2026-11-24",
+        "price": 839,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-27",
         "price": 839,
         "currency": "UAH"
       }
@@ -22922,6 +22932,13 @@
         "price": 1999,
         "currency": "UAH"
       }
+    ],
+    "EP4133-PPSA34751_00-MUDRUNNER0000000": [
+      {
+        "date": "2026-11-27",
+        "price": 474.5,
+        "currency": "UAH"
+      }
     ]
   },
   "steam": [
@@ -23039,7 +23056,7 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 9,
+      "popularRank": 10,
       "parentAppId": "1938090",
       "reviewCount": 12862,
       "reviewPercent": 68,
@@ -23142,7 +23159,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 19,
+      "popularRank": 18,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
@@ -23159,7 +23176,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 20,
       "reviewCount": 234117,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -23216,23 +23233,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "281990",
-      "title": "Stellaris",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/281990",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 27,
-      "reviewCount": 140191,
-      "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1144200",
       "title": "Ready or Not",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2f02a7f8e5458c9ac5f93f489a54dae3050742f9/capsule_616x353.jpg",
@@ -23261,9 +23261,43 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 30,
+      "popularRank": 29,
       "reviewCount": 263497,
       "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "281990",
+      "title": "Stellaris",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/281990",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 30,
+      "reviewCount": 140191,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1808500",
+      "title": "ARC Raiders",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
+      "originalPrice": 1390,
+      "discountPrice": 695,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1808500",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 31,
+      "reviewCount": 312987,
+      "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23278,7 +23312,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 31,
+      "popularRank": 32,
       "reviewCount": 95330,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
@@ -23295,7 +23329,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 33,
       "reviewCount": 159423,
       "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
@@ -23312,26 +23346,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 33,
+      "popularRank": 34,
       "reviewCount": 280555,
       "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1808500",
-      "title": "ARC Raiders",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
-      "originalPrice": 1390,
-      "discountPrice": 695,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1808500",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 34,
-      "reviewCount": 312987,
-      "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23369,23 +23386,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1361210",
-      "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
-      "originalPrice": 759,
-      "discountPrice": 189,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1361210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 37,
-      "reviewCount": 110505,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "1817070",
       "title": "Marvel’s Spider-Man Remastered",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
@@ -23397,27 +23397,61 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
+      "popularRank": 37,
       "reviewCount": 104878,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "553850",
-      "title": "HELLDIVERS™ 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 899,
-      "discountPercent": 25,
+      "id": "1361210",
+      "title": "Warhammer 40,000: Darktide",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "originalPrice": 759,
+      "discountPrice": 189,
+      "discountPercent": 75,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/553850",
+      "url": "https://store.steampowered.com/app/1361210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 38,
+      "reviewCount": 110505,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "582660",
+      "title": "Black Desert",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
+      "originalPrice": 149,
+      "discountPrice": 14,
+      "discountPercent": 91,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/582660",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 39,
-      "reviewCount": 859748,
-      "reviewPercent": 74,
+      "reviewCount": 63540,
+      "reviewPercent": 75,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "668580",
+      "title": "Atomic Heart",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
+      "originalPrice": 1499,
+      "discountPrice": 299,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/668580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 40,
+      "reviewCount": 47049,
+      "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1238840",
@@ -23575,7 +23609,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 354729,
+      "reviewCount": 354732,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
     },
@@ -23593,6 +23627,22 @@
       "isPopular": false,
       "reviewCount": 38536,
       "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "262060",
+      "title": "Darkest Dungeon®",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/997e3ac21cf31545cde60f87fc02f65c6fa67aef/capsule_616x353.jpg",
+      "originalPrice": 499,
+      "discountPrice": 74,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/262060",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 142367,
+      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23642,22 +23692,6 @@
       "reviewCount": 145154,
       "reviewPercent": 83,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "582660",
-      "title": "Black Desert",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
-      "originalPrice": 149,
-      "discountPrice": 14,
-      "discountPercent": 91,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/582660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 63540,
-      "reviewPercent": 75,
-      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "552520",
@@ -23916,22 +23950,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "668580",
-      "title": "Atomic Heart",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/capsule_616x353.jpg",
-      "originalPrice": 1499,
-      "discountPrice": 299,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/668580",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 47049,
-      "reviewPercent": 82,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "255710",
       "title": "Cities: Skylines",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/c950fea5ca1836a8727dabf7da3393c1941f1bc3/capsule_616x353.jpg",
@@ -23943,7 +23961,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 220482,
+      "reviewCount": 220507,
       "reviewPercent": 92,
       "reviewLabel": "дуже схвальні"
     },
@@ -24761,7 +24779,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 7635,
+      "reviewCount": 7636,
       "reviewPercent": 98,
       "reviewLabel": "виключно схвальні"
     },
@@ -24994,22 +25012,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "434170",
-      "title": "The Jackbox Party Pack 3",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/434170/capsule_616x353.jpg",
-      "originalPrice": 515,
-      "discountPrice": 283,
-      "discountPercent": 45,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/434170",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 5171,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "2104890",
       "title": "RoadCraft",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
@@ -25040,22 +25042,6 @@
       "reviewCount": 161354,
       "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1211630",
-      "title": "The Jackbox Party Pack 7",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211630/capsule_616x353.jpg",
-      "originalPrice": 600,
-      "discountPrice": 330,
-      "discountPercent": 45,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1211630",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 4027,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1401590",
@@ -25313,7 +25299,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 10199,
+      "reviewCount": 10201,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
@@ -25381,6 +25367,22 @@
       "isPopular": false,
       "reviewCount": 14010,
       "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1004640",
+      "title": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004640/7ea3f747f459cea19caa51a38720c115f3a22161/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 839,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1004640",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 5905,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -26689,7 +26691,7 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 15
+      "popularRank": 16
     },
     {
       "id": "EP0082-PPSA28101_00-0821634695257710",
@@ -26699,6 +26701,18 @@
       "originalPrice": 1499,
       "discountPrice": 974.35,
       "discountPercent": 35,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
+      "id": "EP4133-PPSA04451_00-SPACEMARINESII00",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0711/nqyAJzSXromWZPf7SzCiDtZh.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00",
+      "originalPrice": 2199,
+      "discountPrice": 549.75,
+      "discountPercent": 75,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -26717,6 +26731,18 @@
       "popularRank": 17
     },
     {
+      "id": "UP1003-PPSA24884_00-HELIUM0000000000",
+      "title": "Starfield",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202603/0401/154e007ddacddf6ef08034822dbee7f9613936398b8d7743.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/UP1003-PPSA24884_00-HELIUM0000000000",
+      "originalPrice": 1499,
+      "discountPrice": 749.5,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
       "id": "EP1018-PPSA01865_00-LEGOSWTSS0000000",
       "title": "LEGO® Зоряні Війни™: Скайуокер. Сага PS4 & PS5",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202112/2121/huLsTFyulvj2fC0nbRaVUChw.png",
@@ -26728,18 +26754,6 @@
       "isDeal": true,
       "isPopular": true,
       "popularRank": 19
-    },
-    {
-      "id": "EP4133-PPSA04451_00-SPACEMARINESII00",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0711/nqyAJzSXromWZPf7SzCiDtZh.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00",
-      "originalPrice": 2199,
-      "discountPrice": 549.75,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
     },
     {
       "id": "EP1833-PPSA02391_00-DUNEAWAKENING000",
@@ -26853,18 +26867,6 @@
       "isPopular": false
     },
     {
-      "id": "UP1003-PPSA24884_00-HELIUM0000000000",
-      "title": "Starfield",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202603/0401/154e007ddacddf6ef08034822dbee7f9613936398b8d7743.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/UP1003-PPSA24884_00-HELIUM0000000000",
-      "originalPrice": 1499,
-      "discountPrice": 749.5,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
       "id": "EP0006-PPSA01717_00-NEEDFORSPEED2022",
       "title": "Need for Speed™ Unbound",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202311/0911/533c1956434ea0b8c9d00983c74fc115b5768b2053e36fce.png",
@@ -26961,13 +26963,13 @@
       "isPopular": false
     },
     {
-      "id": "EP4001-PPSA01551_00-DIRTFIVEPS5EDITI",
-      "title": "DIRT 5 PS4 & PS5",
-      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202107/2009/WRIVoXvJ8zQwSFwwTrPzHRYR.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP4001-PPSA01551_00-DIRTFIVEPS5EDITI",
-      "originalPrice": 1999,
-      "discountPrice": 499.75,
-      "discountPercent": 75,
+      "id": "EP4133-PPSA34751_00-MUDRUNNER0000000",
+      "title": "MudRunner [PS4 & PS5]",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1116/a661a990225f67c8f5939178715cde024107f3a4faf39e3c.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA34751_00-MUDRUNNER0000000",
+      "originalPrice": 949,
+      "discountPrice": 474.5,
+      "discountPercent": 50,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -27018,7 +27020,7 @@
       "currency": "UAH",
       "isDeal": false,
       "isPopular": true,
-      "popularRank": 16
+      "popularRank": 15
     },
     {
       "id": "EP9000-PPSA08332_00-GOWRAGNAROK00000",
