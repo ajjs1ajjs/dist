@@ -17810,6 +17810,111 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T00:00:34.713Z"
+    },
+    {
+      "id": "f9ed10562a1ad0c8523b5d1e",
+      "createdAt": "2026-11-27T01:00:31.404Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Cyberpunk 2077</b>\n🏷️ Знижка: <b>-70%</b>\n💰 Ціна: <s>1 399 грн</s> ➡️ <b>419 грн</b>\n👍 Відгуки: <b>87%</b> (911K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/e104809f1370b37190ab346ff28f2dbf5037fed6/capsule_231x87_alt_assets_9.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1091500"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_1091500",
+          "entry": {
+            "title": "Cyberpunk 2077",
+            "price": 419,
+            "percent": 70,
+            "timestamp": "2026-11-27T01:00:31.404Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "7a58e4cee146185fb94904b3",
+      "createdAt": "2026-11-27T01:00:31.404Z",
+      "text": "🧩 <b>ЗНИЖКА НА DLC У STEAM!</b>\n\n🎮 <b>Cyberpunk 2077: Ілюзія свободи</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>699 грн</s> ➡️ <b>419 грн</b>\n👍 Відгуки: <b>89%</b> (23K)\n\n#steam #dlc #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/4fc31975413513de4f1ca313b8459f7606b0112f/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити DLC в Steam",
+              "url": "https://store.steampowered.com/app/2138330"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_dlc_2138330",
+          "entry": {
+            "title": "Cyberpunk 2077: Ілюзія свободи",
+            "price": 419,
+            "percent": 40,
+            "timestamp": "2026-11-27T01:00:31.404Z",
+            "type": "dlc"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "636fedbf7e97ddf7e7674fef",
+      "createdAt": "2026-11-27T01:00:31.404Z",
+      "text": "🎮 <b>ЗНИЖКА PLAYSTATION 5!</b>\n\n🎮 <b>DIRT 5 PS4 &amp; PS5</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>1 999 грн</s> ➡️ <b>499,75 грн</b>\n\n#ps5 #знижки",
+      "photoUrl": "https://image.api.playstation.com/vulcan/img/rnd/202107/2009/WRIVoXvJ8zQwSFwwTrPzHRYR.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/product/EP4001-PPSA01551_00-DIRTFIVEPS5EDITI"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "ps_deal_EP4001-PPSA01551_00-DIRTFIVEPS5EDITI",
+          "entry": {
+            "title": "DIRT 5 PS4 & PS5",
+            "price": 499.75,
+            "percent": 75,
+            "timestamp": "2026-11-27T01:00:31.404Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
