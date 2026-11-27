@@ -17774,6 +17774,41 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-26T21:00:43.395Z"
+    },
+    {
+      "id": "83c2e1f35023fc048742914e",
+      "createdAt": "2026-11-27T00:00:29.298Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Core Keeper</b>\n🏷️ Знижка: <b>-40%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>249 грн</b>\n👍 Відгуки: <b>92%</b> (52K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/6c48cd5936a869e796c0cf817f3851f327131d21/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1621690"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_1621690",
+          "entry": {
+            "title": "Core Keeper",
+            "price": 249,
+            "percent": 40,
+            "timestamp": "2026-11-27T00:00:29.298Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
