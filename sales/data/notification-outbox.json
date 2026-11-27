@@ -17918,6 +17918,76 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T01:00:47.404Z"
+    },
+    {
+      "id": "ccc1bf072f602ba75e862d4c",
+      "createdAt": "2026-11-27T02:00:43.987Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Відьмак 3: Дикий гін — Перевидання</b>\n🏷️ Знижка: <b>-60%</b>\n💰 Ціна: <s>1 349 грн</s> ➡️ <b>539 грн</b>\n👍 Відгуки: <b>96%</b> (852K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f719671b6983e490fedb357c8e5f7c9925751d50/capsule_616x353_ukrainian.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/292030"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_292030",
+          "entry": {
+            "title": "Відьмак 3: Дикий гін — Перевидання",
+            "price": 539,
+            "percent": 60,
+            "timestamp": "2026-11-27T02:00:43.987Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "37186a831ec1e1f5a4d27cbf",
+      "createdAt": "2026-11-27T02:00:43.987Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>RACCOIN: Coin Pusher Roguelike</b>\n🏷️ Знижка: <b>-30%</b>\n💰 Ціна: <s>305 грн</s> ➡️ <b>213 грн</b>\n👍 Відгуки: <b>84%</b> (4.8K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/8e5961ec32f648d53e7f36caaabb4a7c322ce432/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/3784030"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_3784030",
+          "entry": {
+            "title": "RACCOIN: Coin Pusher Roguelike",
+            "price": 213,
+            "percent": 30,
+            "timestamp": "2026-11-27T02:00:43.987Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
