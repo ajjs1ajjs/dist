@@ -18251,6 +18251,74 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T17:00:40.452Z"
+    },
+    {
+      "id": "230bcefe884679b1c17a8df5",
+      "createdAt": "2026-11-27T18:00:30.500Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>theHunter: Call of the Wild™</b>\n🏷️ Знижка: <b>-85%</b>\n💰 Ціна: <s>415 грн</s> ➡️ <b>62 грн</b>\n👍 Відгуки: <b>89%</b> (173K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/518790"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_518790",
+          "entry": {
+            "title": "theHunter: Call of the Wild™",
+            "price": 62,
+            "percent": 85,
+            "timestamp": "2026-11-27T18:00:30.500Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "29fa8a50218132403a3e8089",
+      "createdAt": "2026-11-27T18:00:30.500Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Arma 3</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>749 грн</s> ➡️ <b>187 грн</b>\n👍 Відгуки: <b>90%</b> (230K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/107410"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_107410",
+          "entry": {
+            "title": "Arma 3",
+            "price": 187,
+            "percent": 75,
+            "timestamp": "2026-11-27T18:00:30.500Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
