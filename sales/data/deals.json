@@ -34484,6 +34484,13 @@
       "percent": 50,
       "timestamp": "2026-11-27T07:00:32.819Z",
       "type": "ps_deal"
+    },
+    "steam_discount_1243830": {
+      "title": "Overcooked! All You Can Eat",
+      "price": 200,
+      "percent": 75,
+      "timestamp": "2026-11-27T08:00:39.173Z",
+      "type": "discount"
     }
   }
 }
