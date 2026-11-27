@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T17:00:33.205Z",
+  "lastUpdated": "2026-11-27T17:16:32.102Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T17:00:33.205Z",
-    "gamepass": "2026-11-27T17:00:33.205Z",
-    "playstation": "2026-11-27T17:00:33.205Z"
+    "steam": "2026-11-27T17:16:32.102Z",
+    "gamepass": "2026-11-27T17:16:32.102Z",
+    "playstation": "2026-11-27T17:16:32.102Z"
   },
   "priceHistory": {
     "2600": [
@@ -23154,23 +23154,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 199,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 15,
-      "reviewCount": 222118,
-      "reviewPercent": 95,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg",
@@ -23182,10 +23165,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 16,
+      "popularRank": 15,
       "reviewCount": 149505,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 199,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 16,
+      "reviewCount": 222118,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2001120",
@@ -23437,7 +23437,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 36,
+      "popularRank": 35,
       "reviewCount": 46295,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
@@ -25211,7 +25211,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 16003,
+      "reviewCount": 16006,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
     },
@@ -25243,7 +25243,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12160,
+      "reviewCount": 12161,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
     },
