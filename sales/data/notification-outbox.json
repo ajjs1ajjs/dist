@@ -18429,6 +18429,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-28T00:00:41.433Z"
+    },
+    {
+      "id": "c0aecc0a01d9b951372ae26a",
+      "createdAt": "2026-11-28T06:00:32.933Z",
+      "text": "🎮 <b>ЗНИЖКА PLAYSTATION 5!</b>\n\n🎮 <b>NINJA GAIDEN 4</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>2 299 грн</s> ➡️ <b>1 149,5 грн</b>\n\n#ps5 #знижки",
+      "photoUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202501/2115/55009bd0bb54d4603335f5ff69140f6607f5a00201fa8606.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в PS Store",
+              "url": "https://store.playstation.com/uk-ua/product/UP6312-PPSA25258_00-0173149685884705"
+            },
+            {
+              "text": "🌐 Сайт",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "ps_deal_UP6312-PPSA25258_00-0173149685884705",
+          "entry": {
+            "title": "NINJA GAIDEN 4",
+            "price": 1149.5,
+            "percent": 50,
+            "timestamp": "2026-11-28T06:00:32.933Z",
+            "type": "ps_deal"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
