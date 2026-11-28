@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-27T23:00:32.432Z",
+  "lastUpdated": "2026-11-28T00:00:30.377Z",
   "sourceUpdates": {
-    "steam": "2026-11-27T23:00:32.432Z",
-    "gamepass": "2026-11-27T23:00:32.432Z",
-    "playstation": "2026-11-27T23:00:32.432Z"
+    "steam": "2026-11-28T00:00:30.377Z",
+    "gamepass": "2026-11-28T00:00:30.377Z",
+    "playstation": "2026-11-28T00:00:30.377Z"
   },
   "priceHistory": {
     "2600": [
@@ -67,6 +67,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 84,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 84,
         "currency": "UAH"
       }
@@ -456,6 +461,11 @@
         "date": "2026-11-27",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "47780": [
@@ -517,6 +527,11 @@
     "107410": [
       {
         "date": "2026-11-27",
+        "price": 187,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 187,
         "currency": "UAH"
       }
@@ -605,6 +620,11 @@
         "date": "2026-11-27",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "203140": [
@@ -661,6 +681,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 55,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 55,
         "currency": "UAH"
       }
@@ -871,6 +896,11 @@
         "date": "2026-11-27",
         "price": 97,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 97,
+        "currency": "UAH"
       }
     ],
     "219990": [
@@ -921,6 +951,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 106,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 106,
         "currency": "UAH"
       }
@@ -1316,6 +1351,11 @@
         "date": "2026-11-27",
         "price": 103,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 103,
+        "currency": "UAH"
       }
     ],
     "244850": [
@@ -1431,6 +1471,11 @@
         "date": "2026-11-27",
         "price": 242,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 242,
+        "currency": "UAH"
       }
     ],
     "257420": [
@@ -1543,6 +1588,11 @@
         "date": "2026-11-27",
         "price": 195,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 195,
+        "currency": "UAH"
       }
     ],
     "269210": [
@@ -1649,6 +1699,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 404,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 404,
         "currency": "UAH"
       }
@@ -1763,11 +1818,21 @@
         "date": "2026-11-27",
         "price": 52,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 52,
+        "currency": "UAH"
       }
     ],
     "292030": [
       {
         "date": "2026-11-27",
+        "price": 539,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 539,
         "currency": "UAH"
       }
@@ -2038,6 +2103,11 @@
         "date": "2026-11-27",
         "price": 149,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 149,
+        "currency": "UAH"
       }
     ],
     "307690": [
@@ -2144,6 +2214,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 638,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 638,
         "currency": "UAH"
       }
@@ -2265,6 +2340,11 @@
         "date": "2026-11-27",
         "price": 599,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 599,
+        "currency": "UAH"
       }
     ],
     "352720": [
@@ -2312,6 +2392,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 104,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 104,
         "currency": "UAH"
       }
@@ -2505,6 +2590,11 @@
         "date": "2026-11-27",
         "price": 495,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 495,
+        "currency": "UAH"
       }
     ],
     "377160": [
@@ -2530,6 +2620,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 87,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 87,
         "currency": "UAH"
       }
@@ -2609,6 +2704,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 119,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 119,
         "currency": "UAH"
       }
@@ -2751,6 +2851,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 624,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 624,
         "currency": "UAH"
       }
@@ -2997,6 +3102,11 @@
         "date": "2026-11-27",
         "price": 79,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 79,
+        "currency": "UAH"
       }
     ],
     "413410": [
@@ -3194,6 +3304,11 @@
         "date": "2026-11-27",
         "price": 132,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 132,
+        "currency": "UAH"
       }
     ],
     "440900": [
@@ -3219,6 +3334,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 239,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 239,
         "currency": "UAH"
       }
@@ -3492,6 +3612,11 @@
         "date": "2026-11-27",
         "price": 638,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 638,
+        "currency": "UAH"
       }
     ],
     "485510": [
@@ -3556,6 +3681,11 @@
         "date": "2026-11-27",
         "price": 194,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 194,
+        "currency": "UAH"
       }
     ],
     "489830": [
@@ -3616,6 +3746,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 494,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 494,
         "currency": "UAH"
       }
@@ -3702,6 +3837,11 @@
         "date": "2026-11-27",
         "price": 62,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 62,
+        "currency": "UAH"
       }
     ],
     "524220": [
@@ -3752,6 +3892,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 186,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 186,
         "currency": "UAH"
       }
@@ -3962,6 +4107,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 137,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 137,
         "currency": "UAH"
       }
@@ -4237,6 +4387,11 @@
         "date": "2026-11-27",
         "price": 399,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 399,
+        "currency": "UAH"
       }
     ],
     "571740": [
@@ -4350,6 +4505,11 @@
         "date": "2026-11-27",
         "price": 14,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 14,
+        "currency": "UAH"
       }
     ],
     "584400": [
@@ -4419,6 +4579,11 @@
         "date": "2026-11-27",
         "price": 237,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 237,
+        "currency": "UAH"
       }
     ],
     "594650": [
@@ -4459,6 +4624,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 251,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 251,
         "currency": "UAH"
       }
@@ -4579,6 +4749,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 237,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 237,
         "currency": "UAH"
       }
@@ -4727,6 +4902,18 @@
         "date": "2026-11-27",
         "price": 108,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 108,
+        "currency": "UAH"
+      }
+    ],
+    "632470": [
+      {
+        "date": "2026-11-28",
+        "price": 191,
+        "currency": "UAH"
       }
     ],
     "637650": [
@@ -4801,6 +4988,11 @@
         "date": "2026-11-27",
         "price": 45,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 45,
+        "currency": "UAH"
       }
     ],
     "642280": [
@@ -4828,6 +5020,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 299,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 299,
         "currency": "UAH"
       }
@@ -4930,6 +5127,11 @@
         "date": "2026-11-27",
         "price": 420,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 420,
+        "currency": "UAH"
       }
     ],
     "699130": [
@@ -4955,6 +5157,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 194,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 194,
         "currency": "UAH"
       }
@@ -5110,6 +5317,11 @@
         "date": "2026-11-27",
         "price": 249,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 249,
+        "currency": "UAH"
       }
     ],
     "773370": [
@@ -5196,6 +5408,11 @@
         "date": "2026-11-27",
         "price": 214,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 214,
+        "currency": "UAH"
       }
     ],
     "784080": [
@@ -5221,6 +5438,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 94,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 94,
         "currency": "UAH"
       }
@@ -5250,6 +5472,11 @@
         "date": "2026-11-27",
         "price": 149,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 149,
+        "currency": "UAH"
       }
     ],
     "800370": [
@@ -5277,6 +5504,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 277,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 277,
         "currency": "UAH"
       }
@@ -5326,6 +5558,11 @@
         "date": "2026-11-27",
         "price": 199,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 199,
+        "currency": "UAH"
       }
     ],
     "813780": [
@@ -5366,6 +5603,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 589,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 589,
         "currency": "UAH"
       }
@@ -5667,6 +5909,11 @@
         "date": "2026-11-27",
         "price": 64,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 64,
+        "currency": "UAH"
       }
     ],
     "921570": [
@@ -5795,6 +6042,11 @@
         "date": "2026-11-27",
         "price": 186,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 186,
+        "currency": "UAH"
       }
     ],
     "936790": [
@@ -5897,6 +6149,11 @@
         "date": "2026-11-27",
         "price": 43,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 43,
+        "currency": "UAH"
       }
     ],
     "960910": [
@@ -5983,6 +6240,11 @@
         "date": "2026-11-27",
         "price": 191,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 191,
+        "currency": "UAH"
       }
     ],
     "976730": [
@@ -6023,6 +6285,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 349,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 349,
         "currency": "UAH"
       }
@@ -6067,6 +6334,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 159,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 159,
         "currency": "UAH"
       }
@@ -6133,6 +6405,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 839,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 839,
         "currency": "UAH"
       }
@@ -6544,6 +6821,11 @@
         "date": "2026-11-27",
         "price": 629,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 629,
+        "currency": "UAH"
       }
     ],
     "1088850": [
@@ -6561,6 +6843,11 @@
     "1091500": [
       {
         "date": "2026-11-27",
+        "price": 419,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 419,
         "currency": "UAH"
       }
@@ -6839,6 +7126,11 @@
         "date": "2026-11-27",
         "price": 284,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 284,
+        "currency": "UAH"
       }
     ],
     "1144200": [
@@ -6881,6 +7173,11 @@
         "date": "2026-11-27",
         "price": 600,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 600,
+        "currency": "UAH"
       }
     ],
     "1145350": [
@@ -6903,6 +7200,11 @@
         "date": "2026-11-27",
         "price": 322,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 322,
+        "currency": "UAH"
       }
     ],
     "1145360": [
@@ -6923,6 +7225,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 128,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 128,
         "currency": "UAH"
       }
@@ -6977,6 +7284,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 749,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 749,
         "currency": "UAH"
       }
@@ -7109,6 +7421,11 @@
         "date": "2026-11-27",
         "price": 404,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 404,
+        "currency": "UAH"
       }
     ],
     "1164940": [
@@ -7205,6 +7522,11 @@
         "date": "2026-11-27",
         "price": 449,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 449,
+        "currency": "UAH"
       }
     ],
     "1172710": [
@@ -7215,6 +7537,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 574,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 574,
         "currency": "UAH"
       }
@@ -7273,6 +7600,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 649,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 649,
         "currency": "UAH"
       }
@@ -7587,6 +7919,11 @@
         "date": "2026-11-27",
         "price": 129,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 129,
+        "currency": "UAH"
       }
     ],
     "1222680": [
@@ -7632,6 +7969,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 99,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 99,
         "currency": "UAH"
       }
@@ -7696,6 +8038,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 159,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 159,
         "currency": "UAH"
       }
@@ -7988,6 +8335,11 @@
         "date": "2026-11-27",
         "price": 119,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 119,
+        "currency": "UAH"
       }
     ],
     "1238000": [
@@ -8071,6 +8423,11 @@
         "date": "2026-11-27",
         "price": 64,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 64,
+        "currency": "UAH"
       }
     ],
     "1238820": [
@@ -8140,6 +8497,11 @@
         "date": "2026-11-27",
         "price": 59,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 59,
+        "currency": "UAH"
       }
     ],
     "1238860": [
@@ -8174,11 +8536,21 @@
         "date": "2026-11-27",
         "price": 309,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 309,
+        "currency": "UAH"
       }
     ],
     "1243830": [
       {
         "date": "2026-11-27",
+        "price": 200,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 200,
         "currency": "UAH"
       }
@@ -8221,6 +8593,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 539,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 539,
         "currency": "UAH"
       }
@@ -8268,6 +8645,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 395,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 395,
         "currency": "UAH"
       }
@@ -8718,6 +9100,11 @@
         "date": "2026-11-27",
         "price": 224,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 224,
+        "currency": "UAH"
       }
     ],
     "1332010": [
@@ -8753,6 +9140,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 289,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 289,
         "currency": "UAH"
       }
@@ -8866,6 +9258,11 @@
         "date": "2026-11-27",
         "price": 189,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 189,
+        "currency": "UAH"
       }
     ],
     "1361510": [
@@ -8918,6 +9315,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 389,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 389,
         "currency": "UAH"
       }
@@ -9181,6 +9583,11 @@
         "date": "2026-11-27",
         "price": 719,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 719,
+        "currency": "UAH"
       }
     ],
     "1413480": [
@@ -9255,6 +9662,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 199,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 199,
         "currency": "UAH"
       }
@@ -9380,6 +9792,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 919,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 919,
         "currency": "UAH"
       }
@@ -9529,6 +9946,11 @@
         "date": "2026-11-27",
         "price": 197,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 197,
+        "currency": "UAH"
       }
     ],
     "1465470": [
@@ -9608,6 +10030,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 244,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 244,
         "currency": "UAH"
       }
@@ -9921,6 +10348,11 @@
         "date": "2026-11-27",
         "price": 479,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 479,
+        "currency": "UAH"
       }
     ],
     "1551980": [
@@ -10030,6 +10462,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 323,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 323,
         "currency": "UAH"
       }
@@ -10157,6 +10594,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 479,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 479,
         "currency": "UAH"
       }
@@ -10305,6 +10747,11 @@
         "date": "2026-11-27",
         "price": 104,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 104,
+        "currency": "UAH"
       }
     ],
     "1608070": [
@@ -10405,6 +10852,11 @@
         "date": "2026-11-27",
         "price": 249,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 249,
+        "currency": "UAH"
       }
     ],
     "1622100": [
@@ -10435,6 +10887,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 149,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 149,
         "currency": "UAH"
       }
@@ -10511,6 +10968,11 @@
         "date": "2026-11-27",
         "price": 812,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 812,
+        "currency": "UAH"
       }
     ],
     "1643320": [
@@ -10551,6 +11013,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1329,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1329,
         "currency": "UAH"
       }
@@ -10654,6 +11121,11 @@
         "date": "2026-11-27",
         "price": 526,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 526,
+        "currency": "UAH"
       }
     ],
     "1659420": [
@@ -10699,6 +11171,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 494,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 494,
         "currency": "UAH"
       }
@@ -10960,6 +11437,11 @@
         "date": "2026-11-27",
         "price": 569,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 569,
+        "currency": "UAH"
       }
     ],
     "1693980": [
@@ -11005,6 +11487,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 149,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 149,
         "currency": "UAH"
       }
@@ -11232,6 +11719,11 @@
         "date": "2026-11-27",
         "price": 527,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 527,
+        "currency": "UAH"
       }
     ],
     "1774580": [
@@ -11277,6 +11769,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 254,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 254,
         "currency": "UAH"
       }
@@ -11438,6 +11935,11 @@
         "date": "2026-11-27",
         "price": 695,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 695,
+        "currency": "UAH"
       }
     ],
     "1809700": [
@@ -11504,6 +12006,11 @@
         "date": "2026-11-27",
         "price": 559,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 559,
+        "currency": "UAH"
       }
     ],
     "1817190": [
@@ -11549,6 +12056,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 599,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 599,
         "currency": "UAH"
       }
@@ -11757,6 +12269,11 @@
         "date": "2026-11-27",
         "price": 299,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 299,
+        "currency": "UAH"
       }
     ],
     "1857090": [
@@ -11855,6 +12372,11 @@
     "1874880": [
       {
         "date": "2026-11-27",
+        "price": 629,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 629,
         "currency": "UAH"
       }
@@ -11973,6 +12495,11 @@
         "date": "2026-11-27",
         "price": 849,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 849,
+        "currency": "UAH"
       }
     ],
     "1894430": [
@@ -12035,6 +12562,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 679,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 679,
         "currency": "UAH"
       }
@@ -12201,6 +12733,11 @@
         "date": "2026-11-27",
         "price": 325,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 325,
+        "currency": "UAH"
       }
     ],
     "1937780": [
@@ -12270,6 +12807,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1199,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1199,
         "currency": "UAH"
       }
@@ -12377,6 +12919,11 @@
         "date": "2026-11-27",
         "price": 194,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 194,
+        "currency": "UAH"
       }
     ],
     "1985810": [
@@ -12432,6 +12979,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 638,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 638,
         "currency": "UAH"
       }
@@ -12525,6 +13077,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 779,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 779,
         "currency": "UAH"
       }
@@ -12663,6 +13220,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 329,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 329,
         "currency": "UAH"
       }
@@ -12998,6 +13560,11 @@
         "date": "2026-11-27",
         "price": 499,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 499,
+        "currency": "UAH"
       }
     ],
     "2106840": [
@@ -13031,6 +13598,13 @@
         "currency": "UAH"
       }
     ],
+    "2124120": [
+      {
+        "date": "2026-11-28",
+        "price": 479,
+        "currency": "UAH"
+      }
+    ],
     "2124490": [
       {
         "date": "2026-11-25",
@@ -13046,6 +13620,11 @@
         "date": "2026-11-27",
         "price": 368,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 368,
+        "currency": "UAH"
       }
     ],
     "2132750": [
@@ -13058,6 +13637,11 @@
     "2138330": [
       {
         "date": "2026-11-27",
+        "price": 419,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 419,
         "currency": "UAH"
       }
@@ -13137,6 +13721,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 142,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 142,
         "currency": "UAH"
       }
@@ -13228,6 +13817,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 629,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 629,
         "currency": "UAH"
       }
@@ -13382,6 +13976,11 @@
         "date": "2026-11-27",
         "price": 389,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 389,
+        "currency": "UAH"
       }
     ],
     "2183930": [
@@ -13464,6 +14063,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 803,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 803,
         "currency": "UAH"
       }
@@ -13568,6 +14172,11 @@
         "date": "2026-11-27",
         "price": 126,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 126,
+        "currency": "UAH"
       }
     ],
     "2215200": [
@@ -13593,6 +14202,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1329,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1329,
         "currency": "UAH"
       }
@@ -13640,6 +14254,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 849,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 849,
         "currency": "UAH"
       }
@@ -13714,6 +14333,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 183,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 183,
         "currency": "UAH"
       }
@@ -13985,6 +14609,11 @@
         "date": "2026-11-27",
         "price": 119,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 119,
+        "currency": "UAH"
       }
     ],
     "2292800": [
@@ -14125,6 +14754,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1138,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1138,
         "currency": "UAH"
       }
@@ -14285,6 +14919,11 @@
         "date": "2026-11-27",
         "price": 104,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 104,
+        "currency": "UAH"
       }
     ],
     "2384580": [
@@ -14351,6 +14990,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 797,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 797,
         "currency": "UAH"
       }
@@ -14498,6 +15142,11 @@
         "date": "2026-11-27",
         "price": 885,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 885,
+        "currency": "UAH"
       }
     ],
     "2420110": [
@@ -14543,6 +15192,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 849,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 849,
         "currency": "UAH"
       }
@@ -14837,6 +15491,11 @@
         "date": "2026-11-27",
         "price": 799,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 799,
+        "currency": "UAH"
       }
     ],
     "2458980": [
@@ -14953,6 +15612,11 @@
         "date": "2026-11-27",
         "price": 1724,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1724,
+        "currency": "UAH"
       }
     ],
     "2486820": [
@@ -15013,6 +15677,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 809,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 809,
         "currency": "UAH"
       }
@@ -15089,6 +15758,11 @@
     "2495100": [
       {
         "date": "2026-11-27",
+        "price": 515,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 515,
         "currency": "UAH"
       }
@@ -15197,6 +15871,11 @@
         "date": "2026-11-27",
         "price": 499,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 499,
+        "currency": "UAH"
       }
     ],
     "2515020": [
@@ -15247,6 +15926,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 559,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 559,
         "currency": "UAH"
       }
@@ -15321,6 +16005,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1004,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1004,
         "currency": "UAH"
       }
@@ -15734,6 +16423,11 @@
         "date": "2026-11-27",
         "price": 1079,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1079,
+        "currency": "UAH"
       }
     ],
     "2624870": [
@@ -15786,6 +16480,11 @@
         "date": "2026-11-27",
         "price": 714,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 714,
+        "currency": "UAH"
       }
     ],
     "2627260": [
@@ -15826,6 +16525,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1149,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1149,
         "currency": "UAH"
       }
@@ -15900,6 +16604,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1138,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1138,
         "currency": "UAH"
       }
@@ -16136,6 +16845,11 @@
         "date": "2026-11-27",
         "price": 404,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 404,
+        "currency": "UAH"
       }
     ],
     "2677660": [
@@ -16161,6 +16875,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1469,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1469,
         "currency": "UAH"
       }
@@ -16375,6 +17094,11 @@
         "date": "2026-11-27",
         "price": 303,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 303,
+        "currency": "UAH"
       }
     ],
     "2701440": [
@@ -16547,6 +17271,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 135,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 135,
         "currency": "UAH"
       }
@@ -16740,6 +17469,11 @@
         "date": "2026-11-27",
         "price": 334,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 334,
+        "currency": "UAH"
       }
     ],
     "2840770": [
@@ -16790,6 +17524,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 429,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 429,
         "currency": "UAH"
       }
@@ -16854,6 +17593,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 303,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 303,
         "currency": "UAH"
       }
@@ -17118,6 +17862,11 @@
         "date": "2026-11-27",
         "price": 254,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 254,
+        "currency": "UAH"
       }
     ],
     "2928600": [
@@ -17196,6 +17945,11 @@
         "date": "2026-11-27",
         "price": 413,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 413,
+        "currency": "UAH"
       }
     ],
     "2950340": [
@@ -17221,6 +17975,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 104,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 104,
         "currency": "UAH"
       }
@@ -17250,6 +18009,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1065,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1065,
         "currency": "UAH"
       }
@@ -17353,6 +18117,11 @@
         "date": "2026-11-27",
         "price": 679,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 679,
+        "currency": "UAH"
       }
     ],
     "2996040": [
@@ -17417,6 +18186,11 @@
         "date": "2026-11-27",
         "price": 1609,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1609,
+        "currency": "UAH"
       }
     ],
     "3014320": [
@@ -17479,6 +18253,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 749,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 749,
         "currency": "UAH"
       }
@@ -17576,6 +18355,11 @@
         "date": "2026-11-27",
         "price": 959,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 959,
+        "currency": "UAH"
       }
     ],
     "3061810": [
@@ -17663,6 +18447,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 776,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 776,
         "currency": "UAH"
       }
@@ -18155,6 +18944,11 @@
         "date": "2026-11-27",
         "price": 99,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 99,
+        "currency": "UAH"
       }
     ],
     "3240220": [
@@ -18200,6 +18994,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 879,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 879,
         "currency": "UAH"
       }
@@ -18286,6 +19085,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1540,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1540,
         "currency": "UAH"
       }
@@ -18885,6 +19689,11 @@
         "date": "2026-11-27",
         "price": 1339,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1339,
+        "currency": "UAH"
       }
     ],
     "3499520": [
@@ -19132,6 +19941,11 @@
         "date": "2026-11-27",
         "price": 1137,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1137,
+        "currency": "UAH"
       }
     ],
     "3690030": [
@@ -19367,6 +20181,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 799,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 799,
         "currency": "UAH"
       }
@@ -20310,6 +21129,11 @@
         "date": "2026-11-27",
         "price": 112,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 112,
+        "currency": "UAH"
       }
     ],
     "4232910": [
@@ -20507,6 +21331,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 2081,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 2081,
         "currency": "UAH"
       }
@@ -20783,6 +21612,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 117,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 117,
         "currency": "UAH"
       }
@@ -21462,6 +22296,11 @@
         "date": "2026-11-27",
         "price": 1559.4,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1559.4,
+        "currency": "UAH"
       }
     ],
     "EP3969-PPSA11386_00-007FIRSTLIGHT000": [
@@ -21482,6 +22321,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1149.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1149.5,
         "currency": "UAH"
       }
@@ -21506,6 +22350,11 @@
         "date": "2026-11-27",
         "price": 479.6,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 479.6,
+        "currency": "UAH"
       }
     ],
     "UP9000-PPSA03671_00-MARVELSWOLVERINE": [
@@ -21526,6 +22375,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1649.25,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1649.25,
         "currency": "UAH"
       }
@@ -21550,6 +22404,11 @@
         "date": "2026-11-27",
         "price": 1349.25,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1349.25,
+        "currency": "UAH"
       }
     ],
     "EP1018-PPSA07571_00-MKONE00000000000": [
@@ -21570,6 +22429,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 224.85,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 224.85,
         "currency": "UAH"
       }
@@ -21594,6 +22458,11 @@
         "date": "2026-11-27",
         "price": 1574.55,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1574.55,
+        "currency": "UAH"
       }
     ],
     "EP1001-PPSA36458_00-MAFIA1DEPS500000": [
@@ -21614,6 +22483,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 179.85,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 179.85,
         "currency": "UAH"
       }
@@ -21638,6 +22512,11 @@
         "date": "2026-11-27",
         "price": 209.9,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 209.9,
+        "currency": "UAH"
       }
     ],
     "EP9000-PPSA08338_00-MARVELSPIDERMAN2": [
@@ -21658,6 +22537,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1149.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1149.5,
         "currency": "UAH"
       }
@@ -21682,6 +22566,11 @@
         "date": "2026-11-27",
         "price": 695,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 695,
+        "currency": "UAH"
       }
     ],
     "UP6312-PPSA17525_00-0219247498273183": [
@@ -21702,6 +22591,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 324.75,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 324.75,
         "currency": "UAH"
       }
@@ -21726,6 +22620,11 @@
         "date": "2026-11-27",
         "price": 849.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 849.5,
+        "currency": "UAH"
       }
     ],
     "EP0001-PPSA20397_00-GAME000000000000": [
@@ -21746,6 +22645,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 919.6,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 919.6,
         "currency": "UAH"
       }
@@ -21770,6 +22674,11 @@
         "date": "2026-11-27",
         "price": 849.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 849.5,
+        "currency": "UAH"
       }
     ],
     "EP2911-PPSA24003_00-DLTHEBEASTP5EU00": [
@@ -21790,6 +22699,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 999.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 999.5,
         "currency": "UAH"
       }
@@ -21814,6 +22728,11 @@
         "date": "2026-11-27",
         "price": 239.9,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 239.9,
+        "currency": "UAH"
       }
     ],
     "EP9000-PPSA15508_00-THELASTOFUSPART2": [
@@ -21834,6 +22753,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 899.4,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 899.4,
         "currency": "UAH"
       }
@@ -21858,6 +22782,11 @@
         "date": "2026-11-27",
         "price": 1363.38,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1363.38,
+        "currency": "UAH"
       }
     ],
     "EP0700-PPSA10594_00-TEKKEN8000000000": [
@@ -21878,6 +22807,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 719.4,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 719.4,
         "currency": "UAH"
       }
@@ -21902,6 +22836,11 @@
         "date": "2026-11-27",
         "price": 879.6,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 879.6,
+        "currency": "UAH"
       }
     ],
     "EP9000-PPSA07642_00-THELASTOFUSPART1": [
@@ -21922,6 +22861,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1149.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1149.5,
         "currency": "UAH"
       }
@@ -21946,6 +22890,11 @@
         "date": "2026-11-27",
         "price": 849.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 849.5,
+        "currency": "UAH"
       }
     ],
     "UP1003-PPSA26786_00-INDIANAJONESATGC": [
@@ -21966,6 +22915,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1319.4,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1319.4,
         "currency": "UAH"
       }
@@ -21990,6 +22944,11 @@
         "date": "2026-11-27",
         "price": 337.25,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 337.25,
+        "currency": "UAH"
       }
     ],
     "UP6322-PPSA18605_00-0342498734252743": [
@@ -22010,6 +22969,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1049.3,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1049.3,
         "currency": "UAH"
       }
@@ -22034,6 +22998,11 @@
         "date": "2026-11-27",
         "price": 359.85,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 359.85,
+        "currency": "UAH"
       }
     ],
     "EP4062-PPSA01749_00-METROEXODUS0GEN9": [
@@ -22054,6 +23023,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 94.9,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 94.9,
         "currency": "UAH"
       }
@@ -22078,6 +23052,11 @@
         "date": "2026-11-27",
         "price": 1079.4,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1079.4,
+        "currency": "UAH"
       }
     ],
     "UP1003-PPSA20560_00-DTITAN0000000000": [
@@ -22098,6 +23077,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 749.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 749.5,
         "currency": "UAH"
       }
@@ -22122,6 +23106,11 @@
         "date": "2026-11-27",
         "price": 299.75,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 299.75,
+        "currency": "UAH"
       }
     ],
     "EP4062-PPSA21914_00-UNDISPUTEDPS5EU1": [
@@ -22142,6 +23131,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 599.6,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 599.6,
         "currency": "UAH"
       }
@@ -22166,6 +23160,11 @@
         "date": "2026-11-27",
         "price": 599.4,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 599.4,
+        "currency": "UAH"
       }
     ],
     "EP1001-PPSA06225_00-7789207353273926": [
@@ -22186,6 +23185,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 209.9,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 209.9,
         "currency": "UAH"
       }
@@ -22210,6 +23214,11 @@
         "date": "2026-11-27",
         "price": 179.85,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 179.85,
+        "currency": "UAH"
       }
     ],
     "UP1018-PPSA16833_00-LEGOBATMAN000000": [
@@ -22230,6 +23239,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1399.3,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1399.3,
         "currency": "UAH"
       }
@@ -22254,6 +23268,11 @@
         "date": "2026-11-27",
         "price": 899.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 899.5,
+        "currency": "UAH"
       }
     ],
     "EP0001-PPSA01532_00-GAME000000000000": [
@@ -22274,6 +23293,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 474.75,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 474.75,
         "currency": "UAH"
       }
@@ -22298,6 +23322,11 @@
         "date": "2026-11-27",
         "price": 1199.4,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1199.4,
+        "currency": "UAH"
       }
     ],
     "EP4133-PPSA04451_00-SPACEMARINESII00": [
@@ -22318,6 +23347,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 549.75,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 549.75,
         "currency": "UAH"
       }
@@ -22342,6 +23376,11 @@
         "date": "2026-11-27",
         "price": 974.35,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 974.35,
+        "currency": "UAH"
       }
     ],
     "EP1833-PPSA02391_00-DUNEAWAKENING000": [
@@ -22362,6 +23401,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1189.3,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1189.3,
         "currency": "UAH"
       }
@@ -22386,6 +23430,11 @@
         "date": "2026-11-27",
         "price": 699.65,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 699.65,
+        "currency": "UAH"
       }
     ],
     "EP0700-PPSA02154_00-LITTLENIGHTS2000": [
@@ -22406,6 +23455,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 313.17,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 313.17,
         "currency": "UAH"
       }
@@ -22430,6 +23484,11 @@
         "date": "2026-11-27",
         "price": 319.8,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 319.8,
+        "currency": "UAH"
       }
     ],
     "UP0006-PPSA29802_00-PVZRELOADEDGAME0": [
@@ -22450,6 +23509,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 384.45,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 384.45,
         "currency": "UAH"
       }
@@ -22474,6 +23538,11 @@
         "date": "2026-11-27",
         "price": 179.85,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 179.85,
+        "currency": "UAH"
       }
     ],
     "HP1597-PPSA25717_00-ENDOFABYSS000000": [
@@ -22494,6 +23563,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 481.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 481.5,
         "currency": "UAH"
       }
@@ -22518,6 +23592,11 @@
         "date": "2026-11-27",
         "price": 1499.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1499.5,
+        "currency": "UAH"
       }
     ],
     "EP1018-PPSA01865_00-LEGOSWTSS0000000": [
@@ -22538,6 +23617,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 179.9,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 179.9,
         "currency": "UAH"
       }
@@ -22562,6 +23646,11 @@
         "date": "2026-11-27",
         "price": 749.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 749.5,
+        "currency": "UAH"
       }
     ],
     "EP0006-PPSA01465_00-KINGSTONGAME0000": [
@@ -22582,6 +23671,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 239.9,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 239.9,
         "currency": "UAH"
       }
@@ -22606,6 +23700,11 @@
         "date": "2026-11-27",
         "price": 239.9,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 239.9,
+        "currency": "UAH"
       }
     ],
     "EP4108-PPSA32785_00-NIOH300000000000": [
@@ -22626,6 +23725,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 1099.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 1099.5,
         "currency": "UAH"
       }
@@ -22650,6 +23754,11 @@
         "date": "2026-11-27",
         "price": 599.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 599.5,
+        "currency": "UAH"
       }
     ],
     "EP0634-PPSA04677_00-9725862811759774": [
@@ -22672,6 +23781,11 @@
         "date": "2026-11-27",
         "price": 699.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 699.5,
+        "currency": "UAH"
       }
     ],
     "JP0177-PPSA08804_00-SONICRACINGCW000": [
@@ -22692,6 +23806,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 809.4,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 809.4,
         "currency": "UAH"
       }
@@ -22728,6 +23847,11 @@
         "date": "2026-11-27",
         "price": 360.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 360.5,
+        "currency": "UAH"
       }
     ],
     "EP2911-PPSA02262_00-DL2GAME0000000EU": [
@@ -22748,6 +23872,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 399.8,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 399.8,
         "currency": "UAH"
       }
@@ -22806,6 +23935,11 @@
         "date": "2026-11-27",
         "price": 949,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 949,
+        "currency": "UAH"
       }
     ],
     "EP9000-PPSA01288_00-SACKBOYADVENTURE": [
@@ -22828,6 +23962,11 @@
         "date": "2026-11-27",
         "price": 1999,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1999,
+        "currency": "UAH"
       }
     ],
     "EP9000-PPSA08332_00-GOWRAGNAROK00000": [
@@ -22848,6 +23987,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 2299,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 2299,
         "currency": "UAH"
       }
@@ -22889,6 +24033,11 @@
         "date": "2026-11-27",
         "price": 1799,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1799,
+        "currency": "UAH"
       }
     ],
     "EP4497-PPSA04027_00-00000000000000N1": [
@@ -22911,6 +24060,11 @@
         "date": "2026-11-27",
         "price": 1499,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1499,
+        "currency": "UAH"
       }
     ],
     "EP5067-PPSA15035_00-BEATSABERFULLPS5": [
@@ -22931,6 +24085,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 649,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 649,
         "currency": "UAH"
       }
@@ -22967,6 +24126,11 @@
         "date": "2026-11-27",
         "price": 429.5,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 429.5,
+        "currency": "UAH"
       }
     ],
     "EP0700-PPSA15210_00-DRAGONBALLSPARK0": [
@@ -22982,6 +24146,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 899.4,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 899.4,
         "currency": "UAH"
       }
@@ -23027,11 +24196,21 @@
         "date": "2026-11-27",
         "price": 1999,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1999,
+        "currency": "UAH"
       }
     ],
     "EP4133-PPSA34751_00-MUDRUNNER0000000": [
       {
         "date": "2026-11-27",
+        "price": 474.5,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 474.5,
         "currency": "UAH"
       }
@@ -23107,23 +24286,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "3768760",
-      "title": "007 First Light",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1795703859",
-      "originalPrice": 1599,
-      "discountPrice": 799,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3768760",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 8,
-      "reviewCount": 38775,
-      "reviewPercent": 91,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1086940",
       "title": "Baldur's Gate 3",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
@@ -23135,10 +24297,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 9,
+      "popularRank": 8,
       "reviewCount": 767039,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "3768760",
+      "title": "007 First Light",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1795703859",
+      "originalPrice": 1599,
+      "discountPrice": 799,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3768760",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 9,
+      "reviewCount": 38775,
+      "reviewPercent": 91,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "4435490",
@@ -23152,7 +24331,7 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 10,
+      "popularRank": 9,
       "parentAppId": "1938090",
       "reviewCount": 12872,
       "reviewPercent": 68,
@@ -23161,7 +24340,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
       "originalPrice": 2299,
       "discountPrice": 1724,
       "discountPercent": 25,
@@ -23178,7 +24357,7 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
       "originalPrice": 1559,
       "discountPrice": 389,
       "discountPercent": 75,
@@ -23210,23 +24389,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2215430",
-      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2215430",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 17,
-      "reviewCount": 66527,
-      "reviewPercent": 93,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg",
@@ -23238,10 +24400,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 18,
+      "popularRank": 17,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "2215430",
+      "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2215430",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 19,
+      "reviewCount": 66527,
+      "reviewPercent": 93,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1426210",
@@ -23278,21 +24457,21 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1222140",
-      "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
-      "originalPrice": 1299,
-      "discountPrice": 129,
-      "discountPercent": 90,
+      "id": "2909400",
+      "title": "FINAL FANTASY VII REBIRTH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 254,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1222140",
+      "url": "https://store.steampowered.com/app/2909400",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 24,
-      "reviewCount": 234117,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
+      "reviewCount": 27336,
+      "reviewPercent": 74,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "2124490",
@@ -23312,21 +24491,21 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2909400",
-      "title": "FINAL FANTASY VII REBIRTH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/c4e617a13d511a72b2787c91e0e08fbe57c99191/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 254,
-      "discountPercent": 85,
+      "id": "1222140",
+      "title": "Detroit: Become Human",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg",
+      "originalPrice": 1299,
+      "discountPrice": 129,
+      "discountPercent": 90,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2909400",
+      "url": "https://store.steampowered.com/app/1222140",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 26,
-      "reviewCount": 27336,
-      "reviewPercent": 74,
-      "reviewLabel": "переважно схвальні"
+      "reviewCount": 234117,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "990080",
@@ -23357,32 +24536,15 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 28,
+      "popularRank": 29,
       "reviewCount": 270261,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1158310",
-      "title": "Crusader Kings III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1158310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 30,
-      "reviewCount": 95472,
-      "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "281990",
       "title": "Stellaris",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -23391,9 +24553,43 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 31,
+      "popularRank": 30,
       "reviewCount": 140232,
       "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1158310",
+      "title": "Crusader Kings III",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1158310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 31,
+      "reviewCount": 95472,
+      "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 32,
+      "reviewCount": 159423,
+      "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23408,43 +24604,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 33,
       "reviewCount": 313132,
       "reviewPercent": 82,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1172710",
-      "title": "Dune: Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
-      "originalPrice": 1149,
-      "discountPrice": 574,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1172710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 33,
-      "reviewCount": 69617,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 34,
-      "reviewCount": 159423,
-      "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23465,6 +24627,23 @@
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "1172710",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
+      "originalPrice": 1149,
+      "discountPrice": 574,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1172710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 36,
+      "reviewCount": 69617,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1888930",
       "title": "The Last of Us™ Part I",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
@@ -23482,20 +24661,20 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
+      "originalPrice": 1099,
+      "discountPrice": 197,
+      "discountPercent": 82,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
+      "url": "https://store.steampowered.com/app/1462040",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 38,
-      "reviewCount": 280555,
-      "reviewPercent": 94,
+      "reviewCount": 46295,
+      "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23516,20 +24695,20 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
+      "url": "https://store.steampowered.com/app/374320",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 263497,
-      "reviewPercent": 89,
+      "reviewCount": 280555,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -23711,7 +24890,7 @@
     {
       "id": "518790",
       "title": "theHunter: Call of the Wild™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 415,
       "discountPrice": 62,
       "discountPercent": 85,
@@ -23775,7 +24954,7 @@
     {
       "id": "582660",
       "title": "Black Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
       "originalPrice": 149,
       "discountPrice": 14,
       "discountPercent": 91,
@@ -23949,22 +25128,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 197,
-      "discountPercent": 82,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1462040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 46295,
-      "reviewPercent": 86,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "805550",
       "title": "Assetto Corsa Competizione",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/capsule_616x353.jpg",
@@ -24011,6 +25174,22 @@
       "reviewCount": 81214,
       "reviewPercent": 71,
       "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "632470",
+      "title": "Disco Elysium - The Final Cut",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg",
+      "originalPrice": 765,
+      "discountPrice": 191,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/632470",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 119667,
+      "reviewPercent": 92,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "594570",
@@ -24287,7 +25466,7 @@
     {
       "id": "1361210",
       "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
       "originalPrice": 759,
       "discountPrice": 189,
       "discountPercent": 75,
@@ -24429,6 +25608,22 @@
       "reviewLabel": "переважно схвальні"
     },
     {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 263497,
+      "reviewPercent": 89,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "1593500",
       "title": "God of War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg",
@@ -24479,7 +25674,7 @@
     {
       "id": "594650",
       "title": "Hunt: Showdown 1896",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
       "originalPrice": 719,
       "discountPrice": 251,
       "discountPercent": 65,
@@ -24607,7 +25802,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -24858,7 +26053,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 80419,
+      "reviewCount": 80437,
       "reviewPercent": 79,
       "reviewLabel": "переважно схвальні"
     },
@@ -25093,7 +26288,7 @@
     {
       "id": "2104890",
       "title": "RoadCraft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 999,
       "discountPrice": 499,
       "discountPercent": 50,
@@ -25125,7 +26320,7 @@
     {
       "id": "1401590",
       "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 1199,
       "discountPrice": 719,
       "discountPercent": 40,
@@ -25255,7 +26450,7 @@
     {
       "id": "2486820",
       "title": "Sonic Racing: CrossWorlds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
       "originalPrice": 1349,
       "discountPrice": 809,
       "discountPercent": 40,
@@ -25271,7 +26466,7 @@
     {
       "id": "690830",
       "title": "Foundation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 700,
       "discountPrice": 420,
       "discountPercent": 40,
@@ -25282,22 +26477,6 @@
       "isPopular": false,
       "reviewCount": 23572,
       "reviewPercent": 86,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "2680010",
-      "title": "The First Berserker: Khazan",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg",
-      "originalPrice": 1649,
-      "discountPrice": 989,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2680010",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 21565,
-      "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25592,6 +26771,22 @@
       "isPopular": false,
       "reviewCount": 110141,
       "reviewPercent": 81,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2124120",
+      "title": "SULFUR",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
+      "originalPrice": 729,
+      "discountPrice": 479,
+      "discountPercent": 34,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2124120",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 12859,
+      "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
     },
     {

@@ -18357,6 +18357,76 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-27T22:00:39.049Z"
+    },
+    {
+      "id": "57d7c4a86aaa9643c7f0291e",
+      "createdAt": "2026-11-28T00:00:30.377Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Disco Elysium - The Final Cut</b>\n🏷️ Знижка: <b>-75%</b>\n💰 Ціна: <s>765 грн</s> ➡️ <b>191 грн</b>\n👍 Відгуки: <b>92%</b> (120K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/632470"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_632470",
+          "entry": {
+            "title": "Disco Elysium - The Final Cut",
+            "price": 191,
+            "percent": 75,
+            "timestamp": "2026-11-28T00:00:30.377Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
+    },
+    {
+      "id": "bf12010556950e41c955c3fb",
+      "createdAt": "2026-11-28T00:00:30.377Z",
+      "text": "🔥 <b>ТОП ЗНИЖКА В STEAM!</b>\n\n🎮 <b>SULFUR</b>\n🏷️ Знижка: <b>-34%</b>\n💰 Ціна: <s>729 грн</s> ➡️ <b>479 грн</b>\n👍 Відгуки: <b>88%</b> (13K)\n\n#steam #знижки",
+      "photoUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/2124120"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "disableNotification": true,
+      "receipts": [
+        {
+          "key": "steam_discount_2124120",
+          "entry": {
+            "title": "SULFUR",
+            "price": 479,
+            "percent": 34,
+            "timestamp": "2026-11-28T00:00:30.377Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
