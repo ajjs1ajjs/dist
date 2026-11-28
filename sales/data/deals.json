@@ -35762,6 +35762,13 @@
       "percent": 50,
       "timestamp": "2026-11-27T22:00:32.338Z",
       "type": "discount"
+    },
+    "steam_discount_632470": {
+      "title": "Disco Elysium - The Final Cut",
+      "price": 191,
+      "percent": 75,
+      "timestamp": "2026-11-28T00:00:30.377Z",
+      "type": "discount"
     }
   }
 }
