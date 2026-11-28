@@ -7369,5 +7369,12 @@
     "percent": 75,
     "timestamp": "2026-11-28T00:00:30.377Z",
     "type": "discount"
+  },
+  "steam_discount_2124120": {
+    "title": "SULFUR",
+    "price": 479,
+    "percent": 34,
+    "timestamp": "2026-11-28T00:00:30.377Z",
+    "type": "discount"
   }
 }
