@@ -18464,6 +18464,40 @@
       "status": "delivered",
       "attempts": 1,
       "claimedAt": "2026-11-28T06:00:39.955Z"
+    },
+    {
+      "id": "86c83dd258d9ebc70ddd3aba",
+      "createdAt": "2026-11-28T13:00:28.212Z",
+      "text": "🔥 <b>ХІТ-ЗНИЖКА В STEAM!</b>\n\n🎮 <b>Chants of Sennaar</b>\n🏷️ Знижка: <b>-50%</b>\n💰 Ціна: <s>539 грн</s> ➡️ <b>269 грн</b>\n👍 Відгуки: <b>98%</b> (32K)\n\n#steam #знижки #хіт",
+      "photoUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/capsule_616x353.jpg",
+      "replyMarkup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "🛒 Купити в Steam",
+              "url": "https://store.steampowered.com/app/1931770"
+            },
+            {
+              "text": "🌐 Всі знижки",
+              "url": "https://ajjs1ajjs.github.io/dist/sales/"
+            }
+          ]
+        ]
+      },
+      "receipts": [
+        {
+          "key": "steam_discount_1931770",
+          "entry": {
+            "title": "Chants of Sennaar",
+            "price": 269,
+            "percent": 50,
+            "timestamp": "2026-11-28T13:00:28.212Z",
+            "type": "discount"
+          }
+        }
+      ],
+      "status": "pending",
+      "attempts": 0
     }
   ]
 }
