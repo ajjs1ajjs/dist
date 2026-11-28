@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-28T19:00:29.903Z",
+  "lastUpdated": "2026-11-28T20:00:28.181Z",
   "sourceUpdates": {
-    "steam": "2026-11-28T19:00:29.903Z",
-    "gamepass": "2026-11-28T19:00:29.903Z",
-    "playstation": "2026-11-28T19:00:29.903Z"
+    "steam": "2026-11-28T20:00:28.181Z",
+    "gamepass": "2026-11-28T20:00:28.181Z",
+    "playstation": "2026-11-28T20:00:28.181Z"
   },
   "priceHistory": {
     "2600": [
@@ -24439,7 +24439,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
       "originalPrice": 2299,
       "discountPrice": 1724,
       "discountPercent": 25,
@@ -24473,7 +24473,7 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
       "originalPrice": 1559,
       "discountPrice": 389,
       "discountPercent": 75,
@@ -24488,23 +24488,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 199,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 17,
-      "reviewCount": 222118,
-      "reviewPercent": 95,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "2001120",
       "title": "Split Fiction",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg",
@@ -24516,9 +24499,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 18,
+      "popularRank": 17,
       "reviewCount": 79930,
       "reviewPercent": 97,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 199,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 18,
+      "reviewCount": 222118,
+      "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
     {
@@ -24567,7 +24567,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 24,
+      "popularRank": 25,
       "reviewCount": 27336,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
@@ -24609,7 +24609,7 @@
     {
       "id": "1158310",
       "title": "Crusader Kings III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -24641,23 +24641,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "281990",
-      "title": "Stellaris",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/281990",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 31,
-      "reviewCount": 140232,
-      "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1808500",
       "title": "ARC Raiders",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
@@ -24669,10 +24652,61 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 31,
       "reviewCount": 313446,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "281990",
+      "title": "Stellaris",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/281990",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 32,
+      "reviewCount": 140232,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "311210",
+      "title": "Call of Duty®: Black Ops III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
+      "originalPrice": 2552,
+      "discountPrice": 638,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/311210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 33,
+      "reviewCount": 159423,
+      "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1142710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 35,
+      "reviewCount": 108645,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "1551360",
@@ -24686,7 +24720,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
+      "popularRank": 36,
       "reviewCount": 263497,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
@@ -24703,44 +24737,10 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 35,
+      "popularRank": 37,
       "reviewCount": 852374,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 36,
-      "reviewCount": 108645,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
-      "id": "311210",
-      "title": "Call of Duty®: Black Ops III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
-      "originalPrice": 2552,
-      "discountPrice": 638,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/311210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 37,
-      "reviewCount": 159423,
-      "reviewPercent": 88,
-      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "1817070",
@@ -24760,26 +24760,9 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 197,
-      "discountPercent": 82,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1462040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 39,
-      "reviewCount": 46295,
-      "reviewPercent": 86,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "518790",
       "title": "theHunter: Call of the Wild™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 415,
       "discountPrice": 62,
       "discountPercent": 85,
@@ -24788,10 +24771,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 40,
+      "popularRank": 39,
       "reviewCount": 172781,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "3280350",
+      "title": "DEATH STRANDING 2: ON THE BEACH",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
+      "originalPrice": 2299,
+      "discountPrice": 1540,
+      "discountPercent": 33,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3280350",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 40,
+      "reviewCount": 18216,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1238840",
@@ -25194,6 +25194,38 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
+      "originalPrice": 1099,
+      "discountPrice": 197,
+      "discountPercent": 82,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1462040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 46295,
+      "reviewPercent": 86,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "220200",
+      "title": "Kerbal Space Program",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/capsule_616x353.jpg",
+      "originalPrice": 899,
+      "discountPrice": 224,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/220200",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 122531,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
       "id": "805550",
       "title": "Assetto Corsa Competizione",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/capsule_616x353.jpg",
@@ -25500,7 +25532,7 @@
     {
       "id": "1361210",
       "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
       "originalPrice": 759,
       "discountPrice": 189,
       "discountPercent": 75,
@@ -25724,7 +25756,7 @@
     {
       "id": "594650",
       "title": "Hunt: Showdown 1896",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
       "originalPrice": 719,
       "discountPrice": 251,
       "discountPercent": 65,
@@ -25836,7 +25868,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -26094,7 +26126,7 @@
     {
       "id": "2124120",
       "title": "SULFUR",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
       "originalPrice": 1014,
       "discountPrice": 479,
       "discountPercent": 54,
@@ -26402,7 +26434,7 @@
     {
       "id": "2104890",
       "title": "RoadCraft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 999,
       "discountPrice": 499,
       "discountPercent": 50,
@@ -26427,14 +26459,14 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 161400,
-      "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
+      "reviewCount": 161462,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1401590",
       "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 1199,
       "discountPrice": 719,
       "discountPercent": 40,
@@ -26548,7 +26580,7 @@
     {
       "id": "2486820",
       "title": "Sonic Racing: CrossWorlds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
       "originalPrice": 1349,
       "discountPrice": 809,
       "discountPercent": 40,
@@ -26564,7 +26596,7 @@
     {
       "id": "690830",
       "title": "Foundation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 700,
       "discountPrice": 420,
       "discountPercent": 40,
@@ -26788,22 +26820,6 @@
       "reviewCount": 37091,
       "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "3280350",
-      "title": "DEATH STRANDING 2: ON THE BEACH",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/4c0873ac29806d09215f16371dfde866bcd4caf1/capsule_616x353.jpg",
-      "originalPrice": 2299,
-      "discountPrice": 1540,
-      "discountPercent": 33,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/3280350",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 18216,
-      "reviewPercent": 95,
-      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2322010",
@@ -27419,15 +27435,6 @@
       "isPopular": true
     },
     {
-      "id": "9PM709J61828",
-      "title": "Farming Simulator 25 (PC)",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
-      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
-      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
       "id": "9P7RQ1QFFF8R",
       "title": "Call of Duty®: Modern Warfare® II - Standard Edition (Windows)",
       "imageUrl": "https://store-images.s-microsoft.com/image/apps.24257.14101915825563460.e102526c-a483-423c-87f0-446d67ef06cd.0e90003c-a756-4b5f-bb24-1de42ee0a978",
@@ -27437,20 +27444,11 @@
       "isPopular": true
     },
     {
-      "id": "9NP6WL1XQDBW",
-      "title": "SnowRunner - Windows",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
-      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
-      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
-      "isNew": false,
-      "isPopular": true
-    },
-    {
-      "id": "9N4W31HSMVVD",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
-      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
-      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "id": "9PM709J61828",
+      "title": "Farming Simulator 25 (PC)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.45596.14299110548313627.7e916051-145b-467d-9222-536b54bd914d.f88fe704-4245-490c-b2cd-ced627636e14",
+      "url": "https://www.xbox.com/uk-UA/games/store/farming-simulator-25-pc/9PM709J61828",
+      "description": "Farming Simulator 25 запрошує вас долучитися до фермерського життя. Чи будуватимете ви своє господарство самостійно або спільно в багатоосібній грі — вирішувати вам: ця ферма тепер ваша! До нових функ",
       "isNew": false,
       "isPopular": true
     },
@@ -27469,18 +27467,22 @@
       "isDeal": true
     },
     {
-      "id": "9PJ6FV3130QZ",
-      "title": "Dune: Awakening",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.57302.14221973547534254.c9400a22-a0eb-4428-bc72-11e2270ad849.eafa7d9c-446c-44be-b6f6-2c84d41417e7",
-      "url": "https://www.xbox.com/uk-UA/games/store/dune-awakening/9PJ6FV3130QZ",
-      "description": "Dune: Awakening — це рольова гра в жанрі «виживання» у відкритому світі, який можна вивчати як в одноосібному, так і в багатоосібному режимах. Досліджуйте, будуйте, майструйте й дізнавайтеся видовищну",
+      "id": "9NP6WL1XQDBW",
+      "title": "SnowRunner - Windows",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.65189.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.c526a0c4-d17f-4bfe-a151-fefe61d81f18",
+      "url": "https://www.xbox.com/uk-UA/games/store/snowrunner-windows/9NP6WL1XQDBW",
+      "description": "Get ready for the next-generation off-road experience! SnowRunner puts you in the driver’s seat of powerful vehicles as you conquer extreme open environments with the most advanced terrain simulation ",
       "isNew": false,
-      "isPopular": true,
-      "originalPrice": 1755,
-      "discountPrice": 1228.5,
-      "discountPercent": 30,
-      "currency": "UAH",
-      "isDeal": true
+      "isPopular": true
+    },
+    {
+      "id": "9N4W31HSMVVD",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.50178.13979588110779567.5e6f9542-73ca-4800-a714-e6819fafc7f7.3fb95d1a-9b8e-438b-a957-aff893d4fc07",
+      "url": "https://www.xbox.com/uk-UA/games/store/kingdom-come-deliverance-ii/9N4W31HSMVVD",
+      "description": "Kingdom Come: Deliverance II — це захоплива динамічна рольова гра, у якій події відбуваються посеред хаосу громадянської війни у Богемії в 15 столітті. Ви гратимете за Генрі зі Скеліце, потрапивши у н",
+      "isNew": false,
+      "isPopular": true
     },
     {
       "id": "9NKX70BBCDRN",
@@ -27506,11 +27508,25 @@
       "isPopular": true
     },
     {
-      "id": "9NWB9PL1L2PQ",
-      "title": "Warcraft® III: Reforged",
-      "imageUrl": "https://store-images.s-microsoft.com/image/apps.28737.14448248237845491.d6ddaf53-8bde-4016-9af4-4a102f9369fd.179789aa-11fe-4154-bb08-8541fce4f582",
-      "url": "https://www.xbox.com/uk-UA/games/store/warcraft-iii-reforged/9NWB9PL1L2PQ",
-      "description": "Warcraft III: Reforged is a stunning reimagining of the revolutionary real-time strategy game that laid the foundation for Azeroth’s most epic stories. It is a remake in the truest sense, featuring a ",
+      "id": "9PJ6FV3130QZ",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.57302.14221973547534254.c9400a22-a0eb-4428-bc72-11e2270ad849.eafa7d9c-446c-44be-b6f6-2c84d41417e7",
+      "url": "https://www.xbox.com/uk-UA/games/store/dune-awakening/9PJ6FV3130QZ",
+      "description": "Dune: Awakening — це рольова гра в жанрі «виживання» у відкритому світі, який можна вивчати як в одноосібному, так і в багатоосібному режимах. Досліджуйте, будуйте, майструйте й дізнавайтеся видовищну",
+      "isNew": false,
+      "isPopular": true,
+      "originalPrice": 1755,
+      "discountPrice": 1228.5,
+      "discountPercent": 30,
+      "currency": "UAH",
+      "isDeal": true
+    },
+    {
+      "id": "9NDKFJ6XDX2M",
+      "title": "Call of Duty®: Modern Warfare® III - Standard Edition (Windows)",
+      "imageUrl": "https://store-images.s-microsoft.com/image/apps.52449.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.481c2f02-122c-4556-8e3c-4f329285b270",
+      "url": "https://www.xbox.com/uk-UA/games/store/call-of-duty-modern-warfare-iii-standard-edition-windows/9NDKFJ6XDX2M",
+      "description": "ADAPT OR DIE IN A FIGHT AGAINST THE ULTIMATE THREAT In the direct sequel to the record-breaking Call of Duty®: Modern Warfare® II, Captain Price and Task Force 141 face off against the ultimate threat",
       "isNew": false,
       "isPopular": true
     }
@@ -29054,13 +29070,6 @@
       "percent": 0,
       "timestamp": "2026-10-29T18:00:33.330Z",
       "type": "gamepass"
-    },
-    "steam_discount_4715160": {
-      "title": "Finals Week ✍🏻",
-      "price": 117,
-      "percent": 38,
-      "timestamp": "2026-10-29T19:00:32.589Z",
-      "type": "discount"
     },
     "gamepass_popular_9NMPDV49K4TX": {
       "title": "Call of Duty®: Modern Warfare® - Digital Standard Edition (Windows)",
