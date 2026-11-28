@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-28T18:00:37.640Z",
+  "lastUpdated": "2026-11-28T19:00:29.903Z",
   "sourceUpdates": {
-    "steam": "2026-11-28T18:00:37.640Z",
-    "gamepass": "2026-11-28T18:00:37.640Z",
-    "playstation": "2026-11-28T18:00:37.640Z"
+    "steam": "2026-11-28T19:00:29.903Z",
+    "gamepass": "2026-11-28T19:00:29.903Z",
+    "playstation": "2026-11-28T19:00:29.903Z"
   },
   "priceHistory": {
     "2600": [
@@ -24362,7 +24362,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 5,
+      "popularRank": 6,
       "reviewCount": 239290,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -24439,7 +24439,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
       "originalPrice": 2299,
       "discountPrice": 1724,
       "discountPercent": 25,
@@ -24473,7 +24473,7 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
       "originalPrice": 1559,
       "discountPrice": 389,
       "discountPercent": 75,
@@ -24499,7 +24499,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 16,
+      "popularRank": 17,
       "reviewCount": 222118,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
@@ -24516,7 +24516,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 17,
+      "popularRank": 18,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
@@ -24524,7 +24524,7 @@
     {
       "id": "2215430",
       "title": "РЕЖИСЕРСЬКА ВЕРСІЯ Ghost of Tsushima",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg",
       "originalPrice": 1699,
       "discountPrice": 849,
       "discountPercent": 50,
@@ -24550,7 +24550,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 21,
+      "popularRank": 22,
       "reviewCount": 279298,
       "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
@@ -24567,7 +24567,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 23,
+      "popularRank": 24,
       "reviewCount": 27336,
       "reviewPercent": 74,
       "reviewLabel": "переважно схвальні"
@@ -24609,7 +24609,7 @@
     {
       "id": "1158310",
       "title": "Crusader Kings III",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -24641,26 +24641,9 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 31,
-      "reviewCount": 263497,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "281990",
       "title": "Stellaris",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -24669,7 +24652,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 31,
       "reviewCount": 140232,
       "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
@@ -24686,9 +24669,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 33,
+      "popularRank": 32,
       "reviewCount": 313446,
       "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 34,
+      "reviewCount": 263497,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24703,7 +24703,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
+      "popularRank": 35,
       "reviewCount": 852374,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -24726,23 +24726,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1817070",
-      "title": "Marvel’s Spider-Man Remastered",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
-      "originalPrice": 1399,
-      "discountPrice": 559,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1817070",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 37,
-      "reviewCount": 104878,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "311210",
       "title": "Call of Duty®: Black Ops III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
@@ -24754,10 +24737,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
+      "popularRank": 37,
       "reviewCount": 159423,
       "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1817070",
+      "title": "Marvel’s Spider-Man Remastered",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg",
+      "originalPrice": 1399,
+      "discountPrice": 559,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1817070",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 38,
+      "reviewCount": 104878,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1462040",
@@ -24779,7 +24779,7 @@
     {
       "id": "518790",
       "title": "theHunter: Call of the Wild™",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 415,
       "discountPrice": 62,
       "discountPercent": 85,
@@ -25500,7 +25500,7 @@
     {
       "id": "1361210",
       "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
       "originalPrice": 759,
       "discountPrice": 189,
       "discountPercent": 75,
@@ -25724,7 +25724,7 @@
     {
       "id": "594650",
       "title": "Hunt: Showdown 1896",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
       "originalPrice": 719,
       "discountPrice": 251,
       "discountPercent": 65,
@@ -25818,22 +25818,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1243830",
-      "title": "Overcooked! All You Can Eat",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_616x353.jpg",
-      "originalPrice": 800,
-      "discountPrice": 200,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1243830",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 5918,
-      "reviewPercent": 73,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "1817190",
       "title": "Marvel’s Spider-Man: Miles Morales",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg",
@@ -25852,7 +25836,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -26110,7 +26094,7 @@
     {
       "id": "2124120",
       "title": "SULFUR",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
       "originalPrice": 1014,
       "discountPrice": 479,
       "discountPercent": 54,
@@ -26137,6 +26121,22 @@
       "isPopular": false,
       "reviewCount": 33453,
       "reviewPercent": 88,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "42700",
+      "title": "Call of Duty®: Black Ops",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/42700",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 22467,
+      "reviewPercent": 91,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -26402,7 +26402,7 @@
     {
       "id": "2104890",
       "title": "RoadCraft",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 999,
       "discountPrice": 499,
       "discountPercent": 50,
@@ -26434,7 +26434,7 @@
     {
       "id": "1401590",
       "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 1199,
       "discountPrice": 719,
       "discountPercent": 40,
@@ -26548,7 +26548,7 @@
     {
       "id": "2486820",
       "title": "Sonic Racing: CrossWorlds",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
       "originalPrice": 1349,
       "discountPrice": 809,
       "discountPercent": 40,
@@ -26564,7 +26564,7 @@
     {
       "id": "690830",
       "title": "Foundation",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 700,
       "discountPrice": 420,
       "discountPercent": 40,
