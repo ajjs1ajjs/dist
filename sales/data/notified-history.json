@@ -7376,5 +7376,12 @@
     "percent": 34,
     "timestamp": "2026-11-28T00:00:30.377Z",
     "type": "discount"
+  },
+  "ps_deal_UP6312-PPSA25258_00-0173149685884705": {
+    "title": "NINJA GAIDEN 4",
+    "price": 1149.5,
+    "percent": 50,
+    "timestamp": "2026-11-28T06:00:32.933Z",
+    "type": "ps_deal"
   }
 }
