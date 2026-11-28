@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-28T01:00:33.223Z",
+  "lastUpdated": "2026-11-28T02:00:40.750Z",
   "sourceUpdates": {
-    "steam": "2026-11-28T01:00:33.223Z",
-    "gamepass": "2026-11-28T01:00:33.223Z",
-    "playstation": "2026-11-28T01:00:33.223Z"
+    "steam": "2026-11-28T02:00:40.750Z",
+    "gamepass": "2026-11-28T02:00:40.750Z",
+    "playstation": "2026-11-28T02:00:40.750Z"
   },
   "priceHistory": {
     "2600": [
@@ -13195,6 +13195,11 @@
         "date": "2026-11-27",
         "price": 562,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 562,
+        "currency": "UAH"
       }
     ],
     "2057760": [
@@ -14683,6 +14688,11 @@
       },
       {
         "date": "2026-11-27",
+        "price": 485,
+        "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
         "price": 485,
         "currency": "UAH"
       }
@@ -24336,7 +24346,7 @@
       "isSpecial": false,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 10,
+      "popularRank": 9,
       "parentAppId": "1938090",
       "reviewCount": 12872,
       "reviewPercent": 68,
@@ -24345,7 +24355,7 @@
     {
       "id": "2483190",
       "title": "Forza Horizon 6",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/d0e851e9a3d316fb587984f22d81e6288b2f1485/capsule_231x87_alt_assets_6.jpg",
       "originalPrice": 2299,
       "discountPrice": 1724,
       "discountPercent": 25,
@@ -24362,7 +24372,7 @@
     {
       "id": "2183900",
       "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2183900/11a1561f025fb5ed2c00c0a442b0e3d8ae66ec2c/capsule_231x87_alt_assets_15_ukrainian.jpg",
       "originalPrice": 1559,
       "discountPrice": 389,
       "discountPercent": 75,
@@ -24372,7 +24382,7 @@
       "isFree": false,
       "isPopular": true,
       "popularRank": 14,
-      "reviewCount": 176814,
+      "reviewCount": 177021,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
     },
@@ -24405,7 +24415,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 17,
+      "popularRank": 18,
       "reviewCount": 66527,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -24422,7 +24432,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 18,
+      "popularRank": 19,
       "reviewCount": 79930,
       "reviewPercent": 97,
       "reviewLabel": "виключно схвальні"
@@ -24439,7 +24449,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 22,
+      "popularRank": 21,
       "reviewCount": 222118,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
@@ -24564,26 +24574,9 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "281990",
-      "title": "Stellaris",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/281990",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 31,
-      "reviewCount": 140232,
-      "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1158310",
       "title": "Crusader Kings III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
       "originalPrice": 1349,
       "discountPrice": 404,
       "discountPercent": 70,
@@ -24592,9 +24585,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 32,
+      "popularRank": 31,
       "reviewCount": 95472,
       "reviewPercent": 90,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "281990",
+      "title": "Stellaris",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/ee4011bfa5b2543c03f5120b817878b14d523fbe/capsule_231x87_alt_assets_15.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/281990",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 32,
+      "reviewCount": 140232,
+      "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24632,23 +24642,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1172710",
-      "title": "Dune: Awakening",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
-      "originalPrice": 1149,
-      "discountPrice": 574,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1172710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 36,
-      "reviewCount": 69617,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "1462040",
       "title": "FINAL FANTASY VII REMAKE INTERGRADE",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
@@ -24660,9 +24653,43 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 37,
+      "popularRank": 36,
       "reviewCount": 46295,
       "reviewPercent": 86,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1172710",
+      "title": "Dune: Awakening",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/71b4ac2445413cf48b9a8d265a69bda0bfe582d8/capsule_616x353.jpg",
+      "originalPrice": 1149,
+      "discountPrice": 574,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1172710",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 37,
+      "reviewCount": 69617,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 38,
+      "reviewCount": 263497,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24677,7 +24704,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 38,
+      "popularRank": 39,
       "reviewCount": 18155,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
@@ -24694,26 +24721,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 39,
+      "popularRank": 40,
       "reviewCount": 68160,
       "reviewPercent": 85,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 40,
-      "reviewCount": 280555,
-      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24895,7 +24905,7 @@
     {
       "id": "518790",
       "title": "theHunter: Call of the Wild™",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 415,
       "discountPrice": 62,
       "discountPercent": 85,
@@ -24959,7 +24969,7 @@
     {
       "id": "582660",
       "title": "Black Desert",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
       "originalPrice": 149,
       "discountPrice": 14,
       "discountPercent": 91,
@@ -25487,7 +25497,7 @@
     {
       "id": "1361210",
       "title": "Warhammer 40,000: Darktide",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1361210/1b1802b9a9674ff383afb95b37ebacb96a93d05b/capsule_231x87_alt_assets_21.jpg",
       "originalPrice": 759,
       "discountPrice": 189,
       "discountPercent": 75,
@@ -25629,22 +25639,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 263497,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1593500",
       "title": "God of War",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg",
@@ -25695,7 +25689,7 @@
     {
       "id": "594650",
       "title": "Hunt: Showdown 1896",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/594650/5ce44c6d9874c1bfce5757ac53a27bfd486fcfec/capsule_231x87_alt_assets_29.jpg",
       "originalPrice": 719,
       "discountPrice": 251,
       "discountPercent": 65,
@@ -25789,6 +25783,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1243830",
+      "title": "Overcooked! All You Can Eat",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1243830/capsule_616x353.jpg",
+      "originalPrice": 800,
+      "discountPrice": 200,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1243830",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 5918,
+      "reviewPercent": 73,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "1817190",
       "title": "Marvel’s Spider-Man: Miles Morales",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg",
@@ -25807,7 +25817,7 @@
     {
       "id": "1659040",
       "title": "HITMAN World of Assassination",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/cf7f4c04996da0d9576ea493ba78ed9c032c3d59/capsule_231x87_alt_assets_16.jpg",
       "originalPrice": 1315,
       "discountPrice": 526,
       "discountPercent": 60,
@@ -25818,6 +25828,22 @@
       "isPopular": false,
       "reviewCount": 61415,
       "reviewPercent": 87,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 280555,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -26095,6 +26121,22 @@
       "reviewLabel": "переважно схвальні"
     },
     {
+      "id": "2052410",
+      "title": "WITCH ON THE HOLY NIGHT",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2052410/capsule_616x353.jpg",
+      "originalPrice": 1125,
+      "discountPrice": 562,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2052410",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 7636,
+      "reviewPercent": 98,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
       "id": "2988580",
       "title": "Yakuza 0 Director's Cut",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/cd4801db60e667d95798120cc4e6e513695beeef/capsule_616x353.jpg",
@@ -26293,7 +26335,7 @@
     {
       "id": "2104890",
       "title": "RoadCraft",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/1a5ec7b4ac6d0240c35ab39c4be9605bad73d402/capsule_231x87_alt_assets_1.jpg",
       "originalPrice": 999,
       "discountPrice": 499,
       "discountPercent": 50,
@@ -26325,7 +26367,7 @@
     {
       "id": "1401590",
       "title": "Disney Dreamlight Valley",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1401590/3123208e8eb330678e8d14314447758ded91cd0b/capsule_231x87_alt_assets_11.jpg",
       "originalPrice": 1199,
       "discountPrice": 719,
       "discountPercent": 40,
@@ -26455,7 +26497,7 @@
     {
       "id": "2486820",
       "title": "Sonic Racing: CrossWorlds",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2486820/f31c4fd3564ba4998dbfd5fb02fde3aef8aaf217/capsule_231x87_alt_assets_18.jpg",
       "originalPrice": 1349,
       "discountPrice": 809,
       "discountPercent": 40,
@@ -26471,7 +26513,7 @@
     {
       "id": "690830",
       "title": "Foundation",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690830/5c1552d080479ecc708b48a3948414de12ed3e2d/capsule_231x87_alt_assets_7.jpg",
       "originalPrice": 700,
       "discountPrice": 420,
       "discountPercent": 40,
@@ -26480,7 +26522,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 23586,
+      "reviewCount": 23587,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
@@ -26578,7 +26620,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 10212,
+      "reviewCount": 10217,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
     },
@@ -26715,22 +26757,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "1941540",
-      "title": "Mafia: The Old Country",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/480ec5d21e6d63e1b9eedbb32d3bce88c19a0542/capsule_616x353.jpg",
-      "originalPrice": 1999,
-      "discountPrice": 1199,
-      "discountPercent": 40,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1941540",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 21497,
-      "reviewPercent": 71,
-      "reviewLabel": "переважно схвальні"
-    },
-    {
       "id": "2651280",
       "title": "Marvel's Spider-Man 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg",
@@ -26765,7 +26791,7 @@
     {
       "id": "2124120",
       "title": "SULFUR",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
       "originalPrice": 729,
       "discountPrice": 479,
       "discountPercent": 34,
@@ -26797,22 +26823,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2624870",
-      "title": "Life is Strange: Reunion",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624870/df22658da4ac9d886986cd3d9bd1d5aeee03c915/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 714,
-      "discountPercent": 35,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2624870",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 4931,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2215200",
       "title": "LEGO® Batman™: Legacy of the Dark Knight",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg",
@@ -26840,7 +26850,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 54160,
+      "reviewCount": 54185,
       "reviewPercent": 80,
       "reviewLabel": "дуже схвальні"
     },
@@ -26863,6 +26873,24 @@
       "reviewLabel": "виключно схвальні"
     },
     {
+      "id": "2311920",
+      "title": "Crusader Kings III: Tours & Tournaments",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2311920/capsule_616x353.jpg",
+      "originalPrice": 809,
+      "discountPrice": 485,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2311920",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "isDlc": true,
+      "parentAppId": "1158310",
+      "reviewCount": 1466,
+      "reviewPercent": 73,
+      "reviewLabel": "переважно схвальні"
+    },
+    {
       "id": "3010850",
       "title": "Gears of War: E-Day",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/976e1a03f1dd94a80d962fdd734efe0d79b407f4/capsule_616x353.jpg",
@@ -26874,8 +26902,8 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12578,
-      "reviewPercent": 72,
+      "reviewCount": 12615,
+      "reviewPercent": 73,
       "reviewLabel": "переважно схвальні"
     },
     {
@@ -27752,6 +27780,18 @@
       "isPopular": false
     },
     {
+      "id": "UP1003-PPSA20560_00-DTITAN0000000000",
+      "title": "DOOM: The Dark Ages",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202501/1405/b940bcd6be1b8c7980f750abbd62c9bf63fc51f5d49b61f9.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/UP1003-PPSA20560_00-DTITAN0000000000",
+      "originalPrice": 1499,
+      "discountPrice": 749.5,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
       "id": "EP0006-PPSA07784_00-APPLEJACKGAME000",
       "title": "STAR WARS Jedi: Survivor™",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202304/2814/24a5bc14faa8f69c74a9a8d7b729509841a1c9046bc9a7f3.png",
@@ -27788,18 +27828,6 @@
       "isDeal": true,
       "isPopular": true,
       "popularRank": 11
-    },
-    {
-      "id": "UP1003-PPSA20560_00-DTITAN0000000000",
-      "title": "DOOM: The Dark Ages",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202501/1405/b940bcd6be1b8c7980f750abbd62c9bf63fc51f5d49b61f9.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/UP1003-PPSA20560_00-DTITAN0000000000",
-      "originalPrice": 1499,
-      "discountPrice": 749.5,
-      "discountPercent": 50,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
     },
     {
       "id": "EP1001-PPSA06225_00-7789207353273926",
@@ -27862,6 +27890,19 @@
       "isPopular": false
     },
     {
+      "id": "EP0001-PPSA01532_00-GAME000000000000",
+      "title": "Assassin's Creed Valhalla",
+      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/3023/PnqfxnHGmf9E826ECuEM9niQ.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP0001-PPSA01532_00-GAME000000000000",
+      "originalPrice": 1899,
+      "discountPrice": 474.75,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": true,
+      "popularRank": 13
+    },
+    {
       "id": "EP4062-PPSA21914_00-UNDISPUTEDPS5EU1",
       "title": "Undisputed",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2715/4d10272187b5e905494bd02d95a3fa97bfca5921a6fe7e02.jpg",
@@ -27896,20 +27937,19 @@
       "currency": "UAH",
       "isDeal": true,
       "isPopular": true,
-      "popularRank": 13
+      "popularRank": 14
     },
     {
-      "id": "EP0001-PPSA01532_00-GAME000000000000",
-      "title": "Assassin's Creed Valhalla",
-      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202010/3023/PnqfxnHGmf9E826ECuEM9niQ.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP0001-PPSA01532_00-GAME000000000000",
-      "originalPrice": 1899,
-      "discountPrice": 474.75,
-      "discountPercent": 75,
+      "id": "EP4062-PPSA21704_00-KCD2MAINGAMEDSEU",
+      "title": "Kingdom Come: Deliverance II",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/1209/1ccd8c6eb043c9c80a49c871ca64891055651141b55324c2.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP4062-PPSA21704_00-KCD2MAINGAMEDSEU",
+      "originalPrice": 1999,
+      "discountPrice": 699.65,
+      "discountPercent": 65,
       "currency": "UAH",
       "isDeal": true,
-      "isPopular": true,
-      "popularRank": 14
+      "isPopular": false
     },
     {
       "id": "EP0082-PPSA28101_00-0821634695257710",
@@ -27919,18 +27959,6 @@
       "originalPrice": 1499,
       "discountPrice": 974.35,
       "discountPercent": 35,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
-      "id": "EP4133-PPSA04451_00-SPACEMARINESII00",
-      "title": "Warhammer 40,000: Space Marine 2",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0711/nqyAJzSXromWZPf7SzCiDtZh.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00",
-      "originalPrice": 2199,
-      "discountPrice": 549.75,
-      "discountPercent": 75,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
@@ -27947,6 +27975,18 @@
       "isDeal": true,
       "isPopular": true,
       "popularRank": 17
+    },
+    {
+      "id": "EP4133-PPSA04451_00-SPACEMARINESII00",
+      "title": "Warhammer 40,000: Space Marine 2",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0711/nqyAJzSXromWZPf7SzCiDtZh.jpg",
+      "url": "https://store.playstation.com/uk-ua/product/EP4133-PPSA04451_00-SPACEMARINESII00",
+      "originalPrice": 2199,
+      "discountPrice": 549.75,
+      "discountPercent": 75,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
     },
     {
       "id": "EP1833-PPSA02391_00-DUNEAWAKENING000",
@@ -27986,6 +28026,18 @@
       "popularRank": 19
     },
     {
+      "id": "EP1018-PPSA22946_00-HARRYPOTTER17000",
+      "title": "LEGO® Harry Potter™ Collection",
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/3018/538204565d33af5a5a98b18cdfb4ce59cb568e5db75c9a2b.png",
+      "url": "https://store.playstation.com/uk-ua/product/EP1018-PPSA22946_00-HARRYPOTTER17000",
+      "originalPrice": 1199,
+      "discountPrice": 179.85,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "isDeal": true,
+      "isPopular": false
+    },
+    {
       "id": "EP4108-PPSA32785_00-NIOH300000000000",
       "title": "Nioh 3",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202509/0401/f6ae6e20e2339d53eb87c0902c62297fd9661e28abd6a776.png",
@@ -27998,18 +28050,6 @@
       "isPopular": false
     },
     {
-      "id": "EP4062-PPSA21704_00-KCD2MAINGAMEDSEU",
-      "title": "Kingdom Come: Deliverance II",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/1209/1ccd8c6eb043c9c80a49c871ca64891055651141b55324c2.jpg",
-      "url": "https://store.playstation.com/uk-ua/product/EP4062-PPSA21704_00-KCD2MAINGAMEDSEU",
-      "originalPrice": 1999,
-      "discountPrice": 699.65,
-      "discountPercent": 65,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
       "id": "UP1001-PPSA01494_00-000000000000OAK2",
       "title": "Borderlands®4",
       "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202506/0210/214ca4b5cdbf9198e587396e71714b9147e669bbdaf07b0d.jpg",
@@ -28017,18 +28057,6 @@
       "originalPrice": 2999,
       "discountPrice": 1499.5,
       "discountPercent": 50,
-      "currency": "UAH",
-      "isDeal": true,
-      "isPopular": false
-    },
-    {
-      "id": "EP1018-PPSA22946_00-HARRYPOTTER17000",
-      "title": "LEGO® Harry Potter™ Collection",
-      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202408/3018/538204565d33af5a5a98b18cdfb4ce59cb568e5db75c9a2b.png",
-      "url": "https://store.playstation.com/uk-ua/product/EP1018-PPSA22946_00-HARRYPOTTER17000",
-      "originalPrice": 1199,
-      "discountPrice": 179.85,
-      "discountPercent": 85,
       "currency": "UAH",
       "isDeal": true,
       "isPopular": false
