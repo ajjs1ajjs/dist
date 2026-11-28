@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-28T17:00:29.476Z",
+  "lastUpdated": "2026-11-28T18:00:37.640Z",
   "sourceUpdates": {
-    "steam": "2026-11-28T17:00:29.476Z",
-    "gamepass": "2026-11-28T17:00:29.476Z",
-    "playstation": "2026-11-28T17:00:29.476Z"
+    "steam": "2026-11-28T18:00:37.640Z",
+    "gamepass": "2026-11-28T18:00:37.640Z",
+    "playstation": "2026-11-28T18:00:37.640Z"
   },
   "priceHistory": {
     "2600": [
@@ -24362,7 +24362,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 4,
+      "popularRank": 5,
       "reviewCount": 239290,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -24413,10 +24413,28 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 10,
+      "popularRank": 9,
       "reviewCount": 19753,
       "reviewPercent": 80,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "4435490",
+      "title": "Call of Duty®: Modern Warfare® 4",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/6271276b08c3ff3bf13a690568280829bed178f2/capsule_616x353_alt_assets_4_ukrainian.jpg?t=1794873974",
+      "originalPrice": 2449,
+      "discountPrice": 2081,
+      "discountPercent": 15,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/4435490",
+      "isSpecial": false,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 10,
+      "parentAppId": "1938090",
+      "reviewCount": 12916,
+      "reviewPercent": 68,
+      "reviewLabel": "змішані"
     },
     {
       "id": "2483190",
@@ -24436,23 +24454,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1426210",
-      "title": "It Takes Two",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
-      "originalPrice": 999,
-      "discountPrice": 199,
-      "discountPercent": 80,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1426210",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 14,
-      "reviewCount": 222118,
-      "reviewPercent": 95,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "1771300",
       "title": "Kingdom Come: Deliverance II",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg",
@@ -24464,7 +24465,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 14,
       "reviewCount": 149505,
       "reviewPercent": 93,
       "reviewLabel": "дуже схвальні"
@@ -24481,10 +24482,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 16,
+      "popularRank": 15,
       "reviewCount": 177043,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1426210",
+      "title": "It Takes Two",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+      "originalPrice": 999,
+      "discountPrice": 199,
+      "discountPercent": 80,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1426210",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 16,
+      "reviewCount": 222118,
+      "reviewPercent": 95,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "2001120",
@@ -24557,7 +24575,7 @@
     {
       "id": "1222140",
       "title": "Detroit: Become Human",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg?t=1667468479",
       "originalPrice": 1299,
       "discountPrice": 129,
       "discountPercent": 90,
@@ -24566,7 +24584,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 25,
+      "popularRank": 26,
       "reviewCount": 234117,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -24606,23 +24624,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1551360",
-      "title": "Forza Horizon 5",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
-      "originalPrice": 1199,
-      "discountPrice": 479,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1551360",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 30,
-      "reviewCount": 263497,
-      "reviewPercent": 89,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2124490",
       "title": "SILENT HILL 2",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/capsule_616x353.jpg",
@@ -24634,9 +24635,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 31,
+      "popularRank": 30,
       "reviewCount": 45030,
       "reviewPercent": 94,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1551360",
+      "title": "Forza Horizon 5",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg",
+      "originalPrice": 1199,
+      "discountPrice": 479,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1551360",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 31,
+      "reviewCount": 263497,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24657,23 +24675,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "292030",
-      "title": "Відьмак 3: Дикий гін — Перевидання",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f719671b6983e490fedb357c8e5f7c9925751d50/capsule_616x353_ukrainian.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 539,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292030",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 33,
-      "reviewCount": 852374,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "1808500",
       "title": "ARC Raiders",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
@@ -24685,10 +24686,27 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 34,
+      "popularRank": 33,
       "reviewCount": 313446,
       "reviewPercent": 82,
       "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "292030",
+      "title": "Відьмак 3: Дикий гін — Перевидання",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f719671b6983e490fedb357c8e5f7c9925751d50/capsule_616x353_ukrainian.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 539,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292030",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 34,
+      "reviewCount": 852374,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
     },
     {
       "id": "1142710",
@@ -24702,7 +24720,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 35,
+      "popularRank": 36,
       "reviewCount": 108645,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
@@ -24725,23 +24743,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 197,
-      "discountPercent": 82,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1462040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 38,
-      "reviewCount": 46295,
-      "reviewPercent": 86,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "311210",
       "title": "Call of Duty®: Black Ops III",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/capsule_616x353.jpg",
@@ -24753,26 +24754,43 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 39,
+      "popularRank": 38,
       "reviewCount": 159423,
       "reviewPercent": 88,
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "1888930",
-      "title": "The Last of Us™ Part I",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
-      "originalPrice": 1699,
-      "discountPrice": 849,
-      "discountPercent": 50,
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
+      "originalPrice": 1099,
+      "discountPrice": 197,
+      "discountPercent": 82,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1888930",
+      "url": "https://store.steampowered.com/app/1462040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 39,
+      "reviewCount": 46295,
+      "reviewPercent": 86,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "518790",
+      "title": "theHunter: Call of the Wild™",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
+      "originalPrice": 415,
+      "discountPrice": 62,
+      "discountPercent": 85,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/518790",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 68160,
-      "reviewPercent": 85,
+      "reviewCount": 172781,
+      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24936,22 +24954,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "815370",
-      "title": "Green Hell",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/4a4325781844ab83154dbccdc59e1913cf5facfc/capsule_616x353.jpg",
-      "originalPrice": 360,
-      "discountPrice": 36,
-      "discountPercent": 90,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/815370",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 81565,
-      "reviewPercent": 84,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "920210",
       "title": "LEGO® Star Wars™: The Skywalker Saga",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/capsule_616x353.jpg",
@@ -24965,22 +24967,6 @@
       "isPopular": false,
       "reviewCount": 38536,
       "reviewPercent": 90,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "518790",
-      "title": "theHunter: Call of the Wild™",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518790/e3cfdc7d56d1ee6f809b0a1f11ce51fc15308500/capsule_231x87_alt_assets_11.jpg",
-      "originalPrice": 415,
-      "discountPrice": 62,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/518790",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 172781,
-      "reviewPercent": 89,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -25030,22 +25016,6 @@
       "reviewCount": 145154,
       "reviewPercent": 83,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "582660",
-      "title": "Black Desert",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/ee187dc9383b5c278a40e5888aa2f6ab7212d527/capsule_231x87_alt_assets_27.jpg",
-      "originalPrice": 149,
-      "discountPrice": 14,
-      "discountPercent": 91,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/582660",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 63540,
-      "reviewPercent": 75,
-      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "552520",
@@ -25480,22 +25450,6 @@
       "reviewLabel": "дуже схвальні"
     },
     {
-      "id": "2138710",
-      "title": "Sifu",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg",
-      "originalPrice": 569,
-      "discountPrice": 142,
-      "discountPercent": 75,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2138710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 22618,
-      "reviewPercent": 91,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "2231380",
       "title": "Tom Clancy's Ghost Recon® Breakpoint",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/5e6e2ce9f3eb1cfdf4618ab0b2ad7756e84f1662/capsule_616x353.jpg",
@@ -25670,6 +25624,22 @@
       "reviewCount": 46525,
       "reviewPercent": 95,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "488790",
+      "title": "South Park™: The Fractured But Whole™",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488790/capsule_616x353.jpg",
+      "originalPrice": 649,
+      "discountPrice": 194,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/488790",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 32727,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "476600",
@@ -26122,6 +26092,22 @@
       "reviewLabel": "дуже схвальні"
     },
     {
+      "id": "1888930",
+      "title": "The Last of Us™ Part I",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 849,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1888930",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 68160,
+      "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
       "id": "2124120",
       "title": "SULFUR",
       "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/a2a718d4b0bf2f4b7eb00c9936b098df243de4f2/capsule_231x87_alt_assets_10.jpg",
@@ -26197,7 +26183,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 8816,
+      "reviewCount": 8817,
       "reviewPercent": 72,
       "reviewLabel": "переважно схвальні"
     },
@@ -26216,6 +26202,22 @@
       "reviewCount": 7650,
       "reviewPercent": 98,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "2988580",
+      "title": "Yakuza 0 Director's Cut",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988580/cd4801db60e667d95798120cc4e6e513695beeef/capsule_616x353.jpg",
+      "originalPrice": 1699,
+      "discountPrice": 679,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2988580",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 2100,
+      "reviewPercent": 84,
+      "reviewLabel": "дуже схвальні"
     },
     {
       "id": "2420110",
@@ -26377,7 +26379,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": false,
-      "reviewCount": 12448,
+      "reviewCount": 12449,
       "reviewPercent": 78,
       "reviewLabel": "переважно схвальні"
     },
@@ -26573,6 +26575,22 @@
       "isPopular": false,
       "reviewCount": 23587,
       "reviewPercent": 86,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2680010",
+      "title": "The First Berserker: Khazan",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680010/77f0471fc4cb000cdf1e0c4e1da2e047217195fa/capsule_616x353.jpg",
+      "originalPrice": 1649,
+      "discountPrice": 989,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2680010",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 21565,
+      "reviewPercent": 85,
       "reviewLabel": "дуже схвальні"
     },
     {
