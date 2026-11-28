@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-28T09:00:42.378Z",
+  "lastUpdated": "2026-11-28T10:00:43.279Z",
   "sourceUpdates": {
-    "steam": "2026-11-28T09:00:42.378Z",
-    "gamepass": "2026-11-28T09:00:42.378Z",
-    "playstation": "2026-11-28T09:00:42.378Z"
+    "steam": "2026-11-28T10:00:43.279Z",
+    "gamepass": "2026-11-28T10:00:43.279Z",
+    "playstation": "2026-11-28T10:00:43.279Z"
   },
   "priceHistory": {
     "2600": [
@@ -19442,6 +19442,11 @@
         "date": "2026-11-27",
         "price": 223,
         "currency": "UAH"
+      },
+      {
+        "date": "2026-11-28",
+        "price": 223,
+        "currency": "UAH"
       }
     ],
     "3368620": [
@@ -24340,7 +24345,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 3,
+      "popularRank": 4,
       "reviewCount": 238237,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -24363,23 +24368,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "2947440",
-      "title": "SILENT HILL f",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1770169624",
-      "originalPrice": 1475,
-      "discountPrice": 413,
-      "discountPercent": 72,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/2947440",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 9,
-      "reviewCount": 19753,
-      "reviewPercent": 80,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "3768760",
       "title": "007 First Light",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/5f00c1e26710d38616c7f29bbf39d08c113786d5/capsule_616x353_alt_assets_5.jpg?t=1795703859",
@@ -24391,9 +24379,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 10,
+      "popularRank": 9,
       "reviewCount": 39291,
       "reviewPercent": 91,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "2947440",
+      "title": "SILENT HILL f",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1770169624",
+      "originalPrice": 1475,
+      "discountPrice": 413,
+      "discountPercent": 72,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/2947440",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 10,
+      "reviewCount": 19753,
+      "reviewPercent": 80,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24459,7 +24464,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 15,
+      "popularRank": 16,
       "reviewCount": 177043,
       "reviewPercent": 84,
       "reviewLabel": "дуже схвальні"
@@ -24533,23 +24538,6 @@
       "reviewLabel": "переважно схвальні"
     },
     {
-      "id": "292030",
-      "title": "Відьмак 3: Дикий гін — Перевидання",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f719671b6983e490fedb357c8e5f7c9925751d50/capsule_616x353_ukrainian.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 539,
-      "discountPercent": 60,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/292030",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 24,
-      "reviewCount": 852374,
-      "reviewPercent": 96,
-      "reviewLabel": "виключно схвальні"
-    },
-    {
       "id": "1222140",
       "title": "Detroit: Become Human",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/capsule_616x353.jpg",
@@ -24561,7 +24549,7 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 25,
+      "popularRank": 24,
       "reviewCount": 234117,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
@@ -24578,9 +24566,43 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 26,
+      "popularRank": 25,
       "reviewCount": 140232,
       "reviewPercent": 85,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "292030",
+      "title": "Відьмак 3: Дикий гін — Перевидання",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/f719671b6983e490fedb357c8e5f7c9925751d50/capsule_616x353_ukrainian.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 539,
+      "discountPercent": 60,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/292030",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 27,
+      "reviewCount": 852374,
+      "reviewPercent": 96,
+      "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "1158310",
+      "title": "Crusader Kings III",
+      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
+      "originalPrice": 1349,
+      "discountPrice": 404,
+      "discountPercent": 70,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1158310",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 29,
+      "reviewCount": 95589,
+      "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24595,26 +24617,9 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 28,
+      "popularRank": 30,
       "reviewCount": 45030,
       "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1158310",
-      "title": "Crusader Kings III",
-      "imageUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/d4db4388902cf91a59a9691e8291b9c1dc3c5598/capsule_231x87_alt_assets_14_ukrainian.jpg",
-      "originalPrice": 1349,
-      "discountPrice": 404,
-      "discountPercent": 70,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1158310",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 30,
-      "reviewCount": 95589,
-      "reviewPercent": 90,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24686,23 +24691,6 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "1462040",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
-      "originalPrice": 1099,
-      "discountPrice": 197,
-      "discountPercent": 82,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1462040",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": true,
-      "popularRank": 36,
-      "reviewCount": 46295,
-      "reviewPercent": 86,
-      "reviewLabel": "дуже схвальні"
-    },
-    {
       "id": "1808500",
       "title": "ARC Raiders",
       "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/0e7ed146ffe377075b3ff5dd8bd930fb6e86a97a/capsule_616x353_alt_assets_10.jpg",
@@ -24714,9 +24702,26 @@
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
-      "popularRank": 37,
+      "popularRank": 36,
       "reviewCount": 313132,
       "reviewPercent": 82,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "1462040",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg",
+      "originalPrice": 1099,
+      "discountPrice": 197,
+      "discountPercent": 82,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/1462040",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": true,
+      "popularRank": 37,
+      "reviewCount": 46295,
+      "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -24754,21 +24759,21 @@
       "reviewLabel": "виключно схвальні"
     },
     {
-      "id": "374320",
-      "title": "DARK SOULS™ III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
-      "originalPrice": 990,
-      "discountPrice": 495,
-      "discountPercent": 50,
+      "id": "1142710",
+      "title": "Total War: WARHAMMER III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
+      "originalPrice": 1899,
+      "discountPrice": 284,
+      "discountPercent": 85,
       "currency": "UAH",
-      "url": "https://store.steampowered.com/app/374320",
+      "url": "https://store.steampowered.com/app/1142710",
       "isSpecial": true,
       "isFree": false,
       "isPopular": true,
       "popularRank": 40,
-      "reviewCount": 280555,
-      "reviewPercent": 94,
-      "reviewLabel": "дуже схвальні"
+      "reviewCount": 108645,
+      "reviewPercent": 72,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "1238840",
@@ -25169,22 +25174,6 @@
       "reviewCount": 92339,
       "reviewPercent": 86,
       "reviewLabel": "дуже схвальні"
-    },
-    {
-      "id": "1142710",
-      "title": "Total War: WARHAMMER III",
-      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/capsule_616x353.jpg",
-      "originalPrice": 1899,
-      "discountPrice": 284,
-      "discountPercent": 85,
-      "currency": "UAH",
-      "url": "https://store.steampowered.com/app/1142710",
-      "isSpecial": true,
-      "isFree": false,
-      "isPopular": false,
-      "reviewCount": 108645,
-      "reviewPercent": 72,
-      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "601150",
@@ -25888,6 +25877,22 @@
       "isPopular": false,
       "reviewCount": 61415,
       "reviewPercent": 87,
+      "reviewLabel": "дуже схвальні"
+    },
+    {
+      "id": "374320",
+      "title": "DARK SOULS™ III",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg",
+      "originalPrice": 990,
+      "discountPrice": 495,
+      "discountPercent": 50,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/374320",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "reviewCount": 280555,
+      "reviewPercent": 94,
       "reviewLabel": "дуже схвальні"
     },
     {
@@ -26949,6 +26954,24 @@
       "reviewCount": 4403,
       "reviewPercent": 96,
       "reviewLabel": "виключно схвальні"
+    },
+    {
+      "id": "3368610",
+      "title": "Kingdom Come: Deliverance II Legacy of the Forge",
+      "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3368610/7453a4c7776509b89124294b4589ba55e54683da/capsule_616x353.jpg",
+      "originalPrice": 373,
+      "discountPrice": 223,
+      "discountPercent": 40,
+      "currency": "UAH",
+      "url": "https://store.steampowered.com/app/3368610",
+      "isSpecial": true,
+      "isFree": false,
+      "isPopular": false,
+      "isDlc": true,
+      "parentAppId": "1771300",
+      "reviewCount": 1838,
+      "reviewPercent": 71,
+      "reviewLabel": "переважно схвальні"
     },
     {
       "id": "3010850",
